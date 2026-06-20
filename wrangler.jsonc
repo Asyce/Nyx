@@ -15,7 +15,7 @@
     ]
   },
   "routes": [
-    { "pattern": "pengo.gg/*", "zone_name": "pengo.gg" },
-    { "pattern": "www.pengo.gg/*", "zone_name": "pengo.gg" }
+    { "pattern": "pengo.gg", "custom_domain": true },
+    { "pattern": "www.pengo.gg", "custom_domain": true }
   ]
 }

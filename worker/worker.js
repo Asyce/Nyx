@@ -20,6 +20,8 @@ const TRUSTED_ORIGINS = new Set([
   'https://www.asyce.com',
   'https://nyxarium.com',
   'https://www.nyxarium.com',
+  'https://pengo.gg',
+  'https://www.pengo.gg',
   'https://asyce.pages.dev',
   'https://nyxarium.pages.dev',
 ]);
@@ -174,6 +176,12 @@ async function handleWuwaGacha(request, env) {
   return new Response(text, { status: upstream.status, headers });
 }
 
+function assetRequest(request) {
+  const url = new URL(request.url);
+  if (url.pathname === '/') url.pathname = '/index.html';
+  return new Request(url, request);
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -190,7 +198,7 @@ export default {
 
     // Static assets, when an [assets] binding exists (production / full
     // `wrangler dev`). API-only `wrangler dev` has no binding → 404.
-    if (env && env.ASSETS && typeof env.ASSETS.fetch === 'function') return env.ASSETS.fetch(request);
+    if (env && env.ASSETS && typeof env.ASSETS.fetch === 'function') return env.ASSETS.fetch(assetRequest(request));
     return new Response('Not found', { status: 404 });
   },
 };

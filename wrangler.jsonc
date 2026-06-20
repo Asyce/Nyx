@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nyx",
+  "account_id": "84fb7e02642dd00a09839f38eb4d7e83",
+  "main": "worker/worker.js",
+  "compatibility_date": "2026-06-20",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".deploy/pengo",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "routes": [
+    { "pattern": "pengo.gg/*", "zone_name": "pengo.gg" },
+    { "pattern": "www.pengo.gg/*", "zone_name": "pengo.gg" }
+  ]
+}

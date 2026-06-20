@@ -1,0 +1,1814 @@
+{
+  "id": "characters:rossi",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "rossi",
+  "name": "Rossi",
+  "title": "Rossi Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/rossi",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "updatedText": "12/May/2026",
+  "meta": {
+    "title": "Rossi Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 6,
+    "weapon": "Sword",
+    "class": "Guard",
+    "element": "Physical"
+  },
+  "assets": [
+    {
+      "id": "8cd0c2877986",
+      "sourceHash": "8cd0c2877986",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "rossi-card",
+      "path": "Prydwen/endfield/assets/characters/rossi-card-8cd0c2877986.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "356f5dfcc644",
+      "sourceHash": "356f5dfcc644",
+      "kind": "icons",
+      "name": "Strength",
+      "fileStem": "stat-strength",
+      "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "fa8b0679d3bd",
+      "sourceHash": "fa8b0679d3bd",
+      "kind": "icons",
+      "name": "Agility",
+      "fileStem": "stat-agility",
+      "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0638c69e0b8e",
+      "sourceHash": "0638c69e0b8e",
+      "kind": "icons",
+      "name": "Intellect",
+      "fileStem": "stat-intellect",
+      "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6ae9fe735963",
+      "sourceHash": "6ae9fe735963",
+      "kind": "icons",
+      "name": "Will",
+      "fileStem": "stat-will",
+      "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "e309df5d8460",
+      "sourceHash": "e309df5d8460",
+      "kind": "characters",
+      "name": "Rossi full illustration",
+      "fileStem": "rossi-full",
+      "path": "Prydwen/endfield/assets/characters/rossi-full-illustration-e309df5d8460.webp",
+      "width": 600,
+      "height": 800
+    },
+    {
+      "id": "69501df96038",
+      "sourceHash": "69501df96038",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-63",
+      "path": "Prydwen/endfield/assets/weapons/weapon-63-69501df96038.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "1ab42b505330",
+      "sourceHash": "1ab42b505330",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-66",
+      "path": "Prydwen/endfield/assets/weapons/weapon-66-1ab42b505330.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "5885ce319ff1",
+      "sourceHash": "5885ce319ff1",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-4",
+      "path": "Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "f7ec5488e601",
+      "sourceHash": "f7ec5488e601",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-13",
+      "path": "Prydwen/endfield/assets/weapons/weapon-13-f7ec5488e601.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3e8807087807",
+      "sourceHash": "3e8807087807",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-14",
+      "path": "Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "371d63275c69",
+      "sourceHash": "371d63275c69",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-92",
+      "path": "Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "ac51222668f4",
+      "sourceHash": "ac51222668f4",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-91",
+      "path": "Prydwen/endfield/assets/gear/gear-91-ac51222668f4.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "58183c5c33db",
+      "sourceHash": "58183c5c33db",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-90",
+      "path": "Prydwen/endfield/assets/gear/gear-90-58183c5c33db.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "817efcc668fb",
+      "sourceHash": "817efcc668fb",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-101",
+      "path": "Prydwen/endfield/assets/gear/gear-101-817efcc668fb.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "8ce3f231b6b0",
+      "sourceHash": "8ce3f231b6b0",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-57",
+      "path": "Prydwen/endfield/assets/gear/gear-57-8ce3f231b6b0.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "941601fa199f",
+      "sourceHash": "941601fa199f",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-7",
+      "path": "Prydwen/endfield/assets/gear/gear-7-941601fa199f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3bb18ad35648",
+      "sourceHash": "3bb18ad35648",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-19",
+      "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "c35d99bc898e",
+      "sourceHash": "c35d99bc898e",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-89",
+      "path": "Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "926e3820f36c",
+      "sourceHash": "926e3820f36c",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-15",
+      "path": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "e5ea2a02805a",
+      "sourceHash": "e5ea2a02805a",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-23",
+      "path": "Prydwen/endfield/assets/gear/gear-23-e5ea2a02805a.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "71f2e0ed92df",
+      "sourceHash": "71f2e0ed92df",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-45",
+      "path": "Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "4f128e86edc0",
+      "sourceHash": "4f128e86edc0",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-68",
+      "path": "Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "ae5d588d4460",
+      "sourceHash": "ae5d588d4460",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-26",
+      "path": "Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3932c5b1971a",
+      "sourceHash": "3932c5b1971a",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-47",
+      "path": "Prydwen/endfield/assets/gear/gear-47-3932c5b1971a.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "35159e196de4",
+      "sourceHash": "35159e196de4",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-59",
+      "path": "Prydwen/endfield/assets/gear/gear-59-35159e196de4.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "6880c6b158e0",
+      "sourceHash": "6880c6b158e0",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-86",
+      "path": "Prydwen/endfield/assets/gear/gear-86-6880c6b158e0.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "df6c85df0484",
+      "sourceHash": "df6c85df0484",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-87",
+      "path": "Prydwen/endfield/assets/gear/gear-87-df6c85df0484.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "72f4fe10ab2e",
+      "sourceHash": "72f4fe10ab2e",
+      "kind": "characters",
+      "name": "Rossi",
+      "fileStem": "rossi-icon",
+      "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e79bad876e59",
+      "sourceHash": "e79bad876e59",
+      "kind": "characters",
+      "name": "Wulfgard",
+      "fileStem": "wulfgard-icon",
+      "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "0155a527bae3",
+      "sourceHash": "0155a527bae3",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-48",
+      "path": "Prydwen/endfield/assets/weapons/weapon-48-0155a527bae3.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "e0644812a9c1",
+      "sourceHash": "e0644812a9c1",
+      "kind": "characters",
+      "name": "Gilberta",
+      "fileStem": "gilberta-icon",
+      "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3e86879d55b0",
+      "sourceHash": "3e86879d55b0",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-57",
+      "path": "Prydwen/endfield/assets/weapons/weapon-57-3e86879d55b0.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "afe35192b586",
+      "sourceHash": "afe35192b586",
+      "kind": "characters",
+      "name": "Da Pan",
+      "fileStem": "da-pan-icon",
+      "path": "Prydwen/endfield/assets/characters/da-pan-afe35192b586.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "86f77e0b50d9",
+      "sourceHash": "86f77e0b50d9",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-27",
+      "path": "Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3c1cc57bcd5f",
+      "sourceHash": "3c1cc57bcd5f",
+      "kind": "icons",
+      "name": "Nature",
+      "fileStem": "element-nature",
+      "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "4a975b15dfb0",
+      "sourceHash": "4a975b15dfb0",
+      "kind": "icons",
+      "name": "Heat",
+      "fileStem": "element-heat",
+      "path": "Prydwen/endfield/assets/icons/heat-4a975b15dfb0.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9a13555d7b5d",
+      "sourceHash": "9a13555d7b5d",
+      "kind": "characters",
+      "name": "Endministrator",
+      "fileStem": "endministrator-icon",
+      "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9b291c88ce28",
+      "sourceHash": "9b291c88ce28",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "element-physical",
+      "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "b9a388c21c56",
+      "sourceHash": "b9a388c21c56",
+      "kind": "characters",
+      "name": "Pogranichnik",
+      "fileStem": "pogranichnik-icon",
+      "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "34393427391b",
+      "sourceHash": "34393427391b",
+      "kind": "characters",
+      "name": "Perlica",
+      "fileStem": "perlica-icon",
+      "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "21e0d5281fdd",
+      "sourceHash": "21e0d5281fdd",
+      "kind": "icons",
+      "name": "Electric",
+      "fileStem": "element-electric",
+      "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3a2535d8266d",
+      "sourceHash": "3a2535d8266d",
+      "kind": "characters",
+      "name": "Akekuri",
+      "fileStem": "akekuri-icon",
+      "path": "Prydwen/endfield/assets/characters/akekuri-3a2535d8266d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "15421cba5670",
+      "sourceHash": "15421cba5670",
+      "kind": "characters",
+      "name": "Ardelia",
+      "fileStem": "ardelia-icon",
+      "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "rossi-best-build-guide-0",
+      "level": 1,
+      "heading": "Rossi Best Build Guide",
+      "text": "Last updated: 12/May/2026",
+      "assets": [
+        {
+          "id": "8cd0c2877986",
+          "sourceHash": "8cd0c2877986",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "rossi-card",
+          "path": "Prydwen/endfield/assets/characters/rossi-card-8cd0c2877986.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Rossi is a 6 -star character in Arknights: Endfield (AKE). Rossi wields a Sword and belongs to the Guard class. Rossi also has access to the Physical element. This guide provides a comprehensive overview of Rossi 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Rossi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Rossi has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1.1\n\n Last major build/calcs update\n Patch 1.1\n\n Last profile update*\n 12/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Rossi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 97\n\n Agility\n 176\n\n Intellect\n 118\n\n Will\n 89",
+      "assets": [
+        {
+          "id": "356f5dfcc644",
+          "sourceHash": "356f5dfcc644",
+          "kind": "icons",
+          "name": "Strength",
+          "fileStem": "stat-strength",
+          "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "fa8b0679d3bd",
+          "sourceHash": "fa8b0679d3bd",
+          "kind": "icons",
+          "name": "Agility",
+          "fileStem": "stat-agility",
+          "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0638c69e0b8e",
+          "sourceHash": "0638c69e0b8e",
+          "kind": "icons",
+          "name": "Intellect",
+          "fileStem": "stat-intellect",
+          "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6ae9fe735963",
+          "sourceHash": "6ae9fe735963",
+          "kind": "icons",
+          "name": "Will",
+          "fileStem": "stat-will",
+          "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Basic Attack\n Seething Wolfblood",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-12",
+      "level": 6,
+      "heading": "BASIC ATTACK:",
+      "text": "An attack with up to 5 sequences that deals Physical DMG . As the controlled operator, Final Strike also deals 18 Stagger .",
+      "assets": []
+    },
+    {
+      "id": "dive-attack-13",
+      "level": 6,
+      "heading": "DIVE ATTACK:",
+      "text": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+      "assets": []
+    },
+    {
+      "id": "finisher-14",
+      "level": 6,
+      "heading": "FINISHER:",
+      "text": "Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Crimson Shadow\n SP Cost : 100\n\n Charges to the target to deal Physical DMG and apply Lift .\nIf the target already has Vulnerability stack(s), the skill also unleashes a Wolven Ambrage that charges at the target to deal Heat DMG .\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Moment of Blazing Shadow\n Cooldown: 14 s\n\n Rossi's combo skill has 2 consecutive sequences.\nCOMBO SEQUENCE 1 deals Physical DMG to the target.\nCOMBO SEQUENCE 2 consumes all Arts Infliction stacks from the target, deals Physical DMG based on the number of Arts Infliction stacks consumed, applies 1 instance of Lift , and buffs Rossi's Critical Rate and Critical DMG Dealt at the same time.\nIf COMBO SEQUENCE 2 is cast with perfect timing, it applies 1 more stack of Vulnerability .\n Trigger: When an enemy has both Vulnerability and Arts Infliction stacks.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n \"Razorclaw\" Ambuscade\n Energy cost : 110\n\n Rossi flutters her cape and unleashes a flurry of stabs that quickly deals multiple sequences of Heat DMG to the target. She then performs a two-sequence slash attack with her dagger that deals massive Heat DMG and applies Heat Infliction .\nWhen this skill successfully scores a critical hit, it deals higher Critical DMG.\n Multipliers (Rank 12)\n\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "talents-16",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Base Talent\n Clan Etiquette\n\n Assign to Reception Room to slow Mood Drop of all operators in it by 14/18% .\n\n Base Talent\n Scent of the Hunt\n\n Assign to Reception Room to grant operator clue collecting efficiency +20/30% .\n Show Effects\n\n Combat Talent\n Nicks and Scratches\n\n Battle skill improved: After Wolven Ambrage deals DMG, Rossi applies Razor Clawmark to the target for 15/25s . This effect cannot stack. For the duration of Razor Clawmark, the target takes 25/30% ATK (Rossi's) of Physical DMG per second and suffers Physical DMG Taken and Heat DMG Taken +6/12% .\n\n Combat Talent\n Seething Blood\n\n When Rossi's skill deals Critical DMG to a Razor Clawmarked enemy, trigger another hit that deals 12/24% ATK (Rossi's) of Heat DMG and restores [Intellect x 0.04/0.08 ] HP to Rossi. If the target is also Combusted , then the aforementioned DMG and HP Restoration effects are increased to 1.5 times.\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-18",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "P1\n Origin of Admiration\n Potential 1\n\n Battle skill Crimson Shadow and combo skill Moment of Blazing Shadow improved: The DMG Multipliers of these skills are increased to 1.15 times of the original.\nWolven Ambrage of the battle skill also returns 10 SP after hitting the enemy.\n\n P2\n Gap to Perfection\n Potential 2\n\n Agility +20 , Critical Rate +7% .\n\n P3\n Tangible Duties\n Potential 3\n\n Talent Seething Blood improved: When triggered, it grants Base DMG Multiplier +8% and restores HP +[lntellect x 0.04 ].\n\n P4\n Innocent Wish\n Potential 4\n\n Ultimate \"Razorclaw\" Ambuscade improved: Ultimate Energy cost -15% .\n\n P5\n Legendary Destination\n Potential 5\n\n Ultimate \"Razorclaw\" Ambuscade improved: DMG Multiplier is increased to 1.1 times of the original; Critical DMG Dealt is increased by +30% .",
+      "assets": []
+    },
+    {
+      "id": "lore-20",
+      "level": 3,
+      "heading": "Lore",
+      "text": "Rossi lore is currently missing. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-22",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-24",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "e309df5d8460",
+          "sourceHash": "e309df5d8460",
+          "kind": "characters",
+          "name": "Rossi full illustration",
+          "fileStem": "rossi-full",
+          "path": "Prydwen/endfield/assets/characters/rossi-full-illustration-e309df5d8460.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "damage-27",
+      "level": 6,
+      "heading": "Damage",
+      "text": "T0\n Umbral Monument",
+      "assets": []
+    },
+    {
+      "id": "pros-30",
+      "level": 5,
+      "heading": "Pros",
+      "text": "High damage ceiling, having a strong Ultimate burst and good multipliers on both Combo & Battle Skills, making for a well-rounded DPS.\n\n Can work in a variety of teams, with valid options for both Arts and Physical compositions.\n\n Easy to gear, with plenty of competitive weapon choices aside from her signature.\n\n Nella botte piccola, c'e il vino buono.",
+      "assets": []
+    },
+    {
+      "id": "cons-31",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Split damage types makes team-building awkward, with anti-synergies across different members.\n\n Can have long and/or SP-demanding rotations depending on team and content type (e.g. 0 vs full Energy starts).\n\n Perfect timing Combo Skill is non-negotiable to get the most out of the character, which some may find overbearing.\n\n In bocca al lupo...",
+      "assets": []
+    },
+    {
+      "id": "review-33",
+      "level": 3,
+      "heading": "Review",
+      "text": "Rossi is a 6-star, Physical, Sword Guard who shines as a damage dealer, having a heavy emphasis on critical hits. Her core mechanic revolves around converting Arts Inflictions into Vulnerability stacks, all the while doing plenty of Physical and Heat DMG to tear enemies down.\n Emphasis on \"and\", as despite being a Physical Operator, Rossi works with split damage types. Most of her attacks deal Physical DMG, but the harder-hitting parts of her kit are Arts-based. This hybrid approach to combat is reflected in her class more generally as well.\n Although she is a Guard, her kit is somewhat akin to that of a Striker's. As is typical for Guards, Rossi can build statuses quickly, with both her Combo and Battle Skill able to supply Vulnerability stacks for the team. She's unique from others however, in that she builds more Vulnerability when consuming Arts Inflictions, and her Talents become more potent against Combusted enemies.\n As a result, despite being a Physical Operator, Rossi needs at least one team member to apply Arts Inflictions to enemies. Not only to sustain her Vulnerability stack build, but for her damage as a whole, as both her skill multipliers and buffs rely on it.",
+      "assets": []
+    },
+    {
+      "id": "combo-34",
+      "level": 6,
+      "heading": "Combo",
+      "text": "\" Moment of Blazing Shadow \" is Rossi's Combo Skill, and it’s triggered only when an enemy has both Vulnerability and Arts Infliction stacks on them at the same time.\n It's a 2-part skill: the first sequence deals middling amounts of Physical DMG, but it then leads to a second prompt which the player needs to activate at the right time. Rossi will always transition to the second part, which applies 1 instance of Lift and buffs Rossi's Critical Rate and Critical DMG for 15s. Unlike most other Combo Skills, it generates 20 Ultimate energy (10 from each sequence).\n If, however, the second sequence is timed perfectly, then it will build an additional stack of Vulnerability on top.\n The more Arts Inflictions are present, the harder the skill will hit, but keep in mind that this scaling element is for damage purposes only. Rossi will at most only ever build 2 Vulnerability stacks with one cast: 1 from the second sequence, and another from perfect timing!\n Note: Vulnerability only builds if the second sequence consumes Arts Inflictions. If Arts is cleared after the first sequence but before the second (such as with a reaction), then there will be no Vulnerability applied!\n It has a decently short cooldown - 15s before M3 - which matches the duration of its buff, but depending on the team it may be difficult to trigger on demand owing to general SP economy. This means that in practice, unloading Rossi's damage shortly after is often for the best.",
+      "assets": []
+    },
+    {
+      "id": "battle-skill-35",
+      "level": 6,
+      "heading": "Battle Skill",
+      "text": "\" Crimson Shadow \" is one such skill. Like her Combo Skill, it has 2 parts: by default, it will deal Physical DMG and apply Lift, but if Rossi hits a target that already has a Vulnerability stack, then she unleashes a set of \"Wolven Ambrage\" that deal Heat DMG. This Wolven Ambrage also generates an additional 10 energy for Rossi alone, making for a total of 16.5 when SP consumption is factored in.\n This second strike deals 50% more damage than the first and 3 times as much stagger, so SP spent on it is best done when Vulnerability stacks are already built to trigger Wolven Ambrage, but there may be circumstances where it’s worth using it for the first stack (such as to maximise Pogranichik’s Fervent Morale).",
+      "assets": []
+    },
+    {
+      "id": "talents-36",
+      "level": 6,
+      "heading": "Talents",
+      "text": "\" Nicks and Scratches \" is the first of her Talents, and it triggers only when the Wolven Ambrage follow-up from her Battle Skill lands, applying \"Razor Clawmark\" to targets for 25s.\n It functions as a DoT, with a multiplier of 30% ATK p/s, with each tick doing Physical DMG. On top of this damage gain, it also increases the target's Physical and Heat DMG taken by 12%, being a very valuable multiplier.\n Note: The DoT scales with Rossi's ATK, but the buff is universal: every team member that deals Physical or Heat DMG also benefits from it.\n \" Seething Blood \" is Rossi's second Talent, and a driving force behind why critical hits are so valuable for her. Against Clawmarked enemies, whenever a skill deals Critical DMG, it triggers a 24% ATK hit and restores some of Rossi's HP, getting a x1.5 multiplier against Combusted targets.\n There is no internal cooldown for the damage and heal effect, so multi-hit skills can quickly stack up on multiple triggers.",
+      "assets": []
+    },
+    {
+      "id": "ultimate-37",
+      "level": 6,
+      "heading": "Ultimate",
+      "text": "\"' Razorclaw' Ambuscade \" is Rossi's Ultimate, and it comprises a barrage of multiple weaker hits, which then end with a 2-sequence slash that applies Heat Infliction, all doing Heat DMG.\n As far as damage goes, it's easily Rossi's strongest ability, as it has an additional effect that makes all of its hits gain a Critical DMG Boost.\n While it does have a steep cost of 110 Ultimate energy, rotations tend to revolve around stacking as many buffs/debuffs as possible for it, being both a powerful nuke and the best way to trigger Seething Blood’s effect.",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-38",
+      "level": 6,
+      "heading": "Basic Attack",
+      "text": "\" Seething Wolfblood \" is Rossi's Basic Attack string. It is decently fast, and there is an animation cancel point halfway during its fourth sequence, but it offers only a minimal timesave. Rossi will perform a dash forwards on her Final Strike, making it easy to hit even against mobile enemies, but otherwise it’s a rather unremarkable skill.\n As it deals Physical DMG, it benefits from buffs like Breach, but on the flipside means that it falls short on a team that has Electrification for example.\n Given Rossi’s long Combo Skill cast, it’d be ideal to not on-field her and have other Operators be controlled instead, but as her signature weapon needs Critical DMG ticks to build stacks, staying on Rossi and swapping out for skills would work best if using it.",
+      "assets": []
+    },
+    {
+      "id": "energy-39",
+      "level": 6,
+      "heading": "Energy",
+      "text": "Rossi’s energy demands may seem steep at first, considering her 110 Ultimate energy cost, but in practice she doesn’t need all that much.\n Rotations are likely to follow a 2-cycle template: trigger Rossi’s Combo Skill and Battle Skill twice, then Ultimate after.\n Since her Combo Skill generates 20 energy and her Battle Skill generates 16.5 (if Wolven Ambrage is triggered), 2 sets of each puts Rossi at 73 energy. With 4 teammate Battle Skills being used, this would leave her at 99 energy, more than enough for her Ultimate cast with only a single, un-artificed armor piece.\n More important than Rossi’s energy management is that of her allies, as some may be more demanding than others to have Ultimates aligned with Rossi’s own, so try to work team builds around a planned rotation to maximise efficiency.",
+      "assets": []
+    },
+    {
+      "id": "gameplay-40",
+      "level": 6,
+      "heading": "Gameplay",
+      "text": "Rossi has a tremendous number of Operators she can work with, but while the specifics on how her rotations work differ, there's a general order of skills and status build-up that most will adhere to:\n Apply Vulnerability and Infliction to a target.\n\n Use Rossi's Combo Skill with Perfect Timing to consume the Infliction, build a further 2 Vulnerability stacks and self-buff.\n\n Use Rossi's Battle Skill to build a 4th Vulnerability stack and apply Razor Clawmark.\n\n Apply Combustion, as well as any ally buffs/debuffs.\n\n (Optional) Consume the Vulnerability stacks built with Crush or Breach.\n\n Use Rossi's Ultimate.\n\n Don't forget that because her Combo Skill buffs are rather short, it's important that any subsequent skills - be it a Battle Skill or Ultimate - follow shortly. Delaying too much can risk the buff falling off.\n While her Battle Skill casts quickly, her Combo doesn’t, so even if Rossi is primarily the controlled Operator, it’s best to try and swap out of her prior to Combo Skill use so as to not lose out on Final Strikes in a rotation.\n On 0 energy starts, the Apply Statuses → Combo Skill → Battle Skill → Consume Vulnerability flowchart can be repeated to afford Rossi and the team enough time to stagger and build resources.\n As Rossi's Ultimate is quite fast, there's usually plenty of time to get Finishers before or after it, but whether Rossi or another Operator's Finisher is used (for Arts DMG) depends on the team.\n After the Ultimate burst, make use of the Heat Infliction that Rossi builds to condense further rotations (or to set-up reactions/ally triggers), starting the cycle over again. Consuming Vulnerability stacks is optional as Rossi herself doesn't need it - which makes pure Arts teams be viable - but it's a good opportunity to work with other Physical Operators that can either support (Breach) or fill a sub-DPS role (Crush).\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-42",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Rossi performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Lupine Scarlet (P 0 )\n\n Rossi's Signature Weapon provides Agility, Critical Rate and a large DMG% boost to all of her damage output, making it her best option with the caveat that it has some downtime, and requires Rossi to build sufficient Critical Rate to stack the buff to the maximum count since the stacks will be reset every 20s. When using this weapon, Rossi should use her Basic Attacks to stack the buff and it may require some coordination to make sure her key abilities aren't being used when the stacks are about to reset\n\n 2\n Solo 88.70%\n Team 92.50%\n\n Glorious Memory (P 5 )\n\n Glorious Memory is Rossi's Battle Pass Weapon, a weaker version of her Signature. It provides a DMG bonus to her Ultimate every time she applies Vulnerable, up to 3 - can be achieved through her Battle Skill and Combo Skill every rotation. However, it does not affect her Basic Attacks and Combo Skills, which contribute to a significant portion of her damage profile in Physical teams.\nNote: In one-shot setups where Rossi is able to use her ultimate immediately to eliminate enemies with no need for a downtime/energy building rotation, this weapon performs better than listed in our calculations, which assume some downtime.\n\n 3\n Solo 74.50%\n Team 83.10%\n\n Glorious Memory (P 0 )\n\n At Potential 0, the weapon is notably weaker but still performs better than her other alternative due to specific stat needs.\nNote: Just like above, this weapon will perform better in fights where Rossi starts with her ultimate and ends the fight with no need for her downtime rotation.\n\n 4\n Solo 68.90%\n Team 79.40%\n\n Sundering Steel (P 5 )\n\n Sundering Steel has a strong passive but lacks Critical Rate, which can be annoying when missing key critical strikes, as her kit has increased Critical DMG. Rossi's Battle Skill and Combo Skill can both apply Lift to activate the weapon passive and maintain both stacks easily.\n\n 5\n Solo 67.00%\n Team 78.10%\n\n Umbral Torch (P 5 )\n\n Umbral Torch - Laevatain's Battle Pass weapon works on Rossi thanks to its 6* stat line, even without her Primary Attribute; it has high ATK and a Heat DMG-focused passive that can boost her Ultimate. Requires constant Combustion or Corrosion application, ideally with teammates that can forcibly apply them.\nNote: This weapon performs better than listed with teams including Ardelia.\n\n 6\n Solo 64.00%\n Team 76.10%\n\n Rapid Ascent (P 0 )\n\n Rapid Ascent is the alternative 6* that has Critical Rate for consistency and with an adaptive Main Attribute. Can increase the Physical DMG portion of her Battle Skill, but unfortunately, her Ultimate is not Physical DMG, so only the DMG vs Staggered enemy buff is useful for her; if not using her Ultimate against Staggered enemies, the performance will drop considerably.\nNote: Just like Glorious Memory, this sword is fully Ult focused, so it will perform better than shown in short fights where Rossi one-shots enemies with it. Also, our calculations assume the ultimate is always used against a staggered enemy.",
+      "assets": [
+        {
+          "id": "69501df96038",
+          "sourceHash": "69501df96038",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-63",
+          "path": "Prydwen/endfield/assets/weapons/weapon-63-69501df96038.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "1ab42b505330",
+          "sourceHash": "1ab42b505330",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-66",
+          "path": "Prydwen/endfield/assets/weapons/weapon-66-1ab42b505330.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "5885ce319ff1",
+          "sourceHash": "5885ce319ff1",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-4",
+          "path": "Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "f7ec5488e601",
+          "sourceHash": "f7ec5488e601",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-13",
+          "path": "Prydwen/endfield/assets/weapons/weapon-13-f7ec5488e601.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3e8807087807",
+          "sourceHash": "3e8807087807",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-14",
+          "path": "Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-44",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "The solo percentage shows how the set and gear impact Rossi performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 100%\n Team 100%\n\n MI Security",
+      "assets": [
+        {
+          "id": "371d63275c69",
+          "sourceHash": "371d63275c69",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-92",
+          "path": "Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-45",
+      "level": 6,
+      "heading": "Description",
+      "text": "MI Security is the go-to option for crit-scaling Operators as the gears have a lot of Critical Rate for them to work with, alongside the set bonus providing a nice 25% ATK and 10% Critical Rate if the wielder can consistently score critical hits. Rossi needs Critical Rate as her kit provides an additional Critical DMG bonus in her abilities, and she deals additional hits through her Combat Talent when scoring critical hits. The gear pieces also have her preferred Attributes of Agility and Intellect.",
+      "assets": []
+    },
+    {
+      "id": "pieces-46",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n MI Security Armor T1 MI Security\n\n Gloves\n MI Security Gloves T1 MI Security\n\n Kit\n MI Security Scope T1 MI Security\n\n Kit\n MI Security Scope T1 MI Security",
+      "assets": [
+        {
+          "id": "371d63275c69",
+          "sourceHash": "371d63275c69",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-92",
+          "path": "Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "ac51222668f4",
+          "sourceHash": "ac51222668f4",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-91",
+          "path": "Prydwen/endfield/assets/gear/gear-91-ac51222668f4.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "58183c5c33db",
+          "sourceHash": "58183c5c33db",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-90",
+          "path": "Prydwen/endfield/assets/gear/gear-90-58183c5c33db.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-47",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "Redeemer Gloves\n - If you prefer the baseline set, then Redeemer Gloves has a teeny bit more stats than MI Security Gloves T1. (Tip: Use this to Artifice MI Security Gloves T1 at a higher success rate if you wish to use other off-piece options)\n Redeemer Seal\n - In niche scenarios like quick rotations, Redeemer Seal can allow her to get back her Ultimate faster, but it comes at a cost of her crit consistency. In some teams that use her Ultimate for Heat Infliction, this can be useful, otherwise her Ultimate is just a damaging ability.",
+      "assets": [
+        {
+          "id": "817efcc668fb",
+          "sourceHash": "817efcc668fb",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-101",
+          "path": "Prydwen/endfield/assets/gear/gear-101-817efcc668fb.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "8ce3f231b6b0",
+          "sourceHash": "8ce3f231b6b0",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-57",
+          "path": "Prydwen/endfield/assets/gear/gear-57-8ce3f231b6b0.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-pieces-49",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 116.80%\n Bonekrusha Heavy Armor *\n\n Solo 118.30%\n Frontiers Armor T2\n\n Solo 118.80%\n Frontiers Armor T3\n\n Solo 116.80%\n MI Security Armor T1 *\n\n Solo 118.60%\n Type 50 Yinglung Heavy Armor T2\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 103.80%\n Eternal Xiranite Gloves *\n\n Solo 114.60%\n Frontiers Blight RES Gloves\n\n Solo 122.80%\n MI Security Gloves T1\n\n Solo 114.20%\n MI Security Hands PPE\n\n Solo 112.60%\n MI Security Hands PPE T1\n\n Solo 123.80%\n Redeemer Gloves\n\n Solo 115.20%\n Type 50 Yinglung Gloves\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 109.00%\n Frontiers Extra O2 Tube\n\n Solo 109.40%\n MI Security Push Knife\n\n Solo 117.10%\n MI Security Scope T1\n\n Solo 102.40%\n Redeemer Seal *\n\n Solo 109.40%\n Redeemer Tag T1\n\n Solo 115.50%\n Type 50 Yinglung Radar T1\n\n Solo 108.90%\n Type 50 Yinglung Radar T2\n\n Solo 100%\n Nothing equipped",
+      "assets": [
+        {
+          "id": "941601fa199f",
+          "sourceHash": "941601fa199f",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-7",
+          "path": "Prydwen/endfield/assets/gear/gear-7-941601fa199f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3bb18ad35648",
+          "sourceHash": "3bb18ad35648",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-19",
+          "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "371d63275c69",
+          "sourceHash": "371d63275c69",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-92",
+          "path": "Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "c35d99bc898e",
+          "sourceHash": "c35d99bc898e",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-89",
+          "path": "Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "926e3820f36c",
+          "sourceHash": "926e3820f36c",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-15",
+          "path": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "e5ea2a02805a",
+          "sourceHash": "e5ea2a02805a",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-23",
+          "path": "Prydwen/endfield/assets/gear/gear-23-e5ea2a02805a.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "ac51222668f4",
+          "sourceHash": "ac51222668f4",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-91",
+          "path": "Prydwen/endfield/assets/gear/gear-91-ac51222668f4.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "71f2e0ed92df",
+          "sourceHash": "71f2e0ed92df",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-45",
+          "path": "Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "817efcc668fb",
+          "sourceHash": "817efcc668fb",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-101",
+          "path": "Prydwen/endfield/assets/gear/gear-101-817efcc668fb.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "4f128e86edc0",
+          "sourceHash": "4f128e86edc0",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-68",
+          "path": "Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "ae5d588d4460",
+          "sourceHash": "ae5d588d4460",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-26",
+          "path": "Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3932c5b1971a",
+          "sourceHash": "3932c5b1971a",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-47",
+          "path": "Prydwen/endfield/assets/gear/gear-47-3932c5b1971a.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "58183c5c33db",
+          "sourceHash": "58183c5c33db",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-90",
+          "path": "Prydwen/endfield/assets/gear/gear-90-58183c5c33db.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "8ce3f231b6b0",
+          "sourceHash": "8ce3f231b6b0",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-57",
+          "path": "Prydwen/endfield/assets/gear/gear-57-8ce3f231b6b0.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "35159e196de4",
+          "sourceHash": "35159e196de4",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-59",
+          "path": "Prydwen/endfield/assets/gear/gear-59-35159e196de4.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "6880c6b158e0",
+          "sourceHash": "6880c6b158e0",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-86",
+          "path": "Prydwen/endfield/assets/gear/gear-86-6880c6b158e0.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "df6c85df0484",
+          "sourceHash": "df6c85df0484",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-87",
+          "path": "Prydwen/endfield/assets/gear/gear-87-df6c85df0484.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "potentials-review-51",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "P 1\n Solo 102.3 %\n Team 101.5 %\n Origin of Admiration\n\n Getting higher multipliers on both Battle and Combo Skills simultaneously is decent as far as Potentials go, which tend to give either one or the other. Do keep in mind however, that a lot of Rossi's damage comes from her Ultimate (and Talents!), so the value of this Potential is mostly in helping with sustained damage. The SP return can help in speeding up rotations, but is otherwise too small to have much effect.\n\n P 2\n Solo 109.8 %\n Team 106.5 %\n Gap to Perfection\n\n Generic stat boost potential, with Critical Rate bonuses being especially useful owing to Rossi's Critical DMG buffs and the Seething Blood Talent.\n\n P 3\n Solo 113.5 %\n Team 109 %\n Tangible Duties\n\n A 33.3% increase in value to Rossi's Seething Blood Talent's damage and 50% increase to its healing. With how it’s often triggered by Ultimate, this Potential works as an indirect buff to it, as most of its benefits are seen then.\n\n P 4\n Solo 115.4 %\n Team 110.2 %\n Innocent Wish\n\n Considering Rossi's high Ultimate energy demands, a 15% reduction is especially helpful, taking it down to a cost of 93.5. Although it does not directly increase damage, it opens up new builds and/or rotations that make use of a more accessible Ultimate, where its actual gain may be higher than the % shown here.\n\n P 5\n Solo 125 %\n Team 116.6 %\n Legendary Destination\n\n A higher multiplier on Ultimate and having extra Critical DMG bonus with it on top is especially good for Rossi. It is just damage, with no fundamental gameplay changes, yet it remains as one of the greatest direct gains she can get owing to how significant a portion of her damage distribution comes from Ultimate.",
+      "assets": []
+    },
+    {
+      "id": "dupes-information-visual-52",
+      "level": 6,
+      "heading": "Dupes information - visual",
+      "text": "Important! The graph generator tool we're using has some issues currently and it displays the 'rows' wrong visually. The percentages shown are fully correct though.\n\n P5\n\n Team Performance 116.6 %\n\n Solo Performance 125 %\n\n P4\n\n Team Performance 110.2 %\n\n Solo Performance 115.4 %\n\n P3\n\n Team Performance 109 %\n\n Solo Performance 113.5 %\n\n P2\n\n Team Performance 106.5 %\n\n Solo Performance 109.8 %\n\n P1\n\n Team Performance 101.5 %\n\n Solo Performance 102.3 %\n\n P0\n\n Team Performance 100 %\n\n Solo Performance 100 %",
+      "assets": [
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "calculations-54",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "In this section we're showing the team setup used for the above calculations as well as the damage split for Rossi based on where it comes from. The setup isn't always best in slot for each character and also please keep in mind that with different team members, Weapons, and Gear, the calculations will change.\n\n Operator 1\n\n Weapon\n Lupine Scarlet\n\n Operator 2\n\n Weapon\n Clannibal\n\n Operator 3\n\n Weapon\n Delivery Guaranteed\n\n Operator 4\n\n Weapon\n Exemplar",
+      "assets": [
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "69501df96038",
+          "sourceHash": "69501df96038",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-63",
+          "path": "Prydwen/endfield/assets/weapons/weapon-63-69501df96038.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0155a527bae3",
+          "sourceHash": "0155a527bae3",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-48",
+          "path": "Prydwen/endfield/assets/weapons/weapon-48-0155a527bae3.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3e86879d55b0",
+          "sourceHash": "3e86879d55b0",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-57",
+          "path": "Prydwen/endfield/assets/weapons/weapon-57-3e86879d55b0.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "afe35192b586",
+          "sourceHash": "afe35192b586",
+          "kind": "characters",
+          "name": "Da Pan",
+          "fileStem": "da-pan-icon",
+          "path": "Prydwen/endfield/assets/characters/da-pan-afe35192b586.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "86f77e0b50d9",
+          "sourceHash": "86f77e0b50d9",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-27",
+          "path": "Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "main-field-58",
+      "level": 6,
+      "heading": "Main Field :",
+      "text": "Ultimate > Combo Skill > Basic Attack >= Battle Skill\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-60",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Nature\n\n Gilberta Nature\n\n Able to provide both Arts Inflictions and Vulnerability stacks, the 2 statuses Rossi needs.\n\n Obscenely high Susceptibility on Ultimate, which lasts for the entirety of Rossi's own Ultimate burst (and scales with Vulnerability stacks!).\n\n Nature Infliction on Ultimate can be used to set up reactions and makes for easily loopable rotations.\n\n Her Ultimate Gain Efficiency on Talent applies to Rossi, lessening stat requirements.\n\n Heat\n\n Wulfgard Heat\n\n Has some of the lowest cost Inflictions in the game, which gets even better at P5.\n\n Forced Combustion on Ultimate use leads to easy burst set-ups without consuming Inflictions, which can then be used for other reactions or Rossi herself.\n\n Limited personal damage and no value outside of the Infliction build. Clannibal can make up for this, but it can come with drawbacks (SP cost or sacrificing Combustion bonuses).\n\n Physical\n\n Endministrator Physical\n\n Can consume Vulnerability stacks via Crush, contributing high personal damage.\n\n Physical DMG buff on Originium Crystals is relevant for Rossi and P2 ATK buffs can be set up for burst periods.\n\n Very SP intensive and although return on Originium Crystal consumption does help, it can be clunky to align at times.\n\n Physical\n\n Pogranichnik Physical\n\n Can consume Vulnerability via Breach - which is relevant for some of Rossi's damage - while offering good SP economy.\n\n Incredibly high buff value: can use Thermite and Rossi can build stacks of Fervent Morale from his Ultimate.\n\n Strictly a supportive unit, with his lower personal damage contribution making for uneven comps, having heavy emphasis on Rossi as a hypercarry.\n\n Physical\n\n Da Pan Physical\n\n Can consume Vulnerability via Crush and does so without using up SP.\n\n Very good Vulnerability application, with clever use of his Ultimate (and P5), opening up new rotations.\n\n No buff value and Crush is limited by Combo Skill cooldown, which can lead to Vulnerability over-stacking if not careful.\n\n Electric\n\n Perlica Electric\n\n Decent personal damage and strong buffs, with easily accessible Electrification and having Stanza of Memorials as a competitive weapon option.\n\n Constant reactions and readily available Inflictions can have compounding synergies with other teammates (e.g. Gilberta Combo).\n\n Strictly an Arts-based support and reliant on other Operators for Combustion or Corrosion set-ups.\n\n Heat\n\n Akekuri Heat\n\n One of the few sources of Heat Inflictions in the game.\n\n Is among the most competitive of supports, as she can use Thermite, supplies Link and has her ATK buff on Ultimate last long enough to cover Rossi's own Ultimate.\n\n SP economy is lacklustre outside of Ultimate, leading to awkward and/or extended rotations outside of full energy starts.\n\n Nature\n\n Ardelia Nature\n\n Highly competitive buffs that work for both Physical and Arts DMG, with an emphasis on Arts DMG if her Signature is used, which aligns well with Rossi's damage distribution.\n\n Limited use cases outside of full energy starts, with steep SP costs and Combo Skill demanding no Vulnerability or Arts Inflictions on enemies, limiting team options and making for awkward looping rotations.",
+      "assets": [
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3c1cc57bcd5f",
+          "sourceHash": "3c1cc57bcd5f",
+          "kind": "icons",
+          "name": "Nature",
+          "fileStem": "element-nature",
+          "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4a975b15dfb0",
+          "sourceHash": "4a975b15dfb0",
+          "kind": "icons",
+          "name": "Heat",
+          "fileStem": "element-heat",
+          "path": "Prydwen/endfield/assets/icons/heat-4a975b15dfb0.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9b291c88ce28",
+          "sourceHash": "9b291c88ce28",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "element-physical",
+          "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "b9a388c21c56",
+          "sourceHash": "b9a388c21c56",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-icon",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "afe35192b586",
+          "sourceHash": "afe35192b586",
+          "kind": "characters",
+          "name": "Da Pan",
+          "fileStem": "da-pan-icon",
+          "path": "Prydwen/endfield/assets/characters/da-pan-afe35192b586.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "21e0d5281fdd",
+          "sourceHash": "21e0d5281fdd",
+          "kind": "icons",
+          "name": "Electric",
+          "fileStem": "element-electric",
+          "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "3a2535d8266d",
+          "sourceHash": "3a2535d8266d",
+          "kind": "characters",
+          "name": "Akekuri",
+          "fileStem": "akekuri-icon",
+          "path": "Prydwen/endfield/assets/characters/akekuri-3a2535d8266d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-62",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Rossi teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+      "assets": []
+    },
+    {
+      "id": "team-members-63",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Rossi\n\n Wulfgard\n\n Endministrator\n\n Gilberta\n\n The core of this team's rotation is to be able to make use of Endmin's P2 buffs without sacrificing on Originum Crystal SP return, so as to sustain the high resource demands of the team as a whole. To do this, be watchful of Combo Skill cooldowns so that Endmin's Combo Skill is triggered on the second sequence of Rossi's own Combo Skill.",
+      "assets": [
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-64",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Finisher\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n The above rotation is fully compatible without P5 Wulfgard, but it does demand the Finisher SP recovery so as to get Rossi's 2nd Battle Skill use. It isn't actually necessary, as Razor Clawmark from the first Battle Skill should be enough to cover the entire rotation, but would demand Ultimate Gain Efficiency pieces to make up for the energy loss.\n At P5 Wulfgard, there's opportunities for alternative routing, as the reset on his Combo Skill means that it's possible to shift things around, consuming the Combustion from his Ultimate with a Battle Skill and having Gilberta's Ultimate Nature Infliction trigger his Combo Skill, which then applies Combustion again in time for Rossi's Ultimate. This saves 100 SP in the rotation and allows for it to work without a Finisher.",
+      "assets": [
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-65",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Ultimate\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n Note that Endmin could be replaced with any other Physical Operator that can consume Vulnerability stacks (Da Pan, Pogranichnik) and have arguably simpler rotations. It is also possible to ignore Vulnerability stacks and have a full Arts team (replacing Endmin with Perlica or Akekuri) if focusing solely on Rossi's damage.\n\n Team #2",
+      "assets": [
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-66",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Rossi\n\n Wulfgard\n\n Perlica\n\n Gilberta\n\n Team #3",
+      "assets": [
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-67",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Rossi\n\n Wulfgard\n\n Endministrator\n\n Perlica",
+      "assets": [
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Rossi teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Rossi performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Lupine Scarlet (P 0 )\n\n Rossi's Signature Weapon provides Agility, Critical Rate and a large DMG% boost to all of her damage output, making it her best option with the caveat that it has some downtime, and requires Rossi to build sufficient Critical Rate to stack the buff to the maximum count since the stacks will be reset every 20s. When using this weapon, Rossi should use her Basic Attacks to stack the buff and it may require some coordination to make sure her key abilities aren't being used when the stacks are about to reset\n\n 2\n Solo 88.70%\n Team 92.50%\n\n Glorious Memory (P 5 )\n\n Glorious Memory is Rossi's Battle Pass Weapon, a weaker version of her Signature. It provides a DMG bonus to her Ultimate every time she applies Vulnerable, up to 3 - can be achieved through her Battle Skill and Combo Skill every rotation. However, it does not affect her Basic Attacks and Combo Skills, which contribute to a significant portion of her damage profile in Physical teams.\nNote: In one-shot setups where Rossi is able to use her ultimate immediately to eliminate enemies with no need for a downtime/energy building rotation, this weapon performs better than listed in our calculations, which assume some downtime.\n\n 3\n Solo 74.50%\n Team 83.10%\n\n Glorious Memory (P 0 )\n\n At Potential 0, the weapon is notably weaker but still performs better than her other alternative due to specific stat needs.\nNote: Just like above, this weapon will perform better in fights where Rossi starts with her ultimate and ends the fight with no need for her downtime rotation.\n\n 4\n Solo 68.90%\n Team 79.40%\n\n Sundering Steel (P 5 )\n\n Sundering Steel has a strong passive but lacks Critical Rate, which can be annoying when missing key critical strikes, as her kit has increased Critical DMG. Rossi's Battle Skill and Combo Skill can both apply Lift to activate the weapon passive and maintain both stacks easily.\n\n 5\n Solo 67.00%\n Team 78.10%\n\n Umbral Torch (P 5 )\n\n Umbral Torch - Laevatain's Battle Pass weapon works on Rossi thanks to its 6* stat line, even without her Primary Attribute; it has high ATK and a Heat DMG-focused passive that can boost her Ultimate. Requires constant Combustion or Corrosion application, ideally with teammates that can forcibly apply them.\nNote: This weapon performs better than listed with teams including Ardelia.\n\n 6\n Solo 64.00%\n Team 76.10%\n\n Rapid Ascent (P 0 )\n\n Rapid Ascent is the alternative 6* that has Critical Rate for consistency and with an adaptive Main Attribute. Can increase the Physical DMG portion of her Battle Skill, but unfortunately, her Ultimate is not Physical DMG, so only the DMG vs Staggered enemy buff is useful for her; if not using her Ultimate against Staggered enemies, the performance will drop considerably.\nNote: Just like Glorious Memory, this sword is fully Ult focused, so it will perform better than shown in short fights where Rossi one-shots enemies with it. Also, our calculations assume the ultimate is always used against a staggered enemy.",
+          "assets": [
+            {
+              "id": "69501df96038",
+              "sourceHash": "69501df96038",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-63",
+              "path": "Prydwen/endfield/assets/weapons/weapon-63-69501df96038.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "1ab42b505330",
+              "sourceHash": "1ab42b505330",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-66",
+              "path": "Prydwen/endfield/assets/weapons/weapon-66-1ab42b505330.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "5885ce319ff1",
+              "sourceHash": "5885ce319ff1",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-4",
+              "path": "Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "f7ec5488e601",
+              "sourceHash": "f7ec5488e601",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-13",
+              "path": "Prydwen/endfield/assets/weapons/weapon-13-f7ec5488e601.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "3e8807087807",
+              "sourceHash": "3e8807087807",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-14",
+              "path": "Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "The solo percentage shows how the set and gear impact Rossi performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 100%\n Team 100%\n\n MI Security",
+          "assets": [
+            {
+              "id": "371d63275c69",
+              "sourceHash": "371d63275c69",
+              "kind": "gear",
+              "name": "Gear Set",
+              "fileStem": "gear-92",
+              "path": "Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+              "width": 50,
+              "height": 50
+            }
+          ]
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 116.80%\n Bonekrusha Heavy Armor *\n\n Solo 118.30%\n Frontiers Armor T2\n\n Solo 118.80%\n Frontiers Armor T3\n\n Solo 116.80%\n MI Security Armor T1 *\n\n Solo 118.60%\n Type 50 Yinglung Heavy Armor T2\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 103.80%\n Eternal Xiranite Gloves *\n\n Solo 114.60%\n Frontiers Blight RES Gloves\n\n Solo 122.80%\n MI Security Gloves T1\n\n Solo 114.20%\n MI Security Hands PPE\n\n Solo 112.60%\n MI Security Hands PPE T1\n\n Solo 123.80%\n Redeemer Gloves\n\n Solo 115.20%\n Type 50 Yinglung Gloves\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 109.00%\n Frontiers Extra O2 Tube\n\n Solo 109.40%\n MI Security Push Knife\n\n Solo 117.10%\n MI Security Scope T1\n\n Solo 102.40%\n Redeemer Seal *\n\n Solo 109.40%\n Redeemer Tag T1\n\n Solo 115.50%\n Type 50 Yinglung Radar T1\n\n Solo 108.90%\n Type 50 Yinglung Radar T2\n\n Solo 100%\n Nothing equipped",
+          "assets": [
+            {
+              "id": "941601fa199f",
+              "sourceHash": "941601fa199f",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-7",
+              "path": "Prydwen/endfield/assets/gear/gear-7-941601fa199f.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "3bb18ad35648",
+              "sourceHash": "3bb18ad35648",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-19",
+              "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "371d63275c69",
+              "sourceHash": "371d63275c69",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-92",
+              "path": "Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "c35d99bc898e",
+              "sourceHash": "c35d99bc898e",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-89",
+              "path": "Prydwen/endfield/assets/gear/gear-89-c35d99bc898e.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "926e3820f36c",
+              "sourceHash": "926e3820f36c",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-15",
+              "path": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "e5ea2a02805a",
+              "sourceHash": "e5ea2a02805a",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-23",
+              "path": "Prydwen/endfield/assets/gear/gear-23-e5ea2a02805a.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "ac51222668f4",
+              "sourceHash": "ac51222668f4",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-91",
+              "path": "Prydwen/endfield/assets/gear/gear-91-ac51222668f4.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "71f2e0ed92df",
+              "sourceHash": "71f2e0ed92df",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-45",
+              "path": "Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "817efcc668fb",
+              "sourceHash": "817efcc668fb",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-101",
+              "path": "Prydwen/endfield/assets/gear/gear-101-817efcc668fb.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "4f128e86edc0",
+              "sourceHash": "4f128e86edc0",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-68",
+              "path": "Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "ae5d588d4460",
+              "sourceHash": "ae5d588d4460",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-26",
+              "path": "Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "3932c5b1971a",
+              "sourceHash": "3932c5b1971a",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-47",
+              "path": "Prydwen/endfield/assets/gear/gear-47-3932c5b1971a.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "58183c5c33db",
+              "sourceHash": "58183c5c33db",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-90",
+              "path": "Prydwen/endfield/assets/gear/gear-90-58183c5c33db.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "8ce3f231b6b0",
+              "sourceHash": "8ce3f231b6b0",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-57",
+              "path": "Prydwen/endfield/assets/gear/gear-57-8ce3f231b6b0.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "35159e196de4",
+              "sourceHash": "35159e196de4",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-59",
+              "path": "Prydwen/endfield/assets/gear/gear-59-35159e196de4.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "6880c6b158e0",
+              "sourceHash": "6880c6b158e0",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-86",
+              "path": "Prydwen/endfield/assets/gear/gear-86-6880c6b158e0.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "df6c85df0484",
+              "sourceHash": "df6c85df0484",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-87",
+              "path": "Prydwen/endfield/assets/gear/gear-87-df6c85df0484.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Rossi Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Rossi\n Rossi Best Build Guide\n Last updated: 12/May/2026\n\n Introduction\n\n Rossi is a 6 -star character in Arknights: Endfield (AKE). Rossi wields a Sword and belongs to the Guard class. Rossi also has access to the Physical element. This guide provides a comprehensive overview of Rossi 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Rossi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Rossi has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n\n Last review update\n Patch 1.1\n\n Last major build/calcs update\n Patch 1.1\n\n Last profile update*\n 12/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Rossi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 97\n\n Agility\n 176\n\n Intellect\n 118\n\n Will\n 89\n\n Skills\n\n Basic Attack\n Seething Wolfblood\n\n BASIC ATTACK:\n An attack with up to 5 sequences that deals Physical DMG . As the controlled operator, Final Strike also deals 18 Stagger .\n DIVE ATTACK:\n Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\n Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Crimson Shadow\n SP Cost : 100\n\n Charges to the target to deal Physical DMG and apply Lift .\nIf the target already has Vulnerability stack(s), the skill also unleashes a Wolven Ambrage that charges at the target to deal Heat DMG .\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Moment of Blazing Shadow\n Cooldown: 14 s\n\n Rossi's combo skill has 2 consecutive sequences.\nCOMBO SEQUENCE 1 deals Physical DMG to the target.\nCOMBO SEQUENCE 2 consumes all Arts Infliction stacks from the target, deals Physical DMG based on the number of Arts Infliction stacks consumed, applies 1 instance of Lift , and buffs Rossi's Critical Rate and Critical DMG Dealt at the same time.\nIf COMBO SEQUENCE 2 is cast with perfect timing, it applies 1 more stack of Vulnerability .\n Trigger: When an enemy has both Vulnerability and Arts Infliction stacks.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n \"Razorclaw\" Ambuscade\n Energy cost : 110\n\n Rossi flutters her cape and unleashes a flurry of stabs that quickly deals multiple sequences of Heat DMG to the target. She then performs a two-sequence slash attack with her dagger that deals massive Heat DMG and applies Heat Infliction .\nWhen this skill successfully scores a critical hit, it deals higher Critical DMG.\n Multipliers (Rank 12)\n\n Show Effects\n\n Talents\n\n Base Talent\n Clan Etiquette\n\n Assign to Reception Room to slow Mood Drop of all operators in it by 14/18% .\n\n Base Talent\n Scent of the Hunt\n\n Assign to Reception Room to grant operator clue collecting efficiency +20/30% .\n Show Effects\n\n Combat Talent\n Nicks and Scratches\n\n Battle skill improved: After Wolven Ambrage deals DMG, Rossi applies Razor Clawmark to the target for 15/25s . This effect cannot stack. For the duration of Razor Clawmark, the target takes 25/30% ATK (Rossi's) of Physical DMG per second and suffers Physical DMG Taken and Heat DMG Taken +6/12% .\n\n Combat Talent\n Seething Blood\n\n When Rossi's skill deals Critical DMG to a Razor Clawmarked enemy, trigger another hit that deals 12/24% ATK (Rossi's) of Heat DMG and restores [Intellect x 0.04/0.08 ] HP to Rossi. If the target is also Combusted , then the aforementioned DMG and HP Restoration effects are increased to 1.5 times.\n Show Effects\n\n Potential (dupes)\n\n P1\n Origin of Admiration\n Potential 1\n\n Battle skill Crimson Shadow and combo skill Moment of Blazing Shadow improved: The DMG Multipliers of these skills are increased to 1.15 times of the original.\nWolven Ambrage of the battle skill also returns 10 SP after hitting the enemy.\n\n P2\n Gap to Perfection\n Potential 2\n\n Agility +20 , Critical Rate +7% .\n\n P3\n Tangible Duties\n Potential 3\n\n Talent Seething Blood improved: When triggered, it grants Base DMG Multiplier +8% and restores HP +[lntellect x 0.04 ].\n\n P4\n Innocent Wish\n Potential 4\n\n Ultimate \"Razorclaw\" Ambuscade improved: Ultimate Energy cost -15% .\n\n P5\n Legendary Destination\n Potential 5\n\n Ultimate \"Razorclaw\" Ambuscade improved: DMG Multiplier is increased to 1.1 times of the original; Critical DMG Dealt is increased by +30% .\n\n Lore\n\n Rossi lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Damage\n T0\n Umbral Monument\n\n Pros & Cons\n\n Pros\n High damage ceiling, having a strong Ultimate burst and good multipliers on both Combo & Battle Skills, making for a well-rounded DPS.\n\n Can work in a variety of teams, with valid options for both Arts and Physical compositions.\n\n Easy to gear, with plenty of competitive weapon choices aside from her signature.\n\n Nella botte piccola, c'e il vino buono.\n\n Cons\n Split damage types makes team-building awkward, with anti-synergies across different members.\n\n Can have long and/or SP-demanding rotations depending on team and content type (e.g. 0 vs full Energy starts).\n\n Perfect timing Combo Skill is non-negotiable to get the most out of the character, which some may find overbearing.\n\n In bocca al lupo...\n\n Review\n\n Rossi is a 6-star, Physical, Sword Guard who shines as a damage dealer, having a heavy emphasis on critical hits. Her core mechanic revolves around converting Arts Inflictions into Vulnerability stacks, all the while doing plenty of Physical and Heat DMG to tear enemies down.\n Emphasis on \"and\", as despite being a Physical Operator, Rossi works with split damage types. Most of her attacks deal Physical DMG, but the harder-hitting parts of her kit are Arts-based. This hybrid approach to combat is reflected in her class more generally as well.\n Although she is a Guard, her kit is somewhat akin to that of a Striker's. As is typical for Guards, Rossi can build statuses quickly, with both her Combo and Battle Skill able to supply Vulnerability stacks for the team. She's unique from others however, in that she builds more Vulnerability when consuming Arts Inflictions, and her Talents become more potent against Combusted enemies.\n As a result, despite being a Physical Operator, Rossi needs at least one team member to apply Arts Inflictions to enemies. Not only to sustain her Vulnerability stack build, but for her damage as a whole, as both her skill multipliers and buffs rely on it.\n Combo\n \" Moment of Blazing Shadow \" is Rossi's Combo Skill, and it’s triggered only when an enemy has both Vulnerability and Arts Infliction stacks on them at the same time.\n It's a 2-part skill: the first sequence deals middling amounts of Physical DMG, but it then leads to a second prompt which the player needs to activate at the right time. Rossi will always transition to the second part, which applies 1 instance of Lift and buffs Rossi's Critical Rate and Critical DMG for 15s. Unlike most other Combo Skills, it generates 20 Ultimate energy (10 from each sequence).\n If, however, the second sequence is timed perfectly, then it will build an additional stack of Vulnerability on top.\n The more Arts Inflictions are present, the harder the skill will hit, but keep in mind that this scaling element is for damage purposes only. Rossi will at most only ever build 2 Vulnerability stacks with one cast: 1 from the second sequence, and another from perfect timing!\n Note: Vulnerability only builds if the second sequence consumes Arts Inflictions. If Arts is cleared after the first sequence but before the second (such as with a reaction), then there will be no Vulnerability applied!\n It has a decently short cooldown - 15s before M3 - which matches the duration of its buff, but depending on the team it may be difficult to trigger on demand owing to general SP economy. This means that in practice, unloading Rossi's damage shortly after is often for the best.\n Battle Skill\n \" Crimson Shadow \" is one such skill. Like her Combo Skill, it has 2 parts: by default, it will deal Physical DMG and apply Lift, but if Rossi hits a target that already has a Vulnerability stack, then she unleashes a set of \"Wolven Ambrage\" that deal Heat DMG. This Wolven Ambrage also generates an additional 10 energy for Rossi alone, making for a total of 16.5 when SP consumption is factored in.\n This second strike deals 50% more damage than the first and 3 times as much stagger, so SP spent on it is best done when Vulnerability stacks are already built to trigger Wolven Ambrage, but there may be circumstances where it’s worth using it for the first stack (such as to maximise Pogranichik’s Fervent Morale).\n Talents\n \" Nicks and Scratches \" is the first of her Talents, and it triggers only when the Wolven Ambrage follow-up from her Battle Skill lands, applying \"Razor Clawmark\" to targets for 25s.\n It functions as a DoT, with a multiplier of 30% ATK p/s, with each tick doing Physical DMG. On top of this damage gain, it also increases the target's Physical and Heat DMG taken by 12%, being a very valuable multiplier.\n Note: The DoT scales with Rossi's ATK, but the buff is universal: every team member that deals Physical or Heat DMG also benefits from it.\n \" Seething Blood \" is Rossi's second Talent, and a driving force behind why critical hits are so valuable for her. Against Clawmarked enemies, whenever a skill deals Critical DMG, it triggers a 24% ATK hit and restores some of Rossi's HP, getting a x1.5 multiplier against Combusted targets.\n There is no internal cooldown for the damage and heal effect, so multi-hit skills can quickly stack up on multiple triggers.\n Ultimate\n \"' Razorclaw' Ambuscade \" is Rossi's Ultimate, and it comprises a barrage of multiple weaker hits, which then end with a 2-sequence slash that applies Heat Infliction, all doing Heat DMG.\n As far as damage goes, it's easily Rossi's strongest ability, as it has an additional effect that makes all of its hits gain a Critical DMG Boost.\n While it does have a steep cost of 110 Ultimate energy, rotations tend to revolve around stacking as many buffs/debuffs as possible for it, being both a powerful nuke and the best way to trigger Seething Blood’s effect.\n Basic Attack\n \" Seething Wolfblood \" is Rossi's Basic Attack string. It is decently fast, and there is an animation cancel point halfway during its fourth sequence, but it offers only a minimal timesave. Rossi will perform a dash forwards on her Final Strike, making it easy to hit even against mobile enemies, but otherwise it’s a rather unremarkable skill.\n As it deals Physical DMG, it benefits from buffs like Breach, but on the flipside means that it falls short on a team that has Electrification for example.\n Given Rossi’s long Combo Skill cast, it’d be ideal to not on-field her and have other Operators be controlled instead, but as her signature weapon needs Critical DMG ticks to build stacks, staying on Rossi and swapping out for skills would work best if using it.\n Energy\n Rossi’s energy demands may seem steep at first, considering her 110 Ultimate energy cost, but in practice she doesn’t need all that much.\n Rotations are likely to follow a 2-cycle template: trigger Rossi’s Combo Skill and Battle Skill twice, then Ultimate after.\n Since her Combo Skill generates 20 energy and her Battle Skill generates 16.5 (if Wolven Ambrage is triggered), 2 sets of each puts Rossi at 73 energy. With 4 teammate Battle Skills being used, this would leave her at 99 energy, more than enough for her Ultimate cast with only a single, un-artificed armor piece.\n More important than Rossi’s energy management is that of her allies, as some may be more demanding than others to have Ultimates aligned with Rossi’s own, so try to work team builds around a planned rotation to maximise efficiency.\n Gameplay\n Rossi has a tremendous number of Operators she can work with, but while the specifics on how her rotations work differ, there's a general order of skills and status build-up that most will adhere to:\n Apply Vulnerability and Infliction to a target.\n\n Use Rossi's Combo Skill with Perfect Timing to consume the Infliction, build a further 2 Vulnerability stacks and self-buff.\n\n Use Rossi's Battle Skill to build a 4th Vulnerability stack and apply Razor Clawmark.\n\n Apply Combustion, as well as any ally buffs/debuffs.\n\n (Optional) Consume the Vulnerability stacks built with Crush or Breach.\n\n Use Rossi's Ultimate.\n\n Don't forget that because her Combo Skill buffs are rather short, it's important that any subsequent skills - be it a Battle Skill or Ultimate - follow shortly. Delaying too much can risk the buff falling off.\n While her Battle Skill casts quickly, her Combo doesn’t, so even if Rossi is primarily the controlled Operator, it’s best to try and swap out of her prior to Combo Skill use so as to not lose out on Final Strikes in a rotation.\n On 0 energy starts, the Apply Statuses → Combo Skill → Battle Skill → Consume Vulnerability flowchart can be repeated to afford Rossi and the team enough time to stagger and build resources.\n As Rossi's Ultimate is quite fast, there's usually plenty of time to get Finishers before or after it, but whether Rossi or another Operator's Finisher is used (for Arts DMG) depends on the team.\n After the Ultimate burst, make use of the Heat Infliction that Rossi builds to condense further rotations (or to set-up reactions/ally triggers), starting the cycle over again. Consuming Vulnerability stacks is optional as Rossi herself doesn't need it - which makes pure Arts teams be viable - but it's a good opportunity to work with other Physical Operators that can either support (Breach) or fill a sub-DPS role (Crush).\n\n Build\n\n Best Weapons\n\n The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Rossi performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Lupine Scarlet (P 0 )\n\n Rossi's Signature Weapon provides Agility, Critical Rate and a large DMG% boost to all of her damage output, making it her best option with the caveat that it has some downtime, and requires Rossi to build sufficient Critical Rate to stack the buff to the maximum count since the stacks will be reset every 20s. When using this weapon, Rossi should use her Basic Attacks to stack the buff and it may require some coordination to make sure her key abilities aren't being used when the stacks are about to reset\n\n 2\n Solo 88.70%\n Team 92.50%\n\n Glorious Memory (P 5 )\n\n Glorious Memory is Rossi's Battle Pass Weapon, a weaker version of her Signature. It provides a DMG bonus to her Ultimate every time she applies Vulnerable, up to 3 - can be achieved through her Battle Skill and Combo Skill every rotation. However, it does not affect her Basic Attacks and Combo Skills, which contribute to a significant portion of her damage profile in Physical teams.\nNote: In one-shot setups where Rossi is able to use her ultimate immediately to eliminate enemies with no need for a downtime/energy building rotation, this weapon performs better than listed in our calculations, which assume some downtime.\n\n 3\n Solo 74.50%\n Team 83.10%\n\n Glorious Memory (P 0 )\n\n At Potential 0, the weapon is notably weaker but still performs better than her other alternative due to specific stat needs.\nNote: Just like above, this weapon will perform better in fights where Rossi starts with her ultimate and ends the fight with no need for her downtime rotation.\n\n 4\n Solo 68.90%\n Team 79.40%\n\n Sundering Steel (P 5 )\n\n Sundering Steel has a strong passive but lacks Critical Rate, which can be annoying when missing key critical strikes, as her kit has increased Critical DMG. Rossi's Battle Skill and Combo Skill can both apply Lift to activate the weapon passive and maintain both stacks easily.\n\n 5\n Solo 67.00%\n Team 78.10%\n\n Umbral Torch (P 5 )\n\n Umbral Torch - Laevatain's Battle Pass weapon works on Rossi thanks to its 6* stat line, even without her Primary Attribute; it has high ATK and a Heat DMG-focused passive that can boost her Ultimate. Requires constant Combustion or Corrosion application, ideally with teammates that can forcibly apply them.\nNote: This weapon performs better than listed with teams including Ardelia.\n\n 6\n Solo 64.00%\n Team 76.10%\n\n Rapid Ascent (P 0 )\n\n Rapid Ascent is the alternative 6* that has Critical Rate for consistency and with an adaptive Main Attribute. Can increase the Physical DMG portion of her Battle Skill, but unfortunately, her Ultimate is not Physical DMG, so only the DMG vs Staggered enemy buff is useful for her; if not using her Ultimate against Staggered enemies, the performance will drop considerably.\nNote: Just like Glorious Memory, this sword is fully Ult focused, so it will perform better than shown in short fights where Rossi one-shots enemies with it. Also, our calculations assume the ultimate is always used against a staggered enemy.\n\n Best Gear\n\n The solo percentage shows how the set and gear impact Rossi performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 100%\n Team 100%\n\n MI Security\n\n Description\n MI Security is the go-to option for crit-scaling Operators as the gears have a lot of Critical Rate for them to work with, alongside the set bonus providing a nice 25% ATK and 10% Critical Rate if the wielder can consistently score critical hits. Rossi needs Critical Rate as her kit provides an additional Critical DMG bonus in her abilities, and she deals additional hits through her Combat Talent when scoring critical hits. The gear pieces also have her preferred Attributes of Agility and Intellect.\n Pieces\n Armor\n MI Security Armor T1 MI Security\n\n Gloves\n MI Security Gloves T1 MI Security\n\n Kit\n MI Security Scope T1 MI Security\n\n Kit\n MI Security Scope T1 MI Security\n\n Alternative Pieces\n Redeemer Gloves\n - If you prefer the baseline set, then Redeemer Gloves has a teeny bit more stats than MI Security Gloves T1. (Tip: Use this to Artifice MI Security Gloves T1 at a higher success rate if you wish to use other off-piece options)\n Redeemer Seal\n - In niche scenarios like quick rotations, Redeemer Seal can allow her to get back her Ultimate faster, but it comes at a cost of her crit consistency. In some teams that use her Ultimate for Heat Infliction, this can be useful, otherwise her Ultimate is just a damaging ability.\n\n Best Gear Pieces\n\n Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 116.80%\n Bonekrusha Heavy Armor *\n\n Solo 118.30%\n Frontiers Armor T2\n\n Solo 118.80%\n Frontiers Armor T3\n\n Solo 116.80%\n MI Security Armor T1 *\n\n Solo 118.60%\n Type 50 Yinglung Heavy Armor T2\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 103.80%\n Eternal Xiranite Gloves *\n\n Solo 114.60%\n Frontiers Blight RES Gloves\n\n Solo 122.80%\n MI Security Gloves T1\n\n Solo 114.20%\n MI Security Hands PPE\n\n Solo 112.60%\n MI Security Hands PPE T1\n\n Solo 123.80%\n Redeemer Gloves\n\n Solo 115.20%\n Type 50 Yinglung Gloves\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 109.00%\n Frontiers Extra O2 Tube\n\n Solo 109.40%\n MI Security Push Knife\n\n Solo 117.10%\n MI Security Scope T1\n\n Solo 102.40%\n Redeemer Seal *\n\n Solo 109.40%\n Redeemer Tag T1\n\n Solo 115.50%\n Type 50 Yinglung Radar T1\n\n Solo 108.90%\n Type 50 Yinglung Radar T2\n\n Solo 100%\n Nothing equipped\n\n Potentials Review\n\n P 1\n Solo 102.3 %\n Team 101.5 %\n Origin of Admiration\n\n Getting higher multipliers on both Battle and Combo Skills simultaneously is decent as far as Potentials go, which tend to give either one or the other. Do keep in mind however, that a lot of Rossi's damage comes from her Ultimate (and Talents!), so the value of this Potential is mostly in helping with sustained damage. The SP return can help in speeding up rotations, but is otherwise too small to have much effect.\n\n P 2\n Solo 109.8 %\n Team 106.5 %\n Gap to Perfection\n\n Generic stat boost potential, with Critical Rate bonuses being especially useful owing to Rossi's Critical DMG buffs and the Seething Blood Talent.\n\n P 3\n Solo 113.5 %\n Team 109 %\n Tangible Duties\n\n A 33.3% increase in value to Rossi's Seething Blood Talent's damage and 50% increase to its healing. With how it’s often triggered by Ultimate, this Potential works as an indirect buff to it, as most of its benefits are seen then.\n\n P 4\n Solo 115.4 %\n Team 110.2 %\n Innocent Wish\n\n Considering Rossi's high Ultimate energy demands, a 15% reduction is especially helpful, taking it down to a cost of 93.5. Although it does not directly increase damage, it opens up new builds and/or rotations that make use of a more accessible Ultimate, where its actual gain may be higher than the % shown here.\n\n P 5\n Solo 125 %\n Team 116.6 %\n Legendary Destination\n\n A higher multiplier on Ultimate and having extra Critical DMG bonus with it on top is especially good for Rossi. It is just damage, with no fundamental gameplay changes, yet it remains as one of the greatest direct gains she can get owing to how significant a portion of her damage distribution comes from Ultimate.\n\n Dupes information - visual\n Important! The graph generator tool we're using has some issues currently and it displays the 'rows' wrong visually. The percentages shown are fully correct though.\n\n P5\n\n Team Performance 116.6 %\n\n Solo Performance 125 %\n\n P4\n\n Team Performance 110.2 %\n\n Solo Performance 115.4 %\n\n P3\n\n Team Performance 109 %\n\n Solo Performance 113.5 %\n\n P2\n\n Team Performance 106.5 %\n\n Solo Performance 109.8 %\n\n P1\n\n Team Performance 101.5 %\n\n Solo Performance 102.3 %\n\n P0\n\n Team Performance 100 %\n\n Solo Performance 100 %\n\n Calculations\n\n In this section we're showing the team setup used for the above calculations as well as the damage split for Rossi based on where it comes from. The setup isn't always best in slot for each character and also please keep in mind that with different team members, Weapons, and Gear, the calculations will change.\n\n Operator 1\n\n Weapon\n Lupine Scarlet\n\n Operator 2\n\n Weapon\n Clannibal\n\n Operator 3\n\n Weapon\n Delivery Guaranteed\n\n Operator 4\n\n Weapon\n Exemplar\n\n Rossi Damage Split\n\n Skill Priority\n\n Main Field :\n Ultimate > Combo Skill > Basic Attack >= Battle Skill\n\n Teams and Synergies\n\n Synergies\n\n Nature\n\n Gilberta Nature\n\n Able to provide both Arts Inflictions and Vulnerability stacks, the 2 statuses Rossi needs.\n\n Obscenely high Susceptibility on Ultimate, which lasts for the entirety of Rossi's own Ultimate burst (and scales with Vulnerability stacks!).\n\n Nature Infliction on Ultimate can be used to set up reactions and makes for easily loopable rotations.\n\n Her Ultimate Gain Efficiency on Talent applies to Rossi, lessening stat requirements.\n\n Heat\n\n Wulfgard Heat\n\n Has some of the lowest cost Inflictions in the game, which gets even better at P5.\n\n Forced Combustion on Ultimate use leads to easy burst set-ups without consuming Inflictions, which can then be used for other reactions or Rossi herself.\n\n Limited personal damage and no value outside of the Infliction build. Clannibal can make up for this, but it can come with drawbacks (SP cost or sacrificing Combustion bonuses).\n\n Physical\n\n Endministrator Physical\n\n Can consume Vulnerability stacks via Crush, contributing high personal damage.\n\n Physical DMG buff on Originium Crystals is relevant for Rossi and P2 ATK buffs can be set up for burst periods.\n\n Very SP intensive and although return on Originium Crystal consumption does help, it can be clunky to align at times.\n\n Physical\n\n Pogranichnik Physical\n\n Can consume Vulnerability via Breach - which is relevant for some of Rossi's damage - while offering good SP economy.\n\n Incredibly high buff value: can use Thermite and Rossi can build stacks of Fervent Morale from his Ultimate.\n\n Strictly a supportive unit, with his lower personal damage contribution making for uneven comps, having heavy emphasis on Rossi as a hypercarry.\n\n Physical\n\n Da Pan Physical\n\n Can consume Vulnerability via Crush and does so without using up SP.\n\n Very good Vulnerability application, with clever use of his Ultimate (and P5), opening up new rotations.\n\n No buff value and Crush is limited by Combo Skill cooldown, which can lead to Vulnerability over-stacking if not careful.\n\n Electric\n\n Perlica Electric\n\n Decent personal damage and strong buffs, with easily accessible Electrification and having Stanza of Memorials as a competitive weapon option.\n\n Constant reactions and readily available Inflictions can have compounding synergies with other teammates (e.g. Gilberta Combo).\n\n Strictly an Arts-based support and reliant on other Operators for Combustion or Corrosion set-ups.\n\n Heat\n\n Akekuri Heat\n\n One of the few sources of Heat Inflictions in the game.\n\n Is among the most competitive of supports, as she can use Thermite, supplies Link and has her ATK buff on Ultimate last long enough to cover Rossi's own Ultimate.\n\n SP economy is lacklustre outside of Ultimate, leading to awkward and/or extended rotations outside of full energy starts.\n\n Nature\n\n Ardelia Nature\n\n Highly competitive buffs that work for both Physical and Arts DMG, with an emphasis on Arts DMG if her Signature is used, which aligns well with Rossi's damage distribution.\n\n Limited use cases outside of full energy starts, with steep SP costs and Combo Skill demanding no Vulnerability or Arts Inflictions on enemies, limiting team options and making for awkward looping rotations.\n\n Teams\n\n Rossi teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1\n Team Members\n\n Rossi\n\n Wulfgard\n\n Endministrator\n\n Gilberta\n\n The core of this team's rotation is to be able to make use of Endmin's P2 buffs without sacrificing on Originum Crystal SP return, so as to sustain the high resource demands of the team as a whole. To do this, be watchful of Combo Skill cooldowns so that Endmin's Combo Skill is triggered on the second sequence of Rossi's own Combo Skill.\n Rotation\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Finisher\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n The above rotation is fully compatible without P5 Wulfgard, but it does demand the Finisher SP recovery so as to get Rossi's 2nd Battle Skill use. It isn't actually necessary, as Razor Clawmark from the first Battle Skill should be enough to cover the entire rotation, but would demand Ultimate Gain Efficiency pieces to make up for the energy loss.\n At P5 Wulfgard, there's opportunities for alternative routing, as the reset on his Combo Skill means that it's possible to shift things around, consuming the Combustion from his Ultimate with a Battle Skill and having Gilberta's Ultimate Nature Infliction trigger his Combo Skill, which then applies Combustion again in time for Rossi's Ultimate. This saves 100 SP in the rotation and allows for it to work without a Finisher.\n Rotation\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Ultimate\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n Note that Endmin could be replaced with any other Physical Operator that can consume Vulnerability stacks (Da Pan, Pogranichnik) and have arguably simpler rotations. It is also possible to ignore Vulnerability stacks and have a full Arts team (replacing Endmin with Perlica or Akekuri) if focusing solely on Rossi's damage.\n\n Team #2\n Team Members\n\n Rossi\n\n Wulfgard\n\n Perlica\n\n Gilberta\n\n Team #3\n Team Members\n\n Rossi\n\n Wulfgard\n\n Endministrator\n\n Perlica"
+}

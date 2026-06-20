@@ -1,0 +1,2031 @@
+{
+  "id": "characters:last-rite",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "last-rite",
+  "name": "Last Rite",
+  "title": "Last Rite Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/last-rite",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "updatedText": "08/June/2026",
+  "meta": {
+    "title": "Last Rite Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 6,
+    "weapon": "Greatsword",
+    "class": "Striker",
+    "element": "Cryo"
+  },
+  "assets": [
+    {
+      "id": "6191c71efc0a",
+      "sourceHash": "6191c71efc0a",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "last-rite-card",
+      "path": "Prydwen/endfield/assets/characters/last-rite-card-6191c71efc0a.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "356f5dfcc644",
+      "sourceHash": "356f5dfcc644",
+      "kind": "icons",
+      "name": "Strength",
+      "fileStem": "stat-strength",
+      "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "fa8b0679d3bd",
+      "sourceHash": "fa8b0679d3bd",
+      "kind": "icons",
+      "name": "Agility",
+      "fileStem": "stat-agility",
+      "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0638c69e0b8e",
+      "sourceHash": "0638c69e0b8e",
+      "kind": "icons",
+      "name": "Intellect",
+      "fileStem": "stat-intellect",
+      "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6ae9fe735963",
+      "sourceHash": "6ae9fe735963",
+      "kind": "icons",
+      "name": "Will",
+      "fileStem": "stat-will",
+      "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "b599a80f63d9",
+      "sourceHash": "b599a80f63d9",
+      "kind": "characters",
+      "name": "Last Rite full illustration",
+      "fileStem": "last-rite-full",
+      "path": "Prydwen/endfield/assets/characters/last-rite-full-illustration-b599a80f63d9.webp",
+      "width": 600,
+      "height": 800
+    },
+    {
+      "id": "f2a006932fe1",
+      "sourceHash": "f2a006932fe1",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-26",
+      "path": "Prydwen/endfield/assets/weapons/weapon-26-f2a006932fe1.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "5fdc05b5d065",
+      "sourceHash": "5fdc05b5d065",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-29",
+      "path": "Prydwen/endfield/assets/weapons/weapon-29-5fdc05b5d065.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "adf7eecd048b",
+      "sourceHash": "adf7eecd048b",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-21",
+      "path": "Prydwen/endfield/assets/weapons/weapon-21-adf7eecd048b.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "86f77e0b50d9",
+      "sourceHash": "86f77e0b50d9",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-27",
+      "path": "Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "f87b5e806d4b",
+      "sourceHash": "f87b5e806d4b",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-19",
+      "path": "Prydwen/endfield/assets/weapons/weapon-19-f87b5e806d4b.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "b3fc6deaead5",
+      "sourceHash": "b3fc6deaead5",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-27",
+      "path": "Prydwen/endfield/assets/gear/gear-27-b3fc6deaead5.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "594f049ae870",
+      "sourceHash": "594f049ae870",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-3",
+      "path": "Prydwen/endfield/assets/gear/gear-3-594f049ae870.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "beff01bccdbd",
+      "sourceHash": "beff01bccdbd",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-66",
+      "path": "Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "1c7c451bae1e",
+      "sourceHash": "1c7c451bae1e",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-73",
+      "path": "Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3bb18ad35648",
+      "sourceHash": "3bb18ad35648",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-19",
+      "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "f15fdd036e2d",
+      "sourceHash": "f15fdd036e2d",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-65",
+      "path": "Prydwen/endfield/assets/gear/gear-65-f15fdd036e2d.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3baf65ff6288",
+      "sourceHash": "3baf65ff6288",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-39",
+      "path": "Prydwen/endfield/assets/gear/gear-39-3baf65ff6288.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "5f3df1e3feb8",
+      "sourceHash": "5f3df1e3feb8",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-11",
+      "path": "Prydwen/endfield/assets/gear/gear-11-5f3df1e3feb8.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "0d6cb71a1abf",
+      "sourceHash": "0d6cb71a1abf",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-43",
+      "path": "Prydwen/endfield/assets/gear/gear-43-0d6cb71a1abf.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "926e3820f36c",
+      "sourceHash": "926e3820f36c",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-15",
+      "path": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "b8c382149543",
+      "sourceHash": "b8c382149543",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-63",
+      "path": "Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "4b7abc3e9c6b",
+      "sourceHash": "4b7abc3e9c6b",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-4",
+      "path": "Prydwen/endfield/assets/gear/gear-4-4b7abc3e9c6b.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "eca51770722b",
+      "sourceHash": "eca51770722b",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-9",
+      "path": "Prydwen/endfield/assets/gear/gear-9-eca51770722b.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "878ac8b93409",
+      "sourceHash": "878ac8b93409",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-14",
+      "path": "Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "6cc83aa8f2b7",
+      "sourceHash": "6cc83aa8f2b7",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-17",
+      "path": "Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "0f5968f8403f",
+      "sourceHash": "0f5968f8403f",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-24",
+      "path": "Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "442eec6cd2fa",
+      "sourceHash": "442eec6cd2fa",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-31",
+      "path": "Prydwen/endfield/assets/gear/gear-31-442eec6cd2fa.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "120fdd57c9bd",
+      "sourceHash": "120fdd57c9bd",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-41",
+      "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "da7a61fbb290",
+      "sourceHash": "da7a61fbb290",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-42",
+      "path": "Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "5031ea56a1c1",
+      "sourceHash": "5031ea56a1c1",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-67",
+      "path": "Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "346e3930a9ba",
+      "sourceHash": "346e3930a9ba",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-71",
+      "path": "Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "aefd4e8fb625",
+      "sourceHash": "aefd4e8fb625",
+      "kind": "characters",
+      "name": "Last Rite",
+      "fileStem": "last-rite-icon",
+      "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "34393427391b",
+      "sourceHash": "34393427391b",
+      "kind": "characters",
+      "name": "Perlica",
+      "fileStem": "perlica-icon",
+      "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "bd87bdf5874f",
+      "sourceHash": "bd87bdf5874f",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-52",
+      "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "b26fc37d4ba6",
+      "sourceHash": "b26fc37d4ba6",
+      "kind": "characters",
+      "name": "Xaihi",
+      "fileStem": "xaihi-icon",
+      "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "223a617b3102",
+      "sourceHash": "223a617b3102",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-60",
+      "path": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "15421cba5670",
+      "sourceHash": "15421cba5670",
+      "kind": "characters",
+      "name": "Ardelia",
+      "fileStem": "ardelia-icon",
+      "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ec431c92391a",
+      "sourceHash": "ec431c92391a",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-58",
+      "path": "Prydwen/endfield/assets/weapons/weapon-58-ec431c92391a.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "01dc84e9ffad",
+      "sourceHash": "01dc84e9ffad",
+      "kind": "characters",
+      "name": "Tangtang",
+      "fileStem": "tangtang-icon",
+      "path": "Prydwen/endfield/assets/characters/tangtang-01dc84e9ffad.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ffd55a6794cd",
+      "sourceHash": "ffd55a6794cd",
+      "kind": "icons",
+      "name": "Cryo",
+      "fileStem": "element-cryo",
+      "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3c1cc57bcd5f",
+      "sourceHash": "3c1cc57bcd5f",
+      "kind": "icons",
+      "name": "Nature",
+      "fileStem": "element-nature",
+      "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "21e0d5281fdd",
+      "sourceHash": "21e0d5281fdd",
+      "kind": "icons",
+      "name": "Electric",
+      "fileStem": "element-electric",
+      "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0d128b4b3a6f",
+      "sourceHash": "0d128b4b3a6f",
+      "kind": "characters",
+      "name": "Fluorite",
+      "fileStem": "fluorite-icon",
+      "path": "Prydwen/endfield/assets/characters/fluorite-0d128b4b3a6f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3a2535d8266d",
+      "sourceHash": "3a2535d8266d",
+      "kind": "characters",
+      "name": "Akekuri",
+      "fileStem": "akekuri-icon",
+      "path": "Prydwen/endfield/assets/characters/akekuri-3a2535d8266d.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "last-rite-best-build-guide-0",
+      "level": 1,
+      "heading": "Last Rite Best Build Guide",
+      "text": "Last updated: 08/June/2026",
+      "assets": [
+        {
+          "id": "6191c71efc0a",
+          "sourceHash": "6191c71efc0a",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "last-rite-card",
+          "path": "Prydwen/endfield/assets/characters/last-rite-card-6191c71efc0a.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Last Rite is a 6 -star character in Arknights: Endfield (AKE). Last Rite wields a Greatsword and belongs to the Striker class. Last Rite also has access to the Cryo element. This guide provides a comprehensive overview of Last Rite 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Last Rite check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Last Rite has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1\n\n Last major build/calcs update\n Patch 1\n\n Last profile update*\n 08/June/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Last Rite check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 155\n\n Agility\n 104\n\n Intellect\n 93\n\n Will\n 109",
+      "assets": [
+        {
+          "id": "356f5dfcc644",
+          "sourceHash": "356f5dfcc644",
+          "kind": "icons",
+          "name": "Strength",
+          "fileStem": "stat-strength",
+          "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "fa8b0679d3bd",
+          "sourceHash": "fa8b0679d3bd",
+          "kind": "icons",
+          "name": "Agility",
+          "fileStem": "stat-agility",
+          "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0638c69e0b8e",
+          "sourceHash": "0638c69e0b8e",
+          "kind": "icons",
+          "name": "Intellect",
+          "fileStem": "stat-intellect",
+          "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6ae9fe735963",
+          "sourceHash": "6ae9fe735963",
+          "kind": "icons",
+          "name": "Will",
+          "fileStem": "stat-will",
+          "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Basic Attack\n Dance of Rime",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-12",
+      "level": 6,
+      "heading": "BASIC ATTACK:",
+      "text": "An attack with up to 4 sequences that deals Cryo DMG . As the controlled operator, Final Strike also deals 25 Stagger .",
+      "assets": []
+    },
+    {
+      "id": "dive-attack-13",
+      "level": 6,
+      "heading": "DIVE ATTACK:",
+      "text": "Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.",
+      "assets": []
+    },
+    {
+      "id": "finisher-14",
+      "level": 6,
+      "heading": "FINISHER:",
+      "text": "Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Cryo DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Esoteric Legacy of Seš'qa\n SP Cost : 100\n\n Performs a Hypothermic Perfusion on the controlled operator's weapon and returns some SP. The next Final Strike performed by the currently controlled operator within a certain duration creates Last Rite's Mirage that unleashes a pursuit attack at the target. This attack deals Cryo DMG and applies Cryo Infliction .\nWhen the controlled operator is Last Rite herself, casting this battle skill does not reset her basic attack sequence.\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Winter's Devourer\n Cooldown: 8 s\n\n Encases the target enemy in icicles and shatters them to consume all Cryo Infliction stacks of the said enemy. The number of Cryo Infliction stacks consumed determines the amount of Cryo DMG dealt to the enemy and Ultimate Energy gained by the caster.\n Trigger: When an enemy has 3 or more Cryo Infliction stacks.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Vigil Services\n Energy cost : 240\n\n Last Rite encases herself in frost armor and creates an ice scythe to perform 3 slashes, and gains immunity to all damages while this state is active.\nEach slash deals massive Cryo DMG .\nLast Rite can only gain Ultimate Energy from her own battle skill and combo skill.\n Multipliers (Rank 12)",
+      "assets": []
+    },
+    {
+      "id": "talents-16",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Base Talent\n Cemetery Gardening\n\n Assign to Growth Chamber to grant vitrified plant growth rate +20/30% .\n\n Base Talent\n Fame of the Royal Courts\n\n Assign to Reception Room to grant operators a small Clue 7/Clue 7 Rate-UP: Seš'qa (activates upon assignment; effects of the same type cannot stack)\n\n Combat Talent\n Hypothermia\n\n When Last Rite consumes any Arts Infliction , apply Cryo Susceptibility to the target with the effect of [Number of Arts Infliction stacks consumed × 2/4% ] for 15s . This effect cannot stack.\n Show Effects\n\n Combat Talent\n Cryogenic Embrittlement\n\n Ultimate Vigil Services improved: When the ultimate deals DMG to an enemy with Cryo Susceptibility , the effect of that Cryo Susceptibility is 1.2/1.5 times the original.\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-18",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "P1\n Undertaker's Gift\n Potential 1\n\n When the controlled operator with Hypothermic Perfusion performs a Final Strike that hits the enemy, it deals another 20% DMG and 5 Stagger .\n Show Effects\n\n P2\n Absolute Zero Armament\n Potential 2\n\n Strength +20 , Cryo DMG Dealt +10% .\n\n P3\n Overlord of Winter\n Potential 3\n\n Combo skill Winter's Devourer and ultimate Vigil Services improved: DMG multiplier increased to 1.15 times the original.\n\n P4\n Sincere Wake\n Potential 4\n\n Ultimate Vigil Services improved: Ultimate Energy cost -15% .\n\n P5\n Winter is Returning\n Potential 5\n\n Battle skill Esoteric Legacy of Seš'qa improved: Amount of SP returned is increased by another 5 ; Mirage Additional ATK Multiplier is increased to 1.2 times the original.\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "lore-20",
+      "level": 3,
+      "heading": "Lore",
+      "text": "\"I am the ... something of war, I guess?\"\n Before the Sarkaz of the floating city found her, Last Rite was a kind-hearted girl adopted by a Caprinae gravekeeper couple. Shaped by their teachings, the young Nachzehrer refused to disturb the dead, resisting her instinct to feed. But that restraint left her reeling with hunger, and her insecurity made her shrink away from others.\n A chance encounter revealed Last Rite's potential to Seš'qa. Enticed by the promise of \"well-paid temp work\" and \"training to suppress instincts,\" she came to be known among merchants as the Princess of the War Court. Now, clad in a Witching Hour prototype combat suit, she wields frost and steel for Endfield's cause — both to fulfill her contract and to strive toward the peaceful future that Endfield has set before her.",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-22",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-24",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "b599a80f63d9",
+          "sourceHash": "b599a80f63d9",
+          "kind": "characters",
+          "name": "Last Rite full illustration",
+          "fileStem": "last-rite-full",
+          "path": "Prydwen/endfield/assets/characters/last-rite-full-illustration-b599a80f63d9.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "damage-27",
+      "level": 6,
+      "heading": "Damage",
+      "text": "T0.5\n Umbral Monument",
+      "assets": []
+    },
+    {
+      "id": "pros-30",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Large amounts of burst damage.\n\n Cryo Susceptibility, which boosts her own damage and that of other Cryo teammates.\n\n SP efficient Cryo Infliction application.\n\n Can use Battle Skill pre-combat to gain free SP in encounters that allow it.\n\n Multiple Basic Attack Cancels/Tricks, which help address cons and boost performance.",
+      "assets": []
+    },
+    {
+      "id": "cons-31",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Has ramp-up time if Ultimate isn’t pre-prepared earlier.\n\n Long animation times.\n\n Can waste energy, Cryo Infliction stacks, and potential, if energy isn’t planned around.\n\n Rotation is hindered in teams that consume Inflictions for other purposes.",
+      "assets": []
+    },
+    {
+      "id": "kit-intro-34",
+      "level": 6,
+      "heading": "Kit Intro",
+      "text": "Last Rite is a 6-star, Cryo, Great Sword damage dealer completely centered around building and consuming Cryo Infliction stacks as fast and frequently as possible. This allows her to deal damage through her Ultimate and Combo skills, which are both the focus of her kit.\n What makes Last Rite unique is that she cannot gain energy from her teammates, and her Ultimate costs over twice as much as most other characters. Fortunately, Last Rite’s battle and Combo Skills each grant additional energy, with her combo generating up to half the energy she needs to use her Ultimate all at once. Because of this, triggering Last Rite’s combo as much as possible is the name of her game. To do so, enemies must be afflicted with at least 3 Cryo Infliction, something that requires proper team building in order to achieve in a timely manner.\n With so much importance on Cryo Infliction, Last Rite generally wants teams specifically built around her with the goal of either helping her generate Cryo Infliction faster or buffing her combo and Ultimate damage as much as possible. Her dedication to Cryo also usually rules out playing her in Arts Reaction teams that combine Cryo with other elements to trigger effects like Solidification, as that’s Cryo that could have otherwise been spent on more combos and Ultimates.",
+      "assets": []
+    },
+    {
+      "id": "ultimate-35",
+      "level": 6,
+      "heading": "Ultimate",
+      "text": "Last Rite’s Ultimate is the core of her kit and playstyle, and what you’ll be building teams in order to play around. Using it costs 240 energy and causes Last Rite to perform a sequence of 3 serious damage Cryo Attacks during which she’ll be immune to damage. Her Ultimate also comes with a restriction that she can only gain energy from her combo and Battle Skills, something which might seem bad, but actually doesn’t stop Last Rite from gaining this Ultimate at a standard or even faster rate than other damage dealers. Due to how important energy and her Ultimate are, we’ll have a special energy section below to cover them in detail.\n Note: The Ultimate restriction blocks Last Rite from gaining 6.5 energy when her own or other characters' Battle Skills are used.",
+      "assets": []
+    },
+    {
+      "id": "combo-36",
+      "level": 6,
+      "heading": "Combo",
+      "text": "Last Rite’s Combo Skill is the main way she fuels her high Ultimate cost; however, using it requires the enemy to have at least 3 Cryo Infliction on them in order to trigger. After activation, consumes all Cryo Infliction on the target in order to deal significant Cryo damage and generate 40 energy plus additional damage and another 15 extra energy per Cryo stack consumed. The main things to know from this are that:\n Consuming 3 Infliction grants 85 energy\n\n Consuming 4 Infliction grants 100 energy\n\n This is key info we’ll be using when talking about how best to generate Last Rite’s Ultimate smoothly. This combo also notably only has an 8-9 second cooldown, meaning the main restriction on using it is usually just how fast you can apply Cryo Infliction.\n Tip: Using Combo at 3 Cryo Infliction yields more energy per Infliction than at 4, but which option is more optimal will depend on energy breakpoints. We’ll talk about it in the energy section.",
+      "assets": []
+    },
+    {
+      "id": "talents-37",
+      "level": 6,
+      "heading": "Talents",
+      "text": "Both of Last Rite’s talents improve her damage and revolve around her combo and Ultimate. The first, Hypothermia, causes Last Rite to inflict Cryo Susceptibility for 15 seconds when consuming Arts Reactions. This triggers every time she uses her combo. The size of the Susceptibility depends on the amount of Infliction consumed. Each stack improves it by 4%, leading to the following numbers:\n 3 Stack Combo = 12% Cryo Susceptibility\n\n 4 Stack Combo = 16% Cryo Susceptibility\n\n This effect is a nice boost to Last Rite’s own damage and any other Cryo teammates.\n Note: The Cryo Susceptibility from this talent is applied before the bulk of the damage of the combo, and it will also be buffed despite being the ability that applies it.\n Last Rite’s other talent, Cryogenic Embrittlement, causes her Ultimate to increase the effect of Cryo Susceptibility when hitting the target by 1.5 times. This increase only applies to the damage of the Ultimate, so the 12% and 16% from Hypothermia would instead become 18% and 24%.\n Note: This effect isn’t just limited to increasing Last Rite’s own Susceptibility but can also increase other sources, such as Ardelia’s Art’s Susceptibility.",
+      "assets": []
+    },
+    {
+      "id": "battle-skill-38",
+      "level": 6,
+      "heading": "Battle Skill",
+      "text": "Last Rite’s Battle Skill applies a buff to the squad, which lasts 15 seconds. This causes the next Final Strike performed by the controlled operator to summon a mirage of Last Rite that attacks, dealing Cryo Damage while applying a Cryo Infliction stack. Using this ability generates 16 energy and consumes the usual 100 SP. Immediately after, it refunds 30 SP, so in practice, it only costs 70. This skill is essential for energy breakpoints and is a highly efficient way of building the stacks needed for Last Rite’s Combo Skill, as you’ll be using it a lot when playing her.\n Tip: This Battle Skill can be used at any point during basic attack animations without interrupting them, making weaving it into standard gameplay quite easy. This ability can also be used prior to combat starting, letting you stockpile a usage of it while still beginning the fight with 200 SP. This won't work in some endgame modes, though.",
+      "assets": []
+    },
+    {
+      "id": "energy-39",
+      "level": 6,
+      "heading": "Energy",
+      "text": "Because Last Rite is entirely reliant on herself for energy, it’s possible to completely map out how many Combos and Battle Skills she’ll need to access her Ultimate each time. This ensures we build the optimal amount of energy and avoid wasting Cryo Infliction.\n There are currently two main approaches to Energy on Last Rite, one which runs a slightly longer rotation but gets to invest fully into damage on gear and maximizes susceptibility during Ultimate, and one gives a little of that up in favor of a shorter rotation.\n Assuming you’re playing Last Rite alongside a character like Xaihi capable of applying at least 1 Cryo Infliction per combo skill and you’re using Last Rite’s Combo as soon as available, you’re likely to run into the energy scenario below, which leaves you just short of having your Ultimate.\n Last Rite 0% Ultimate Gain Rotation\n Ability\n Uses\n Base Energy\n\n Battle Skills\n 4\n 64\n\n 3 Stack Combos\n 2\n 170\n\n Total\n\n 234\n\n That’s not enough energy to hit 240, so we’ll either need some energy regen or to switch up the rotation, both of which are viable depending on what you need. The first solution is to use a piece like Tide Fall Light Armour to cover the short fall and then some.\n Last Rite 10.1% Ultimate Gain Rotation\n Ability\n Uses\n Base Energy\n Final Energy\n\n Battle Skills\n 3\n 48\n 52.848\n\n 3 Stack Combos\n 2\n 170\n 187.17\n\n Total\n\n 240.01\n\n With the above set-up, you have enough energy using a standard rotation and also only need to use 3 Battle Skills instead of 4, meaning you can be more flexible with how you generate your Cryo Infliction.\n If you don’t want to give up using a completely damage-focused set-up though, you can instead opt to extend Last Rite’s rotation to make-up the missing energy. The most optimal way to do this is to weave in an extra Battle Skill and execute a 4 Infliction combo, ideally right before Ultimate, to take advantage of the increased Cryo Susceptibility.\n Note: If you can gain the 5th Cryo Infliction in another way, that also works, allowing you to save SP and still execute a 3 and 4-stack combo.\n Last Rite 0% Ultimate Gain Rotation\n Ability\n Uses\n Base Energy\n\n Battle Skills\n 4\n 64\n\n 3 Stack Combos\n 1\n 85\n\n 4 Stack Combos\n 1\n 100\n\n Total\n\n 249\n\n After this, you may wonder if stacking even more energy might be even more optimal. In most cases, at P0, the trade-off simply isn’t worth it, as you’ll be sacrificing too much damage to achieve it. This can change at P4 as it becomes more realistic to attempt to hit major breakpoints like gaining Last Rite’s Ultimate in a single Combo Skill, but that is a far higher investment.",
+      "assets": []
+    },
+    {
+      "id": "gameplay-40",
+      "level": 6,
+      "heading": "Gameplay",
+      "text": "Last Rite’s gameplay is simple and rotational; as long as you hit the correct usage of abilities, she’ll always play the same. Here is what to do, assuming you’re using a standard 10.1% energy Last Rite build:\n Accumulate 3 Cryo Infliction while using Last Rite’s Battle Skill at least 2 times;\n\n Consume Infliction Stacks with Combo Skill;\n\n Accumulate another 3 Cryo Infliction using at least 1 Last Rite Battle Skill, activate all team buffs, consume Cryo Infliction with combo, then Ultimate.\n\n Something like the rotation above is what you’ll continue to repeat for the whole fight, but depending on the encounter and your team, you can switch it up. Here are a few more things to consider:\n If the battle allows it, use Battle Skill before combat starts, allow SP to recover, and start fights with an effective 300 SP.\n\n You only need to use Last Rite’s Battle Skill 3 times over 2 Combo Skills. The order in which you use the former or the latter doesn’t matter; you can swap them around.\n\n If you have teammates capable of granting a lot of Cryo Infliction, like Fluorite, you can trade out having Last Rite use Battle Skills and instead use a 4-stack combo to compensate.\n\n If possible, try to align using the Combo + Ultimate combination at a time the enemy is Staggered.",
+      "assets": []
+    },
+    {
+      "id": "optimizations-41",
+      "level": 6,
+      "heading": "Optimizations",
+      "text": "Last Rite is heavily dependent on getting Final Strikes, so being able to speed through her Basic Attack sequence faster can help her perform better. This can be done by Dodge cancelling the 2nd hit of her Basic 2, as well as the recovery animation of her Basic 4. Doing this will grant you more SP plus Stagger over a fight and, most importantly, churn through Last Rite’s battle skill activations more quickly, accumulating Cryo Infliction faster.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "collaboration-disclaimer-43",
+      "level": 3,
+      "heading": "Collaboration Disclaimer",
+      "text": "Some calculations on this page are done in collaboration with Guobafield (Guoba Certified) . Other calculations not in his videos, and any other content (like comments on Weapons, Gear, etc), are our own.",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-45",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Last Rite performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Khravengger (P 0 )\n\n Last Rite's signature is definitely her best option by a long shot, thanks to its perfect combination of passive stats, which, when combined with its tailor-made weapon effect, set it well above the competition. Said weapon effect consistently grants Last Rite two Cryo DMG% buffs, which are easily active throughout the most impactful parts of her rotation.\n\n 2\n Solo 80.00%\n Team 83.70%\n\n Sundered Prince (P 0 )\n\n An alternative generic 6-star option you can use if you don't yet have Last Rite's signature, but it falls behind as it grants imperfect passive stats - the third stat is Crit Rate, which on release, is an undesirable damage stat for Last Rite. Add to that the fact that the weapon effect is also underwhelming in comparison, and it's no surprise this Greatsword falls behind her best option.\n\n 3\n Solo 78.40%\n Team 82.40%\n\n Seeker of Dark Lung (P 5 )\n\n A 5 star atlerative to Sundered Prince, which takes some work to get suitable performance out of but can compete and sometimes beat it with the right set-up. It offers a low damage but unique passive stat line, with the standout addition being Ultimate Gain Efficiency. If built around, it can allow Last Rite to hit a new Ultimate breakpoint and if not built around properly, it drops this weapon's performance a bit lower than represented. This Greatsword's Weapon Effect also isn't bad and is better than Sundered Prince's funnily enough, but you'll still need to build around this Weapon's energy if you want it to work.\n\n 4\n Solo 75.30%\n Team 79.80%\n\n Exemplar (P 0 )\n\n A 6-star stat stick with partially correct passives, but with wasted Physical DMG% and a wasted Weapon Effect, dropping it below other options. Still beats out Seeker of Dark Lung if not playing around its Energy Regen though, thanks to its superior raw stats, but not by much.\n\n 5\n Solo 64.80%\n Team 71.30%\n\n Industry 0.1 (P 5 )\n\n Last resort option if you're lacking any of the choices above. Has the correct passive stats, but all at much lower base values, setting it significantly behind all other choices.",
+      "assets": [
+        {
+          "id": "f2a006932fe1",
+          "sourceHash": "f2a006932fe1",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-26",
+          "path": "Prydwen/endfield/assets/weapons/weapon-26-f2a006932fe1.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "5fdc05b5d065",
+          "sourceHash": "5fdc05b5d065",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-29",
+          "path": "Prydwen/endfield/assets/weapons/weapon-29-5fdc05b5d065.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "adf7eecd048b",
+          "sourceHash": "adf7eecd048b",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-21",
+          "path": "Prydwen/endfield/assets/weapons/weapon-21-adf7eecd048b.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "86f77e0b50d9",
+          "sourceHash": "86f77e0b50d9",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-27",
+          "path": "Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "f87b5e806d4b",
+          "sourceHash": "f87b5e806d4b",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-19",
+          "path": "Prydwen/endfield/assets/weapons/weapon-19-f87b5e806d4b.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-47",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "The solo percentage shows how the set and gear impact Last Rite performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 100%\n Team 100%\n\n Tide Surge",
+      "assets": [
+        {
+          "id": "b3fc6deaead5",
+          "sourceHash": "b3fc6deaead5",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-27",
+          "path": "Prydwen/endfield/assets/gear/gear-27-b3fc6deaead5.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-48",
+      "level": 6,
+      "heading": "Description",
+      "text": "Currently, Tide Surge is the only 3P set worth considering running on Last Rite, the reason being that its set pieces are simply too well-tailored to her stat needs. When considering gear pieces for Last Rite, depending on what you're after, you can either prioritize Ultimate Gain in order to achieve the fastest Ultimates possible or more damage to maximize burst. Which is right for you will depend on how many inflictions you're consuming per Combo Skill to access Last Rite's Ultimate and if you're targeting any major energy breakpoints in order to skip Combo Skills completely.",
+      "assets": []
+    },
+    {
+      "id": "pieces-49",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Aethertech Plating\n\n Gloves\n Tide Surge Gauntlets Tide Surge\n\n Kit\n Hanging River 02 Tube Tide Surge\n\n Kit\n Hanging River 02 Tube Tide Surge",
+      "assets": [
+        {
+          "id": "594f049ae870",
+          "sourceHash": "594f049ae870",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-3",
+          "path": "Prydwen/endfield/assets/gear/gear-3-594f049ae870.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "beff01bccdbd",
+          "sourceHash": "beff01bccdbd",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-66",
+          "path": "Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "b3fc6deaead5",
+          "sourceHash": "b3fc6deaead5",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-27",
+          "path": "Prydwen/endfield/assets/gear/gear-27-b3fc6deaead5.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-50",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "Aethertech Plating\n - The current set default for the gear set and is the highest damage potential option for those able to align Last Rite's Combo and Ultimate during stagger, but less effective for those unable to do so. Swapping out the baseline.\n Type 50 Yinglung Light Armor\n - If you're worried about lining up for Staggers and want a consistent always active damage across the board, Type 50 Yinglung Light Armour is the best option, although not quite as good for those who can optimize.\n Frontiers Armor T1\n - In some teams, Last Rite is brought as a Cryo Infliction specialist and not for her own personal damage (Yvonne teams). In these teams, she won't be using high Infliction stack Combos or her Ultimate often, so focusing on good main stats and boosting her damage is best by using this armor.\n Tide Fall Light Armor\n - If you're ok giving up some damage, you may give up using any of the three damage armors above in favor of some extra Ultimate Gain. The bonus energy this provides will allow Last Rite to Ult in two 3 Infliction Combo Skills instead of needing a 4 Infliction + 3 Infliction sequence, saving some SP and time. Whether this is worth the damage loss will depend on the encounter and the player.\n LYNX Gloves\n - If you need even more Ultimate Gain and are ok dropping even damage for it, you can swap out Tide Surge Gauntlets for Lynx Gloves at the same time as using Tide Fall Armor. This is usually only an upgrade if you can hit a significantly more powerful Ultimate breakpoint by making the swap, which is most common at P4 to skip whole Combo Skills or if you're using an Energy Weapon.",
+      "assets": [
+        {
+          "id": "594f049ae870",
+          "sourceHash": "594f049ae870",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-3",
+          "path": "Prydwen/endfield/assets/gear/gear-3-594f049ae870.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "1c7c451bae1e",
+          "sourceHash": "1c7c451bae1e",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-73",
+          "path": "Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3bb18ad35648",
+          "sourceHash": "3bb18ad35648",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-19",
+          "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "f15fdd036e2d",
+          "sourceHash": "f15fdd036e2d",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-65",
+          "path": "Prydwen/endfield/assets/gear/gear-65-f15fdd036e2d.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3baf65ff6288",
+          "sourceHash": "3baf65ff6288",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-39",
+          "path": "Prydwen/endfield/assets/gear/gear-39-3baf65ff6288.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-pieces-52",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 122.80%\n Aethertech Plating\n\n Solo 120.00%\n Bonekrusha Poncho\n\n Solo 106.20%\n Bonekrusha Poncho T1 *\n\n Solo 118.80%\n Frontiers Armor\n\n Solo 111.90%\n MI Security Armor\n\n Solo 110.40%\n Tide Fall Light Armor *\n\n Solo 122.00%\n Type 50 Yinglung Light Armor\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 107.70%\n Eternal Xiranite Gloves *\n\n Solo 114.70%\n LYNX Gloves *\n\n Solo 112.80%\n Swordmancer TAC Gauntlets\n\n Solo 126.40%\n Tide Surge Gauntlets\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 106.60%\n Aethertech Stabilizer\n\n Solo 109.10%\n Bonekrusha Mask\n\n Solo 102.30%\n Eternal Xiranite Auxiliary Arm *\n\n Solo 103.80%\n Eternal Xiranite Power Core *\n\n Solo 111.90%\n Frontiers Comm\n\n Solo 118.60%\n Frontiers Comm T1\n\n Solo 120.30%\n Hanging River 02 Tube\n\n Solo 108.70%\n Hot Work Power Bank\n\n Solo 116.00%\n LYNX Slab\n\n Solo 120.30%\n MI Security Armband\n\n Solo 108.20%\n Turbid Cutting Torch\n\n Solo 113.40%\n Type 50 Yinglung Knife T1\n\n Solo 100%\n Nothing equipped",
+      "assets": [
+        {
+          "id": "594f049ae870",
+          "sourceHash": "594f049ae870",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-3",
+          "path": "Prydwen/endfield/assets/gear/gear-3-594f049ae870.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "5f3df1e3feb8",
+          "sourceHash": "5f3df1e3feb8",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-11",
+          "path": "Prydwen/endfield/assets/gear/gear-11-5f3df1e3feb8.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3bb18ad35648",
+          "sourceHash": "3bb18ad35648",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-19",
+          "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "0d6cb71a1abf",
+          "sourceHash": "0d6cb71a1abf",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-43",
+          "path": "Prydwen/endfield/assets/gear/gear-43-0d6cb71a1abf.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "f15fdd036e2d",
+          "sourceHash": "f15fdd036e2d",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-65",
+          "path": "Prydwen/endfield/assets/gear/gear-65-f15fdd036e2d.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "1c7c451bae1e",
+          "sourceHash": "1c7c451bae1e",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-73",
+          "path": "Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "926e3820f36c",
+          "sourceHash": "926e3820f36c",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-15",
+          "path": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3baf65ff6288",
+          "sourceHash": "3baf65ff6288",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-39",
+          "path": "Prydwen/endfield/assets/gear/gear-39-3baf65ff6288.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "b8c382149543",
+          "sourceHash": "b8c382149543",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-63",
+          "path": "Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "beff01bccdbd",
+          "sourceHash": "beff01bccdbd",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-66",
+          "path": "Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "4b7abc3e9c6b",
+          "sourceHash": "4b7abc3e9c6b",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-4",
+          "path": "Prydwen/endfield/assets/gear/gear-4-4b7abc3e9c6b.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "eca51770722b",
+          "sourceHash": "eca51770722b",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-9",
+          "path": "Prydwen/endfield/assets/gear/gear-9-eca51770722b.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "878ac8b93409",
+          "sourceHash": "878ac8b93409",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-14",
+          "path": "Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "6cc83aa8f2b7",
+          "sourceHash": "6cc83aa8f2b7",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-17",
+          "path": "Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "0f5968f8403f",
+          "sourceHash": "0f5968f8403f",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-24",
+          "path": "Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "b3fc6deaead5",
+          "sourceHash": "b3fc6deaead5",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-27",
+          "path": "Prydwen/endfield/assets/gear/gear-27-b3fc6deaead5.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "442eec6cd2fa",
+          "sourceHash": "442eec6cd2fa",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-31",
+          "path": "Prydwen/endfield/assets/gear/gear-31-442eec6cd2fa.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "120fdd57c9bd",
+          "sourceHash": "120fdd57c9bd",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-41",
+          "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "da7a61fbb290",
+          "sourceHash": "da7a61fbb290",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-42",
+          "path": "Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "5031ea56a1c1",
+          "sourceHash": "5031ea56a1c1",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-67",
+          "path": "Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "346e3930a9ba",
+          "sourceHash": "346e3930a9ba",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-71",
+          "path": "Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "potentials-review-54",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "P 1\n Solo 100.7 %\n Team 100.6 %\n Undertaker's Gift\n\n Increase the damage of Final Strikes, which are buffed by Last Rite’s skill by 20%, and causes them to inflict an additional 5 Stagger. Doesn’t add up to being much of a damage increase, but the extra Stagger can be nice for getting to Stagger nodes more quickly.\n\n P 2\n Solo 106.7 %\n Team 105.5 %\n Absolute Zero Armament\n\n A small boost to strength and some Cryo DMG%, which adds together to be a modest boost in damage for Last Rite.\n\n P 3\n Solo 114.9 %\n Team 112.2 %\n Overlord of Winter\n\n Increases the damage (Unique damage multiplier) of Last Rite’s Combo Skill and Ultimate by 15%, resulting in a nice passive damage boost.\n\n P 4\n Solo 142.3 %\n Team 134.8 %\n Sincere Wake\n\n Reduces Last Rite’s Ultimate cost by -15%, taking it from 240 to 20,4 opening up a myriad of new energy breakpoints and potential rotations. One of these possibilities is the option to invest further into energy regen on gear and swap 3-stack combos for 4-stack combos, allowing Last Rite to Ultimate after every Combo Skill. When played around, this potential is a large damage increase, which notably improves Last Rite’s gameplay. Calculations implement a new rotation by swapping gloves for more energy regen, which utilizes 3 Battle Skills plus one 4-stack Combo Skill to use Ultimate every Combo Skill.\n\n P 5\n Solo 146.2 %\n Team 137.9 %\n Winter is Returning\n\n Increases the damage (Unique damage multiplier) of Last Rite’s Battle Skill Mirage by 20% and causes it to return 5 SP on hit, upgrading the SP efficiency of this ability further. Not a large damage increase, but helps resource management on the team a bit.",
+      "assets": []
+    },
+    {
+      "id": "dupes-information-visual-55",
+      "level": 6,
+      "heading": "Dupes information - visual",
+      "text": "Important! The graph generator tool we're using has some issues currently and it displays the 'rows' wrong visually. The percentages shown are fully correct though.\n\n P5\n\n Team Performance 137.9 %\n\n Solo Performance 146.2 %\n\n P4\n\n Team Performance 134.8 %\n\n Solo Performance 142.3 %\n\n P3\n\n Team Performance 112.2 %\n\n Solo Performance 114.9 %\n\n P2\n\n Team Performance 105.5 %\n\n Solo Performance 106.7 %\n\n P1\n\n Team Performance 100.6 %\n\n Solo Performance 100.7 %\n\n P0\n\n Team Performance 100 %\n\n Solo Performance 100 %",
+      "assets": [
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "calculations-57",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "In this section we're showing the team setup used for the above calculations as well as the damage split for Last Rite based on where it comes from. The setup isn't always best in slot for each character and also please keep in mind that with different team members, Weapons, and Gear, the calculations will change.\n\n Operator 1\n\n Weapon\n Khravengger\n\n Operator 2\n\n Weapon\n Stanza of Memorials\n\n Operator 3\n\n Weapon\n Detonation Unit\n\n Operator 4\n\n Weapon\n Dreams of the Starry Beach",
+      "assets": [
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f2a006932fe1",
+          "sourceHash": "f2a006932fe1",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-26",
+          "path": "Prydwen/endfield/assets/weapons/weapon-26-f2a006932fe1.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bd87bdf5874f",
+          "sourceHash": "bd87bdf5874f",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-52",
+          "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "223a617b3102",
+          "sourceHash": "223a617b3102",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-60",
+          "path": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ec431c92391a",
+          "sourceHash": "ec431c92391a",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-58",
+          "path": "Prydwen/endfield/assets/weapons/weapon-58-ec431c92391a.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "main-field-61",
+      "level": 6,
+      "heading": "Main Field :",
+      "text": "Combo Skill >= Ultimate >= Basic Attack > Battle Skill\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-63",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Cryo\n\n Tangtang Cryo\n\n Last Rite's ability to have a reliable, low SP-cost Cryo Infliction application means she can easily sustain Tangtang's Combo Skill triggers on cooldown.\n\n Tangtang's Arts Susceptibility scales with Last Rite's \"Cryogenic Embrittlement\" Talent, further increasing its value.\n\n Likewise, Tangtang can work as a Sub-DPS unit, who also benefits from the Cryo Susceptibility from Last Rite's own Hypothermia Talent, with both units buffing each other's damage.\n\n As Tangtang has good range and area of effect on her Battle Skill and Ultimate, she can help make up for Last Rite's weakness against multiple enemies, being an effective option to clear out trash mobs in certain stages, allowing for Last Rite to conserve her Ultimate for bosses.\n\n Nature\n\n Ardelia Nature\n\n Able to permanently maintain both Arts and Physical susceptibility on targets for generic team-wide damage increases that work in any team\n\n Outstanding supportive weapon and set options for even more damage amplification, with options that work for both Physical and Arts\n\n Forcibly applies Corrosion, which, when optimized around, can lower enemy resistances to all damage temporarily if Susceptibility doesn't need to be refreshed\n\n Only requires 100 SP roughly every 30 seconds to function at maximum capacity\n\n Strong enough sustain to single handedly keep the team alive through most endgame encounters as long as smart dodging is used.\n\n Cryo\n\n Xaihi Cryo\n\n Provides Last Rite a huge amount of Arts Amp from Battle Skill and Ultimate, boosting her damage significantly\n\n Fanstatic healing as long as you land Final Strikes\n\n Free Cryo Infliction application from Combo skill, which massively helps Last Rite's rotations\n\n Outstanding supportive weapon and set options that stack well even when running multiple other Arts unit supports\n\n Both characters have the same game plan that focuses on Final Strikes to function\n\n Electric\n\n Perlica Electric\n\n Perlica has outstanding supportive weapon choices\n\n Can apply Electrification for free with Combo skill, which is easily timed to align with Last Rite's Ultimate and Combo skill, increasing damage taken by the target signifcantly\n\n Solid sub DPS potential, contributing a bit of damage of her own\n\n Works well alongside other buffers who cover other buff categories, such as Amp, DMG%, and ATK%, as Perlica's Damage Taken is in a different multiplier group\n\n Nature\n\n Fluorite Nature\n\n Applies extra Cryo Infliction with Ultimate and Combo skill, but with a high cost on the Ult and a long cooldown on the Combo\n\n In short fights, where cooldowns don't matter, can allow Last Rite to reach her Combo skill faster than other teams\n\n When planned and built carefully can unlock new, faster Last Rite energy breakpoints that need more than usual Infliction than she's used to getting\n\n Inlfiction is strong, but Fluorite has no buffing capabilities in her kit, gear, or weapons, meaning you really have to get value out of it for her to be worth it",
+      "assets": [
+        {
+          "id": "01dc84e9ffad",
+          "sourceHash": "01dc84e9ffad",
+          "kind": "characters",
+          "name": "Tangtang",
+          "fileStem": "tangtang-icon",
+          "path": "Prydwen/endfield/assets/characters/tangtang-01dc84e9ffad.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ffd55a6794cd",
+          "sourceHash": "ffd55a6794cd",
+          "kind": "icons",
+          "name": "Cryo",
+          "fileStem": "element-cryo",
+          "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3c1cc57bcd5f",
+          "sourceHash": "3c1cc57bcd5f",
+          "kind": "icons",
+          "name": "Nature",
+          "fileStem": "element-nature",
+          "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "21e0d5281fdd",
+          "sourceHash": "21e0d5281fdd",
+          "kind": "icons",
+          "name": "Electric",
+          "fileStem": "element-electric",
+          "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0d128b4b3a6f",
+          "sourceHash": "0d128b4b3a6f",
+          "kind": "characters",
+          "name": "Fluorite",
+          "fileStem": "fluorite-icon",
+          "path": "Prydwen/endfield/assets/characters/fluorite-0d128b4b3a6f.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-65",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Last Rite teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+      "assets": []
+    },
+    {
+      "id": "team-members-66",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Last Rite\n\n Xaihi\n\n Tangtang\n\n Perlica\n\n The Last Rite, Xaihi, Perlica shell is a tried and tested shell, being one of the strongest single target burst comps as of release. Tangtang's addition to the team can help with mob clearing (owing to her decent AoE damage) and makes for a far more comfortable buffer than alternatives.\n There are two ways of running this comp, one being with a sub-DPS Tangtang build on Bonekrusha, or as a support with Xiranite.",
+      "assets": [
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "01dc84e9ffad",
+          "sourceHash": "01dc84e9ffad",
+          "kind": "characters",
+          "name": "Tangtang",
+          "fileStem": "tangtang-icon",
+          "path": "Prydwen/endfield/assets/characters/tangtang-01dc84e9ffad.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "0-ultimate-energy-start-rotation-67",
+      "level": 6,
+      "heading": "0 Ultimate Energy Start Rotation",
+      "text": "Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike x2\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Finisher\n\n →\n\n Ultimate\n\n →\n\n Battle Skill x2\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Dive Attack\n\n →\n\n Combo\n\n →\n\n Combo\n\n The above rotation is compatible with no additional Ultimate Gain Efficiency on Tangtang, but does need Potentials on Xaihi and Perlica for Ultimate Energy cost reductions.\n Swapping between Last Rite and Tangtang is important to both align Final Strikes and get enough stagger and SP recovery. Animation cancelling B2 and Final Strikes with Last Rite makes a big difference as to the rotation time.",
+      "assets": [
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "01dc84e9ffad",
+          "sourceHash": "01dc84e9ffad",
+          "kind": "characters",
+          "name": "Tangtang",
+          "fileStem": "tangtang-icon",
+          "path": "Prydwen/endfield/assets/characters/tangtang-01dc84e9ffad.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "quickstart-burst-rotation-full-ultimates-ready-68",
+      "level": 6,
+      "heading": "Quickstart Burst Rotation (Full Ultimates Ready)",
+      "text": "Battle Skill (Pre-Cast)\n\n →\n\n Battle Skill (Pre-Cast)\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Dive Attack\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n For the above rotation, other than the start, having Tangtang as the controlled Operator after her first Combo Skill would work best.\n\n Team #2",
+      "assets": [
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "01dc84e9ffad",
+          "sourceHash": "01dc84e9ffad",
+          "kind": "characters",
+          "name": "Tangtang",
+          "fileStem": "tangtang-icon",
+          "path": "Prydwen/endfield/assets/characters/tangtang-01dc84e9ffad.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-69",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Last Rite\n\n Perlica\n\n Xaihi\n\n Ardelia\n\n Team #3",
+      "assets": [
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-70",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Last Rite\n\n Fluorite\n\n Xaihi\n\n Ardelia\n\n Team #4",
+      "assets": [
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "0d128b4b3a6f",
+          "sourceHash": "0d128b4b3a6f",
+          "kind": "characters",
+          "name": "Fluorite",
+          "fileStem": "fluorite-icon",
+          "path": "Prydwen/endfield/assets/characters/fluorite-0d128b4b3a6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-71",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Last Rite\n\n Xaihi\n\n Akekuri\n\n Ardelia",
+      "assets": [
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3a2535d8266d",
+          "sourceHash": "3a2535d8266d",
+          "kind": "characters",
+          "name": "Akekuri",
+          "fileStem": "akekuri-icon",
+          "path": "Prydwen/endfield/assets/characters/akekuri-3a2535d8266d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Last Rite teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Last Rite performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Khravengger (P 0 )\n\n Last Rite's signature is definitely her best option by a long shot, thanks to its perfect combination of passive stats, which, when combined with its tailor-made weapon effect, set it well above the competition. Said weapon effect consistently grants Last Rite two Cryo DMG% buffs, which are easily active throughout the most impactful parts of her rotation.\n\n 2\n Solo 80.00%\n Team 83.70%\n\n Sundered Prince (P 0 )\n\n An alternative generic 6-star option you can use if you don't yet have Last Rite's signature, but it falls behind as it grants imperfect passive stats - the third stat is Crit Rate, which on release, is an undesirable damage stat for Last Rite. Add to that the fact that the weapon effect is also underwhelming in comparison, and it's no surprise this Greatsword falls behind her best option.\n\n 3\n Solo 78.40%\n Team 82.40%\n\n Seeker of Dark Lung (P 5 )\n\n A 5 star atlerative to Sundered Prince, which takes some work to get suitable performance out of but can compete and sometimes beat it with the right set-up. It offers a low damage but unique passive stat line, with the standout addition being Ultimate Gain Efficiency. If built around, it can allow Last Rite to hit a new Ultimate breakpoint and if not built around properly, it drops this weapon's performance a bit lower than represented. This Greatsword's Weapon Effect also isn't bad and is better than Sundered Prince's funnily enough, but you'll still need to build around this Weapon's energy if you want it to work.\n\n 4\n Solo 75.30%\n Team 79.80%\n\n Exemplar (P 0 )\n\n A 6-star stat stick with partially correct passives, but with wasted Physical DMG% and a wasted Weapon Effect, dropping it below other options. Still beats out Seeker of Dark Lung if not playing around its Energy Regen though, thanks to its superior raw stats, but not by much.\n\n 5\n Solo 64.80%\n Team 71.30%\n\n Industry 0.1 (P 5 )\n\n Last resort option if you're lacking any of the choices above. Has the correct passive stats, but all at much lower base values, setting it significantly behind all other choices.",
+          "assets": [
+            {
+              "id": "f2a006932fe1",
+              "sourceHash": "f2a006932fe1",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-26",
+              "path": "Prydwen/endfield/assets/weapons/weapon-26-f2a006932fe1.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "5fdc05b5d065",
+              "sourceHash": "5fdc05b5d065",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-29",
+              "path": "Prydwen/endfield/assets/weapons/weapon-29-5fdc05b5d065.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "adf7eecd048b",
+              "sourceHash": "adf7eecd048b",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-21",
+              "path": "Prydwen/endfield/assets/weapons/weapon-21-adf7eecd048b.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "86f77e0b50d9",
+              "sourceHash": "86f77e0b50d9",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-27",
+              "path": "Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "f87b5e806d4b",
+              "sourceHash": "f87b5e806d4b",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-19",
+              "path": "Prydwen/endfield/assets/weapons/weapon-19-f87b5e806d4b.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "The solo percentage shows how the set and gear impact Last Rite performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 100%\n Team 100%\n\n Tide Surge",
+          "assets": [
+            {
+              "id": "b3fc6deaead5",
+              "sourceHash": "b3fc6deaead5",
+              "kind": "gear",
+              "name": "Gear Set",
+              "fileStem": "gear-27",
+              "path": "Prydwen/endfield/assets/gear/gear-27-b3fc6deaead5.webp",
+              "width": 50,
+              "height": 50
+            }
+          ]
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 122.80%\n Aethertech Plating\n\n Solo 120.00%\n Bonekrusha Poncho\n\n Solo 106.20%\n Bonekrusha Poncho T1 *\n\n Solo 118.80%\n Frontiers Armor\n\n Solo 111.90%\n MI Security Armor\n\n Solo 110.40%\n Tide Fall Light Armor *\n\n Solo 122.00%\n Type 50 Yinglung Light Armor\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 107.70%\n Eternal Xiranite Gloves *\n\n Solo 114.70%\n LYNX Gloves *\n\n Solo 112.80%\n Swordmancer TAC Gauntlets\n\n Solo 126.40%\n Tide Surge Gauntlets\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 106.60%\n Aethertech Stabilizer\n\n Solo 109.10%\n Bonekrusha Mask\n\n Solo 102.30%\n Eternal Xiranite Auxiliary Arm *\n\n Solo 103.80%\n Eternal Xiranite Power Core *\n\n Solo 111.90%\n Frontiers Comm\n\n Solo 118.60%\n Frontiers Comm T1\n\n Solo 120.30%\n Hanging River 02 Tube\n\n Solo 108.70%\n Hot Work Power Bank\n\n Solo 116.00%\n LYNX Slab\n\n Solo 120.30%\n MI Security Armband\n\n Solo 108.20%\n Turbid Cutting Torch\n\n Solo 113.40%\n Type 50 Yinglung Knife T1\n\n Solo 100%\n Nothing equipped",
+          "assets": [
+            {
+              "id": "594f049ae870",
+              "sourceHash": "594f049ae870",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-3",
+              "path": "Prydwen/endfield/assets/gear/gear-3-594f049ae870.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "5f3df1e3feb8",
+              "sourceHash": "5f3df1e3feb8",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-11",
+              "path": "Prydwen/endfield/assets/gear/gear-11-5f3df1e3feb8.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "3bb18ad35648",
+              "sourceHash": "3bb18ad35648",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-19",
+              "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "0d6cb71a1abf",
+              "sourceHash": "0d6cb71a1abf",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-43",
+              "path": "Prydwen/endfield/assets/gear/gear-43-0d6cb71a1abf.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "f15fdd036e2d",
+              "sourceHash": "f15fdd036e2d",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-65",
+              "path": "Prydwen/endfield/assets/gear/gear-65-f15fdd036e2d.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "1c7c451bae1e",
+              "sourceHash": "1c7c451bae1e",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-73",
+              "path": "Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "926e3820f36c",
+              "sourceHash": "926e3820f36c",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-15",
+              "path": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "3baf65ff6288",
+              "sourceHash": "3baf65ff6288",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-39",
+              "path": "Prydwen/endfield/assets/gear/gear-39-3baf65ff6288.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "b8c382149543",
+              "sourceHash": "b8c382149543",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-63",
+              "path": "Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "beff01bccdbd",
+              "sourceHash": "beff01bccdbd",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-66",
+              "path": "Prydwen/endfield/assets/gear/gear-66-beff01bccdbd.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "4b7abc3e9c6b",
+              "sourceHash": "4b7abc3e9c6b",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-4",
+              "path": "Prydwen/endfield/assets/gear/gear-4-4b7abc3e9c6b.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "eca51770722b",
+              "sourceHash": "eca51770722b",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-9",
+              "path": "Prydwen/endfield/assets/gear/gear-9-eca51770722b.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "878ac8b93409",
+              "sourceHash": "878ac8b93409",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-14",
+              "path": "Prydwen/endfield/assets/gear/gear-14-878ac8b93409.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "6cc83aa8f2b7",
+              "sourceHash": "6cc83aa8f2b7",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-17",
+              "path": "Prydwen/endfield/assets/gear/gear-17-6cc83aa8f2b7.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "0f5968f8403f",
+              "sourceHash": "0f5968f8403f",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-24",
+              "path": "Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "b3fc6deaead5",
+              "sourceHash": "b3fc6deaead5",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-27",
+              "path": "Prydwen/endfield/assets/gear/gear-27-b3fc6deaead5.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "442eec6cd2fa",
+              "sourceHash": "442eec6cd2fa",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-31",
+              "path": "Prydwen/endfield/assets/gear/gear-31-442eec6cd2fa.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "120fdd57c9bd",
+              "sourceHash": "120fdd57c9bd",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-41",
+              "path": "Prydwen/endfield/assets/gear/gear-41-120fdd57c9bd.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "da7a61fbb290",
+              "sourceHash": "da7a61fbb290",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-42",
+              "path": "Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "5031ea56a1c1",
+              "sourceHash": "5031ea56a1c1",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-67",
+              "path": "Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "346e3930a9ba",
+              "sourceHash": "346e3930a9ba",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-71",
+              "path": "Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Base Energy"
+        ],
+        [
+          "Battle Skills",
+          "4",
+          "64"
+        ],
+        [
+          "3 Stack Combos",
+          "2",
+          "170"
+        ],
+        [
+          "Total",
+          "",
+          "234"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Base Energy",
+          "Final Energy"
+        ],
+        [
+          "Battle Skills",
+          "3",
+          "48",
+          "52.848"
+        ],
+        [
+          "3 Stack Combos",
+          "2",
+          "170",
+          "187.17"
+        ],
+        [
+          "Total",
+          "",
+          "",
+          "240.01"
+        ]
+      ]
+    },
+    {
+      "rows": [
+        [
+          "Ability",
+          "Uses",
+          "Base Energy"
+        ],
+        [
+          "Battle Skills",
+          "4",
+          "64"
+        ],
+        [
+          "3 Stack Combos",
+          "1",
+          "85"
+        ],
+        [
+          "4 Stack Combos",
+          "1",
+          "100"
+        ],
+        [
+          "Total",
+          "",
+          "249"
+        ]
+      ]
+    }
+  ],
+  "text": "Last Rite Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Last Rite\n Last Rite Best Build Guide\n Last updated: 08/June/2026\n\n Introduction\n\n Last Rite is a 6 -star character in Arknights: Endfield (AKE). Last Rite wields a Greatsword and belongs to the Striker class. Last Rite also has access to the Cryo element. This guide provides a comprehensive overview of Last Rite 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Last Rite check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Last Rite has no video guide yet.\n\n Update tracker\n\n Last review update\n Patch 1\n\n Last major build/calcs update\n Patch 1\n\n Last profile update*\n 08/June/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Last Rite check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 155\n\n Agility\n 104\n\n Intellect\n 93\n\n Will\n 109\n\n Skills\n\n Basic Attack\n Dance of Rime\n\n BASIC ATTACK:\n An attack with up to 4 sequences that deals Cryo DMG . As the controlled operator, Final Strike also deals 25 Stagger .\n DIVE ATTACK:\n Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\n FINISHER:\n Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Cryo DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Esoteric Legacy of Seš'qa\n SP Cost : 100\n\n Performs a Hypothermic Perfusion on the controlled operator's weapon and returns some SP. The next Final Strike performed by the currently controlled operator within a certain duration creates Last Rite's Mirage that unleashes a pursuit attack at the target. This attack deals Cryo DMG and applies Cryo Infliction .\nWhen the controlled operator is Last Rite herself, casting this battle skill does not reset her basic attack sequence.\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Winter's Devourer\n Cooldown: 8 s\n\n Encases the target enemy in icicles and shatters them to consume all Cryo Infliction stacks of the said enemy. The number of Cryo Infliction stacks consumed determines the amount of Cryo DMG dealt to the enemy and Ultimate Energy gained by the caster.\n Trigger: When an enemy has 3 or more Cryo Infliction stacks.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Vigil Services\n Energy cost : 240\n\n Last Rite encases herself in frost armor and creates an ice scythe to perform 3 slashes, and gains immunity to all damages while this state is active.\nEach slash deals massive Cryo DMG .\nLast Rite can only gain Ultimate Energy from her own battle skill and combo skill.\n Multipliers (Rank 12)\n\n Talents\n\n Base Talent\n Cemetery Gardening\n\n Assign to Growth Chamber to grant vitrified plant growth rate +20/30% .\n\n Base Talent\n Fame of the Royal Courts\n\n Assign to Reception Room to grant operators a small Clue 7/Clue 7 Rate-UP: Seš'qa (activates upon assignment; effects of the same type cannot stack)\n\n Combat Talent\n Hypothermia\n\n When Last Rite consumes any Arts Infliction , apply Cryo Susceptibility to the target with the effect of [Number of Arts Infliction stacks consumed × 2/4% ] for 15s . This effect cannot stack.\n Show Effects\n\n Combat Talent\n Cryogenic Embrittlement\n\n Ultimate Vigil Services improved: When the ultimate deals DMG to an enemy with Cryo Susceptibility , the effect of that Cryo Susceptibility is 1.2/1.5 times the original.\n Show Effects\n\n Potential (dupes)\n\n P1\n Undertaker's Gift\n Potential 1\n\n When the controlled operator with Hypothermic Perfusion performs a Final Strike that hits the enemy, it deals another 20% DMG and 5 Stagger .\n Show Effects\n\n P2\n Absolute Zero Armament\n Potential 2\n\n Strength +20 , Cryo DMG Dealt +10% .\n\n P3\n Overlord of Winter\n Potential 3\n\n Combo skill Winter's Devourer and ultimate Vigil Services improved: DMG multiplier increased to 1.15 times the original.\n\n P4\n Sincere Wake\n Potential 4\n\n Ultimate Vigil Services improved: Ultimate Energy cost -15% .\n\n P5\n Winter is Returning\n Potential 5\n\n Battle skill Esoteric Legacy of Seš'qa improved: Amount of SP returned is increased by another 5 ; Mirage Additional ATK Multiplier is increased to 1.2 times the original.\n Show Effects\n\n Lore\n\n \"I am the ... something of war, I guess?\"\n Before the Sarkaz of the floating city found her, Last Rite was a kind-hearted girl adopted by a Caprinae gravekeeper couple. Shaped by their teachings, the young Nachzehrer refused to disturb the dead, resisting her instinct to feed. But that restraint left her reeling with hunger, and her insecurity made her shrink away from others.\n A chance encounter revealed Last Rite's potential to Seš'qa. Enticed by the promise of \"well-paid temp work\" and \"training to suppress instincts,\" she came to be known among merchants as the Princess of the War Court. Now, clad in a Witching Hour prototype combat suit, she wields frost and steel for Endfield's cause — both to fulfill her contract and to strive toward the peaceful future that Endfield has set before her.\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Damage\n T0.5\n Umbral Monument\n\n Pros & Cons\n\n Pros\n Large amounts of burst damage.\n\n Cryo Susceptibility, which boosts her own damage and that of other Cryo teammates.\n\n SP efficient Cryo Infliction application.\n\n Can use Battle Skill pre-combat to gain free SP in encounters that allow it.\n\n Multiple Basic Attack Cancels/Tricks, which help address cons and boost performance.\n\n Cons\n Has ramp-up time if Ultimate isn’t pre-prepared earlier.\n\n Long animation times.\n\n Can waste energy, Cryo Infliction stacks, and potential, if energy isn’t planned around.\n\n Rotation is hindered in teams that consume Inflictions for other purposes.\n\n Review\n\n Kit Intro\n Last Rite is a 6-star, Cryo, Great Sword damage dealer completely centered around building and consuming Cryo Infliction stacks as fast and frequently as possible. This allows her to deal damage through her Ultimate and Combo skills, which are both the focus of her kit.\n What makes Last Rite unique is that she cannot gain energy from her teammates, and her Ultimate costs over twice as much as most other characters. Fortunately, Last Rite’s battle and Combo Skills each grant additional energy, with her combo generating up to half the energy she needs to use her Ultimate all at once. Because of this, triggering Last Rite’s combo as much as possible is the name of her game. To do so, enemies must be afflicted with at least 3 Cryo Infliction, something that requires proper team building in order to achieve in a timely manner.\n With so much importance on Cryo Infliction, Last Rite generally wants teams specifically built around her with the goal of either helping her generate Cryo Infliction faster or buffing her combo and Ultimate damage as much as possible. Her dedication to Cryo also usually rules out playing her in Arts Reaction teams that combine Cryo with other elements to trigger effects like Solidification, as that’s Cryo that could have otherwise been spent on more combos and Ultimates.\n Ultimate\n Last Rite’s Ultimate is the core of her kit and playstyle, and what you’ll be building teams in order to play around. Using it costs 240 energy and causes Last Rite to perform a sequence of 3 serious damage Cryo Attacks during which she’ll be immune to damage. Her Ultimate also comes with a restriction that she can only gain energy from her combo and Battle Skills, something which might seem bad, but actually doesn’t stop Last Rite from gaining this Ultimate at a standard or even faster rate than other damage dealers. Due to how important energy and her Ultimate are, we’ll have a special energy section below to cover them in detail.\n Note: The Ultimate restriction blocks Last Rite from gaining 6.5 energy when her own or other characters' Battle Skills are used.\n Combo\n Last Rite’s Combo Skill is the main way she fuels her high Ultimate cost; however, using it requires the enemy to have at least 3 Cryo Infliction on them in order to trigger. After activation, consumes all Cryo Infliction on the target in order to deal significant Cryo damage and generate 40 energy plus additional damage and another 15 extra energy per Cryo stack consumed. The main things to know from this are that:\n Consuming 3 Infliction grants 85 energy\n\n Consuming 4 Infliction grants 100 energy\n\n This is key info we’ll be using when talking about how best to generate Last Rite’s Ultimate smoothly. This combo also notably only has an 8-9 second cooldown, meaning the main restriction on using it is usually just how fast you can apply Cryo Infliction.\n Tip: Using Combo at 3 Cryo Infliction yields more energy per Infliction than at 4, but which option is more optimal will depend on energy breakpoints. We’ll talk about it in the energy section.\n Talents\n Both of Last Rite’s talents improve her damage and revolve around her combo and Ultimate. The first, Hypothermia, causes Last Rite to inflict Cryo Susceptibility for 15 seconds when consuming Arts Reactions. This triggers every time she uses her combo. The size of the Susceptibility depends on the amount of Infliction consumed. Each stack improves it by 4%, leading to the following numbers:\n 3 Stack Combo = 12% Cryo Susceptibility\n\n 4 Stack Combo = 16% Cryo Susceptibility\n\n This effect is a nice boost to Last Rite’s own damage and any other Cryo teammates.\n Note: The Cryo Susceptibility from this talent is applied before the bulk of the damage of the combo, and it will also be buffed despite being the ability that applies it.\n Last Rite’s other talent, Cryogenic Embrittlement, causes her Ultimate to increase the effect of Cryo Susceptibility when hitting the target by 1.5 times. This increase only applies to the damage of the Ultimate, so the 12% and 16% from Hypothermia would instead become 18% and 24%.\n Note: This effect isn’t just limited to increasing Last Rite’s own Susceptibility but can also increase other sources, such as Ardelia’s Art’s Susceptibility.\n Battle Skill\n Last Rite’s Battle Skill applies a buff to the squad, which lasts 15 seconds. This causes the next Final Strike performed by the controlled operator to summon a mirage of Last Rite that attacks, dealing Cryo Damage while applying a Cryo Infliction stack. Using this ability generates 16 energy and consumes the usual 100 SP. Immediately after, it refunds 30 SP, so in practice, it only costs 70. This skill is essential for energy breakpoints and is a highly efficient way of building the stacks needed for Last Rite’s Combo Skill, as you’ll be using it a lot when playing her.\n Tip: This Battle Skill can be used at any point during basic attack animations without interrupting them, making weaving it into standard gameplay quite easy. This ability can also be used prior to combat starting, letting you stockpile a usage of it while still beginning the fight with 200 SP. This won't work in some endgame modes, though.\n Energy\n Because Last Rite is entirely reliant on herself for energy, it’s possible to completely map out how many Combos and Battle Skills she’ll need to access her Ultimate each time. This ensures we build the optimal amount of energy and avoid wasting Cryo Infliction.\n There are currently two main approaches to Energy on Last Rite, one which runs a slightly longer rotation but gets to invest fully into damage on gear and maximizes susceptibility during Ultimate, and one gives a little of that up in favor of a shorter rotation.\n Assuming you’re playing Last Rite alongside a character like Xaihi capable of applying at least 1 Cryo Infliction per combo skill and you’re using Last Rite’s Combo as soon as available, you’re likely to run into the energy scenario below, which leaves you just short of having your Ultimate.\n Last Rite 0% Ultimate Gain Rotation\n Ability\n Uses\n Base Energy\n\n Battle Skills\n 4\n 64\n\n 3 Stack Combos\n 2\n 170\n\n Total\n\n 234\n\n That’s not enough energy to hit 240, so we’ll either need some energy regen or to switch up the rotation, both of which are viable depending on what you need. The first solution is to use a piece like Tide Fall Light Armour to cover the short fall and then some.\n Last Rite 10.1% Ultimate Gain Rotation\n Ability\n Uses\n Base Energy\n Final Energy\n\n Battle Skills\n 3\n 48\n 52.848\n\n 3 Stack Combos\n 2\n 170\n 187.17\n\n Total\n\n 240.01\n\n With the above set-up, you have enough energy using a standard rotation and also only need to use 3 Battle Skills instead of 4, meaning you can be more flexible with how you generate your Cryo Infliction.\n If you don’t want to give up using a completely damage-focused set-up though, you can instead opt to extend Last Rite’s rotation to make-up the missing energy. The most optimal way to do this is to weave in an extra Battle Skill and execute a 4 Infliction combo, ideally right before Ultimate, to take advantage of the increased Cryo Susceptibility.\n Note: If you can gain the 5th Cryo Infliction in another way, that also works, allowing you to save SP and still execute a 3 and 4-stack combo.\n Last Rite 0% Ultimate Gain Rotation\n Ability\n Uses\n Base Energy\n\n Battle Skills\n 4\n 64\n\n 3 Stack Combos\n 1\n 85\n\n 4 Stack Combos\n 1\n 100\n\n Total\n\n 249\n\n After this, you may wonder if stacking even more energy might be even more optimal. In most cases, at P0, the trade-off simply isn’t worth it, as you’ll be sacrificing too much damage to achieve it. This can change at P4 as it becomes more realistic to attempt to hit major breakpoints like gaining Last Rite’s Ultimate in a single Combo Skill, but that is a far higher investment.\n Gameplay\n Last Rite’s gameplay is simple and rotational; as long as you hit the correct usage of abilities, she’ll always play the same. Here is what to do, assuming you’re using a standard 10.1% energy Last Rite build:\n Accumulate 3 Cryo Infliction while using Last Rite’s Battle Skill at least 2 times;\n\n Consume Infliction Stacks with Combo Skill;\n\n Accumulate another 3 Cryo Infliction using at least 1 Last Rite Battle Skill, activate all team buffs, consume Cryo Infliction with combo, then Ultimate.\n\n Something like the rotation above is what you’ll continue to repeat for the whole fight, but depending on the encounter and your team, you can switch it up. Here are a few more things to consider:\n If the battle allows it, use Battle Skill before combat starts, allow SP to recover, and start fights with an effective 300 SP.\n\n You only need to use Last Rite’s Battle Skill 3 times over 2 Combo Skills. The order in which you use the former or the latter doesn’t matter; you can swap them around.\n\n If you have teammates capable of granting a lot of Cryo Infliction, like Fluorite, you can trade out having Last Rite use Battle Skills and instead use a 4-stack combo to compensate.\n\n If possible, try to align using the Combo + Ultimate combination at a time the enemy is Staggered.\n\n Optimizations\n Last Rite is heavily dependent on getting Final Strikes, so being able to speed through her Basic Attack sequence faster can help her perform better. This can be done by Dodge cancelling the 2nd hit of her Basic 2, as well as the recovery animation of her Basic 4. Doing this will grant you more SP plus Stagger over a fight and, most importantly, churn through Last Rite’s battle skill activations more quickly, accumulating Cryo Infliction faster.\n\n Build\n\n Collaboration Disclaimer\n\n Some calculations on this page are done in collaboration with Guobafield (Guoba Certified) . Other calculations not in his videos, and any other content (like comments on Weapons, Gear, etc), are our own.\n\n Best Weapons\n\n The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Last Rite performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Khravengger (P 0 )\n\n Last Rite's signature is definitely her best option by a long shot, thanks to its perfect combination of passive stats, which, when combined with its tailor-made weapon effect, set it well above the competition. Said weapon effect consistently grants Last Rite two Cryo DMG% buffs, which are easily active throughout the most impactful parts of her rotation.\n\n 2\n Solo 80.00%\n Team 83.70%\n\n Sundered Prince (P 0 )\n\n An alternative generic 6-star option you can use if you don't yet have Last Rite's signature, but it falls behind as it grants imperfect passive stats - the third stat is Crit Rate, which on release, is an undesirable damage stat for Last Rite. Add to that the fact that the weapon effect is also underwhelming in comparison, and it's no surprise this Greatsword falls behind her best option.\n\n 3\n Solo 78.40%\n Team 82.40%\n\n Seeker of Dark Lung (P 5 )\n\n A 5 star atlerative to Sundered Prince, which takes some work to get suitable performance out of but can compete and sometimes beat it with the right set-up. It offers a low damage but unique passive stat line, with the standout addition being Ultimate Gain Efficiency. If built around, it can allow Last Rite to hit a new Ultimate breakpoint and if not built around properly, it drops this weapon's performance a bit lower than represented. This Greatsword's Weapon Effect also isn't bad and is better than Sundered Prince's funnily enough, but you'll still need to build around this Weapon's energy if you want it to work.\n\n 4\n Solo 75.30%\n Team 79.80%\n\n Exemplar (P 0 )\n\n A 6-star stat stick with partially correct passives, but with wasted Physical DMG% and a wasted Weapon Effect, dropping it below other options. Still beats out Seeker of Dark Lung if not playing around its Energy Regen though, thanks to its superior raw stats, but not by much.\n\n 5\n Solo 64.80%\n Team 71.30%\n\n Industry 0.1 (P 5 )\n\n Last resort option if you're lacking any of the choices above. Has the correct passive stats, but all at much lower base values, setting it significantly behind all other choices.\n\n Best Gear\n\n The solo percentage shows how the set and gear impact Last Rite performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 100%\n Team 100%\n\n Tide Surge\n\n Description\n Currently, Tide Surge is the only 3P set worth considering running on Last Rite, the reason being that its set pieces are simply too well-tailored to her stat needs. When considering gear pieces for Last Rite, depending on what you're after, you can either prioritize Ultimate Gain in order to achieve the fastest Ultimates possible or more damage to maximize burst. Which is right for you will depend on how many inflictions you're consuming per Combo Skill to access Last Rite's Ultimate and if you're targeting any major energy breakpoints in order to skip Combo Skills completely.\n Pieces\n Armor\n Aethertech Plating\n\n Gloves\n Tide Surge Gauntlets Tide Surge\n\n Kit\n Hanging River 02 Tube Tide Surge\n\n Kit\n Hanging River 02 Tube Tide Surge\n\n Alternative Pieces\n Aethertech Plating\n - The current set default for the gear set and is the highest damage potential option for those able to align Last Rite's Combo and Ultimate during stagger, but less effective for those unable to do so. Swapping out the baseline.\n Type 50 Yinglung Light Armor\n - If you're worried about lining up for Staggers and want a consistent always active damage across the board, Type 50 Yinglung Light Armour is the best option, although not quite as good for those who can optimize.\n Frontiers Armor T1\n - In some teams, Last Rite is brought as a Cryo Infliction specialist and not for her own personal damage (Yvonne teams). In these teams, she won't be using high Infliction stack Combos or her Ultimate often, so focusing on good main stats and boosting her damage is best by using this armor.\n Tide Fall Light Armor\n - If you're ok giving up some damage, you may give up using any of the three damage armors above in favor of some extra Ultimate Gain. The bonus energy this provides will allow Last Rite to Ult in two 3 Infliction Combo Skills instead of needing a 4 Infliction + 3 Infliction sequence, saving some SP and time. Whether this is worth the damage loss will depend on the encounter and the player.\n LYNX Gloves\n - If you need even more Ultimate Gain and are ok dropping even damage for it, you can swap out Tide Surge Gauntlets for Lynx Gloves at the same time as using Tide Fall Armor. This is usually only an upgrade if you can hit a significantly more powerful Ultimate breakpoint by making the swap, which is most common at P4 to skip whole Combo Skills or if you're using an Energy Weapon.\n\n Best Gear Pieces\n\n Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 122.80%\n Aethertech Plating\n\n Solo 120.00%\n Bonekrusha Poncho\n\n Solo 106.20%\n Bonekrusha Poncho T1 *\n\n Solo 118.80%\n Frontiers Armor\n\n Solo 111.90%\n MI Security Armor\n\n Solo 110.40%\n Tide Fall Light Armor *\n\n Solo 122.00%\n Type 50 Yinglung Light Armor\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 107.70%\n Eternal Xiranite Gloves *\n\n Solo 114.70%\n LYNX Gloves *\n\n Solo 112.80%\n Swordmancer TAC Gauntlets\n\n Solo 126.40%\n Tide Surge Gauntlets\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 106.60%\n Aethertech Stabilizer\n\n Solo 109.10%\n Bonekrusha Mask\n\n Solo 102.30%\n Eternal Xiranite Auxiliary Arm *\n\n Solo 103.80%\n Eternal Xiranite Power Core *\n\n Solo 111.90%\n Frontiers Comm\n\n Solo 118.60%\n Frontiers Comm T1\n\n Solo 120.30%\n Hanging River 02 Tube\n\n Solo 108.70%\n Hot Work Power Bank\n\n Solo 116.00%\n LYNX Slab\n\n Solo 120.30%\n MI Security Armband\n\n Solo 108.20%\n Turbid Cutting Torch\n\n Solo 113.40%\n Type 50 Yinglung Knife T1\n\n Solo 100%\n Nothing equipped\n\n Potentials Review\n\n P 1\n Solo 100.7 %\n Team 100.6 %\n Undertaker's Gift\n\n Increase the damage of Final Strikes, which are buffed by Last Rite’s skill by 20%, and causes them to inflict an additional 5 Stagger. Doesn’t add up to being much of a damage increase, but the extra Stagger can be nice for getting to Stagger nodes more quickly.\n\n P 2\n Solo 106.7 %\n Team 105.5 %\n Absolute Zero Armament\n\n A small boost to strength and some Cryo DMG%, which adds together to be a modest boost in damage for Last Rite.\n\n P 3\n Solo 114.9 %\n Team 112.2 %\n Overlord of Winter\n\n Increases the damage (Unique damage multiplier) of Last Rite’s Combo Skill and Ultimate by 15%, resulting in a nice passive damage boost.\n\n P 4\n Solo 142.3 %\n Team 134.8 %\n Sincere Wake\n\n Reduces Last Rite’s Ultimate cost by -15%, taking it from 240 to 20,4 opening up a myriad of new energy breakpoints and potential rotations. One of these possibilities is the option to invest further into energy regen on gear and swap 3-stack combos for 4-stack combos, allowing Last Rite to Ultimate after every Combo Skill. When played around, this potential is a large damage increase, which notably improves Last Rite’s gameplay. Calculations implement a new rotation by swapping gloves for more energy regen, which utilizes 3 Battle Skills plus one 4-stack Combo Skill to use Ultimate every Combo Skill.\n\n P 5\n Solo 146.2 %\n Team 137.9 %\n Winter is Returning\n\n Increases the damage (Unique damage multiplier) of Last Rite’s Battle Skill Mirage by 20% and causes it to return 5 SP on hit, upgrading the SP efficiency of this ability further. Not a large damage increase, but helps resource management on the team a bit.\n\n Dupes information - visual\n Important! The graph generator tool we're using has some issues currently and it displays the 'rows' wrong visually. The percentages shown are fully correct though.\n\n P5\n\n Team Performance 137.9 %\n\n Solo Performance 146.2 %\n\n P4\n\n Team Performance 134.8 %\n\n Solo Performance 142.3 %\n\n P3\n\n Team Performance 112.2 %\n\n Solo Performance 114.9 %\n\n P2\n\n Team Performance 105.5 %\n\n Solo Performance 106.7 %\n\n P1\n\n Team Performance 100.6 %\n\n Solo Performance 100.7 %\n\n P0\n\n Team Performance 100 %\n\n Solo Performance 100 %\n\n Calculations\n\n In this section we're showing the team setup used for the above calculations as well as the damage split for Last Rite based on where it comes from. The setup isn't always best in slot for each character and also please keep in mind that with different team members, Weapons, and Gear, the calculations will change.\n\n Operator 1\n\n Weapon\n Khravengger\n\n Operator 2\n\n Weapon\n Stanza of Memorials\n\n Operator 3\n\n Weapon\n Detonation Unit\n\n Operator 4\n\n Weapon\n Dreams of the Starry Beach\n\n Last Rite Damage Split\n\n Skill Priority\n\n Main Field :\n Combo Skill >= Ultimate >= Basic Attack > Battle Skill\n\n Teams and Synergies\n\n Synergies\n\n Cryo\n\n Tangtang Cryo\n\n Last Rite's ability to have a reliable, low SP-cost Cryo Infliction application means she can easily sustain Tangtang's Combo Skill triggers on cooldown.\n\n Tangtang's Arts Susceptibility scales with Last Rite's \"Cryogenic Embrittlement\" Talent, further increasing its value.\n\n Likewise, Tangtang can work as a Sub-DPS unit, who also benefits from the Cryo Susceptibility from Last Rite's own Hypothermia Talent, with both units buffing each other's damage.\n\n As Tangtang has good range and area of effect on her Battle Skill and Ultimate, she can help make up for Last Rite's weakness against multiple enemies, being an effective option to clear out trash mobs in certain stages, allowing for Last Rite to conserve her Ultimate for bosses.\n\n Nature\n\n Ardelia Nature\n\n Able to permanently maintain both Arts and Physical susceptibility on targets for generic team-wide damage increases that work in any team\n\n Outstanding supportive weapon and set options for even more damage amplification, with options that work for both Physical and Arts\n\n Forcibly applies Corrosion, which, when optimized around, can lower enemy resistances to all damage temporarily if Susceptibility doesn't need to be refreshed\n\n Only requires 100 SP roughly every 30 seconds to function at maximum capacity\n\n Strong enough sustain to single handedly keep the team alive through most endgame encounters as long as smart dodging is used.\n\n Cryo\n\n Xaihi Cryo\n\n Provides Last Rite a huge amount of Arts Amp from Battle Skill and Ultimate, boosting her damage significantly\n\n Fanstatic healing as long as you land Final Strikes\n\n Free Cryo Infliction application from Combo skill, which massively helps Last Rite's rotations\n\n Outstanding supportive weapon and set options that stack well even when running multiple other Arts unit supports\n\n Both characters have the same game plan that focuses on Final Strikes to function\n\n Electric\n\n Perlica Electric\n\n Perlica has outstanding supportive weapon choices\n\n Can apply Electrification for free with Combo skill, which is easily timed to align with Last Rite's Ultimate and Combo skill, increasing damage taken by the target signifcantly\n\n Solid sub DPS potential, contributing a bit of damage of her own\n\n Works well alongside other buffers who cover other buff categories, such as Amp, DMG%, and ATK%, as Perlica's Damage Taken is in a different multiplier group\n\n Nature\n\n Fluorite Nature\n\n Applies extra Cryo Infliction with Ultimate and Combo skill, but with a high cost on the Ult and a long cooldown on the Combo\n\n In short fights, where cooldowns don't matter, can allow Last Rite to reach her Combo skill faster than other teams\n\n When planned and built carefully can unlock new, faster Last Rite energy breakpoints that need more than usual Infliction than she's used to getting\n\n Inlfiction is strong, but Fluorite has no buffing capabilities in her kit, gear, or weapons, meaning you really have to get value out of it for her to be worth it\n\n Teams\n\n Last Rite teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1\n Team Members\n\n Last Rite\n\n Xaihi\n\n Tangtang\n\n Perlica\n\n The Last Rite, Xaihi, Perlica shell is a tried and tested shell, being one of the strongest single target burst comps as of release. Tangtang's addition to the team can help with mob clearing (owing to her decent AoE damage) and makes for a far more comfortable buffer than alternatives.\n There are two ways of running this comp, one being with a sub-DPS Tangtang build on Bonekrusha, or as a support with Xiranite.\n 0 Ultimate Energy Start Rotation\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Final Strike x2\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Finisher\n\n →\n\n Ultimate\n\n →\n\n Battle Skill x2\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Dive Attack\n\n →\n\n Combo\n\n →\n\n Combo\n\n The above rotation is compatible with no additional Ultimate Gain Efficiency on Tangtang, but does need Potentials on Xaihi and Perlica for Ultimate Energy cost reductions.\n Swapping between Last Rite and Tangtang is important to both align Final Strikes and get enough stagger and SP recovery. Animation cancelling B2 and Final Strikes with Last Rite makes a big difference as to the rotation time.\n Quickstart Burst Rotation (Full Ultimates Ready)\n\n Battle Skill (Pre-Cast)\n\n →\n\n Battle Skill (Pre-Cast)\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Dive Attack\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n For the above rotation, other than the start, having Tangtang as the controlled Operator after her first Combo Skill would work best.\n\n Team #2\n Team Members\n\n Last Rite\n\n Perlica\n\n Xaihi\n\n Ardelia\n\n Team #3\n Team Members\n\n Last Rite\n\n Fluorite\n\n Xaihi\n\n Ardelia\n\n Team #4\n Team Members\n\n Last Rite\n\n Xaihi\n\n Akekuri\n\n Ardelia"
+}

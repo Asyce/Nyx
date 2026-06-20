@@ -1,0 +1,3887 @@
+{
+  "name": "Qiqi",
+  "desc": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+  "chara_info": {
+    "release_date": "2020-09-15 04:00:00",
+    "birth": [
+      3,
+      3
+    ],
+    "vision": "Cryo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Pristina Nola",
+    "region": "ASSOC_TYPE_LIYUE",
+    "title": "Icy Resurrection",
+    "native": "Bubu Pharmacy",
+    "detail": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+    "va": {
+      "chinese": "宴宁",
+      "japanese": "田村ゆかり",
+      "english": "Christie Cate",
+      "korean": "Lee Seul"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Due to being a zombie, Qiqi lacks facial expression. She hopes that's okay.\\nShe may look like a zombie, but she's surprisingly limber due to a strict calisthenics regimen.\\nHer memory is poor. She forgets easily, and that is partly why she can seem cold to others.\\nHer appearance is forever frozen at the point of her passing, so estimates of her age are unreliable.\\nZombies require orders to act, but due to some reason or another, Qiqi is presently giving herself orders.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Usually, zombies are cold and stiff, which forces them to locomote by hopping about.\\nAs such, Qiqi keeps up a calisthenics regimen to retain a human-like form.\\nThe 77th-generation Director of the Wangsheng Funeral Parlor, Hu Tao, doesn't see the point of all this. Whenever she meets Qiqi, she will say: \"It would be easier if you just let me bury you.\"\\nQiqi, of course, has no wish to be buried, and so conducts her exercises at night when no one's about.\\nQiqi's memory falls far behind those of non-undead disposition.\\nIf she does not continue to reinforce her impressions of someone, she will completely forget them in three days tops.\\nBut who knows, this might be a good thing — for a person with painful memories, forgetting may, in fact, be a form of release.\\nThe person Qiqi must remember most... not only does this person have a very punch-able face, but she also shows up every single day.\\nAs such, Qiqi isn't too concerned about her poor memory.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Qiqi is very petite indeed, but is in fact a very powerful zombie. Her short stature is hardly any impediment, but is instead good for high-speed movement.\\nIn combat, Qiqi will unleash the self-control that she usually maintains, allowing her body to return to an undead state, increasing her strength and speed.\\n\"You're dead.\"\\nOnce she has stoically defeated her enemies, Qiqi will once again get her muscles under control, returning to her normal state.\\nShe has been threatened in the past by Treasure Hoarders while picking herbs by herself.\\nNow, a little girl, all by herself, seems like an easy target, no?\\nWho would have thought that this girl could send a whole crew flying?\\nThis is why we should always remember never to judge a person based on appearances. Or a zombie, for that matter.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Zombies mostly require orders from the person who awakens them to move. But strictly speaking, Qiqi has never been awakened.\\nAs such, she counts as a very rare case of a zombie that gives itself orders.\\nIf these orders are simple ones like \"defeat the enemy,\" Qiqi has no problem fulfilling them.\\nBut when faced with complex instructions such as \"go to Jueyun Karst, climb the sheer rock faces and pick herbs,\" Qiqi sometimes winds up stuck below the cliffs, unable to give up no matter how many times she tries and fails to scale the cliff.\\nThe method to cancel her orders is very simple — hug Qiqi from behind, tell her something like \"I love you the most,\" and the orders will dissipate, just like that.\\nUnfortunately, there's just no element of sincerity when Baizhu does it, leading to greatly reduced results.\\nPerhaps someday, someone will come along who understands that such words cannot be spoken lightly, and who slowly but carefully releases the hold that Qiqi's orders have over her...\\nWhat will Qiqi's response be then?",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "This ancient story has long been forgotten by mortals.\\nAn ordinary herb-picking lass named Qiqi lost her way and trespassed the realm of the adepti. Injuring her right leg in a fall, she hurriedly hid in a cavern to rest.\\nEven occupied as she was in bandaging her wound, she could hear sounds that did not belong to the mortal plane. But she could have never expected that with a huge crash, she would forever be trapped between life and death.\\nWhether adepti or demons, just or wicked, all understood that she was an innocent mortal caught in the crossfire.\\nOr perhaps it was by the will of heaven that she received a Vision in her dying moments, and so ended this contention between adepti and demon.\\nThe adepti could not bear to let her die, and each imparted to her a portion of their strength, meaning to breathe life back into her body.\\nQiqi did indeed awaken and live again, but went into a berserk state, unable to control the adepti energy raging through her.\\nSeeking to end the disturbance, Mountain Shaper had no choice but to seal the hapless maiden in amber.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "After hundreds of years, Qiqi was discovered by humans, still trapped in the amber, and was brought to Wangsheng Funeral Parlor for burial.\\nThe mountain roads were treacherous, however, and the amber was bumped about. Coupled with the passing of many years, the seal on Qiqi was all but spent.\\nShe awakened in the middle of the night, broke the amber in secret, and fled.\\nFollowing the herb-picking habits of her previous life, Qiqi headed right for the hills.\\nBy chance, she met Baizhu, the boss of Bubu Pharmacy, on the way, and he took her in.\\nNow, Baizhu was a doctor of great skill, but he was hardly a man of high caliber or great courage.\\nEven so, he took her in, never mind that her memory was so poor that she could not even sort herbs out.\\nIt does seem that his acceptance of Qiqi has something to do with his own personal pursuits.\\nQiqi is stiff, but not slow, and has long realized this. However, she does not take it to heart.\\nPerhaps she has seen too much, or been alone for too long... But what remains true is that she treasures his concern, even if there is some other motive behind it.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "A Home-and-Away Handbook of Practical Wisdom for the Undead",
+        "text": "Qiqi carries something with her that looks like a notebook.\\nQiqi's memory is very poor, so it is an object of irreplaceable importance if she is to smoothly go about her daily life.\\nThe words within are written in a centuries-old style, and are very elegant indeed.\\nThe first page is an instructional on calisthenics.\\nMoving past that, one finds the descriptions of various herbs and some \"orders.\"\\nQiqi needs to give herself orders, so she has very precise instructions to ensure smooth transition.\\nShe has also dutifully written down all the things she needs to do in a day.\\nRecently, she has also added a section on \"brain training\" and \"mnemonic methods.\"\\nAt this point, it has become a true \"dummy's guide\" on just about anything.\\nBut if the day ever comes when Qiqi also forgets to look at her notebook... there would truly be nothing for it then.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "Qiqi's Vision was given to her in the last moment of her life.\\nShe wanted to stop the clock from turning. She wanted to live happily again.\\nShe feared death. She wanted to live. She missed her family... These feelings coalesced at last into \"ice.\"\\n\"If only I could freeze time... How wonderful would that be?\"\\nAs she thought thus, tears fell from the moribund girl's eyes upon the Vision that had appeared before her.\\nThe mighty and illuminated adepti all acknowledged this as a legitimate form of \"illumination\" — the yearning of humanity for bygone days is, after all, a desire to protect that past.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "I am Qiqi. I am a zombie. And I... forgot what comes next.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Talking to Herself",
+        "text": "Hey, do you know what? Uhh... neither do I. I... already forgot.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Afraid of Heat",
+        "text": "Let's go somewhere cooler.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Training",
+        "text": "One, two, three, four. Two, two, three, four...",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "I forgot my umbrella again.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "I want to build a snowman. Will you help?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "I should have stayed indoors today.",
+        "unlocked": []
+      },
+      {
+        "title": "When It's Windy",
+        "text": "The wind is... frigid. I like it.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "Hold my hand please. This wind could blow me away.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Good Morning",
+        "text": "Morning means it's time to check my diary. Because my diary reminds me what I'm supposed to do in the morning.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "I just remembered something. I forgot to help Dr. Baizhu prepare medications.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Good evening. How was your day? My day was... fine, I think. But I can't remember.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "It's time for you to sleep now. I will do my stretches. ...Do not watch me, please.",
+        "unlocked": []
+      },
+      {
+        "title": "About Qiqi",
+        "text": "Did you ask me something? Sorry... I forgot.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Memory",
+        "text": "I have a poor memory for most things. But as far as I know, that doesn't matter.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Memory Training",
+        "text": "I started memory training exercises recently. So don't worry, I won't forget who you are.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "My Vision can't turn back time. But at least it gives me the power to protect the people that matter most.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "I may be a corpse, but I am in a much better physical condition than Dr. Baizhu.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "Sometimes I see finches near the pharmacy. A nice little group of finches.",
+        "unlocked": []
+      },
+      {
+        "title": "About Baizhu",
+        "text": "I can never remember Dr. Baizhu's face. But I don't mind.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Hu Tao",
+        "text": "Warm. Fake smile. Death. I despise Hu Tao.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xiao: Name",
+        "text": "Sounds like a historical artifact to me.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xiao: Memory",
+        "text": "Remind me, have I met him before?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xinyan",
+        "text": "...Who?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yaoyao",
+        "text": "Cute. Like a nice little finch.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Dusky Ming",
+        "text": "On some nights, I almost feel like someone is doing stretches together with me. But maybe I just have an overactive imagination.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Qiqi: I",
+        "text": "What's going on?",
+        "unlocked": []
+      },
+      {
+        "title": "More About Qiqi: II",
+        "text": "I perform stretches regularly to help me maintain the same range of movement as a normal human being. But as soon as I stop doing them, the rigor mortis starts to set in again.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Qiqi: III",
+        "text": "Some people want to take advantage of me. Others are terrified of me. But you... You are not like any of those people.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Qiqi: IV",
+        "text": "Since we first met, I have had a warm feeling inside. Not the kind of warmth that makes me feel rotten. The other kind of warm. The one that happens inside my heart. Thank you. I am happy. Sadly I only recognize the current you. If I forget you... No. I will order myself to remember you.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Qiqi: V",
+        "text": "In the past, my only thought was: I must stay alive. Even though I didn't know what to live for. But now, I think I know. I want to live with you. I want to ask, can we always stay together, for the rest of life, until death? Yes or no? Yes? Is that your real answer? Good, excellent. I promise to always protect you.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Qiqi's Hobbies",
+        "text": "I want to have a pet. For example, a nice little finch.",
+        "unlocked": []
+      },
+      {
+        "title": "Qiqi's Troubles",
+        "text": "I don't know why, but high temperatures make me feel... disgusting.",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "I like coconut milk... But, I don't know what it tastes like.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "Sorry, I have no idea.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Many happy returns. Here is a bag of herbal medicine for you. You must be very surprised that I remembered? Let me explain. Last time you told me, I wrote your birthday down on a piece of paper. If I look at something once a day, it eventually goes into my long-term memory, and it will stay there forever.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "Now, I have more power. But... what does that mean? Please explain. Thank you.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Ah, I understand. When I get stronger, I need to put more effort into controlling my strength.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "In the past, I did not understand the idea of being stronger than I already was. Now that I understand it well, I wish I was just a little stronger still.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "All of this is because of you. Thank you very much. Can you make me a promise? From now on, please, let me protect you. Do you accept? Yes or no?",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Wheel of life.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Life goes on.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Go.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: IV",
+        "text": "Rise.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Orders given. Orders received.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Sacred name: Fortune Preserver.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Opening box of Adepti tricks.",
+        "unlocked": []
+      },
+      {
+        "title": "Sprint Start: I",
+        "text": "Faster? Okay, faster.",
+        "unlocked": []
+      },
+      {
+        "title": "Deploying Wind Glider: I",
+        "text": "Uh... Huh...",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "Ooh, pretty.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Treasure chests... hmm... do we like treasure chests?",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Wasn't there something in here a second ago...?",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "Ow.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Oh no...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "I must live on...",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Danger.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Stop. Let me do it.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "Don't want... to be sealed... back up...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "Cold... So cold...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "No...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "I didn't feel that.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Wow.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "Oh...",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "I'm here.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "What's happening?",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "I will... bring my notebook.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Cold. I like it. But, no flavor...",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Huh...",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "It's burning my tongue...",
+        "unlocked": []
+      },
+      {
+        "title": "About Prune",
+        "text": "She looks tough on the outside... but her palms are nice and soft. I like her.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"The Magic That Never Fails\""
+        ]
+      }
+    ],
+    "special_food": {
+      "id": 108140,
+      "recipe": 3105,
+      "name": "No Tomorrow",
+      "icon": "UI_ItemIcon_108140",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210019,
+      "name": "Qiqi: Cold Storage",
+      "desc": "Namecard style.\\nWhat should be kept in the fridge? Dr. Baizhu's herbs, coconut milk... and Hu Tao.",
+      "icon": "UI_NameCardPic_Qiqi_P"
+    },
+    "costume": [
+      {
+        "id": 203500,
+        "name": "Summerchill Dreams",
+        "desc": "Qiqi's outfit. A herb gatherer's garment that brings her great peace of mind due to the attached talismans.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": [
+      {
+        "id": 215002,
+        "name": "Echo: Icy Resurrection",
+        "desc": "Qiqi's Envisaged Echo. The Heralds of Frost often come to visit and do calisthenic exercises together with her.",
+        "icon": "UI_TraceEffectIcon_Qiqi"
+      }
+    ]
+  },
+  "weapon": "WEAPON_SWORD_ONE_HAND",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Cryo",
+  "icon": "UI_AvatarIcon_Qiqi",
+  "stamina_recovery": 25,
+  "base_hp": 962.8532,
+  "base_atk": 22.344,
+  "base_def": 71.796,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 825.5596,
+        "fight_prop_base_defense": 61.56,
+        "fight_prop_base_attack": 19.15656,
+        "fight_prop_heal_add": 0
+      },
+      {
+        "fight_prop_base_hp": 1412.1414,
+        "fight_prop_base_defense": 105.3,
+        "fight_prop_base_attack": 32.7678,
+        "fight_prop_heal_add": 0.0554
+      },
+      {
+        "fight_prop_base_hp": 2194.2505,
+        "fight_prop_base_defense": 163.62,
+        "fight_prop_base_attack": 50.91612,
+        "fight_prop_heal_add": 0.1108
+      },
+      {
+        "fight_prop_base_hp": 2780.8323,
+        "fight_prop_base_defense": 207.36,
+        "fight_prop_base_attack": 64.52736,
+        "fight_prop_heal_add": 0.1108
+      },
+      {
+        "fight_prop_base_hp": 3367.414,
+        "fight_prop_base_defense": 251.1,
+        "fight_prop_base_attack": 78.1386,
+        "fight_prop_heal_add": 0.1662
+      },
+      {
+        "fight_prop_base_hp": 3953.9958,
+        "fight_prop_base_defense": 294.84,
+        "fight_prop_base_attack": 91.74984,
+        "fight_prop_heal_add": 0.2215
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10351,
+      "name": "Ancient Sword Art",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 5 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.37754,
+            0.38872,
+            0.24166,
+            0.24682,
+            0.63038,
+            0.64328,
+            20,
+            0.639324,
+            1.278377,
+            1.596762,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.40827,
+            0.42036,
+            0.26133,
+            0.26691,
+            0.68169,
+            0.69564,
+            20,
+            0.691362,
+            1.382431,
+            1.726731,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.439,
+            0.452,
+            0.281,
+            0.287,
+            0.733,
+            0.748,
+            20,
+            0.7434,
+            1.486485,
+            1.8567,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4829,
+            0.4972,
+            0.3091,
+            0.3157,
+            0.8063,
+            0.8228,
+            20,
+            0.81774,
+            1.635134,
+            2.04237,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.51363,
+            0.52884,
+            0.32877,
+            0.33579,
+            0.85761,
+            0.87516,
+            20,
+            0.869778,
+            1.739187,
+            2.172339,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.54875,
+            0.565,
+            0.35125,
+            0.35875,
+            0.91625,
+            0.935,
+            20,
+            0.92925,
+            1.858106,
+            2.320875,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.59704,
+            0.61472,
+            0.38216,
+            0.39032,
+            0.99688,
+            1.01728,
+            20,
+            1.011024,
+            2.02162,
+            2.525112,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.64533,
+            0.66444,
+            0.41307,
+            0.42189,
+            1.07751,
+            1.09956,
+            20,
+            1.092798,
+            2.185133,
+            2.729349,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.69362,
+            0.71416,
+            0.44398,
+            0.45346,
+            1.15814,
+            1.18184,
+            20,
+            1.174572,
+            2.348646,
+            2.933586,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7463,
+            0.7684,
+            0.4777,
+            0.4879,
+            1.2461,
+            1.2716,
+            20,
+            1.26378,
+            2.527025,
+            3.15639,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.79898,
+            0.82264,
+            0.51142,
+            0.52234,
+            1.33406,
+            1.36136,
+            20,
+            1.352988,
+            2.705403,
+            3.379194,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.85166,
+            0.87688,
+            0.54514,
+            0.55678,
+            1.42202,
+            1.45112,
+            20,
+            1.442196,
+            2.883781,
+            3.601998,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.90434,
+            0.93112,
+            0.57886,
+            0.59122,
+            1.50998,
+            1.54088,
+            20,
+            1.531404,
+            3.062159,
+            3.824802,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.95702,
+            0.98536,
+            0.61258,
+            0.62566,
+            1.59794,
+            1.63064,
+            20,
+            1.620612,
+            3.240537,
+            4.047606,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:F1P}+{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "5-Hit DMG|{param5:P}",
+            "Charged Attack DMG|{param6:P}+{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0097,
+            1.0396,
+            0.6463,
+            0.6601,
+            1.6859,
+            1.7204,
+            20,
+            1.70982,
+            3.418915,
+            4.27041,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10352,
+      "name": "Adeptus Art: Herald of Frost",
+      "desc": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing <color=#99FFFFFF>Cryo DMG</color> to surrounding opponents.\\n\\n<color=#FFD780FF>Herald of Frost</color>\\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\\n·Periodically regenerates your active character's HP.\\n·Follows the character around, dealing <color=#99FFFFFF>Cryo DMG</color> to opponents in their path.\\n\\n<i>I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.1056,
+            67.40786,
+            0.696,
+            450.5507,
+            0.36,
+            15,
+            30,
+            0.96,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.11352,
+            74.149574,
+            0.7482,
+            495.612,
+            0.387,
+            15,
+            30,
+            1.032,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.12144,
+            81.45311,
+            0.8004,
+            544.42847,
+            0.414,
+            15,
+            30,
+            1.104,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.132,
+            89.31845,
+            0.87,
+            597,
+            0.45,
+            15,
+            30,
+            1.2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.13992,
+            97.745605,
+            0.9222,
+            653.32666,
+            0.477,
+            15,
+            30,
+            1.272,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.14784,
+            106.73457,
+            0.9744,
+            713.40845,
+            0.504,
+            15,
+            30,
+            1.344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.1584,
+            116.28535,
+            1.044,
+            777.2453,
+            0.54,
+            15,
+            30,
+            1.44,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.16896,
+            126.39793,
+            1.1136,
+            844.83734,
+            0.576,
+            15,
+            30,
+            1.536,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.17952,
+            137.07233,
+            1.1832,
+            916.18445,
+            0.612,
+            15,
+            30,
+            1.632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.19008,
+            148.30853,
+            1.2528,
+            991.2866,
+            0.648,
+            15,
+            30,
+            1.728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.20064,
+            160.10654,
+            1.3224,
+            1070.1439,
+            0.684,
+            15,
+            30,
+            1.824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.2112,
+            172.46637,
+            1.392,
+            1152.7563,
+            0.72,
+            15,
+            30,
+            1.92,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.2244,
+            185.388,
+            1.479,
+            1239.1239,
+            0.765,
+            15,
+            30,
+            2.04,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.2376,
+            198.87144,
+            1.566,
+            1329.2466,
+            0.81,
+            15,
+            30,
+            2.16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param8:P}",
+            "Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+            "Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+            "Herald of Frost DMG|{param5:F1P}",
+            "Duration|{param6:F1}s",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.2508,
+            212.9167,
+            1.653,
+            1423.1244,
+            0.855,
+            15,
+            30,
+            2.28,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10353,
+      "name": "Adeptus Art: Preserver of Fortune",
+      "desc": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals <color=#99FFFFFF>Cryo DMG</color>.\\n\\n<color=#FFD780FF>Fortune-Preserving Talisman</color>\\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\\n\\n<i>\"I am the Fortune Preserver, the Maiden of Resurrection.\"</i>\\n<i>— Qiqi does not remember these words.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:F1P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9,
+            577.3388,
+            2.848,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:F1P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9675,
+            635.0807,
+            3.0616,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.035,
+            697.63446,
+            3.2752,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.125,
+            765,
+            3.56,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1925,
+            837.17737,
+            3.7736,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.26,
+            914.16656,
+            3.9872,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.35,
+            995.96765,
+            4.272,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.44,
+            1082.5804,
+            4.5568,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.53,
+            1174.0051,
+            4.8416,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.62,
+            1270.2417,
+            5.1264,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.71,
+            1371.29,
+            5.4112,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8,
+            1477.1501,
+            5.696,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9125,
+            1587.8221,
+            6.052,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.025,
+            1703.3059,
+            6.408,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Qiqi_01",
+          "desc": [
+            "Skill DMG|{param3:P}",
+            "Healing|{param1:P} ATK+{param2:I}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.1375,
+            1823.6016,
+            6.764,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 352101,
+      "name": "Life-Prolonging Methods",
+      "desc": "When a character under the effects of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
+      "icon": "UI_Talent_S_Qiqi_05",
+      "unlock": 1,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 352201,
+      "name": "A Glimpse Into Arcanum",
+      "desc": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+      "icon": "UI_Talent_S_Qiqi_06",
+      "unlock": 4,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 352301,
+      "name": "Former Life Memories",
+      "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Liyue</color> on the mini-map.",
+      "icon": "UI_Talent_Collect_Local_Liyue",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 351,
+      "name": "Ascetics of Frost",
+      "desc": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+      "icon": "UI_Talent_S_Qiqi_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 352,
+      "name": "Frozen to the Bone",
+      "desc": "Qiqi's Normal and Charged Attack DMG against opponents affected by <color=#99FFFFFF>Cryo</color> is increased by 15%.",
+      "icon": "UI_Talent_S_Qiqi_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 353,
+      "name": "Ascendant Praise",
+      "desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Qiqi_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 354,
+      "name": "Divine Suppression",
+      "desc": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+      "icon": "UI_Talent_S_Qiqi_03",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 355,
+      "name": "Crimson Lotus Bloom",
+      "desc": "Increases the Level of <color=#FFD780FF>Adeptus Art: Herald of Frost</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Qiqi_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 356,
+      "name": "Rite of Resurrection",
+      "desc": "Using <color=#FFD780FF>Adeptus Art: Preserver of Fortune</color> revives all fallen party members nearby and regenerates 50% of their HP.\\nThis effect can only occur once every 15 mins.",
+      "icon": "UI_Talent_S_Qiqi_04",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Sliver",
+            "id": 104161,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Violetgrass",
+            "id": 100034,
+            "count": 3,
+            "rank": 0
+          },
+          {
+            "name": "Divining Scroll",
+            "id": 112008,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Fragment",
+            "id": 104162,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Hoarfrost Core",
+            "id": 113010,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Violetgrass",
+            "id": 100034,
+            "count": 10,
+            "rank": 0
+          },
+          {
+            "name": "Divining Scroll",
+            "id": 112008,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Fragment",
+            "id": 104162,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Hoarfrost Core",
+            "id": 113010,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Violetgrass",
+            "id": 100034,
+            "count": 20,
+            "rank": 0
+          },
+          {
+            "name": "Sealed Scroll",
+            "id": 112009,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Chunk",
+            "id": 104163,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Hoarfrost Core",
+            "id": 113010,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Violetgrass",
+            "id": 100034,
+            "count": 30,
+            "rank": 0
+          },
+          {
+            "name": "Sealed Scroll",
+            "id": 112009,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Chunk",
+            "id": 104163,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Hoarfrost Core",
+            "id": 113010,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Violetgrass",
+            "id": 100034,
+            "count": 45,
+            "rank": 0
+          },
+          {
+            "name": "Forbidden Curse Scroll",
+            "id": 112010,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Gemstone",
+            "id": 104164,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Hoarfrost Core",
+            "id": 113010,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Violetgrass",
+            "id": 100034,
+            "count": 60,
+            "rank": 0
+          },
+          {
+            "name": "Forbidden Curse Scroll",
+            "id": 112010,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Divining Scroll",
+              "id": 112008,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Divining Scroll",
+              "id": 112008,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Divining Scroll",
+              "id": 112008,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sealed Scroll",
+              "id": 112009,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Forbidden Curse Scroll",
+              "id": 112010,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Tail of Boreas",
+              "id": 113006,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  }
+}

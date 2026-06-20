@@ -1,0 +1,3901 @@
+{
+  "name": "Yumemizuki Mizuki",
+  "desc": "A shareholder of Aisa Bathhouse, a baku, and a clinical psychologist. Dedicated to the dispersal of nightmares, and to bringing people peace of mind.",
+  "chara_info": {
+    "release_date": "2025-02-11 00:00:00",
+    "birth": [
+      3,
+      16
+    ],
+    "vision": "Anemo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Tapirus Somniator",
+    "region": "ASSOC_TYPE_INAZUMA",
+    "title": "Embrace of Enchanting Dreams",
+    "native": "Inazuma",
+    "detail": "A shareholder of Aisa Bathhouse, a baku, and a clinical psychologist. Dedicated to the dispersal of nightmares, and to bringing people peace of mind.",
+    "va": {
+      "chinese": "浮梦若薇",
+      "japanese": "会沢紗弥",
+      "english": "Naomi McDonald",
+      "korean": "Kim Seo-hyun"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Mention the Aisa Bathhouse, and for most Inazumans, the first thing that springs to mind are its artificial hot springs — inspired by those present in Natlan, kitted out with imported facilities, and hailed as a \"go-to destination for relaxation.\"\\nThe bathhouse has recently undergone a major renovation, now offering \"psychotherapy\" services that have quickly won it widespread acclaim.\\nEnter Yumemizuki Mizuki, a clinical psychologist who, after having only recently returned to Inazuma, has quickly taken center stage. Known for her holistic approach, she utilizes a combination of the hot springs' warm and soothing waters, serene fragrances, and her own miraculous youkai powers to expel the deep-seated unease troubling her patients.\\nWord gradually got out that this woman — or rather, yumekui-baku in a woman's form — was actually the Aisa Bathhouse's major shareholder; not only the core founding investor, but also the decision-maker behind its recent renovation.\\nYet she was nothing like your typical behind-the-scenes investor, instead showing both the professionalism of a doctor and the forbearing dedication of an ordinary employee. Immersed in her frontline duties, she meticulously consulted with every patient, diagnosing, prescribing, then administering treatments with pinpoint precision and cool-headed composure.\\nIn this way, Mizuki rapidly made quite a name for herself among those tormented by persistent nightmares.\\nThe elderly, perhaps, might remember hearing bedtime stories about yumekui-baku in their childhood — and among them, funnily enough, the name of Yumemizuki Mizuki in particular would no doubt ring a bell.\\nMizuki's peaceful and carefree demeanor, however, make it somewhat difficult for people to associate her with the youkai of those fading legends.\\nBut the Aisa Bathhouse is only the first step in Mizuki's grand plan. Although progress has been slow, her vision is to eventually expand into a fully-fledged conglomerate, offering the people of Inazuma both comprehensive entertainment and improved mental well-being.\\nTo this end, she continues to explore methods that go beyond simply relying upon her youkai powers — everything from mind-calming exercises to invigorating amusement parks, structured dietary plans, and even traditional games to bring joy and laughter to her patients once more.\\nKnowing little about Mizuki, employees who catch a glimpse of her busy schedule can't help but feel worried for her. Might their boss, clearly far more overworked than any of them, be weighed down by hidden fatigue and anxiety too?",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Though it would be unfair to say that the yumekui-baku were entirely unheard of, yet compared to the likes of the kitsune — almost ubiquitous in lore and legend — or the gallant tengu, or the fearsome and awe-inspiring oni, they had never been of any particular renown.\\nAt the great gathering known as the \"Hyakumonogatari Taikai,\" the baku were little more than bit-part characters. Some would sit there in a quiet corner sipping away at their tea, while others could be found alongside fellow lesser youkai, listening respectfully to the lofty rhetoric and grandiose tales of the great and mighty. Others still might act as attendants, pouring tea and sake for refined individuals like Urakusai.\\nFor the young baku Yumemizuki Mizuki, the sole pleasure of attending those banquets back then lay in marveling at how her friend, the young kitsune Yae Miko, dazzled others with her sharp wit and ingenuity.\\nWatching Miko debating tirelessly with Urakusai, curled up on the shoulder of the older Kitsune Saiguu, Mizuki always ended up munching through several times her usual share of snacks. Delighting in the way she dissected her opponent's arguments, Mizuki often nodded in admiration at her friend's quick thinking, even memorizing her brilliant retorts word-for-word.\\nThe next morning, catching sight of a yawning Miko, Mizuki would eagerly approach her with a bowl of freshly-fried tofu, ready to resume their conversation from the night before.\\nMizuki's near-fawning enthusiasm sometimes caught Miko quite off guard. On such occasions, she would elegantly cover her face with a flick of her fluffy tail, then quickly change the subject by saying, \"Let's go grab some ramen.\"\\nWhether nose-to-bowl in front of Master Karasu's ramen stall, perched up high atop the sturdiest sakura branch on the southern slopes of Mt. Yougou, or lounging on beaches bathed in the setting sun's glow, the young kitsune and the little baku were inseparable, chatting away about everything and anything.\\nEven the untold secrets of their deepest dreams became treasures that they shared with one another.\\nBut as the successor to Hakushin Kitsune's bloodline, the duties that awaited Miko, and the responsibilities that growing up entailed for her, were a heavy load to bear indeed.\\nWhen Miko, then Mizuki in turn, acquired the power to take humanoid form, the two of them were swept apart by the currents of life — just like humans — each carried off to different waters of the world.\\nUnder Kitsune Saiguu's tutelage, Miko went on to fathom profound mysteries of youkai magic, and, surrounded by the maidens of the Grand Narukami Shrine, mastered the 880 precepts of the Guuji. As the Hakushin bloodline's rising star, Miko moved through the ranks of the big, the bad, the great, and the good, solidifying her kin's standing in the world of the youkai.\\nHer world was like the vast sea they once gazed at together — tumultuous and ever-changing, filled with all sorts of dangers and challenges, but brimming with endless possibilities too.\\nMizuki, meanwhile, slipped into an altogether quieter life. Much of her time she spent farming or weaving with her fellow baku to make ends meet, but she would also set off on patrol at fixed times, devouring nightmares for those who sought her help.\\nIt was like she'd drifted downstream into a perfectly still lake, placid to the point of monotony.\\nTheir outings together grew less and less frequent, until eventually, even their agreement to spend time together once a month became too difficult to keep.\\nMizuki, however, felt no regret as a result of this.\\nAfter all, she still left home at exactly the same time as Miko each morning; and when Miko took the bowl of fried tofu that Mizuki had prepared for her, she still gave her that same old smile — reserved only for her closest friends.\\nMizuki doubted she could bear even a tenth of Miko's responsibilities, and whenever they walked together, she felt crushed by the weight of the gazes that bore down upon them from all sides.\\nShe was quite content to play a bit part without many lines, simply providing Miko with a sense of peace when she needed it.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Alas, tranquility never lasts forever.\\nThat day came when a dark disaster fell upon them all, crashing down like a crumbling rampart. Humans and youkai alike were rendered helpless beneath the weight of its evil, and the islands resounded with cries of despair.\\nIll-suited for battle, the baku had no choice but to beat a hasty retreat, seeking safety in nooks and crannies of the land so unfrequented that they escaped the calamity's notice.\\nAfter the last vestiges of evil had finally been vanquished by the Shogun, Mizuki and her kin returned with great trepidation, only to find that their once-thriving settlement had been reduced to ruins.\\nFrantic with worry, Mizuki searched far and wide for her friends, seeing only heartbreaking scenes of loss and separation everywhere she went.\\nGone without a trace was the familiar figure of Kitsune Saiguu. Instead, Mizuki found Miko — eyes dim, face pale, cheeks streaked with faint trails of tears — bowed in prayer before the withered Sacred Sakura.\\nThus was the Miko she knew so well prematurely forced to shoulder the responsibilities that awaited her, becoming the revered Guuji Yae.\\nFrom then on, even their morning encounters became a thing of the past. Snowed under by the avalanche of recovery work, Miko had no choice but to move into the Grand Narukami Shrine, where she worked tirelessly day and night.\\nSoon, the yumekui-baku too found themselves swamped with relentless requests; for the shattered land of Inazuma was now strewn with the traumatized, scarred in both body and mind, humans and youkai alike.\\nThe calamity may have been driven back for the time being, but all were haunted by the remembrance of its horrors, and these fears took root in the very depths of their dreams. Night after night, these victims were beset by waves of endless terrors, eating away at their willpower and eroding their resolve.\\nThe residual dread was so overwhelming that even the baku elder herself proved unable to withstand it. One day, she collapsed after dispelling the nightmares of several Shogunate samurai, falling into a coma for many months. When she finally awoke, she was too frail to continue performing her duties, and so was forced to retire.\\nIt was at this moment that the hitherto unremarkable Yumemizuki Mizuki revealed her talents unlooked-for. When she extracted the dark poison from the victims' minds, the pain she felt was excruciating — not unlike the sensation of being cut or burned. Yet clearly, this was far better than drifting off into a deep sleep that could last for months on end.\\nAnd so Mizuki became a beacon of hope for the victims, helping them free themselves from the nightmares by which they were tormented. Laden with an unbearable weight of anguish, she would stagger back each day, retreating to a secluded spot to recover in quiet solitude.\\nThat may have been Mizuki's most trying time, as she shared every second of the victims' pain. Day and night, her vision was filled with a deep, purplish-blackness that seemed to flow and spread like blood oozing from an open wound.\\nFortunately, she could draw strength from the image of her dearest friend, carved deeply into her subconscious mind. Whenever Mizuki teetered on the brink of collapse, that cherry-blossom pink always brought her back to her senses.\\n\"As Guuji, it's Miko job to help the Shogun deal with the problems of the physical world... I, too, must do my duty, and that's to help others overcome their spiritual pain!\"\\nBy reassuring herself so, Mizuki always found the strength to continue.\\nYet, single-mindedly immersed in her work as she was, there was one thing she overlooked — that, in the blink of an eye, a century had flown by.\\nWhile Mizuki had been tending to her countless patients and calming the turbulence of their traumas, the Miko she once knew had steadily been shaped by the weight of her duties. More frequently, the Guuji now wore the smile of one who mocked the fleeting transience of the mortal world.\\nOn the rare occasion that they found themselves sitting together by their old ramen stand, they repeatedly struggled to connect — the air thick with an alien silence, despite the fact that they had once been so close that they could share anything.\\nAfter much contemplation, Mizuki decided to give her friend the benefit of the doubt and came to terms with the way things had turned out.\\nThe pain that Miko suffered during the calamity, she told herself, must have far exceeded her own. Ordinary youkai could not even begin to imagine the burdens entailed by being Guuji of the Grand Narukami Shrine.\\nWithout adopting such pointed composure, she reasoned, Miko may have been unable to endure the relentless onslaught of challenges that had come her way.\\nHaving experienced such different environments, it was only natural that their reflections would diverge.\\nAt the very least, they had both done their utmost to fulfill their respective duties. The way things were now was but the outcome of having made the best possible decisions that they could have.\\nTo rely on a familiar figure as a source of comfort, hoping she would remain forever frozen as she was in memory... Inevitably, that would only serve as a shackle for them both.\\nWhether they liked it or not, their carefree days were gone for good. They each had their own paths to follow, so why not do so freely without clinging to the past?\\nLet the memories of those bygone days stay where they belonged — safe and sound, in the depths of her inner self.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Not all nightmares are the same. For individuals who are otherwise sound in mind and body, occasional nightmares caused by passing clouds of gloom are a natural source of nourishment for the yumekui-baku. But the nocturnal terrors of those afflicted by chronic illness or severe trauma are altogether a different animal. The baku may still consume them, even likening the experience to eating flavorless bread, yet their toxic threat remains undiminished.\\nEven Mizuki, the most gifted of her kind, would find herself plagued by persistent ailments if she devoured too many of the latter.\\nTo prevent healers from succumbing to the very maladies they sought to cure, Mizuki began exploring methods beyond her natural youkai powers, seeking to detoxify such negative emotions prior to consumption.\\nAnd so, once she was certain that the dark calamity's lingering shadows had been fully suppressed, Mizuki set off for foreign lands. Her aim was to study humanity's most cutting-edge medical practices in order to develop her very own system of \"clinical psychological therapy.\"\\nIn Mondstadt, working with the Adventurers' Guild, she took on a part-time role as a \"post-trauma disorder treatment consultant,\" gaining invaluable experience in hands-on clinical care.\\nIn Liyue, under the guidance of the physicians of Chenyu Vale, she familiarized herself with various medicinal herbs that could be used to calm the mind and spirit, as well as the intricate process of cultivating and using them.\\nIn Sumeru, inspired by the local incense burners, she built upon her previous explorations of herbal medicines by devising a method of aromatic therapy, using incense as a healing aid to facilitate relaxation and sleep.\\nAnd in Fontaine, she supplemented her knowledge by delving into the theoretical medical insights of the Research Institute. By considering the scientific underpinnings of avant-garde cinematography, she even discovered fascinating connections between visual patterns and human psychology.\\nAfter years of study and exploration, Mizuki eventually reached her final destination — the vibrant land of the seemingly indefatigable People of the Springs in Natlan's southern regions.\\nNot only did the \"hot spring warriors\" give Mizuki the warmest of welcomes, they also showed her their courage by valiantly facing down enemies who shared the same origins as the dark calamity that had once blighted her native land.\\nOf all the people she met, Mualani in particular left a lasting impression. The first time they crossed paths, Mualani had been dashing about, playing tag with a group of children, when all of a sudden she had lost her footing — at which point, she accidentally crashed straight into Mizuki, then dragged her down together into the hot spring beside them. A somewhat clumsy first impression, by any account...\\nYet in the face of fearsome foes, Mualani's boundless optimism became an unshakable pillar of strength. Not only was she utterly dependable, but even after a fight, she showed no signs of the usual psychological scars that Mizuki had grown so accustomed to seeing.\\nSpurred on by her curiosity, Mizuki investigated further, finally concluding that — aside from sheer willpower — a balanced lifestyle was crucial to mental well-being.\\nLiving their lives to the fullest in peacetime, brimming with energy and savoring every moment, and then stepping onto the battlefield without regrets, refreshed and ready for the fight — could this, Mizuki wondered, be the secret to the strength of Natlan's warriors?\\n\"Play hard, fight hard, huh... Treating life's conundrums as you would challenges in a game — taking them on in a composed, timely manner.\"\\nAnd thus, Mizuki conceived the idea of establishing an \"entertainment group.\" Her vision was to introduce the residents of Inazuma to a wide range of different leisure activities, and thereby significantly improve their mental well-being.\\nFrom the People of the Springs, she got the idea of hot springs and water sports; from the Scions of the Canopy, of (relatively) safe extreme sports like rock climbing and mountaineering; and she even planned to set up fitness centers staffed by professional trainers from the Collective of Plenty. With a team of collaborators soon in place, Mizuki's vision began to take shape...",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "In Inazuman folklore, the yumekui-baku have always been celebrated for their benevolent and carefree nature, depicted as beings without wants of their own, yet ever ready to help others in need.\\nMizuki is a shining example of this in the flesh. Despite her extensive experience in helping others ward off nightmares, she has never capitalized on her reputation by increasing her fees, instead maintaining a remarkably lenient pricing policy.\\nWhen treating the common folk, she calculates her labor fee by adhering to a strict formula — half of the patient's hourly wage multiplied by the duration of the session. Even when it amounts to no more than the price of a bowl of ramen, she accepts her meager earnings without a word of discontent.\\nIn Mizuki's eyes, these patients suffer enough as-is, so the least she can do is avoid adding financial burdens to their woes.\\nFor wealthier patients, she asks them to set their own price, saying, \"Given your means, what would you consider fair payment for this treatment?\"\\nWhether out of respect for Mizuki or simply to uphold their own sense of pride, such patients invariably end up proposing handsome prices indeed...\\nThis approach has earned her services widespread acclaim, leading to a steady stream of appointments that keeps her so busy that she often goes for weeks without a single day off.\\nAfter consuming a patient's nightmares, it always feels as if she has eaten a large bowl of rice. So long as the toxins are not too potent, both her youkai power and physical strength will be replenished.\\nBy all accounts, Mizuki seldom indulges in personal spending. Aside from a few simple outfits and the occasional inexpensive dessert, she rarely treats herself to anything, keeping her living expenses to a bare minimum.\\nA youkai with practically no time off, almost no inclination to spend, nearly zero expenditure, and a relentless work ethic... Given several centuries, just how much could such an individual save up? Without any precedents to compare her against, it's a tough question to answer.\\nNo matter how you arrive at your estimate, one thing is for certain — that her savings must be substantial, to say the very least. And they were, in fact, the foundation that underpinned Mizuki's own investments.\\nFor a time, the turmoil caused by the Sakoku Decree prevented her from returning to Inazuma, leaving her unable to inspect the progress that had been made on the Aisa Bathhouse. Several of her other ventures, too, remained stuck at the planning stage, with no hope of headway in sight...\\nYet during this period, Mizuki was far from idle. She worked tirelessly to keep abreast of all the latest trends in Teyvat, ensuring that her future businesses could cater to all age groups and alleviate the troubles of patients young and old.\\nInspired by modern theories, she strove to make the process less daunting for her patients by stripping it of its overtly \"clinical\" characteristics. She referred to her patients as \"guests\" and rebranded the serious business of therapy as a form of leisure, meticulously refining every detail to foster an atmosphere of complete relaxation.\\nUpon returning to Inazuma, Mizuki applied the research findings she had acquired in Fontaine, personally starring in a series of innovative new \"promotional programs\" designed to catapult her reputation to new heights.\\nDespite having plenty of awkward moments in front of the Kamera, and how she sometimes got so nervous that she could hardly catch her breath, she knew that if she could just convince people to try out her new approach to therapy — so they could put their worries behind them, once and for all — then it would all be worth it.\\nBut aside from her own publicity efforts, Mizuki just so happened to also know a fellow professional with great potential for collaboration.\\nAnd that was none other than her old friend, Yae Miko — editor-in-chief of the cultural and artistic hub that was the Yae Publishing House.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "\"When helping patients cope with their anxiety, should the emphasis be on gradually guiding them to come face to face with the source of their mental struggles, or on offering reassurance, prioritizing the alleviation of their unease?\"\\n\"When dispelling nightmares, is there any risk that the direct removal of negative emotions through prolonged reliance on youkai powers might lead to unintended side effects?\"\\n\"If we can't help patients resolve their real-world problems, how can we ensure that they don't relapse?\"\\n...\\nFinally back from her century-long odyssey, Mizuki had so much to discuss with her old friend Miko.\\nBeneath the sakura tree where they used to meet as children, they spread out a tablecloth, laid out some snacks, and held a little tea party, chatting from dawn until dusk.\\nTheir elation at being reunited was accompanied by a rational exchange of ideas, giving them both a chance to share their heartfelt thoughts.\\nMiko was of the opinion that entertainment must stay pure and simple, just as it was in essence. If patients could actively seek out happiness and fill their minds with vibrant, positive thoughts, they might very well be able to eliminate any possible foothold for negative emotions to take root.\\nMizuki, however, was concerned that focusing solely on the \"pursuit of happiness\" without addressing the core of a patient's struggles could lead to an emotional imbalance.\\nAs the tea party came to an amicable close, they both accepted the other's perspective, understanding that, in their own unique way, they would each come up with novel solutions to help the people of Inazuma overcome their inner demons.\\nAs Mizuki saw it, the Yae Publishing House's approach — focused mainly on light novels while branching off into various other forms of cultural entertainment — immersed customers in a myriad of fantastical worlds, injecting hope and vitality back into their lives.\\nThe issue, however, was that cultural products required a certain level of engagement. People who were too physically, mentally, or emotionally drained might struggle to muster the energy or concentration required for extended reading and contemplation.\\nOn top of this, if a person was to completely lose themselves in the fantasy world of light novels, they might inadvertently begin to overlook pressing real-world issues.\\nThe entertainment group that Mizuki had envisioned would not only address the challenges faced by the yumekui-baku, but also fill in this missing piece of the puzzle—\\nFirstly, healing those who had neither the time nor the energy to enjoy more demanding forms of cultural entertainment and helping them find new joys in life.\\nAnd secondly, helping those who had become lost in escapism by gently guiding their focus back to their inner selves.\\nIn this way, people from all walks of life in Inazuma — from hardworking common folk to learned literati — could be aided in finding a holistic solution for improving their spiritual well-being, regardless of their wealth or status.\\nIn cases where the patient's mental and emotional struggles were so deep-seated that they could not be alleviated through conventional methods, or with particularly delicate issues that required careful handling, Mizuki would fall back upon her baku powers to cleanse the toxic shadows from their dreams.\\nMethodical, systematic, and seamless to a tee.\\nThat said, as ever, neighborhood gossip tended to focus on superficial details. Based on rumors from who knows where, word quickly went out that the major shareholder of Aisa Bathhouse, \"y'know, the one who just returned from abroad,\" was seeking to challenge the Yae Publishing House itself with a brand new business venture.\\nThe rumors grew increasingly sensational, even inspiring works like \"A Business Battle Between Childhood Friends\" which quickly became the talk of the town.\\nWhen this tale reached Mizuki's ears, she was quite taken aback for a moment, but a smile quickly followed.\\nWell, that... didn't sound like such a bad idea.\\nMiko had always relished this type of fun, and it was indeed true that Mizuki felt determined to push forward in her career, eager to surpass the friend who had once strode ahead of her.\\nWith mutual understanding, the two friends became tacitly-acknowledged \"business rivals.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Ya-chan and Te-chan",
+        "text": "Wherever Mizuki goes, her two little baku companions are never far behind. Indeed, they are practically inseparable.\\nIn her day-to-day life, the two little baku act like her assistants, helping Mizuki make drinks, cook meals, and fetch things that she requires.\\nWhen she's busy fighting off monsters and knaves, not only will they cheer her on, they'll even jump in to join the fray...\\nMizuki calls them \"Ya-chan\" and \"Te-chan,\" simple yet meaningful names that carry connotations of \"emotional stability\" and \"rational thinking.\"\\nThey are not, however, Mizuki's kin, but rather manifestations of her youkai powers and embodiments of her spirit and wisdom.\\nClinical psychologists absorb their patients' sorrows, anxieties, and fears, yet their own negative emotions often go unaddressed. Over time, their beleaguered hearts put them at risk of a total and irrevocable breakdown.\\nMizuki has seen colleagues fall apart completely. Seeing them lying there immobile — some not only bedridden, but even mentally incapacitated — she quietly warned herself never to follow that same path.\\nFor this reason, Mizuki also conducts therapy on herself.\\nPicture a version of her, overflowing with emotion, who could empathize with patients as naturally as drawing breath, yet whose own mood was as fragile as gossamer, collapsing at the slightest touch...\\nThen imagine another version of her who, guided purely by reason, applied logic to every problem, stripping away all subjective emotions to the point of seeming somewhat cold and detached...\\nThe two little baku, embodying these two different aspects of Mizuki's self, each have their own flaws. As they accompany her when she is treating patients, they offer analyses from the most extreme of perspectives, not even stinting to outline the full consequences that such extremes would entail.\\nAfterwards, Mizuki comforts the two of them as if gazing into mirrors of opposing natures, giving her a chance to pick apart the easily overlooked yet potentially devastating issues lying dormant within her own heart.\\nWhen contemplating certain issues, if she starts to feel too fragile, she adopts the mindset of someone with a broader perspective by summoning up a degree of cold detachment...\\nWhen communicating with someone, if she finds their mood worsening as a result of her coming across too harshly, she can also take a step back and start again from an empathetic perspective — and by doing this, she can strike a balance between objective logic and subjective emotions.\\nThis process of communicating with Ya-chan and Te-chan also plays a pivotal role in how Mizuki balances her own emotions.\\nAfter having been through centuries of refinement and observing countless patient interactions, Ya-chan and Te-chan's perspectives no longer dwell at the opposite poles of emotion and reason. Much like Mizuki herself, they can now find a middle ground between the two — most of the time, at least.\\nThe day that Ya-chan's excessive empathy no longer easily ends in tears, and Te-chan learns not to dish out sharp critiques of overly subjective patients, will be the day that Mizuki has become nigh-impervious to even the most powerful of negative emotions.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "Even the most delicious of dishes, if eaten three times a day, every day, for hundreds or even thousands of meals in a row, would become unbearable for your average person.\\nYet in Mizuki's world of dream-cuisine, bland nightmares are a blessing to be savored.\\nSome people's nightmares are like the apocalyptic aftermath of a kitchen explosion — a chaotic mix of seasonings with acrid undertones of charred woodsmoke, a slight tang of rust, and harsh, acidic notes to round it all off.\\nBut what about good dreams?\\nVery few yumekui-baku even know what they taste like, for their kind follow an unwritten rule: \"Never eat someone else's good dreams without permission.\"\\nIt wasn't until her tenth year as a clinical psychologist that Mizuki finally had the rare privilege of tasting such a precious delicacy.\\nOne day, a girl who had made a full recovery thanks to Mizuki's therapy came to express her gratitude with a gift. As they chatted, the girl suddenly suggested the idea of sharing one of her colorful, vibrant dreams.\\nIt was a dreamscape brimming with innocence, energy, and dazzling fantasy. Mizuki was utterly captivated by its flavor... Pleasant, warm, and delicately sweet.\\nFrom that day on, Mizuki developed a love for all kinds of desserts, and soon, a bold idea began to take root in her heart.\\nCould the indescribable beauty of a good dream be a remedy in itself, powerful enough to dissolve negative emotions all on its own?\\nIf she could create such dreams with her youkai powers, they might serve as a potent medicine for her patients' emotional struggles.\\nAnd maybe, just maybe... they could also be treasured as exquisite delicacies, a treat for herself, every now and then?\\nSadly, however, the baku do not possess the power of creation. Good dreams are, in a sense, the pure and untainted projections of a person's desires. As such, they cannot easily be replicated by outside forces, let alone conjured out of thin air...\\nSince everyone's desires differ, there can be no universal \"recipe\" for creating a one-size-fits-all sweet dream. Attempting to probe a person's innermost thoughts — to fathom their deepest secrets — might itself become an act of intrusion, only adding to their anxiety and unease.\\nRegrettably, therefore, Mizuki was unable to figure out the secret to creating a cure-all dream.\\nBut fortunately, the decades of searching and studying were not in vain. Her dedication was eventually rewarded...\\nOne weary yet fulfilling night, Mizuki dreamt of becoming a little baku once more, and of sharing a meal with her dearest friend by a ramen stall.\\nThis particular dream had a delicate, smoky feel to it, almost like a gentle breeze, and it seemed to share the same outline that many happy dreams had in common.\\nUnbound, unburdened, and carefree...\\nAs the dream unfolded, a radiant, crystalline Vision silently appeared by Mizuki's pillow.\\nFrom then on, Mizuki took a new approach, as if she had been inspired.\\nShe resolved to guide people towards tranquil, soothing dreams, rekindling memories of the things they treasured most.\\nShe believed that all the good and beauty that people cherished deep inside them would surely awaken at crucial moments, coloring their dreams and transforming them into the most magnificent forms imaginable.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "Hello! I am Yumemizuki Mizuki, a clinical psychologist. If something's troubling you, feel free to talk it out with me. I can banish even the darkest of nightmares from your mind, without leaving a single trace. Oh? You don't believe me? Well then, if you have a moment to spare... Why don't you stop by my office?",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Therapy Session",
+        "text": "That dream last night tasted wonderful. Thank you for sharing it with me.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Shareholder Work",
+        "text": "Still need to go through last quarter's financial report... What a headache.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Feeling Down",
+        "text": "If you ever feel down, just drop everything, and go out for some fresh air.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "When the weather is dark and gloomy, our emotions often respond in kind...",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Ah, I wonder if the Almighty Shogun is having a bad day...",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "Sunshine isn't always a good thing. If it's too bright, the light can get into your eyes and make you dizzy.",
+        "unlocked": []
+      },
+      {
+        "title": "After the Rain",
+        "text": "Now that the storm clouds have been swept away, it's time do the same with our troubles.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "Mmm~ The wind is just right. I feel refreshed and ready to go.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Feel that? I opened the window to let in some fresh air. Ah, the crisp morning air, the rising sun, the cool breeze... My mood feels lighter already — a fine morning indeed.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "A quick nap in the middle of the day can give you an energy boost, but I do mean \"quick.\" Sleeping too long will make you more tired... Need me to wake you up in a bit?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "It's getting late. Try to go to bed at a reasonable hour, okay? If you stay up late dancing, reading novels, or playing games, the quality of your sleep will really suffer!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "Oh, off to bed? Here, drink this cup of milk before you go. I added some herbs to help you sleep. Good night, and sweet dreams!",
+        "unlocked": []
+      },
+      {
+        "title": "About Yumemizuki Mizuki: Hot Spring Traditions",
+        "text": "Natlan's hot springs are in an open area close to the sea, which means you can chat with a whole host of people while enjoying the cool breeze off the water.\\nNow, if I tried the same thing in Inazuma, people would probably say, \"Seeing someone you know at the bathhouse is awkward enough, but conversing with a complete stranger? That's inconceivable...\"\\nSo, you see? Not all hot springs are created equal.",
+        "unlocked": []
+      },
+      {
+        "title": "About Yumemizuki Mizuki: Aisa Bathhouse",
+        "text": "Have you heard of Aisa Bathhouse? It's an indoor hot spring. When I first became a shareholder, I had a vision for a new kind of clinical practice — having patients soak in medicinal baths to relax the mind and body before treatment.\\nBut, well... Most of the time, the warm water put people to sleep before I could even get to the clinical part. After waking up, they would praise my methods and call me a miracle worker.\\nEven though, I didn't even do anything! It just goes to show what rest can do...\\nA simple good night's sleep can solve a lot of problems, actually. And, still, people insist on pushing themselves to the breaking point.\\n*sigh* I just wish people would listen when their body tells them to rest...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Traveling",
+        "text": "I've been to five out of the seven nations in Teyvat. I suppose that makes me something of a traveler myself. Even though I live in Inazuma, I often have business in Natlan. So, as fellow travelers, we should stick together!",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Sweet Dreams",
+        "text": "There's a rule among the Yumekui-Baku — we cannot consume a good dream without the owner's permission. Sweet dreams are precious treasures, and their absence can trigger a sense of loss and emptiness.\\nBut, you seem to be an exception. Your dreams are like a bottomless treasure trove. I've been in this line of work for centuries, but I've never met anyone as bright in their dreams as you...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "Visions are said to be proof of the recognition of the gods — a miracle made manifest. And, based on what I've heard, many people without a Vision are waiting on the same miracle to happen to them.\\nBut, dreaming of something unobtainable often means setting yourself up for greater disappointment, especially when you wake up, and reality sets in.\\nSometimes, in the pursuit of a mirage, we inadvertently turn reality into a nightmare from which we must escape... I can only hope that doesn't happen to them.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "Ya-chan and Te-chan are more than companions — they're a part of me, formed from my youkai powers. They represent my wisdom and spirit, respectively, and you can see them as manifestations of my rationality and empathy. They help me administer treatment on occasion and are very capable in combat, too!",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "#I left for Inazuma the day before the attack on the People of the Springs. Mualani wrote me a letter and told me what happened. It would seem you have quite the talent for saving the day. Now that I think about it... Based on what I've heard from Miko, that would be the second time I've missed you right when we could have crossed paths! But, now, I can finally count the legendary {NICKNAME} among my acquaintances.",
+        "unlocked": [
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "About Yae Miko: Past History",
+        "text": "Hundreds of years ago, we were neighbors. Miko was a lot more serious about her pursuits back then, but still, the innocence of youth permeated everything. I miss those days sometimes — Miko had just learned to transform into a human, and life was so simple... Every day, she would come find me and let me taste her dreams.\\nNotes of sakura blossom, paper, ink, Tricolor Dango, and Fried Tofu... That's what I remember. She would beg me to transform into a human with her and drag me into town to find things that matched the flavors of her dreams. If someone caught us, we would immediately transform back into our original forms, and make a break for it. Miko ran so fast, she would leave me in the dust half the time.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yae Miko: Current Situation",
+        "text": "Now, Miko is the Guuji of the Grand Narukami Shrine. After growing up, I never tried one of her dreams again. Who knows if any of the flavors are the same as back then...\\nConsuming dreams without permission is the ultimate taboo for my kind. Even if she came to me and asked after so long, I... I think I would refuse. We're business rivals now, and I intend to keep up with her this time.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Stillness, the Sublimation of Shadow\""
+        ]
+      },
+      {
+        "title": "About the Raiden Shogun",
+        "text": "I worked up the courage to invite the Almighty Shogun to the bathhouse after the Mikawa Flower Festival. As she settled into the pool, a strand of her hair drifted into the water. I thought about reaching out to fix it, but I was worried it would be too casual a gesture for such a noble figure. Of course, I doubt Miko would even hesitate... It's an unfortunate reminder that I still have a long way to go as a youkai.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Transient Dreams\""
+        ]
+      },
+      {
+        "title": "About Sangonomiya Kokomi",
+        "text": "The Divine Priestess of Watatsumi Island is a dignified and well-mannered lady. Speaking with her always lifts my spirits. If I open a new branch of Aisa Bathhouse on Watatsumi Island or some other kind of business, I hope I have more chances to work with her...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yoimiya",
+        "text": "Oh, you mean the Queen of the Summer Festival? Yes, she is quite memorable.\\nEvery once in a while, I perform a mental health survey to see if there are areas around Inazuma where people are more likely to need treatment...\\nIt turns out, those who live near Miss Yoimiya have need very little, and I doubt that's a coincidence. It's hard to be anything but positive with such a bright and cheerful person around!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kamisato Ayaka",
+        "text": "Ah, Miss Ayaka... She was still a little girl when I left Inazuma, but even then, she had already started studying flower arranging and the art of the sword. Her brother once enlisted my services in secret, hoping to alleviate some of her anxieties.\\nWhat I remember of her dream... was the smell of old timber and heavy rain, like a lone, wooden pavilion on the verge of collapse amid a storm. I did my best to treat her, until she finally fell into a peaceful slumber.\\nMany years have passed since then. I hope she's found people to lean on, so she doesn't have to weather that storm alone...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kujou Sara",
+        "text": "She often enlists my services to help the members of the Tenryou Commission. It's not uncommon to see doubt and fear in their minds, but her mindscape is always cold, hard metal. No rain, no sun — like a safe of pure Jade Steel, unflinching and impenetrable.\\nI have a lot of respect for her because of that.\\nAlthough, I can only imagine what resilience it took to get to that point...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Sayu",
+        "text": "Hehe, she's quite the carefree little mujina, her only trouble, of course, being the desire to grow taller... I'm sure her dreams are exceedingly sweet. I'd love to invite her to come work at the bathhouse, but she's always avoiding me. Heh, perhaps she can see through my intentions...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Mavuika",
+        "text": "The Pyro Archon? Hm, how should I put it... Lady Mavuika is the kind of person who shines so bright, just laying eyes on her is enough to warrant sunglasses. Like the actual sun, she has a way of burning away haze and illuminating darkness, even with a simple handshake.\\n...Hm? Have I ever tasted one of her dreams? No, no, no, no, no... I wouldn't dare. She let me try once, but stepping into her dream was like jumping into a volcano, or choking on ash. All I could do was cough...\\nPerhaps my youkai powers simply aren't strong enough yet...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Mualani",
+        "text": "Ah, Mualani... She is the friendliest person I've ever met. I lived with the People of the Springs during my time in Natlan, and I never could have opened up my shop there without her help. She dragged me to the Speaker's Chamber, and just like that, I was face-to-face with the Pyro Archon with no warning at all, scared out of my mind...\\nHer personality is like a wave, sometimes cresting high above the water, gliding deep beneath the surface, or even crashing straight against the shore. It's hard to keep up...\\nOh, her mental state? I don't think you need to worry. She's in a very good spot. If anything, I should go to her for therapy...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Nahida",
+        "text": "I've visited Sumeru before. Within the borders of her authority, it's impossible for me to make contact with anyone's dreams, much less affect or consume them. Her presence isn't oppressive, however — what I sensed felt more like a solemn promise between a god and her people... My impression is that she must be a very kind-hearted god.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "More About Yumemizuki Mizuki: I",
+        "text": "Dream-eating is an ability unique to my kind. We can consume good and bad dreams alike, although the two are very different in terms of flavor. For a long time, it was nothing more than a form of sustenance, but as I got older, I realized this power had greater potential — helping humans overcome and process their troubles...",
+        "unlocked": []
+      },
+      {
+        "title": "More About Yumemizuki Mizuki: II",
+        "text": "In truth, the yumekui-baku are not a particularly formidable kind of youkai. When the dark calamity struck Inazuma, all we could do was run and hide. Our neighbor, the Kitsune Saiguu, sacrificed herself in that disaster. I was devastated, but helpless to stop it... It was seeing all that loss and despair that inspired me to go into this vocation. I decided to study abroad, and through my travels in Liyue, Sumeru and Natlan, I was able to integrate my abilities with human medicine. And, thus, my current practice was born.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Yumemizuki Mizuki: III",
+        "text": "Even though I've been away from Inazuma for the past couple of years, the hot spring business has been thriving. In the meantime, I've worked hard to establish a practice that integrates what I've learned throughout my travels. Telling people I'm one of Aisa Bathhouse's major shareholders opens a lot of doors, which is one of the main reasons I've been able to keep my practice going, even despite all the challenges...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Stillness, the Sublimation of Shadow\""
+        ]
+      },
+      {
+        "title": "More About Yumemizuki Mizuki: IV",
+        "text": "To me, the greatest challenge is processing the negative emotions that come with consuming a nightmare. I only consume a patient's nightmare if all other treatment methods fail. At that point, the nightmares are usually highly toxic and volatile to consume... When that happens, I like to find a secluded place to \"digest\" those emotions. It's not something I want other people to see...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5",
+          "Complete \"Stillness, the Sublimation of Shadow\""
+        ]
+      },
+      {
+        "title": "More About Yumemizuki Mizuki: V",
+        "text": "But, as a clinical psychologist, helping patients overcome their nightmares is my duty.\\n...And well, to me, it's what it means to be a baku.\\nI've always wondered about the purpose of our power. Why was it given to us? What can we do with it? If we think of dreams only as a form of sustenance, then what makes us different from the mindless insects that spend their days gnawing away at Lavender Melons?\\nPsychology gave me a purpose and a calling — banishing nightmares from Inazuma and the world as a whole.\\nHeh... I used to think I would spend my whole life facing this alone, until I met you... someone who can turn the world on its head, who can bend the will of the gods themselves... Someone who's willing to accept my weaknesses, with no shortage of dreams to share... Perhaps, in a way, I've become your \"patient,\" as well.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "Yumemizuki Mizuki's Hobbies",
+        "text": "Listening to cheerful and uplifting music is a great way to relax. Back when I lived in Natlan, I used visit Colomche Plaza all the time. The ukelele music was so beautiful... Actually, I heard you're something of a musician yourself. Could you play for me sometime?",
+        "unlocked": []
+      },
+      {
+        "title": "Yumemizuki Mizuki's Troubles",
+        "text": "Sometimes, nightmares surpass what I can withstand and act almost like a lethal poison. An example would be the Inazuman soldiers who fought during the dark calamity or the Natlanese warriors who drove back the Abyss in the Night Kingdom. Despair and fear carved so deeply into their subconscious, consuming their nightmares was like trying to swallow a knife... One time, I consumed the nightmare of a warrior who had just returned from the Night Warden Wars, and I passed out for several days...",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "Oh, my favorite food? The best dream you've ever had, of course... Just kidding. I don't go around feasting on people's sweet memories... Now, sweet treats on the other hand... Not a bad pick-me-up, especially after a difficult session.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "I don't like meals that are just thrown together, like... a dry loaf of bread, a couple of carrots, some cabbage, and a cold piece of ham. We are what we eat, and that's especially true when it comes to our mood. If you muddle through every meal, how are you supposed to maintain a healthy state of mind? We all need to be kinder to ourselves, and that starts with what we eat.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Wow... I've never had a dish like this before — not even in my dreams. This very well could be the recipe for a perfect night's sleep!",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Hmm... Quite a mellow taste, like slipping into a dream. Thank you, it's lovely.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Did some terrible dream affect your sleep last night? That would explain why your sense of taste is so off... The food can wait until later — our therapy session must start now.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Today is a very special day for the both of us. Meeting you has given me the chance to witness a wondrous world of endless dreams... So, why don't we celebrate this occasion with a dreamscape for just the two of us? Of course, we'll need to build it from the ground up. So, tell me what you'd like to see...",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "I feel myself getting stronger, both in body and mind. I'm ready to face even more powerful nightmares.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Thank you, from the bottom of my heart. With your help, I'm confident I can handle any case that comes my way.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Your encouragement allowed me to look within and see my weaknesses for what they are. You've helped a psychologist down her own path to healing, and that's not something many people can say.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "Negative emotions are a part of who we are. Anxiety, agitation, and fear are what result when we shy away from facing them head-on. The important thing is finding the balance between recognizing those emotions and being overwhelmed by them. You helped me find that balance, and now, it's cemented in my head. No matter how toxic or poisonous the nightmare, I have nothing to fear.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Turn that frown upside down~",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Sweet dreams!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Time to relax.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Bad dreams, be gone!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Ya-chan, Te-chan, let's go!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Cast your worries to the wind.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "Ah, what a nice find!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Oh, a little something to boost the mood!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Sometimes the best medicine is a little extra Mora in your pocket.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "Getting dicey...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Might be a lost cause...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Not a good sign...",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Allow me to step in.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Take a rest.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "Is this... a nightmare?",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "Darkness... closing... in...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "I can still feel... the pain.",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "How rude.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "My mistake...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "A tricky patient...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: III",
+        "text": "A cheap shot...",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "You can tell me anything.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Is it time for our session?",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Ah... I don't sense any nightmares around here.",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108793,
+      "recipe": 3222,
+      "name": "Dreams of Healing",
+      "icon": "UI_ItemIcon_108793",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210233,
+      "name": "Yumemizuki Mizuki: Nightmare Devourer",
+      "desc": "Namecard style.\\nThe yumekui-baku consume nightmares and leave only pleasant dreams. But what if dreams are to be understood in reverse? Faced with such conjecture, her warm-natured response: A truly beautiful dream, even if turned upside down through reality's lens, would still remain beautiful.",
+      "icon": "UI_NameCardPic_Mizuki_P"
+    },
+    "costume": [
+      {
+        "id": 210900,
+        "name": "Dawnbreath Dreambelle",
+        "desc": "Mizuki's outfit.\\nA cold night-mist brews, the baku stirs to spring breeze, spent from tending dreams. Fixing hairpin, flapping sleeves, from yon fanned fog, the moon beams.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CATALYST",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Anemo",
+  "icon": "UI_AvatarIcon_Mizuki",
+  "stamina_recovery": 25,
+  "base_hp": 991.4528,
+  "base_atk": 16.758,
+  "base_def": 58.93255,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 850.0811,
+        "fight_prop_base_defense": 50.5305,
+        "fight_prop_base_attack": 14.36742,
+        "fight_prop_element_mastery": 0
+      },
+      {
+        "fight_prop_base_hp": 1454.0862,
+        "fight_prop_base_defense": 86.43375,
+        "fight_prop_base_attack": 24.57585,
+        "fight_prop_element_mastery": 28.8
+      },
+      {
+        "fight_prop_base_hp": 2259.4263,
+        "fight_prop_base_defense": 134.30475,
+        "fight_prop_base_attack": 38.18709,
+        "fight_prop_element_mastery": 57.6
+      },
+      {
+        "fight_prop_base_hp": 2863.4312,
+        "fight_prop_base_defense": 170.208,
+        "fight_prop_base_attack": 48.39552,
+        "fight_prop_element_mastery": 57.6
+      },
+      {
+        "fight_prop_base_hp": 3467.4363,
+        "fight_prop_base_defense": 206.11125,
+        "fight_prop_base_attack": 58.60395,
+        "fight_prop_element_mastery": 86.4
+      },
+      {
+        "fight_prop_base_hp": 4071.4412,
+        "fight_prop_base_defense": 242.0145,
+        "fight_prop_base_attack": 68.81238,
+        "fight_prop_element_mastery": 115.2
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 11091,
+      "name": "Pure Heart, Pure Dreams",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 attacks, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina and deals <color=#80FFD7FF>AoE Anemo DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nCalling upon the power of Anemo, she plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.522768,
+            0.469144,
+            0.713688,
+            1.3,
+            50,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.561976,
+            0.50433,
+            0.767215,
+            1.3975,
+            50,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.601183,
+            0.539516,
+            0.820741,
+            1.495,
+            50,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.65346,
+            0.58643,
+            0.89211,
+            1.625,
+            50,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.692668,
+            0.621616,
+            0.945637,
+            1.7225,
+            50,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.731875,
+            0.656802,
+            0.999163,
+            1.82,
+            50,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.784152,
+            0.703716,
+            1.070532,
+            1.95,
+            50,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.836429,
+            0.75063,
+            1.141901,
+            2.08,
+            50,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.888706,
+            0.797545,
+            1.21327,
+            2.21,
+            50,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.940982,
+            0.844459,
+            1.284638,
+            2.34,
+            50,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.993259,
+            0.891374,
+            1.356007,
+            2.47,
+            50,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.045536,
+            0.938288,
+            1.427376,
+            2.6,
+            50,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.110882,
+            0.996931,
+            1.516587,
+            2.7625,
+            50,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.176228,
+            1.055574,
+            1.605798,
+            2.925,
+            50,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack DMG|{param4:F1P}",
+            "Charged Attack Stamina Cost|{param5:F1}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:P}/{param8:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.241574,
+            1.114217,
+            1.695009,
+            3.0875,
+            50,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11092,
+      "name": "Aisa Utamakura Pilgrimage",
+      "desc": "Weaves memories of lovely dreams, entering a <color=#FFD780FF>Dreamdrifter</color> state where Yumemizuki Mizuki floats above the ground, and dealing 1 instance of <color=#80FFD7FF>AoE Anemo DMG</color> to nearby opponents.\\n\\n<color=#FFD780FF>Dreamdrifter</color>\\n·While in the Dreamdrifter state, Yumemizuki Mizuki will continuously drift forward, dealing <color=#80FFD7FF>AoE Anemo DMG</color> to nearby opponents at regular intervals.\\n·During this time, Yumemizuki Mizuki can control her direction of drift, and the pick-up distance of <color=#FFD780FF>Yumemi Style Special Snacks</color> from the Elemental Burst <color=#FFD780FF>Anraku Secret Spring Therapy</color> will be increased.\\n·Increases the Swirl DMG that nearby party members deal based on Yumemizuki Mizuki's Elemental Mastery.\\n·Dreamdrifter will end when Mizuki leaves the field or uses her Elemental Skill again.\\n\\n<i>\"Our dreams touch at midnight, their song ringing on in our hearts.\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.44912,
+            0.0018,
+            15,
+            0.57744,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.482804,
+            0.0021,
+            15,
+            0.620748,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.516488,
+            0.0024,
+            15,
+            0.664056,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.5614,
+            0.0027,
+            15,
+            0.7218,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.595084,
+            0.003,
+            15,
+            0.765108,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.628768,
+            0.0033,
+            15,
+            0.808416,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.67368,
+            0.0036,
+            15,
+            0.86616,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.718592,
+            0.0039,
+            15,
+            0.923904,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.763504,
+            0.0042,
+            15,
+            0.981648,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.808416,
+            0.0045,
+            15,
+            1.039392,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.853328,
+            0.0048,
+            15,
+            1.097136,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.89824,
+            0.0051,
+            15,
+            1.15488,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.95438,
+            0.0054,
+            15,
+            1.22706,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.01052,
+            0.0057,
+            15,
+            1.29924,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param4:F1P}",
+            "Continuous Attack DMG|{param1:F1P}",
+            "Dreamdrifter Duration|{param5:F1}s",
+            "Elemental Mastery-Based Swirl DMG Increase|{param2:F2P} per Point",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.06666,
+            0.006,
+            15,
+            1.37142,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11095,
+      "name": "Anraku Secret Spring Therapy",
+      "desc": "Summons forth countless lovely dreams and nightmares that pull in nearby objects and opponents, dealing <color=#80FFD7FF>AoE Anemo DMG</color> and summoning a Mini Baku.\\n\\n<color=#FFD780FF>Mini Baku:</color>\\nFollows the current active character. At regular intervals, the Mini Baku will create 1 Yumemi Style Special Snack nearby. After one of your own party members picks up a Special Snack, if their HP is higher than 70%, the Snack will explode and unleash a Munen Shockwave, dealing 1 instance of <color=#80FFD7FF>AoE Anemo DMG</color> to nearby opponents. Otherwise, it will heal the character who picked it up based on Yumemizuki Mizuki's Elemental Mastery. When Yumemizuki Mizuki triggers healing by picking up a Yumemi Style Special Snack, the amount of healing is increased by 100%. If a Snack is not picked up after a period of time, it will explode and release a Munen Shockwave, dealing 1 instance of <color=#80FFD7FF>AoE Anemo DMG</color> to surrounding opponents.\\n\\n<i>\"If you bury dark emotions for too long, they will become nightmares. With that in mind, why don't we turn them into 'delicious snacks' while we've got the time?\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9408,
+            0.7056,
+            1.3056,
+            15,
+            60,
+            12,
+            314.57,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.01136,
+            0.75852,
+            1.40352,
+            15,
+            60,
+            12,
+            346.03137,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.08192,
+            0.81144,
+            1.50144,
+            15,
+            60,
+            12,
+            380.11453,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.176,
+            0.882,
+            1.632,
+            15,
+            60,
+            12,
+            416.81946,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.24656,
+            0.93492,
+            1.72992,
+            15,
+            60,
+            12,
+            456.14618,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.31712,
+            0.98784,
+            1.82784,
+            15,
+            60,
+            12,
+            498.09467,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.4112,
+            1.0584,
+            1.9584,
+            15,
+            60,
+            12,
+            542.6649,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.50528,
+            1.12896,
+            2.08896,
+            15,
+            60,
+            12,
+            589.857,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.59936,
+            1.19952,
+            2.21952,
+            15,
+            60,
+            12,
+            639.67084,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.69344,
+            1.27008,
+            2.35008,
+            15,
+            60,
+            12,
+            692.10645,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.78752,
+            1.34064,
+            2.48064,
+            15,
+            60,
+            12,
+            747.1639,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8816,
+            1.4112,
+            2.6112,
+            15,
+            60,
+            12,
+            804.843,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9992,
+            1.4994,
+            2.7744,
+            15,
+            60,
+            12,
+            865.144,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.1168,
+            1.5876,
+            2.9376,
+            15,
+            60,
+            12,
+            928.0668,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Mizuki_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Munen Shockwave DMG|{param2:F1P}",
+            "Snack Pick-Up HP Regeneration|{param3:F1P} Elemental Mastery+{param7:I}",
+            "Duration|{param6:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.2344,
+            1.6758,
+            3.1008,
+            15,
+            60,
+            12,
+            993.61127,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 1092101,
+      "name": "Bright Moon's Restless Voice",
+      "desc": "When Yumemizuki Mizuki triggers Swirl while in her Dreamdrifter state, Dreamdrifter's duration increases by 2.5s. This effect can trigger once every 0.3s for a maximum of 2 times per Dreamdrifter state.",
+      "icon": "UI_Talent_S_Mizuki_05",
+      "unlock": 1,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1092201,
+      "name": "Thoughts by Day Bring Dreams by Night",
+      "desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, when other nearby party members hit opponents with <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, or <color=#FFACFFFF>Electro</color> attacks, her Elemental Mastery will increase by 100 for 4s.",
+      "icon": "UI_Talent_S_Mizuki_06",
+      "unlock": 4,
+      "param_list": [
+        100,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1092301,
+      "name": "All Ailments Banished",
+      "desc": "When Yumemizuki Mizuki is in the party, party members have a chance to recover 30% additional HP when using healing foods that do not have reviving properties. The trigger chance for this effect increases with the corresponding character's Friendship Level. (This effect will always trigger if the Traveler is the character consuming healing food.)",
+      "icon": "UI_Talent_S_Mizuki_07",
+      "unlock": 0,
+      "param_list": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 1091,
+      "name": "In Mist-Like Waters",
+      "desc": "When Yumemizuki Mizuki is in the Dreamdrifter state, she will continuously apply the \"Twenty-Three Nights' Awaiting\" effect to nearby opponents for 3s every 3.5s. When an opponent is affected by Anemo DMG-triggered Swirl reactions while the aforementioned effect is active, the effect will be canceled and this Swirl instance has its DMG against this opponent increased by 1,100% of Mizuki's Elemental Mastery.",
+      "icon": "UI_Talent_S_Mizuki_01",
+      "param_list": [
+        11,
+        3,
+        3.5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1092,
+      "name": "Your Echo I Meet in Dreams",
+      "desc": "When Yumemizuki Mizuki enters the Dreamdrifter state, every Elemental Mastery point she has will increase all nearby party members' <color=#FF9999FF>Pyro</color>, <color=#80C0FFFF>Hydro</color>, <color=#99FFFFFF>Cryo</color>, and <color=#FFACFFFF>Electro</color> DMG Bonuses by 0.04% until the Dreamdrifter state ends.",
+      "icon": "UI_Talent_S_Mizuki_02",
+      "param_list": [
+        0.0004,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1093,
+      "name": "Till Dawn's Moon Ends Night",
+      "desc": "Increases the Level of <color=#FFD780FF>Aisa Utamakura Pilgrimage</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Mizuki_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1094,
+      "name": "Buds Warm Lucid Springs",
+      "desc": "Picking up a <color=#FFD780FF>Yumemi Style Special Snack</color> from the Elemental Burst <color=#FFD780FF>Anraku Secret Spring Therapy</color> will both deal DMG and heal, and will restore 5 Energy to Yumemizuki Mizuki. Energy can be restored this way 4 times per <color=#FFD780FF>Anraku Secret Spring Therapy</color> duration.",
+      "icon": "UI_Talent_S_Mizuki_03",
+      "param_list": [
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1095,
+      "name": "As Setting Moon Brings Year's End",
+      "desc": "Increases the Level of <color=#FFD780FF>Anraku Secret Spring Therapy</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Mizuki_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1096,
+      "name": "The Heart Lingers Long",
+      "desc": "While Yumemizuki Mizuki is in the Dreamdrifter state, Swirl DMG dealt by nearby party members can score CRIT Hits, with CRIT Rate fixed at 30%, and CRIT DMG fixed at 100%.",
+      "icon": "UI_Talent_S_Mizuki_04",
+      "param_list": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Sliver",
+            "id": 104151,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Sea Ganoderma",
+            "id": 101206,
+            "count": 3,
+            "rank": 0
+          },
+          {
+            "name": "Old Handguard",
+            "id": 112044,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Fragment",
+            "id": 104152,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Talisman of the Enigmatic Land",
+            "id": 113071,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Sea Ganoderma",
+            "id": 101206,
+            "count": 10,
+            "rank": 0
+          },
+          {
+            "name": "Old Handguard",
+            "id": 112044,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Fragment",
+            "id": 104152,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Talisman of the Enigmatic Land",
+            "id": 113071,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Sea Ganoderma",
+            "id": 101206,
+            "count": 20,
+            "rank": 0
+          },
+          {
+            "name": "Kageuchi Handguard",
+            "id": 112045,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Chunk",
+            "id": 104153,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Talisman of the Enigmatic Land",
+            "id": 113071,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Sea Ganoderma",
+            "id": 101206,
+            "count": 30,
+            "rank": 0
+          },
+          {
+            "name": "Kageuchi Handguard",
+            "id": 112045,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Chunk",
+            "id": 104153,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Talisman of the Enigmatic Land",
+            "id": 113071,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Sea Ganoderma",
+            "id": 101206,
+            "count": 45,
+            "rank": 0
+          },
+          {
+            "name": "Famed Handguard",
+            "id": 112046,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Gemstone",
+            "id": 104154,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Talisman of the Enigmatic Land",
+            "id": 113071,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Sea Ganoderma",
+            "id": 101206,
+            "count": 60,
+            "rank": 0
+          },
+          {
+            "name": "Famed Handguard",
+            "id": 112046,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Transience",
+              "id": 104320,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Old Handguard",
+              "id": 112044,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Transience",
+              "id": 104320,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Old Handguard",
+              "id": 112044,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Transience",
+              "id": 104320,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Old Handguard",
+              "id": 112044,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Transience",
+              "id": 104321,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Kageuchi Handguard",
+              "id": 112045,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Transience",
+              "id": 104322,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Famed Handguard",
+              "id": 112046,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Fading Candle",
+              "id": 113060,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  }
+}

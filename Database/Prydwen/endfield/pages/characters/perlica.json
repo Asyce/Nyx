@@ -1,0 +1,1398 @@
+{
+  "id": "characters:perlica",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "perlica",
+  "name": "Perlica",
+  "title": "Perlica Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/perlica",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "updatedText": "12/May/2026",
+  "meta": {
+    "title": "Perlica Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {},
+  "assets": [
+    {
+      "id": "b20a7d8a6fe4",
+      "sourceHash": "b20a7d8a6fe4",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "perlica-card",
+      "path": "Prydwen/endfield/assets/characters/perlica-card-b20a7d8a6fe4.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "356f5dfcc644",
+      "sourceHash": "356f5dfcc644",
+      "kind": "icons",
+      "name": "Strength",
+      "fileStem": "stat-strength",
+      "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "fa8b0679d3bd",
+      "sourceHash": "fa8b0679d3bd",
+      "kind": "icons",
+      "name": "Agility",
+      "fileStem": "stat-agility",
+      "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0638c69e0b8e",
+      "sourceHash": "0638c69e0b8e",
+      "kind": "icons",
+      "name": "Intellect",
+      "fileStem": "stat-intellect",
+      "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6ae9fe735963",
+      "sourceHash": "6ae9fe735963",
+      "kind": "icons",
+      "name": "Will",
+      "fileStem": "stat-will",
+      "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ea6d73348291",
+      "sourceHash": "ea6d73348291",
+      "kind": "characters",
+      "name": "Perlica full illustration",
+      "fileStem": "perlica-full",
+      "path": "Prydwen/endfield/assets/characters/perlica-full-illustration-ea6d73348291.webp",
+      "width": 600,
+      "height": 800
+    },
+    {
+      "id": "bd87bdf5874f",
+      "sourceHash": "bd87bdf5874f",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-52",
+      "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "223a617b3102",
+      "sourceHash": "223a617b3102",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-60",
+      "path": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "767f46b1f7c6",
+      "sourceHash": "767f46b1f7c6",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-54",
+      "path": "Prydwen/endfield/assets/weapons/weapon-54-767f46b1f7c6.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3d8cd2218ea9",
+      "sourceHash": "3d8cd2218ea9",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-61",
+      "path": "Prydwen/endfield/assets/weapons/weapon-61-3d8cd2218ea9.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "f3ed6b468613",
+      "sourceHash": "f3ed6b468613",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-54",
+      "path": "Prydwen/endfield/assets/gear/gear-54-f3ed6b468613.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "3db4de98747c",
+      "sourceHash": "3db4de98747c",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-55",
+      "path": "Prydwen/endfield/assets/gear/gear-55-3db4de98747c.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "d19456ec3ed4",
+      "sourceHash": "d19456ec3ed4",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-2",
+      "path": "Prydwen/endfield/assets/gear/gear-2-d19456ec3ed4.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "025bdf9bbe9e",
+      "sourceHash": "025bdf9bbe9e",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-56",
+      "path": "Prydwen/endfield/assets/gear/gear-56-025bdf9bbe9e.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "a9317c952405",
+      "sourceHash": "a9317c952405",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-112",
+      "path": "Prydwen/endfield/assets/gear/gear-112-a9317c952405.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "1a0f866382ba",
+      "sourceHash": "1a0f866382ba",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-109",
+      "path": "Prydwen/endfield/assets/gear/gear-109-1a0f866382ba.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "6a90a2333244",
+      "sourceHash": "6a90a2333244",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-114",
+      "path": "Prydwen/endfield/assets/gear/gear-114-6a90a2333244.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "aefd4e8fb625",
+      "sourceHash": "aefd4e8fb625",
+      "kind": "characters",
+      "name": "Last Rite",
+      "fileStem": "last-rite-icon",
+      "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ffd55a6794cd",
+      "sourceHash": "ffd55a6794cd",
+      "kind": "icons",
+      "name": "Cryo",
+      "fileStem": "element-cryo",
+      "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ae3ab8fe6aa1",
+      "sourceHash": "ae3ab8fe6aa1",
+      "kind": "characters",
+      "name": "Arclight",
+      "fileStem": "arclight-icon",
+      "path": "Prydwen/endfield/assets/characters/arclight-ae3ab8fe6aa1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "21e0d5281fdd",
+      "sourceHash": "21e0d5281fdd",
+      "kind": "icons",
+      "name": "Electric",
+      "fileStem": "element-electric",
+      "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "e79bad876e59",
+      "sourceHash": "e79bad876e59",
+      "kind": "characters",
+      "name": "Wulfgard",
+      "fileStem": "wulfgard-icon",
+      "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4a975b15dfb0",
+      "sourceHash": "4a975b15dfb0",
+      "kind": "icons",
+      "name": "Heat",
+      "fileStem": "element-heat",
+      "path": "Prydwen/endfield/assets/icons/heat-4a975b15dfb0.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "72f4fe10ab2e",
+      "sourceHash": "72f4fe10ab2e",
+      "kind": "characters",
+      "name": "Rossi",
+      "fileStem": "rossi-icon",
+      "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9b291c88ce28",
+      "sourceHash": "9b291c88ce28",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "element-physical",
+      "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ae1ff97576c0",
+      "sourceHash": "ae1ff97576c0",
+      "kind": "characters",
+      "name": "Zhuang Fangyi",
+      "fileStem": "zhuang-fangyi-icon",
+      "path": "Prydwen/endfield/assets/characters/zhuang-fangyi-ae1ff97576c0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ee3f25e30847",
+      "sourceHash": "ee3f25e30847",
+      "kind": "characters",
+      "name": "Avywenna",
+      "fileStem": "avywenna-icon",
+      "path": "Prydwen/endfield/assets/characters/avywenna-ee3f25e30847.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "34393427391b",
+      "sourceHash": "34393427391b",
+      "kind": "characters",
+      "name": "Perlica",
+      "fileStem": "perlica-icon",
+      "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5e47d449e938",
+      "sourceHash": "5e47d449e938",
+      "kind": "characters",
+      "name": "Antal",
+      "fileStem": "antal-icon",
+      "path": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "66a30b73120e",
+      "sourceHash": "66a30b73120e",
+      "kind": "characters",
+      "name": "Yvonne",
+      "fileStem": "yvonne-icon",
+      "path": "Prydwen/endfield/assets/characters/yvonne-66a30b73120e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b26fc37d4ba6",
+      "sourceHash": "b26fc37d4ba6",
+      "kind": "characters",
+      "name": "Xaihi",
+      "fileStem": "xaihi-icon",
+      "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e0644812a9c1",
+      "sourceHash": "e0644812a9c1",
+      "kind": "characters",
+      "name": "Gilberta",
+      "fileStem": "gilberta-icon",
+      "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "15421cba5670",
+      "sourceHash": "15421cba5670",
+      "kind": "characters",
+      "name": "Ardelia",
+      "fileStem": "ardelia-icon",
+      "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "perlica-best-build-guide-0",
+      "level": 1,
+      "heading": "Perlica Best Build Guide",
+      "text": "Last updated: 12/May/2026",
+      "assets": [
+        {
+          "id": "b20a7d8a6fe4",
+          "sourceHash": "b20a7d8a6fe4",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "perlica-card",
+          "path": "Prydwen/endfield/assets/characters/perlica-card-b20a7d8a6fe4.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Perlica is a 5 -star character in Arknights: Endfield (AKE). Perlica wields an Arts Unit and belongs to the Caster class. Perlica also has access to the Electric element. This guide provides a comprehensive overview of Perlica 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Perlica check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Perlica has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1\n\n Last major build/calcs update\n Patch 1\n\n Last profile update*\n 12/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Perlica check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 91\n\n Agility\n 93\n\n Intellect\n 161\n\n Will\n 113",
+      "assets": [
+        {
+          "id": "356f5dfcc644",
+          "sourceHash": "356f5dfcc644",
+          "kind": "icons",
+          "name": "Strength",
+          "fileStem": "stat-strength",
+          "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "fa8b0679d3bd",
+          "sourceHash": "fa8b0679d3bd",
+          "kind": "icons",
+          "name": "Agility",
+          "fileStem": "stat-agility",
+          "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0638c69e0b8e",
+          "sourceHash": "0638c69e0b8e",
+          "kind": "icons",
+          "name": "Intellect",
+          "fileStem": "stat-intellect",
+          "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6ae9fe735963",
+          "sourceHash": "6ae9fe735963",
+          "kind": "icons",
+          "name": "Will",
+          "fileStem": "stat-will",
+          "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Basic Attack\n Protocol α: Breach",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-12",
+      "level": 6,
+      "heading": "BASIC ATTACK:",
+      "text": "An attack with up to 4 sequences that deals Electric DMG . As the controlled operator, Final Strike also deals 15 Stagger .",
+      "assets": []
+    },
+    {
+      "id": "dive-attack-13",
+      "level": 6,
+      "heading": "DIVE ATTACK:",
+      "text": "Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.",
+      "assets": []
+    },
+    {
+      "id": "finisher-14",
+      "level": 6,
+      "heading": "FINISHER:",
+      "text": "Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Electric DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Protocol ω: Strike\n SP Cost : 100\n\n Unleashes a bolt of electro-magnetic energy that deals Electric DMG and Electric Infliction to enemies in a small area.\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Instant Protocol: Chain\n Cooldown: 19 s\n\n Unleashes stored electro-magnetic energy to bombard the target, dealing Electric DMG and forcibly inflicting temporary Electrification .\n Trigger: When controlled operator performs a Final Strike on any enemy.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Protocol ε: 70.41K\n Energy cost : 80\n\n Tele-protocols a massive piece of orbital debris into the battlefield with devastating impact. All enemies in the area of effect suffer massive Electric DMG .\n Multipliers (Rank 12)",
+      "assets": []
+    },
+    {
+      "id": "talents-16",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Base Talent\n Supervisor\n\n Assign to Control Nexus to grant all operators' Mood Regen +8/12% .\n\n Base Talent\n Protocol Redistribution\n\n Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20/30% .\n\n Combat Talent\n Obliteration Protocol\n\n DMG Dealt +20/30% to Stagger ed enemies.\n\n Combat Talent\n Cycle Protocol\n\n Combo skill Instant Protocol: Chain improved: When hitting a Vulnerable enemy, the hit chains 1 more time.\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-18",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "P1\n Crisis Handling\n Potential 1\n\n Combo skill Instant Protocol: Chain improved: Electrification duration +75% .\n Show Effects\n\n P2\n Negotiation Tactics\n Potential 2\n\n Ultimate Protocol ε: 70.41K improved: Ultimate Energy cost -15% .\n\n P3\n Supervisory Duties\n Potential 3\n\n After Perlica applies Electrification to the enemy, she gains ATK +20% for 5s . This effect can reach 2 stacks.\n Show Effects\n\n P4\n Constant Guidance\n Potential 4\n\n Combo skill Instant Protocol: Chain improved: The Arts DMG Taken debuff effects on the enemy applied by the skill's Electrification are increased to 1.33 times the original.\n Show Effects\n\n P5\n Reentry Control\n Potential 5\n\n Ultimate Protocol ε: 70.41K improved: Critical Rate +30% .",
+      "assets": []
+    },
+    {
+      "id": "lore-20",
+      "level": 3,
+      "heading": "Lore",
+      "text": "\"We once fought on and never gave up ... for it is our wish to witness your return.\"\n Perlica is the Supervisor of Endfield Industries and the official spokesperson of the company. She is primarily responsible for overseeing and advancing the development and application of Protocol-Originium technology, while also managing the operations of Dijiang.\n As an outstanding expert in Techno-Protocol, she guided research that had a key influence on the adaptive development and application of the technology, and helped refine the Automated Industry Complex (AIC Factory).\n She is capable of responding to various crises in a calm and decisive manner. However, Endfield often faces challenges that go beyond all expectations. While the Endministrator was in hibernation, she took command of the Crisis Team, leading the heroes of Endfield Industries in a battle for a greater cause. Perlica moves tirelessly across the Civilization Band, doing whatever she can to maintain order and keep things running.",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-22",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-24",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "ea6d73348291",
+          "sourceHash": "ea6d73348291",
+          "kind": "characters",
+          "name": "Perlica full illustration",
+          "fileStem": "perlica-full",
+          "path": "Prydwen/endfield/assets/characters/perlica-full-illustration-ea6d73348291.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "buffer-27",
+      "level": 6,
+      "heading": "Buffer",
+      "text": "T0\n Umbral Monument",
+      "assets": []
+    },
+    {
+      "id": "pros-30",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Can forcibly apply Electrification for free with Combo Skill, boosting all Arts damage taken.\n\n Can freely apply Electric Infliction quickly with the Battle Skill.\n\n Above-average personal damage output for the support damage role.\n\n Many viable, supportive weapon choices further boost support damage capabilities.\n\n Incredibly easy to trigger Combo Skill usable in any team.\n\n Might not always be optimal, but works in every Arts Damage-based team thanks to her generic combo and debuff.\n\n She's free!",
+      "assets": []
+    },
+    {
+      "id": "cons-31",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Without potentials combo, Electrification has a low duration, which must be timed during large damage moments to get value out of.",
+      "assets": []
+    },
+    {
+      "id": "kit-intro-34",
+      "level": 6,
+      "heading": "Kit Intro",
+      "text": "Perlica is a 5-star, Electric, Arts Unit support damage dealer who specializes in forcibly applying Electrification without the need to consume any Arts Inflictions or spend any SP thanks to her Combo Skill. Said Combo Skill is also exceptionally easy to trigger, only requiring the controlled operator to land a Final Strike. This, combined with the fact that the Electrification she applies causes enemies to take extra Arts damage from all major elements except Physical, means it’s always viable to slot Perlica into any Arts damage-based team as long as you time her Combo Skill to trigger right before the team's major burst damage.\n On top of her flexible Combo Skill, Perlica also has solid damage output herself thanks to a combination of good multipliers across her main skills. Another point of versatility is her ability to play into either Arts reactions or Electric burst with the Electric Infliction of her Battle Skill. You can choose to invest SP into her, or not; either option is viable depending on the team's requirements.\n Last but not least, Perlica gains a large boost to her supportive capabilities due to her weapon type being Arts Units. There are multiple very strong options Perlica can use to buff herself or the team, further solidifying her value as either a sub DPS or capable supporter of the compositions she plays within.",
+      "assets": []
+    },
+    {
+      "id": "combo-35",
+      "level": 6,
+      "heading": "Combo",
+      "text": "Perlica’s Combo Skill is the cornerstone of her kit and a large part of the reason to bring her to many teams. It has a decently long cooldown but only requires the controlled operator to perform a Final Strike on an enemy to trigger, which is very easy to fulfill. Using the Combo skill deals Electric damage, some Stagger, and forcibly applies Electrification to the target while ignoring all Arts Inflictions present on the enemy. At base, the forced Electrification has the effect of a 1 Infliction Electrification, but with a much shorter duration of 5 seconds. The forced Electrification also does not deal any direct damage.\n Note: Because the Combo Skill ignores other Inflictions and reactions on the enemy, Perlica can use it without interrupting mono-element teams that would otherwise not be able to access the reaction consistently.\n Tip: Despite being forcibly applied, Art's Intensity still affects the Infliction from Perlica’s Combo Skill, improving the stats value in teams that value the damage taken of this debuff highly.",
+      "assets": []
+    },
+    {
+      "id": "battle-skill-36",
+      "level": 6,
+      "heading": "Battle Skill",
+      "text": "Perlica’s Battle Skill is less universally useful in most teams, but still worth considering in others, depending on the Inflictions or reactions you’re after. Using it requires the usual 100 SP, deals some Electric damage, Stagger, and applies Electric Infliction to enemies hit. When building Perlica around Arts Intensity to maximize her Electrification debuff, the up-front damage this Battle Skill can deal through Arts burst and reactions can become quite significant in some teams, making it more valuable than it may appear at first glance.",
+      "assets": []
+    },
+    {
+      "id": "ultimate-37",
+      "level": 6,
+      "heading": "Ultimate",
+      "text": "Perlica’s Ultimate is as simple as abilities come; it costs 80 to use, deals a high multiplier hit of Electric damage in an area, and some Stagger. Usually best when saved to be used during enemy Stagger windows to take advantage of one of Perlica’s talents — it should also be aligned to hit while the enemy is suffering from Electrification to increase its damage. The only other nuance to using this ability is the fact that using it can trigger some Arts Units' passives, some of which buff the team, so you may want to align it before other high-burst abilities.",
+      "assets": []
+    },
+    {
+      "id": "talents-38",
+      "level": 6,
+      "heading": "Talents",
+      "text": "Perlica’s talents aren’t transformational but can yield some nice bonuses. The first, Obliteration Protocol, is the more generic of the two and increases damage dealt to Staggered enemies by +30%, which is the same stat as DMG% vs Staggered, and stacks additively with stats like Electric DMG%. This is a nice boost that encourages the use of large abilities like Perlica’s Ultimate during Stagger windows.\n Perlica’s other talent, Cycle Protocol, causes her Combo Skill to chain to another enemy when used against an enemy with Vulnerable on them. This chain allows her to hit and afflict two enemies with her combo instead of the usual one. Perlica can sometimes find herself in teams with Vulnerability stacks, but it’s definitely not common, as those teams are usually focused around Physical damage, which Perlica isn’t able to synergize well with. Because of that, this talent is on the more niche side.",
+      "assets": []
+    },
+    {
+      "id": "gameplay-39",
+      "level": 6,
+      "heading": "Gameplay",
+      "text": "Perlica’s gameplay changes depending on the team you’re playing her in, but here are some general guidelines you can follow and work around as a base:\n Time Perlica’s Combo Skill for before high damage scenarios in teams that bring her for her Electrification debuff.\n\n Use Perlica’s Ultimate while Electrification is applied and ideally during Stagger. When using an Arts Unit that buffs the team after activating Ultimate, align its use to be before allies' major burst abilities, but still during Electrification.\n\n Manage Perlica’s Combo Skill cooldown so you don’t lose out on activations by holding it unnecessarily, but also ensure you don’t use it too early that expires before you deal the majority of your damage.\n\n If your team requires Electric Infliction, use Perlica’s Battle Skill as needed.\n\n Tip: In teams that use Electrification for other purposes, like Arts reaction consumption teams, including characters like Arclight or Wulfgard, you can be more liberal with deploying Perlica’s Combo Skill to maximize total consumptions in a fight.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-41",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "Perlica best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Stanza of Memorials (P 5 )\n\n Best general support weapon in non-Electric teams, Stanza has reasonable passive stats for Perlica, but more importantly it grants all non-Electric operator a sizable ATK increase after Perlica uses her Ultimate. With this weapon, aim to use Perlica's Ultimate before your main burst window.\n\n 2\n\n Detonation Unit (P 0 )\n\n As Stanza does not work with Electric operators, Detonation Unit is a strong support option in Electric teams assuming you can trigger Electric Bursts with Perlica's Battle Skill. When doing so it will apply a strong Arts DMG Taken debuff. Outside of its team capabilities, the offensive passives are fairly underwhelming for Perlica.\n\n 3\n\n Wild Wanderer (P 5 )\n\n Another supportive option for Perlica with a passive dedicated to buffing Electric and Physical teams everytime Perlica uses her Combo Skill which can be easily maintained. The damage bonus from this weapon is the least potent of the buffs available on her weapons, but the excellent passive stats and ease of access makes it worth considering. If Perlica cannot easily trigger Arts Bursts for Detonation Unit, such as in teams with Zhuang Fangyi, Wild Wanderer will be her best support option.",
+      "assets": [
+        {
+          "id": "bd87bdf5874f",
+          "sourceHash": "bd87bdf5874f",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-52",
+          "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "223a617b3102",
+          "sourceHash": "223a617b3102",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-60",
+          "path": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "767f46b1f7c6",
+          "sourceHash": "767f46b1f7c6",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-54",
+          "path": "Prydwen/endfield/assets/weapons/weapon-54-767f46b1f7c6.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "specialist-weapon-options-42",
+      "level": 6,
+      "heading": "Specialist Weapon Options",
+      "text": "1\n\n Oblivion (P 0 )\n\n When using Perlica as a damage dealer, Oblivion is her best thanks to its solid passive stats and its outstanding Weapon Effect, which grants Perlica a huge amount of Arts DMG% when using her Ultimate or Combo Skill.",
+      "assets": [
+        {
+          "id": "3d8cd2218ea9",
+          "sourceHash": "3d8cd2218ea9",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-61",
+          "path": "Prydwen/endfield/assets/weapons/weapon-61-3d8cd2218ea9.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-44",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "Perlica best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Pulser Labs",
+      "assets": [
+        {
+          "id": "f3ed6b468613",
+          "sourceHash": "f3ed6b468613",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-54",
+          "path": "Prydwen/endfield/assets/gear/gear-54-f3ed6b468613.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-45",
+      "level": 6,
+      "heading": "Description",
+      "text": "Maximizing Perlica's Arts Intensity is the best way to boost her supportive capabilities among the available 3P set bonuses. Because of this, Pulser Labs is usually the best choice for her. Its gear pieces are also ideal for her playstyle, having the right stats as well as a lot of Arts Intensity. Last but not least its 3P active bonus grants her a large amount of personal damage as well.",
+      "assets": []
+    },
+    {
+      "id": "pieces-46",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Pulser Labs Disruptor Suit Pulser Labs\n\n Gloves\n Aethertech Gloves\n\n Kit\n Pulser Labs Calibrator Pulser Labs\n\n Kit\n Pulser Labs Calibrator Pulser Labs",
+      "assets": [
+        {
+          "id": "3db4de98747c",
+          "sourceHash": "3db4de98747c",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-55",
+          "path": "Prydwen/endfield/assets/gear/gear-55-3db4de98747c.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "d19456ec3ed4",
+          "sourceHash": "d19456ec3ed4",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-2",
+          "path": "Prydwen/endfield/assets/gear/gear-2-d19456ec3ed4.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "f3ed6b468613",
+          "sourceHash": "f3ed6b468613",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-54",
+          "path": "Prydwen/endfield/assets/gear/gear-54-f3ed6b468613.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-47",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "Pulser Labs Gloves\n - If you prefer more damage from Perlica, Pusler Labs Gloves features matching Atrributes and Electric DMG% which significantly boosts her damage. While Aethertech Gloves have no matching Attributes, Arts Intensity will ampliffy her Arts DMG Taken debuff through Electrification.\n Qingbo Gloves\n - Ultimate Gain Efficiency option - Can be used to activate Stanza of Memorials more often.\n\n 2\n\n Qingbo",
+      "assets": [
+        {
+          "id": "025bdf9bbe9e",
+          "sourceHash": "025bdf9bbe9e",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-56",
+          "path": "Prydwen/endfield/assets/gear/gear-56-025bdf9bbe9e.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "a9317c952405",
+          "sourceHash": "a9317c952405",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-112",
+          "path": "Prydwen/endfield/assets/gear/gear-112-a9317c952405.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "1a0f866382ba",
+          "sourceHash": "1a0f866382ba",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-109",
+          "path": "Prydwen/endfield/assets/gear/gear-109-1a0f866382ba.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-48",
+      "level": 6,
+      "heading": "Description",
+      "text": "Qingo gear pieces offer Will, Int, and most importantly Arts Intensity on its gear to amplify the Arts DMG Taken debuff from Electrification. The Combo Skill cooldown reduction can be useful in teams that consumes her Electrification debuff to enable their kits like with Zhuang Fangyi.",
+      "assets": []
+    },
+    {
+      "id": "pieces-49",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Qingbo Light Armor Qingbo\n\n Gloves\n Qingbo Gloves Qingbo\n\n Kit\n Qingbo Cask Qingbo\n\n Kit\n Qingbo Cask Qingbo",
+      "assets": [
+        {
+          "id": "6a90a2333244",
+          "sourceHash": "6a90a2333244",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-114",
+          "path": "Prydwen/endfield/assets/gear/gear-114-6a90a2333244.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "a9317c952405",
+          "sourceHash": "a9317c952405",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-112",
+          "path": "Prydwen/endfield/assets/gear/gear-112-a9317c952405.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "1a0f866382ba",
+          "sourceHash": "1a0f866382ba",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-109",
+          "path": "Prydwen/endfield/assets/gear/gear-109-1a0f866382ba.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-pieces-51",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Perlica gear pieces calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "potentials-review-53",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "P 1\n Crisis Handling\n\n Increases the duration of Perlica’s Combo Skill Electrification by 75%, upgrading its length from 5 seconds to almost 9 seconds. This potential is a huge upgrade to Perlica’s supportive potential, almost doubling the duration of one of her most impactful abilities. In teams where you aren’t triggering proper Electrification reactions with Electric Infliction, this potential is close to a must-have.\n\n P 2\n Negotiation Tactics\n\n Reduces Perlica’s Ultimate Cost by -15%, taking it from 80 energy to 6,8 improving accessibility, leading to higher total damage output and more chances at activating weapons that trigger off of Ultimate use.\n\n P 3\n Supervisory Duties\n\n After Perlica applies Electrification, she gains a +20% attack boost for 5 seconds, stacking up to 2 times. This Ability is most likely to trigger off of her combo with two stacks accessible when it chains after hitting Vulnerable enemies. Maintaining this buff long term or even reaching 2 stacks at all isn’t realistic for Perlica in most teams, but when played around correctly, you should have it for most Perlica Ultimates, as you should be aligning Electrification and her Ultimate alongside the rest of your team's burst damage, preferably during Stagger.\n\n P 4\n Constant Guidance\n\n The wording or effect on Perlica’s Potential 4 is currently incorrect - which it is, we’re not sure. What the potential actually does is upgrade the force Electrification from using a 1 Infliction Electrification as a base to a 2 Infliction instead. This elevates the damage taken debuff from 12% (before Arts intensity) to 16%. The duration of the Electrification does not change from this potential compared to P1.\n\n P 5\n Reentry Control\n\n Increases the Crit Rate of Perlica’s Ultimate by +30%. This, with 50% Crit Damage, is equivalent to a 15% total increase to Perlica’s Ultimate damage. Not a bad damage boost, but not a game-changer, and doesn’t improve her supportive capabilities at all.",
+      "assets": []
+    },
+    {
+      "id": "calculations-55",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "Perlica calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "off-field-58",
+      "level": 6,
+      "heading": "Off Field :",
+      "text": "Battle Skill >= Ultimate >= Basic Attack > Combo Skill\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-60",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Cryo\n\n Last Rite Cryo\n\n Perlica has outstanding supportive weapon choices\n\n Can apply Electrification for free with Combo skill, which is easily timed to align with Last Rite's Ultimate and Combo skill, increasing damage taken by the target signifcantly\n\n Solid sub DPS potential, contributing a bit of damage of her own\n\n Works well alongside other buffers who cover other buff categories, such as Amp, DMG%, and ATK%, as Perlica's Damage Taken is in a different multiplier group\n\n Electric\n\n Arclight Electric\n\n Applies Electrification for free with her Combo skill, triggering Arclight's Combo skill once. Electrification can then be consumed by her Battle Skill, which triggers her Combo again, positioning Perlica as a free activator for Arclight\n\n Perlica has outstanding supportive weapon choices, which nicely buff Arclight and the rest of the team\n\n Arclight's own supportive weapon and sets buff Perlica back, allowing the two to buff each other in order to both deal more damage\n\n Arclight consumes minimal SP herself and generates some back, freeing it up in some teams for Perlica to use on her Battle Skill to gain more damage\n\n Heat\n\n Wulfgard Heat\n\n Applies Electrication with Combo Skill for free, which Wulfgard can consume with his Battle Skill to deal additional damage\n\n Perlica has outstanding supportive weapon choices\n\n Combining Electric infliction from Perlica's battle skill and heat from Wulfgard forms natural reactions of either Combustion or Electrication - both of which Wulf can consume, giving him a continual source of damage that is only limited by SP\n\n Physical\n\n Rossi Physical\n\n Perlica has decent personal damage and strong buffs, with easily accessible Electrification and having Stanza of Memorials as a competitive weapon option to buff Rossi's Heat DMG.\n\n Constant reactions and readily available Inflictions can have compounding synergies with other teammates (e.g. Gilberta Combo).\n\n Perlica is strictly an Arts-based support and reliant on other Operators for Combustion or Corrosion set-ups.\n\n Electric\n\n Zhuang Fangyi Electric\n\n Perlica is by far the most important enabler teammate for Zhuang Fangyi thanks to her free Electrification debuff from Combo Skill, which can be easily activated through Final Strikes.\n\n Perlica has access to a reliable Electric Infliction through her Battle Skill, which is needed to trigger Zhuang Fangyi's Combo Skill.\n\n She's able to buff the team through Arts Units (Wild Wanderer), and contributes a non-negligible amount of damage herself.\n\n On the flipside, despite having higher scaling on her Electrification's Arts DMG Taken effect, this rarely comes into play owing to Fangyi's Reaction consumption.\n\n Note: It's beneficial to have Perlica after Fangyi in the team order. This is because timestop interactions means that her Combo Skill will land first if both are used in quick succession. Reverse ordering can work, but would demand waiting longer before using Fangyi's Combo.",
+      "assets": [
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ffd55a6794cd",
+          "sourceHash": "ffd55a6794cd",
+          "kind": "icons",
+          "name": "Cryo",
+          "fileStem": "element-cryo",
+          "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "ae3ab8fe6aa1",
+          "sourceHash": "ae3ab8fe6aa1",
+          "kind": "characters",
+          "name": "Arclight",
+          "fileStem": "arclight-icon",
+          "path": "Prydwen/endfield/assets/characters/arclight-ae3ab8fe6aa1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "21e0d5281fdd",
+          "sourceHash": "21e0d5281fdd",
+          "kind": "icons",
+          "name": "Electric",
+          "fileStem": "element-electric",
+          "path": "Prydwen/endfield/assets/icons/electric-21e0d5281fdd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4a975b15dfb0",
+          "sourceHash": "4a975b15dfb0",
+          "kind": "icons",
+          "name": "Heat",
+          "fileStem": "element-heat",
+          "path": "Prydwen/endfield/assets/icons/heat-4a975b15dfb0.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9b291c88ce28",
+          "sourceHash": "9b291c88ce28",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "element-physical",
+          "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "ae1ff97576c0",
+          "sourceHash": "ae1ff97576c0",
+          "kind": "characters",
+          "name": "Zhuang Fangyi",
+          "fileStem": "zhuang-fangyi-icon",
+          "path": "Prydwen/endfield/assets/characters/zhuang-fangyi-ae1ff97576c0.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-62",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Perlica teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+      "assets": []
+    },
+    {
+      "id": "team-members-63",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Avywenna\n\n Arclight\n\n Perlica\n\n Antal\n\n With a full Electric team, and especially with Arclight present, getting 8 Battle Skills over the course of a full rotation is doable. This is due to the SP recovery when consuming Electrification from Arclight, as well as Antal's low SP requirements.\n The gist of the team is to maintain Electric Inflictions and use most Combo Skills on cooldown, consuming Electrification with Arclight to sustain Ultimate Energy generation. Depending on the weapon, look to align Antal's Combo Skill with stagger to trigger Arts Burst effects.",
+      "assets": [
+        {
+          "id": "ee3f25e30847",
+          "sourceHash": "ee3f25e30847",
+          "kind": "characters",
+          "name": "Avywenna",
+          "fileStem": "avywenna-icon",
+          "path": "Prydwen/endfield/assets/characters/avywenna-ee3f25e30847.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ae3ab8fe6aa1",
+          "sourceHash": "ae3ab8fe6aa1",
+          "kind": "characters",
+          "name": "Arclight",
+          "fileStem": "arclight-icon",
+          "path": "Prydwen/endfield/assets/characters/arclight-ae3ab8fe6aa1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5e47d449e938",
+          "sourceHash": "5e47d449e938",
+          "kind": "characters",
+          "name": "Antal",
+          "fileStem": "antal-icon",
+          "path": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "opening-rotation-64",
+      "level": 6,
+      "heading": "Opening rotation",
+      "text": "Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n From this point on, continue to loop Final Strikes, making sure to use Avywenna and Perlica's Combo Skills on cooldown, with Arclight's Combo Skill and Battle Skills whenever Electrification is applied.",
+      "assets": [
+        {
+          "id": "5e47d449e938",
+          "sourceHash": "5e47d449e938",
+          "kind": "characters",
+          "name": "Antal",
+          "fileStem": "antal-icon",
+          "path": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee3f25e30847",
+          "sourceHash": "ee3f25e30847",
+          "kind": "characters",
+          "name": "Avywenna",
+          "fileStem": "avywenna-icon",
+          "path": "Prydwen/endfield/assets/characters/avywenna-ee3f25e30847.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ae3ab8fe6aa1",
+          "sourceHash": "ae3ab8fe6aa1",
+          "kind": "characters",
+          "name": "Arclight",
+          "fileStem": "arclight-icon",
+          "path": "Prydwen/endfield/assets/characters/arclight-ae3ab8fe6aa1.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "burst-rotation-65",
+      "level": 6,
+      "heading": "Burst Rotation",
+      "text": "Ultimate\n\n →\n\n Combo (Arts Burst, before forced Electrification)\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Final Strike (Staggers)\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Finisher\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n The above list is in order of skills hitting. Ideally many of these are cast before (e.g. Arclight Battle Skill is cast before the Final Strike connects, but it only lands and consumes Electrification shortly after).",
+      "assets": [
+        {
+          "id": "ae3ab8fe6aa1",
+          "sourceHash": "ae3ab8fe6aa1",
+          "kind": "characters",
+          "name": "Arclight",
+          "fileStem": "arclight-icon",
+          "path": "Prydwen/endfield/assets/characters/arclight-ae3ab8fe6aa1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5e47d449e938",
+          "sourceHash": "5e47d449e938",
+          "kind": "characters",
+          "name": "Antal",
+          "fileStem": "antal-icon",
+          "path": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ee3f25e30847",
+          "sourceHash": "ee3f25e30847",
+          "kind": "characters",
+          "name": "Avywenna",
+          "fileStem": "avywenna-icon",
+          "path": "Prydwen/endfield/assets/characters/avywenna-ee3f25e30847.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "extra-things-to-look-out-for-66",
+      "level": 6,
+      "heading": "Extra things to look out for",
+      "text": "This is also an SP friendly version, which gives up on an Arclight Combo Skill. If SP allows, then shift the rotation to happen earlier, with the addition of a Perlica Battle Skill after Arclight's Ultimate applies Forced Electrification and having the Final Strike that staggers and triggers Avywenna's and Perlica's Combo Skills happening after Arclight's Battle and Combo Skill.\n The point being that then there isn't a need to hold back on using Arclight's Battle Skill, as Avywenna's Combo Skill would be triggered by the Electric Infliction applied by Perlica as opposed to the Ultimate's forced Electrification. This would lead to a Combo Skill trigger both from Arclight's Battle Skill and Perlica's Combo Skill, instead of just one as is the case above. Antal's Combo Skill can also be delayed to do this with no SP consumption, but this would mean giving up on an Arts Burst for weapon set triggers.\n Note that the \"Final Strike\" here does not indicate that it is the only Final Strike, as depending on where you are in Basic Attack strings, it's likely that a Final Strike may occur between Arclight's Ultimate and the one indicated.\n It's fine if not every Electrification is consumed by Arclight's Battle Skill, as SP economy may not allow for it. So long as there are enough Battle Skills being used to fuel Avywenna's Ultimate (and there is SP left for her own Battle Skill), it's enough.\n Shifting the Finisher to the start of the stagger period can work too, as the SP recovery it provides could sustain additional Battle Skill casts to give more Ultimate Energy if required.\n\n Team #2",
+      "assets": []
+    },
+    {
+      "id": "team-members-67",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Yvonne\n\n Xaihi\n\n Perlica\n\n Gilberta\n\n Arts Unit Operators have access to some of the strongest supportive weapons in the game, so running 3 of them in a team is not only viable, it can be an optimal set-up for certain types of speedrun kills. Perlica in particular distinguishes herself by being able to provide strong buffs via her Electrification when built for Arts Intensity (which gets far stronger at P4+) and working as a Stanza wielder in the comp,\n This team can struggle in 0 Ultimate Energy start encounters, with no SP efficient way to build Inflictions outside of Gilberta's Ultimate, but for full Ultimate Energy starts or multi-phase bosses that allow one to stockpile resources (such as Marble Aggelomorai), it can be one of the most competitive burst options.\n Even then, the team still does well when properly aligning skills. On the lead-up to Yvonne's Ultimate, it's possible to use Perlica's Combo Skill alongside Gilberta's to get both full Electrification and Solidification uptime for the entire burst. It may take time for resources to align, but once they do\n A rotation, assuming full Ultimate Energy start, would be:",
+      "assets": [
+        {
+          "id": "66a30b73120e",
+          "sourceHash": "66a30b73120e",
+          "kind": "characters",
+          "name": "Yvonne",
+          "fileStem": "yvonne-icon",
+          "path": "Prydwen/endfield/assets/characters/yvonne-66a30b73120e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-68",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n Gilberta's Ultimate should apply Corrosion from Xaihi Combo's Cryo Infliction, which when stacked with the multitude of Arts Units buffs and Perlica's Electrification makes for some grotesque damage numbers.\n If at 0 Ultimate Energy starts, once resources have been built-up (i.e. there is a Cryo or Nature Infliction, Ultimate Energy and ideally the enemy is about to stagger):",
+      "assets": [
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "66a30b73120e",
+          "sourceHash": "66a30b73120e",
+          "kind": "characters",
+          "name": "Yvonne",
+          "fileStem": "yvonne-icon",
+          "path": "Prydwen/endfield/assets/characters/yvonne-66a30b73120e.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "rotation-69",
+      "level": 6,
+      "heading": "Rotation",
+      "text": "Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Ultimate\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n Perlica Battle Skill is required for Corrosion from Gilberta's Ultimate, but otherwise can be skipped if the damage isn't needed and faster cycling/SP is more valuable, as Gilberta's Nature Infliction can be used to speed up subsequent rotations. Perlica's Ultimate can be used earlier to get more benefit out of Stanza, but it will cause her to lose personal damage due to landing outside of Gilberta's Ultimate.\n\n Team #3",
+      "assets": [
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "66a30b73120e",
+          "sourceHash": "66a30b73120e",
+          "kind": "characters",
+          "name": "Yvonne",
+          "fileStem": "yvonne-icon",
+          "path": "Prydwen/endfield/assets/characters/yvonne-66a30b73120e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-70",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Last Rite\n\n Xaihi\n\n Ardelia\n\n Perlica\n\n Team #4",
+      "assets": [
+        {
+          "id": "aefd4e8fb625",
+          "sourceHash": "aefd4e8fb625",
+          "kind": "characters",
+          "name": "Last Rite",
+          "fileStem": "last-rite-icon",
+          "path": "Prydwen/endfield/assets/characters/last-rite-aefd4e8fb625.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b26fc37d4ba6",
+          "sourceHash": "b26fc37d4ba6",
+          "kind": "characters",
+          "name": "Xaihi",
+          "fileStem": "xaihi-icon",
+          "path": "Prydwen/endfield/assets/characters/xaihi-b26fc37d4ba6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-71",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Wulfgard\n\n Perlica\n\n Antal\n\n Gilberta",
+      "assets": [
+        {
+          "id": "e79bad876e59",
+          "sourceHash": "e79bad876e59",
+          "kind": "characters",
+          "name": "Wulfgard",
+          "fileStem": "wulfgard-icon",
+          "path": "Prydwen/endfield/assets/characters/wulfgard-e79bad876e59.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "34393427391b",
+          "sourceHash": "34393427391b",
+          "kind": "characters",
+          "name": "Perlica",
+          "fileStem": "perlica-icon",
+          "path": "Prydwen/endfield/assets/characters/perlica-34393427391b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5e47d449e938",
+          "sourceHash": "5e47d449e938",
+          "kind": "characters",
+          "name": "Antal",
+          "fileStem": "antal-icon",
+          "path": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e0644812a9c1",
+          "sourceHash": "e0644812a9c1",
+          "kind": "characters",
+          "name": "Gilberta",
+          "fileStem": "gilberta-icon",
+          "path": "Prydwen/endfield/assets/characters/gilberta-e0644812a9c1.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Perlica teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "Perlica best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Stanza of Memorials (P 5 )\n\n Best general support weapon in non-Electric teams, Stanza has reasonable passive stats for Perlica, but more importantly it grants all non-Electric operator a sizable ATK increase after Perlica uses her Ultimate. With this weapon, aim to use Perlica's Ultimate before your main burst window.\n\n 2\n\n Detonation Unit (P 0 )\n\n As Stanza does not work with Electric operators, Detonation Unit is a strong support option in Electric teams assuming you can trigger Electric Bursts with Perlica's Battle Skill. When doing so it will apply a strong Arts DMG Taken debuff. Outside of its team capabilities, the offensive passives are fairly underwhelming for Perlica.\n\n 3\n\n Wild Wanderer (P 5 )\n\n Another supportive option for Perlica with a passive dedicated to buffing Electric and Physical teams everytime Perlica uses her Combo Skill which can be easily maintained. The damage bonus from this weapon is the least potent of the buffs available on her weapons, but the excellent passive stats and ease of access makes it worth considering. If Perlica cannot easily trigger Arts Bursts for Detonation Unit, such as in teams with Zhuang Fangyi, Wild Wanderer will be her best support option.",
+          "assets": [
+            {
+              "id": "bd87bdf5874f",
+              "sourceHash": "bd87bdf5874f",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-52",
+              "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "223a617b3102",
+              "sourceHash": "223a617b3102",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-60",
+              "path": "Prydwen/endfield/assets/weapons/weapon-60-223a617b3102.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "767f46b1f7c6",
+              "sourceHash": "767f46b1f7c6",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-54",
+              "path": "Prydwen/endfield/assets/weapons/weapon-54-767f46b1f7c6.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "Perlica best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Pulser Labs",
+          "assets": [
+            {
+              "id": "f3ed6b468613",
+              "sourceHash": "f3ed6b468613",
+              "kind": "gear",
+              "name": "Gear Set",
+              "fileStem": "gear-54",
+              "path": "Prydwen/endfield/assets/gear/gear-54-f3ed6b468613.webp",
+              "width": 50,
+              "height": 50
+            }
+          ]
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Perlica gear pieces calculations aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Perlica Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Perlica\n Perlica Best Build Guide\n Last updated: 12/May/2026\n\n Introduction\n\n Perlica is a 5 -star character in Arknights: Endfield (AKE). Perlica wields an Arts Unit and belongs to the Caster class. Perlica also has access to the Electric element. This guide provides a comprehensive overview of Perlica 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Perlica check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Perlica has no video guide yet.\n\n Update tracker\n\n Last review update\n Patch 1\n\n Last major build/calcs update\n Patch 1\n\n Last profile update*\n 12/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Perlica check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 91\n\n Agility\n 93\n\n Intellect\n 161\n\n Will\n 113\n\n Skills\n\n Basic Attack\n Protocol α: Breach\n\n BASIC ATTACK:\n An attack with up to 4 sequences that deals Electric DMG . As the controlled operator, Final Strike also deals 15 Stagger .\n DIVE ATTACK:\n Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n FINISHER:\n Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Electric DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Protocol ω: Strike\n SP Cost : 100\n\n Unleashes a bolt of electro-magnetic energy that deals Electric DMG and Electric Infliction to enemies in a small area.\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Instant Protocol: Chain\n Cooldown: 19 s\n\n Unleashes stored electro-magnetic energy to bombard the target, dealing Electric DMG and forcibly inflicting temporary Electrification .\n Trigger: When controlled operator performs a Final Strike on any enemy.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Protocol ε: 70.41K\n Energy cost : 80\n\n Tele-protocols a massive piece of orbital debris into the battlefield with devastating impact. All enemies in the area of effect suffer massive Electric DMG .\n Multipliers (Rank 12)\n\n Talents\n\n Base Talent\n Supervisor\n\n Assign to Control Nexus to grant all operators' Mood Regen +8/12% .\n\n Base Talent\n Protocol Redistribution\n\n Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20/30% .\n\n Combat Talent\n Obliteration Protocol\n\n DMG Dealt +20/30% to Stagger ed enemies.\n\n Combat Talent\n Cycle Protocol\n\n Combo skill Instant Protocol: Chain improved: When hitting a Vulnerable enemy, the hit chains 1 more time.\n Show Effects\n\n Potential (dupes)\n\n P1\n Crisis Handling\n Potential 1\n\n Combo skill Instant Protocol: Chain improved: Electrification duration +75% .\n Show Effects\n\n P2\n Negotiation Tactics\n Potential 2\n\n Ultimate Protocol ε: 70.41K improved: Ultimate Energy cost -15% .\n\n P3\n Supervisory Duties\n Potential 3\n\n After Perlica applies Electrification to the enemy, she gains ATK +20% for 5s . This effect can reach 2 stacks.\n Show Effects\n\n P4\n Constant Guidance\n Potential 4\n\n Combo skill Instant Protocol: Chain improved: The Arts DMG Taken debuff effects on the enemy applied by the skill's Electrification are increased to 1.33 times the original.\n Show Effects\n\n P5\n Reentry Control\n Potential 5\n\n Ultimate Protocol ε: 70.41K improved: Critical Rate +30% .\n\n Lore\n\n \"We once fought on and never gave up ... for it is our wish to witness your return.\"\n Perlica is the Supervisor of Endfield Industries and the official spokesperson of the company. She is primarily responsible for overseeing and advancing the development and application of Protocol-Originium technology, while also managing the operations of Dijiang.\n As an outstanding expert in Techno-Protocol, she guided research that had a key influence on the adaptive development and application of the technology, and helped refine the Automated Industry Complex (AIC Factory).\n She is capable of responding to various crises in a calm and decisive manner. However, Endfield often faces challenges that go beyond all expectations. While the Endministrator was in hibernation, she took command of the Crisis Team, leading the heroes of Endfield Industries in a battle for a greater cause. Perlica moves tirelessly across the Civilization Band, doing whatever she can to maintain order and keep things running.\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Buffer\n T0\n Umbral Monument\n\n Pros & Cons\n\n Pros\n Can forcibly apply Electrification for free with Combo Skill, boosting all Arts damage taken.\n\n Can freely apply Electric Infliction quickly with the Battle Skill.\n\n Above-average personal damage output for the support damage role.\n\n Many viable, supportive weapon choices further boost support damage capabilities.\n\n Incredibly easy to trigger Combo Skill usable in any team.\n\n Might not always be optimal, but works in every Arts Damage-based team thanks to her generic combo and debuff.\n\n She's free!\n\n Cons\n Without potentials combo, Electrification has a low duration, which must be timed during large damage moments to get value out of.\n\n Review\n\n Kit Intro\n Perlica is a 5-star, Electric, Arts Unit support damage dealer who specializes in forcibly applying Electrification without the need to consume any Arts Inflictions or spend any SP thanks to her Combo Skill. Said Combo Skill is also exceptionally easy to trigger, only requiring the controlled operator to land a Final Strike. This, combined with the fact that the Electrification she applies causes enemies to take extra Arts damage from all major elements except Physical, means it’s always viable to slot Perlica into any Arts damage-based team as long as you time her Combo Skill to trigger right before the team's major burst damage.\n On top of her flexible Combo Skill, Perlica also has solid damage output herself thanks to a combination of good multipliers across her main skills. Another point of versatility is her ability to play into either Arts reactions or Electric burst with the Electric Infliction of her Battle Skill. You can choose to invest SP into her, or not; either option is viable depending on the team's requirements.\n Last but not least, Perlica gains a large boost to her supportive capabilities due to her weapon type being Arts Units. There are multiple very strong options Perlica can use to buff herself or the team, further solidifying her value as either a sub DPS or capable supporter of the compositions she plays within.\n Combo\n Perlica’s Combo Skill is the cornerstone of her kit and a large part of the reason to bring her to many teams. It has a decently long cooldown but only requires the controlled operator to perform a Final Strike on an enemy to trigger, which is very easy to fulfill. Using the Combo skill deals Electric damage, some Stagger, and forcibly applies Electrification to the target while ignoring all Arts Inflictions present on the enemy. At base, the forced Electrification has the effect of a 1 Infliction Electrification, but with a much shorter duration of 5 seconds. The forced Electrification also does not deal any direct damage.\n Note: Because the Combo Skill ignores other Inflictions and reactions on the enemy, Perlica can use it without interrupting mono-element teams that would otherwise not be able to access the reaction consistently.\n Tip: Despite being forcibly applied, Art's Intensity still affects the Infliction from Perlica’s Combo Skill, improving the stats value in teams that value the damage taken of this debuff highly.\n Battle Skill\n Perlica’s Battle Skill is less universally useful in most teams, but still worth considering in others, depending on the Inflictions or reactions you’re after. Using it requires the usual 100 SP, deals some Electric damage, Stagger, and applies Electric Infliction to enemies hit. When building Perlica around Arts Intensity to maximize her Electrification debuff, the up-front damage this Battle Skill can deal through Arts burst and reactions can become quite significant in some teams, making it more valuable than it may appear at first glance.\n Ultimate\n Perlica’s Ultimate is as simple as abilities come; it costs 80 to use, deals a high multiplier hit of Electric damage in an area, and some Stagger. Usually best when saved to be used during enemy Stagger windows to take advantage of one of Perlica’s talents — it should also be aligned to hit while the enemy is suffering from Electrification to increase its damage. The only other nuance to using this ability is the fact that using it can trigger some Arts Units' passives, some of which buff the team, so you may want to align it before other high-burst abilities.\n Talents\n Perlica’s talents aren’t transformational but can yield some nice bonuses. The first, Obliteration Protocol, is the more generic of the two and increases damage dealt to Staggered enemies by +30%, which is the same stat as DMG% vs Staggered, and stacks additively with stats like Electric DMG%. This is a nice boost that encourages the use of large abilities like Perlica’s Ultimate during Stagger windows.\n Perlica’s other talent, Cycle Protocol, causes her Combo Skill to chain to another enemy when used against an enemy with Vulnerable on them. This chain allows her to hit and afflict two enemies with her combo instead of the usual one. Perlica can sometimes find herself in teams with Vulnerability stacks, but it’s definitely not common, as those teams are usually focused around Physical damage, which Perlica isn’t able to synergize well with. Because of that, this talent is on the more niche side.\n Gameplay\n Perlica’s gameplay changes depending on the team you’re playing her in, but here are some general guidelines you can follow and work around as a base:\n Time Perlica’s Combo Skill for before high damage scenarios in teams that bring her for her Electrification debuff.\n\n Use Perlica’s Ultimate while Electrification is applied and ideally during Stagger. When using an Arts Unit that buffs the team after activating Ultimate, align its use to be before allies' major burst abilities, but still during Electrification.\n\n Manage Perlica’s Combo Skill cooldown so you don’t lose out on activations by holding it unnecessarily, but also ensure you don’t use it too early that expires before you deal the majority of your damage.\n\n If your team requires Electric Infliction, use Perlica’s Battle Skill as needed.\n\n Tip: In teams that use Electrification for other purposes, like Arts reaction consumption teams, including characters like Arclight or Wulfgard, you can be more liberal with deploying Perlica’s Combo Skill to maximize total consumptions in a fight.\n\n Build\n\n Best Weapons\n\n Perlica best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Stanza of Memorials (P 5 )\n\n Best general support weapon in non-Electric teams, Stanza has reasonable passive stats for Perlica, but more importantly it grants all non-Electric operator a sizable ATK increase after Perlica uses her Ultimate. With this weapon, aim to use Perlica's Ultimate before your main burst window.\n\n 2\n\n Detonation Unit (P 0 )\n\n As Stanza does not work with Electric operators, Detonation Unit is a strong support option in Electric teams assuming you can trigger Electric Bursts with Perlica's Battle Skill. When doing so it will apply a strong Arts DMG Taken debuff. Outside of its team capabilities, the offensive passives are fairly underwhelming for Perlica.\n\n 3\n\n Wild Wanderer (P 5 )\n\n Another supportive option for Perlica with a passive dedicated to buffing Electric and Physical teams everytime Perlica uses her Combo Skill which can be easily maintained. The damage bonus from this weapon is the least potent of the buffs available on her weapons, but the excellent passive stats and ease of access makes it worth considering. If Perlica cannot easily trigger Arts Bursts for Detonation Unit, such as in teams with Zhuang Fangyi, Wild Wanderer will be her best support option.\n\n Specialist Weapon Options\n 1\n\n Oblivion (P 0 )\n\n When using Perlica as a damage dealer, Oblivion is her best thanks to its solid passive stats and its outstanding Weapon Effect, which grants Perlica a huge amount of Arts DMG% when using her Ultimate or Combo Skill.\n\n Best Gear\n\n Perlica best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Pulser Labs\n\n Description\n Maximizing Perlica's Arts Intensity is the best way to boost her supportive capabilities among the available 3P set bonuses. Because of this, Pulser Labs is usually the best choice for her. Its gear pieces are also ideal for her playstyle, having the right stats as well as a lot of Arts Intensity. Last but not least its 3P active bonus grants her a large amount of personal damage as well.\n Pieces\n Armor\n Pulser Labs Disruptor Suit Pulser Labs\n\n Gloves\n Aethertech Gloves\n\n Kit\n Pulser Labs Calibrator Pulser Labs\n\n Kit\n Pulser Labs Calibrator Pulser Labs\n\n Alternative Pieces\n Pulser Labs Gloves\n - If you prefer more damage from Perlica, Pusler Labs Gloves features matching Atrributes and Electric DMG% which significantly boosts her damage. While Aethertech Gloves have no matching Attributes, Arts Intensity will ampliffy her Arts DMG Taken debuff through Electrification.\n Qingbo Gloves\n - Ultimate Gain Efficiency option - Can be used to activate Stanza of Memorials more often.\n\n 2\n\n Qingbo\n\n Description\n Qingo gear pieces offer Will, Int, and most importantly Arts Intensity on its gear to amplify the Arts DMG Taken debuff from Electrification. The Combo Skill cooldown reduction can be useful in teams that consumes her Electrification debuff to enable their kits like with Zhuang Fangyi.\n Pieces\n Armor\n Qingbo Light Armor Qingbo\n\n Gloves\n Qingbo Gloves Qingbo\n\n Kit\n Qingbo Cask Qingbo\n\n Kit\n Qingbo Cask Qingbo\n\n Best Gear Pieces\n\n Perlica gear pieces calculations aren't available yet. They will be added soon.\n\n Potentials Review\n\n P 1\n Crisis Handling\n\n Increases the duration of Perlica’s Combo Skill Electrification by 75%, upgrading its length from 5 seconds to almost 9 seconds. This potential is a huge upgrade to Perlica’s supportive potential, almost doubling the duration of one of her most impactful abilities. In teams where you aren’t triggering proper Electrification reactions with Electric Infliction, this potential is close to a must-have.\n\n P 2\n Negotiation Tactics\n\n Reduces Perlica’s Ultimate Cost by -15%, taking it from 80 energy to 6,8 improving accessibility, leading to higher total damage output and more chances at activating weapons that trigger off of Ultimate use.\n\n P 3\n Supervisory Duties\n\n After Perlica applies Electrification, she gains a +20% attack boost for 5 seconds, stacking up to 2 times. This Ability is most likely to trigger off of her combo with two stacks accessible when it chains after hitting Vulnerable enemies. Maintaining this buff long term or even reaching 2 stacks at all isn’t realistic for Perlica in most teams, but when played around correctly, you should have it for most Perlica Ultimates, as you should be aligning Electrification and her Ultimate alongside the rest of your team's burst damage, preferably during Stagger.\n\n P 4\n Constant Guidance\n\n The wording or effect on Perlica’s Potential 4 is currently incorrect - which it is, we’re not sure. What the potential actually does is upgrade the force Electrification from using a 1 Infliction Electrification as a base to a 2 Infliction instead. This elevates the damage taken debuff from 12% (before Arts intensity) to 16%. The duration of the Electrification does not change from this potential compared to P1.\n\n P 5\n Reentry Control\n\n Increases the Crit Rate of Perlica’s Ultimate by +30%. This, with 50% Crit Damage, is equivalent to a 15% total increase to Perlica’s Ultimate damage. Not a bad damage boost, but not a game-changer, and doesn’t improve her supportive capabilities at all.\n\n Calculations\n\n Perlica calculations aren't available yet. They will be added soon.\n\n Skill Priority\n\n Off Field :\n Battle Skill >= Ultimate >= Basic Attack > Combo Skill\n\n Teams and Synergies\n\n Synergies\n\n Cryo\n\n Last Rite Cryo\n\n Perlica has outstanding supportive weapon choices\n\n Can apply Electrification for free with Combo skill, which is easily timed to align with Last Rite's Ultimate and Combo skill, increasing damage taken by the target signifcantly\n\n Solid sub DPS potential, contributing a bit of damage of her own\n\n Works well alongside other buffers who cover other buff categories, such as Amp, DMG%, and ATK%, as Perlica's Damage Taken is in a different multiplier group\n\n Electric\n\n Arclight Electric\n\n Applies Electrification for free with her Combo skill, triggering Arclight's Combo skill once. Electrification can then be consumed by her Battle Skill, which triggers her Combo again, positioning Perlica as a free activator for Arclight\n\n Perlica has outstanding supportive weapon choices, which nicely buff Arclight and the rest of the team\n\n Arclight's own supportive weapon and sets buff Perlica back, allowing the two to buff each other in order to both deal more damage\n\n Arclight consumes minimal SP herself and generates some back, freeing it up in some teams for Perlica to use on her Battle Skill to gain more damage\n\n Heat\n\n Wulfgard Heat\n\n Applies Electrication with Combo Skill for free, which Wulfgard can consume with his Battle Skill to deal additional damage\n\n Perlica has outstanding supportive weapon choices\n\n Combining Electric infliction from Perlica's battle skill and heat from Wulfgard forms natural reactions of either Combustion or Electrication - both of which Wulf can consume, giving him a continual source of damage that is only limited by SP\n\n Physical\n\n Rossi Physical\n\n Perlica has decent personal damage and strong buffs, with easily accessible Electrification and having Stanza of Memorials as a competitive weapon option to buff Rossi's Heat DMG.\n\n Constant reactions and readily available Inflictions can have compounding synergies with other teammates (e.g. Gilberta Combo).\n\n Perlica is strictly an Arts-based support and reliant on other Operators for Combustion or Corrosion set-ups.\n\n Electric\n\n Zhuang Fangyi Electric\n\n Perlica is by far the most important enabler teammate for Zhuang Fangyi thanks to her free Electrification debuff from Combo Skill, which can be easily activated through Final Strikes.\n\n Perlica has access to a reliable Electric Infliction through her Battle Skill, which is needed to trigger Zhuang Fangyi's Combo Skill.\n\n She's able to buff the team through Arts Units (Wild Wanderer), and contributes a non-negligible amount of damage herself.\n\n On the flipside, despite having higher scaling on her Electrification's Arts DMG Taken effect, this rarely comes into play owing to Fangyi's Reaction consumption.\n\n Note: It's beneficial to have Perlica after Fangyi in the team order. This is because timestop interactions means that her Combo Skill will land first if both are used in quick succession. Reverse ordering can work, but would demand waiting longer before using Fangyi's Combo.\n\n Teams\n\n Perlica teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1\n Team Members\n\n Avywenna\n\n Arclight\n\n Perlica\n\n Antal\n\n With a full Electric team, and especially with Arclight present, getting 8 Battle Skills over the course of a full rotation is doable. This is due to the SP recovery when consuming Electrification from Arclight, as well as Antal's low SP requirements.\n The gist of the team is to maintain Electric Inflictions and use most Combo Skills on cooldown, consuming Electrification with Arclight to sustain Ultimate Energy generation. Depending on the weapon, look to align Antal's Combo Skill with stagger to trigger Arts Burst effects.\n Opening rotation\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n From this point on, continue to loop Final Strikes, making sure to use Avywenna and Perlica's Combo Skills on cooldown, with Arclight's Combo Skill and Battle Skills whenever Electrification is applied.\n Burst Rotation\n\n Ultimate\n\n →\n\n Combo (Arts Burst, before forced Electrification)\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Final Strike (Staggers)\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Finisher\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n The above list is in order of skills hitting. Ideally many of these are cast before (e.g. Arclight Battle Skill is cast before the Final Strike connects, but it only lands and consumes Electrification shortly after).\n Extra things to look out for\n This is also an SP friendly version, which gives up on an Arclight Combo Skill. If SP allows, then shift the rotation to happen earlier, with the addition of a Perlica Battle Skill after Arclight's Ultimate applies Forced Electrification and having the Final Strike that staggers and triggers Avywenna's and Perlica's Combo Skills happening after Arclight's Battle and Combo Skill.\n The point being that then there isn't a need to hold back on using Arclight's Battle Skill, as Avywenna's Combo Skill would be triggered by the Electric Infliction applied by Perlica as opposed to the Ultimate's forced Electrification. This would lead to a Combo Skill trigger both from Arclight's Battle Skill and Perlica's Combo Skill, instead of just one as is the case above. Antal's Combo Skill can also be delayed to do this with no SP consumption, but this would mean giving up on an Arts Burst for weapon set triggers.\n Note that the \"Final Strike\" here does not indicate that it is the only Final Strike, as depending on where you are in Basic Attack strings, it's likely that a Final Strike may occur between Arclight's Ultimate and the one indicated.\n It's fine if not every Electrification is consumed by Arclight's Battle Skill, as SP economy may not allow for it. So long as there are enough Battle Skills being used to fuel Avywenna's Ultimate (and there is SP left for her own Battle Skill), it's enough.\n Shifting the Finisher to the start of the stagger period can work too, as the SP recovery it provides could sustain additional Battle Skill casts to give more Ultimate Energy if required.\n\n Team #2\n Team Members\n\n Yvonne\n\n Xaihi\n\n Perlica\n\n Gilberta\n\n Arts Unit Operators have access to some of the strongest supportive weapons in the game, so running 3 of them in a team is not only viable, it can be an optimal set-up for certain types of speedrun kills. Perlica in particular distinguishes herself by being able to provide strong buffs via her Electrification when built for Arts Intensity (which gets far stronger at P4+) and working as a Stanza wielder in the comp,\n This team can struggle in 0 Ultimate Energy start encounters, with no SP efficient way to build Inflictions outside of Gilberta's Ultimate, but for full Ultimate Energy starts or multi-phase bosses that allow one to stockpile resources (such as Marble Aggelomorai), it can be one of the most competitive burst options.\n Even then, the team still does well when properly aligning skills. On the lead-up to Yvonne's Ultimate, it's possible to use Perlica's Combo Skill alongside Gilberta's to get both full Electrification and Solidification uptime for the entire burst. It may take time for resources to align, but once they do\n A rotation, assuming full Ultimate Energy start, would be:\n Rotation\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n Gilberta's Ultimate should apply Corrosion from Xaihi Combo's Cryo Infliction, which when stacked with the multitude of Arts Units buffs and Perlica's Electrification makes for some grotesque damage numbers.\n If at 0 Ultimate Energy starts, once resources have been built-up (i.e. there is a Cryo or Nature Infliction, Ultimate Energy and ideally the enemy is about to stagger):\n Rotation\n\n Ultimate\n\n →\n\n Battle Skill\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Ultimate\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Ultimate\n\n Perlica Battle Skill is required for Corrosion from Gilberta's Ultimate, but otherwise can be skipped if the damage isn't needed and faster cycling/SP is more valuable, as Gilberta's Nature Infliction can be used to speed up subsequent rotations. Perlica's Ultimate can be used earlier to get more benefit out of Stanza, but it will cause her to lose personal damage due to landing outside of Gilberta's Ultimate.\n\n Team #3\n Team Members\n\n Last Rite\n\n Xaihi\n\n Ardelia\n\n Perlica\n\n Team #4\n Team Members\n\n Wulfgard\n\n Perlica\n\n Antal\n\n Gilberta"
+}

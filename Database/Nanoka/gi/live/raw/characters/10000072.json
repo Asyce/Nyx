@@ -1,0 +1,3878 @@
+{
+  "name": "Candace",
+  "desc": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+  "chara_info": {
+    "release_date": "2022-09-27 00:00:00",
+    "birth": [
+      5,
+      3
+    ],
+    "vision": "Hydro",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Sagitta Scutum",
+    "region": "ASSOC_TYPE_SUMERU",
+    "title": "Golden Vow",
+    "native": "Aaru Village",
+    "detail": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+    "va": {
+      "chinese": "张琦",
+      "japanese": "柚木涼香",
+      "english": "Heather Gonzalez",
+      "korean": "Jun Young-soo"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Candace, who has heterochromatic eyes, serves as the guardian of Aaru Village.\\nCandace always shows the greatest kindness to all travelers visiting the village, and she will not pursue an inadvertent faux pas so long as that person corrects themselves in time. In Candace's view, the village rules are the most important thing. So long as these boundaries are respected, anyone can be allowed to rest in Aaru Village.\\nBut woe betide those who regard this tolerance as weakness. Those who try to do anything illegal in Aaru Village will definitely pay the price.\\nBy then, they will find that Candace's lance and shield truly are the most frightening of weapons.\\nThe scion of Al-Ahmar, a member of desert folk, the Guardian... Candace, burdened as she is with multiple identities, also bears the eternal responsibility of guarding Aaru Village.\\n\"This village only welcomes those who can follow the rules.\"",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "\"Aaru Village is the final refuge for King Deshret's descendants.\" \\n\"The mission of the Aaru Village's Guardian is to guard the village till the last of King Deshret's people fade away.\"\\nWhen Candace was officially appointed as the new \"Guardian\" at the tender age of eight, the one who handed the position over to her admonished her as such.\\nWith King Deshret's death, it was already a blessing that his descendants might have such a refuge from the world.\\nAnd so, generation after generation, the Guardians take up their duties in silence, defending countless villagers until they pass on as the \"descendants of King Deshret\" and gain eternal peace.\\nIt was once the common wish of the residents of Aaru Village to fade away in peace, sequestered in their village.\\nHowever, when new life emerges in this ancient village... Everything that they used to know might just have to change a bit.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "When Uncle Anpu, the village head, announced that a caravan from Sumeru City was about to arrive in the village for trade, the former Guardians could hardly believe their ears.\\nThey indignantly accused Uncle Anpu of undermining tradition and requested that Candace, the current Guardian, do her duty by summoning guards to drive the merchants out.\\nHowever, Candace refused the request, for she had already reached an agreement with the village head that the village must make changes for the future of its residents.\\nThey kept explaining, but the former keepers did not relent, and it was even suggested that if Candace was unwilling to do her duty, they would take up arms again and carry out a Guardian's work themselves. At last, a clang of lance against shield silenced all the quarrels. With lance and shield in her hand, Candace stood up and looked around with a smile, before announcing to the stunned elderly folks around her:\\n\"It is good to see you all in such good spirits.\"\\n\"But I am the current Guardian of Aaru Village, so please, go and rest, as you should.\"\\nThe persuasive power of weapons trumped words at this moment, and it seemed that it would be enough to end the fracas.\\nAfter a moment's preparation, Candace accompanied the village head in her station as Guardian to formally receive the caravan and hold trade negotiations with them, before personally escorting them out of the village.\\nA few days later, the merchants visited again and completed this seemingly humble transaction regarding cloths.\\nThis batch of merchants returned to Sumeru City with news of the success of the deal. Soon after, a new topic cropped up among the business-folk of Sumeru, one which had been rarely heard of in the past:\\n\"Hey, you know what? Someone went to Aaru Village to do business — and they made a good sum of Mora, too. Think we should give it a shot next time...?\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "In truth, Candace doesn't often use her lance and shield as debating tools.\\nThe children in Aaru Village have always believed that \"Big Sis Candace\" will only frown no matter how angry she is — at most, she might ask the children in trouble to copy the calligraphy prepared for them by Grandma Kulsoom several times.\\nThe other guards in Aaru Village believe that although Candace's requirements are strict, she will not give out corporal punishment to those who slack off or whose physical abilities are not up to par, and that she will simply guide them with more care instead.\\nThe older folks in the village, for their period, note that Candace is a person who will not let negative emotions show on her face, and indeed, she has never once looked sad in front of them.\\nEven the merchants who visit the village will be received by Candace with the utmost hospitality. From introductions to accommodations, she arranges everything in good order.\\nPerhaps she might even be too gentle for the merchants' comfort.\\nAfter all, this village is next to Great Red Sand. Leaving the monsters aside, lawless bandits must have long had this village in their sights.\\nIs the Guardian truly capable of protecting everyone... and their business as well?\\nOne night, a drunken merchant dared to ask:\\n\"Guardian, we can do business in this village, no problem. But as you know, this desert is a real den of outlaws...\"\\n\"You need not worry about this. Only those who obey the rules shall be guests in Aaru Village. As for those who don't...\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Those who do not respect the rules shall be the \"enemies\" of Aaru Village.\\nWhether they be Eremites hiding in the sands, bandits disguised as adventurers, or Treasure Hoarders attempting to steal goods... Anyone who dares to invade the village, no matter how they may try to hide and escape, will eventually receive the punishment they deserve.\\nThose who sincerely confess their guilt will be forgiven and given enough supplies to cross the sands, but never again will they be permitted to show their faces around Aaru Village.\\nAs for the more recalcitrant sort... Their despicable souls shall find company only with the desert sands.\\nA former member of the Eremites once warned his companions that Candace, the terrifying Guardian of the village, is a true descendant of King Deshret.\\nThe shield in her hand possesses the blessing of Al-Ahmar, such that as long as its wielder holds it tightly, every grain in the great desert will heed her call. So if Candace so wishes, she could even send forth a huge sandstorm to engulf all her foes.\\nNot only that, her amber left eye can also perceive the future and read the fates of others. Indeed, such is her terrible might that none can ever escape her pursuit.\\nSuch are people's beliefs concerning Candace, that she has swept all of Aaru Village's enemies away by virtue of these divine powers.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "Only Candace herself knows that she has never really felt the blessing of Al-Ahmar.\\n\"The Guardians have never been blessed by the grace of god\" — this is a secret handed down from Guardian to Guardian.\\nOnly when a new Guardian takes up their shield will they be told the truth.\\nThe effects of the truth on those now in the know has varied. Some gave up and became so despondent that they stopped practicing martial arts. Some came to believe that since they were not being watched, they didn't have to obey the rules either, and so acted recklessly, even in violation of the law.\\nBut Candace was not depressed.\\n\"My lance and shield are not wielded as a prayer for a god's blessing.\"\\n\"My duty will not change, regardless of whether any god favors us or not.\"\\nShe practices diligently day after day and through this has forged both an extraordinary will and martial skills.\\nMany who have visited Aaru Village have extended invitations to Candace, wondering why someone as capable as her would choose to live in such an inconspicuous place. If she was willing to leave, they often say, she may yet be able to start a new career...\\nYet Candace always answers them thusly:\\n\"A Guardian will not leave what they have purposed to protect.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Candace's Trinkets",
+        "text": "Candace often buys all kinds of trinkets from merchants who visit Aaru Village.\\nHairpins adorned with aquamarine beads, headbands made of silk and satin, gilded necklaces, metal bracelets engraved with Kalpalata Lotus patterns, pendants with the emblems of the Akademiya's Darshans drawn upon them...\\nWhile Dehya has encouraged her to dress up more often and use the Mora she spends on herself, Candace feels that some things are too fragile to survive her daily work environment, and so she puts them deep in her wardrobe.\\nSo it seems that these trinkets will come in handy only when Candace temporarily puts her duties aside and changes into other clothes to have a rest in the shade — or perhaps she might just give it to a friend as a gift.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "With outsiders pouring in, Aaru Village was faced with a variety of unprecedented circumstances.\\nThey now had Treasure Hoarders pretending to be businessmen within the village, mercenary groups hijacking trade caravans, unscrupulous vendors engaged in charlatanry...\\nMoreover, after seeing people who came from abroad, the residents of Aaru Village gradually began to yearn for life outside. Gradually, people tried to go out to make a living, and fewer and fewer young people were willing to stay in the village.\\nThe former Guardians had long been dissatisfied with Candace, who, as they saw it, had \"abandoned\" their traditions. Seeing that the village was in such a situation, they again held a meeting and prepared to challenge her.\\n\"What we Guardians must do is maintain order in the village!\"\\n\"Candace! What you have done will only cost this village its peace!\"\\n\"Candace! Go and fulfill your duties now!\"\\nAs the war of words swayed back and forth, the lance-wielding female warrior suddenly shot up to her full height.\\n\"That's enough!\"\\n\"If you only wish to protect the 'past' of this village, then do it yourself! Whether you wish to just remain in your homes or leave Aaru Village, that is up to you!\"\\n\"I will not let the people of Aaru Village be bound by the past forever.\"\\n\"If you can't move forward, then it's up to me to protect our future!\"\\nThe old Guardians were intimidated by her, her young, fiery eyes making it impossible for them to come forward and question her further.\\nBurning with rare anger, Candace hefted her long spear and stormed out of the dispute-ridden hut.\\nAnd, as if in response to her convictions, a shining \"jewel\" had appeared at the tip of that lance, though she knew not when it had done so.\\nThe eyes of the gods had found her, and they had given her their approval.\\nA \"Vision\" is also a resolute heart — and no finer ornament than it may be found anywhere.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "Welcome, weary Traveler from afar. Nights in the desert are cruel. You should rest here tonight. Sleep soundly, and know that I am watching over you.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Spear and Shield",
+        "text": "A shield is not enough to protect the most important things. That's why I must also wield a spear.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Life",
+        "text": "Peace and good health should be enjoyed by all... If I can provide everyone with a life such as this, I will be content.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Wishes",
+        "text": "I will always seek to protect the things that are most important, no matter what it takes... even when it looks futile.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Stay warm, or you'll catch a cold.",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "The thunder rumbles — does it scare you?",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "This strange powder, it is... fine, like sand, but white as the clouds, and cold as ice...",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "In the desert, a strong gale like this will create a sandstorm, so it's always a good idea to stay alert.",
+        "unlocked": []
+      },
+      {
+        "title": "In the Desert",
+        "text": "I am right by your side. But if you're still nervous, just take my hand.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Good morning, Traveler. Did you sleep soundly last night?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "It's already noon. The golden eye of the sky glares down fiercely at this hour... Hehe, we should find some shade and escape its wrath.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "The night sky... that great canopy that descends when the light of day is gone. Who knows how many untold secrets it conceals...",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "Yes, it's time to rest. You should sleep. Me? It's still much too early. The night is beautiful, but it's also full of danger... I must keep watch, for your sake.",
+        "unlocked": []
+      },
+      {
+        "title": "About Candace: Eye Color",
+        "text": "...Strange? I'm not sure what you mean, both amber and blue are fairly common eye colors, I believe...",
+        "unlocked": []
+      },
+      {
+        "title": "About Candace: Aaru Village",
+        "text": "Aaru Village is where I was born and grew up. Even back when I was too young to understand anything else about the world, the one thing I knew for sure was that one day, I would take over from my grandfather as sworn protector of our village... Today, I am grateful to now hold this duty. It is what I was born to do.",
+        "unlocked": []
+      },
+      {
+        "title": "About Candace: Parents",
+        "text": "My father was a scholar from the Akademiya. He originally came to Aaru Village on a research trip, and then he met my mother... As for her, unfortunately I only know what my father has told me. The day I was born, she began her journey into the eternal night...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Hosting Guests",
+        "text": "You will always be an honored guest of Aaru Village, no matter the day or time of your visit. If ever you tire of your journey, know that here, you can always find rest. Aaru Village welcomes you with open arms... as do I.",
+        "unlocked": [
+          "Complete \"King Deshret and the Three Magi\""
+        ]
+      },
+      {
+        "title": "About Us: Treasure in the Chest",
+        "text": "They say in every person's heart is a precious box, into which they place the things they treasure, so that they may guard them for their entire life. My heart harbors many treasures... Care to guess what those might be?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "When I received my Vision, people in the village kept telling me it was a blessing from Ahmar... but that doesn't matter to me. I swore to protect the village, and I will do it with or without a Vision.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "I do love spending time in Aaru Village. But each day I spend here is also a reminder that if I ever start to let my guard down... sooner or later, the day may come when I no longer have a life to return to here.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "Have you come across Ajilenakh Nuts yet on your journey? They're naturally very sweet, and the villagers make the most delicious candies from them. If you're interested, you should give them a try.",
+        "unlocked": []
+      },
+      {
+        "title": "About Lesser Lord Kusanali",
+        "text": "Perhaps it is a testament to the Dendro Archon's benevolence that I, a descendant of the Al-Ahmar bloodline, am able to live peacefully on this land. If so, I suppose I am grateful for this much, but... I am first and foremost a child of the desert.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Layla",
+        "text": "An eccentric girl who always seems to be in a trance...? Yes, I believe I've seen her before — near the Wall of Samiel. I couldn't make sense of what she was saying, nor the calculation she wrote down, but she seemed to be in a much better mood after she'd finished. Perhaps this is her way of relieving stress.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "About Alhaitham",
+        "text": "A truly unusual scholar, unlike any other I've ever met. He sees and thinks about things in his own unique way... I only hope he never wields his sharp mind against the peace of Aaru Village.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Cyno",
+        "text": "In the past, it was rare to see the Akademiya's General Mahamatra on this side of the Wall of Samiel, but recently he has been showing up here all the time. I believe that the Eremites have some truly terrifying stories to tell about him...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Dehya",
+        "text": "Whenever Dehya brings any of her Eremites to stay at Aaru Village, she always keeps them on their best behavior. I have to say, it makes my life a lot easier. Ah, Dehya... She might look like trouble at first, but the truth is that she's really quite adorable.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Candace: I",
+        "text": "You want to know more about me? ...I can't promise you a great story, but if you insist... Okay, let's wait until nightfall. We can sit by the fireside and I'll tell you all you wish to know.",
+        "unlocked": []
+      },
+      {
+        "title": "More About Candace: II",
+        "text": "We are a people whose god is no longer with us. Lies pose no threat to us... the threat we face is the prospect of no tomorrow. The path before us is paved with barbs, there is pain in every step — yes, we tread forward clinging to a lie, but perhaps... perhaps there is more virtue in this than in selfishly embracing the truth, and death along with it...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Candace: III",
+        "text": "Even now, there are those who hold on to a belief that King Deshret will be resurrected. But it's not possible. The past is but grains of sand, scattered to the four winds. The best we can do is to let go, and leave the wind to carry them to their final resting place.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Candace: IV",
+        "text": "My shield? Well, according to what people outside the village say, it has the blessing of Bennu. With this shield in hand, all the grains of sand are my eyes and ears, and the desert is ready to do my bidding... Their imaginations can get a little carried away sometimes. But anyway, that aside, the main thing for me is it always works like a charm.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Candace: V",
+        "text": "I'd really love to look into your future with my amber eye, if I could... Something tells me everything would be golden... somewhere between the color of sunlight and honey. A color filled with hope. Your journey will be a smooth road ahead. I give it my blessing.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Candace's Hobbies",
+        "text": "I always love taking walks in the village. Seeing that all is still well gives me a sense that... if today is just like yesterday, and yesterday is just like all the days before it... things have always been pleasant here, throughout history.",
+        "unlocked": []
+      },
+      {
+        "title": "Candace's Troubles",
+        "text": "Every now and then, a few violent thugs make the mistake of trying to disrupt the peace and tranquility of Aaru Village. I do wonder... is chasing them into a monster-infested valley perhaps a little too... merciful? What do you think, do you have any better ideas on how they should be dealt with?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Favorite Food",
+        "text": "To me... quantity is more important than taste when it comes to food. Life in the desert uses up more energy than you might think. After a day's work, there's nothing more satisfying than having a filling meal.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "I don't hate it, but compared to regular meat, eating fish is a real nuisance... Maybe it's because we don't really eat fish here in the desert, but for whatever reason, I'm just not very good at removing all those prickly little bones... This must sound ridiculous to you.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Mmm, absolutely delightful! This must have taken a lot of time and effort.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "For someone who spends so much time on the road, your cooking tastes so... homely.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Maybe my definition of \"edible\" is a little too old-fashioned...",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Happy birthday! It's amazing to think that you were born on this day, years ago in the past. Do you have a birthday wish? If it involves going somewhere dangerous, let me join you — I'll be your guard. Or if you're looking to rest and revitalize, come to Aaru Village, and I'll serve you the finest meats and drinks we have.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "I feel a newfound strength within me... May it help me to be a better protector.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "My shield grows sturdier, and my spear sharper. One is an unstoppable force, the other an immovable object... Oh, but... I would never pit these against each other.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "I learned to wield the spear and shield knowing that I would one day need them, and today I use these skills to protect the village. So perhaps this new strength I now gain in the present is preparing me for trials that lie ahead in the future.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "I am now capable of venturing ahead of you, and fending off all dangers that would seek to come your way. If you trust me, then I invite you to close your eyes and leave the enemies to me.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Yield!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Flee!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Do your worst!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: IV",
+        "text": "Pin them down!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: V",
+        "text": "Hah, too easy!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: VI",
+        "text": "You're exposed!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Hear my prayer!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Grant us your blessing!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "We shall prevail!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "These look... surprisingly useful.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "What do you think? Anything catch your eye?",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "I hope you can find some use for these.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "No more mercy.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Remorseless. Hmph.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Leave... now...",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Please, rest...",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Get behind me!",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "Need to... train harder...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "I have failed... I'm sorry...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "The shield... has broken...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "It's nothing.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Impressive.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "Just a graze.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "What's wrong? Are you in danger?",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Stay close.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "I promise to keep you safe.",
+        "unlocked": []
+      },
+      {
+        "title": "About Sethos",
+        "text": "The sons and daughters of King Deshret are a proud people, and he is no exception. I have heard his tale, of Hermanubis's glory dwelling within a worthy vessel. I also understand he has been active in Sumeru City recently? Apparently, he has spoken to Cyno and other friends of his plans to visit Aaru Village. I look forward to hosting him.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      }
+    ],
+    "special_food": {
+      "id": 108468,
+      "recipe": 2308,
+      "name": "Utmost Care",
+      "icon": "UI_ItemIcon_108468",
+      "rank": 2
+    },
+    "namecard": {
+      "id": 210135,
+      "name": "Candace: Gray Heron",
+      "desc": "Namecard style.\\nThe burning winds of the past ruffle the heron's feathers, but the bird has eyes only for the morning star at first light.",
+      "icon": "UI_NameCardPic_Candace_P"
+    },
+    "costume": [
+      {
+        "id": 207200,
+        "name": "Desert and Night",
+        "desc": "Candace's outfit. No matter where she goes, the golden sands and the nights of her homeland that adorn her clothes go together with her.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_POLE",
+  "rarity": "QUALITY_PURPLE",
+  "element": "Hydro",
+  "icon": "UI_AvatarIcon_Candace",
+  "stamina_recovery": 25,
+  "base_hp": 911.791,
+  "base_atk": 17.808,
+  "base_def": 57.225,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.653,
+      "92": 8.957,
+      "93": 9.262,
+      "94": 9.566,
+      "95": 9.87,
+      "96": 10.174,
+      "97": 10.479,
+      "98": 10.783,
+      "99": 11.087,
+      "100": 11.392
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 681.15454,
+        "fight_prop_base_defense": 42.75,
+        "fight_prop_base_attack": 13.3038,
+        "fight_prop_hp_percent": 0
+      },
+      {
+        "fight_prop_base_hp": 1165.1328,
+        "fight_prop_base_defense": 73.125,
+        "fight_prop_base_attack": 22.7565,
+        "fight_prop_hp_percent": 0.06
+      },
+      {
+        "fight_prop_base_hp": 1810.4371,
+        "fight_prop_base_defense": 113.625,
+        "fight_prop_base_attack": 35.3601,
+        "fight_prop_hp_percent": 0.12
+      },
+      {
+        "fight_prop_base_hp": 2294.4153,
+        "fight_prop_base_defense": 144,
+        "fight_prop_base_attack": 44.8128,
+        "fight_prop_hp_percent": 0.12
+      },
+      {
+        "fight_prop_base_hp": 2778.3936,
+        "fight_prop_base_defense": 174.375,
+        "fight_prop_base_attack": 54.2655,
+        "fight_prop_hp_percent": 0.18
+      },
+      {
+        "fight_prop_base_hp": 3262.3718,
+        "fight_prop_base_defense": 204.75,
+        "fight_prop_base_attack": 63.7182,
+        "fight_prop_hp_percent": 0.24
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S4",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10721,
+      "name": "Gleaming Spear - Guardian Stance",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive spear strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.60802,
+            0.61146,
+            0.354879,
+            0.433741,
+            0.94944,
+            1.24184,
+            25,
+            0.639324,
+            1.278377,
+            1.596762,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.65751,
+            0.66123,
+            0.383765,
+            0.469046,
+            1.02672,
+            1.34292,
+            25,
+            0.691362,
+            1.382431,
+            1.726731,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.707,
+            0.711,
+            0.41265,
+            0.50435,
+            1.104,
+            1.444,
+            25,
+            0.7434,
+            1.486485,
+            1.8567,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7777,
+            0.7821,
+            0.453915,
+            0.554785,
+            1.2144,
+            1.5884,
+            25,
+            0.81774,
+            1.635134,
+            2.04237,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.82719,
+            0.83187,
+            0.4828,
+            0.59009,
+            1.29168,
+            1.68948,
+            25,
+            0.869778,
+            1.739187,
+            2.172339,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.88375,
+            0.88875,
+            0.515813,
+            0.630438,
+            1.38,
+            1.805,
+            25,
+            0.92925,
+            1.858106,
+            2.320875,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.96152,
+            0.96696,
+            0.561204,
+            0.685916,
+            1.50144,
+            1.96384,
+            25,
+            1.011024,
+            2.02162,
+            2.525112,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.03929,
+            1.04517,
+            0.606596,
+            0.741395,
+            1.62288,
+            2.12268,
+            25,
+            1.092798,
+            2.185133,
+            2.729349,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.11706,
+            1.12338,
+            0.651987,
+            0.796873,
+            1.74432,
+            2.28152,
+            25,
+            1.174572,
+            2.348646,
+            2.933586,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2019,
+            1.2087,
+            0.701505,
+            0.857395,
+            1.8768,
+            2.4548,
+            25,
+            1.26378,
+            2.527025,
+            3.15639,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.28674,
+            1.29402,
+            0.751023,
+            0.917917,
+            2.00928,
+            2.62808,
+            25,
+            1.352988,
+            2.705403,
+            3.379194,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.37158,
+            1.37934,
+            0.800541,
+            0.978439,
+            2.14176,
+            2.80136,
+            25,
+            1.442196,
+            2.883781,
+            3.601998,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.45642,
+            1.46466,
+            0.850059,
+            1.038961,
+            2.27424,
+            2.97464,
+            25,
+            1.531404,
+            3.062159,
+            3.824802,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.54126,
+            1.54998,
+            0.899577,
+            1.099483,
+            2.40672,
+            3.14792,
+            25,
+            1.620612,
+            3.240537,
+            4.047606,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_03",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6261,
+            1.6353,
+            0.949095,
+            1.160005,
+            2.5392,
+            3.3212,
+            25,
+            1.70982,
+            3.418915,
+            4.27041,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10722,
+      "name": "Sacred Rite: Heron's Sanctum",
+      "desc": "Candace's fighting style is capable of warding off an entire tide of foes.\\n\\n<color=#FFD780FF>Tap</color>\\nRushes forward with her shield, dealing <color=#80C0FFFF>Hydro DMG</color> to opponents in front of her.\\n\\n<color=#FFD780FF>Hold</color>\\nRaises her shield to block incoming attacks from nearby opponents, forming a barrier that absorbs DMG based on her Max HP and absorbs <color=#80C0FFFF>Hydro DMG</color> 250% more effectively. This barrier lasts until the Elemental Skill is unleashed.\\nAfter holding for a certain period of time, Candace will finish charging, and when the skill button is released, the skill duration expires, or when the barrier is broken, she will perform a leaping strike that deals <color=#80C0FFFF>Hydro DMG</color> to opponents in front of her.\\n\\n<i>The oath of the guardians is more stalwart yet than the shields they inherit.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.12,
+            1155.5629,
+            0.12,
+            0.1904,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.129,
+            1271.1353,
+            0.129,
+            0.20468,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.138,
+            1396.3386,
+            0.138,
+            0.21896,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.15,
+            1531.173,
+            0.15,
+            0.238,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.159,
+            1675.6384,
+            0.159,
+            0.25228,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.168,
+            1829.7349,
+            0.168,
+            0.26656,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.18,
+            1993.4624,
+            0.18,
+            0.2856,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.192,
+            2166.8208,
+            0.192,
+            0.30464,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.204,
+            2349.8105,
+            0.204,
+            0.32368,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.216,
+            2542.4312,
+            0.216,
+            0.34272,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.228,
+            2744.6826,
+            0.228,
+            0.36176,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.24,
+            2956.5652,
+            0.24,
+            0.3808,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.255,
+            3178.0789,
+            0.255,
+            0.4046,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.27,
+            3409.2236,
+            0.27,
+            0.4284,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Candace_01",
+          "desc": [
+            "Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+            "Basic DMG|{param3:F1P} Max HP",
+            "Charged Up DMG|{param4:F1P} Max HP",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param5:F1}s",
+            "Hold CD|{param6:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.285,
+            3649.9995,
+            0.285,
+            0.4522,
+            6,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10725,
+      "name": "Sacred Rite: Wagtail's Tide",
+      "desc": "Raising her weapon on high, Candace calls upon a divine blessing that deals <color=#80C0FFFF>AoE Hydro DMG</color> based on her Max HP and continuously confers the Prayer of the Crimson Crown on your active character.\\n\\n<color=#FFD780FF>Prayer of the Crimson Crown</color>\\nThis effect has the following properties:\\n·Characters deal increased Elemental DMG with their Normal Attacks.\\n·Whenever a character takes the field, they will unleash a rippling wave of water that deals <color=#80C0FFFF>Hydro DMG</color> to nearby opponents. There is a limited number of waves that can be triggered in the duration of this skill.\\n·Sword, Claymore, and Polearm-wielding characters under this effect will obtain a <color=#80C0FFFF>Hydro Infusion</color>.\\n\\n<i>This secret rite has been passed down through Candace's clan from generation to generation. Though the old faiths have become lost over the years, the sands still protect the heirs of the ancient realm.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.066104,
+            9,
+            0.2,
+            0.066104,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.071062,
+            9,
+            0.2,
+            0.071062,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.07602,
+            9,
+            0.2,
+            0.07602,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.08263,
+            9,
+            0.2,
+            0.08263,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.087588,
+            9,
+            0.2,
+            0.087588,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.092546,
+            9,
+            0.2,
+            0.092546,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.099156,
+            9,
+            0.2,
+            0.099156,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.105766,
+            9,
+            0.2,
+            0.105766,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.112377,
+            9,
+            0.2,
+            0.112377,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.118987,
+            9,
+            0.2,
+            0.118987,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.125598,
+            9,
+            0.2,
+            0.125598,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.132208,
+            9,
+            0.2,
+            0.132208,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.140471,
+            9,
+            0.2,
+            0.140471,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.148734,
+            9,
+            0.2,
+            0.148734,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Candace_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Duration|{param2:F1}s",
+            "DMG Bonus|{param3:F1P}",
+            "Wave Impact DMG|{param4:F1P} Max HP",
+            "Wave Instances|{param5:I}",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.156997,
+            9,
+            0.2,
+            0.156997,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 722101,
+      "name": "Aegis of Crossed Arrows",
+      "desc": "If Candace is hit by an attack in the Hold duration of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color>, that skill will finish charging instantly.",
+      "icon": "UI_Talent_S_Candace_05",
+      "unlock": 1,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 722201,
+      "name": "Celestial Dome of Sand",
+      "desc": "Characters affected by the Prayer of the Crimson Crown caused by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
+      "icon": "UI_Talent_S_Candace_06",
+      "unlock": 4,
+      "param_list": [
+        0.005,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 722301,
+      "name": "To Dawn's First Light",
+      "desc": "Decreases climbing Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+      "icon": "UI_Talent_Explosion_Climb",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 721,
+      "name": "Returning Heiress of the Scarlet Sands",
+      "desc": "The duration of Prayer of the Crimson Crown effect triggered by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> is increased by 3s.",
+      "icon": "UI_Talent_S_Candace_01",
+      "param_list": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 722,
+      "name": "Moon-Piercing Brilliance",
+      "desc": "When <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> hits opponents, Candace's Max HP will be increased by 20% for 15s.",
+      "icon": "UI_Talent_S_Candace_02",
+      "param_list": [
+        0.2,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 723,
+      "name": "Hunter's Supplication",
+      "desc": "Increases the Level of <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Candace_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 724,
+      "name": "Sentinel Oath",
+      "desc": "Shortens the Hold CD of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> to be the same as that of the Tapping CD.",
+      "icon": "UI_Talent_S_Candace_03",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 725,
+      "name": "Heterochromatic Gaze",
+      "desc": "Increases the Level of <color=#FFD780FF>Sacred Rite: Heron's Sanctum</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Candace_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 726,
+      "name": "The Overflow",
+      "desc": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by <color=#FFD780FF>Sacred Rite: Wagtail's Tide</color> deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals <color=#80C0FFFF>AoE Hydro DMG</color> equal to 15% of Candace's Max HP.\\nThis effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
+      "icon": "UI_Talent_S_Candace_04",
+      "param_list": [
+        0.15,
+        2.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Sliver",
+            "id": 104121,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Henna Berry",
+            "id": 101220,
+            "count": 3,
+            "rank": 0
+          },
+          {
+            "name": "Faded Red Satin",
+            "id": 112065,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Fragment",
+            "id": 104122,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Light Guiding Tetrahedron",
+            "id": 113039,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Henna Berry",
+            "id": 101220,
+            "count": 10,
+            "rank": 0
+          },
+          {
+            "name": "Faded Red Satin",
+            "id": 112065,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Fragment",
+            "id": 104122,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Light Guiding Tetrahedron",
+            "id": 113039,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Henna Berry",
+            "id": 101220,
+            "count": 20,
+            "rank": 0
+          },
+          {
+            "name": "Trimmed Red Silk",
+            "id": 112066,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Chunk",
+            "id": 104123,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Light Guiding Tetrahedron",
+            "id": 113039,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Henna Berry",
+            "id": 101220,
+            "count": 30,
+            "rank": 0
+          },
+          {
+            "name": "Trimmed Red Silk",
+            "id": 112066,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Chunk",
+            "id": 104123,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Light Guiding Tetrahedron",
+            "id": 113039,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Henna Berry",
+            "id": 101220,
+            "count": 45,
+            "rank": 0
+          },
+          {
+            "name": "Rich Red Brocade",
+            "id": 112067,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Gemstone",
+            "id": 104124,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Light Guiding Tetrahedron",
+            "id": 113039,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Henna Berry",
+            "id": 101220,
+            "count": 60,
+            "rank": 0
+          },
+          {
+            "name": "Rich Red Brocade",
+            "id": 112067,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Admonition",
+              "id": 104329,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Faded Red Satin",
+              "id": 112065,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Admonition",
+              "id": 104329,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Faded Red Satin",
+              "id": 112065,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Admonition",
+              "id": 104329,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Faded Red Satin",
+              "id": 112065,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Admonition",
+              "id": 104330,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Admonition",
+              "id": 104331,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Tears of the Calamitous God",
+              "id": 113033,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  }
+}

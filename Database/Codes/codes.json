@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-06-13T20:18:32.371Z",
+  "maxAgeDays": 28,
+  "games": [
+    {
+      "slug": "genshin",
+      "name": "Genshin Impact",
+      "icon": "GI",
+      "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
+      "note": "",
+      "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
+      "lastSuccessfulFetch": "2026-06-13T20:18:32.371Z",
+      "codes": [
+        {
+          "code": "EARLYGIFT",
+          "rewards": "at checkout for 10% an all items ^^",
+          "added": "2026-06-13",
+          "sourceUrl": "https://www.reddit.com/r/Genshin_Impact/comments/1u4y1oa/my_handmade_miko_charm/",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-13T20:18:32.371Z"
+        },
+        {
+          "code": "LCXGEA5SX65L",
+          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "added": "2026-06-12",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LCXGEA5SX65L",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-06-13T20:18:32.371Z"
+        },
+        {
+          "code": "NMI20MAJGIBP",
+          "rewards": "20 Primogems and 160 Geodes Of Replication",
+          "added": "2026-05-29",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=NMI20MAJGIBP",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-06-13T20:18:32.371Z"
+        },
+        {
+          "code": "YMYD76U85Z1U",
+          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
+          "added": "2026-05-29",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-13T20:18:32.371Z"
+        },
+        {
+          "code": "MageNicolesPuzzle",
+          "rewards": "30 Primogems, Five Chenyu Adeptea, One Fruit Tandem Turnovers, and One Midsommar Torte",
+          "added": "2026-05-22",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MageNicolesPuzzle",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-06-13T20:18:32.371Z"
+        }
+      ]
+    },
+    {
+      "slug": "hsr",
+      "name": "Honkai: Star Rail",
+      "icon": "HSR",
+      "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
+      "note": "",
+      "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
+      "lastSuccessfulFetch": "2026-06-13T20:18:18.521Z",
+      "codes": [
+        {
+          "code": "BladeFitCheck",
+          "rewards": "Three Traveler S Guides and Two Cold Jokes",
+          "added": "2026-06-08",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BladeFitCheck",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-06-13T20:18:18.521Z"
+        },
+        {
+          "code": "4TKSX77Y58QK",
+          "rewards": "30 Stellar Jade, Three Traveler S Guides, Five Condensed Aether, Four Lost Gold Fragments, and 20k Credits",
+          "added": "2026-05-26",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=4TKSX77Y58QK",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-13T20:18:18.521Z"
+        },
+        {
+          "code": "5S6ZHRWTDNJB",
+          "rewards": "60 Stellar Jade",
+          "added": "2026-05-26",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-13T20:18:18.521Z"
+        },
+        {
+          "code": "SitByEvanescia",
+          "rewards": "Three Traveler S Guides and Two Bottled Quantum Ghosts",
+          "added": "2026-05-18",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=SitByEvanescia",
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-06-13T20:18:18.521Z"
+        }
+      ]
+    },
+    {
+      "slug": "zzz",
+      "name": "Zenless Zone Zero",
+      "icon": "ZZZ",
+      "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
+      "note": "",
+      "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
+      "lastSuccessfulFetch": "2026-06-13T20:18:20.167Z",
+      "codes": [],
+      "review": {
+        "reason": "Possible referral/invite-code flood: 6 Zenless Zone Zero codes first seen in 24h (threshold 5). Held for review — confirm legit ones in REVIEWED_CODES to publish.",
+        "detectedAt": "2026-06-13T20:18:20.166Z",
+        "codes": [
+          {
+            "code": "ROSCAELIFER0617",
+            "rewards": "30 Polychrome",
+            "added": "2026-06-11",
+            "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
+            "premium": true,
+            "premium100": false,
+            "cwSeen": true,
+            "firstSeen": "2026-06-13T20:18:20.166Z"
+          },
+          {
+            "code": "ZZZ30BANGBOO",
+            "rewards": "60 Polychrome",
+            "added": "2026-06-11",
+            "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
+            "premium": true,
+            "premium100": false,
+            "cwSeen": true,
+            "firstSeen": "2026-06-13T20:18:20.166Z"
+          },
+          {
+            "code": "ZZZSEASON3",
+            "rewards": "50 Polychrome",
+            "added": "2026-06-11",
+            "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
+            "premium": true,
+            "premium100": false,
+            "cwSeen": true,
+            "firstSeen": "2026-06-13T20:18:20.166Z"
+          },
+          {
+            "code": "ZZZSTEAM",
+            "rewards": "60 Polychrome, Two W Engine Energy Modules, Two Senior Investigator Logs, and 6,666 Denny",
+            "added": "2026-06-11",
+            "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
+            "premium": true,
+            "premium100": false,
+            "cwSeen": true,
+            "firstSeen": "2026-06-13T20:18:20.166Z"
+          },
+          {
+            "code": "ZZZSUSHIRO",
+            "rewards": "3 Senior Investigator Log, 30000 Denny",
+            "added": "2026-06-11",
+            "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+            "premium": false,
+            "premium100": false,
+            "cwSeen": true,
+            "firstSeen": "2026-06-13T20:18:20.166Z"
+          },
+          {
+            "code": "BEYONDTHECLOUDS",
+            "rewards": "300 Polychromes, 30k Dennies, Two Senior Investigation Logs, and Three W Engine Energy Modules",
+            "added": "2026-06-06",
+            "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=BEYONDTHECLOUDS",
+            "premium": true,
+            "premium100": false,
+            "cwSeen": false,
+            "firstSeen": "2026-06-13T20:18:20.166Z"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "wuwa",
+      "name": "Wuthering Waves",
+      "icon": "WUWA",
+      "redeemBase": "",
+      "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
+      "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
+      "lastSuccessfulFetch": "2026-06-13T20:18:21.693Z",
+      "codes": []
+    }
+  ]
+}

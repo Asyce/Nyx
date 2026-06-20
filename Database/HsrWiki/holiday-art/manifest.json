@@ -1,0 +1,3378 @@
+{
+  "generatedAt": "2026-06-18T21:45:29.359Z",
+  "source": "Honkai: Star Rail Wiki / Fandom MediaWiki API",
+  "sourceExample": "https://honkai-star-rail.fandom.com/wiki/Kafka/Media",
+  "requestedWidth": 1600,
+  "section": "Artwork > Holidays",
+  "characters": [
+    {
+      "name": "Acheron",
+      "key": "acheron",
+      "page": "Acheron/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2024 Acheron.png",
+          "title": "Chinese New Year 2024 Acheron.png (1.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/acheron/01-Chinese New Year 2024 Acheron.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Acheron/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024_Acheron.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Aglaea",
+      "key": "aglaea",
+      "page": "Aglaea/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2025 Aglaea.png",
+          "title": "Chinese New Year 2025 Aglaea.png (2.94 MB)",
+          "localAsset": "HsrWiki/holiday-art/aglaea/01-Chinese New Year 2025 Aglaea.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Aglaea/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025_Aglaea.png",
+          "width": 1200,
+          "height": 1600,
+          "originalWidth": 1200,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Children's Day 2025.png",
+          "title": "Children's Day 2025.png (3.22 MB)",
+          "localAsset": "HsrWiki/holiday-art/aglaea/02-Children's Day 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Aglaea/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Children%27s_Day_2025.png",
+          "width": 1600,
+          "height": 1187,
+          "originalWidth": 1920,
+          "originalHeight": 1424,
+          "mime": "image/png"
+        },
+        {
+          "file": "Valentine's Day 2026 Aglaea.png",
+          "title": "Valentine's Day 2026 Aglaea.png (1.48 MB)",
+          "localAsset": "HsrWiki/holiday-art/aglaea/03-Valentine's Day 2026 Aglaea.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Aglaea/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2026_Aglaea.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Anaxa",
+      "key": "anaxa",
+      "page": "Anaxa/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Day of the Dead 2025.jpg",
+          "title": "Day of the Dead 2025.jpg (1.59 MB)",
+          "localAsset": "HsrWiki/holiday-art/anaxa/01-Day of the Dead 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Anaxa/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Day_of_the_Dead_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4096,
+          "originalHeight": 2304,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "White Day 2026 Anaxa.png",
+          "title": "White Day 2026 Anaxa.png (1.5 MB)",
+          "localAsset": "HsrWiki/holiday-art/anaxa/02-White Day 2026 Anaxa.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Anaxa/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2026_Anaxa.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Archer",
+      "key": "archer",
+      "page": "Archer/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Argenti",
+      "key": "argenti",
+      "page": "Argenti/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "White Day 2024 Argenti.png",
+          "title": "White Day 2024 Argenti.png (1.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/argenti/01-White Day 2024 Argenti.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Argenti/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2024_Argenti.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Arlan",
+      "key": "arlan",
+      "page": "Arlan/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Ashveil",
+      "key": "ashveil",
+      "page": "Ashveil/Media",
+      "status": "error",
+      "error": "503 Service Unavailable",
+      "artworks": []
+    },
+    {
+      "name": "Asta",
+      "key": "asta",
+      "page": "Asta/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Christmas 2023.png",
+          "title": "Christmas 2023.png (5.8 MB)",
+          "localAsset": "HsrWiki/holiday-art/asta/01-Christmas 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Asta/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Aventurine",
+      "key": "aventurine",
+      "page": "Aventurine/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2024 Aventurine.png",
+          "title": "Chinese New Year 2024 Aventurine.png (1.18 MB)",
+          "localAsset": "HsrWiki/holiday-art/aventurine/01-Chinese New Year 2024 Aventurine.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Aventurine/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024_Aventurine.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "White Day 2025 Aventurine.png",
+          "title": "White Day 2025 Aventurine.png (1.91 MB)",
+          "localAsset": "HsrWiki/holiday-art/aventurine/02-White Day 2025 Aventurine.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Aventurine/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2025_Aventurine.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Bailu",
+      "key": "bailu",
+      "page": "Bailu/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/bailu/01-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Bailu/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2024.png",
+          "title": "Chinese New Year 2024.png (3.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/bailu/02-Chinese New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Bailu/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2048,
+          "originalHeight": 1152,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2025.jpg",
+          "title": "Lantern Festival 2025.jpg (1.34 MB)",
+          "localAsset": "HsrWiki/holiday-art/bailu/03-Lantern Festival 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Bailu/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4096,
+          "originalHeight": 2305,
+          "mime": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Black Swan",
+      "key": "blackswan",
+      "page": "Black Swan/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2024 Black Swan.png",
+          "title": "Chinese New Year 2024 Black Swan.png (1.17 MB)",
+          "localAsset": "HsrWiki/holiday-art/blackswan/01-Chinese New Year 2024 Black Swan.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Black%20Swan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024_Black_Swan.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Blade",
+      "key": "blade",
+      "page": "Blade/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Dragon Boat Festival 2024.png",
+          "title": "Dragon Boat Festival 2024.png (2.14 MB)",
+          "localAsset": "HsrWiki/holiday-art/blade/01-Dragon Boat Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Blade/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2024.png",
+          "width": 1080,
+          "height": 1079,
+          "originalWidth": 1080,
+          "originalHeight": 1079,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Boothill",
+      "key": "boothill",
+      "page": "Boothill/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2024.png",
+          "title": "Halloween 2024.png (6.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/boothill/01-Halloween 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Boothill/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "White Day 2025 Boothill.png",
+          "title": "White Day 2025 Boothill.png (1.77 MB)",
+          "localAsset": "HsrWiki/holiday-art/boothill/02-White Day 2025 Boothill.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Boothill/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2025_Boothill.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Bronya",
+      "key": "bronya",
+      "page": "Bronya/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2023 Seele Bronya.png",
+          "title": "Chinese New Year 2023 Seele Bronya.png (778 KB)",
+          "localAsset": "HsrWiki/holiday-art/bronya/01-Chinese New Year 2023 Seele Bronya.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Bronya/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023_Seele_Bronya.png",
+          "width": 900,
+          "height": 674,
+          "originalWidth": 900,
+          "originalHeight": 674,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2023.png",
+          "title": "Lantern Festival 2023.png (687 KB)",
+          "localAsset": "HsrWiki/holiday-art/bronya/02-Lantern Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Bronya/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Castorice",
+      "key": "castorice",
+      "page": "Castorice/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Valentine's Day 2025 Castorice.png",
+          "title": "Valentine's Day 2025 Castorice.png (1.4 MB)",
+          "localAsset": "HsrWiki/holiday-art/castorice/01-Valentine's Day 2025 Castorice.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Castorice/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2025_Castorice.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        },
+        {
+          "file": "Children's Day 2025.png",
+          "title": "Children's Day 2025.png (3.22 MB)",
+          "localAsset": "HsrWiki/holiday-art/castorice/02-Children's Day 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Castorice/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Children%27s_Day_2025.png",
+          "width": 1600,
+          "height": 1187,
+          "originalWidth": 1920,
+          "originalHeight": 1424,
+          "mime": "image/png"
+        },
+        {
+          "file": "Festa Junina 2025.jpg",
+          "title": "Festa Junina 2025.jpg (2.02 MB)",
+          "localAsset": "HsrWiki/holiday-art/castorice/03-Festa Junina 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Castorice/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Festa_Junina_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Cerydra",
+      "key": "cerydra",
+      "page": "Cerydra/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Cipher",
+      "key": "cipher",
+      "page": "Cipher/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Children's Day 2025.png",
+          "title": "Children's Day 2025.png (3.22 MB)",
+          "localAsset": "HsrWiki/holiday-art/cipher/01-Children's Day 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Cipher/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Children%27s_Day_2025.png",
+          "width": 1600,
+          "height": 1187,
+          "originalWidth": 1920,
+          "originalHeight": 1424,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Clara",
+      "key": "clara",
+      "page": "Clara/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2022.png",
+          "title": "Halloween 2022.png (5.52 MB)",
+          "localAsset": "HsrWiki/holiday-art/clara/01-Halloween 2022.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Clara/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2022.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2023.png",
+          "title": "Lantern Festival 2023.png (687 KB)",
+          "localAsset": "HsrWiki/holiday-art/clara/02-Lantern Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Clara/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Cyrene",
+      "key": "cyrene",
+      "page": "Cyrene/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Christmas 2025.png",
+          "title": "Christmas 2025.png (3.2 MB)",
+          "localAsset": "HsrWiki/holiday-art/cyrene/01-Christmas 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Cyrene/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Valentine's Day 2026 Cyrene.png",
+          "title": "Valentine's Day 2026 Cyrene.png (1.41 MB)",
+          "localAsset": "HsrWiki/holiday-art/cyrene/02-Valentine's Day 2026 Cyrene.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Cyrene/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2026_Cyrene.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Dan Heng",
+      "key": "danheng",
+      "page": "Dan Heng/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Mid Autumn Festival 2022.jpg",
+          "title": "Mid Autumn Festival 2022.jpg (3.71 MB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/01-Mid Autumn Festival 2022.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Mid_Autumn_Festival_2022.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2023.png",
+          "title": "New Year 2023.png (5.78 MB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/02-New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/03-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "White Day 2023 Dan Heng.jpg",
+          "title": "White Day 2023 Dan Heng.jpg (192 KB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/04-White Day 2023 Dan Heng.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2023_Dan_Heng.jpg",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Dragon Boat Festival 2023.png",
+          "title": "Dragon Boat Festival 2023.png (5.33 MB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/05-Dragon Boat Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2023.png",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 1920,
+          "originalHeight": 1920,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/06-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Festa Junina 2024.jpg",
+          "title": "Festa Junina 2024.jpg (1.45 MB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/07-Festa Junina 2024.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Festa_Junina_2024.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png",
+          "title": "Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png (1.45 MB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/08-Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Sunday_Dan_Heng_Jing_Yuan_Fugue.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/danheng/09-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Dan Heng • Imbibitor Lunae",
+      "key": "danhengimbibitorlunae",
+      "page": "Dan Heng • Imbibitor Lunae/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Lantern Festival 2024.png",
+          "title": "Lantern Festival 2024.png (2.96 MB)",
+          "localAsset": "HsrWiki/holiday-art/danhengimbibitorlunae/01-Lantern Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng%20%E2%80%A2%20Imbibitor%20Lunae/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2024.png",
+          "width": 1600,
+          "height": 913,
+          "originalWidth": 1920,
+          "originalHeight": 1096,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Dan Heng • Permansor Terrae",
+      "key": "danhengpermansorterrae",
+      "page": "Dan Heng • Permansor Terrae/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2025.jpg",
+          "title": "Halloween 2025.jpg (2.49 MB)",
+          "localAsset": "HsrWiki/holiday-art/danhengpermansorterrae/01-Halloween 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng%20%E2%80%A2%20Permansor%20Terrae/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/danhengpermansorterrae/02-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dan%20Heng%20%E2%80%A2%20Permansor%20Terrae/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Ratio",
+      "key": "drratio",
+      "page": "Dr. Ratio/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2024 Dr. Ratio.png",
+          "title": "Chinese New Year 2024 Dr. Ratio.png (1.11 MB)",
+          "localAsset": "HsrWiki/holiday-art/drratio/01-Chinese New Year 2024 Dr. Ratio.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Dr.%20Ratio/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024_Dr._Ratio.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Evanescia",
+      "key": "evanescia",
+      "page": "Evanescia/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Feixiao",
+      "key": "feixiao",
+      "page": "Feixiao/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Mid Autumn Festival 2024.png",
+          "title": "Mid Autumn Festival 2024.png (7.05 MB)",
+          "localAsset": "HsrWiki/holiday-art/feixiao/01-Mid Autumn Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Feixiao/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Mid_Autumn_Festival_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2025 Feixiao.png",
+          "title": "Chinese New Year 2025 Feixiao.png (2.88 MB)",
+          "localAsset": "HsrWiki/holiday-art/feixiao/02-Chinese New Year 2025 Feixiao.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Feixiao/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025_Feixiao.png",
+          "width": 1200,
+          "height": 1600,
+          "originalWidth": 1200,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2026.png",
+          "title": "Lantern Festival 2026.png (2.35 MB)",
+          "localAsset": "HsrWiki/holiday-art/feixiao/03-Lantern Festival 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Feixiao/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2026.png",
+          "width": 1600,
+          "height": 913,
+          "originalWidth": 1920,
+          "originalHeight": 1096,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Firefly",
+      "key": "firefly",
+      "page": "Firefly/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Valentine's Day 2025 Firefly.png",
+          "title": "Valentine's Day 2025 Firefly.png (1.55 MB)",
+          "localAsset": "HsrWiki/holiday-art/firefly/01-Valentine's Day 2025 Firefly.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Firefly/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2025_Firefly.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Fu Xuan",
+      "key": "fuxuan",
+      "page": "Fu Xuan/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Qixi Festival 2023.png",
+          "title": "Qixi Festival 2023.png (3.53 MB)",
+          "localAsset": "HsrWiki/holiday-art/fuxuan/01-Qixi Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Fu%20Xuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Qixi_Festival_2023.png",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 1920,
+          "originalHeight": 1920,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2025.jpg",
+          "title": "Lantern Festival 2025.jpg (1.34 MB)",
+          "localAsset": "HsrWiki/holiday-art/fuxuan/02-Lantern Festival 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Fu%20Xuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4096,
+          "originalHeight": 2305,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Chinese New Year 2026.png",
+          "title": "Chinese New Year 2026.png (3.55 MB)",
+          "localAsset": "HsrWiki/holiday-art/fuxuan/03-Chinese New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Fu%20Xuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Gallagher",
+      "key": "gallagher",
+      "page": "Gallagher/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Gepard",
+      "key": "gepard",
+      "page": "Gepard/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "White Day 2023 Gepard.jpg",
+          "title": "White Day 2023 Gepard.jpg (209 KB)",
+          "localAsset": "HsrWiki/holiday-art/gepard/01-White Day 2023 Gepard.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Gepard/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2023_Gepard.jpg",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/gepard/02-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Gepard/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Gilgamesh",
+      "key": "gilgamesh",
+      "page": "Gilgamesh/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Guinaifen",
+      "key": "guinaifen",
+      "page": "Guinaifen/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Hanya",
+      "key": "hanya",
+      "page": "Hanya/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Herta",
+      "key": "herta",
+      "page": "Herta/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Himeko",
+      "key": "himeko",
+      "page": "Himeko/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "New Year 2023.png",
+          "title": "New Year 2023.png (5.78 MB)",
+          "localAsset": "HsrWiki/holiday-art/himeko/01-New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Himeko/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/himeko/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Himeko/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2023.png",
+          "title": "Christmas 2023.png (5.8 MB)",
+          "localAsset": "HsrWiki/holiday-art/himeko/03-Christmas 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Himeko/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/himeko/04-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Himeko/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Himeko March 7th.png",
+          "title": "Chinese New Year 2026 Himeko March 7th.png (1.5 MB)",
+          "localAsset": "HsrWiki/holiday-art/himeko/05-Chinese New Year 2026 Himeko March 7th.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Himeko/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Himeko_March_7th.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/himeko/06-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Himeko/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Children's Day 2026.png",
+          "title": "Children's Day 2026.png (4.25 MB)",
+          "localAsset": "HsrWiki/holiday-art/himeko/07-Children's Day 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Himeko/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Children%27s_Day_2026.png",
+          "width": 1600,
+          "height": 1191,
+          "originalWidth": 1920,
+          "originalHeight": 1429,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Himeko Nova",
+      "key": "himekonova",
+      "page": "Himeko Nova/Media",
+      "status": "error",
+      "error": "Himeko Nova/Media: missingtitle",
+      "artworks": []
+    },
+    {
+      "name": "Hook",
+      "key": "hook",
+      "page": "Hook/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2022.png",
+          "title": "Halloween 2022.png (5.52 MB)",
+          "localAsset": "HsrWiki/holiday-art/hook/01-Halloween 2022.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Hook/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2022.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2023.png",
+          "title": "Lantern Festival 2023.png (687 KB)",
+          "localAsset": "HsrWiki/holiday-art/hook/02-Lantern Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Hook/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Huohuo",
+      "key": "huohuo",
+      "page": "Huohuo/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Lantern Festival 2024.png",
+          "title": "Lantern Festival 2024.png (2.96 MB)",
+          "localAsset": "HsrWiki/holiday-art/huohuo/01-Lantern Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Huohuo/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2024.png",
+          "width": 1600,
+          "height": 913,
+          "originalWidth": 1920,
+          "originalHeight": 1096,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Hyacine",
+      "key": "hyacine",
+      "page": "Hyacine/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Qixi Festival 2025.jpg",
+          "title": "Qixi Festival 2025.jpg (2.97 MB)",
+          "localAsset": "HsrWiki/holiday-art/hyacine/01-Qixi Festival 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Hyacine/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Qixi_Festival_2025.jpg",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 4000,
+          "originalHeight": 4000,
+          "mime": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Hysilens",
+      "key": "hysilens",
+      "page": "Hysilens/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Jade",
+      "key": "jade",
+      "page": "Jade/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2024.png",
+          "title": "Halloween 2024.png (6.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/jade/01-Halloween 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jade/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Jiaoqiu",
+      "key": "jiaoqiu",
+      "page": "Jiaoqiu/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2025 Jiaoqiu.png",
+          "title": "Chinese New Year 2025 Jiaoqiu.png (3.13 MB)",
+          "localAsset": "HsrWiki/holiday-art/jiaoqiu/01-Chinese New Year 2025 Jiaoqiu.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jiaoqiu/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025_Jiaoqiu.png",
+          "width": 1200,
+          "height": 1600,
+          "originalWidth": 1200,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "White Day 2025 Jiaoqiu.png",
+          "title": "White Day 2025 Jiaoqiu.png (1.92 MB)",
+          "localAsset": "HsrWiki/holiday-art/jiaoqiu/02-White Day 2025 Jiaoqiu.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jiaoqiu/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2025_Jiaoqiu.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Jing Yuan",
+      "key": "jingyuan",
+      "page": "Jing Yuan/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/jingyuan/01-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jing%20Yuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "White Day 2023 Jing Yuan.jpg",
+          "title": "White Day 2023 Jing Yuan.jpg (238 KB)",
+          "localAsset": "HsrWiki/holiday-art/jingyuan/02-White Day 2023 Jing Yuan.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jing%20Yuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2023_Jing_Yuan.jpg",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Chinese New Year 2024.png",
+          "title": "Chinese New Year 2024.png (3.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/jingyuan/03-Chinese New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jing%20Yuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2048,
+          "originalHeight": 1152,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2024.png",
+          "title": "Lantern Festival 2024.png (2.96 MB)",
+          "localAsset": "HsrWiki/holiday-art/jingyuan/04-Lantern Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jing%20Yuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2024.png",
+          "width": 1600,
+          "height": 913,
+          "originalWidth": 1920,
+          "originalHeight": 1096,
+          "mime": "image/png"
+        },
+        {
+          "file": "Mid Autumn Festival 2025.png",
+          "title": "Mid Autumn Festival 2025.png (3.35 MB)",
+          "localAsset": "HsrWiki/holiday-art/jingyuan/05-Mid Autumn Festival 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jing%20Yuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Mid_Autumn_Festival_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png",
+          "title": "Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png (1.45 MB)",
+          "localAsset": "HsrWiki/holiday-art/jingyuan/06-Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jing%20Yuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Sunday_Dan_Heng_Jing_Yuan_Fugue.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/jingyuan/07-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jing%20Yuan/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Jingliu",
+      "key": "jingliu",
+      "page": "Jingliu/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Mid Autumn Festival 2023.png",
+          "title": "Mid Autumn Festival 2023.png (4.04 MB)",
+          "localAsset": "HsrWiki/holiday-art/jingliu/01-Mid Autumn Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Jingliu/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Mid_Autumn_Festival_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Kafka",
+      "key": "kafka",
+      "page": "Kafka/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Valentine's Day 2024 Kafka.png",
+          "title": "Valentine's Day 2024 Kafka.png (1.35 MB)",
+          "localAsset": "HsrWiki/holiday-art/kafka/01-Valentine's Day 2024 Kafka.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Kafka/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2024_Kafka.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Lingsha",
+      "key": "lingsha",
+      "page": "Lingsha/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2025 Lingsha.png",
+          "title": "Chinese New Year 2025 Lingsha.png (2.79 MB)",
+          "localAsset": "HsrWiki/holiday-art/lingsha/01-Chinese New Year 2025 Lingsha.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Lingsha/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025_Lingsha.png",
+          "width": 1200,
+          "height": 1600,
+          "originalWidth": 1200,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2025.png",
+          "title": "Dragon Boat Festival 2025.png (1.79 MB)",
+          "localAsset": "HsrWiki/holiday-art/lingsha/02-Dragon Boat Festival 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Lingsha/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2025.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Luka",
+      "key": "luka",
+      "page": "Luka/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "White Day 2024 Luka.png",
+          "title": "White Day 2024 Luka.png (1.82 MB)",
+          "localAsset": "HsrWiki/holiday-art/luka/01-White Day 2024 Luka.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Luka/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2024_Luka.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Luocha",
+      "key": "luocha",
+      "page": "Luocha/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Dragon Boat Festival 2023.png",
+          "title": "Dragon Boat Festival 2023.png (5.33 MB)",
+          "localAsset": "HsrWiki/holiday-art/luocha/01-Dragon Boat Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Luocha/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2023.png",
+          "width": 1600,
+          "height": 1600,
+          "originalWidth": 1920,
+          "originalHeight": 1920,
+          "mime": "image/png"
+        },
+        {
+          "file": "White Day 2024 Luocha.png",
+          "title": "White Day 2024 Luocha.png (1.64 MB)",
+          "localAsset": "HsrWiki/holiday-art/luocha/02-White Day 2024 Luocha.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Luocha/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2024_Luocha.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Lynx",
+      "key": "lynx",
+      "page": "Lynx/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/lynx/01-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Lynx/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "March 7th",
+      "key": "march7th",
+      "page": "March 7th/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "New Year 2023.png",
+          "title": "New Year 2023.png (5.78 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/01-New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Valentine's Day 2023 March 7th.jpg",
+          "title": "Valentine's Day 2023 March 7th.jpg (207 KB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/03-Valentine's Day 2023 March 7th.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2023_March_7th.jpg",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/04-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Festa Junina 2024.jpg",
+          "title": "Festa Junina 2024.jpg (1.45 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/05-Festa Junina 2024.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Festa_Junina_2024.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Qixi Festival 2024.png",
+          "title": "Qixi Festival 2024.png (1.96 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/06-Qixi Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Qixi_Festival_2024.png",
+          "width": 1080,
+          "height": 1070,
+          "originalWidth": 1080,
+          "originalHeight": 1070,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/07-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/08-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Himeko March 7th.png",
+          "title": "Chinese New Year 2026 Himeko March 7th.png (1.5 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/09-Chinese New Year 2026 Himeko March 7th.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Himeko_March_7th.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7th/10-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "March 7th • Evernight",
+      "key": "march7thevernight",
+      "page": "March 7th/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "New Year 2023.png",
+          "title": "New Year 2023.png (5.78 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/01-New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Valentine's Day 2023 March 7th.jpg",
+          "title": "Valentine's Day 2023 March 7th.jpg (207 KB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/03-Valentine's Day 2023 March 7th.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2023_March_7th.jpg",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/04-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Festa Junina 2024.jpg",
+          "title": "Festa Junina 2024.jpg (1.45 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/05-Festa Junina 2024.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Festa_Junina_2024.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Qixi Festival 2024.png",
+          "title": "Qixi Festival 2024.png (1.96 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/06-Qixi Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Qixi_Festival_2024.png",
+          "width": 1080,
+          "height": 1070,
+          "originalWidth": 1080,
+          "originalHeight": 1070,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/07-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/08-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Himeko March 7th.png",
+          "title": "Chinese New Year 2026 Himeko March 7th.png (1.5 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/09-Chinese New Year 2026 Himeko March 7th.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Himeko_March_7th.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7thevernight/10-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "March 7th • The Hunt",
+      "key": "march7ththehunt",
+      "page": "March 7th/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "New Year 2023.png",
+          "title": "New Year 2023.png (5.78 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/01-New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Valentine's Day 2023 March 7th.jpg",
+          "title": "Valentine's Day 2023 March 7th.jpg (207 KB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/03-Valentine's Day 2023 March 7th.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2023_March_7th.jpg",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/04-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Festa Junina 2024.jpg",
+          "title": "Festa Junina 2024.jpg (1.45 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/05-Festa Junina 2024.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Festa_Junina_2024.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Qixi Festival 2024.png",
+          "title": "Qixi Festival 2024.png (1.96 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/06-Qixi Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Qixi_Festival_2024.png",
+          "width": 1080,
+          "height": 1070,
+          "originalWidth": 1080,
+          "originalHeight": 1070,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/07-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/08-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Himeko March 7th.png",
+          "title": "Chinese New Year 2026 Himeko March 7th.png (1.5 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/09-Chinese New Year 2026 Himeko March 7th.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Himeko_March_7th.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/march7ththehunt/10-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/March%207th/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Misha",
+      "key": "misha",
+      "page": "Misha/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Children's Day 2024.png",
+          "title": "Children's Day 2024.png (1.97 MB)",
+          "localAsset": "HsrWiki/holiday-art/misha/01-Children's Day 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Misha/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Children%27s_Day_2024.png",
+          "width": 1270,
+          "height": 945,
+          "originalWidth": 1270,
+          "originalHeight": 945,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Mortenax Blade",
+      "key": "mortenaxblade",
+      "page": "Mortenax Blade/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2026 Silver Wolf Blade.png",
+          "title": "Chinese New Year 2026 Silver Wolf Blade.png (1.61 MB)",
+          "localAsset": "HsrWiki/holiday-art/mortenaxblade/01-Chinese New Year 2026 Silver Wolf Blade.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Mortenax%20Blade/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Silver_Wolf_Blade.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/mortenaxblade/02-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Mortenax%20Blade/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Moze",
+      "key": "moze",
+      "page": "Moze/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2025 Moze.png",
+          "title": "Chinese New Year 2025 Moze.png (2.17 MB)",
+          "localAsset": "HsrWiki/holiday-art/moze/01-Chinese New Year 2025 Moze.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Moze/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025_Moze.png",
+          "width": 1200,
+          "height": 1600,
+          "originalWidth": 1200,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Mydei",
+      "key": "mydei",
+      "page": "Mydei/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "White Day 2026 Mydei.png",
+          "title": "White Day 2026 Mydei.png (1.58 MB)",
+          "localAsset": "HsrWiki/holiday-art/mydei/01-White Day 2026 Mydei.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Mydei/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2026_Mydei.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Natasha",
+      "key": "natasha",
+      "page": "Natasha/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Lantern Festival 2023.png",
+          "title": "Lantern Festival 2023.png (687 KB)",
+          "localAsset": "HsrWiki/holiday-art/natasha/01-Lantern Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Natasha/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Pela",
+      "key": "pela",
+      "page": "Pela/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/pela/01-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Pela/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Phainon",
+      "key": "phainon",
+      "page": "Phainon/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Festa Junina 2025.jpg",
+          "title": "Festa Junina 2025.jpg (2.02 MB)",
+          "localAsset": "HsrWiki/holiday-art/phainon/01-Festa Junina 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Phainon/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Festa_Junina_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "White Day 2026 Phainon.png",
+          "title": "White Day 2026 Phainon.png (1.45 MB)",
+          "localAsset": "HsrWiki/holiday-art/phainon/02-White Day 2026 Phainon.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Phainon/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:White_Day_2026_Phainon.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Qingque",
+      "key": "qingque",
+      "page": "Qingque/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Valentine's Day 2023 Qingque.jpg",
+          "title": "Valentine's Day 2023 Qingque.jpg (209 KB)",
+          "localAsset": "HsrWiki/holiday-art/qingque/01-Valentine's Day 2023 Qingque.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Qingque/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2023_Qingque.jpg",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "Chinese New Year 2024.png",
+          "title": "Chinese New Year 2024.png (3.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/qingque/02-Chinese New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Qingque/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2048,
+          "originalHeight": 1152,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Rappa",
+      "key": "rappa",
+      "page": "Rappa/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2024.png",
+          "title": "Halloween 2024.png (6.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/rappa/01-Halloween 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Rappa/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Valentine's Day 2025 Rappa.png",
+          "title": "Valentine's Day 2025 Rappa.png (1.6 MB)",
+          "localAsset": "HsrWiki/holiday-art/rappa/02-Valentine's Day 2025 Rappa.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Rappa/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2025_Rappa.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Rin Tohsaka",
+      "key": "rintohsaka",
+      "page": "Rin Tohsaka/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Robin",
+      "key": "robin",
+      "page": "Robin/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/robin/01-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Robin/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Ruan Mei",
+      "key": "ruanmei",
+      "page": "Ruan Mei/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2024 Ruan Mei.png",
+          "title": "Chinese New Year 2024 Ruan Mei.png (1.09 MB)",
+          "localAsset": "HsrWiki/holiday-art/ruanmei/01-Chinese New Year 2024 Ruan Mei.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Ruan%20Mei/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024_Ruan_Mei.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Valentine's Day 2024 Ruan Mei.png",
+          "title": "Valentine's Day 2024 Ruan Mei.png (1.16 MB)",
+          "localAsset": "HsrWiki/holiday-art/ruanmei/02-Valentine's Day 2024 Ruan Mei.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Ruan%20Mei/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2024_Ruan_Mei.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2025.png",
+          "title": "Chinese New Year 2025.png (2.72 MB)",
+          "localAsset": "HsrWiki/holiday-art/ruanmei/03-Chinese New Year 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Ruan%20Mei/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1655,
+          "originalHeight": 931,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Saber",
+      "key": "saber",
+      "page": "Saber/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Sampo",
+      "key": "sampo",
+      "page": "Sampo/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2022.png",
+          "title": "Halloween 2022.png (5.52 MB)",
+          "localAsset": "HsrWiki/holiday-art/sampo/01-Halloween 2022.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sampo/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2022.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/sampo/02-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sampo/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Seele",
+      "key": "seele",
+      "page": "Seele/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2023 Seele Bronya.png",
+          "title": "Chinese New Year 2023 Seele Bronya.png (778 KB)",
+          "localAsset": "HsrWiki/holiday-art/seele/01-Chinese New Year 2023 Seele Bronya.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Seele/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023_Seele_Bronya.png",
+          "width": 900,
+          "height": 674,
+          "originalWidth": 900,
+          "originalHeight": 674,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2023.png",
+          "title": "Lantern Festival 2023.png (687 KB)",
+          "localAsset": "HsrWiki/holiday-art/seele/02-Lantern Festival 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Seele/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Serval",
+      "key": "serval",
+      "page": "Serval/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Valentine's Day 2023 Serval.jpg",
+          "title": "Valentine's Day 2023 Serval.jpg (216 KB)",
+          "localAsset": "HsrWiki/holiday-art/serval/01-Valentine's Day 2023 Serval.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Serval/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2023_Serval.jpg",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Silver Wolf",
+      "key": "silverwolf",
+      "page": "Silver Wolf/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Dragon Boat Festival 2024.png",
+          "title": "Dragon Boat Festival 2024.png (2.14 MB)",
+          "localAsset": "HsrWiki/holiday-art/silverwolf/01-Dragon Boat Festival 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Silver%20Wolf/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2024.png",
+          "width": 1080,
+          "height": 1079,
+          "originalWidth": 1080,
+          "originalHeight": 1079,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Silver Wolf • Lv. 999",
+      "key": "silverwolflv999",
+      "page": "Silver Wolf • Lv. 999/Media",
+      "status": "error",
+      "error": "Silver Wolf • Lv. 999/Media: missingtitle",
+      "artworks": []
+    },
+    {
+      "name": "Sparkle",
+      "key": "sparkle",
+      "page": "Sparkle/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Valentine's Day 2024 Sparkle.png",
+          "title": "Valentine's Day 2024 Sparkle.png (1.27 MB)",
+          "localAsset": "HsrWiki/holiday-art/sparkle/01-Valentine's Day 2024 Sparkle.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sparkle/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2024_Sparkle.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Sparxie",
+      "key": "sparxie",
+      "page": "Sparxie/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Sunday",
+      "key": "sunday",
+      "page": "Sunday/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/sunday/01-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sunday/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png",
+          "title": "Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png (1.45 MB)",
+          "localAsset": "HsrWiki/holiday-art/sunday/02-Chinese New Year 2026 Sunday Dan Heng Jing Yuan Fugue.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sunday/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Sunday_Dan_Heng_Jing_Yuan_Fugue.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/sunday/03-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sunday/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Sushang",
+      "key": "sushang",
+      "page": "Sushang/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2023 Sushang.png",
+          "title": "Chinese New Year 2023 Sushang.png (729 KB)",
+          "localAsset": "HsrWiki/holiday-art/sushang/01-Chinese New Year 2023 Sushang.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sushang/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023_Sushang.png",
+          "width": 900,
+          "height": 674,
+          "originalWidth": 900,
+          "originalHeight": 674,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2024.png",
+          "title": "Chinese New Year 2024.png (3.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/sushang/02-Chinese New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Sushang/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2048,
+          "originalHeight": 1152,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "The Dahlia",
+      "key": "thedahlia",
+      "page": "The Dahlia/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Valentine's Day 2026 The Dahlia.png",
+          "title": "Valentine's Day 2026 The Dahlia.png (1.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/thedahlia/01-Valentine's Day 2026 The Dahlia.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/The%20Dahlia/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Valentine%27s_Day_2026_The_Dahlia.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "The Herta",
+      "key": "theherta",
+      "page": "The Herta/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2025.png",
+          "title": "Chinese New Year 2025.png (2.72 MB)",
+          "localAsset": "HsrWiki/holiday-art/theherta/01-Chinese New Year 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/The%20Herta/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1655,
+          "originalHeight": 931,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Tingyun",
+      "key": "tingyun",
+      "page": "Tingyun/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Tingyun • Fugue",
+      "key": "tingyunfugue",
+      "page": "Tingyun • Fugue/Media",
+      "status": "error",
+      "error": "Tingyun • Fugue/Media: missingtitle",
+      "artworks": []
+    },
+    {
+      "name": "Topaz & Numby",
+      "key": "topaznumby",
+      "page": "Topaz & Numby/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Christmas 2023.png",
+          "title": "Christmas 2023.png (5.8 MB)",
+          "localAsset": "HsrWiki/holiday-art/topaznumby/01-Christmas 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Topaz%20%26%20Numby/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2024 Topaz & Numby.png",
+          "title": "Chinese New Year 2024 Topaz & Numby.png (1.13 MB)",
+          "localAsset": "HsrWiki/holiday-art/topaznumby/02-Chinese New Year 2024 Topaz & Numby.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Topaz%20%26%20Numby/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024_Topaz_%26_Numby.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Trailblazer • Destruction",
+      "key": "trailblazerdestruction",
+      "page": "Trailblazer/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2022.png",
+          "title": "Halloween 2022.png (5.52 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/01-Halloween 2022.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2022.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023 Seele Bronya.png",
+          "title": "Chinese New Year 2023 Seele Bronya.png (778 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/03-Chinese New Year 2023 Seele Bronya.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023_Seele_Bronya.png",
+          "width": 900,
+          "height": 674,
+          "originalWidth": 900,
+          "originalHeight": 674,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/04-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/05-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2024.png",
+          "title": "Halloween 2024.png (6.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/06-Halloween 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Day of the Dead 2024.png",
+          "title": "Day of the Dead 2024.png (850 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/07-Day of the Dead 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Day_of_the_Dead_2024.png",
+          "width": 1600,
+          "height": 899,
+          "originalWidth": 1745,
+          "originalHeight": 981,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/08-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2025.png",
+          "title": "New Year 2025.png (5.75 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/09-New Year 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2025.jpg",
+          "title": "Halloween 2025.jpg (2.49 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/10-Halloween 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/11-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Caelus Stelle.png",
+          "title": "Chinese New Year 2026 Caelus Stelle.png (1.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/12-Chinese New Year 2026 Caelus Stelle.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Caelus_Stelle.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerdestruction/13-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Trailblazer • Elation",
+      "key": "trailblazerelation",
+      "page": "Trailblazer/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2022.png",
+          "title": "Halloween 2022.png (5.52 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/01-Halloween 2022.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2022.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023 Seele Bronya.png",
+          "title": "Chinese New Year 2023 Seele Bronya.png (778 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/03-Chinese New Year 2023 Seele Bronya.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023_Seele_Bronya.png",
+          "width": 900,
+          "height": 674,
+          "originalWidth": 900,
+          "originalHeight": 674,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/04-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/05-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2024.png",
+          "title": "Halloween 2024.png (6.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/06-Halloween 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Day of the Dead 2024.png",
+          "title": "Day of the Dead 2024.png (850 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/07-Day of the Dead 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Day_of_the_Dead_2024.png",
+          "width": 1600,
+          "height": 899,
+          "originalWidth": 1745,
+          "originalHeight": 981,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/08-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2025.png",
+          "title": "New Year 2025.png (5.75 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/09-New Year 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2025.jpg",
+          "title": "Halloween 2025.jpg (2.49 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/10-Halloween 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/11-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Caelus Stelle.png",
+          "title": "Chinese New Year 2026 Caelus Stelle.png (1.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/12-Chinese New Year 2026 Caelus Stelle.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Caelus_Stelle.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerelation/13-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Trailblazer • Harmony",
+      "key": "trailblazerharmony",
+      "page": "Trailblazer/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2022.png",
+          "title": "Halloween 2022.png (5.52 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/01-Halloween 2022.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2022.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023 Seele Bronya.png",
+          "title": "Chinese New Year 2023 Seele Bronya.png (778 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/03-Chinese New Year 2023 Seele Bronya.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023_Seele_Bronya.png",
+          "width": 900,
+          "height": 674,
+          "originalWidth": 900,
+          "originalHeight": 674,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/04-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/05-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2024.png",
+          "title": "Halloween 2024.png (6.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/06-Halloween 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Day of the Dead 2024.png",
+          "title": "Day of the Dead 2024.png (850 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/07-Day of the Dead 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Day_of_the_Dead_2024.png",
+          "width": 1600,
+          "height": 899,
+          "originalWidth": 1745,
+          "originalHeight": 981,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/08-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2025.png",
+          "title": "New Year 2025.png (5.75 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/09-New Year 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2025.jpg",
+          "title": "Halloween 2025.jpg (2.49 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/10-Halloween 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/11-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Caelus Stelle.png",
+          "title": "Chinese New Year 2026 Caelus Stelle.png (1.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/12-Chinese New Year 2026 Caelus Stelle.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Caelus_Stelle.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerharmony/13-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Trailblazer • Preservation",
+      "key": "trailblazerpreservation",
+      "page": "Trailblazer/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2022.png",
+          "title": "Halloween 2022.png (5.52 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/01-Halloween 2022.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2022.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023 Seele Bronya.png",
+          "title": "Chinese New Year 2023 Seele Bronya.png (778 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/03-Chinese New Year 2023 Seele Bronya.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023_Seele_Bronya.png",
+          "width": 900,
+          "height": 674,
+          "originalWidth": 900,
+          "originalHeight": 674,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/04-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/05-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2024.png",
+          "title": "Halloween 2024.png (6.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/06-Halloween 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Day of the Dead 2024.png",
+          "title": "Day of the Dead 2024.png (850 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/07-Day of the Dead 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Day_of_the_Dead_2024.png",
+          "width": 1600,
+          "height": 899,
+          "originalWidth": 1745,
+          "originalHeight": 981,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/08-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2025.png",
+          "title": "New Year 2025.png (5.75 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/09-New Year 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2025.jpg",
+          "title": "Halloween 2025.jpg (2.49 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/10-Halloween 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/11-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Caelus Stelle.png",
+          "title": "Chinese New Year 2026 Caelus Stelle.png (1.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/12-Chinese New Year 2026 Caelus Stelle.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Caelus_Stelle.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerpreservation/13-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Trailblazer • Remembrance",
+      "key": "trailblazerremembrance",
+      "page": "Trailblazer/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Halloween 2022.png",
+          "title": "Halloween 2022.png (5.52 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/01-Halloween 2022.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2022.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2844,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023 Seele Bronya.png",
+          "title": "Chinese New Year 2023 Seele Bronya.png (778 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/03-Chinese New Year 2023 Seele Bronya.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023_Seele_Bronya.png",
+          "width": 900,
+          "height": 674,
+          "originalWidth": 900,
+          "originalHeight": 674,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2023.png",
+          "title": "Halloween 2023.png (3.19 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/04-Halloween 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1800,
+          "originalHeight": 1013,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/05-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2024.png",
+          "title": "Halloween 2024.png (6.06 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/06-Halloween 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Day of the Dead 2024.png",
+          "title": "Day of the Dead 2024.png (850 KB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/07-Day of the Dead 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Day_of_the_Dead_2024.png",
+          "width": 1600,
+          "height": 899,
+          "originalWidth": 1745,
+          "originalHeight": 981,
+          "mime": "image/png"
+        },
+        {
+          "file": "Christmas 2024.png",
+          "title": "Christmas 2024.png (6.12 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/08-Christmas 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Christmas_2024.png",
+          "width": 1600,
+          "height": 901,
+          "originalWidth": 2560,
+          "originalHeight": 1441,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2025.png",
+          "title": "New Year 2025.png (5.75 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/09-New Year 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2025.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Halloween 2025.jpg",
+          "title": "Halloween 2025.jpg (2.49 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/10-Halloween 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Halloween_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4000,
+          "originalHeight": 2250,
+          "mime": "image/jpeg"
+        },
+        {
+          "file": "New Year 2026.png",
+          "title": "New Year 2026.png (3.56 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/11-New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Caelus Stelle.png",
+          "title": "Chinese New Year 2026 Caelus Stelle.png (1.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/12-Chinese New Year 2026 Caelus Stelle.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Caelus_Stelle.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/trailblazerremembrance/13-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Trailblazer/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Tribbie",
+      "key": "tribbie",
+      "page": "Tribbie/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2025 Tribbie.png",
+          "title": "Chinese New Year 2025 Tribbie.png (3.25 MB)",
+          "localAsset": "HsrWiki/holiday-art/tribbie/01-Chinese New Year 2025 Tribbie.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Tribbie/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025_Tribbie.png",
+          "width": 1200,
+          "height": 1600,
+          "originalWidth": 1200,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Children's Day 2025.png",
+          "title": "Children's Day 2025.png (3.22 MB)",
+          "localAsset": "HsrWiki/holiday-art/tribbie/02-Children's Day 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Tribbie/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Children%27s_Day_2025.png",
+          "width": 1600,
+          "height": 1187,
+          "originalWidth": 1920,
+          "originalHeight": 1424,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Welt",
+      "key": "welt",
+      "page": "Welt/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "New Year 2023.png",
+          "title": "New Year 2023.png (5.78 MB)",
+          "localAsset": "HsrWiki/holiday-art/welt/01-New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Welt/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2023.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2560,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2023.png",
+          "title": "Chinese New Year 2023.png (784 KB)",
+          "localAsset": "HsrWiki/holiday-art/welt/02-Chinese New Year 2023.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Welt/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2023.png",
+          "width": 900,
+          "height": 514,
+          "originalWidth": 900,
+          "originalHeight": 514,
+          "mime": "image/png"
+        },
+        {
+          "file": "New Year 2024.png",
+          "title": "New Year 2024.png (9.85 MB)",
+          "localAsset": "HsrWiki/holiday-art/welt/03-New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Welt/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 3840,
+          "originalHeight": 2160,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Ashveil Welt.png",
+          "title": "Chinese New Year 2026 Ashveil Welt.png (1.37 MB)",
+          "localAsset": "HsrWiki/holiday-art/welt/04-Chinese New Year 2026 Ashveil Welt.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Welt/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Ashveil_Welt.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/welt/05-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Welt/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Xueyi",
+      "key": "xueyi",
+      "page": "Xueyi/Media",
+      "status": "fallback",
+      "artworks": []
+    },
+    {
+      "name": "Yanqing",
+      "key": "yanqing",
+      "page": "Yanqing/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2024.png",
+          "title": "Chinese New Year 2024.png (3.32 MB)",
+          "localAsset": "HsrWiki/holiday-art/yanqing/01-Chinese New Year 2024.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yanqing/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 2048,
+          "originalHeight": 1152,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2024 Yanqing.png",
+          "title": "Chinese New Year 2024 Yanqing.png (1.13 MB)",
+          "localAsset": "HsrWiki/holiday-art/yanqing/02-Chinese New Year 2024 Yanqing.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yanqing/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2024_Yanqing.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Lantern Festival 2025.jpg",
+          "title": "Lantern Festival 2025.jpg (1.34 MB)",
+          "localAsset": "HsrWiki/holiday-art/yanqing/03-Lantern Festival 2025.jpg",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yanqing/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2025.jpg",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 4096,
+          "originalHeight": 2305,
+          "mime": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Yao Guang",
+      "key": "yaoguang",
+      "page": "Yao Guang/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2026.png",
+          "title": "Chinese New Year 2026.png (3.55 MB)",
+          "localAsset": "HsrWiki/holiday-art/yaoguang/01-Chinese New Year 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yao%20Guang/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026.png",
+          "width": 1600,
+          "height": 900,
+          "originalWidth": 1920,
+          "originalHeight": 1080,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 Yao Guang.png",
+          "title": "Chinese New Year 2026 Yao Guang.png (1.47 MB)",
+          "localAsset": "HsrWiki/holiday-art/yaoguang/02-Chinese New Year 2026 Yao Guang.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yao%20Guang/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_Yao_Guang.png",
+          "width": 900,
+          "height": 1200,
+          "originalWidth": 900,
+          "originalHeight": 1200,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chinese New Year 2026 2.png",
+          "title": "Chinese New Year 2026 2.png (6.44 MB)",
+          "localAsset": "HsrWiki/holiday-art/yaoguang/03-Chinese New Year 2026 2.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yao%20Guang/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2026_2.png",
+          "width": 1600,
+          "height": 1067,
+          "originalWidth": 2160,
+          "originalHeight": 1440,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Yukong",
+      "key": "yukong",
+      "page": "Yukong/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Lantern Festival 2026.png",
+          "title": "Lantern Festival 2026.png (2.35 MB)",
+          "localAsset": "HsrWiki/holiday-art/yukong/01-Lantern Festival 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yukong/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Lantern_Festival_2026.png",
+          "width": 1600,
+          "height": 913,
+          "originalWidth": 1920,
+          "originalHeight": 1096,
+          "mime": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Yunli",
+      "key": "yunli",
+      "page": "Yunli/Media",
+      "status": "ok",
+      "artworks": [
+        {
+          "file": "Chinese New Year 2025 Yunli.png",
+          "title": "Chinese New Year 2025 Yunli.png (3.17 MB)",
+          "localAsset": "HsrWiki/holiday-art/yunli/01-Chinese New Year 2025 Yunli.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yunli/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Chinese_New_Year_2025_Yunli.png",
+          "width": 1200,
+          "height": 1600,
+          "originalWidth": 1200,
+          "originalHeight": 1600,
+          "mime": "image/png"
+        },
+        {
+          "file": "Dragon Boat Festival 2025.png",
+          "title": "Dragon Boat Festival 2025.png (1.79 MB)",
+          "localAsset": "HsrWiki/holiday-art/yunli/02-Dragon Boat Festival 2025.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Yunli/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Dragon_Boat_Festival_2025.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
+          "mime": "image/png"
+        }
+      ]
+    }
+  ]
+}

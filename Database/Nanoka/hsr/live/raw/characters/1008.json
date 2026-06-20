@@ -1,0 +1,2864 @@
+{
+  "name": "Arlan",
+  "desc": "The head of Herta Space Station's Security Department.\\nThis quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.",
+  "chara_info": {
+    "camp": "Herta Space Station",
+    "va": {
+      "chinese": "陶典",
+      "japanese": "白石涼子",
+      "korean": "김율",
+      "english": "Dani Chambers"
+    },
+    "stories": {
+      "0": "The inarticulate head of the Herta space station's Security Department.\\nWhile scientific research is beyond his understanding, Arlan is willing to risk his life to protect the staff who value research so very much. He is used to pain and wears his scars like badges of honor.\\nOnly when holding Peppy does the boy let down his guard and show a rare smile.",
+      "1": "How is Arlan's work in the Security Department?\\n— Brother Arlan is the beacon that guides the Security Department, the core support for everyone's battles! Without him, the space station would fall to pieces in a day. Without him, people's lives would be ruined in ten days. Without him, the station would be hellish in just one hundred days!\\n— But he plays holodisc with Peppy during work hours.\\n— Because he's finished all daily security tasks ahead of schedule! His mere presence is an inspiration to us all.\\n— But he plays holodisc with Peppy during work hours.\\n— How do you know that playing holodisc with Peppy isn't actually part of his job description...\\n\\n<i>\"You're not allowed to play with your phone while out on patrol. Give it to me.\"\\n\"No, brother Arlan! People are talking smack about you in the group chat! Don't you care?\"\\n\"Nope. Too busy.\"\\n\"Huh, have you got an urgent mission? Let me go with you. What happened?\"\\n\"I'm getting Peppy to do rehab through playing holodisc.\"</i>",
+      "2": "There are countless strange and valuable things around Miss Asta's house, but it's the dog at death's door that attracts the most attention.\\n\\nWhat's more, her forlorn cries only increase in volume as her parents attempt to comfort her — telling her that this dog she picked up won't live for very long, and they are better off buying her another one.\\n\\nThat filthy pup just lies there without the strength to even lift up its head and look around the people surround it. The crying, arguing, and the silence... None of this has anything to do with it.\\n\\nAt one point, he thinks it had already stopped breathing, so he bends down to check its nose. Just then, the dog suddenly licks his fingers — which is about the farthest distance it can stretch.\\n\\n— Its tongue is wet.\\n\\n<i>\"Wanna play holodisc?\"</i>\\n\\nIts lifeless eyes suddenly light up.",
+      "3": "He stops pacing in the corridor and gazes out of the window into the tranquility of deep space, the dark circles around his eyes reflecting back at him.\\n\\nAnother pair of bloodshot eyes appears at the window. Their owner looks more relaxed than she usually does before the researchers, and absentmindedly lets out a huge yawn.\\n\\n<i>\"You're up late. Not going to bed?\"\\n\"I'm feeling anxious, so I'm just out for a patrol...\"\\n\"I just updated the firmware for the defense shield, and security systems are all operating smoothly.\"\\n\"Maybe I'm overthinking things, but...\"\\n\"I understand. You're the head of security, and I trust your instincts.\"</i>\\n\\nThe space station remains brightly lit and operates without a stop. They each return to their respective posts.\\n\\nThey both know that regardless of the protection of Madam Herta's fame, the defensive measures around the space station, and the round-the-clock vigilance of the Security Department — if a disaster were to occur...\\n\\nIt would only take seconds.",
+      "4": "<i>\"Everyone's evacuated. Arlan. Hurry up!\"\\n\"There may still be survivors inside.\"\\n\"No... There aren't any more life signs in there.\"</i>\\n\\nHe thought he could trust Asta until the moment when countless Antimatter Legion pawns pour towards him like a tsunami. The signal from the watcher zone is faint. Asta won't be able to see this situation.\\n\\nHe is now standing, alone, in the elevator. He has to make a decision, even if he has to disobey Asta's orders — No matter the cost, he has to block access to the elevator to save everyone. He cannot allow these monsters to get to the master control zone.\\n\\n<i>\"Sorry, Miss Asta...\"</i>\\n\\nThe Antimatter Legion strikes him down from behind before he can explain himself. He falls, and his remote communications disconnects.\\n\\nHe had never hesitated, whether working in Miss Asta's home or after becoming Herta Space Station's head of Security Department. He had always taken for granted that, since Miss Asta decided to head in one direction, he has to follow her.\\n\\nArlan raises his head with great difficulty, and the monsters move closer to him. He had never disobeyed an order from Miss Asta before. This is the first time.\\n\\n<i>\"Hopefully it won't be the last time.\"</i>\\n\\nThis thought pops up in his head.\\n\\nPropping himself up with his greatsword, he slowly and firmly stands up."
+    },
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "Hello, {NICKNAME}. I'm Arlan, I head up the Security Department on Herta Space Station. I'll be in charge of your safety during your time here.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Seed Isle's latest flavors of dried earthworm hit the shelves today — we should head over before the queue starts. The early bird catches the... anyway.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "You should have some mixed vegetable juice before bed — it helps you sleep. Well, I'm on night duty tonight. See you tomorrow.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Looking for Peppy",
+        "voice_m": "We've held the Space Station Peppy-Finding Contest nine times so far, and I've... I've won it nine times in a row.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "Chat: On Patrol",
+        "voice_m": "I try to be inconspicuous when I'm on patrol. That way, I can avoid disturbing the researchers while they work and observe their utmost concentration.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Hobbies",
+        "voice_m": "You should keep your sword sharp at all times.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Annoyances",
+        "voice_m": "Oh, man! The phone case shipping location is too far from the space station — you have to buy <unbreak>5000</unbreak> units for them to deliver... Wait, please don't tell Lady Asta that.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Something to Share",
+        "voice_m": "There are some sword fragments housed here on the space station, but I can't find them in the pictographic index... They must be pretty special.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Knowledge",
+        "voice_m": "I heard the researchers say that there are some curios that actively requested to come to the space station.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "About Asta",
+        "voice_m": "*sigh* ...I don't know why, but it seems like I manage to annoy Lady Asta fairly regularly.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "About Herta",
+        "voice_m": "I'm different from the researchers. I'm not what you'd call a \"follower\" of Madam Herta. But she still lets me work here.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About The Herta",
+        "voice_m": "Madam Herta is a legend on the space station. Even I can tell you plenty of stories about her.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "I've found a home to protect.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "Character Ascension",
+        "voice_m": "I can't afford to be complacent.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "Max Level Reached",
+        "voice_m": "The fruits of my training. I'll keep it up.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "Trace Activation",
+        "voice_m": "You can learn new things by going back to the basics.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Combat is an unavoidable risk, but be careful.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "Added to Team With Asta",
+        "voice_m": "You should leave the fighting to me, Lady Asta.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "Added to Team With Herta",
+        "voice_m": "Madam Herta! A—Awaiting your orders!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "Added to Team With The Herta",
+        "voice_m": "You are...? My apologies! I won't slow you down!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Your number is up.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Nothing can stop me.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "Fight to win.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Haven't learned your lesson?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "We have to go on the offensive.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Skill 1",
+        "voice_m": "As you wish.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Skill 2",
+        "voice_m": "Be silent.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Hmm?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "Barely felt it.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Is that all you got?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Let me pay you back — tenfold!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Downed",
+        "voice_m": "I can't protect you anymore...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Return to Battle",
+        "voice_m": "You can't fight from the grave.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Health Recovery",
+        "voice_m": "I'm fine... thank you.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Technique",
+        "voice_m": "You're in the way.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Battle Won",
+        "voice_m": "Even a little strength comes in useful.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "You keep it.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "I think I've seen these in our inventory...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Did we get it all?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "That'll do it.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Just like my days at the Security Department.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Look up ahead.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Returning to Town",
+        "voice_m": "If there's no danger here, then I'm needed elsewhere.",
+        "is_battle_voice": true
+      }
+    ]
+  },
+  "rarity": "CombatPowerAvatarRarityType4",
+  "avatar_vo_tag": "arlan",
+  "sp_need": 110,
+  "base_type": "Warrior",
+  "damage_type": "Thunder",
+  "ranks": {
+    "1": {
+      "id": 100801,
+      "name": "To the Bitter End",
+      "desc": "When HP percentage is lower than or equal to <unbreak>50%</unbreak> of Max HP, increases DMG dealt by Skill by <unbreak>#1[i]%</unbreak>.",
+      "icon": "SkillIcon_1008_Rank1.png",
+      "param_list": [
+        0.1
+      ],
+      "extra": {}
+    },
+    "2": {
+      "id": 100802,
+      "name": "Breaking Free",
+      "desc": "Using Skill or Ultimate removes 1 <u>debuff</u> from this unit.",
+      "icon": "SkillIcon_1008_Rank2.png",
+      "param_list": [],
+      "extra": {
+        "10000010": {
+          "name": "Debuff",
+          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "param": []
+        }
+      }
+    },
+    "3": {
+      "id": 100803,
+      "name": "Power Through",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1008_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 100804,
+      "name": "Turn the Tables",
+      "desc": "When struck by a killing blow after entering battle, instead of becoming <u>knocked down</u>, Arlan immediately restores his HP to <unbreak>#1[i]%</unbreak> of his Max HP. This effect is automatically removed after it is triggered once or after <unbreak>#2[i]</unbreak> turn(s) have elapsed.",
+      "icon": "SkillIcon_1008_Rank4.png",
+      "param_list": [
+        0.25,
+        2
+      ],
+      "extra": {
+        "10000007": {
+          "name": "Downed State",
+          "desc": "An ally will be incapacitated once their HP is reduced to 0.",
+          "param": []
+        }
+      }
+    },
+    "5": {
+      "id": 100805,
+      "name": "Hammer and Tongs",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1008_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 100806,
+      "name": "Self-Sacrifice",
+      "desc": "When the current HP percentage drops to <unbreak>50%</unbreak> or below, Ultimate deals <unbreak>#1[i]%</unbreak> more DMG, and the DMG multiplier for adjacent targets is raised to the same level as that for the primary target.",
+      "icon": "SkillIcon_1008_Rank6.png",
+      "param_list": [
+        0.2
+      ],
+      "extra": {}
+    }
+  },
+  "skills": {
+    "100801": {
+      "id": 100801,
+      "name": "Lightning Rush",
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Arlan's ATK to one designated enemy.",
+      "simple_desc": "Deals minor Lightning DMG to one enemy.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "sp_base": 20,
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": 10,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.6
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.7
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.8
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.9
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.1
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.4
+          ]
+        }
+      }
+    },
+    "100802": {
+      "id": 100802,
+      "name": "Shackle Breaker",
+      "desc": "Consumes Arlan's HP equal to <unbreak>#1[i]%</unbreak> of his Max HP to deal Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Arlan's ATK to one designated enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill.",
+      "simple_desc": "Consumes a portion of HP to deal Lightning DMG to one enemy.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "SingleAttack",
+      "sp_base": 30,
+      "show_stance_list": [
+        60,
+        0,
+        0
+      ],
+      "skill_combo_value_delta": 20,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.15,
+            1.2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.15,
+            1.32
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.15,
+            1.44
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.15,
+            1.56
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.15,
+            1.68
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.15,
+            1.8
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.15,
+            1.95
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.15,
+            2.1
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.15,
+            2.25
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.15,
+            2.4
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.15,
+            2.52
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.15,
+            2.64
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.15,
+            2.76
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.15,
+            2.88
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.15,
+            3
+          ]
+        }
+      }
+    },
+    "100803": {
+      "id": 100803,
+      "name": "Frenzied Punishment",
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Arlan's ATK to one designated enemy and Lightning DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Arlan's ATK to enemies adjacent to it.",
+      "simple_desc": "Deals massive Lightning DMG to one enemy and Lightning DMG to enemies adjacent to it.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "Blast",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        60,
+        0,
+        60
+      ],
+      "skill_combo_value_delta": 30,
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1.92,
+            0.96
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            2.048,
+            1.024
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            2.176,
+            1.088
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            2.304,
+            1.152
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            2.432,
+            1.216
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            2.56,
+            1.28
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            2.72,
+            1.36
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            2.88,
+            1.44
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            3.04,
+            1.52
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            3.2,
+            1.6
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            3.328,
+            1.664
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            3.456,
+            1.728
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            3.584,
+            1.792
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            3.712,
+            1.856
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            3.84,
+            1.92
+          ]
+        }
+      }
+    },
+    "100804": {
+      "id": 100804,
+      "name": "Pain and Anger",
+      "desc": "Based on Arlan's current missing HP percentage, gains DMG bonus, up to a maximum increase of <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> DMG dealt by Arlan.",
+      "simple_desc": "Gain DMG bonus <color=#f29e38ff>based on</color> <color=#f29e38ff>currently missing HP percentage</color>.",
+      "type_name": "Talent",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.36
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.396
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.432
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.468
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.504
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.54
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.585
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.63
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.675
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.72
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.756
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.792
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.828
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.864
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.9
+          ]
+        }
+      }
+    },
+    "100806": {
+      "id": 100806,
+      "name": "Attack",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "100807": {
+      "id": 100807,
+      "name": "Swift Harvest",
+      "desc": "Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to <unbreak>#1[i]%</unbreak> of Arlan's ATK to all enemies.",
+      "simple_desc": "Attacks the enemy. After entering battle, deals minor Lightning DMG to all enemies.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        60,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.8
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1008_Normal.png",
+        "level_up_skill_id": [
+          100801
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1008001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Normal.png",
+        "level_up_skill_id": [
+          100801
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110111,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1008001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Normal.png",
+        "level_up_skill_id": [
+          100801
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1008001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Normal.png",
+        "level_up_skill_id": [
+          100801
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1008001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Normal.png",
+        "level_up_skill_id": [
+          100801
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 36000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1008001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Normal.png",
+        "level_up_skill_id": [
+          100801
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 128000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1008001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110111,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 36000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 64000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 128000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_BP.png",
+        "level_up_skill_id": [
+          100802
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 11,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110111,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 36000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 64000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 128000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Ultra.png",
+        "level_up_skill_id": [
+          100803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 11,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110111,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 36000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 64000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 128000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_Passive.png",
+        "level_up_skill_id": [
+          100804
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 11,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1008004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1008_Maze.png",
+        "level_up_skill_id": [
+          100807
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110111,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.3,
+          0.2
+        ],
+        "point_id": 1008101,
+        "point_name": "Revival",
+        "point_desc": "If the current HP percentage is <unbreak>#1[i]%</unbreak> or lower when defeating an enemy, immediately restores HP equal to <unbreak>#2[i]%</unbreak> of Max HP.",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.5
+        ],
+        "point_id": 1008102,
+        "point_name": "Endurance",
+        "point_desc": "The chance to resist DoT Debuffs increases by <unbreak>#1[i]%</unbreak>.",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1008_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 128000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110501,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.5
+        ],
+        "point_id": 1008103,
+        "point_name": "Repel",
+        "point_desc": "Upon entering battle, if Arlan's HP percentage is less than or equal to <unbreak>#1[i]%</unbreak>, he can nullify all DMG received except for DoTs until he is attacked.",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008201,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.04,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconStatusResistance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110111,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008202,
+        "point_name": "Effect RES Boost",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [
+          1008101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "StatusResistanceBase",
+            "value": 0.04,
+            "name": "Effect RES"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008203,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1008202
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.04,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconMaxHP.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008204,
+        "point_name": "HP Boost",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [
+          1008203
+        ],
+        "status_add_list": [
+          {
+            "property_type": "HPAddedRatio",
+            "value": 0.04,
+            "name": "HP"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110112,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008205,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1008102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.06,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconStatusResistance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 36000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008206,
+        "point_name": "Effect RES Boost",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1008205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "StatusResistanceBase",
+            "value": 0.06,
+            "name": "Effect RES"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 36000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008207,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [
+          1008206
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.06,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconMaxHP.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 128000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008208,
+        "point_name": "HP Boost",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1008103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "HPAddedRatio",
+            "value": 0.06,
+            "name": "HP"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconStatusResistance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 128000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008209,
+        "point_name": "Effect RES Boost",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1008208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "StatusResistanceBase",
+            "value": 0.08,
+            "name": "Effect RES"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 128000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110113,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111003,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1008210,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1008208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.08,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {},
+  "unique": {},
+  "stats": {
+    "0": {
+      "attack_base": 81.6,
+      "attack_add": 4.08,
+      "defence_base": 45,
+      "defence_add": 2.25,
+      "hp_base": 163.2,
+      "hp_add": 8.16,
+      "speed_base": 102,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 3200,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111001,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 114.24,
+      "attack_add": 4.08,
+      "defence_base": 63,
+      "defence_add": 2.25,
+      "hp_base": 228.48,
+      "hp_add": 8.16,
+      "speed_base": 102,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 6400,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111001,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 146.88,
+      "attack_add": 4.08,
+      "defence_base": 81,
+      "defence_add": 2.25,
+      "hp_base": 293.76,
+      "hp_add": 8.16,
+      "speed_base": 102,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 12800,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111002,
+          "item_num": 5,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110404,
+          "item_num": 2,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 179.52,
+      "attack_add": 4.08,
+      "defence_base": 99,
+      "defence_add": 2.25,
+      "hp_base": 359.04,
+      "hp_add": 8.16,
+      "speed_base": 102,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 32000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111002,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110404,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 212.16,
+      "attack_add": 4.08,
+      "defence_base": 117,
+      "defence_add": 2.25,
+      "hp_base": 424.32,
+      "hp_add": 8.16,
+      "speed_base": 102,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 64000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111003,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110404,
+          "item_num": 15,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 244.8,
+      "attack_add": 4.08,
+      "defence_base": 135,
+      "defence_add": 2.25,
+      "hp_base": 489.6,
+      "hp_add": 8.16,
+      "speed_base": 102,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 128000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111003,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110404,
+          "item_num": 28,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 277.44,
+      "attack_add": 4.08,
+      "defence_base": 153,
+      "defence_add": 2.25,
+      "hp_base": 554.88,
+      "hp_add": 8.16,
+      "speed_base": 102,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1008,
+    "set4_id_list": [
+      109,
+      122,
+      117
+    ],
+    "set2_id_list": [
+      309,
+      301,
+      305
+    ],
+    "property_list3": [
+      "CriticalChanceBase",
+      "CriticalDamageBase"
+    ],
+    "property_list4": [
+      "SpeedDelta"
+    ],
+    "property_list5": [
+      "ThunderAddedRatio",
+      "AttackAddedRatio"
+    ],
+    "property_list6": [
+      "AttackAddedRatio"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "CriticalChanceBase"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "SpeedDelta"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "ThunderAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "AttackAddedRatio"
+      }
+    ],
+    "sub_affix_property_list": [
+      "CriticalChanceBase",
+      "CriticalDamageBase",
+      "AttackAddedRatio",
+      "SpeedDelta"
+    ],
+    "score_rank_list": [
+      346,
+      287
+    ]
+  },
+  "lightcones": [
+    21012,
+    24000
+  ],
+  "teams": [
+    {
+      "avatar_id": 1008,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1313,
+        1403,
+        1409
+      ],
+      "backup_list1": [
+        1403,
+        8007
+      ],
+      "backup_list2": [
+        1309,
+        8007,
+        1306
+      ],
+      "backup_list3": [
+        1222,
+        1217,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

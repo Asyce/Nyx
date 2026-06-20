@@ -1,0 +1,25 @@
+{
+  "name": "nyxarium-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:data": "node ./tools/generate-site-data.mjs",
+    "generate:weapons": "node ./tools/gen-weapons-meta.mjs",
+    "scrape:gcg": "node ./tools/scrape-nanoka-gcg.mjs",
+    "scrape:gi-birthdays": "node ./tools/scrape-genshin-birthday-art.mjs",
+    "scrape:hsr-holidays": "node ./tools/scrape-hsr-holiday-art.mjs",
+    "scrape:hsr-signatures": "node ./tools/scrape-hsr-signature-lightcones.mjs",
+    "build": "npm run generate:data && npm run generate:weapons && node ./tools/build-site.mjs",
+    "serve": "python -m http.server 5173 --bind 127.0.0.1 --directory .."
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

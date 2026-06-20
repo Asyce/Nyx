@@ -1,0 +1,1351 @@
+// ============================================================
+// Nyxarium — Character Materials (Art of Khemia)
+// Data-driven from window.CM_CFG (cm-data.jsx, loaded first).
+// Per game: Roster + a material tab (Talents/Traces/Chips/Skills)
+// + a boss tab (Trounce Domain / Echo of War / Notorious Hunt /
+// Weekly Challenge). Search, per-game filter panel, owned toggle,
+// Genshin day-of-week selector. Click a unit -> material popup.
+// ============================================================
+
+const CM_GAME_KEYS = ['gi', 'hsr', 'zzz', 'wuwa', 'ae'];
+const CM_DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+const CM_GLYPHS = ['\u25C8', '\u2726', '\u2756', '\u25C9', '\u2736', '\u2B22', '\u273F', '\u265B'];
+const CM_GI_PRESETS = [
+  { key:'6-6-6', label:'6/6/6', targets:[6, 6, 6] },
+  { key:'6-6-9', label:'6/6/9', targets:[6, 6, 9] },
+  { key:'6-9-9', label:'6/9/9', targets:[6, 9, 9] },
+  { key:'9-9-9', label:'9/9/9', targets:[9, 9, 9] },
+  { key:'9-10-10', label:'9/10/10', targets:[9, 10, 10] },
+  { key:'10-10-10', label:'10/10/10', targets:[10, 10, 10] },
+];
+const CM_GI_TALENT_LABELS = ['Normal Attack', 'Elemental Skill', 'Elemental Burst'];
+const CM_GI_TALENT_SHORT = ['NA', 'Skill', 'Burst'];
+
+const NYX_SEARCH_ALIASES = {
+  dante:['Dan Heng \u2022 Permansor Terrae', 'Dan Heng Permansor Terrae'],
+  daniel:['Dan Heng \u2022 Imbibitor Lunae', 'Dan Heng Imbibitor Lunae'],
+  elysia:['Cyrene'],
+  dromas:['Anaxa'],
+  march:['Evernight'],
+  dot:['Kafka', 'Black Swan', 'Hysilens'],
+  yae:['Evanescia'],
+  wise:['Pyrois'],
+  belle:['Pyrois'],
+  phaethon:['Pyrois'],
+  tb:['Trailblazer'],
+  stelle:['Trailblazer'],
+  caelus:['Trailblazer'],
+  aether:['Traveler', 'Manekin'],
+  lumine:['Traveler', 'Manekin'],
+  sparkle:['Sparxie'],
+  fate:['Archer', 'Saber', 'Rin', 'Gilgamesh'],
+  kevin:['Phainon'],
+  kebin:['Phainon'],
+  ipc:['Topaz', 'Aventurine', 'Yao Guang', 'Jade', 'Pearl', 'Kuchiba'],
+  'galaxy rangers':['Ashveil', 'Rappa', 'Boothill', 'Acheron'],
+  aha:['Sampo'],
+  jq:['Jiaoqiu'],
+  pichu:['Jiaoqiu'],
+  bronya:['Silver Wolf'],
+  himeko:['Argenti'],
+};
+
+function nyxSearchText(value){
+  return String(value || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+}
+
+function nyxMatchesSearch(name, rawName, q, extra){
+  const query = nyxSearchText(q).trim();
+  if (!query) return true;
+  const hay = nyxSearchText([name, rawName, extra].filter(Boolean).join(' '));
+  if (hay.includes(query)) return true;
+  for (const [alias, targets] of Object.entries(NYX_SEARCH_ALIASES)) {
+    const key = nyxSearchText(alias);
+    if (!(key.startsWith(query) || query.startsWith(key) || key.includes(query))) continue;
+    if ((targets || []).some((target) => hay.includes(nyxSearchText(target)))) return true;
+  }
+  return false;
+}
+
+Object.assign(window, { NYX_SEARCH_ALIASES, nyxMatchesSearch });
+
+// per-game material schedule buckets (drives the click-through popup)
+const CM_MATS = {
+  gi:   { gem:'Brilliant Gemstone', boss:'Boss Trophy', specialty:'Local Specialty',
+    mob:['Common Drop','Refined Drop','Elite Drop'], book:['Teaching','Guide','Philosophies'],
+    weekly:'Weekly Boss Trophy', crown:'Crown of Insight' },
+  hsr:  { gem:'Ascension Gem', boss:'Echo of War Drop', specialty:'Trace Material',
+    mob:['Common Trace','Refined Trace','Elite Trace'], book:['Tome','Records','Doctrines'],
+    weekly:'Echo of War Trophy', crown:'Tracks of Destiny' },
+  zzz:  { gem:'Certification Seal', boss:'Notorious Hunt Drop', specialty:'Skill Chip',
+    mob:['Basic Chip','Advanced Chip','Specialized Chip'], book:['Hamster Cage Pass','Higher Dimensional Data','Hamster Core'],
+    weekly:'Notorious Trophy', crown:'Ether Plating' },
+  wuwa: { gem:'Whisperin Core', boss:'Tacet Core', specialty:'Forgery Material',
+    mob:['LF Whisperin Core','MF Whisperin Core','HF Whisperin Core'], book:['Cadence Seed','Cadence Bud','Cadence Blossom'],
+    weekly:'Weekly Boss Drop', crown:'Crown of Conquest' },
+  ae:   { gem:'Origin Crystal', boss:'Operation Trophy', specialty:'Field Sample',
+    mob:['Salvaged Part','Refined Part','Precision Part'], book:['Combat Manual','Tactical Files','Strategic Archive'],
+    weekly:'Operation Boss Trophy', crown:'Endmind Core' },
+};
+
+function cmReqSort(a, b){
+  const ac = a?.kind === 'currency';
+  const bc = b?.kind === 'currency';
+  if (ac !== bc) return ac ? -1 : 1;
+  const ai = Number.parseInt(a?.id, 10);
+  const bi = Number.parseInt(b?.id, 10);
+  if (Number.isFinite(ai) && Number.isFinite(bi) && ai !== bi) return ai - bi;
+  const rank = { gem:1, weapon:2, boss:3, specialty:4, mob:5, book:6, weekly:7, crown:8 };
+  const ar = Object.prototype.hasOwnProperty.call(rank, a?.kind) ? rank[a.kind] : 9;
+  const br = Object.prototype.hasOwnProperty.call(rank, b?.kind) ? rank[b.kind] : 9;
+  return ar - br || String(a?.name || '').localeCompare(String(b?.name || ''));
+}
+
+function cmRarityValue(value, fallback = 1){
+  const n = Number(value);
+  if (Number.isFinite(n) && n >= 0) return n;
+  return { S:5, A:4, B:3, Normal:1, NotNormal:2, Rare:3, VeryRare:4, SuperRare:5 }[String(value || '')] || fallback;
+}
+
+function cmMergeMat(map, mat){
+  if (!mat || !mat.name) return;
+  const key = mat.id ? 'id:' + mat.id : 'name:' + mat.name.toLowerCase();
+  const cur = map.get(key) || { ...mat, qty:0 };
+  cur.qty += Number(mat.qty || 0);
+  cur.rar = Math.max(cmRarityValue(cur.rar), cmRarityValue(mat.rar));
+  if (!cur.icon && mat.icon) cur.icon = mat.icon;
+  if (!cur.sprite && mat.sprite) cur.sprite = mat.sprite;
+  if (!cur.source && mat.source) cur.source = mat.source;
+  if (!cur.sources && mat.sources) cur.sources = mat.sources;
+  if (Array.isArray(mat.sourceDetails) && mat.sourceDetails.length) {
+    const next = [...(cur.sourceDetails || [])];
+    mat.sourceDetails.forEach((detail) => {
+      const key = String(detail?.name || '').toLowerCase();
+      if (key && !next.some((row) => String(row?.name || '').toLowerCase() === key)) next.push(detail);
+    });
+    cur.sourceDetails = next;
+  }
+  map.set(key, cur);
+}
+
+function cmTalentForTargets(ch, targets){
+  const groups = ch?.req?.talentStages || [];
+  const by = new Map();
+  let cost = 0;
+  groups.forEach((stages, i) => {
+    const target = Math.max(1, Math.min(10, Number(targets[i] || targets[targets.length - 1] || 10)));
+    const limit = Math.max(0, Math.min(stages.length, target - 1));
+    for (let j = 0; j < limit; j += 1){
+      const stage = stages[j];
+      cost += Number(stage?.cost || 0);
+      (stage?.items || []).forEach((mat) => cmMergeMat(by, mat));
+    }
+  });
+  return { items:[...by.values()].sort(cmReqSort), cost };
+}
+
+function cmRequirements(gameKey, ch, opts){
+  if (ch && ch.req) {
+    const targeted = gameKey === 'gi' && opts?.targets && ch.req.talentStages?.length
+      ? cmTalentForTargets(ch, opts.targets)
+      : null;
+    const ascCost = Number(ch.req.ascCost || 0);
+    const weaponCost = Number(ch.req.weapon?.cost || 0);
+    const talentCost = targeted
+      ? Number(targeted.cost || 0)
+      : Number(ch.req.talentCost || Math.max(0, Number(ch.req.currency || 0) - ascCost - weaponCost));
+    return {
+      ascension: ch.req.ascension || [],
+      talents: targeted ? targeted.items : (ch.req.talents || []),
+      weapon: ch.req.weapon || null,
+      ascCost,
+      talentCost,
+      weaponCost,
+      currency: ascCost + talentCost + weaponCost,
+    };
+  }
+  const M = CM_MATS[gameKey] || CM_MATS.gi;
+  const ascension = [
+    { name:ch.el + ' ' + M.gem, qty:46, rar:5, kind:'gem' },
+    { name:M.boss, qty:46, rar:4, kind:'boss' },
+    { name:M.specialty, qty:168, rar:1, kind:'specialty' },
+    { name:M.mob[2], qty:36, rar:3, kind:'mob' },
+    { name:M.mob[1], qty:96, rar:2, kind:'mob' },
+    { name:M.mob[0], qty:18, rar:1, kind:'mob' },
+  ];
+  const talents = [
+    { name:M.book[2], qty:12, rar:4, kind:'book' },
+    { name:M.book[1], qty:21, rar:3, kind:'book' },
+    { name:M.book[0], qty:9,  rar:2, kind:'book' },
+    { name:M.mob[2], qty:18, rar:3, kind:'mob' },
+    { name:M.mob[1], qty:66, rar:2, kind:'mob' },
+    { name:M.weekly, qty:18, rar:5, kind:'weekly' },
+    { name:M.crown,  qty:3,  rar:5, kind:'crown' },
+  ];
+  return { ascension, talents };
+}
+
+function cmCurrencyMat(cfg, qty){
+  const count = Number(qty || 0);
+  if (!count) return null;
+  const name = cfg?.cur || 'Currency';
+  return {
+    id: 'currency:' + name,
+    name,
+    qty: count,
+    rar: 4,
+    kind: 'currency',
+    icon: cfg?.curIcon || null,
+  };
+}
+
+function cmInitials(name){
+  const p = name.replace(/[^A-Za-z0-9 ].*/, '').trim().split(/\s+/);
+  return ((p[0] && p[0][0] || 'N') + (p[1] ? p[1][0] : (p[0] && p[0][1] || ''))).toUpperCase();
+}
+
+const cmRarClass = (r) => (r === 4 || r === 'A' || r === 3) ? 'r4' : 'r5';
+
+function cmMatSourceInfo(m){
+  if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) {
+    return m.sourceDetails.map((entry) => entry?.name).filter(Boolean).join(' / ');
+  }
+  const direct = m?.source || m?.dropSource || m?.sourceText;
+  if (direct) return String(direct);
+  if (Array.isArray(m?.sources) && m.sources.length) return m.sources.filter(Boolean).join(' / ');
+  return 'Source details pending.';
+}
+
+function cmMatSourceDetails(m){
+  if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) return m.sourceDetails.filter((entry) => entry?.name);
+  const text = cmMatSourceInfo(m);
+  return text && text !== 'Source details pending.'
+    ? text.split(/\s+\/\s+/).filter(Boolean).map((name) => ({ name }))
+    : [];
+}
+
+function CMAvatar({ ch, big }){
+  const pal = { a:'#9a89ea', b:'#372464', ring:'#cdb3ff', glow:'rgba(150,120,255,.55)' };
+  const el = CM_ELEM[ch.el] || '#b7aaff';
+  const real = ch.icon || ch.circle || (ch.n === 'Skirk' ? '../assets/char/skirk_circle.png' : null);
+  return (
+    <div className={'cm-av r' + ch.r + (big ? ' big' : '')}
+         style={{ '--rA':pal.a, '--rB':pal.b, '--ring':pal.ring, '--glow':pal.glow, '--el':el }}>
+      <div className="disc">
+        {real ? <img
+          className={ch.iconZoom ? 'zoom' : ''}
+          style={ch.iconZoom ? { '--iconZoom':ch.iconZoom } : undefined}
+          src={real}
+          alt={ch.n}
+          draggable="false"
+        /> : <span className="mono">{cmInitials(ch.n)}</span>}
+      </div>
+    </div>
+  );
+}
+
+function MatTile({ m }){
+  const pal = CM_RAR[m.rar] || CM_RAR[2];
+  const icon = m.icon || m.art;
+  const rarity = Math.max(0, Math.min(5, cmRarityValue(m.rar, 0)));
+  const g = m.kind === 'currency' ? '\u25CE' : m.kind === 'crown' ? '\u265B' : m.kind === 'gem' ? '\u25C8' : m.kind === 'book' ? '\u25A4'
+    : m.kind === 'weekly' ? '\u2726' : m.kind === 'boss' ? '\u2756' : m.kind === 'specialty' ? '\u273F' : m.kind === 'weapon' ? '\u25A6' : '\u25C9';
+  const qty = Number(m.qty || 0);
+  const source = cmMatSourceInfo(m);
+  const details = cmMatSourceDetails(m);
+  return (
+    <div className="cm-mat" title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + '\n' + source}
+         style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../assets/mats/rarity' + rarity + '.png")' }}>
+      <div className="ic">
+        {m.sprite ? <ZzzSpriteIcon icon={icon} sprite={m.sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{g}</span>}
+      </div>
+      <b className="qt">{qty ? qty.toLocaleString('en-US') : '-'}</b>
+      <span className="nm">{m.name}</span>
+      <span className="src-tip" role="tooltip">
+        <b>{m.name}</b>
+        {details.length > 0 ? (
+          <span className="src-list">
+            {details.map((detail, i) => (
+              <span key={i} className="src-row">
+                {detail.icon && <img src={detail.icon} alt="" draggable="false" />}
+                <em>{detail.name}</em>
+              </span>
+            ))}
+          </span>
+        ) : <em>{source}</em>}
+      </span>
+    </div>
+  );
+}
+
+/* a small material token used in the Talents / Boss columns */
+function ZzzSpriteIcon({ icon, sprite, alt }){
+  const canvasRef = React.useRef(null);
+  const [animated, setAnimated] = React.useState(false);
+
+  React.useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas || !sprite) return undefined;
+    let raf = 0;
+    let cancelled = false;
+    const img = new Image();
+    img.decoding = 'async';
+    img.onload = () => {
+      if (cancelled) return;
+      const frame = 256;
+      const cols = Math.floor(img.naturalWidth / frame);
+      const rows = Math.floor(img.naturalHeight / frame);
+      const available = cols * rows;
+      const big = img.naturalWidth === 4096 && img.naturalHeight === 2048;
+      const small = img.naturalWidth === 2048 && img.naturalHeight === 2048;
+      if (!cols || !rows || img.naturalWidth < 1000 || (!big && !small)) {
+        setAnimated(false);
+        return;
+      }
+      const frameCount = Math.min(big ? 120 : 60, available);
+      const frameMs = big ? 25 : 50;
+      const pingPong = /ExBigBoss010/i.test(sprite);
+      const ctx = canvas.getContext('2d');
+      canvas.width = frame;
+      canvas.height = frame;
+      setAnimated(true);
+      const draw = (time) => {
+        if (cancelled || !ctx) return;
+        let index = Math.floor(time / frameMs) % frameCount;
+        if (pingPong) {
+          const span = frameCount * 2 - 2;
+          const pos = Math.floor(time / frameMs) % Math.max(span, 1);
+          index = pos >= frameCount ? span - pos : pos;
+        }
+        const sx = (index % cols) * frame;
+        const sy = Math.floor(index / cols) * frame;
+        ctx.clearRect(0, 0, frame, frame);
+        ctx.drawImage(img, sx, sy, frame, frame, 0, 0, frame, frame);
+        raf = requestAnimationFrame(draw);
+      };
+      raf = requestAnimationFrame(draw);
+    };
+    img.onerror = () => setAnimated(false);
+    img.src = sprite;
+    return () => {
+      cancelled = true;
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, [sprite]);
+
+  return (
+    <span className={'zzz-sprite' + (animated ? ' is-animated' : '')}>
+      {icon && <img src={icon} alt={alt || ''} draggable="false" />}
+      <canvas ref={canvasRef} aria-hidden="true"></canvas>
+    </span>
+  );
+}
+
+function CMToken({ name, color, glyph, icon, sprite, meta }){
+  return (
+    <div className="cm-mtoken">
+      <span className="tk" style={{ '--tc':color || '#9a89ea' }}>
+        {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : glyph}
+      </span>
+      <span className="lbl">{name}</span>
+      {meta && <span className="mt">{meta}</span>}
+    </div>
+  );
+}
+
+function cmMatName(mat){
+  return String(typeof mat === 'string' ? mat : (mat && (mat.n || mat.name)) || '').trim();
+}
+
+function cmUsefulName(name){
+  const n = String(name || '').trim();
+  return !!n && !/^(unknown|unsorted)\b/i.test(n) && !/^talent material$/i.test(n);
+}
+
+function cmTokens(mats, fallback){
+  const list = (mats || []).map((m) => ({
+    n:cmMatName(m),
+    icon:typeof m === 'object' && m ? (m.icon || m.art) : null,
+    sprite:typeof m === 'object' && m ? m.sprite : null,
+  })).filter((m) => cmUsefulName(m.n));
+  if (list.length) return list;
+  const fb = cmMatName(fallback);
+  return cmUsefulName(fb) ? [{ n:fb }] : [];
+}
+
+function cmReqItems(items){
+  return (items || []).filter((m) => m && cmUsefulName(m.name)).sort(cmReqSort);
+}
+
+function cmCharKey(prefix, ch, i){
+  return prefix + '-' + (ch.id || ch.n) + '-' + i;
+}
+
+function cmReqTotal(items){
+  return (items || []).reduce((sum, item) => sum + Number(item.qty || 0), 0);
+}
+
+function cmCombineReqItems(...groups){
+  const by = new Map();
+  groups.flat().filter(Boolean).forEach((mat) => cmMergeMat(by, mat));
+  return [...by.values()].sort(cmReqSort);
+}
+
+function cmHiddenKey(ch){
+  return String(ch?.id || ch?.rawName || ch?.n || '');
+}
+
+function cmEmptyHiddenPrefs(){
+  return { sync:false, all:{}, roster:{}, materials:{} };
+}
+
+const CM_DEFAULT_TOTAL_INCLUDE = { ascension:true, talents:true, weapon:true };
+const CM_TOTAL_INCLUDE_KEY = 'nyx:cm-total-include:v1';
+
+function cmLoadTotalIncludePrefs(){
+  try { return JSON.parse(localStorage.getItem(CM_TOTAL_INCLUDE_KEY) || '{}') || {}; } catch (e) { return {}; }
+}
+
+function cmSaveTotalIncludePrefs(next){
+  try { localStorage.setItem(CM_TOTAL_INCLUDE_KEY, JSON.stringify(next)); } catch (e) {}
+}
+
+function cmWeaponRowLabel(gameKey){
+  if (gameKey === 'hsr') return 'LIGHT CONE';
+  if (gameKey === 'zzz') return 'W-ENGINE';
+  return 'WEAPON';
+}
+
+function cmWeaponCompatible(gameKey, ch, weapon){
+  if (!ch || !weapon) return true;
+  if (gameKey === 'gi') return !ch.w || !weapon.weaponType || weapon.weaponType === ch.w || weapon.type === ch.w;
+  if (gameKey === 'hsr') return !ch.path || !weapon.path || weapon.path === ch.path || weapon.type === ch.path;
+  return true;
+}
+
+function cmLoadHiddenPrefs(){
+  try {
+    const raw = JSON.parse(localStorage.getItem('nyx:cm-hidden:v1') || '{}');
+    return {
+      ...cmEmptyHiddenPrefs(),
+      ...raw,
+      all:{ ...(raw.all || {}) },
+      roster:{ ...(raw.roster || {}) },
+      materials:{ ...(raw.materials || {}) },
+    };
+  } catch (e) {
+    return cmEmptyHiddenPrefs();
+  }
+}
+
+function cmSaveHiddenPrefs(next){
+  try { localStorage.setItem('nyx:cm-hidden:v1', JSON.stringify(next)); } catch (e) {}
+}
+
+function cmFilterGlyph(gameKey, filterKey, label, value){
+  const text = String(label || value || '').trim();
+  const elem = CM_ELEM[text] || CM_ELEM[value] || null;
+  if (filterKey === 'el') {
+    return <span className="cm-fi elem" style={{ '--fi':elem || '#b7aaff' }}>{text.slice(0, 1)}</span>;
+  }
+  if (filterKey === 'r') {
+    return <span className="cm-fi rare">{/^(s|6|5)/i.test(text) ? '\u2726' : '\u2727'}</span>;
+  }
+  const short = {
+    Sword:'Sw', Claymore:'Cl', Polearm:'Po', Bow:'Bw', Catalyst:'Ca',
+    Broadblade:'Bb', Pistols:'Pi', Gauntlets:'Ga', Rectifier:'Re',
+    Attack:'At', Stun:'St', Anomaly:'An', Support:'Su', Defense:'De', Defence:'De', Rupture:'Ru',
+    Destruction:'De', Hunt:'Hu', Erudition:'Er', Preservation:'Pr', Nihility:'Ni', Harmony:'Ha', Abundance:'Ab', Remembrance:'Re', Elation:'El',
+    Striker:'St', Guard:'Gu', Defender:'De', Caster:'Ca', Vanguard:'Va', Specialist:'Sp',
+  }[text] || text.slice(0, 2);
+  return <span className="cm-fi sym">{short}</span>;
+}
+
+function cmRoleLabel(ch){
+  return ch.path || ch.spec || ch.cls || ch.w || ch.tag || '';
+}
+
+function cmArtFor(ch){
+  return ch.art || ch.card || ch.icon || ch.circle || (ch.n === 'Skirk' ? '../assets/char/skirk.jpg' : null);
+}
+
+function cmBirthdayArtPool(ch){
+  return Array.isArray(ch?.birthdayArtPool) ? ch.birthdayArtPool.filter(Boolean) : [];
+}
+
+function cmHolidayArtPool(ch){
+  return Array.isArray(ch?.holidayArtPool) ? ch.holidayArtPool.filter(Boolean) : [];
+}
+
+function cmSpecialArtPool(gameKey, ch){
+  if (gameKey === 'gi') return cmBirthdayArtPool(ch);
+  if (gameKey === 'hsr') return cmHolidayArtPool(ch);
+  return [];
+}
+
+function cmSpecialArtClass(gameKey, base, view){
+  const hasPool = cmSpecialArtPool(gameKey, base).length > 0 || cmSpecialArtPool(gameKey, view).length > 0;
+  if (!hasPool) return '';
+  if (gameKey === 'gi') return ' birthday';
+  if (gameKey === 'hsr') return ' holiday';
+  return ' special';
+}
+
+function cmPopupArtFor(gameKey, base, view, cycleIndex){
+  const pool = cmSpecialArtPool(gameKey, base).length ? cmSpecialArtPool(gameKey, base) : cmSpecialArtPool(gameKey, view);
+  if (pool.length) return pool[Math.abs(Number(cycleIndex || 0)) % pool.length];
+  return cmArtFor(view);
+}
+
+function cmFormOptions(ch){
+  const forms = Array.isArray(ch?.forms) ? ch.forms : [];
+  const seen = new Set();
+  const out = [];
+  forms.forEach((form) => {
+    const key = form.variantKey || String(form.formLabel || form.el || form.path || form.cls || form.id || '').toLowerCase();
+    if (!key || seen.has(key)) return;
+    seen.add(key);
+    out.push({ key, label:form.formLabel || form.variantValue || form.el || form.path || form.cls || 'Form' });
+  });
+  return out;
+}
+
+function cmGenderOptions(ch){
+  const forms = Array.isArray(ch?.forms) ? ch.forms : [];
+  const seen = new Set();
+  const out = [];
+  forms.forEach((form) => {
+    if (!form.gender || seen.has(form.gender)) return;
+    seen.add(form.gender);
+    out.push({ key:form.gender, label:form.genderLabel || form.gender });
+  });
+  return out;
+}
+
+function cmActiveForm(ch, variantKey, genderKey){
+  const forms = Array.isArray(ch?.forms) ? ch.forms : [];
+  if (!forms.length) return ch;
+  const desiredVariant = variantKey || forms[0].variantKey;
+  const desiredGender = genderKey || forms[0].gender || null;
+  return forms.find((form) => form.variantKey === desiredVariant && (!desiredGender || form.gender === desiredGender))
+    || forms.find((form) => form.variantKey === desiredVariant)
+    || forms.find((form) => !desiredGender || form.gender === desiredGender)
+    || forms[0]
+    || ch;
+}
+
+function cmSearchExtra(ch){
+  const forms = Array.isArray(ch?.forms) ? ch.forms : [];
+  return [
+    ch?.title,
+    cmRoleLabel(ch || {}),
+    ...(ch?.aliases || []),
+    ...forms.flatMap((form) => [
+      form.rawName,
+      form.formLabel,
+      form.variantValue,
+      form.genderLabel,
+      form.el,
+      form.path,
+      form.cls,
+    ]),
+  ].filter(Boolean).join(' ');
+}
+
+/* a roster cell */
+function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden }){
+  return (
+    <button
+      type="button"
+      className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '')}
+      title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
+      aria-pressed={hideMode ? !!hidden : undefined}
+      onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}
+    >
+      <CMAvatar ch={ch} />
+      <span className="cn">{ch.n}</span>
+      {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
+    </button>
+  );
+}
+
+function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly }){
+  const [gk, setGk] = React.useState(game || 'gi');
+  const cfg = CM_CFG[gk] || null;
+  const [dataTick, setDataTick] = React.useState(0);
+  const [tab, setTab] = React.useState(() => {
+    try {
+      const saved = localStorage.getItem('nyx:character-material-tab:v1');
+      return ['roster', 'mid', 'boss'].includes(saved) ? saved : 'roster';
+    } catch (e) {
+      return 'roster';
+    }
+  }); // roster | mid | boss
+  const [sel, setSel] = React.useState(null);
+  const [q, setQ] = React.useState('');
+  const [filt, setFilt] = React.useState({});
+  const [showFilt, setShowFilt] = React.useState(false);
+  const [hideMenu, setHideMenu] = React.useState(false);
+  const [hideMode, setHideMode] = React.useState(false);
+  const [showHidden, setShowHidden] = React.useState(false);
+  const [hiddenPrefs, setHiddenPrefs] = React.useState(cmLoadHiddenPrefs);
+  const [day, setDay] = React.useState(() => { const d = new Date().getDay(); return d === 0 ? 6 : d - 1; }); // 0=Mon..6=Sun
+  const [giPreset, setGiPreset] = React.useState('9-10-10');
+  const [giTargets, setGiTargets] = React.useState([9, 10, 10]);
+  const [activeVariant, setActiveVariant] = React.useState(null);
+  const [activeGender, setActiveGender] = React.useState(null);
+  const [activeArtIndex, setActiveArtIndex] = React.useState(0);
+  const [artCycle, setArtCycle] = React.useState({});
+  const [weaponPickByChar, setWeaponPickByChar] = React.useState({});
+  const [weaponPickerOpen, setWeaponPickerOpen] = React.useState(false);
+  const [weaponSearch, setWeaponSearch] = React.useState('');
+  const [totalIncludeByChar, setTotalIncludeByChar] = React.useState(cmLoadTotalIncludePrefs);
+
+  const openCharacter = React.useCallback((ch) => {
+    if (!ch) return;
+    const key = cmHiddenKey(ch);
+    const pool = cmSpecialArtPool(gk, ch);
+    const idx = pool.length > 1 ? (artCycle[key] || 0) : 0;
+    setActiveArtIndex(idx);
+    setSel(ch);
+    if (pool.length > 1) {
+      setArtCycle((prev) => ({ ...prev, [key]: (idx + 1) % pool.length }));
+    }
+  }, [artCycle, gk]);
+
+  React.useEffect(() => {
+    let live = true;
+    const onLoaded = (event) => {
+      if (!event.detail || event.detail.key === gk) setDataTick((v) => v + 1);
+    };
+    window.addEventListener('nyx:cm-game-loaded', onLoaded);
+    if ((open || inline || modalOnly) && !CM_CFG[gk] && window.loadNyxCmGame) {
+      window.loadNyxCmGame(gk).then(() => { if (live) setDataTick((v) => v + 1); }).catch(() => {
+        if (live) setDataTick((v) => v + 1);
+      });
+    }
+    return () => {
+      live = false;
+      window.removeEventListener('nyx:cm-game-loaded', onLoaded);
+    };
+  }, [gk, open, inline, modalOnly]);
+
+  React.useEffect(() => { if (open || inline) { setGk(game || 'gi'); if (!selectedName) setSel(null); } }, [open, inline, game, selectedName]);
+  React.useEffect(() => { setSel(null); setQ(''); setFilt({}); setShowFilt(false); setHideMenu(false); }, [gk]);
+  React.useEffect(() => {
+    if (!sel) {
+      setActiveVariant(null);
+      setActiveGender(null);
+      return;
+    }
+    const wanted = String(selectedName || '').toLowerCase();
+    const form = (sel.forms || []).find((row) => String(row.rawName || row.n || '').toLowerCase() === wanted);
+    setActiveVariant(form?.variantKey || null);
+    setActiveGender(form?.gender || null);
+  }, [sel && sel.id, selectedName]);
+  React.useEffect(() => {
+    try { localStorage.setItem('nyx:character-material-tab:v1', tab); } catch (e) {}
+  }, [tab]);
+  React.useEffect(() => {
+    if (!selectedName) return;
+    const nextCfg = CM_CFG[game || gk] || cfg || { roster:[] };
+    const wanted = String(selectedName).toLowerCase();
+    const found = (nextCfg.roster || []).find((ch) => (
+      String(ch.n || '').toLowerCase() === wanted
+      || (ch.forms || []).some((form) => String(form.rawName || form.n || '').toLowerCase() === wanted)
+    ));
+    if (found) {
+      const form = (found.forms || []).find((row) => String(row.rawName || row.n || '').toLowerCase() === wanted);
+      openCharacter(found);
+      if (form) {
+        setActiveVariant(form.variantKey || null);
+        setActiveGender(form.gender || null);
+      }
+    }
+  }, [selectedName, game, gk, dataTick]);
+  React.useEffect(() => {
+    setWeaponPickerOpen(false);
+    setWeaponSearch('');
+  }, [gk, sel && cmHiddenKey(sel), activeVariant, activeGender]);
+  React.useEffect(() => {
+    if (!sel) return undefined;
+    const onKey = (event) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      setWeaponPickerOpen(false);
+      setSel(null);
+      if (modalOnly && onClose) onClose();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [sel, modalOnly, onClose]);
+
+  if (!inline && !open) return null;
+  if (!cfg) {
+    const gameName = (window.CM_GAME_LABELS && window.CM_GAME_LABELS[gk]) || gk.toUpperCase();
+    const loader = (
+      <div className="cm-panel cm-loading" data-screen-label="Character Materials loading">
+        <div className="cm-load-eye"></div>
+        <div className="cm-ttl">
+          <div className="t">Character Materials</div>
+          <div className="s">Loading {gameName}</div>
+        </div>
+      </div>
+    );
+    if (inline) return <div className="cm-inline">{loader}</div>;
+    return (
+      <div className="cm-overlay" onMouseDown={(e) => { if (e.target === e.currentTarget && onClose) onClose(); }}>
+        {loader}
+      </div>
+    );
+  }
+
+  const gMeta = cfg;
+  const byName = {};
+  cfg.roster.forEach(ch => { if (!byName[ch.n]) byName[ch.n] = ch; });
+  const resolve = (name) => byName[name] || { n:name, r:cfg.rarities[0], el:cfg.filters[0].opts[0] };
+
+  const qq = q.trim().toLowerCase();
+  const passQ = (ch) => !qq || nyxMatchesSearch(ch.n, ch.rawName, qq, cmSearchExtra(ch));
+  const passF = (ch) => Object.keys(filt).every(k => {
+    const v = filt[k]; if (v === undefined || v === null) return true;
+    if (k === 'r') return ch.r === v || (ch.forms || []).some((form) => form.r === v);
+    if ((ch.forms || []).some((form) => form[k] === v)) return true;
+    if (ch[k] === undefined) return true; // lenient: missing field doesn't exclude
+    return ch[k] === v;
+  });
+  const activeHideScope = tab === 'roster' ? 'roster' : 'materials';
+  const hiddenBucket = hiddenPrefs.sync ? 'all' : activeHideScope;
+  const hiddenIds = new Set((hiddenPrefs[hiddenBucket] && hiddenPrefs[hiddenBucket][gk]) || []);
+  const hiddenCount = hiddenIds.size;
+  const isHidden = (ch) => hiddenIds.has(cmHiddenKey(ch));
+  const passHidden = (ch) => showHidden || !isHidden(ch);
+  const show = (ch) => passQ(ch) && passF(ch) && passHidden(ch);
+  const updateHiddenPrefs = (fn) => {
+    setHiddenPrefs((prev) => {
+      const base = {
+        ...cmEmptyHiddenPrefs(),
+        ...prev,
+        all:{ ...(prev.all || {}) },
+        roster:{ ...(prev.roster || {}) },
+        materials:{ ...(prev.materials || {}) },
+      };
+      const next = fn(base);
+      cmSaveHiddenPrefs(next);
+      return next;
+    });
+  };
+  const toggleHidden = (ch) => {
+    const id = cmHiddenKey(ch);
+    if (!id) return;
+    updateHiddenPrefs((base) => {
+      const bucket = base.sync ? 'all' : activeHideScope;
+      const perGame = { ...(base[bucket] || {}) };
+      const arr = Array.isArray(perGame[gk]) ? perGame[gk] : [];
+      perGame[gk] = arr.includes(id) ? arr.filter((x) => x !== id) : [...arr, id];
+      return { ...base, [bucket]:perGame };
+    });
+  };
+  const setHiddenSync = (sync) => {
+    updateHiddenPrefs((base) => {
+      if (!sync) return { ...base, sync:false };
+      const all = { ...(base.all || {}) };
+      all[gk] = [...new Set([...(all[gk] || []), ...((base.roster || {})[gk] || []), ...((base.materials || {})[gk] || [])])];
+      return { ...base, sync:true, all };
+    });
+  };
+  const clearHiddenScope = () => {
+    updateHiddenPrefs((base) => {
+      const bucket = base.sync ? 'all' : activeHideScope;
+      const perGame = { ...(base[bucket] || {}) };
+      perGame[gk] = [];
+      return { ...base, [bucket]:perGame };
+    });
+  };
+  const renderCell = (prefix, c, i) => (
+    <CMCell
+      key={cmCharKey(prefix, c, i)}
+      ch={c}
+      hideMode={hideMode}
+      hidden={isHidden(c)}
+      onToggleHidden={toggleHidden}
+      onClick={() => openCharacter(c)}
+    />
+  );
+
+  // ----- roster tab data -----
+  const roster = cfg.roster.filter(show);
+  const recent = cfg.roster.filter((ch) => ch.recent).filter(show);
+  const recentIds = new Set(recent.map(c => c.id || c.n));
+  const rarityGroups = cfg.rarities.map(r => ({ r, label:cfg.rarityLabel[r], list:roster.filter(c => c.r === r && !recentIds.has(c.id || c.n)) }));
+
+  // ----- mid tab helpers -----
+  const giDayTrio = day === 6 ? null : (day % 3);
+  const giVisibleTrio = qq ? null : giDayTrio;
+
+  // chunk a char list across n materials
+  const chunk = (arr, n) => {
+    if (n <= 1) return [arr];
+    const out = Array.from({ length:n }, () => []);
+    arr.forEach((x, i) => out[i % n].push(x));
+    return out;
+  };
+
+  const tokenColor = (label) => CM_ELEM[label] || '#9a89ea';
+  const giTalentBlocks = (cfg.talentDomains || []).map((domain, di) => {
+    const rows = (domain.trios || [])
+      .filter((trio) => giVisibleTrio === null || trio.trioIndex === giVisibleTrio)
+      .map((trio, ti) => {
+        const chars = (trio.chars || []).map(resolve).filter(show);
+        return { domain, trio, chars, key:'talent-' + di + '-' + ti };
+      })
+      .filter((row) => row.chars.length > 0);
+    return rows.length ? { domain, rows } : null;
+  }).filter(Boolean);
+  const giWeeklyBlocks = (cfg.weeklyBosses || []).map((boss, bi) => {
+    const drops = (boss.drops || [])
+      .map((drop, di) => {
+        const chars = (drop.chars || []).map(resolve).filter(show);
+        return { drop, chars, key:'weekly-' + bi + '-' + di };
+      })
+      .filter((row) => row.chars.length > 0);
+    return drops.length ? { boss, drops } : null;
+  }).filter(Boolean);
+  const activePreset = CM_GI_PRESETS.find((p) => p.targets.every((v, i) => v === giTargets[i]))
+    || { key:'custom', label:giTargets.join('/'), targets:giTargets };
+
+  const view = sel ? cmActiveForm(sel, activeVariant, activeGender) : null;
+  const formOptions = cmFormOptions(sel);
+  const genderOptions = cmGenderOptions(sel);
+  const req = view ? cmRequirements(gk, view, { targets:gk === 'gi' ? giTargets : activePreset.targets }) : null;
+  const ascReq = req ? cmReqItems([cmCurrencyMat(cfg, req.ascCost), ...(req.ascension || [])]) : [];
+  const talentReq = req ? cmReqItems([cmCurrencyMat(cfg, req.talentCost), ...(req.talents || [])]) : [];
+  const weaponOptions = view ? (cfg.weapons || []).filter((weapon) => cmWeaponCompatible(gk, view, weapon)) : [];
+  const weaponPickKey = view ? `${gk}:${cmHiddenKey(view)}` : null;
+  const signatureWeaponId = view?.signatureWeaponId || view?.signatureWeapon?.id || view?.signatureLightCone?.id || req?.weapon?.id || null;
+  const signatureWeapon = signatureWeaponId
+    ? weaponOptions.find((weapon) => String(weapon.id) === String(signatureWeaponId)) || null
+    : null;
+  const pickedWeaponId = weaponPickKey ? weaponPickByChar[weaponPickKey] : null;
+  const pickedWeapon = pickedWeaponId ? weaponOptions.find((weapon) => String(weapon.id) === String(pickedWeaponId)) || null : null;
+  const fallbackWeapon = req?.weapon ? {
+    id: req.weapon.id || signatureWeaponId || req.weapon.name,
+    name: req.weapon.name || view?.signatureWeaponName || 'Signature',
+    icon: req.weapon.icon || req.weapon.art,
+    art: req.weapon.art || req.weapon.icon,
+    path: req.weapon.path,
+    weaponType: req.weapon.weaponType,
+    type: req.weapon.type || req.weapon.path || req.weapon.weaponType,
+    items: req.weapon.items || [],
+    cost: Number(req.weapon.cost || req.weaponCost || 0),
+    educated: !!req.weapon.educated,
+  } : null;
+  const activeWeapon = pickedWeapon || signatureWeapon || fallbackWeapon;
+  const weaponReq = activeWeapon ? cmReqItems([cmCurrencyMat(cfg, activeWeapon.cost || req?.weaponCost), ...(activeWeapon.items || [])]) : [];
+  const totalIncludeKey = view ? `${gk}:${cmHiddenKey(view)}` : null;
+  const ledgerInclude = {
+    ...CM_DEFAULT_TOTAL_INCLUDE,
+    ...(totalIncludeKey ? (totalIncludeByChar[totalIncludeKey] || {}) : {}),
+  };
+  const totalReq = cmCombineReqItems(
+    ledgerInclude.ascension ? ascReq : [],
+    ledgerInclude.talents ? talentReq : [],
+    ledgerInclude.weapon ? weaponReq : [],
+  );
+  const hasAnyLedgerReq = ascReq.length > 0 || talentReq.length > 0 || weaponReq.length > 0;
+  const selArt = view ? cmPopupArtFor(gk, sel, view, activeArtIndex) : null;
+  const specialArtClass = view ? cmSpecialArtClass(gk, sel, view) : '';
+  const selRole = view ? cmRoleLabel(view) : '';
+  const setGiTalentTarget = (index, value) => {
+    const next = giTargets.slice(0, 3);
+    next[index] = Math.max(1, Math.min(10, Number(value) || 1));
+    setGiTargets(next);
+    setGiPreset(next.join('-'));
+  };
+  const pickWeapon = (weaponId) => {
+    if (!weaponPickKey) return;
+    setWeaponPickByChar((prev) => {
+      const next = { ...prev };
+      if (weaponId === null) delete next[weaponPickKey];
+      else next[weaponPickKey] = String(weaponId);
+      return next;
+    });
+    setWeaponPickerOpen(false);
+    setWeaponSearch('');
+  };
+  const filteredWeapons = weaponOptions.filter((weapon) => {
+    const text = weaponSearch.trim().toLowerCase();
+    return !text || String(weapon.name || '').toLowerCase().includes(text);
+  });
+  const weaponLabel = cmWeaponRowLabel(gk);
+  const showWeaponDisclaimer = !!activeWeapon;
+  const toggleLedger = (key) => {
+    if (!totalIncludeKey) return;
+    setTotalIncludeByChar((prev) => {
+      const cur = { ...CM_DEFAULT_TOTAL_INCLUDE, ...(prev[totalIncludeKey] || {}) };
+      cur[key] = !cur[key];
+      const next = { ...prev, [totalIncludeKey]:cur };
+      cmSaveTotalIncludePrefs(next);
+      return next;
+    });
+  };
+  const closePop = () => {
+    setSel(null);
+    if (modalOnly && onClose) onClose();
+  };
+
+  const hasBoss = !!cfg.tabs.boss;
+  const tabs = [{ k:'roster', label:'Roster' }, { k:'mid', label:cfg.tabs.mid }];
+  if (hasBoss) tabs.push({ k:'boss', label:cfg.tabs.boss });
+  const curTab = (tab === 'boss' && !hasBoss) ? 'roster' : tab;
+
+  return (
+    <div className={inline ? 'cm-inline' : 'cm-overlay'}
+         onMouseDown={inline ? undefined : (e) => { if (e.target === e.currentTarget) onClose(); }}>
+      {!modalOnly && <div className="cm-panel" data-screen-label="Character Materials">
+
+        <div className="cm-head">
+          <span className="cm-dia"></span>
+          <div className="cm-ttl"><div className="t">Character Materials</div><div className="s">Art of Khemia \u00B7 {gMeta.name}</div></div>
+          <div className="cm-tools">
+            <div className="cm-search">
+              <span className="ic"></span>
+              <input value={q} placeholder="Search Characters" spellCheck="false" onChange={(e) => setQ(e.target.value)} />
+              {q !== '' && <button type="button" className="x" onClick={() => setQ('')}>{'\u2715'}</button>}
+            </div>
+            <div className="cm-tbtns">
+              <button type="button" className={'cm-tool' + (showFilt || Object.keys(filt).length ? ' on' : '')}
+                      title="Filter" onClick={() => { setHideMenu(false); setShowFilt(s => !s); }}><span className="i-filter"></span></button>
+              <button type="button" className={'cm-tool' + (hideMenu || hideMode ? ' on warn' : '')}
+                      title="Hidden character options" onClick={() => { setShowFilt(false); setHideMenu(s => !s); }}>
+                <span className="i-eyeoff"></span>{hiddenCount > 0 && <span className="cm-tool-badge">{hiddenCount}</span>}
+              </button>
+              <button type="button" className={'cm-tool' + (showHidden ? ' on' : '')}
+                      title="Show hidden characters" onClick={() => setShowHidden(s => !s)}><span className="i-eye"></span></button>
+            </div>
+
+            {showFilt && (
+              <div className="cm-filter" onMouseDown={(e) => e.stopPropagation()}>
+                {cfg.filters.map(f => (
+                  <div key={f.key} className="cm-fsec">
+                    <div className="cm-fhd">{f.label}</div>
+                    <div className="cm-fopts">
+                      <button type="button" className={'cm-fopt all' + (filt[f.key] === undefined ? ' on' : '')}
+                              onClick={() => setFilt(p => { const n = { ...p }; delete n[f.key]; return n; })}>All</button>
+                      {f.opts.map(o => {
+                        const lbl = Array.isArray(o) ? o[0] : o;
+                        const val = Array.isArray(o) ? o[1] : o;
+                        return (
+                          <button type="button" key={lbl} className={'cm-fopt' + (filt[f.key] === val ? ' on' : '')}
+                                  onClick={() => setFilt(p => ({ ...p, [f.key]:val }))}>
+                            {cmFilterGlyph(gk, f.key, lbl, val)}<span>{lbl}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+            {hideMenu && (
+              <div className="cm-hide-menu" onMouseDown={(e) => e.stopPropagation()}>
+                <div className="cm-hide-hd">
+                  <b>Hidden Characters</b>
+                  <span>{hiddenPrefs.sync ? 'Synced lists' : (activeHideScope === 'roster' ? 'Roster list' : 'Materials list')}</span>
+                </div>
+                <button type="button" className={hideMode ? 'on' : ''} onClick={() => setHideMode(v => !v)}>
+                  <span className="box"></span>
+                  <span><b>Hide mode</b><em>Click character icons to hide or restore them.</em></span>
+                </button>
+                <button type="button" className={showHidden ? 'on' : ''} onClick={() => setShowHidden(v => !v)}>
+                  <span className="box"></span>
+                  <span><b>Show hidden</b><em>Display hidden characters dimmed so they can be restored.</em></span>
+                </button>
+                <button type="button" className={hiddenPrefs.sync ? 'on' : ''} onClick={() => setHiddenSync(!hiddenPrefs.sync)}>
+                  <span className="box"></span>
+                  <span><b>Sync hidden lists</b><em>Use one hidden list for roster, talents, and boss views.</em></span>
+                </button>
+                <button type="button" className="clear" disabled={!hiddenCount} onClick={clearHiddenScope}>
+                  Clear current hidden list
+                </button>
+              </div>
+            )}
+          </div>
+          <button type="button" className="cm-x" title="Close" onClick={onClose} style={{ display:inline ? 'none' : undefined }}>{'\u2715'}</button>
+        </div>
+
+        <div className="cm-controls">
+          <div className="cm-tabs">
+            {tabs.map(t => (
+              <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); }}>{t.label}</button>
+            ))}
+          </div>
+        </div>
+
+        {/* day selector (Genshin Talents only) */}
+        {curTab === 'mid' && cfg.midMode === 'days' && (
+          <div className="cm-days">
+            {CM_DAYS.map((d, i) => (
+              <button type="button" key={d} className={i === day ? 'on' : ''} onClick={() => setDay(i)}>{d}</button>
+            ))}
+          </div>
+        )}
+
+        <div className="cm-body">
+          {/* ---------- ROSTER ---------- */}
+          {curTab === 'roster' && (
+            <React.Fragment>
+              {recent.length > 0 && (
+                <div className="cm-group">
+                  <div className="cm-ghd" title="Characters from the 3 most recent patches"><span className="t">Recent</span></div>
+                  <div className="cm-grid cm-grid-recent">{recent.map((c, i) => renderCell('recent', c, i))}</div>
+                </div>
+              )}
+              {rarityGroups.map(g => g.list.length > 0 && (
+                <div className="cm-group" key={g.r}>
+                  <div className="cm-ghd"><span className="t">{g.label}</span></div>
+                  <div className="cm-grid">{g.list.map((c, i) => renderCell('rarity-' + g.r, c, i))}</div>
+                </div>
+              ))}
+              {roster.length === 0 && recent.length === 0 && <div className="cm-empty">No units match your filters.</div>}
+            </React.Fragment>
+          )}
+
+          {/* ---------- MID (Talents / Traces / Chips / Skills) ---------- */}
+          {curTab === 'mid' && (
+            <React.Fragment>
+              {cfg.talentDomains ? (
+                <React.Fragment>
+                  {giTalentBlocks.map((block, bi) => (
+                    <div className="cm-mgroup cm-domain" key={'domain-' + bi}>
+                      <div className="cm-mgroup-hd">
+                        <span className="t">{block.domain.name}</span>
+                        <span className="sub">{qq ? 'search results' : day === 6 ? 'Sunday - all books' : CM_DAYS[day]}</span>
+                      </div>
+                      {block.rows.map((row) => (
+                        <div className="cm-mrow cm-domain-row" key={row.key}>
+                          <div className="cm-mtokens">
+                            <CMToken
+                              name={row.trio.name}
+                              meta={(row.trio.days || []).join(' / ')}
+                              color="#e3b269"
+                              glyph={'\u25A4'}
+                              icon={row.trio.material?.icon}
+                            />
+                          </div>
+                          <div className="cm-grid">{row.chars.map((c, i) => renderCell('talent-' + row.key, c, i))}</div>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                  {giTalentBlocks.length === 0 && <div className="cm-empty">No talent-book matches for this day or filter.</div>}
+                </React.Fragment>
+              ) : cfg.midGroups.map((g, gi) => {
+                const chars = g.chars.map(resolve).filter(show);
+                if (cfg.midMode === 'days'){
+                  if (chars.length === 0) return null;
+                  return (
+                    <div className="cm-mgroup" key={gi}>
+                      <div className="cm-mgroup-hd"><span className="t">{g.region}</span></div>
+                      <div className="cm-mrow">
+                        <CMToken name={g.region} color="#e3b269" glyph={'\u25A4'} />
+                        <div className="cm-grid">{chars.map((c, i) => renderCell('day-' + gi, c, i))}</div>
+                      </div>
+                    </div>
+                  );
+                }
+                const mats = cmTokens(g.mats, g.region);
+                if (chars.length === 0) return null;
+                if (mats.length === 0) return null;
+                return (
+                  <div className="cm-mgroup" key={gi}>
+                    <div className="cm-mgroup-hd">
+                      <span className="t">{g.region}</span>
+                      {g.label && <span className="sub">{g.label}</span>}
+                    </div>
+                    <div className="cm-mrow">
+                      <div className="cm-mtokens">
+                        {mats.map((m, mi) => (
+                          <CMToken key={mi} name={m.n} color={tokenColor(g.region)} glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} />
+                        ))}
+                      </div>
+                      <div className="cm-grid">{chars.map((c, i) => renderCell('mid-' + gi, c, i))}</div>
+                    </div>
+                  </div>
+                );
+              })}
+            </React.Fragment>
+          )}
+
+          {/* ---------- BOSS (Trounce / Echo / Hunt / Weekly) ---------- */}
+          {curTab === 'boss' && hasBoss && (
+            <React.Fragment>
+              <div className="cm-bosshd"><span className="t">{cfg.boss.title}</span></div>
+              {cfg.weeklyBosses ? (
+                <React.Fragment>
+                  {giWeeklyBlocks.map((block, bi) => (
+                    <div className="cm-bgroup cm-weekly" key={'weekly-' + bi}>
+                      <div className="cm-bgroup-hd">{block.boss.bossName}</div>
+                      {block.drops.map((row) => (
+                        <div className="cm-brow cm-weekly-row" key={row.key}>
+                          <div className="cm-bmats">
+                            <CMToken name={row.drop.name} color="#e3b269" glyph={'\u2726'} icon={row.drop.icon} sprite={row.drop.sprite} />
+                          </div>
+                          <div className="cm-grid">{row.chars.map((c, i) => renderCell('weekly-' + row.key, c, i))}</div>
+                        </div>
+                      ))}
+                    </div>
+                  ))}
+                  {giWeeklyBlocks.length === 0 && <div className="cm-empty">No weekly material matches for this filter.</div>}
+                </React.Fragment>
+              ) : cfg.bossGroups.map((g, gi) => {
+                const chars = g.chars.map(resolve).filter(show);
+                const mats = cmTokens(g.mats, g.title);
+                const title = cmUsefulName(g.title) ? g.title : (mats[0] && mats[0].n) || cfg.boss.title;
+                if (chars.length === 0) return null;
+                if (mats.length === 0) return null;
+                return (
+                  <div className="cm-bgroup" key={gi}>
+                    <div className="cm-bgroup-hd">{title}</div>
+                    <div className="cm-brow">
+                      <div className="cm-bmats">
+                        {mats.map((m, mi) => <CMToken key={mi} name={m.n} color="#e3b269" glyph={CM_GLYPHS[(gi + mi) % CM_GLYPHS.length]} icon={m.icon} sprite={m.sprite} />)}
+                      </div>
+                      <div className="cm-grid">{chars.map((c, i) => renderCell('boss-' + gi, c, i))}</div>
+                    </div>
+                  </div>
+                );
+              })}
+            </React.Fragment>
+          )}
+        </div>
+      </div>}
+
+      {sel && (() => {
+        const pop = (
+        <div className={'cm-pop-wrap' + (inline ? ' float' : '')} onMouseDown={(e) => { if (e.target === e.currentTarget) closePop(); }}>
+          <div className="cm-pop ledger" data-screen-label="Material popup" style={{ '--el':CM_ELEM[view.el] || '#b7aaff' }}>
+            <div className="cm-pop-ambient"></div>
+            {selArt && <div className={'cm-pop-bg' + specialArtClass}><img src={selArt} alt="" draggable="false" /></div>}
+            <div className="cm-pop-scrim"></div>
+            <button type="button" className="cm-x sm cm-pop-close" title="Close" onClick={closePop}>{'\u2715'}</button>
+
+            <div className="cm-pop-layout">
+              <div className="cm-pop-main cm-ledger-main">
+                <div className="cm-ledger-top">
+                  <div className="cm-ledger-title">
+                    <div className="cm-pop-name">{sel.n}</div>
+                    <div className="cm-pop-tags">
+                      <span className={'rr ' + cmRarClass(view.r)}>{cfg.rarityLabel[view.r] || view.r}</span>
+                      {view.el && <span className="el">{view.el}</span>}
+                      {selRole && <span>{selRole}</span>}
+                    </div>
+                  </div>
+
+                  {gk === 'gi' && view.req?.talentStages?.length > 0 && (
+                    <div className="cm-presets cm-presets-ledger">
+                      {CM_GI_PRESETS.map((preset) => (
+                        <button
+                          type="button"
+                          key={preset.key}
+                          className={activePreset.key === preset.key ? 'on' : ''}
+                          onClick={() => { setGiPreset(preset.key); setGiTargets(preset.targets.slice()); }}
+                        >
+                          {preset.label}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                {(formOptions.length > 1 || genderOptions.length > 1) && (
+                  <div className="cm-form-switches compact">
+                    {formOptions.length > 1 && (
+                      <div className="cm-form-row">
+                        <span>Form</span>
+                        <div>
+                          {formOptions.map((form) => (
+                            <button
+                              type="button"
+                              key={form.key}
+                              className={(view.variantKey || formOptions[0].key) === form.key ? 'on' : ''}
+                              onClick={() => setActiveVariant(form.key)}
+                            >
+                              {form.label}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {genderOptions.length > 1 && (
+                      <div className="cm-form-row">
+                        <span>Artwork</span>
+                        <div>
+                          {genderOptions.map((gender) => (
+                            <button
+                              type="button"
+                              key={gender.key}
+                              className={(view.gender || genderOptions[0].key) === gender.key ? 'on' : ''}
+                              onClick={() => setActiveGender(gender.key)}
+                            >
+                              {gender.label}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                <div className="cm-ledger-rows">
+                  {ascReq.length > 0 && (
+                    <div className="cm-ledger-row">
+                      <div className="cm-ledger-label"><b>ASCENSION</b><span>Lv.90</span></div>
+                      <div className="cm-mats cm-ledger-mats">{ascReq.map((m, i) => <MatTile key={i} m={m} />)}</div>
+                    </div>
+                  )}
+                  {talentReq.length > 0 && (
+                    <div className="cm-ledger-row">
+                      <div className="cm-ledger-label">
+                        <b>{String(cfg.tabs.mid || 'Materials').toUpperCase()}</b>
+                        <span className="cm-talent-summary" title={gk === 'gi' ? 'Talent targets: Normal Attack / Elemental Skill / Elemental Burst' : undefined}>
+                          {gk === 'gi' ? giTargets.join(' / ') : 'all to max'}
+                        </span>
+                        {gk === 'gi' && (
+                          <div className="cm-talent-triplet" aria-label="Talent level targets">
+                            {giTargets.map((value, index) => (
+                              <React.Fragment key={index}>
+                                <label title={`${CM_GI_TALENT_LABELS[index]} target level`}>
+                                  <em>{CM_GI_TALENT_SHORT[index]}</em>
+                                  <input
+                                    type="number"
+                                    min="1"
+                                    max="10"
+                                    aria-label={`${CM_GI_TALENT_LABELS[index]} target level`}
+                                    value={value}
+                                    onChange={(e) => setGiTalentTarget(index, e.target.value)}
+                                  />
+                                </label>
+                                {index < giTargets.length - 1 && <i aria-hidden="true">/</i>}
+                              </React.Fragment>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                      <div className="cm-mats cm-ledger-mats">{talentReq.map((m, i) => <MatTile key={i} m={m} />)}</div>
+                    </div>
+                  )}
+                  {(weaponReq.length > 0 || weaponOptions.length > 0) && (
+                    <div className="cm-ledger-row weapon">
+                      <div className="cm-ledger-label cm-weapon-label">
+                        {activeWeapon?.icon && <img className="cm-weapon-watermark" src={activeWeapon.icon} alt="" draggable="false" />}
+                        <b>{weaponLabel}</b>
+                        <button
+                          type="button"
+                          className="cm-weapon-pick"
+                          aria-haspopup="listbox"
+                          aria-expanded={weaponPickerOpen}
+                          disabled={!weaponOptions.length}
+                          onClick={() => weaponOptions.length && setWeaponPickerOpen((v) => !v)}
+                        >
+                          <span>{activeWeapon?.name || 'Pick a weapon'}</span>
+                          <i>{weaponOptions.length ? '\u25BE' : ''}</i>
+                        </button>
+                        {weaponPickerOpen && weaponOptions.length > 0 && (
+                          <div className="cm-weapon-menu" role="listbox" aria-label={`Pick ${weaponLabel.toLowerCase()}`} onMouseDown={(e) => e.stopPropagation()}>
+                            <input
+                              type="search"
+                              value={weaponSearch}
+                              placeholder={`Search ${weaponLabel.toLowerCase()}`}
+                              spellCheck="false"
+                              onChange={(e) => setWeaponSearch(e.target.value)}
+                            />
+                            <div className="cm-weapon-options">
+                              {signatureWeapon && (
+                                <button
+                                  type="button"
+                                  role="option"
+                                  aria-selected={!pickedWeaponId}
+                                  className={!pickedWeaponId ? 'on' : ''}
+                                  onClick={() => pickWeapon(null)}
+                                >
+                                  <span className="sig">\u2605</span>
+                                  <span>Signature ({signatureWeapon.name})</span>
+                                </button>
+                              )}
+                              {filteredWeapons.map((weapon) => (
+                                <button
+                                  type="button"
+                                  key={weapon.id}
+                                  role="option"
+                                  aria-selected={String(activeWeapon?.id) === String(weapon.id)}
+                                  className={String(activeWeapon?.id) === String(weapon.id) ? 'on' : ''}
+                                  onClick={() => pickWeapon(weapon.id)}
+                                >
+                                  {weapon.icon ? <img src={weapon.icon} alt="" draggable="false" /> : <span className="sig">{weapon.rarity || ''}</span>}
+                                  <span>{weapon.name}</span>
+                                </button>
+                              ))}
+                              {filteredWeapons.length === 0 && <div className="cm-weapon-empty">No matches.</div>}
+                            </div>
+                          </div>
+                        )}
+                        {showWeaponDisclaimer && (
+                          <div className="cm-sig-disclaimer">Signature is an educated guess and could be incorrect. Please double check before making decisions.</div>
+                        )}
+                      </div>
+                      <div className="cm-mats cm-ledger-mats">
+                        {weaponReq.length > 0
+                          ? weaponReq.map((m, i) => <MatTile key={i} m={m} />)
+                          : <div className="cm-total-empty">Select a weapon to see materials.</div>}
+                      </div>
+                    </div>
+                  )}
+                  {hasAnyLedgerReq && (
+                    <div className="cm-ledger-row total">
+                      <div className="cm-ledger-label">
+                        <b>TOTAL</b>
+                        <div className="cm-total-checks">
+                          {ascReq.length > 0 && (
+                            <button type="button" className={ledgerInclude.ascension ? 'on' : ''} aria-pressed={ledgerInclude.ascension} onClick={() => toggleLedger('ascension')}>
+                              <span className="box"></span><span>Ascension</span>
+                            </button>
+                          )}
+                          {talentReq.length > 0 && (
+                            <button type="button" className={ledgerInclude.talents ? 'on' : ''} aria-pressed={ledgerInclude.talents} onClick={() => toggleLedger('talents')}>
+                              <span className="box"></span><span>{cfg.tabs.mid}</span>
+                            </button>
+                          )}
+                          {weaponReq.length > 0 && (
+                            <button type="button" className={ledgerInclude.weapon ? 'on' : ''} aria-pressed={ledgerInclude.weapon} onClick={() => toggleLedger('weapon')}>
+                              <span className="box"></span><span>{weaponLabel.replace('-', '-').toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase())}</span>
+                            </button>
+                          )}
+                        </div>
+                      </div>
+                      <div className="cm-mats cm-ledger-mats">
+                        {totalReq.length > 0
+                          ? totalReq.map((m, i) => <MatTile key={i} m={m} />)
+                          : <div className="cm-total-empty">Select at least one section.</div>}
+                      </div>
+                    </div>
+                  )}
+                  {!hasAnyLedgerReq && (
+                    <div className="cm-empty">No material data available for this unit yet.</div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        );
+        return inline && ReactDOM.createPortal ? ReactDOM.createPortal(pop, document.body) : pop;
+      })()}
+    </div>
+  );
+}
+
+Object.assign(window, { CharMaterials });

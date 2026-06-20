@@ -1,0 +1,2334 @@
+{
+  "id": "characters:endministrator",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "endministrator",
+  "name": "Endministrator",
+  "title": "Endministrator Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/endministrator",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "updatedText": "12/May/2026",
+  "meta": {
+    "title": "Endministrator Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 6,
+    "weapon": "Sword",
+    "class": "Guard",
+    "element": "Physical"
+  },
+  "assets": [
+    {
+      "id": "87449c7e6b78",
+      "sourceHash": "87449c7e6b78",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "endministrator-card",
+      "path": "Prydwen/endfield/assets/characters/endministrator-card-87449c7e6b78.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "356f5dfcc644",
+      "sourceHash": "356f5dfcc644",
+      "kind": "icons",
+      "name": "Strength",
+      "fileStem": "stat-strength",
+      "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "fa8b0679d3bd",
+      "sourceHash": "fa8b0679d3bd",
+      "kind": "icons",
+      "name": "Agility",
+      "fileStem": "stat-agility",
+      "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0638c69e0b8e",
+      "sourceHash": "0638c69e0b8e",
+      "kind": "icons",
+      "name": "Intellect",
+      "fileStem": "stat-intellect",
+      "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6ae9fe735963",
+      "sourceHash": "6ae9fe735963",
+      "kind": "icons",
+      "name": "Will",
+      "fileStem": "stat-will",
+      "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f09d4e32afce",
+      "sourceHash": "f09d4e32afce",
+      "kind": "characters",
+      "name": "Endministrator full illustration",
+      "fileStem": "endministrator-full",
+      "path": "Prydwen/endfield/assets/characters/endministrator-full-illustration-f09d4e32afce.webp",
+      "width": 600,
+      "height": 800
+    },
+    {
+      "id": "6213098755db",
+      "sourceHash": "6213098755db",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-10",
+      "path": "Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "422f4ebe9134",
+      "sourceHash": "422f4ebe9134",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-16",
+      "path": "Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "5885ce319ff1",
+      "sourceHash": "5885ce319ff1",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-4",
+      "path": "Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3e8807087807",
+      "sourceHash": "3e8807087807",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-14",
+      "path": "Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "1a19647c67d3",
+      "sourceHash": "1a19647c67d3",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-2",
+      "path": "Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "2252670f4118",
+      "sourceHash": "2252670f4118",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-126",
+      "path": "Prydwen/endfield/assets/gear/gear-126-2252670f4118.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "eb7ede700ea2",
+      "sourceHash": "eb7ede700ea2",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-118",
+      "path": "Prydwen/endfield/assets/gear/gear-118-eb7ede700ea2.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "f2964fa718b2",
+      "sourceHash": "f2964fa718b2",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-124",
+      "path": "Prydwen/endfield/assets/gear/gear-124-f2964fa718b2.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "34b2f54bc3ca",
+      "sourceHash": "34b2f54bc3ca",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-61",
+      "path": "Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "62b0e360463a",
+      "sourceHash": "62b0e360463a",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-62",
+      "path": "Prydwen/endfield/assets/gear/gear-62-62b0e360463a.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "d19456ec3ed4",
+      "sourceHash": "d19456ec3ed4",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-2",
+      "path": "Prydwen/endfield/assets/gear/gear-2-d19456ec3ed4.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "594f049ae870",
+      "sourceHash": "594f049ae870",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-3",
+      "path": "Prydwen/endfield/assets/gear/gear-3-594f049ae870.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "941601fa199f",
+      "sourceHash": "941601fa199f",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-7",
+      "path": "Prydwen/endfield/assets/gear/gear-7-941601fa199f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "3bb18ad35648",
+      "sourceHash": "3bb18ad35648",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-19",
+      "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "ed1c46d8a7c6",
+      "sourceHash": "ed1c46d8a7c6",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-50",
+      "path": "Prydwen/endfield/assets/gear/gear-50-ed1c46d8a7c6.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "278306afe33b",
+      "sourceHash": "278306afe33b",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-70",
+      "path": "Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "1c7c451bae1e",
+      "sourceHash": "1c7c451bae1e",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-73",
+      "path": "Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "517133a1c3b1",
+      "sourceHash": "517133a1c3b1",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-44",
+      "path": "Prydwen/endfield/assets/gear/gear-44-517133a1c3b1.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "71f2e0ed92df",
+      "sourceHash": "71f2e0ed92df",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-45",
+      "path": "Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "b8c382149543",
+      "sourceHash": "b8c382149543",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-63",
+      "path": "Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "199b30cfa072",
+      "sourceHash": "199b30cfa072",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-64",
+      "path": "Prydwen/endfield/assets/gear/gear-64-199b30cfa072.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "4f128e86edc0",
+      "sourceHash": "4f128e86edc0",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-68",
+      "path": "Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "4b7abc3e9c6b",
+      "sourceHash": "4b7abc3e9c6b",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-4",
+      "path": "Prydwen/endfield/assets/gear/gear-4-4b7abc3e9c6b.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "0f7b6d9640ee",
+      "sourceHash": "0f7b6d9640ee",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-5",
+      "path": "Prydwen/endfield/assets/gear/gear-5-0f7b6d9640ee.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "eca51770722b",
+      "sourceHash": "eca51770722b",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-9",
+      "path": "Prydwen/endfield/assets/gear/gear-9-eca51770722b.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "0f5968f8403f",
+      "sourceHash": "0f5968f8403f",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-24",
+      "path": "Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "ae5d588d4460",
+      "sourceHash": "ae5d588d4460",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-26",
+      "path": "Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "31a71303f190",
+      "sourceHash": "31a71303f190",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-49",
+      "path": "Prydwen/endfield/assets/gear/gear-49-31a71303f190.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "5031ea56a1c1",
+      "sourceHash": "5031ea56a1c1",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-67",
+      "path": "Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "346e3930a9ba",
+      "sourceHash": "346e3930a9ba",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-71",
+      "path": "Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "ec86f6c5cb8f",
+      "sourceHash": "ec86f6c5cb8f",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-74",
+      "path": "Prydwen/endfield/assets/gear/gear-74-ec86f6c5cb8f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "9a13555d7b5d",
+      "sourceHash": "9a13555d7b5d",
+      "kind": "characters",
+      "name": "Endministrator",
+      "fileStem": "endministrator-icon",
+      "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1caef6a8417c",
+      "sourceHash": "1caef6a8417c",
+      "kind": "characters",
+      "name": "Chen Qianyu",
+      "fileStem": "chen-qianyu-icon",
+      "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b9a388c21c56",
+      "sourceHash": "b9a388c21c56",
+      "kind": "characters",
+      "name": "Pogranichnik",
+      "fileStem": "pogranichnik-icon",
+      "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4b15562a4af5",
+      "sourceHash": "4b15562a4af5",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-11",
+      "path": "Prydwen/endfield/assets/weapons/weapon-11-4b15562a4af5.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "15421cba5670",
+      "sourceHash": "15421cba5670",
+      "kind": "characters",
+      "name": "Ardelia",
+      "fileStem": "ardelia-icon",
+      "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "bd87bdf5874f",
+      "sourceHash": "bd87bdf5874f",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-52",
+      "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "9b291c88ce28",
+      "sourceHash": "9b291c88ce28",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "element-physical",
+      "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6e2e470f976d",
+      "sourceHash": "6e2e470f976d",
+      "kind": "characters",
+      "name": "Lifeng",
+      "fileStem": "lifeng-icon",
+      "path": "Prydwen/endfield/assets/characters/lifeng-6e2e470f976d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3c1cc57bcd5f",
+      "sourceHash": "3c1cc57bcd5f",
+      "kind": "icons",
+      "name": "Nature",
+      "fileStem": "element-nature",
+      "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "84894033ba6b",
+      "sourceHash": "84894033ba6b",
+      "kind": "characters",
+      "name": "Estella",
+      "fileStem": "estella-icon",
+      "path": "Prydwen/endfield/assets/characters/estella-84894033ba6b.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "ffd55a6794cd",
+      "sourceHash": "ffd55a6794cd",
+      "kind": "icons",
+      "name": "Cryo",
+      "fileStem": "element-cryo",
+      "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "4631b4aa4d51",
+      "sourceHash": "4631b4aa4d51",
+      "kind": "characters",
+      "name": "Alesh",
+      "fileStem": "alesh-icon",
+      "path": "Prydwen/endfield/assets/characters/alesh-4631b4aa4d51.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "72f4fe10ab2e",
+      "sourceHash": "72f4fe10ab2e",
+      "kind": "characters",
+      "name": "Rossi",
+      "fileStem": "rossi-icon",
+      "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "endministrator-best-build-guide-0",
+      "level": 1,
+      "heading": "Endministrator Best Build Guide",
+      "text": "Last updated: 12/May/2026",
+      "assets": [
+        {
+          "id": "87449c7e6b78",
+          "sourceHash": "87449c7e6b78",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "endministrator-card",
+          "path": "Prydwen/endfield/assets/characters/endministrator-card-87449c7e6b78.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Endministrator is a 6 -star character in Arknights: Endfield (AKE). Endministrator wields a Sword and belongs to the Guard class. Endministrator also has access to the Physical element. This guide provides a comprehensive overview of Endministrator 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Endministrator check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Endministrator has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1\n\n Last major build/calcs update\n Patch 1\n\n Last profile update*\n 12/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Endministrator check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 123\n\n Agility\n 140\n\n Intellect\n 96\n\n Will\n 107",
+      "assets": [
+        {
+          "id": "356f5dfcc644",
+          "sourceHash": "356f5dfcc644",
+          "kind": "icons",
+          "name": "Strength",
+          "fileStem": "stat-strength",
+          "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "fa8b0679d3bd",
+          "sourceHash": "fa8b0679d3bd",
+          "kind": "icons",
+          "name": "Agility",
+          "fileStem": "stat-agility",
+          "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0638c69e0b8e",
+          "sourceHash": "0638c69e0b8e",
+          "kind": "icons",
+          "name": "Intellect",
+          "fileStem": "stat-intellect",
+          "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6ae9fe735963",
+          "sourceHash": "6ae9fe735963",
+          "kind": "icons",
+          "name": "Will",
+          "fileStem": "stat-will",
+          "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Basic Attack\n Destructive Sequence",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-12",
+      "level": 6,
+      "heading": "BASIC ATTACK:",
+      "text": "An attack with up to 5 sequences that deals Physical DMG . As the controlled operator, Final Strike also deals 18 Stagger .",
+      "assets": []
+    },
+    {
+      "id": "dive-attack-13",
+      "level": 6,
+      "heading": "DIVE ATTACK:",
+      "text": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+      "assets": []
+    },
+    {
+      "id": "finisher-14",
+      "level": 6,
+      "heading": "FINISHER:",
+      "text": "Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Constructive Sequence\n SP Cost : 100\n\n A forceful burst of Originium Arts that attacks enemies within the area of effect. Deals Physical DMG and applies Crush .\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Sealing Sequence\n Cooldown: 15 s\n\n Rushes to the enemy's side to deal Physical DMG and attach Originium Crystals that temporarily seals them. Applying Physical Status or Vulnerability to the sealed enemy consumes the Originium Crystals and deal additional Physical DMG .\n Trigger: When another operator in the team deals DMG with combo skills.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Bombardment Sequence\n Energy cost : 80\n\n Bombards the ground with Originium Arts, dealing massive Physical DMG to all enemies within a fan-shaped area. If the enemy has Originium Crystals on them, this skill consumes the Originium Crystals and deals 1 more hit of Physical DMG .\n Multipliers (Rank 12)\n\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "talents-16",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Combat Talent\n Essence Disintegration\n\n When the Originium Crystals attached to the enemy is consumed , the Endministrator gains ATK +15/30% for 15s . This effect cannot stack.\n Show Effects\n\n Combat Talent\n Realspace Stasis\n\n Enemies with attached Originium Crystals suffer Physical DMG Taken +20/30%.\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-18",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "P1\n Final Awakening\n Potential 1\n\n Battle skill Constructive Sequence improved: Consuming Originium Crystals returns 50 SP.\n Show Effects\n\n P2\n Reflection of Authority\n Potential 2\n\n Talent Essence Disintegration improved: When the Endministrator gains the ATK buff, other allied operators gain half of this ATK buff.\n\n P3\n ???\n Potential 3\n\n ???\n\n P4\n ???\n Potential 4\n\n ???\n\n P5\n ???\n Potential 5\n\n ???",
+      "assets": []
+    },
+    {
+      "id": "lore-20",
+      "level": 3,
+      "heading": "Lore",
+      "text": "In the recorded history of Talos-II, the Endministrator stands as a key guardian who protected civilization on this planet and saved humanity from multiple catastrophic disasters. The Endmin's heroic deeds have given rise to many stories, tales, and even rumors.\n However, the Endmin's identity remains elusive, and only a handful of people have seen the legend in person. Other factions within the Civilization Band are well aware that Endfield has a very special trump card in their hand, but that is all they know.\n The Endministrator's mysterious mastery over Originium and the Protocol Network, along with the Endmin's need for periodic long-term hibernation, is one of Endfield's most important secrets.",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-22",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-24",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "f09d4e32afce",
+          "sourceHash": "f09d4e32afce",
+          "kind": "characters",
+          "name": "Endministrator full illustration",
+          "fileStem": "endministrator-full",
+          "path": "Prydwen/endfield/assets/characters/endministrator-full-illustration-f09d4e32afce.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "damage-27",
+      "level": 6,
+      "heading": "Damage",
+      "text": "T1\n Umbral Monument",
+      "assets": []
+    },
+    {
+      "id": "pros-30",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Grants themself and the team ATK%.\n\n Applies a sizable Physical damage taken debuff, benefitting themself and the team.\n\n Can be played as either a primary damage dealer or support damage dealer.\n\n Incredibly easy to trigger Combo Skill.\n\n Improved SP efficiency when played as main damage dealer.",
+      "assets": []
+    },
+    {
+      "id": "cons-31",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Top performance requires careful play around Combo Skill Originium Crystals.\n\n Can only apply Vulnerable to enemies who don’t already have it due to [Crush] being the only source of application.",
+      "assets": []
+    },
+    {
+      "id": "kit-intro-34",
+      "level": 6,
+      "heading": "Kit Intro",
+      "text": "Endministrator is a 6-star, Physical, sword damage dealer hybrid who is also effective when played as a support damage dealer. Which role Endmin takes in a team depends on whether you want them to be the consumer of the team's Vulnerability stacks. If you have no one else to consume them, then running damage-focused Endmin will be effective. If you already have plans for them to be consumed by another character, though, Endmin can still be useful thanks to the great damage from the rest of their kit and ability to grant the team buffs as well. Also, helpful is the fact that Endmin can slot into any team thanks to its Combo Skill being generically activatable by any character.\n Endmin’s damage-focused playstyle revolves around [Crush], which can be activated via their Battle Skill to quickly convert Vulnerability stacks applied to enemies into huge bursts of reaction damage. This, combined with the damage from Endmin’s Combo Skill and Ultimate, makes them a capable Physical carry all at the same time, as they do not need to sacrifice any of their supportive effects.\n The appeal of Endmin’s support damage role primarily comes online after unlocking their second Potential, which allows them to grant the team +15% ATK boost. When combined with their talent, which causes enemies afflicted with their Combo Skill to take 20% extra Physical damage during its duration, it allows them to boost the team while still contributing with Stagger and a sizable amount of damage through their Combo Skill and Ultimate.",
+      "assets": []
+    },
+    {
+      "id": "combo-35",
+      "level": 6,
+      "heading": "Combo",
+      "text": "Endmin’s Combo Skill is at the heart of their kit, regardless of if you’re playing them as a main or support damage dealer. Its trigger only requires another operator deal damage with their own Combo Skill. On use, it deals Physical DMG and encases the target in Originium Crystals, sealing them for up to 5 seconds. While sealed, if enemies suffer a Physical status or get a Vulnerability stack, the crystals explode, dealing a larger amount of Physical damage, releasing the enemy in the process. The immobilization effect and damage of this combo are good, but how the crystals interact with the rest of Endmin’s kit is truly why it’s powerful.\n Note: Elite/boss enemies cannot be frozen by this combo, but will still receive a debuff that still interacts with the rest of Endmin’s kit in the same way.",
+      "assets": []
+    },
+    {
+      "id": "talents-36",
+      "level": 6,
+      "heading": "Talents",
+      "text": "Potentials:\n Potential 2: Grants half the ATK% (15%) buff of Essence Disintegration to the whole team for 15 seconds, boosting Endmin’s supportive value considerably.\n\n Both of Endmin’s talents are powerful, and each works off their Combo Skills crystals. The first, Essence Disintegration, grants Endmin a 30% ATK boost for 15 seconds after Originium Crystals are successfully consumed, which is a very nice damage increase.\n Note: You won't get this bonus if you let the Originium Crystals expire.\n Endmin’s other talent causes enemies afflicted with Originium Crystals (sealed or not) to suffer 20% Physical Damage taken. This is a strong damage increase, much rarer than usual. It also remains in effect for damage that removes the Originium Crystals, meaning the Physical status that explodes them, the hit that triggers the status, and the crystal explosion itself will all be boosted.\n Tip: For players optimizing, it’s worth using as many high damage attacks and abilities that don’t inflict Vulnerable or Physical statuses before detonating the crystals. This allows you to take advantage of the damage taken debuff, as long as you don’t accidentally let the Originium Crystals expire.",
+      "assets": []
+    },
+    {
+      "id": "battle-skill-37",
+      "level": 6,
+      "heading": "Battle Skill",
+      "text": "Potentials:\n Potential 1: After activation, consuming Originium Crystals with Endmin’s Battle Skill also returns 50 SP, making it far more efficient when you’re able to trigger the effect.\n\n Endmin’s Battle Skill is simple; it costs 100 SP, deals Physical damage in a cone-based AoE, and inflicts [Crush] to all enemies hit.\n In damage-focused Endmin teams, this ability is usually the finisher you’ll be using at the end of your combos to consume the team's Vulnerability stacks. Detonate the Originium Crystals and refund SP in the process.\n When playing Endmin in the support damage role, you’ll be saving your Vulnerability stacks for a different character in most cases. Instead, you can use this Battle Skill as an opener against non-Vulnerable enemies to make use of Crush as a Vulnerable applier instead of a spender. This is useful to activate some weapons and sets.",
+      "assets": []
+    },
+    {
+      "id": "ultimate-38",
+      "level": 6,
+      "heading": "Ultimate",
+      "text": "Endmin’s Ultimate costs 80 energy to use and delivers an AoE Physical damage nuke centered on your target. This ability also has an additional effect that enables it to forcibly consume Originium Crystals on the target to deal another hit of Physical damage, which when added, almost doubles the damage of the Ultimate. With such a huge benefit available and the damage taken buff of the crystals themselves, you should always try to align using Endmin’s combo before their Ultimate, so it may consume the Originium Crystals.",
+      "assets": []
+    },
+    {
+      "id": "gameplay-39",
+      "level": 6,
+      "heading": "Gameplay",
+      "text": "Endmin has two playstyles:\n DPS\n In teams where Endmin is one or the main character consuming Vulnerability stacks on enemies, follow this approach:\n Build Vulnerability stacks through team abilities;\n\n Time Combo Skill, so it can be detonated by Endmin’s Battle Skill or Ultimate. To gain more damage, use other abilities in between your combo and Battle Skill/Ultimate, which don’t apply Physical statuses, or Vulnerable, to take advantage of the crystals’ damage taken debuff.\n\n Detonate Originium Crystals from Combo Skill using Ultimate if available, preferably after enemies are Staggered.\n\n If Ultimate is not up, and you’ve accumulated all the Vulnerability stacks, you’re able to use Battle Skill to consume them as well as your combos crystals.\n\n Support Damage\n In teams where another character is consuming Vulnerability stacks, the majority of the time, proceed with this approach instead:\n Use Endmin’s Battle Skill to establish the first stack of Vulnerable on enemies so they can activate set and weapon effects without interfering with your other Vulnerable spenders' rotation.\n\n Time Combo Skill, so it can be detonated by Endmin’s Ultimate if available, or your team's Vulnerable spender’s spending ability. To gain more damage, use other abilities in between your combo and Ultimate/Team Spender, which don’t apply Physical statuses or Vulnerable, to take advantage of the crystal's damage taken debuff.\n\n Detonate Originium Crystals from Combo Skill using Ultimate if available, preferably after enemies are Staggered.\n\n Detonate Crystals with the team's Vulnerable spending skill if the Ultimate is not available.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-41",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Endministrator performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Grand Vision (P 0 )\n\n Endmin's Signature is their best option for damage, but is comparable to Eminent Repute in a lot of cases when it comes to overall team output, assuming you're running Endmin along other capable Physical damage dealers. Its edge in personal damage comes from its optimal combination of passive stats and strong Weapon Effect that can be triggered multiple times a fight. What makes Eminent a viable alternative, though, is the fact that it buffs the entire team on use.\nNote: Weapon calculations are using a Crush Endmin rotation, which gains notable value out of this weapon's Arts Intensity. If you're not crushing with Endmin, its performance will drop.\n\n 2\n Solo 98.10%\n Team 101.50%\n\n Eminent Repute (P 0 )\n\n A close alternative to Grand Vision for Endmin's personal damage thanks to a great combination of passives, which only slightly loses out to Grand Vision, but most notably has a Weapon Effect that grants a team-wide supportive bonus that also boosts Endmin's own damage by a significant amount. This is why it can compete and sometimes even be more valuable than Grand Vision in team scenarios.\nNote: Eminent Repute's weapon effect only functions when Endmin is consuming Vulnerability stacks, so if they aren't the one activating Crush in the team, this Sword loses significant value compared to what is displayed.\n\n 3\n Solo 87.00%\n Team 93.20%\n\n Sundering Steel (P 5 )\n\n A solid 5-star option for Endmin, which has great passive stats for Endmin but at lower values than their 6-star options. This Sword's weapon effect is also solid, although it only works if Endmin is applying Crush, and can usually only reach one stack in most team compositions. Because of these reasons, it falls behind Endmin's top options.\n\n 4\n Solo 76.60%\n Team 87.80%\n\n Rapid Ascent (P 0 )\n\n An underwhelming Sword given its 6-star rarity. Has a mediocre mix of passives, with one of them being conditional and only working on Ultimate and Skills and the other one being Crit Rate, a stat Endmin doesn't want. Fortunately, the Weapon effect isn't bad, but it's not outstanding either. To make the most of it, you'll need to ensure you focus on landing Endmin's Ultimate during Stagger.\n\n 5\n Solo 70.50%\n Team 84.60%\n\n Contingent Measure (P 5 )\n\n Last resort option if you're lacking any of the choices above. Has the correct passive stats, but all at much lower base values, setting it significantly behind all other choices",
+      "assets": [
+        {
+          "id": "6213098755db",
+          "sourceHash": "6213098755db",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-10",
+          "path": "Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "422f4ebe9134",
+          "sourceHash": "422f4ebe9134",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-16",
+          "path": "Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "5885ce319ff1",
+          "sourceHash": "5885ce319ff1",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-4",
+          "path": "Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3e8807087807",
+          "sourceHash": "3e8807087807",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-14",
+          "path": "Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "1a19647c67d3",
+          "sourceHash": "1a19647c67d3",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-2",
+          "path": "Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-43",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "The solo percentage shows how the set and gear impact Endministrator performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 117%\n Team 109%\n\n Grizzled Edge",
+      "assets": [
+        {
+          "id": "2252670f4118",
+          "sourceHash": "2252670f4118",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-126",
+          "path": "Prydwen/endfield/assets/gear/gear-126-2252670f4118.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-44",
+      "level": 6,
+      "heading": "Description",
+      "text": "Grizzled Edge is best for a damaging Endmin build due to its high Physical DMG bonus scaling based on how many Vulnerable stack Endmin consumes during Crush with it being applied before the damage is dealt. When used correctly, Endmin's Combo Skill applying Originium Crystals will also ensure the buff effect will be 1.5x.",
+      "assets": []
+    },
+    {
+      "id": "pieces-45",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Swordmancer Heavy Armor T1 Swordmancer\n\n Gloves\n Grizzled Edge Gauntlets T1 Grizzled Edge\n\n Kit\n Grizzled Edge Push Knife T1 Grizzled Edge\n\n Kit\n Grizzled Edge Push Knife T1 Grizzled Edge\n\n 2\n Solo 100%\n Team 100%\n\n Swordmancer",
+      "assets": [
+        {
+          "id": "eb7ede700ea2",
+          "sourceHash": "eb7ede700ea2",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-118",
+          "path": "Prydwen/endfield/assets/gear/gear-118-eb7ede700ea2.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "2252670f4118",
+          "sourceHash": "2252670f4118",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-126",
+          "path": "Prydwen/endfield/assets/gear/gear-126-2252670f4118.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "f2964fa718b2",
+          "sourceHash": "f2964fa718b2",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-124",
+          "path": "Prydwen/endfield/assets/gear/gear-124-f2964fa718b2.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "34b2f54bc3ca",
+          "sourceHash": "34b2f54bc3ca",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-61",
+          "path": "Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-46",
+      "level": 6,
+      "heading": "Description",
+      "text": "Swordmancer is a strong set for any Physical characters thanks to its Stagger Efficiency Bonus can allow teams to reach Stagger nodes faster. The set also adds an extra hit with extra Stagger and Physical DMG when triggering Physical Statuses through Endmin's Crushes.",
+      "assets": []
+    },
+    {
+      "id": "pieces-47",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Swordmancer Heavy Armor Swordmancer\n\n Gloves\n Aethertech Gloves\n\n Kit\n Swordmancer Flint Swordmancer\n\n Kit\n Swordmancer Flint Swordmancer",
+      "assets": [
+        {
+          "id": "62b0e360463a",
+          "sourceHash": "62b0e360463a",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-62",
+          "path": "Prydwen/endfield/assets/gear/gear-62-62b0e360463a.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "d19456ec3ed4",
+          "sourceHash": "d19456ec3ed4",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-2",
+          "path": "Prydwen/endfield/assets/gear/gear-2-d19456ec3ed4.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "34b2f54bc3ca",
+          "sourceHash": "34b2f54bc3ca",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-61",
+          "path": "Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-48",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "Swordmancer Heavy Armor T1\n - In cases where Endmin isn't consistently landing high-stack Crushes, opting for Swordmancer Heavy Armor T1 can improve overall damage due to generic Physical DMG buffs affecting all damage sources.",
+      "assets": [
+        {
+          "id": "eb7ede700ea2",
+          "sourceHash": "eb7ede700ea2",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-118",
+          "path": "Prydwen/endfield/assets/gear/gear-118-eb7ede700ea2.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-pieces-50",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 117.70%\n Aethertech Plating\n\n Solo 122.30%\n Bonekrusha Heavy Armor T1\n\n Solo 119.60%\n Frontiers Armor T1\n\n Solo 115.50%\n MI Security Overalls\n\n Solo 124.50%\n Swordmancer Heavy Armor\n\n Solo 116.70%\n Type 50 Yinglung Heavy Armor\n\n Solo 108.50%\n Type 50 Yinglung Light Armor\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 122.20%\n Aethertech Gloves\n\n Solo 119.40%\n MI Security Gloves\n\n Solo 115.90%\n MI Security Hands PPE\n\n Solo 119.60%\n Swordmancer TAC Gauntlets\n\n Solo 121.70%\n Swordmancer TAC Gloves\n\n Solo 115.30%\n Type 50 Yinglung Gloves\n\n Solo 111.20%\n Type 50 Yinglung Gloves T1\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 115.60%\n Aethertech Stabilizer\n\n Solo 108.70%\n Bonekrusha Figurine\n\n Solo 130.30%\n Bonekrusha Mask\n\n Solo 110.10%\n Frontiers Comm\n\n Solo 107.70%\n Frontiers Extra O2 Tube\n\n Solo 112.40%\n MI Security Scope\n\n Solo 128.20%\n Swordmancer Flint\n\n Solo 110.60%\n Turbid Cutting Torch\n\n Solo 109.80%\n Type 50 Yinglung Knife T1\n\n Solo 122.20%\n Type 50 Yinglung Radar\n\n Solo 100%\n Nothing equipped",
+      "assets": [
+        {
+          "id": "594f049ae870",
+          "sourceHash": "594f049ae870",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-3",
+          "path": "Prydwen/endfield/assets/gear/gear-3-594f049ae870.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "941601fa199f",
+          "sourceHash": "941601fa199f",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-7",
+          "path": "Prydwen/endfield/assets/gear/gear-7-941601fa199f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "3bb18ad35648",
+          "sourceHash": "3bb18ad35648",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-19",
+          "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "ed1c46d8a7c6",
+          "sourceHash": "ed1c46d8a7c6",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-50",
+          "path": "Prydwen/endfield/assets/gear/gear-50-ed1c46d8a7c6.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "62b0e360463a",
+          "sourceHash": "62b0e360463a",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-62",
+          "path": "Prydwen/endfield/assets/gear/gear-62-62b0e360463a.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "278306afe33b",
+          "sourceHash": "278306afe33b",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-70",
+          "path": "Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "1c7c451bae1e",
+          "sourceHash": "1c7c451bae1e",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-73",
+          "path": "Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "d19456ec3ed4",
+          "sourceHash": "d19456ec3ed4",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-2",
+          "path": "Prydwen/endfield/assets/gear/gear-2-d19456ec3ed4.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "517133a1c3b1",
+          "sourceHash": "517133a1c3b1",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-44",
+          "path": "Prydwen/endfield/assets/gear/gear-44-517133a1c3b1.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "71f2e0ed92df",
+          "sourceHash": "71f2e0ed92df",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-45",
+          "path": "Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "b8c382149543",
+          "sourceHash": "b8c382149543",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-63",
+          "path": "Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "199b30cfa072",
+          "sourceHash": "199b30cfa072",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-64",
+          "path": "Prydwen/endfield/assets/gear/gear-64-199b30cfa072.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "4f128e86edc0",
+          "sourceHash": "4f128e86edc0",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-68",
+          "path": "Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "4b7abc3e9c6b",
+          "sourceHash": "4b7abc3e9c6b",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-4",
+          "path": "Prydwen/endfield/assets/gear/gear-4-4b7abc3e9c6b.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "0f7b6d9640ee",
+          "sourceHash": "0f7b6d9640ee",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-5",
+          "path": "Prydwen/endfield/assets/gear/gear-5-0f7b6d9640ee.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "eca51770722b",
+          "sourceHash": "eca51770722b",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-9",
+          "path": "Prydwen/endfield/assets/gear/gear-9-eca51770722b.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "0f5968f8403f",
+          "sourceHash": "0f5968f8403f",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-24",
+          "path": "Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "ae5d588d4460",
+          "sourceHash": "ae5d588d4460",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-26",
+          "path": "Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "31a71303f190",
+          "sourceHash": "31a71303f190",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-49",
+          "path": "Prydwen/endfield/assets/gear/gear-49-31a71303f190.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "34b2f54bc3ca",
+          "sourceHash": "34b2f54bc3ca",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-61",
+          "path": "Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "5031ea56a1c1",
+          "sourceHash": "5031ea56a1c1",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-67",
+          "path": "Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "346e3930a9ba",
+          "sourceHash": "346e3930a9ba",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-71",
+          "path": "Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "ec86f6c5cb8f",
+          "sourceHash": "ec86f6c5cb8f",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-74",
+          "path": "Prydwen/endfield/assets/gear/gear-74-ec86f6c5cb8f.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "potentials-review-52",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "Endministrator dupes can be obtained for free . That's why the guide and review above already assumes you have the currently available number of dupes and we're not reviewing each separately.",
+      "assets": []
+    },
+    {
+      "id": "calculations-54",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "In this section we're showing the team setup used for the above calculations as well as the damage split for Endministrator based on where it comes from. The setup isn't always best in slot for each character and also please keep in mind that with different team members, Weapons, and Gear, the calculations will change.\n\n Operator 1\n\n Weapon\n Grand Vision\n\n Operator 2\n\n Weapon\n Sundering Steel\n\n Operator 3\n\n Weapon\n Never Rest\n\n Operator 4\n\n Weapon\n Stanza of Memorials",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6213098755db",
+          "sourceHash": "6213098755db",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-10",
+          "path": "Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5885ce319ff1",
+          "sourceHash": "5885ce319ff1",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-4",
+          "path": "Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "b9a388c21c56",
+          "sourceHash": "b9a388c21c56",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-icon",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4b15562a4af5",
+          "sourceHash": "4b15562a4af5",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-11",
+          "path": "Prydwen/endfield/assets/weapons/weapon-11-4b15562a4af5.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bd87bdf5874f",
+          "sourceHash": "bd87bdf5874f",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-52",
+          "path": "Prydwen/endfield/assets/weapons/weapon-52-bd87bdf5874f.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "off-field-58",
+      "level": 6,
+      "heading": "Off Field :",
+      "text": "Battle Skill = Ultimate >= Combo Skill >= Basic Attack",
+      "assets": []
+    },
+    {
+      "id": "main-field-59",
+      "level": 6,
+      "heading": "Main Field :",
+      "text": "Basic Attack > Battle Skill = Ultimate >= Combo Skill\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-61",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Physical\n\n Chen Qianyu Physical\n\n Applies a Vulnerability stack for free with Combo, allowing higher stack sizes to be much more efficiently achieved, leading to consistently higher Crush damage throughout the fight. This effect alone earns her a place in almost every Physical team.\n\n Higher than average Stagger across her kit\n\n Very capable Sub-DPS damage potential even with zero resources allocated to her\n\n Chen benefits nicely from Endmins teamwide buffs, boosting her damage further\n\n Physical\n\n Pogranichnik Physical\n\n Can either act as a support for Pog or have Pog support them\n\n When supporting Pog gains a large damage boost from his Breach damage taken debuff\n\n When being supported by Pog gains a constant flow of extra SP and buffs from his outstanding supportive weapon and set options\n\n Pog's AoE gathering ultimate can concentrate enemies for Endmin to blast down with their Ultimate or Battle Skill\n\n Pog himself benefits nicely from Endmins teamwide buffs, boosting his own damage both as the carry and support\n\n Hyper optimized teams can combine both Breach and Crush, getting the best of both DPS Endmin and Pog.\n\n Physical\n\n Lifeng Physical\n\n Lifeng generates bursts of Vulnerability with the Ultimate to fuel more frequent, higher stack size Crushes\n\n Lifeng applies Physical Susceptibility to targets, boosting Endmin's damage potential\n\n Lifeng applies Link to the team which, when not consumed by his own Ult, can be used by Endmin to amplify their Ult or Battle Skill\n\n Endmin provides team-wide buffs while performing their role as a damage dealer, which will raise Lifeng's damage potential as well\n\n Nature\n\n Ardelia Nature\n\n Able to permanently maintain both Arts and Physical susceptibility on targets for generic team-wide damage increases that work in any team\n\n Outstanding supportive weapon and set options for even more damage amplification, with options that work for both Physical and Arts\n\n Forcibly applies Corrosion, which, when optimized around, can lower enemy resistances to all damage temporarily if Susceptibility doesn't need to be refreshed\n\n Only requires 100 SP roughly every 30 seconds to function at maximum capacity\n\n Strong enough sustain to single handedly keep the team alive through most endgame encounters as long as smart dodging is used.\n\n Cryo\n\n Estella Cryo\n\n Estella applies an outstanding amount of Vulnerability with her combo skill and very cheap Ultimate\n\n Estella applies Physical Susceptibility to boost the entire team's Physical damage\n\n Estella herself benefits nicely from Endmin’s teamwide buffs, boosting her own damage as well\n\n Estella unlocks a new way to play Physical teams Solidifaction-Physical hybrid\n\n Cryo\n\n Alesh Cryo\n\n Spammable combo skill that triggers off of Endmin's Originium Crystals and which refunds SP\n\n Strong supportive set and weapon options which boost the team's damage\n\n Extra synergy when played within the Solidification-Physical hybrid build\n\n Even more buffs for Endmin and the team after unlocking P3\n\n Physical\n\n Rossi Physical\n\n Endmin can consume Vulnerability stacks via Crush, contributing high personal damage from all Vulnerability stacks from Rossi.\n\n Physical DMG buff on Originium Crystals is relevant for Rossi and P2 ATK buffs can be set up for burst periods.\n\n Very SP intensive and although return on Originium Crystal consumption does help, it can be clunky to align at times.",
+      "assets": [
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9b291c88ce28",
+          "sourceHash": "9b291c88ce28",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "element-physical",
+          "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "b9a388c21c56",
+          "sourceHash": "b9a388c21c56",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-icon",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6e2e470f976d",
+          "sourceHash": "6e2e470f976d",
+          "kind": "characters",
+          "name": "Lifeng",
+          "fileStem": "lifeng-icon",
+          "path": "Prydwen/endfield/assets/characters/lifeng-6e2e470f976d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3c1cc57bcd5f",
+          "sourceHash": "3c1cc57bcd5f",
+          "kind": "icons",
+          "name": "Nature",
+          "fileStem": "element-nature",
+          "path": "Prydwen/endfield/assets/icons/nature-3c1cc57bcd5f.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "84894033ba6b",
+          "sourceHash": "84894033ba6b",
+          "kind": "characters",
+          "name": "Estella",
+          "fileStem": "estella-icon",
+          "path": "Prydwen/endfield/assets/characters/estella-84894033ba6b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "ffd55a6794cd",
+          "sourceHash": "ffd55a6794cd",
+          "kind": "icons",
+          "name": "Cryo",
+          "fileStem": "element-cryo",
+          "path": "Prydwen/endfield/assets/icons/cryo-ffd55a6794cd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "4631b4aa4d51",
+          "sourceHash": "4631b4aa4d51",
+          "kind": "characters",
+          "name": "Alesh",
+          "fileStem": "alesh-icon",
+          "path": "Prydwen/endfield/assets/characters/alesh-4631b4aa4d51.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-63",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Endministrator teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+      "assets": []
+    },
+    {
+      "id": "team-members-64",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Endministrator\n\n Pogranichnik\n\n Chen Qianyu\n\n Ardelia",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b9a388c21c56",
+          "sourceHash": "b9a388c21c56",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-icon",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "opening-rotation-endmin-version-65",
+      "level": 6,
+      "heading": "Opening rotation (Endmin Version)",
+      "text": "If you want to deal direct damage with Endmin using Crush use the rotation listed directly below, but if you want to use Breach use the Pog one.\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b9a388c21c56",
+          "sourceHash": "b9a388c21c56",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-icon",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "opening-rotation-pog-version-66",
+      "level": 6,
+      "heading": "Opening rotation (Pog Version)",
+      "text": "If you'd prefer to infliction Breach over the upfront damage of Crush make a slight adjustment and use this opener instead\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n After your opener is done and your team's combos are on cooldown, there will be spare SP available for Ardelia to apply her Battle Skill debuffs without interfering with your rotation. Throughout the rest of the fight, omit Ardelia from the rotation above and instead execute what's listed below during downtime to keep her Susceptibility active without chewing up SP from your rotation.\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b9a388c21c56",
+          "sourceHash": "b9a388c21c56",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-icon",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "ultimate-timings-67",
+      "level": 6,
+      "heading": "Ultimate timings",
+      "text": "Endministrator - Use Endmin's Ultimate directly after their Combo Skill to ensure it consumes the Crystals to deal additional damage.\n Chen Qianyu - Use Chen's Ultimate after Endmin's Combo aswell - it doesn't apply Vulnerability or a Physical Status so it will gain the Crytals debuff without Shattering them, meaning Endmin's Battle Skill will still gain full value.\n Pogranichnik - Use Pog's Ultimate to gather enemies in AoE encounters and or before your main rotation to ensure you can consume stacks quickly.\n Ardelia - Save Ultimate for before one of your rotations, ideally during Stagger. Ardelia should be using Stanza Memoralis so using her Ultimate this way will buff the team.",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b9a388c21c56",
+          "sourceHash": "b9a388c21c56",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-icon",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "extra-things-to-look-out-for-68",
+      "level": 6,
+      "heading": "Extra things to look out for",
+      "text": "Against weaker enemies and those who struggle with sequencing all four characters at once, investing the time into establishing Ardelia's Combo Skill at the start of your rotation may not be worth it, instead you can skip it and go straight to your Physical rotation.\n Also against weaker enemies that may die in a single Crush/Breach, you can cut Chen's Battle Skill from the rotation to reduce its total cost to 200 SP instead of 300, making it immediately usable at the start of combat.\n Both the Endmin and Pog rotations can be interchanged in combat depending on what you need. If enemies are likely to last longer, you can apply Breach, but if they may die quickly, Crush might be more optimal.\n When playing Pog on Swordmancer and not using triggering Breach with his Battle Skill, the first Endmin Battle Skill can be swapped out for Pog's Battle Skill in order to weave in triggering Pog's Swordmancer passive.\n\n Team #2",
+      "assets": []
+    },
+    {
+      "id": "team-members-69",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Endministrator\n\n Lifeng\n\n Chen Qianyu\n\n Ardelia",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6e2e470f976d",
+          "sourceHash": "6e2e470f976d",
+          "kind": "characters",
+          "name": "Lifeng",
+          "fileStem": "lifeng-icon",
+          "path": "Prydwen/endfield/assets/characters/lifeng-6e2e470f976d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "opening-rotation-70",
+      "level": 6,
+      "heading": "Opening rotation",
+      "text": "Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n After your opener is done and your team's combos are on cooldown, there will be spare SP available for Ardelia to apply her debuffs without interferring with your rotation. Execute the below to keep her Susceptibility up the rest of the fight. You can also omit her in the rotation above as after the opener, it's better to use her Combo during downtime.\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill",
+      "assets": [
+        {
+          "id": "6e2e470f976d",
+          "sourceHash": "6e2e470f976d",
+          "kind": "characters",
+          "name": "Lifeng",
+          "fileStem": "lifeng-icon",
+          "path": "Prydwen/endfield/assets/characters/lifeng-6e2e470f976d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "ultimate-timings-71",
+      "level": 6,
+      "heading": "Ultimate timings",
+      "text": "Endministrator - Use Endmin's Ultimate directly after their and Lifeng's Combo Skill to ensure it consumes the Crystals and Link to deal additional damage,\n Chen Qianyu - Use Chen's Ultimate after Endmin and Lifeng's Combos as well. It doesn't apply Vulnerability or a physical status, so it will gain the Crystals debuff without Shattering them, meaning Endmin's Battle Skill will still gain full value.\n Ardelia - Save Ultimate for before one of your rotations, ideally during Stagger. Ardelia should be using Stanza Memoralis so using her Ultimate this way will buff the team.\n Lifeng - When Lifeng's Ultimate is available, in order to make use of the 2 Vulnerable it provides, it's best to modify your rotation. Remember to wait for a short pause so the Ultimate finishes casting and you get both Vulnerability stacks. Here is what we recommend adjusting to as a starting point:\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Battle Skill",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6e2e470f976d",
+          "sourceHash": "6e2e470f976d",
+          "kind": "characters",
+          "name": "Lifeng",
+          "fileStem": "lifeng-icon",
+          "path": "Prydwen/endfield/assets/characters/lifeng-6e2e470f976d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "extra-things-to-look-out-for-72",
+      "level": 6,
+      "heading": "Extra things to look out for",
+      "text": "Against weaker enemies and those who struggle with sequencing all four characters at once, investing the time into establishing Ardelia's combo skill at the start of your rotation may not be worth it. Instead you can skip it and go straight to your physical rotation,\n Also against weaker enemies that may die in a single Crush, you can cut Chen's Battle Skill from the rotation to reduce its total cost to 200 SP instead of 300, making it immediately usable at the start of combat.\n Lifeng's Battle Skill has a long animation. Make sure not to use Ardelia's Combo skill until it lands, otherwise you may accidently trigger Endmin's combo before Chen's, ruining the rotation.\n Once you're confident in the timings, you can begin Lifeng's Battle Skill halfway through your Main Field Character's Basic Attack animation so that it lands right after the Final Strike, which will trigger Ardelia and then Chen Combo in quick succession. Just be careful you don't have Lifeng's Battle Skill land before your Final Strike, otherwise Ardelia's Combo will be blocked.\n Sometime's you'll have multiple Ultimates available at the same time and will have to choose which to buff with Lifeng's Link here is the priority order: Lifeng → Endministrator = Chen Qianyu\n\n Team #3",
+      "assets": [
+        {
+          "id": "6e2e470f976d",
+          "sourceHash": "6e2e470f976d",
+          "kind": "characters",
+          "name": "Lifeng",
+          "fileStem": "lifeng-icon",
+          "path": "Prydwen/endfield/assets/characters/lifeng-6e2e470f976d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "team-members-73",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Endministrator\n\n Estella\n\n Alesh\n\n Ardelia",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "84894033ba6b",
+          "sourceHash": "84894033ba6b",
+          "kind": "characters",
+          "name": "Estella",
+          "fileStem": "estella-icon",
+          "path": "Prydwen/endfield/assets/characters/estella-84894033ba6b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4631b4aa4d51",
+          "sourceHash": "4631b4aa4d51",
+          "kind": "characters",
+          "name": "Alesh",
+          "fileStem": "alesh-icon",
+          "path": "Prydwen/endfield/assets/characters/alesh-4631b4aa4d51.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "opening-rotation-74",
+      "level": 6,
+      "heading": "Opening rotation",
+      "text": "Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n After your opener is done and your team's combos are on cooldown, there will be spare SP available for Ardelia to apply her debuffs without interferring with your rotation. Execute the below to keep her Susceptibility up the rest of the fight. You can also omit her in the rotation above as after the opener, it's better to use her Combo during downtime.\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill",
+      "assets": [
+        {
+          "id": "84894033ba6b",
+          "sourceHash": "84894033ba6b",
+          "kind": "characters",
+          "name": "Estella",
+          "fileStem": "estella-icon",
+          "path": "Prydwen/endfield/assets/characters/estella-84894033ba6b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4631b4aa4d51",
+          "sourceHash": "4631b4aa4d51",
+          "kind": "characters",
+          "name": "Alesh",
+          "fileStem": "alesh-icon",
+          "path": "Prydwen/endfield/assets/characters/alesh-4631b4aa4d51.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "ultimate-timings-75",
+      "level": 6,
+      "heading": "Ultimate timings",
+      "text": "Endministrator - Use Endmin's Ultimate directly after their Combo skill to ensure it consumes the Crystals to deal additional damage,\n Estella - Use Estella's Ultimate after her Combo skill but before you use Endmin's combo. This will apply an extra stack of Vulnerability and using it before Endmin's Combo will ensure you don't explode their crystals with it wasting them,\n Alesh - Use Alesh's ultimate either alongside Estella's Battle Skill or before your rotation starts. Just make sure you don't use it too soon during downtime as doing so will apply its Cryo Stack too early and disable Ardelia's combo from triggering,\n Ardelia - Save Ultimate for before one of your rotations, ideally during Stagger. Ardelia should be using Stanza Memoralis so using her Ultimate this way will buff the team.",
+      "assets": [
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "84894033ba6b",
+          "sourceHash": "84894033ba6b",
+          "kind": "characters",
+          "name": "Estella",
+          "fileStem": "estella-icon",
+          "path": "Prydwen/endfield/assets/characters/estella-84894033ba6b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4631b4aa4d51",
+          "sourceHash": "4631b4aa4d51",
+          "kind": "characters",
+          "name": "Alesh",
+          "fileStem": "alesh-icon",
+          "path": "Prydwen/endfield/assets/characters/alesh-4631b4aa4d51.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "extra-things-to-look-out-for-76",
+      "level": 6,
+      "heading": "Extra things to look out for",
+      "text": "Against weaker enemies and those who struggle with sequencing all four characters at once, investing the time into establishing Ardelia's combo skill at the start of your rotation may not be worth it. Instead you can skip it and go straight to your physical rotation.\n\n Team #4",
+      "assets": []
+    },
+    {
+      "id": "team-members-77",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Lifeng\n\n Pogranichnik\n\n Chen Qianyu\n\n Endministrator",
+      "assets": [
+        {
+          "id": "6e2e470f976d",
+          "sourceHash": "6e2e470f976d",
+          "kind": "characters",
+          "name": "Lifeng",
+          "fileStem": "lifeng-icon",
+          "path": "Prydwen/endfield/assets/characters/lifeng-6e2e470f976d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b9a388c21c56",
+          "sourceHash": "b9a388c21c56",
+          "kind": "characters",
+          "name": "Pogranichnik",
+          "fileStem": "pogranichnik-icon",
+          "path": "Prydwen/endfield/assets/characters/pogranichnik-b9a388c21c56.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1caef6a8417c",
+          "sourceHash": "1caef6a8417c",
+          "kind": "characters",
+          "name": "Chen Qianyu",
+          "fileStem": "chen-qianyu-icon",
+          "path": "Prydwen/endfield/assets/characters/chen-qianyu-1caef6a8417c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9a13555d7b5d",
+          "sourceHash": "9a13555d7b5d",
+          "kind": "characters",
+          "name": "Endministrator",
+          "fileStem": "endministrator-icon",
+          "path": "Prydwen/endfield/assets/characters/endministrator-9a13555d7b5d.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Endministrator teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Endministrator performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Grand Vision (P 0 )\n\n Endmin's Signature is their best option for damage, but is comparable to Eminent Repute in a lot of cases when it comes to overall team output, assuming you're running Endmin along other capable Physical damage dealers. Its edge in personal damage comes from its optimal combination of passive stats and strong Weapon Effect that can be triggered multiple times a fight. What makes Eminent a viable alternative, though, is the fact that it buffs the entire team on use.\nNote: Weapon calculations are using a Crush Endmin rotation, which gains notable value out of this weapon's Arts Intensity. If you're not crushing with Endmin, its performance will drop.\n\n 2\n Solo 98.10%\n Team 101.50%\n\n Eminent Repute (P 0 )\n\n A close alternative to Grand Vision for Endmin's personal damage thanks to a great combination of passives, which only slightly loses out to Grand Vision, but most notably has a Weapon Effect that grants a team-wide supportive bonus that also boosts Endmin's own damage by a significant amount. This is why it can compete and sometimes even be more valuable than Grand Vision in team scenarios.\nNote: Eminent Repute's weapon effect only functions when Endmin is consuming Vulnerability stacks, so if they aren't the one activating Crush in the team, this Sword loses significant value compared to what is displayed.\n\n 3\n Solo 87.00%\n Team 93.20%\n\n Sundering Steel (P 5 )\n\n A solid 5-star option for Endmin, which has great passive stats for Endmin but at lower values than their 6-star options. This Sword's weapon effect is also solid, although it only works if Endmin is applying Crush, and can usually only reach one stack in most team compositions. Because of these reasons, it falls behind Endmin's top options.\n\n 4\n Solo 76.60%\n Team 87.80%\n\n Rapid Ascent (P 0 )\n\n An underwhelming Sword given its 6-star rarity. Has a mediocre mix of passives, with one of them being conditional and only working on Ultimate and Skills and the other one being Crit Rate, a stat Endmin doesn't want. Fortunately, the Weapon effect isn't bad, but it's not outstanding either. To make the most of it, you'll need to ensure you focus on landing Endmin's Ultimate during Stagger.\n\n 5\n Solo 70.50%\n Team 84.60%\n\n Contingent Measure (P 5 )\n\n Last resort option if you're lacking any of the choices above. Has the correct passive stats, but all at much lower base values, setting it significantly behind all other choices",
+          "assets": [
+            {
+              "id": "6213098755db",
+              "sourceHash": "6213098755db",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-10",
+              "path": "Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "422f4ebe9134",
+              "sourceHash": "422f4ebe9134",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-16",
+              "path": "Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "5885ce319ff1",
+              "sourceHash": "5885ce319ff1",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-4",
+              "path": "Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "3e8807087807",
+              "sourceHash": "3e8807087807",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-14",
+              "path": "Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "1a19647c67d3",
+              "sourceHash": "1a19647c67d3",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-2",
+              "path": "Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "The solo percentage shows how the set and gear impact Endministrator performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 117%\n Team 109%\n\n Grizzled Edge",
+          "assets": [
+            {
+              "id": "2252670f4118",
+              "sourceHash": "2252670f4118",
+              "kind": "gear",
+              "name": "Gear Set",
+              "fileStem": "gear-126",
+              "path": "Prydwen/endfield/assets/gear/gear-126-2252670f4118.webp",
+              "width": 50,
+              "height": 50
+            }
+          ]
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 117.70%\n Aethertech Plating\n\n Solo 122.30%\n Bonekrusha Heavy Armor T1\n\n Solo 119.60%\n Frontiers Armor T1\n\n Solo 115.50%\n MI Security Overalls\n\n Solo 124.50%\n Swordmancer Heavy Armor\n\n Solo 116.70%\n Type 50 Yinglung Heavy Armor\n\n Solo 108.50%\n Type 50 Yinglung Light Armor\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 122.20%\n Aethertech Gloves\n\n Solo 119.40%\n MI Security Gloves\n\n Solo 115.90%\n MI Security Hands PPE\n\n Solo 119.60%\n Swordmancer TAC Gauntlets\n\n Solo 121.70%\n Swordmancer TAC Gloves\n\n Solo 115.30%\n Type 50 Yinglung Gloves\n\n Solo 111.20%\n Type 50 Yinglung Gloves T1\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 115.60%\n Aethertech Stabilizer\n\n Solo 108.70%\n Bonekrusha Figurine\n\n Solo 130.30%\n Bonekrusha Mask\n\n Solo 110.10%\n Frontiers Comm\n\n Solo 107.70%\n Frontiers Extra O2 Tube\n\n Solo 112.40%\n MI Security Scope\n\n Solo 128.20%\n Swordmancer Flint\n\n Solo 110.60%\n Turbid Cutting Torch\n\n Solo 109.80%\n Type 50 Yinglung Knife T1\n\n Solo 122.20%\n Type 50 Yinglung Radar\n\n Solo 100%\n Nothing equipped",
+          "assets": [
+            {
+              "id": "594f049ae870",
+              "sourceHash": "594f049ae870",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-3",
+              "path": "Prydwen/endfield/assets/gear/gear-3-594f049ae870.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "941601fa199f",
+              "sourceHash": "941601fa199f",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-7",
+              "path": "Prydwen/endfield/assets/gear/gear-7-941601fa199f.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "3bb18ad35648",
+              "sourceHash": "3bb18ad35648",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-19",
+              "path": "Prydwen/endfield/assets/gear/gear-19-3bb18ad35648.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "ed1c46d8a7c6",
+              "sourceHash": "ed1c46d8a7c6",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-50",
+              "path": "Prydwen/endfield/assets/gear/gear-50-ed1c46d8a7c6.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "62b0e360463a",
+              "sourceHash": "62b0e360463a",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-62",
+              "path": "Prydwen/endfield/assets/gear/gear-62-62b0e360463a.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "278306afe33b",
+              "sourceHash": "278306afe33b",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-70",
+              "path": "Prydwen/endfield/assets/gear/gear-70-278306afe33b.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "1c7c451bae1e",
+              "sourceHash": "1c7c451bae1e",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-73",
+              "path": "Prydwen/endfield/assets/gear/gear-73-1c7c451bae1e.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "d19456ec3ed4",
+              "sourceHash": "d19456ec3ed4",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-2",
+              "path": "Prydwen/endfield/assets/gear/gear-2-d19456ec3ed4.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "517133a1c3b1",
+              "sourceHash": "517133a1c3b1",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-44",
+              "path": "Prydwen/endfield/assets/gear/gear-44-517133a1c3b1.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "71f2e0ed92df",
+              "sourceHash": "71f2e0ed92df",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-45",
+              "path": "Prydwen/endfield/assets/gear/gear-45-71f2e0ed92df.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "b8c382149543",
+              "sourceHash": "b8c382149543",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-63",
+              "path": "Prydwen/endfield/assets/gear/gear-63-b8c382149543.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "199b30cfa072",
+              "sourceHash": "199b30cfa072",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-64",
+              "path": "Prydwen/endfield/assets/gear/gear-64-199b30cfa072.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "4f128e86edc0",
+              "sourceHash": "4f128e86edc0",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-68",
+              "path": "Prydwen/endfield/assets/gear/gear-68-4f128e86edc0.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "4b7abc3e9c6b",
+              "sourceHash": "4b7abc3e9c6b",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-4",
+              "path": "Prydwen/endfield/assets/gear/gear-4-4b7abc3e9c6b.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "0f7b6d9640ee",
+              "sourceHash": "0f7b6d9640ee",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-5",
+              "path": "Prydwen/endfield/assets/gear/gear-5-0f7b6d9640ee.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "eca51770722b",
+              "sourceHash": "eca51770722b",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-9",
+              "path": "Prydwen/endfield/assets/gear/gear-9-eca51770722b.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "0f5968f8403f",
+              "sourceHash": "0f5968f8403f",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-24",
+              "path": "Prydwen/endfield/assets/gear/gear-24-0f5968f8403f.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "ae5d588d4460",
+              "sourceHash": "ae5d588d4460",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-26",
+              "path": "Prydwen/endfield/assets/gear/gear-26-ae5d588d4460.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "31a71303f190",
+              "sourceHash": "31a71303f190",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-49",
+              "path": "Prydwen/endfield/assets/gear/gear-49-31a71303f190.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "34b2f54bc3ca",
+              "sourceHash": "34b2f54bc3ca",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-61",
+              "path": "Prydwen/endfield/assets/gear/gear-61-34b2f54bc3ca.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "5031ea56a1c1",
+              "sourceHash": "5031ea56a1c1",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-67",
+              "path": "Prydwen/endfield/assets/gear/gear-67-5031ea56a1c1.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "346e3930a9ba",
+              "sourceHash": "346e3930a9ba",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-71",
+              "path": "Prydwen/endfield/assets/gear/gear-71-346e3930a9ba.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "ec86f6c5cb8f",
+              "sourceHash": "ec86f6c5cb8f",
+              "kind": "gear",
+              "name": "Gear",
+              "fileStem": "gear-74",
+              "path": "Prydwen/endfield/assets/gear/gear-74-ec86f6c5cb8f.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Endministrator Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Endministrator\n Endministrator Best Build Guide\n Last updated: 12/May/2026\n\n Introduction\n\n Endministrator is a 6 -star character in Arknights: Endfield (AKE). Endministrator wields a Sword and belongs to the Guard class. Endministrator also has access to the Physical element. This guide provides a comprehensive overview of Endministrator 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Endministrator check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Endministrator has no video guide yet.\n\n Update tracker\n\n Last review update\n Patch 1\n\n Last major build/calcs update\n Patch 1\n\n Last profile update*\n 12/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Endministrator check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 123\n\n Agility\n 140\n\n Intellect\n 96\n\n Will\n 107\n\n Skills\n\n Basic Attack\n Destructive Sequence\n\n BASIC ATTACK:\n An attack with up to 5 sequences that deals Physical DMG . As the controlled operator, Final Strike also deals 18 Stagger .\n DIVE ATTACK:\n Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\n Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Constructive Sequence\n SP Cost : 100\n\n A forceful burst of Originium Arts that attacks enemies within the area of effect. Deals Physical DMG and applies Crush .\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Sealing Sequence\n Cooldown: 15 s\n\n Rushes to the enemy's side to deal Physical DMG and attach Originium Crystals that temporarily seals them. Applying Physical Status or Vulnerability to the sealed enemy consumes the Originium Crystals and deal additional Physical DMG .\n Trigger: When another operator in the team deals DMG with combo skills.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Bombardment Sequence\n Energy cost : 80\n\n Bombards the ground with Originium Arts, dealing massive Physical DMG to all enemies within a fan-shaped area. If the enemy has Originium Crystals on them, this skill consumes the Originium Crystals and deals 1 more hit of Physical DMG .\n Multipliers (Rank 12)\n\n Show Effects\n\n Talents\n\n Combat Talent\n Essence Disintegration\n\n When the Originium Crystals attached to the enemy is consumed , the Endministrator gains ATK +15/30% for 15s . This effect cannot stack.\n Show Effects\n\n Combat Talent\n Realspace Stasis\n\n Enemies with attached Originium Crystals suffer Physical DMG Taken +20/30%.\n Show Effects\n\n Potential (dupes)\n\n P1\n Final Awakening\n Potential 1\n\n Battle skill Constructive Sequence improved: Consuming Originium Crystals returns 50 SP.\n Show Effects\n\n P2\n Reflection of Authority\n Potential 2\n\n Talent Essence Disintegration improved: When the Endministrator gains the ATK buff, other allied operators gain half of this ATK buff.\n\n P3\n ???\n Potential 3\n\n ???\n\n P4\n ???\n Potential 4\n\n ???\n\n P5\n ???\n Potential 5\n\n ???\n\n Lore\n\n In the recorded history of Talos-II, the Endministrator stands as a key guardian who protected civilization on this planet and saved humanity from multiple catastrophic disasters. The Endmin's heroic deeds have given rise to many stories, tales, and even rumors.\n However, the Endmin's identity remains elusive, and only a handful of people have seen the legend in person. Other factions within the Civilization Band are well aware that Endfield has a very special trump card in their hand, but that is all they know.\n The Endministrator's mysterious mastery over Originium and the Protocol Network, along with the Endmin's need for periodic long-term hibernation, is one of Endfield's most important secrets.\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Damage\n T1\n Umbral Monument\n\n Pros & Cons\n\n Pros\n Grants themself and the team ATK%.\n\n Applies a sizable Physical damage taken debuff, benefitting themself and the team.\n\n Can be played as either a primary damage dealer or support damage dealer.\n\n Incredibly easy to trigger Combo Skill.\n\n Improved SP efficiency when played as main damage dealer.\n\n Cons\n Top performance requires careful play around Combo Skill Originium Crystals.\n\n Can only apply Vulnerable to enemies who don’t already have it due to [Crush] being the only source of application.\n\n Review\n\n Kit Intro\n Endministrator is a 6-star, Physical, sword damage dealer hybrid who is also effective when played as a support damage dealer. Which role Endmin takes in a team depends on whether you want them to be the consumer of the team's Vulnerability stacks. If you have no one else to consume them, then running damage-focused Endmin will be effective. If you already have plans for them to be consumed by another character, though, Endmin can still be useful thanks to the great damage from the rest of their kit and ability to grant the team buffs as well. Also, helpful is the fact that Endmin can slot into any team thanks to its Combo Skill being generically activatable by any character.\n Endmin’s damage-focused playstyle revolves around [Crush], which can be activated via their Battle Skill to quickly convert Vulnerability stacks applied to enemies into huge bursts of reaction damage. This, combined with the damage from Endmin’s Combo Skill and Ultimate, makes them a capable Physical carry all at the same time, as they do not need to sacrifice any of their supportive effects.\n The appeal of Endmin’s support damage role primarily comes online after unlocking their second Potential, which allows them to grant the team +15% ATK boost. When combined with their talent, which causes enemies afflicted with their Combo Skill to take 20% extra Physical damage during its duration, it allows them to boost the team while still contributing with Stagger and a sizable amount of damage through their Combo Skill and Ultimate.\n Combo\n Endmin’s Combo Skill is at the heart of their kit, regardless of if you’re playing them as a main or support damage dealer. Its trigger only requires another operator deal damage with their own Combo Skill. On use, it deals Physical DMG and encases the target in Originium Crystals, sealing them for up to 5 seconds. While sealed, if enemies suffer a Physical status or get a Vulnerability stack, the crystals explode, dealing a larger amount of Physical damage, releasing the enemy in the process. The immobilization effect and damage of this combo are good, but how the crystals interact with the rest of Endmin’s kit is truly why it’s powerful.\n Note: Elite/boss enemies cannot be frozen by this combo, but will still receive a debuff that still interacts with the rest of Endmin’s kit in the same way.\n Talents\n Potentials:\n Potential 2: Grants half the ATK% (15%) buff of Essence Disintegration to the whole team for 15 seconds, boosting Endmin’s supportive value considerably.\n\n Both of Endmin’s talents are powerful, and each works off their Combo Skills crystals. The first, Essence Disintegration, grants Endmin a 30% ATK boost for 15 seconds after Originium Crystals are successfully consumed, which is a very nice damage increase.\n Note: You won't get this bonus if you let the Originium Crystals expire.\n Endmin’s other talent causes enemies afflicted with Originium Crystals (sealed or not) to suffer 20% Physical Damage taken. This is a strong damage increase, much rarer than usual. It also remains in effect for damage that removes the Originium Crystals, meaning the Physical status that explodes them, the hit that triggers the status, and the crystal explosion itself will all be boosted.\n Tip: For players optimizing, it’s worth using as many high damage attacks and abilities that don’t inflict Vulnerable or Physical statuses before detonating the crystals. This allows you to take advantage of the damage taken debuff, as long as you don’t accidentally let the Originium Crystals expire.\n Battle Skill\n Potentials:\n Potential 1: After activation, consuming Originium Crystals with Endmin’s Battle Skill also returns 50 SP, making it far more efficient when you’re able to trigger the effect.\n\n Endmin’s Battle Skill is simple; it costs 100 SP, deals Physical damage in a cone-based AoE, and inflicts [Crush] to all enemies hit.\n In damage-focused Endmin teams, this ability is usually the finisher you’ll be using at the end of your combos to consume the team's Vulnerability stacks. Detonate the Originium Crystals and refund SP in the process.\n When playing Endmin in the support damage role, you’ll be saving your Vulnerability stacks for a different character in most cases. Instead, you can use this Battle Skill as an opener against non-Vulnerable enemies to make use of Crush as a Vulnerable applier instead of a spender. This is useful to activate some weapons and sets.\n Ultimate\n Endmin’s Ultimate costs 80 energy to use and delivers an AoE Physical damage nuke centered on your target. This ability also has an additional effect that enables it to forcibly consume Originium Crystals on the target to deal another hit of Physical damage, which when added, almost doubles the damage of the Ultimate. With such a huge benefit available and the damage taken buff of the crystals themselves, you should always try to align using Endmin’s combo before their Ultimate, so it may consume the Originium Crystals.\n Gameplay\n Endmin has two playstyles:\n DPS\n In teams where Endmin is one or the main character consuming Vulnerability stacks on enemies, follow this approach:\n Build Vulnerability stacks through team abilities;\n\n Time Combo Skill, so it can be detonated by Endmin’s Battle Skill or Ultimate. To gain more damage, use other abilities in between your combo and Battle Skill/Ultimate, which don’t apply Physical statuses, or Vulnerable, to take advantage of the crystals’ damage taken debuff.\n\n Detonate Originium Crystals from Combo Skill using Ultimate if available, preferably after enemies are Staggered.\n\n If Ultimate is not up, and you’ve accumulated all the Vulnerability stacks, you’re able to use Battle Skill to consume them as well as your combos crystals.\n\n Support Damage\n In teams where another character is consuming Vulnerability stacks, the majority of the time, proceed with this approach instead:\n Use Endmin’s Battle Skill to establish the first stack of Vulnerable on enemies so they can activate set and weapon effects without interfering with your other Vulnerable spenders' rotation.\n\n Time Combo Skill, so it can be detonated by Endmin’s Ultimate if available, or your team's Vulnerable spender’s spending ability. To gain more damage, use other abilities in between your combo and Ultimate/Team Spender, which don’t apply Physical statuses or Vulnerable, to take advantage of the crystal's damage taken debuff.\n\n Detonate Originium Crystals from Combo Skill using Ultimate if available, preferably after enemies are Staggered.\n\n Detonate Crystals with the team's Vulnerable spending skill if the Ultimate is not available.\n\n Build\n\n Best Weapons\n\n The percentages show the performance of the weapon based on calculations , but in some cases, some Weapons might provide additional QOL that can't be quantified and it would push that weapon ahead of others in the priority (and in those cases, we would put that weapon higher).\n The solo percentage shows how the weapon impacts Endministrator performance if you look at their damage in the vacuum, while the team percentage shows the impact of the weapon when taking into account full team, including buffs etc.\n\n 1\n Solo 100.00%\n Team 100.00%\n\n Grand Vision (P 0 )\n\n Endmin's Signature is their best option for damage, but is comparable to Eminent Repute in a lot of cases when it comes to overall team output, assuming you're running Endmin along other capable Physical damage dealers. Its edge in personal damage comes from its optimal combination of passive stats and strong Weapon Effect that can be triggered multiple times a fight. What makes Eminent a viable alternative, though, is the fact that it buffs the entire team on use.\nNote: Weapon calculations are using a Crush Endmin rotation, which gains notable value out of this weapon's Arts Intensity. If you're not crushing with Endmin, its performance will drop.\n\n 2\n Solo 98.10%\n Team 101.50%\n\n Eminent Repute (P 0 )\n\n A close alternative to Grand Vision for Endmin's personal damage thanks to a great combination of passives, which only slightly loses out to Grand Vision, but most notably has a Weapon Effect that grants a team-wide supportive bonus that also boosts Endmin's own damage by a significant amount. This is why it can compete and sometimes even be more valuable than Grand Vision in team scenarios.\nNote: Eminent Repute's weapon effect only functions when Endmin is consuming Vulnerability stacks, so if they aren't the one activating Crush in the team, this Sword loses significant value compared to what is displayed.\n\n 3\n Solo 87.00%\n Team 93.20%\n\n Sundering Steel (P 5 )\n\n A solid 5-star option for Endmin, which has great passive stats for Endmin but at lower values than their 6-star options. This Sword's weapon effect is also solid, although it only works if Endmin is applying Crush, and can usually only reach one stack in most team compositions. Because of these reasons, it falls behind Endmin's top options.\n\n 4\n Solo 76.60%\n Team 87.80%\n\n Rapid Ascent (P 0 )\n\n An underwhelming Sword given its 6-star rarity. Has a mediocre mix of passives, with one of them being conditional and only working on Ultimate and Skills and the other one being Crit Rate, a stat Endmin doesn't want. Fortunately, the Weapon effect isn't bad, but it's not outstanding either. To make the most of it, you'll need to ensure you focus on landing Endmin's Ultimate during Stagger.\n\n 5\n Solo 70.50%\n Team 84.60%\n\n Contingent Measure (P 5 )\n\n Last resort option if you're lacking any of the choices above. Has the correct passive stats, but all at much lower base values, setting it significantly behind all other choices\n\n Best Gear\n\n The solo percentage shows how the set and gear impact Endministrator performance if you look at their damage in the vacuum, while the team percentage shows the impact when taking into account full team, including buffs etc.\n\n 1\n Solo 117%\n Team 109%\n\n Grizzled Edge\n\n Description\n Grizzled Edge is best for a damaging Endmin build due to its high Physical DMG bonus scaling based on how many Vulnerable stack Endmin consumes during Crush with it being applied before the damage is dealt. When used correctly, Endmin's Combo Skill applying Originium Crystals will also ensure the buff effect will be 1.5x.\n Pieces\n Armor\n Swordmancer Heavy Armor T1 Swordmancer\n\n Gloves\n Grizzled Edge Gauntlets T1 Grizzled Edge\n\n Kit\n Grizzled Edge Push Knife T1 Grizzled Edge\n\n Kit\n Grizzled Edge Push Knife T1 Grizzled Edge\n\n 2\n Solo 100%\n Team 100%\n\n Swordmancer\n\n Description\n Swordmancer is a strong set for any Physical characters thanks to its Stagger Efficiency Bonus can allow teams to reach Stagger nodes faster. The set also adds an extra hit with extra Stagger and Physical DMG when triggering Physical Statuses through Endmin's Crushes.\n Pieces\n Armor\n Swordmancer Heavy Armor Swordmancer\n\n Gloves\n Aethertech Gloves\n\n Kit\n Swordmancer Flint Swordmancer\n\n Kit\n Swordmancer Flint Swordmancer\n\n Alternative Pieces\n Swordmancer Heavy Armor T1\n - In cases where Endmin isn't consistently landing high-stack Crushes, opting for Swordmancer Heavy Armor T1 can improve overall damage due to generic Physical DMG buffs affecting all damage sources.\n\n Best Gear Pieces\n\n Keep in mind that the gear pieces below are being compared against having nothing equipped on the character at all . This means that in some cases, when you include Weapons, other pieces, outside buffs etc, the values of some pieces may change. For more accurate information, check the section above where we picked the best combination when you look at all pieces equipped.\n Pieces marked with a star * can perform better than listed - this applies to:\n Ult gain efficiency pieces, granting new Ultimate breakpoints,\n Arts Intensity boosting the efficacy of Electrification , Corrosion and Breach , rising overall team output even if personal damage is less impressive.\n\n Armor\n Solo 117.70%\n Aethertech Plating\n\n Solo 122.30%\n Bonekrusha Heavy Armor T1\n\n Solo 119.60%\n Frontiers Armor T1\n\n Solo 115.50%\n MI Security Overalls\n\n Solo 124.50%\n Swordmancer Heavy Armor\n\n Solo 116.70%\n Type 50 Yinglung Heavy Armor\n\n Solo 108.50%\n Type 50 Yinglung Light Armor\n\n Solo 100%\n Nothing equipped\n\n Gloves\n Solo 122.20%\n Aethertech Gloves\n\n Solo 119.40%\n MI Security Gloves\n\n Solo 115.90%\n MI Security Hands PPE\n\n Solo 119.60%\n Swordmancer TAC Gauntlets\n\n Solo 121.70%\n Swordmancer TAC Gloves\n\n Solo 115.30%\n Type 50 Yinglung Gloves\n\n Solo 111.20%\n Type 50 Yinglung Gloves T1\n\n Solo 100%\n Nothing equipped\n\n Kit\n Solo 115.60%\n Aethertech Stabilizer\n\n Solo 108.70%\n Bonekrusha Figurine\n\n Solo 130.30%\n Bonekrusha Mask\n\n Solo 110.10%\n Frontiers Comm\n\n Solo 107.70%\n Frontiers Extra O2 Tube\n\n Solo 112.40%\n MI Security Scope\n\n Solo 128.20%\n Swordmancer Flint\n\n Solo 110.60%\n Turbid Cutting Torch\n\n Solo 109.80%\n Type 50 Yinglung Knife T1\n\n Solo 122.20%\n Type 50 Yinglung Radar\n\n Solo 100%\n Nothing equipped\n\n Potentials Review\n\n Endministrator dupes can be obtained for free . That's why the guide and review above already assumes you have the currently available number of dupes and we're not reviewing each separately.\n\n Calculations\n\n In this section we're showing the team setup used for the above calculations as well as the damage split for Endministrator based on where it comes from. The setup isn't always best in slot for each character and also please keep in mind that with different team members, Weapons, and Gear, the calculations will change.\n\n Operator 1\n\n Weapon\n Grand Vision\n\n Operator 2\n\n Weapon\n Sundering Steel\n\n Operator 3\n\n Weapon\n Never Rest\n\n Operator 4\n\n Weapon\n Stanza of Memorials\n\n Endministrator Damage Split\n\n Skill Priority\n\n Off Field :\n Battle Skill = Ultimate >= Combo Skill >= Basic Attack\n Main Field :\n Basic Attack > Battle Skill = Ultimate >= Combo Skill\n\n Teams and Synergies\n\n Synergies\n\n Physical\n\n Chen Qianyu Physical\n\n Applies a Vulnerability stack for free with Combo, allowing higher stack sizes to be much more efficiently achieved, leading to consistently higher Crush damage throughout the fight. This effect alone earns her a place in almost every Physical team.\n\n Higher than average Stagger across her kit\n\n Very capable Sub-DPS damage potential even with zero resources allocated to her\n\n Chen benefits nicely from Endmins teamwide buffs, boosting her damage further\n\n Physical\n\n Pogranichnik Physical\n\n Can either act as a support for Pog or have Pog support them\n\n When supporting Pog gains a large damage boost from his Breach damage taken debuff\n\n When being supported by Pog gains a constant flow of extra SP and buffs from his outstanding supportive weapon and set options\n\n Pog's AoE gathering ultimate can concentrate enemies for Endmin to blast down with their Ultimate or Battle Skill\n\n Pog himself benefits nicely from Endmins teamwide buffs, boosting his own damage both as the carry and support\n\n Hyper optimized teams can combine both Breach and Crush, getting the best of both DPS Endmin and Pog.\n\n Physical\n\n Lifeng Physical\n\n Lifeng generates bursts of Vulnerability with the Ultimate to fuel more frequent, higher stack size Crushes\n\n Lifeng applies Physical Susceptibility to targets, boosting Endmin's damage potential\n\n Lifeng applies Link to the team which, when not consumed by his own Ult, can be used by Endmin to amplify their Ult or Battle Skill\n\n Endmin provides team-wide buffs while performing their role as a damage dealer, which will raise Lifeng's damage potential as well\n\n Nature\n\n Ardelia Nature\n\n Able to permanently maintain both Arts and Physical susceptibility on targets for generic team-wide damage increases that work in any team\n\n Outstanding supportive weapon and set options for even more damage amplification, with options that work for both Physical and Arts\n\n Forcibly applies Corrosion, which, when optimized around, can lower enemy resistances to all damage temporarily if Susceptibility doesn't need to be refreshed\n\n Only requires 100 SP roughly every 30 seconds to function at maximum capacity\n\n Strong enough sustain to single handedly keep the team alive through most endgame encounters as long as smart dodging is used.\n\n Cryo\n\n Estella Cryo\n\n Estella applies an outstanding amount of Vulnerability with her combo skill and very cheap Ultimate\n\n Estella applies Physical Susceptibility to boost the entire team's Physical damage\n\n Estella herself benefits nicely from Endmin’s teamwide buffs, boosting her own damage as well\n\n Estella unlocks a new way to play Physical teams Solidifaction-Physical hybrid\n\n Cryo\n\n Alesh Cryo\n\n Spammable combo skill that triggers off of Endmin's Originium Crystals and which refunds SP\n\n Strong supportive set and weapon options which boost the team's damage\n\n Extra synergy when played within the Solidification-Physical hybrid build\n\n Even more buffs for Endmin and the team after unlocking P3\n\n Physical\n\n Rossi Physical\n\n Endmin can consume Vulnerability stacks via Crush, contributing high personal damage from all Vulnerability stacks from Rossi.\n\n Physical DMG buff on Originium Crystals is relevant for Rossi and P2 ATK buffs can be set up for burst periods.\n\n Very SP intensive and although return on Originium Crystal consumption does help, it can be clunky to align at times.\n\n Teams\n\n Endministrator teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1\n Team Members\n\n Endministrator\n\n Pogranichnik\n\n Chen Qianyu\n\n Ardelia\n\n Opening rotation (Endmin Version)\n If you want to deal direct damage with Endmin using Crush use the rotation listed directly below, but if you want to use Breach use the Pog one.\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n Opening rotation (Pog Version)\n If you'd prefer to infliction Breach over the upfront damage of Crush make a slight adjustment and use this opener instead\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n After your opener is done and your team's combos are on cooldown, there will be spare SP available for Ardelia to apply her Battle Skill debuffs without interfering with your rotation. Throughout the rest of the fight, omit Ardelia from the rotation above and instead execute what's listed below during downtime to keep her Susceptibility active without chewing up SP from your rotation.\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n Ultimate timings\n Endministrator - Use Endmin's Ultimate directly after their Combo Skill to ensure it consumes the Crystals to deal additional damage.\n Chen Qianyu - Use Chen's Ultimate after Endmin's Combo aswell - it doesn't apply Vulnerability or a Physical Status so it will gain the Crytals debuff without Shattering them, meaning Endmin's Battle Skill will still gain full value.\n Pogranichnik - Use Pog's Ultimate to gather enemies in AoE encounters and or before your main rotation to ensure you can consume stacks quickly.\n Ardelia - Save Ultimate for before one of your rotations, ideally during Stagger. Ardelia should be using Stanza Memoralis so using her Ultimate this way will buff the team.\n Extra things to look out for\n Against weaker enemies and those who struggle with sequencing all four characters at once, investing the time into establishing Ardelia's Combo Skill at the start of your rotation may not be worth it, instead you can skip it and go straight to your Physical rotation.\n Also against weaker enemies that may die in a single Crush/Breach, you can cut Chen's Battle Skill from the rotation to reduce its total cost to 200 SP instead of 300, making it immediately usable at the start of combat.\n Both the Endmin and Pog rotations can be interchanged in combat depending on what you need. If enemies are likely to last longer, you can apply Breach, but if they may die quickly, Crush might be more optimal.\n When playing Pog on Swordmancer and not using triggering Breach with his Battle Skill, the first Endmin Battle Skill can be swapped out for Pog's Battle Skill in order to weave in triggering Pog's Swordmancer passive.\n\n Team #2\n Team Members\n\n Endministrator\n\n Lifeng\n\n Chen Qianyu\n\n Ardelia\n\n Opening rotation\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n After your opener is done and your team's combos are on cooldown, there will be spare SP available for Ardelia to apply her debuffs without interferring with your rotation. Execute the below to keep her Susceptibility up the rest of the fight. You can also omit her in the rotation above as after the opener, it's better to use her Combo during downtime.\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n Ultimate timings\n Endministrator - Use Endmin's Ultimate directly after their and Lifeng's Combo Skill to ensure it consumes the Crystals and Link to deal additional damage,\n Chen Qianyu - Use Chen's Ultimate after Endmin and Lifeng's Combos as well. It doesn't apply Vulnerability or a physical status, so it will gain the Crystals debuff without Shattering them, meaning Endmin's Battle Skill will still gain full value.\n Ardelia - Save Ultimate for before one of your rotations, ideally during Stagger. Ardelia should be using Stanza Memoralis so using her Ultimate this way will buff the team.\n Lifeng - When Lifeng's Ultimate is available, in order to make use of the 2 Vulnerable it provides, it's best to modify your rotation. Remember to wait for a short pause so the Ultimate finishes casting and you get both Vulnerability stacks. Here is what we recommend adjusting to as a starting point:\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Final Strike\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Ultimate\n\n →\n\n Battle Skill\n\n Extra things to look out for\n Against weaker enemies and those who struggle with sequencing all four characters at once, investing the time into establishing Ardelia's combo skill at the start of your rotation may not be worth it. Instead you can skip it and go straight to your physical rotation,\n Also against weaker enemies that may die in a single Crush, you can cut Chen's Battle Skill from the rotation to reduce its total cost to 200 SP instead of 300, making it immediately usable at the start of combat.\n Lifeng's Battle Skill has a long animation. Make sure not to use Ardelia's Combo skill until it lands, otherwise you may accidently trigger Endmin's combo before Chen's, ruining the rotation.\n Once you're confident in the timings, you can begin Lifeng's Battle Skill halfway through your Main Field Character's Basic Attack animation so that it lands right after the Final Strike, which will trigger Ardelia and then Chen Combo in quick succession. Just be careful you don't have Lifeng's Battle Skill land before your Final Strike, otherwise Ardelia's Combo will be blocked.\n Sometime's you'll have multiple Ultimates available at the same time and will have to choose which to buff with Lifeng's Link here is the priority order: Lifeng → Endministrator = Chen Qianyu\n\n Team #3\n Team Members\n\n Endministrator\n\n Estella\n\n Alesh\n\n Ardelia\n Opening rotation\n Final Strike\n\n →\n\n Battle Skill\n\n →\n\n Battle Skill\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n After your opener is done and your team's combos are on cooldown, there will be spare SP available for Ardelia to apply her debuffs without interferring with your rotation. Execute the below to keep her Susceptibility up the rest of the fight. You can also omit her in the rotation above as after the opener, it's better to use her Combo during downtime.\n Final Strike\n\n →\n\n Combo\n\n →\n\n Battle Skill\n\n Ultimate timings\n Endministrator - Use Endmin's Ultimate directly after their Combo skill to ensure it consumes the Crystals to deal additional damage,\n Estella - Use Estella's Ultimate after her Combo skill but before you use Endmin's combo. This will apply an extra stack of Vulnerability and using it before Endmin's Combo will ensure you don't explode their crystals with it wasting them,\n Alesh - Use Alesh's ultimate either alongside Estella's Battle Skill or before your rotation starts. Just make sure you don't use it too soon during downtime as doing so will apply its Cryo Stack too early and disable Ardelia's combo from triggering,\n Ardelia - Save Ultimate for before one of your rotations, ideally during Stagger. Ardelia should be using Stanza Memoralis so using her Ultimate this way will buff the team.\n Extra things to look out for\n Against weaker enemies and those who struggle with sequencing all four characters at once, investing the time into establishing Ardelia's combo skill at the start of your rotation may not be worth it. Instead you can skip it and go straight to your physical rotation.\n\n Team #4\n Team Members\n\n Lifeng\n\n Pogranichnik\n\n Chen Qianyu\n\n Endministrator"
+}

@@ -1,0 +1,1248 @@
+{
+  "id": "collection:disk-drives",
+  "provider": "Prydwen",
+  "game": "zzz",
+  "gameName": "Zenless Zone Zero",
+  "collection": "disk-drives",
+  "recordType": "collection",
+  "slug": "disk-drives",
+  "name": "Zenless Zone Zero Drive Disk Sets",
+  "title": "Zenless Zone Zero Drive Disk Sets",
+  "sourcePath": "/zenless/disk-drives",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "updatedText": "09/May/2026",
+  "meta": {
+    "title": "Drive Disk Sets | Zenless Zone Zero",
+    "description": ""
+  },
+  "facts": {},
+  "assets": [
+    {
+      "id": "e5b5f6b99b44",
+      "sourceHash": "e5b5f6b99b44",
+      "kind": "categories",
+      "name": "W-Engines",
+      "fileStem": "category-disksets",
+      "path": "Prydwen/zzz/assets/categories/category-disksets-e5b5f6b99b44.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "34586efbf701",
+      "sourceHash": "34586efbf701",
+      "kind": "drive-discs",
+      "name": "Branch & Blade Song",
+      "fileStem": "set-branch",
+      "path": "Prydwen/zzz/assets/drive-discs/branch-blade-song-34586efbf701.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "86d253c71271",
+      "sourceHash": "86d253c71271",
+      "kind": "drive-discs",
+      "name": "Bunny in Wonderland",
+      "fileStem": "set-bunny",
+      "path": "Prydwen/zzz/assets/drive-discs/bunny-in-wonderland-86d253c71271.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "e1ff48081ec4",
+      "sourceHash": "e1ff48081ec4",
+      "kind": "drive-discs",
+      "name": "Chaos Jazz",
+      "fileStem": "set-chaos",
+      "path": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "e18de4b3bfd6",
+      "sourceHash": "e18de4b3bfd6",
+      "kind": "drive-discs",
+      "name": "Chaotic Metal",
+      "fileStem": "set-chaotic",
+      "path": "Prydwen/zzz/assets/drive-discs/chaotic-metal-e18de4b3bfd6.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "965abc403807",
+      "sourceHash": "965abc403807",
+      "kind": "drive-discs",
+      "name": "Dawn's Bloom",
+      "fileStem": "set-dawn",
+      "path": "Prydwen/zzz/assets/drive-discs/dawns-bloom-965abc403807.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "ff78b0b02e04",
+      "sourceHash": "ff78b0b02e04",
+      "kind": "drive-discs",
+      "name": "Fanged Metal",
+      "fileStem": "set-fanged",
+      "path": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4890ba26d7e9",
+      "sourceHash": "4890ba26d7e9",
+      "kind": "drive-discs",
+      "name": "Freedom Blues",
+      "fileStem": "set-freedom",
+      "path": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "9b0991be94a3",
+      "sourceHash": "9b0991be94a3",
+      "kind": "drive-discs",
+      "name": "Hormone Punk",
+      "fileStem": "set-hormone",
+      "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "10adb7843e67",
+      "sourceHash": "10adb7843e67",
+      "kind": "drive-discs",
+      "name": "Inferno Metal",
+      "fileStem": "set-inferno",
+      "path": "Prydwen/zzz/assets/drive-discs/inferno-metal-10adb7843e67.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "9cafa8e105ae",
+      "sourceHash": "9cafa8e105ae",
+      "kind": "drive-discs",
+      "name": "King of the Summit",
+      "fileStem": "set-king",
+      "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "dc43496aab0e",
+      "sourceHash": "dc43496aab0e",
+      "kind": "drive-discs",
+      "name": "Moonlight Lullaby",
+      "fileStem": "set-moon",
+      "path": "Prydwen/zzz/assets/drive-discs/moonlight-lullaby-dc43496aab0e.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "a04e5d5cf10f",
+      "sourceHash": "a04e5d5cf10f",
+      "kind": "drive-discs",
+      "name": "Notes From the Chained",
+      "fileStem": "set-notes",
+      "path": "Prydwen/zzz/assets/drive-discs/notes-from-the-chained-a04e5d5cf10f.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5148cf1e5846",
+      "sourceHash": "5148cf1e5846",
+      "kind": "drive-discs",
+      "name": "Phaethon's Melody",
+      "fileStem": "set-melody",
+      "path": "Prydwen/zzz/assets/drive-discs/phaethons-melody-5148cf1e5846.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "45b67322c307",
+      "sourceHash": "45b67322c307",
+      "kind": "drive-discs",
+      "name": "Polar Metal",
+      "fileStem": "set-polar",
+      "path": "Prydwen/zzz/assets/drive-discs/polar-metal-45b67322c307.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1c4453ce92f8",
+      "sourceHash": "1c4453ce92f8",
+      "kind": "drive-discs",
+      "name": "Proto Punk",
+      "fileStem": "set-proto",
+      "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "69d899f282ca",
+      "sourceHash": "69d899f282ca",
+      "kind": "drive-discs",
+      "name": "Puffer Electro",
+      "fileStem": "set-puffer",
+      "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "813af9508d45",
+      "sourceHash": "813af9508d45",
+      "kind": "drive-discs",
+      "name": "Shadow Harmony",
+      "fileStem": "set-harmony",
+      "path": "Prydwen/zzz/assets/drive-discs/shadow-harmony-813af9508d45.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "00b58c4d8101",
+      "sourceHash": "00b58c4d8101",
+      "kind": "drive-discs",
+      "name": "Shining Aria",
+      "fileStem": "set-aria",
+      "path": "Prydwen/zzz/assets/drive-discs/shining-aria-00b58c4d8101.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "1d32dd29b6a7",
+      "sourceHash": "1d32dd29b6a7",
+      "kind": "drive-discs",
+      "name": "Shockstar Disco",
+      "fileStem": "set-shockstar",
+      "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "eb145563ded2",
+      "sourceHash": "eb145563ded2",
+      "kind": "drive-discs",
+      "name": "Soul Rock",
+      "fileStem": "set-soul",
+      "path": "Prydwen/zzz/assets/drive-discs/soul-rock-eb145563ded2.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "7e8e49d34387",
+      "sourceHash": "7e8e49d34387",
+      "kind": "drive-discs",
+      "name": "Swing Jazz",
+      "fileStem": "set-swing",
+      "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "c2b777015ac8",
+      "sourceHash": "c2b777015ac8",
+      "kind": "drive-discs",
+      "name": "Thunder Metal",
+      "fileStem": "set-thunder",
+      "path": "Prydwen/zzz/assets/drive-discs/thunder-metal-c2b777015ac8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "fc9455b2d8d7",
+      "sourceHash": "fc9455b2d8d7",
+      "kind": "drive-discs",
+      "name": "White Water Ballad",
+      "fileStem": "set-water",
+      "path": "Prydwen/zzz/assets/drive-discs/white-water-ballad-fc9455b2d8d7.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "fe975d3b2c66",
+      "sourceHash": "fe975d3b2c66",
+      "kind": "drive-discs",
+      "name": "Woodpecker Electro",
+      "fileStem": "set-woodpecker",
+      "path": "Prydwen/zzz/assets/drive-discs/woodpecker-electro-fe975d3b2c66.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "b2e79743efd9",
+      "sourceHash": "b2e79743efd9",
+      "kind": "drive-discs",
+      "name": "Yunkui Tales",
+      "fileStem": "set-yunkai",
+      "path": "Prydwen/zzz/assets/drive-discs/yunkui-tales-b2e79743efd9.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "b750b6e74f39",
+      "sourceHash": "b750b6e74f39",
+      "kind": "categories",
+      "name": "Drive Disks",
+      "fileStem": "category-disk",
+      "path": "Prydwen/zzz/assets/categories/drive-disks-b750b6e74f39.webp",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": "41c7019ec45c",
+      "sourceHash": "41c7019ec45c",
+      "kind": "categories",
+      "name": "Drive Disks Stats",
+      "fileStem": "category-disk2",
+      "path": "Prydwen/zzz/assets/categories/drive-disks-stats-41c7019ec45c.webp",
+      "width": 100,
+      "height": 100
+    }
+  ],
+  "sections": [
+    {
+      "id": "zenless-zone-zero-drive-disk-sets-0",
+      "level": 1,
+      "heading": "Zenless Zone Zero Drive Disk Sets",
+      "text": "List of all Drive Disk Sets available in Zenless Zone Zero.\n Last updated: 09/May/2026",
+      "assets": []
+    },
+    {
+      "id": "drive-disk-sets-1",
+      "level": 2,
+      "heading": "Drive Disk Sets",
+      "text": "Drive Disks are items in Zenless Zone Zero that can be equipped on Agents to increase their stats and if you combine the available Sets, you will unlock additional traits . These are the equivalent of Relics from Honkai: Star Rail. Each character has 6 slots for Drive Disks and below you can find the list of all available sets that you can fit into them.",
+      "assets": [
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "astral-voice-2",
+      "level": 5,
+      "heading": "Astral Voice",
+      "text": "(2) ATK + 10% .\n\n (4) Whenever any squad member enters the field using a Quick Assist, all squad members gain 1 stack of Astral, up to a maximum of 3 stacks, and lasting 15s . Repeated triggers reset the duration. Each stack of Astral increases the DMG dealt by the character entering the field using a Quick Assist by 8% . Only one of this effect can be active at a time in the same squad.",
+      "assets": [
+        {
+          "id": "34586efbf701",
+          "sourceHash": "34586efbf701",
+          "kind": "drive-discs",
+          "name": "Branch & Blade Song",
+          "fileStem": "set-branch",
+          "path": "Prydwen/zzz/assets/drive-discs/branch-blade-song-34586efbf701.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "branch-blade-song-3",
+      "level": 5,
+      "heading": "Branch & Blade Song",
+      "text": "(2) CRIT DMG + 16% .\n\n (4) When Anomaly Mastery exceeds or equals 115 points, the equipper's CRIT damage increases by 30% . When any squad member applies Freeze or triggers the Shatter effect on an enemy, the equipper's CRIT Rate increases by 12% , lasting 15s .",
+      "assets": [
+        {
+          "id": "86d253c71271",
+          "sourceHash": "86d253c71271",
+          "kind": "drive-discs",
+          "name": "Bunny in Wonderland",
+          "fileStem": "set-bunny",
+          "path": "Prydwen/zzz/assets/drive-discs/bunny-in-wonderland-86d253c71271.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "bunny-in-wonderland-4",
+      "level": 5,
+      "heading": "Bunny in Wonderland",
+      "text": "(2) HP + 10% .\n\n (4) When the equipper is a Defense character: When the equipper launches an EX Special Attack or any squad member triggers a Defensive Assist or Evasive Assist, all squad members' DMG increases by 6% , stacking up to 3 times, lasting 25s . Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack.",
+      "assets": [
+        {
+          "id": "e1ff48081ec4",
+          "sourceHash": "e1ff48081ec4",
+          "kind": "drive-discs",
+          "name": "Chaos Jazz",
+          "fileStem": "set-chaos",
+          "path": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "chaos-jazz-5",
+      "level": 5,
+      "heading": "Chaos Jazz",
+      "text": "(2) Anomaly Proficiency + 30 .\n\n (4) Fire DMG and Electric DMG are increased by 15% . When off-field, the damage caused by EX Special Attacks and Assist Attacks is increased by 20% . When the character switches back onto the field, this buff continues for 5s . The lasting effect can be triggered once every 7.5s .",
+      "assets": [
+        {
+          "id": "e18de4b3bfd6",
+          "sourceHash": "e18de4b3bfd6",
+          "kind": "drive-discs",
+          "name": "Chaotic Metal",
+          "fileStem": "set-chaotic",
+          "path": "Prydwen/zzz/assets/drive-discs/chaotic-metal-e18de4b3bfd6.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "chaotic-metal-6",
+      "level": 5,
+      "heading": "Chaotic Metal",
+      "text": "(2) Ether DMG + 10% .\n\n (4) The equipper's CRIT DMG increases by 20% . When any character in the squad triggers Corruption's additional DMG, this effect further increases by 5.5% for 8s , stacking up to 6 times. Repeated triggers reset the duration.",
+      "assets": [
+        {
+          "id": "965abc403807",
+          "sourceHash": "965abc403807",
+          "kind": "drive-discs",
+          "name": "Dawn's Bloom",
+          "fileStem": "set-dawn",
+          "path": "Prydwen/zzz/assets/drive-discs/dawns-bloom-965abc403807.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "dawns-bloom-7",
+      "level": 5,
+      "heading": "Dawn's Bloom",
+      "text": "(2) Increases Basic Attack DMG by 15% .\n\n (4) Increases Basic Attack DMG by 20% . When equipped by an Attack character, using an EX Special Attack or Ultimate will further increase Basic Attack DMG by 20% for 25s . Repeated triggers reset the duration.",
+      "assets": [
+        {
+          "id": "ff78b0b02e04",
+          "sourceHash": "ff78b0b02e04",
+          "kind": "drive-discs",
+          "name": "Fanged Metal",
+          "fileStem": "set-fanged",
+          "path": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "fanged-metal-8",
+      "level": 5,
+      "heading": "Fanged Metal",
+      "text": "(2) Physical DMG + 10% .\n\n (4) Whenever a squad member inflicts Assault on an enemy, the equipper deals 35% increased damage to the target for 12s .",
+      "assets": [
+        {
+          "id": "4890ba26d7e9",
+          "sourceHash": "4890ba26d7e9",
+          "kind": "drive-discs",
+          "name": "Freedom Blues",
+          "fileStem": "set-freedom",
+          "path": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "freedom-blues-9",
+      "level": 5,
+      "heading": "Freedom Blues",
+      "text": "(2) Anomaly Proficiency + 30 .\n\n (4) When an EX Special Attack hits an enemy, reduce the targets Anomaly Buildup RES to equippers attribute by 20% for 8s . This effect does not stack with others of the same attribute.",
+      "assets": [
+        {
+          "id": "9b0991be94a3",
+          "sourceHash": "9b0991be94a3",
+          "kind": "drive-discs",
+          "name": "Hormone Punk",
+          "fileStem": "set-hormone",
+          "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "hormone-punk-10",
+      "level": 5,
+      "heading": "Hormone Punk",
+      "text": "(2) ATK + 10% .\n\n (4) Upon entering combat or switching in, its user's ATK increased by 25% for 10s . This effect can be triggered once every 20s .",
+      "assets": [
+        {
+          "id": "10adb7843e67",
+          "sourceHash": "10adb7843e67",
+          "kind": "drive-discs",
+          "name": "Inferno Metal",
+          "fileStem": "set-inferno",
+          "path": "Prydwen/zzz/assets/drive-discs/inferno-metal-10adb7843e67.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "inferno-metal-11",
+      "level": 5,
+      "heading": "Inferno Metal",
+      "text": "(2) Fire DMG + 10% .\n\n (4) Upon hitting a Burning enemy, the equipper's CRIT Rate is increased by 28% for 8s .",
+      "assets": [
+        {
+          "id": "9cafa8e105ae",
+          "sourceHash": "9cafa8e105ae",
+          "kind": "drive-discs",
+          "name": "King of the Summit",
+          "fileStem": "set-king",
+          "path": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "king-of-the-summit-12",
+      "level": 5,
+      "heading": "King of the Summit",
+      "text": "(2) Increases Daze of attacks by 6% .\n\n (4) When the equipper is a Stun character and uses an EX Special Attack or Chain Attack, increases CRIT DMG of all squad members by 15% , and when the equipper's CRIT Rate is more than or equal to 50%, further increases CRIT DMG by 15% , lasting 15s . Repeated triggers reset the duration. Passive effects of the same name do not stack.",
+      "assets": [
+        {
+          "id": "dc43496aab0e",
+          "sourceHash": "dc43496aab0e",
+          "kind": "drive-discs",
+          "name": "Moonlight Lullaby",
+          "fileStem": "set-moon",
+          "path": "Prydwen/zzz/assets/drive-discs/moonlight-lullaby-dc43496aab0e.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "moonlight-lullaby-13",
+      "level": 5,
+      "heading": "Moonlight Lullaby",
+      "text": "(2) Energy Regen + 20% .\n\n (4) When the equipper is a Support character and uses an EX Special Attack or Ultimate, the DMG dealt by all squad members increases by 18% for 25s . Repeated triggers reset the duration. Passive effects of the same name do not stack.",
+      "assets": [
+        {
+          "id": "a04e5d5cf10f",
+          "sourceHash": "a04e5d5cf10f",
+          "kind": "drive-discs",
+          "name": "Notes From the Chained",
+          "fileStem": "set-notes",
+          "path": "Prydwen/zzz/assets/drive-discs/notes-from-the-chained-a04e5d5cf10f.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "notes-from-the-chained-14",
+      "level": 5,
+      "heading": "Notes From the Chained",
+      "text": "(2) Ice DMG + 10% .\n\n (4) When the equipper triggers Abloom, their Anomaly Proficiency increases by 48 for 30s ; repeated triggers reset the duration. When the equipper triggers a Freeze effect, their All-Attribute Anomaly DMG and Disorder DMG increase by 16% for 30s ; repeated triggers reset the duration.",
+      "assets": [
+        {
+          "id": "5148cf1e5846",
+          "sourceHash": "5148cf1e5846",
+          "kind": "drive-discs",
+          "name": "Phaethon's Melody",
+          "fileStem": "set-melody",
+          "path": "Prydwen/zzz/assets/drive-discs/phaethons-melody-5148cf1e5846.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "phaethons-melody-15",
+      "level": 5,
+      "heading": "Phaethon's Melody",
+      "text": "(2) Anomaly Mastery + 8% .\n\n (4) When any squad member uses an EX Special Attack, the equipper's Anomaly Proficiency increases by 45 for 8s . If the character using the EX Special Attack is not the equipper, the equipper's Ether DMG is increased by 25% .",
+      "assets": [
+        {
+          "id": "45b67322c307",
+          "sourceHash": "45b67322c307",
+          "kind": "drive-discs",
+          "name": "Polar Metal",
+          "fileStem": "set-polar",
+          "path": "Prydwen/zzz/assets/drive-discs/polar-metal-45b67322c307.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "polar-metal-16",
+      "level": 5,
+      "heading": "Polar Metal",
+      "text": "(2) Ice DMG + 10% .\n\n (4) Increases the DMG of Basic Attack and Dash Attack by 20% . When any squad member inflicts Freeze or Shatter , this effect increases by an additional 20% for 12s .",
+      "assets": [
+        {
+          "id": "1c4453ce92f8",
+          "sourceHash": "1c4453ce92f8",
+          "kind": "drive-discs",
+          "name": "Proto Punk",
+          "fileStem": "set-proto",
+          "path": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "proto-punk-17",
+      "level": 5,
+      "heading": "Proto Punk",
+      "text": "(2) Shield Effect + 15% .\n\n (4) When any squad member triggers a Defensive Assist or Evasive Assist, all squad members deal 15% increased DMG, lasting 10s . Passive effects of the same name do not stack.",
+      "assets": [
+        {
+          "id": "69d899f282ca",
+          "sourceHash": "69d899f282ca",
+          "kind": "drive-discs",
+          "name": "Puffer Electro",
+          "fileStem": "set-puffer",
+          "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "puffer-electro-18",
+      "level": 5,
+      "heading": "Puffer Electro",
+      "text": "(2) PEN Ratio + 8% .\n\n (4) Ultimate DMG increases by 20% . Launching an Ultimate increases the equippers ATK by 15% for 12s .",
+      "assets": [
+        {
+          "id": "813af9508d45",
+          "sourceHash": "813af9508d45",
+          "kind": "drive-discs",
+          "name": "Shadow Harmony",
+          "fileStem": "set-harmony",
+          "path": "Prydwen/zzz/assets/drive-discs/shadow-harmony-813af9508d45.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "shadow-harmony-19",
+      "level": 5,
+      "heading": "Shadow Harmony",
+      "text": "(2) The DMG of Aftershocks and Dash Attacks is increased by 15% .\n\n (4) Upon hitting an enemy with an Aftershock or Dash Attack, if the DMG dealt aligns with the equipper's attribute, the equipper gains 1 stack of a buff effect, at most once per use of a skill. For each stack, the equipper's ATK increases by 4% , and CRIT Rate increases by 4% . The effect can stack up to 3 times and lasts for 15s . Repeated triggers reset the duration.",
+      "assets": [
+        {
+          "id": "00b58c4d8101",
+          "sourceHash": "00b58c4d8101",
+          "kind": "drive-discs",
+          "name": "Shining Aria",
+          "fileStem": "set-aria",
+          "path": "Prydwen/zzz/assets/drive-discs/shining-aria-00b58c4d8101.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "shining-aria-20",
+      "level": 5,
+      "heading": "Shining Aria",
+      "text": "(2) Ether DMG + 10% .\n\n (4) When the equipper's Basic Attack hits an enemy, their Anomaly Proficiency increases by 36 , lasting 8s . Repeated triggers reset the duration. When any enemy on the field is Stunned, the equipper's DMG increases by 25% for 18s . Repeated triggers reset the duration.",
+      "assets": [
+        {
+          "id": "1d32dd29b6a7",
+          "sourceHash": "1d32dd29b6a7",
+          "kind": "drive-discs",
+          "name": "Shockstar Disco",
+          "fileStem": "set-shockstar",
+          "path": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "shockstar-disco-21",
+      "level": 5,
+      "heading": "Shockstar Disco",
+      "text": "(2) Impact + 6% .\n\n (4) Basic Attacks, Dash Attacks, and Dodge Counters, inflict 20% more Daze upon the main target.",
+      "assets": [
+        {
+          "id": "eb145563ded2",
+          "sourceHash": "eb145563ded2",
+          "kind": "drive-discs",
+          "name": "Soul Rock",
+          "fileStem": "set-soul",
+          "path": "Prydwen/zzz/assets/drive-discs/soul-rock-eb145563ded2.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "soul-rock-22",
+      "level": 5,
+      "heading": "Soul Rock",
+      "text": "(2) DEF + 16% .\n\n (4) Upon receiving an enemy attack and losing HP, the equipper takes 40% less DMG for 2.5s . This effect can trigger once every 15s .",
+      "assets": [
+        {
+          "id": "7e8e49d34387",
+          "sourceHash": "7e8e49d34387",
+          "kind": "drive-discs",
+          "name": "Swing Jazz",
+          "fileStem": "set-swing",
+          "path": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "swing-jazz-23",
+      "level": 5,
+      "heading": "Swing Jazz",
+      "text": "(2) Energy Regen + 20% .\n\n (4) Launching a Chain Attack or Ultimate increases all squad members' DMG by 15% for 12s . Passive effects of the same name do not stack.",
+      "assets": [
+        {
+          "id": "c2b777015ac8",
+          "sourceHash": "c2b777015ac8",
+          "kind": "drive-discs",
+          "name": "Thunder Metal",
+          "fileStem": "set-thunder",
+          "path": "Prydwen/zzz/assets/drive-discs/thunder-metal-c2b777015ac8.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "thunder-metal-24",
+      "level": 5,
+      "heading": "Thunder Metal",
+      "text": "(2) Electric DMG + 10% .\n\n (4) As long as an enemy in combat is Shocked , the equipper's ATK is increased by 28% .",
+      "assets": [
+        {
+          "id": "fc9455b2d8d7",
+          "sourceHash": "fc9455b2d8d7",
+          "kind": "drive-discs",
+          "name": "White Water Ballad",
+          "fileStem": "set-water",
+          "path": "Prydwen/zzz/assets/drive-discs/white-water-ballad-fc9455b2d8d7.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "white-water-ballad-25",
+      "level": 5,
+      "heading": "White Water Ballad",
+      "text": "(2) Physical DMG + 10% .\n\n (4) When the equipper is within any [Ether Veil], their CRIT Rate increases by 10% . After leaving the Ether Veil, this buff remains for 15s . If the equipper is an Attack character, activating an Ether Veil or extending an Ether Veil's duration increases their CRIT Rate by 10% and ATK by 10% for 30s . Repeated triggers reset the duration.",
+      "assets": [
+        {
+          "id": "fe975d3b2c66",
+          "sourceHash": "fe975d3b2c66",
+          "kind": "drive-discs",
+          "name": "Woodpecker Electro",
+          "fileStem": "set-woodpecker",
+          "path": "Prydwen/zzz/assets/drive-discs/woodpecker-electro-fe975d3b2c66.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "woodpecker-electro-26",
+      "level": 5,
+      "heading": "Woodpecker Electro",
+      "text": "(2) CRIT Rate + 8% .\n\n (4) Triggering a critical hit with a Basic Attack, Dodge Counter or EX Special Attack increases the equippers ATK by 9% for 6s . The buff duration for different skills are calculated separately.",
+      "assets": [
+        {
+          "id": "b2e79743efd9",
+          "sourceHash": "b2e79743efd9",
+          "kind": "drive-discs",
+          "name": "Yunkui Tales",
+          "fileStem": "set-yunkai",
+          "path": "Prydwen/zzz/assets/drive-discs/yunkui-tales-b2e79743efd9.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "yunkui-tales-27",
+      "level": 5,
+      "heading": "Yunkui Tales",
+      "text": "(2) HP + 10% .\n\n (4) When using [EX Special Attack], [Chain Attack], or [Ultimate], CRIT Rate increases by 4% , stacking up to 3 times and lasting 15s . Repeated triggers reset the duration. When having 3 stacks of this effect, Sheer DMG increases by 10% .",
+      "assets": []
+    },
+    {
+      "id": "more-information-28",
+      "level": 2,
+      "heading": "More information",
+      "text": "If you want to learn more about Drive Disks themselves, do check our other guides .\n\n Drive Disks\n\n Drive Disks Stats",
+      "assets": [
+        {
+          "id": "b750b6e74f39",
+          "sourceHash": "b750b6e74f39",
+          "kind": "categories",
+          "name": "Drive Disks",
+          "fileStem": "category-disk",
+          "path": "Prydwen/zzz/assets/categories/drive-disks-b750b6e74f39.webp",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "41c7019ec45c",
+          "sourceHash": "41c7019ec45c",
+          "kind": "categories",
+          "name": "Drive Disks Stats",
+          "fileStem": "category-disk2",
+          "path": "Prydwen/zzz/assets/categories/drive-disks-stats-41c7019ec45c.webp",
+          "width": 100,
+          "height": 100
+        }
+      ]
+    }
+  ],
+  "recommendations": {},
+  "tables": [],
+  "text": "Drive Disk Sets | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Drive Disks Sets\n\n Zenless Zone Zero Drive Disk Sets\n List of all Drive Disk Sets available in Zenless Zone Zero.\n Last updated: 09/May/2026\n\n Drive Disk Sets\n\n Drive Disks are items in Zenless Zone Zero that can be equipped on Agents to increase their stats and if you combine the available Sets, you will unlock additional traits . These are the equivalent of Relics from Honkai: Star Rail. Each character has 6 slots for Drive Disks and below you can find the list of all available sets that you can fit into them.\n\n Astral Voice\n\n (2) ATK + 10% .\n\n (4) Whenever any squad member enters the field using a Quick Assist, all squad members gain 1 stack of Astral, up to a maximum of 3 stacks, and lasting 15s . Repeated triggers reset the duration. Each stack of Astral increases the DMG dealt by the character entering the field using a Quick Assist by 8% . Only one of this effect can be active at a time in the same squad.\n\n Branch & Blade Song\n\n (2) CRIT DMG + 16% .\n\n (4) When Anomaly Mastery exceeds or equals 115 points, the equipper's CRIT damage increases by 30% . When any squad member applies Freeze or triggers the Shatter effect on an enemy, the equipper's CRIT Rate increases by 12% , lasting 15s .\n\n Bunny in Wonderland\n\n (2) HP + 10% .\n\n (4) When the equipper is a Defense character: When the equipper launches an EX Special Attack or any squad member triggers a Defensive Assist or Evasive Assist, all squad members' DMG increases by 6% , stacking up to 3 times, lasting 25s . Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack.\n\n Chaos Jazz\n\n (2) Anomaly Proficiency + 30 .\n\n (4) Fire DMG and Electric DMG are increased by 15% . When off-field, the damage caused by EX Special Attacks and Assist Attacks is increased by 20% . When the character switches back onto the field, this buff continues for 5s . The lasting effect can be triggered once every 7.5s .\n\n Chaotic Metal\n\n (2) Ether DMG + 10% .\n\n (4) The equipper's CRIT DMG increases by 20% . When any character in the squad triggers Corruption's additional DMG, this effect further increases by 5.5% for 8s , stacking up to 6 times. Repeated triggers reset the duration.\n\n Dawn's Bloom\n\n (2) Increases Basic Attack DMG by 15% .\n\n (4) Increases Basic Attack DMG by 20% . When equipped by an Attack character, using an EX Special Attack or Ultimate will further increase Basic Attack DMG by 20% for 25s . Repeated triggers reset the duration.\n\n Fanged Metal\n\n (2) Physical DMG + 10% .\n\n (4) Whenever a squad member inflicts Assault on an enemy, the equipper deals 35% increased damage to the target for 12s .\n\n Freedom Blues\n\n (2) Anomaly Proficiency + 30 .\n\n (4) When an EX Special Attack hits an enemy, reduce the targets Anomaly Buildup RES to equippers attribute by 20% for 8s . This effect does not stack with others of the same attribute.\n\n Hormone Punk\n\n (2) ATK + 10% .\n\n (4) Upon entering combat or switching in, its user's ATK increased by 25% for 10s . This effect can be triggered once every 20s .\n\n Inferno Metal\n\n (2) Fire DMG + 10% .\n\n (4) Upon hitting a Burning enemy, the equipper's CRIT Rate is increased by 28% for 8s .\n\n King of the Summit\n\n (2) Increases Daze of attacks by 6% .\n\n (4) When the equipper is a Stun character and uses an EX Special Attack or Chain Attack, increases CRIT DMG of all squad members by 15% , and when the equipper's CRIT Rate is more than or equal to 50%, further increases CRIT DMG by 15% , lasting 15s . Repeated triggers reset the duration. Passive effects of the same name do not stack.\n\n Moonlight Lullaby\n\n (2) Energy Regen + 20% .\n\n (4) When the equipper is a Support character and uses an EX Special Attack or Ultimate, the DMG dealt by all squad members increases by 18% for 25s . Repeated triggers reset the duration. Passive effects of the same name do not stack.\n\n Notes From the Chained\n\n (2) Ice DMG + 10% .\n\n (4) When the equipper triggers Abloom, their Anomaly Proficiency increases by 48 for 30s ; repeated triggers reset the duration. When the equipper triggers a Freeze effect, their All-Attribute Anomaly DMG and Disorder DMG increase by 16% for 30s ; repeated triggers reset the duration.\n\n Phaethon's Melody\n\n (2) Anomaly Mastery + 8% .\n\n (4) When any squad member uses an EX Special Attack, the equipper's Anomaly Proficiency increases by 45 for 8s . If the character using the EX Special Attack is not the equipper, the equipper's Ether DMG is increased by 25% .\n\n Polar Metal\n\n (2) Ice DMG + 10% .\n\n (4) Increases the DMG of Basic Attack and Dash Attack by 20% . When any squad member inflicts Freeze or Shatter , this effect increases by an additional 20% for 12s .\n\n Proto Punk\n\n (2) Shield Effect + 15% .\n\n (4) When any squad member triggers a Defensive Assist or Evasive Assist, all squad members deal 15% increased DMG, lasting 10s . Passive effects of the same name do not stack.\n\n Puffer Electro\n\n (2) PEN Ratio + 8% .\n\n (4) Ultimate DMG increases by 20% . Launching an Ultimate increases the equippers ATK by 15% for 12s .\n\n Shadow Harmony\n\n (2) The DMG of Aftershocks and Dash Attacks is increased by 15% .\n\n (4) Upon hitting an enemy with an Aftershock or Dash Attack, if the DMG dealt aligns with the equipper's attribute, the equipper gains 1 stack of a buff effect, at most once per use of a skill. For each stack, the equipper's ATK increases by 4% , and CRIT Rate increases by 4% . The effect can stack up to 3 times and lasts for 15s . Repeated triggers reset the duration.\n\n Shining Aria\n\n (2) Ether DMG + 10% .\n\n (4) When the equipper's Basic Attack hits an enemy, their Anomaly Proficiency increases by 36 , lasting 8s . Repeated triggers reset the duration. When any enemy on the field is Stunned, the equipper's DMG increases by 25% for 18s . Repeated triggers reset the duration.\n\n Shockstar Disco\n\n (2) Impact + 6% .\n\n (4) Basic Attacks, Dash Attacks, and Dodge Counters, inflict 20% more Daze upon the main target.\n\n Soul Rock\n\n (2) DEF + 16% .\n\n (4) Upon receiving an enemy attack and losing HP, the equipper takes 40% less DMG for 2.5s . This effect can trigger once every 15s .\n\n Swing Jazz\n\n (2) Energy Regen + 20% .\n\n (4) Launching a Chain Attack or Ultimate increases all squad members' DMG by 15% for 12s . Passive effects of the same name do not stack.\n\n Thunder Metal\n\n (2) Electric DMG + 10% .\n\n (4) As long as an enemy in combat is Shocked , the equipper's ATK is increased by 28% .\n\n White Water Ballad\n\n (2) Physical DMG + 10% .\n\n (4) When the equipper is within any [Ether Veil], their CRIT Rate increases by 10% . After leaving the Ether Veil, this buff remains for 15s . If the equipper is an Attack character, activating an Ether Veil or extending an Ether Veil's duration increases their CRIT Rate by 10% and ATK by 10% for 30s . Repeated triggers reset the duration.\n\n Woodpecker Electro\n\n (2) CRIT Rate + 8% .\n\n (4) Triggering a critical hit with a Basic Attack, Dodge Counter or EX Special Attack increases the equippers ATK by 9% for 6s . The buff duration for different skills are calculated separately.\n\n Yunkui Tales\n\n (2) HP + 10% .\n\n (4) When using [EX Special Attack], [Chain Attack], or [Ultimate], CRIT Rate increases by 4% , stacking up to 3 times and lasting 15s . Repeated triggers reset the duration. When having 3 stacks of this effect, Sheer DMG increases by 10% .\n\n More information\n\n If you want to learn more about Drive Disks themselves, do check our other guides .\n\n Drive Disks\n\n Drive Disks Stats",
+  "entries": [
+    {
+      "id": "astral-voice",
+      "name": "Astral Voice",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "assetId": "47b453ad83b8",
+      "fields": {
+        "bonuses": [
+          "(2) ATK + 10% .",
+          "(4) Whenever any squad member enters the field using a Quick Assist, all squad members gain 1 stack of Astral, up to a maximum of 3 stacks, and lasting 15s . Repeated triggers reset the duration. Each stack of Astral increases the DMG dealt by the character entering the field using a Quick Assist by 8% . Only one of this effect can be active at a time in the same squad."
+        ]
+      },
+      "text": "Astral Voice\n(2) ATK + 10% .\n(4) Whenever any squad member enters the field using a Quick Assist, all squad members gain 1 stack of Astral, up to a maximum of 3 stacks, and lasting 15s . Repeated triggers reset the duration. Each stack of Astral increases the DMG dealt by the character entering the field using a Quick Assist by 8% . Only one of this effect can be active at a time in the same squad."
+    },
+    {
+      "id": "branch-blade-song",
+      "name": "Branch & Blade Song",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/branch-blade-song-34586efbf701.webp",
+      "assetId": "34586efbf701",
+      "fields": {
+        "bonuses": [
+          "(2) CRIT DMG + 16% .",
+          "(4) When Anomaly Mastery exceeds or equals 115 points, the equipper's CRIT damage increases by 30% . When any squad member applies Freeze or triggers the Shatter effect on an enemy, the equipper's CRIT Rate increases by 12% , lasting 15s ."
+        ]
+      },
+      "text": "Branch & Blade Song\n(2) CRIT DMG + 16% .\n(4) When Anomaly Mastery exceeds or equals 115 points, the equipper's CRIT damage increases by 30% . When any squad member applies Freeze or triggers the Shatter effect on an enemy, the equipper's CRIT Rate increases by 12% , lasting 15s ."
+    },
+    {
+      "id": "bunny-in-wonderland",
+      "name": "Bunny in Wonderland",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/bunny-in-wonderland-86d253c71271.webp",
+      "assetId": "86d253c71271",
+      "fields": {
+        "4WhenTheEquipperIsADefenseCharacter": "When the equipper launches an EX Special Attack or any squad member triggers a Defensive Assist or Evasive Assist, all squad members' DMG increases by 6% , stacking up to 3 times, lasting 25s . Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack.",
+        "bonuses": [
+          "(2) HP + 10% ."
+        ]
+      },
+      "text": "Bunny in Wonderland\n(2) HP + 10% .\n(4) When the equipper is a Defense character: When the equipper launches an EX Special Attack or any squad member triggers a Defensive Assist or Evasive Assist, all squad members' DMG increases by 6% , stacking up to 3 times, lasting 25s . Stacks decay one at a time, and duration refreshes when gained or decayed. Passive effects of the same name do not stack."
+    },
+    {
+      "id": "chaos-jazz",
+      "name": "Chaos Jazz",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/chaos-jazz-e1ff48081ec4.webp",
+      "assetId": "e1ff48081ec4",
+      "fields": {
+        "bonuses": [
+          "(2) Anomaly Proficiency + 30 .",
+          "(4) Fire DMG and Electric DMG are increased by 15% . When off-field, the damage caused by EX Special Attacks and Assist Attacks is increased by 20% . When the character switches back onto the field, this buff continues for 5s . The lasting effect can be triggered once every 7.5s ."
+        ]
+      },
+      "text": "Chaos Jazz\n(2) Anomaly Proficiency + 30 .\n(4) Fire DMG and Electric DMG are increased by 15% . When off-field, the damage caused by EX Special Attacks and Assist Attacks is increased by 20% . When the character switches back onto the field, this buff continues for 5s . The lasting effect can be triggered once every 7.5s ."
+    },
+    {
+      "id": "chaotic-metal",
+      "name": "Chaotic Metal",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/chaotic-metal-e18de4b3bfd6.webp",
+      "assetId": "e18de4b3bfd6",
+      "fields": {
+        "bonuses": [
+          "(2) Ether DMG + 10% .",
+          "(4) The equipper's CRIT DMG increases by 20% . When any character in the squad triggers Corruption's additional DMG, this effect further increases by 5.5% for 8s , stacking up to 6 times. Repeated triggers reset the duration."
+        ]
+      },
+      "text": "Chaotic Metal\n(2) Ether DMG + 10% .\n(4) The equipper's CRIT DMG increases by 20% . When any character in the squad triggers Corruption's additional DMG, this effect further increases by 5.5% for 8s , stacking up to 6 times. Repeated triggers reset the duration."
+    },
+    {
+      "id": "dawns-bloom",
+      "name": "Dawn's Bloom",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/dawns-bloom-965abc403807.webp",
+      "assetId": "965abc403807",
+      "fields": {
+        "bonuses": [
+          "(2) Increases Basic Attack DMG by 15% .",
+          "(4) Increases Basic Attack DMG by 20% . When equipped by an Attack character, using an EX Special Attack or Ultimate will further increase Basic Attack DMG by 20% for 25s . Repeated triggers reset the duration."
+        ]
+      },
+      "text": "Dawn's Bloom\n(2) Increases Basic Attack DMG by 15% .\n(4) Increases Basic Attack DMG by 20% . When equipped by an Attack character, using an EX Special Attack or Ultimate will further increase Basic Attack DMG by 20% for 25s . Repeated triggers reset the duration."
+    },
+    {
+      "id": "fanged-metal",
+      "name": "Fanged Metal",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/fanged-metal-ff78b0b02e04.webp",
+      "assetId": "ff78b0b02e04",
+      "fields": {
+        "bonuses": [
+          "(2) Physical DMG + 10% .",
+          "(4) Whenever a squad member inflicts Assault on an enemy, the equipper deals 35% increased damage to the target for 12s ."
+        ]
+      },
+      "text": "Fanged Metal\n(2) Physical DMG + 10% .\n(4) Whenever a squad member inflicts Assault on an enemy, the equipper deals 35% increased damage to the target for 12s ."
+    },
+    {
+      "id": "freedom-blues",
+      "name": "Freedom Blues",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/freedom-blues-4890ba26d7e9.webp",
+      "assetId": "4890ba26d7e9",
+      "fields": {
+        "bonuses": [
+          "(2) Anomaly Proficiency + 30 .",
+          "(4) When an EX Special Attack hits an enemy, reduce the targets Anomaly Buildup RES to equippers attribute by 20% for 8s . This effect does not stack with others of the same attribute."
+        ]
+      },
+      "text": "Freedom Blues\n(2) Anomaly Proficiency + 30 .\n(4) When an EX Special Attack hits an enemy, reduce the targets Anomaly Buildup RES to equippers attribute by 20% for 8s . This effect does not stack with others of the same attribute."
+    },
+    {
+      "id": "hormone-punk",
+      "name": "Hormone Punk",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+      "assetId": "9b0991be94a3",
+      "fields": {
+        "bonuses": [
+          "(2) ATK + 10% .",
+          "(4) Upon entering combat or switching in, its user's ATK increased by 25% for 10s . This effect can be triggered once every 20s ."
+        ]
+      },
+      "text": "Hormone Punk\n(2) ATK + 10% .\n(4) Upon entering combat or switching in, its user's ATK increased by 25% for 10s . This effect can be triggered once every 20s ."
+    },
+    {
+      "id": "inferno-metal",
+      "name": "Inferno Metal",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/inferno-metal-10adb7843e67.webp",
+      "assetId": "10adb7843e67",
+      "fields": {
+        "bonuses": [
+          "(2) Fire DMG + 10% .",
+          "(4) Upon hitting a Burning enemy, the equipper's CRIT Rate is increased by 28% for 8s ."
+        ]
+      },
+      "text": "Inferno Metal\n(2) Fire DMG + 10% .\n(4) Upon hitting a Burning enemy, the equipper's CRIT Rate is increased by 28% for 8s ."
+    },
+    {
+      "id": "king-of-the-summit",
+      "name": "King of the Summit",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/king-of-the-summit-9cafa8e105ae.webp",
+      "assetId": "9cafa8e105ae",
+      "fields": {
+        "bonuses": [
+          "(2) Increases Daze of attacks by 6% .",
+          "(4) When the equipper is a Stun character and uses an EX Special Attack or Chain Attack, increases CRIT DMG of all squad members by 15% , and when the equipper's CRIT Rate is more than or equal to 50%, further increases CRIT DMG by 15% , lasting 15s . Repeated triggers reset the duration. Passive effects of the same name do not stack."
+        ]
+      },
+      "text": "King of the Summit\n(2) Increases Daze of attacks by 6% .\n(4) When the equipper is a Stun character and uses an EX Special Attack or Chain Attack, increases CRIT DMG of all squad members by 15% , and when the equipper's CRIT Rate is more than or equal to 50%, further increases CRIT DMG by 15% , lasting 15s . Repeated triggers reset the duration. Passive effects of the same name do not stack."
+    },
+    {
+      "id": "moonlight-lullaby",
+      "name": "Moonlight Lullaby",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/moonlight-lullaby-dc43496aab0e.webp",
+      "assetId": "dc43496aab0e",
+      "fields": {
+        "bonuses": [
+          "(2) Energy Regen + 20% .",
+          "(4) When the equipper is a Support character and uses an EX Special Attack or Ultimate, the DMG dealt by all squad members increases by 18% for 25s . Repeated triggers reset the duration. Passive effects of the same name do not stack."
+        ]
+      },
+      "text": "Moonlight Lullaby\n(2) Energy Regen + 20% .\n(4) When the equipper is a Support character and uses an EX Special Attack or Ultimate, the DMG dealt by all squad members increases by 18% for 25s . Repeated triggers reset the duration. Passive effects of the same name do not stack."
+    },
+    {
+      "id": "notes-from-the-chained",
+      "name": "Notes From the Chained",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/notes-from-the-chained-a04e5d5cf10f.webp",
+      "assetId": "a04e5d5cf10f",
+      "fields": {
+        "bonuses": [
+          "(2) Ice DMG + 10% .",
+          "(4) When the equipper triggers Abloom, their Anomaly Proficiency increases by 48 for 30s ; repeated triggers reset the duration. When the equipper triggers a Freeze effect, their All-Attribute Anomaly DMG and Disorder DMG increase by 16% for 30s ; repeated triggers reset the duration."
+        ]
+      },
+      "text": "Notes From the Chained\n(2) Ice DMG + 10% .\n(4) When the equipper triggers Abloom, their Anomaly Proficiency increases by 48 for 30s ; repeated triggers reset the duration. When the equipper triggers a Freeze effect, their All-Attribute Anomaly DMG and Disorder DMG increase by 16% for 30s ; repeated triggers reset the duration."
+    },
+    {
+      "id": "phaethons-melody",
+      "name": "Phaethon's Melody",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/phaethons-melody-5148cf1e5846.webp",
+      "assetId": "5148cf1e5846",
+      "fields": {
+        "bonuses": [
+          "(2) Anomaly Mastery + 8% .",
+          "(4) When any squad member uses an EX Special Attack, the equipper's Anomaly Proficiency increases by 45 for 8s . If the character using the EX Special Attack is not the equipper, the equipper's Ether DMG is increased by 25% ."
+        ]
+      },
+      "text": "Phaethon's Melody\n(2) Anomaly Mastery + 8% .\n(4) When any squad member uses an EX Special Attack, the equipper's Anomaly Proficiency increases by 45 for 8s . If the character using the EX Special Attack is not the equipper, the equipper's Ether DMG is increased by 25% ."
+    },
+    {
+      "id": "polar-metal",
+      "name": "Polar Metal",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/polar-metal-45b67322c307.webp",
+      "assetId": "45b67322c307",
+      "fields": {
+        "bonuses": [
+          "(2) Ice DMG + 10% .",
+          "(4) Increases the DMG of Basic Attack and Dash Attack by 20% . When any squad member inflicts Freeze or Shatter , this effect increases by an additional 20% for 12s ."
+        ]
+      },
+      "text": "Polar Metal\n(2) Ice DMG + 10% .\n(4) Increases the DMG of Basic Attack and Dash Attack by 20% . When any squad member inflicts Freeze or Shatter , this effect increases by an additional 20% for 12s ."
+    },
+    {
+      "id": "proto-punk",
+      "name": "Proto Punk",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/proto-punk-1c4453ce92f8.webp",
+      "assetId": "1c4453ce92f8",
+      "fields": {
+        "bonuses": [
+          "(2) Shield Effect + 15% .",
+          "(4) When any squad member triggers a Defensive Assist or Evasive Assist, all squad members deal 15% increased DMG, lasting 10s . Passive effects of the same name do not stack."
+        ]
+      },
+      "text": "Proto Punk\n(2) Shield Effect + 15% .\n(4) When any squad member triggers a Defensive Assist or Evasive Assist, all squad members deal 15% increased DMG, lasting 10s . Passive effects of the same name do not stack."
+    },
+    {
+      "id": "puffer-electro",
+      "name": "Puffer Electro",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+      "assetId": "69d899f282ca",
+      "fields": {
+        "bonuses": [
+          "(2) PEN Ratio + 8% .",
+          "(4) Ultimate DMG increases by 20% . Launching an Ultimate increases the equippers ATK by 15% for 12s ."
+        ]
+      },
+      "text": "Puffer Electro\n(2) PEN Ratio + 8% .\n(4) Ultimate DMG increases by 20% . Launching an Ultimate increases the equippers ATK by 15% for 12s ."
+    },
+    {
+      "id": "shadow-harmony",
+      "name": "Shadow Harmony",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/shadow-harmony-813af9508d45.webp",
+      "assetId": "813af9508d45",
+      "fields": {
+        "bonuses": [
+          "(2) The DMG of Aftershocks and Dash Attacks is increased by 15% .",
+          "(4) Upon hitting an enemy with an Aftershock or Dash Attack, if the DMG dealt aligns with the equipper's attribute, the equipper gains 1 stack of a buff effect, at most once per use of a skill. For each stack, the equipper's ATK increases by 4% , and CRIT Rate increases by 4% . The effect can stack up to 3 times and lasts for 15s . Repeated triggers reset the duration."
+        ]
+      },
+      "text": "Shadow Harmony\n(2) The DMG of Aftershocks and Dash Attacks is increased by 15% .\n(4) Upon hitting an enemy with an Aftershock or Dash Attack, if the DMG dealt aligns with the equipper's attribute, the equipper gains 1 stack of a buff effect, at most once per use of a skill. For each stack, the equipper's ATK increases by 4% , and CRIT Rate increases by 4% . The effect can stack up to 3 times and lasts for 15s . Repeated triggers reset the duration."
+    },
+    {
+      "id": "shining-aria",
+      "name": "Shining Aria",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/shining-aria-00b58c4d8101.webp",
+      "assetId": "00b58c4d8101",
+      "fields": {
+        "bonuses": [
+          "(2) Ether DMG + 10% .",
+          "(4) When the equipper's Basic Attack hits an enemy, their Anomaly Proficiency increases by 36 , lasting 8s . Repeated triggers reset the duration. When any enemy on the field is Stunned, the equipper's DMG increases by 25% for 18s . Repeated triggers reset the duration."
+        ]
+      },
+      "text": "Shining Aria\n(2) Ether DMG + 10% .\n(4) When the equipper's Basic Attack hits an enemy, their Anomaly Proficiency increases by 36 , lasting 8s . Repeated triggers reset the duration. When any enemy on the field is Stunned, the equipper's DMG increases by 25% for 18s . Repeated triggers reset the duration."
+    },
+    {
+      "id": "shockstar-disco",
+      "name": "Shockstar Disco",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/shockstar-disco-1d32dd29b6a7.webp",
+      "assetId": "1d32dd29b6a7",
+      "fields": {
+        "bonuses": [
+          "(2) Impact + 6% .",
+          "(4) Basic Attacks, Dash Attacks, and Dodge Counters, inflict 20% more Daze upon the main target."
+        ]
+      },
+      "text": "Shockstar Disco\n(2) Impact + 6% .\n(4) Basic Attacks, Dash Attacks, and Dodge Counters, inflict 20% more Daze upon the main target."
+    },
+    {
+      "id": "soul-rock",
+      "name": "Soul Rock",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/soul-rock-eb145563ded2.webp",
+      "assetId": "eb145563ded2",
+      "fields": {
+        "bonuses": [
+          "(2) DEF + 16% .",
+          "(4) Upon receiving an enemy attack and losing HP, the equipper takes 40% less DMG for 2.5s . This effect can trigger once every 15s ."
+        ]
+      },
+      "text": "Soul Rock\n(2) DEF + 16% .\n(4) Upon receiving an enemy attack and losing HP, the equipper takes 40% less DMG for 2.5s . This effect can trigger once every 15s ."
+    },
+    {
+      "id": "swing-jazz",
+      "name": "Swing Jazz",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/swing-jazz-7e8e49d34387.webp",
+      "assetId": "7e8e49d34387",
+      "fields": {
+        "bonuses": [
+          "(2) Energy Regen + 20% .",
+          "(4) Launching a Chain Attack or Ultimate increases all squad members' DMG by 15% for 12s . Passive effects of the same name do not stack."
+        ]
+      },
+      "text": "Swing Jazz\n(2) Energy Regen + 20% .\n(4) Launching a Chain Attack or Ultimate increases all squad members' DMG by 15% for 12s . Passive effects of the same name do not stack."
+    },
+    {
+      "id": "thunder-metal",
+      "name": "Thunder Metal",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/thunder-metal-c2b777015ac8.webp",
+      "assetId": "c2b777015ac8",
+      "fields": {
+        "bonuses": [
+          "(2) Electric DMG + 10% .",
+          "(4) As long as an enemy in combat is Shocked , the equipper's ATK is increased by 28% ."
+        ]
+      },
+      "text": "Thunder Metal\n(2) Electric DMG + 10% .\n(4) As long as an enemy in combat is Shocked , the equipper's ATK is increased by 28% ."
+    },
+    {
+      "id": "white-water-ballad",
+      "name": "White Water Ballad",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/white-water-ballad-fc9455b2d8d7.webp",
+      "assetId": "fc9455b2d8d7",
+      "fields": {
+        "bonuses": [
+          "(2) Physical DMG + 10% .",
+          "(4) When the equipper is within any [Ether Veil], their CRIT Rate increases by 10% . After leaving the Ether Veil, this buff remains for 15s . If the equipper is an Attack character, activating an Ether Veil or extending an Ether Veil's duration increases their CRIT Rate by 10% and ATK by 10% for 30s . Repeated triggers reset the duration."
+        ]
+      },
+      "text": "White Water Ballad\n(2) Physical DMG + 10% .\n(4) When the equipper is within any [Ether Veil], their CRIT Rate increases by 10% . After leaving the Ether Veil, this buff remains for 15s . If the equipper is an Attack character, activating an Ether Veil or extending an Ether Veil's duration increases their CRIT Rate by 10% and ATK by 10% for 30s . Repeated triggers reset the duration."
+    },
+    {
+      "id": "woodpecker-electro",
+      "name": "Woodpecker Electro",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/woodpecker-electro-fe975d3b2c66.webp",
+      "assetId": "fe975d3b2c66",
+      "fields": {
+        "bonuses": [
+          "(2) CRIT Rate + 8% .",
+          "(4) Triggering a critical hit with a Basic Attack, Dodge Counter or EX Special Attack increases the equippers ATK by 9% for 6s . The buff duration for different skills are calculated separately."
+        ]
+      },
+      "text": "Woodpecker Electro\n(2) CRIT Rate + 8% .\n(4) Triggering a critical hit with a Basic Attack, Dodge Counter or EX Special Attack increases the equippers ATK by 9% for 6s . The buff duration for different skills are calculated separately."
+    },
+    {
+      "id": "yunkui-tales",
+      "name": "Yunkui Tales",
+      "kind": "drive-discs",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/drive-discs/yunkui-tales-b2e79743efd9.webp",
+      "assetId": "b2e79743efd9",
+      "fields": {
+        "bonuses": [
+          "(2) HP + 10% .",
+          "(4) When using [EX Special Attack], [Chain Attack], or [Ultimate], CRIT Rate increases by 4% , stacking up to 3 times and lasting 15s . Repeated triggers reset the duration. When having 3 stacks of this effect, Sheer DMG increases by 10% ."
+        ]
+      },
+      "text": "Yunkui Tales\n(2) HP + 10% .\n(4) When using [EX Special Attack], [Chain Attack], or [Ultimate], CRIT Rate increases by 4% , stacking up to 3 times and lasting 15s . Repeated triggers reset the duration. When having 3 stacks of this effect, Sheer DMG increases by 10% .\nMore information\nIf you want to learn more about Drive Disks themselves, do check our other guides .\nDrive Disks\nDrive Disks Stats"
+    }
+  ],
+  "detailPagesScraped": 0,
+  "detailPagesTotal": 0
+}

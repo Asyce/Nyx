@@ -1,0 +1,1729 @@
+[
+  {
+    "id": "aalto",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Aalto",
+    "slug": "aalto",
+    "sourcePath": "/wuthering-waves/characters/aalto",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Aero",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/aalto-539d2edc55d7.webp",
+      "full": "Prydwen/ww/assets/characters/aalto-05efecf613fe.webp",
+      "icon": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/aalto.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 35
+  },
+  {
+    "id": "aemeath",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Aemeath",
+    "slug": "aemeath",
+    "sourcePath": "/wuthering-waves/characters/aemeath",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fusion",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/aemeath-e8051cbd92ef.webp",
+      "full": "Prydwen/ww/assets/characters/aemeath-c3afbd3131bd.webp",
+      "icon": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/aemeath.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 38
+  },
+  {
+    "id": "augusta",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Augusta",
+    "slug": "augusta",
+    "sourcePath": "/wuthering-waves/characters/augusta",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Electro",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/augusta-596c5cc53cbb.webp",
+      "full": "Prydwen/ww/assets/characters/augusta-218057f11bbd.webp",
+      "icon": "Prydwen/ww/assets/characters/augusta-d9b47f532b06.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/augusta.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "baizhi",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Baizhi",
+    "slug": "baizhi",
+    "sourcePath": "/wuthering-waves/characters/baizhi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Glacio",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/baizhi-acde6f786624.webp",
+      "full": "Prydwen/ww/assets/characters/baizhi-f96d468376de.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/baizhi.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 22
+  },
+  {
+    "id": "brant",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Brant",
+    "slug": "brant",
+    "sourcePath": "/wuthering-waves/characters/brant",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fusion",
+      "weapon": "Sword"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/brant-37f3d77543f6.webp",
+      "icon": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/brant.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 38
+  },
+  {
+    "id": "buling",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Buling",
+    "slug": "buling",
+    "sourcePath": "/wuthering-waves/characters/buling",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Electro",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/buling-7d7829257f62.webp",
+      "full": "Prydwen/ww/assets/characters/buling-f9d6c0f3deac.webp",
+      "icon": "Prydwen/ww/assets/characters/yangyang-99437be429aa.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/buling.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 29
+  },
+  {
+    "id": "calcharo",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Calcharo",
+    "slug": "calcharo",
+    "sourcePath": "/wuthering-waves/characters/calcharo",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Electro",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/calcharo-f3467aaf6a4e.webp",
+      "full": "Prydwen/ww/assets/characters/calcharo-c7dbcf640fae.webp",
+      "icon": "Prydwen/ww/assets/characters/jianxin-3f68e864215a.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/calcharo.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 33
+  },
+  {
+    "id": "camellya",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Camellya",
+    "slug": "camellya",
+    "sourcePath": "/wuthering-waves/characters/camellya",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Havoc",
+      "weapon": "Sword"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/camellya-b68cebb29e98.webp",
+      "icon": "Prydwen/ww/assets/characters/cantarella-d42a4f914657.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/camellya.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 39
+  },
+  {
+    "id": "cantarella",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Cantarella",
+    "slug": "cantarella",
+    "sourcePath": "/wuthering-waves/characters/cantarella",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Havoc",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/cantarella-838306f4f7be.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-havoc-5e11cdf2ec3d.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/cantarella.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "carlotta",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Carlotta",
+    "slug": "carlotta",
+    "sourcePath": "/wuthering-waves/characters/carlotta",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Glacio",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/carlotta-1bf19bae6c94.webp",
+      "icon": "Prydwen/ww/assets/characters/buling-c3c0616e25ab.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/carlotta.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 35
+  },
+  {
+    "id": "cartethyia",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Cartethyia",
+    "slug": "cartethyia",
+    "sourcePath": "/wuthering-waves/characters/cartethyia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Aero",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/cartethyia-ed6aecb666f8.webp",
+      "full": "Prydwen/ww/assets/characters/cartethyia-0aab3b75d895.webp",
+      "icon": "Prydwen/ww/assets/characters/cartethyia-24cf4bbd3534.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/cartethyia.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 29
+  },
+  {
+    "id": "changli",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Changli",
+    "slug": "changli",
+    "sourcePath": "/wuthering-waves/characters/changli",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fusion",
+      "weapon": "Sword"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/changli-dc0ce1974c67.webp",
+      "icon": "Prydwen/ww/assets/characters/changli-886b0b6d9bb6.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/changli.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 39
+  },
+  {
+    "id": "chisa",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Chisa",
+    "slug": "chisa",
+    "sourcePath": "/wuthering-waves/characters/chisa",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Havoc",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/chisa-c9f908c02435.webp",
+      "full": "Prydwen/ww/assets/characters/chisa-4f80c7455c43.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/chisa.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "chixia",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Chixia",
+    "slug": "chixia",
+    "sourcePath": "/wuthering-waves/characters/chixia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Fusion",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/chixia-c0793791b62e.webp",
+      "full": "Prydwen/ww/assets/characters/chixia-0bcf88495bb8.webp",
+      "icon": "Prydwen/ww/assets/characters/encore-717aae79cbb0.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/chixia.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 29
+  },
+  {
+    "id": "ciaccona",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Ciaccona",
+    "slug": "ciaccona",
+    "sourcePath": "/wuthering-waves/characters/ciaccona",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Aero",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/ciaccona-f94394577c2e.webp",
+      "full": "Prydwen/ww/assets/characters/ciaccona-b29f2ae0ca0d.webp",
+      "icon": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/ciaccona.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "danjin",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Danjin",
+    "slug": "danjin",
+    "sourcePath": "/wuthering-waves/characters/danjin",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Havoc",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/danjin-f2f25e3c04cd.webp",
+      "full": "Prydwen/ww/assets/characters/danjin-f5c38f132cf5.webp",
+      "icon": "Prydwen/ww/assets/characters/danjin-80f52f56be00.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/danjin.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 36
+  },
+  {
+    "id": "denia",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Denia",
+    "slug": "denia",
+    "sourcePath": "/wuthering-waves/characters/denia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fusion",
+      "weapon": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/denia-cd066b7db391.webp",
+      "full": "Prydwen/ww/assets/characters/denia-ad67928de9d2.webp",
+      "icon": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/denia.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 39
+  },
+  {
+    "id": "encore",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Encore",
+    "slug": "encore",
+    "sourcePath": "/wuthering-waves/characters/encore",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fusion",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/encore-c448f1c9cc94.webp",
+      "full": "Prydwen/ww/assets/characters/encore-de906cd66fb0.webp",
+      "icon": "Prydwen/ww/assets/characters/encore-717aae79cbb0.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/encore.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 36
+  },
+  {
+    "id": "galbrena",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Galbrena",
+    "slug": "galbrena",
+    "sourcePath": "/wuthering-waves/characters/galbrena",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fusion",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/galbrena-fe2988f30e1d.webp",
+      "full": "Prydwen/ww/assets/characters/galbrena-6ddbd81df834.webp",
+      "icon": "Prydwen/ww/assets/characters/galbrena-bfb1691bcfa3.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/galbrena.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "hiyuki",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Hiyuki",
+    "slug": "hiyuki",
+    "sourcePath": "/wuthering-waves/characters/hiyuki",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Glacio",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/hiyuki-6dff9c6a84da.webp",
+      "full": "Prydwen/ww/assets/characters/hiyuki-099635d10d97.webp",
+      "icon": "Prydwen/ww/assets/characters/hiyuki-5bd44ca9e74f.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/hiyuki.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 35
+  },
+  {
+    "id": "iuno",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Iuno",
+    "slug": "iuno",
+    "sourcePath": "/wuthering-waves/characters/iuno",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Aero",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/iuno-565fb00e415b.webp",
+      "full": "Prydwen/ww/assets/characters/iuno-b7578fecf82e.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/iuno.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "jianxin",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Jianxin",
+    "slug": "jianxin",
+    "sourcePath": "/wuthering-waves/characters/jianxin",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Aero",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/jianxin-0c0181a96d16.webp",
+      "full": "Prydwen/ww/assets/characters/jianxin-e05b5541fac3.webp",
+      "icon": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/jianxin.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 34
+  },
+  {
+    "id": "jinhsi",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Jinhsi",
+    "slug": "jinhsi",
+    "sourcePath": "/wuthering-waves/characters/jinhsi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/jinhsi-4e46d433a28a.webp",
+      "full": "Prydwen/ww/assets/characters/jinhsi-5b27fbfe30f2.webp",
+      "icon": "Prydwen/ww/assets/characters/jinhsi-b67d310bf80d.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/jinhsi.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 38
+  },
+  {
+    "id": "jiyan",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Jiyan",
+    "slug": "jiyan",
+    "sourcePath": "/wuthering-waves/characters/jiyan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Aero",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/jiyan-526f427140dc.webp",
+      "full": "Prydwen/ww/assets/characters/jiyan-f77f8a07880e.webp",
+      "icon": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/jiyan.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "lingyang",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Lingyang",
+    "slug": "lingyang",
+    "sourcePath": "/wuthering-waves/characters/lingyang",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Glacio",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/lingyang-b85e18b088e5.webp",
+      "full": "Prydwen/ww/assets/characters/lingyang-12be3e3b8011.webp",
+      "icon": "Prydwen/ww/assets/characters/mornye-40d7023b51fa.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/lingyang.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 35
+  },
+  {
+    "id": "lucilla",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Lucilla",
+    "slug": "lucilla",
+    "sourcePath": "/wuthering-waves/characters/lucilla",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.4"
+    ],
+    "updatedText": "08/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Glacio",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/lucilla-3cde2eba4714.webp",
+      "full": "Prydwen/ww/assets/characters/lucilla-645cef8d92d9.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/lucilla.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 3
+  },
+  {
+    "id": "lucy",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Lucy",
+    "slug": "lucy",
+    "sourcePath": "/wuthering-waves/characters/lucy",
+    "contentStatus": "live",
+    "statusLabels": [
+      "New"
+    ],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/lucy-af75001a9717.webp",
+      "full": "Prydwen/ww/assets/characters/lucy-9479ec44b129.webp",
+      "icon": "Prydwen/ww/assets/characters/lucy-4272ca037e7a.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/lucy.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 33
+  },
+  {
+    "id": "lumi",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Lumi",
+    "slug": "lumi",
+    "sourcePath": "/wuthering-waves/characters/lumi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Electro",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/lumi-da7336a0c26e.webp",
+      "icon": "Prydwen/ww/assets/characters/lumi-a1c1a1cd66c0.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/lumi.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 29
+  },
+  {
+    "id": "lupa",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Lupa",
+    "slug": "lupa",
+    "sourcePath": "/wuthering-waves/characters/lupa",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fusion",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/lupa-8ba3ee431e4e.webp",
+      "full": "Prydwen/ww/assets/characters/lupa-7b0baf50aa8d.webp",
+      "icon": "Prydwen/ww/assets/characters/the-shorekeeper-d909de4aecde.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/lupa.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 40
+  },
+  {
+    "id": "luuk-herssen",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Luuk Herssen",
+    "slug": "luuk-herssen",
+    "sourcePath": "/wuthering-waves/characters/luuk-herssen",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/luuk-herssen-f1d67bfe71d8.webp",
+      "full": "Prydwen/ww/assets/characters/luuk-herssen-5652dfe8996d.webp",
+      "icon": "Prydwen/ww/assets/characters/luuk-herssen-0322cb64ed6d.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/luuk-herssen.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 36
+  },
+  {
+    "id": "lynae",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Lynae",
+    "slug": "lynae",
+    "sourcePath": "/wuthering-waves/characters/lynae",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/lynae-6c7571198e39.webp",
+      "full": "Prydwen/ww/assets/characters/lynae-2900407f5a79.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/lynae.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "mornye",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Mornye",
+    "slug": "mornye",
+    "sourcePath": "/wuthering-waves/characters/mornye",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fusion",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/mornye-a1fc5522783e.webp",
+      "full": "Prydwen/ww/assets/characters/mornye-4ea899250861.webp",
+      "icon": "Prydwen/ww/assets/characters/encore-717aae79cbb0.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/mornye.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 30
+  },
+  {
+    "id": "mortefi",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Mortefi",
+    "slug": "mortefi",
+    "sourcePath": "/wuthering-waves/characters/mortefi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Fusion",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/mortefi-0600d7b7604b.webp",
+      "full": "Prydwen/ww/assets/characters/mortefi-d5d907185fab.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/mortefi.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 33
+  },
+  {
+    "id": "phoebe",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Phoebe",
+    "slug": "phoebe",
+    "sourcePath": "/wuthering-waves/characters/phoebe",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/phoebe-3d4306d78712.webp",
+      "icon": "Prydwen/ww/assets/characters/changli-886b0b6d9bb6.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/phoebe.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "phrolova",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Phrolova",
+    "slug": "phrolova",
+    "sourcePath": "/wuthering-waves/characters/phrolova",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Havoc",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/phrolova-8e2483db1896.webp",
+      "full": "Prydwen/ww/assets/characters/phrolova-f93c4b04e040.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-havoc-5e11cdf2ec3d.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/phrolova.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "qiuyuan",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Qiuyuan",
+    "slug": "qiuyuan",
+    "sourcePath": "/wuthering-waves/characters/qiuyuan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Aero",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/qiuyuan-b816ed5533f2.webp",
+      "full": "Prydwen/ww/assets/characters/qiuyuan-9101898bdf10.webp",
+      "icon": "Prydwen/ww/assets/characters/danjin-80f52f56be00.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/qiuyuan.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "rotation",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "rebecca",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Rebecca",
+    "slug": "rebecca",
+    "sourcePath": "/wuthering-waves/characters/rebecca",
+    "contentStatus": "live",
+    "statusLabels": [
+      "New"
+    ],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Electro",
+      "weapon": "Pistols"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/rebecca-9e9cb9043a78.webp",
+      "full": "Prydwen/ww/assets/characters/rebecca-7d52d26dbc84.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-spectro-514d72023ab5.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/rebecca.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 38
+  },
+  {
+    "id": "roccia",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Roccia",
+    "slug": "roccia",
+    "sourcePath": "/wuthering-waves/characters/roccia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Havoc",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/roccia-79dea044afc4.webp",
+      "icon": "Prydwen/ww/assets/characters/roccia-74059456d235.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/roccia.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 31
+  },
+  {
+    "id": "rover-aero",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Rover (Aero)",
+    "slug": "rover-aero",
+    "sourcePath": "/wuthering-waves/characters/rover-aero",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Aero",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/rover-aero-578c4299a93d.webp",
+      "full": "Prydwen/ww/assets/characters/rover-aero-e18045d46d04.webp",
+      "icon": "Prydwen/ww/assets/characters/mortefi-4910396b5955.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/rover-aero.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 25
+  },
+  {
+    "id": "rover-havoc",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Rover (Havoc)",
+    "slug": "rover-havoc",
+    "sourcePath": "/wuthering-waves/characters/rover-havoc",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Havoc",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/rover-havoc-578c4299a93d.webp",
+      "full": "Prydwen/ww/assets/characters/rover-havoc-cc7df9718613.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-havoc-5e11cdf2ec3d.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/rover-havoc.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 30
+  },
+  {
+    "id": "rover-spectro",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Rover (Spectro)",
+    "slug": "rover-spectro",
+    "sourcePath": "/wuthering-waves/characters/rover-spectro",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/rover-spectro-578c4299a93d.webp",
+      "full": "Prydwen/ww/assets/characters/rover-spectro-62be77f1ce9f.webp",
+      "icon": "Prydwen/ww/assets/characters/changli-886b0b6d9bb6.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/rover-spectro.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 36
+  },
+  {
+    "id": "sanhua",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Sanhua",
+    "slug": "sanhua",
+    "sourcePath": "/wuthering-waves/characters/sanhua",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Glacio",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/sanhua-57e51bfbb2dc.webp",
+      "full": "Prydwen/ww/assets/characters/sanhua-5209c9b1dd45.webp",
+      "icon": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/sanhua.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 31
+  },
+  {
+    "id": "sigrika",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Sigrika",
+    "slug": "sigrika",
+    "sourcePath": "/wuthering-waves/characters/sigrika",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Aero",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/sigrika-dac26839b843.webp",
+      "full": "Prydwen/ww/assets/characters/sigrika-feaeb4a6e35f.webp",
+      "icon": "Prydwen/ww/assets/characters/sigrika-78b0d527a7a8.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/sigrika.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 34
+  },
+  {
+    "id": "taoqi",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Taoqi",
+    "slug": "taoqi",
+    "sourcePath": "/wuthering-waves/characters/taoqi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Havoc",
+      "weapon": "Broadblade"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/taoqi-a247d98b0cb7.webp",
+      "full": "Prydwen/ww/assets/characters/taoqi-a3bb4a186b33.webp",
+      "icon": "Prydwen/ww/assets/characters/taoqi-fcae764e088a.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/taoqi.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 24
+  },
+  {
+    "id": "the-shorekeeper",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "The Shorekeeper",
+    "slug": "the-shorekeeper",
+    "sourcePath": "/wuthering-waves/characters/the-shorekeeper",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "icon": "Prydwen/ww/assets/characters/sanhua-f3c8221757b4.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/the-shorekeeper.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 31
+  },
+  {
+    "id": "verina",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Verina",
+    "slug": "verina",
+    "sourcePath": "/wuthering-waves/characters/verina",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/verina-97b026bd1974.webp",
+      "full": "Prydwen/ww/assets/characters/verina-4bfead3b632c.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/verina.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 22
+  },
+  {
+    "id": "xiangli-yao",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Xiangli Yao",
+    "slug": "xiangli-yao",
+    "sourcePath": "/wuthering-waves/characters/xiangli-yao",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Electro",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
+      "icon": "Prydwen/ww/assets/characters/xiangli-yao-fca2e0354e3a.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/xiangli-yao.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "yangyang",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Yangyang",
+    "slug": "yangyang",
+    "sourcePath": "/wuthering-waves/characters/yangyang",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Aero",
+      "weapon": "Sword"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/yangyang-a29c4de025eb.webp",
+      "full": "Prydwen/ww/assets/characters/yangyang-340f9b1e8495.webp",
+      "icon": "Prydwen/ww/assets/characters/yangyang-99437be429aa.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/yangyang.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 28
+  },
+  {
+    "id": "yinlin",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Yinlin",
+    "slug": "yinlin",
+    "sourcePath": "/wuthering-waves/characters/yinlin",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Electro",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/yinlin-8885c8997e38.webp",
+      "full": "Prydwen/ww/assets/characters/yinlin-c9f7f0f5bff7.webp",
+      "icon": "Prydwen/ww/assets/characters/rover-aero-df8c0bc8d49a.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/yinlin.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 37
+  },
+  {
+    "id": "youhu",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Youhu",
+    "slug": "youhu",
+    "sourcePath": "/wuthering-waves/characters/youhu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Glacio",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/youhu-27c8d6a72e6f.webp",
+      "icon": "Prydwen/ww/assets/characters/jiyan-7c6c3a3bc3ce.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/youhu.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 28
+  },
+  {
+    "id": "yuanwu",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Yuanwu",
+    "slug": "yuanwu",
+    "sourcePath": "/wuthering-waves/characters/yuanwu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Electro",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "card": "Prydwen/ww/assets/characters/yuanwu-b4bc2a6d49f2.webp",
+      "full": "Prydwen/ww/assets/characters/yuanwu-d5ca96af6402.webp",
+      "icon": "Prydwen/ww/assets/characters/yuanwu-33f610856d71.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/yuanwu.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 30
+  },
+  {
+    "id": "zani",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Zani",
+    "slug": "zani",
+    "sourcePath": "/wuthering-waves/characters/zani",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Spectro",
+      "weapon": "Gauntlets"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/zani-3b924faaa0f7.webp",
+      "icon": "Prydwen/ww/assets/characters/zani-3a3005a58dc2.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/zani.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 39
+  },
+  {
+    "id": "zhezhi",
+    "provider": "Prydwen",
+    "game": "ww",
+    "name": "Zhezhi",
+    "slug": "zhezhi",
+    "sourcePath": "/wuthering-waves/characters/zhezhi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "09/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Glacio",
+      "weapon": "Rectifier"
+    },
+    "art": {
+      "full": "Prydwen/ww/assets/characters/zhezhi-1c6bb925a9a4.webp",
+      "icon": "Prydwen/ww/assets/characters/zhezhi-60fadd490017.webp"
+    },
+    "pageFile": "Prydwen/ww/pages/characters/zhezhi.json",
+    "recommendationSections": [
+      "best-echo-stats",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "rotation",
+      "synergies",
+      "example-teams"
+    ],
+    "assetCount": 36
+  }
+]

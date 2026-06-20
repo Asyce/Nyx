@@ -1,0 +1,3970 @@
+{
+  "name": "Mona",
+  "desc": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+  "chara_info": {
+    "release_date": "2020-09-15 04:00:00",
+    "birth": [
+      8,
+      31
+    ],
+    "vision": "Hydro",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Astrolabos",
+    "region": "ASSOC_TYPE_MONDSTADT",
+    "title": "Astral Reflection",
+    "native": "Mondstadt",
+    "detail": "A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.",
+    "va": {
+      "chinese": "陈婷婷",
+      "japanese": "小原好美",
+      "english": "Felecia Angelle",
+      "korean": "Woo Jeong-shin"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Teyvat is a place where people of all sorts go about their business. Merchants move products, knights patrol, and farmers till the land.\\nBut if one were to ask Mona — the enigmatic and prideful astrologist — what she busies herself with, she will reply by saying that she is servicing a debt known as \"life.\"\\nShe will, however, vigorously deny being \"poor,\" giving the following explanation:\\n\"Beautiful veneers may obscure simple truths.\\nExquisite food may mask its nutritional value.\\nOne lives simply, all the better to expose this world's truths.\"\\nA frugal lifestyle, therefore, is a form of training to access the truth... Or so Mona will insist.\\nTeyvat is a place where people of all sorts go about their business, and even an enigmatic astrologist must look to hers.\\n—That said, it seems like bards might be the exception to this rule.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Recently, Mona's teacher, an old but highly skilled female astrologist, has entrusted a very important task to her.\\nHer teacher has an erstwhile rival-friend in Mondstadt, and she wanted Mona to retrieve a highly confidential box from that person's successor.\\n\"If you dare look inside that box... Well, you'll see.\"\\nThat was the warning Mona received before departing.\\nTo Mona's surprise, this successor was none other than the Spark Knight, Klee.\\nThe box was still extant, but due to Klee's actions and a series of accidents... Mona unwittingly unraveled the enigma behind the box.\\n\"I—I'm done for. The thing inside this was the dark history of her youth... she will kill me if I go back like this...\"\\nMona was thus forced to stay in Mondstadt, beginning a bitterly frugal but bountifully fulfilling existence.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2",
+          "Complete \"Beyond This World's Stars\""
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Mona's astrology utilizes hydromancy, and she once explained the underlying principles thusly:\\n\"It is people's fate that shines in the night sky, and though its reflection in water is but an illusion, it reveals the truth nonetheless.\"\\nNo one else can quite comprehend this principle, but Mona's ability convinces people to believe in it anyway.\\nAlbeit, sometimes grudgingly...\\nHer astrological readings are exceptionally precise, and she will neither lie nor hold anything back when revealing the results of her readings.\\n\"Your son says that he's made it. That's a lie.\"\\n\"You've got no chance with him. In fact, he will soon leave you.\"\\nThe cold, hard truth is laid bare before people' eyes, complete with all the grisly details that they would rather remained buried.\\nMona will make no exceptions to this, and as such she can seem completely lacking in human emotion.\\nBut sometimes, on a clear night, she can be seen on a high mountain slope.\\nThere, Mona gazes up at the stars in the sky — so close, she feels, that she could almost reach out and touch them — with gentle eyes, humming an unknown tune to herself.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Having never studied the art of finance, the astrologist Mona is always hovering around the poverty line.\\nIn order to save on food expenses, she once ate mushrooms for an entire month straight. If not for some relief funds coming from time to time, she would have had trouble eking out a living.\\nMona does in fact have some money set aside. Even though she must eventually run dry without an income, she can slow the bleeding by scrimping in the food department.\\nSo where does the rest of the Mora go? Well, if you've ever had a look inside her lab, then know that the big pile of astrology-related apparatus and tools in there didn't come out of thin air.\\nIn fact, all of them come with a hefty price tag — books from Liyue, an astrolabe from Sumeru... The shipping fees alone are impressive.\\nThat Mona should be in abject poverty comes, therefore, as no surprise.\\nIn order to support herself, Mona eventually took up a commercial contract — her contributions to a column about constellations in The Steambird have become her most stable income source.\\nNow having a monthly income, Mona could have left her life of poverty. But how could an astrologist's pursuit of knowledge end here?\\nWhenever she gets paid, Mona will immediately shell out on more astrology-related resources, returning to a state of destitution once more.\\nThis process plays out every month.\\nToday, too, is another day Mona worries over Mora.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Mona will sometimes meet up with Klee and Albedo, her primary reason being to get a free meal.\\nSecondary to that is to exchange pointers with Albedo.\\nSince they are both people who seek to unveil the principles of the world, and both are accomplished students of famed masters, aligning themselves with one another and working together is perfectly normal.\\nMona staunchly defends her teacher's image in front of Albedo.\\nHowever, she also often complains about \"that old hag.\"\\n\"You speak of your illustrious lineage, yet you also refer to your master as a 'hag' and a 'stubborn dimwit.' Which of these descriptions is accurate?\"\\nAlbedo could not help but ask this question — and when he did, Mona promptly realized that she had never given it much thought herself.\\nStroking her chin, she pondered this paradox deeply for a moment, before responding:\\n\"Hmph. The techniques passed down to me are exceptional, of course, but my teacher is not my equal.\\nDoes she know the market rates for eggs, butter, or wheat? In this regard, I have already far surpassed her.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5",
+          "Complete \"Beyond This World's Stars\""
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "During her apprenticeship, Mona found that the subtle abstractions of her master's teachings could explain the laws that governed the existence of all things.\\nHuman hearts were guided by these laws, and if one had great enough powers of calculation, all the mysteries of the world could be understood.\\nMona once believed this to be true.\\nBut when she had to strike out on her own and live day-to-day, she found herself doubting.\\nNot everyone lived wealthy and comfortable lives. Some neither had food nor warm clothes, living no differently from beggars.\\nAnd it was just such an adventurer who, when meeting Mona while she was out looking for fruits and vegetables to fill her stomach, shared half their food with her.\\n\"Out here, we've gotta have each other's backs.\"\\nThis was not something inscribed on these so-called principles of the world. And many other such things she encountered on her journey — the honesty of a thief, a robber's change of heart, a coward's courage, the good deeds of a wicked person...\\nMona began to have some doubts, but she also felt like she finally had her feet on solid ground.\\nWhen she was again alone with her thoughts under the stars, she marveled that her research had been so full of holes.\\nPerhaps she would have to continue researching the world's principles for the rest of her life.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "All Things Astrological",
+        "text": "The Court of Fontaine's mainline newspaper, The Steambird, has many a featured section that contains all sorts of news and gossip drawn from every corner of the seven nations.\\nThe section Mona contributes to is known as \"All Things Astrological,\" and it is a column specifically targeted at hobbyists and professionals. That she had this opportunity at all was pure chance.\\nWhen the previous contributing author was traveling the world, he heard tell of a strange astrologist, and his hobbyist's curiosity compelled him to seek her out.\\nTheir correspondence left him deeply impressed.\\nAs it happened, he was also looking to retire, and seeing that Mona was strapped for Mora, reached out to help her by recommending her to the editor-in-chief of The Steambird.\\nWhen Mona released her first column, \"An Introduction to Astrology,\" the column, heretofore known for being easy reading, experienced a massive shift in tone.\\nMost of each issue was dedicated to discussing the movement of celestial bodies and other difficult (and obscure) topics. Academic quotations, dense footnotes and even the occasional hand-drawn star maps abounded in these writings.\\nThe editor-in-chief could not help but feel worried that this approach was too academic. Would it find acceptance with long-time readers? As it turned out, there was no need to fret. The publishing house received a great many letters that read something like this:\\n\"Wow, this is amazing. I don't really get it, but this is super interesting. Consider me a fan of Astrologist Mona Megistus.\"\\nAfter getting approval to continue submitting manuscripts, Mona could finally heave a sigh of relief.\\nNow, how best to celebrate... Ah yes. Perhaps she should use her first paycheck to purchase that latest-edition celestial globe she'd had her eye on for a while now...",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "To Mona, that her Vision was sent to her from the gods doesn't mean a great deal.\\nThis is not to say that possessing an external focus for elemental power is not useful.\\nHaving power is always a good thing, but when compared to lofty \"truth,\" \"martial prowess\" is such a pathetically small concept.\\nThe gods, too, are bound by the rules of this world. Mona seeks the final truth of the world, hidden amidst the sea of stars.\\nAs such, she does not have any reverence for her Vision, which the people of this world consider to be a sign of divine favor and the source of all power.\\nNonetheless, this item that serves no practical use in her hands is something that she treasures greatly.\\nIt was gifted to her by her teacher as a teaching aid, and it is the only evidence of their time together as master and pupil.\\nShe preserves these distant memories with great care. This exquisitely-made teaching aid thus accompanied her everywhere, like an accessory worn by any other maiden.\\nUntil one day, when a Vision of her very own would quietly indwell this old teaching aid...",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "I am Astrologist Mona Megistus, meaning \"The Great Astrologist Mona.\" If it is divination you seek from me, then I ask you respect my name by learning it wholly, here and now.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Astrology",
+        "text": "Divination is about precisely foretelling one's written destiny. Over-embellishing that fate only leads to misconception.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Life",
+        "text": "Astrologers must rid themselves of material desires. Only by ridding oneself of clutter can one see the true world around them.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Fate",
+        "text": "Fate is called as such, for it cannot be changed, nor can it be reversed. It can only but be accepted.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "With rain this heavy, not only are the stars clouded, so too is my scryglass hazy.",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Which of the starry skies do these thunderbolts fall from?",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "The pure waters of melted snow are optimal for hydromancy.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "One need not scry to know today's weather will be good.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Your arrival is untimely. The morning star has just waned... Breakfast? No, I—I've already eaten.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Noon is upon us, we should eat. Hm? I... I will have a salad, for simplicity is the way of the astrologer.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Nightfall has arrived. I will soon be able to begin my divination. Ah... Did I finish writing my astrology column last night...?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "It's already so late, and I'm no further along on finishing tomorrow's astrology column. What? You're off to sleep? *sigh* I wish I could sleep now too...",
+        "unlocked": []
+      },
+      {
+        "title": "About Mona",
+        "text": "The work of the astrologer is to show people what fate has in store for them, and that's exactly what I do. There will always be those, however, who are unable to accept what they are told.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Work",
+        "text": "Why do I write reports rather than using my divination to earn Mora? I would never use hydromancy for the sake of Mora, nor did I learn hydromancy for that purpose.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: My Fate",
+        "text": "I don't know. Unless left with no other choice, astrologers do not foretell their own fate. The elders of my art warned against it, for it can turn fate in on itself, which is incredibly dangerous.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About Us: Your Fate",
+        "text": "As you are not from this world, I am unable to give you a prediction. All I can tell you is that your journey is far from over.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision: Disdain",
+        "text": "When I first received my Vision, the elderly woman that gave it to me, she put on this air and said \"May your heart of truth be with you.\" And yet this thing does nothing for my hydromancy, all it does is get me wet.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "About the Vision: Value",
+        "text": "That said, a Vision doesn't hurt to have as a little accessory. It is, after all, the one useful study tool that miserly old lady ever gave me, in a rare act of generosity.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "Do you know about constellations? Astrologers believe that the patterns of the stars map out the destiny of Vision bearers — past, present, and future, everything is written in the stars.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Interesting Things",
+        "text": "This... travel companion of yours — do you know anything of her origins? No matter what, I cannot seem to discern a single shred of information regarding this floating fairy's fate.\\n...Oh? So you don't know where she comes from, either?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Jean",
+        "text": "You mean the Acting Grand Master of the Knights of Favonius? Her constellation is Leo Minor, which represents strength and responsibility shouldered too young... Though the lioness has been separated from her pride for a long time, she grows from strength to strength, and the day will come when she is ready to return as its glorious leader.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Albedo",
+        "text": "Albedo? Ah... I envy his ability to solely focus on his research without getting bogged down in mundane worldly affairs. What a wonderful life! If that batty old lady hadn't had one too many screws loose, perhaps that's the life I'd be living by now myself...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Klee",
+        "text": "Ah yes, Alice's daughter. She's in the custody of the Knights of Favonius, and Albedo looks after her too. She's blessed to have Trifolium as her constellation, which represents good luck. I'm slightly envious... *smirk*\\nAlthough, if I'd been blessed with good luck, I suppose I never would have had the great honor of running into that old woman, would I...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Diluc",
+        "text": "Diluc Ragnvindr. His constellation, Noctua, represents vigilance in the darkness of night... A lone guardian keeping watch, longing for the splendor of dawn, yet destined to solitude in the dark days preceding its arrival.\\n...Or, wait, maybe Noctua's the one tied to wealth...?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kaeya",
+        "text": "Kaeya Alberich? He's a Pavo Ocellus. Destined for greatness and grandeur... and to hide ugly realities behind a layer of charm and elegance. He believes he has made a clean break with his past, but one day fate will catch up with him. When it does, he will have a major decision to make.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Lisa",
+        "text": "A Tempus Fugit... The constellation derives its name from the hourglass, and stands for knowledge and time — or rather, the trade-off between them. As each grain of sand falls down, a moment of time — of life, even, dies for good. To stop the unrelenting flow of sand, one would have to turn the hourglass on its side. But once the sand comes to rest, it remains motionless forever... Hmm, maybe \"becomes lazy\" is more accurate than \"comes to rest,\" in this case.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Venti",
+        "text": "Venti? The bard that sits around doing nothing all day? What's so interesting about him? Sure, I guess I can take a look...\\nHuh, that's weird, the scryglass, it's... I can't see a thing... this wind... I can't... open my eyes! No, my hat! Ah! My clothes, stop! The wind's going to strip all my clothes off! Make it stop, make it stop! ...Alright, alright! I'll never do this again!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Mona: I",
+        "text": "You want to chat... for fun? Oh... I don't usually have spare time for such activities, especially when I have so many columns left to write... Then again, since it's you, it might be worth it. Hehe, a change of pace once in a while isn't such a bad thing.",
+        "unlocked": []
+      },
+      {
+        "title": "More About Mona: II",
+        "text": "Income? From astrology...? You can't use... things like Mora to determine the value of astrology! You need to understand: hydromancy is the one and only means of discerning people's true destiny in the whole of Teyvat! No matter how much Mora or gems you might have, the value of fate is quite simply incalculable! Perhaps not the smartest question you might have had for me...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Mona: III",
+        "text": "You want me to explain how astrology works? I'm not sure you'd understand even if I told you. But since you ask... The method I use is called hydromancy. The art of inferring fate from the illusory reflection of the stars on the water's surface. The inverted reflection in the water is an image of the heavens from within which the truth of our world can be observed. ...It is the one and only success story of that old lady's research endeavors.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Mona: IV",
+        "text": "Mona Megistus, the Astrologist — we came up with that name together, the old lady and me. She said it had a nice ring to it... But then she started calling me 'Meg' for short, which is obviously unnecessary, because clearly 'Mona' is already suffice for a shorter name— No! You are NOT allowed to call me that, it's embarrassing! Gah! I knew I shouldn't have told you!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Mona: V",
+        "text": "The golden rule all fortune-tellers abide by is: never offer advice. Only state the results of the divination. Otherwise, you risk your fate becoming tangled up with that of your subject. But for you, I will make an exception to this rule — because our fates have been intertwined from the beginning.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Mona's Hobbies",
+        "text": "My hobby? Stargazing! In this all-too-real world in which we live, we all need to look up from the dust once in a while and fix our gaze on the stars, in a spirit of wonder... That, plus the whole thing about me being an astrologer.",
+        "unlocked": []
+      },
+      {
+        "title": "Mona's Troubles",
+        "text": "*sigh* The equipment repair bill is due, and so is the final payment for that celestial globe I ordered... Also, I still need to renew my journal subscriptions, not to mention pay the rent... Hmm, which one to prioritize? ...Ah, I'll pay off the celestial globe first. If I leave it any longer, they'll sell out, and then I'll never get my hands on one...",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "Salad. Salad is by far the best food in the world. Cheap to buy, easy to whip up, filling, and it's the most convenient thing there is when you're working on a column or fixing some equipment — I mean, who's got time for a proper dinner anyway?",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "You know, all those... overpriced, fancy foods. Personally, I think it's uncivilized and, frankly, dangerous to splash out and indulge yourself every time you have a little hunger pang.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Happy Birthday. Here's my gift to you — it's a bag containing some words of advice that may help you through tough patches. ...No, don't open it yet. During the year ahead, this bag will open itself when the right time comes.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "This was ordained by fate! Long had I foreseen it.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "...One step closer. Maybe soon I shall finally uncover the truth of this world?",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "My scryglass has long since preordained all that will take place beneath the stars it reflects.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "In the reflection of the water, I see the ascension of the morning star.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Let me scry!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Shadows of fate!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Delve into destiny!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Fate is upon you.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Written in the stars!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Decided by destiny!",
+        "unlocked": []
+      },
+      {
+        "title": "Deploying Wind Glider: I",
+        "text": "Scry the sky!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "We could do with some more fortune...",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "This should cover food and rent for a while!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Ah, finding treasure is pretty exhilarating!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "My vision is clouded...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Odius fate...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "This was not foretold!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Do not tempt fate.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "This is not your destiny.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "The stars... are fading...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "Destiny cannot be... denied.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "My reckoning... has come...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "Curses.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Leave my space!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "This is destiny.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "This is how it must be.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "It is as the stars foretold.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Ah, so satisfied... Who would have thought knowing you would bear so many benefits.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Just to be clear... you're sure I don't have to pay... for any of this?",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "I don't mean to nitpick, or anything, it's just... I haven't quite eaten enough.",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108114,
+      "recipe": 2007,
+      "name": "Der Weisheit Letzter Schluss (Life)",
+      "icon": "UI_ItemIcon_108114",
+      "rank": 2
+    },
+    "namecard": {
+      "id": 210015,
+      "name": "Mona: Starry Sky",
+      "desc": "Namecard style.\\nA girl gazes down at the stars' reflection on the water, pondering the joys and sorrows of life.",
+      "icon": "UI_NameCardPic_Mona_P"
+    },
+    "costume": [
+      {
+        "id": 204101,
+        "name": "Pact of Stars and Moon",
+        "desc": "Mona's outfit. A costume made specifically to encompass the astrological concept of \"the destined moment,\" thanks to the 30% discount ticket she got from the celestial globe refund.",
+        "icon": "UI_AvatarIcon_MonaCostumeWic",
+        "quality": 4
+      },
+      {
+        "id": 204100,
+        "name": "Flowing Fate",
+        "desc": "Mona's outfit. A light astrologist's outfit that does away with superfluous fabric to provide top quality at an affordable price.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CATALYST",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Hydro",
+  "icon": "UI_AvatarIcon_Mona",
+  "stamina_recovery": 25,
+  "base_hp": 810.322,
+  "base_atk": 22.344,
+  "base_def": 50.8555,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 694.77783,
+        "fight_prop_base_defense": 43.605,
+        "fight_prop_base_attack": 19.15656,
+        "fight_prop_charge_efficiency": 0
+      },
+      {
+        "fight_prop_base_hp": 1188.4358,
+        "fight_prop_base_defense": 74.5875,
+        "fight_prop_base_attack": 32.7678,
+        "fight_prop_charge_efficiency": 0.08
+      },
+      {
+        "fight_prop_base_hp": 1846.6464,
+        "fight_prop_base_defense": 115.8975,
+        "fight_prop_base_attack": 50.91612,
+        "fight_prop_charge_efficiency": 0.16
+      },
+      {
+        "fight_prop_base_hp": 2340.3042,
+        "fight_prop_base_defense": 146.88,
+        "fight_prop_base_attack": 64.52736,
+        "fight_prop_charge_efficiency": 0.16
+      },
+      {
+        "fight_prop_base_hp": 2833.9622,
+        "fight_prop_base_defense": 177.8625,
+        "fight_prop_base_attack": 78.1386,
+        "fight_prop_charge_efficiency": 0.24
+      },
+      {
+        "fight_prop_base_hp": 3327.62,
+        "fight_prop_base_defense": 208.845,
+        "fight_prop_base_attack": 91.74984,
+        "fight_prop_charge_efficiency": 0.32
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10411,
+      "name": "Ripple of Fate",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 water splash attacks that deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#80C0FFFF>AoE Hydro DMG</color> after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80C0FFFF>AoE Hydro DMG</color> upon impact with the ground.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.376,
+            0.36,
+            0.448,
+            0.5616,
+            1.4972,
+            50,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4042,
+            0.387,
+            0.4816,
+            0.60372,
+            1.60949,
+            50,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4324,
+            0.414,
+            0.5152,
+            0.64584,
+            1.72178,
+            50,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.47,
+            0.45,
+            0.56,
+            0.702,
+            1.8715,
+            50,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4982,
+            0.477,
+            0.5936,
+            0.74412,
+            1.98379,
+            50,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.5264,
+            0.504,
+            0.6272,
+            0.78624,
+            2.09608,
+            50,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.564,
+            0.54,
+            0.672,
+            0.8424,
+            2.2458,
+            50,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.6016,
+            0.576,
+            0.7168,
+            0.89856,
+            2.39552,
+            50,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.6392,
+            0.612,
+            0.7616,
+            0.95472,
+            2.54524,
+            50,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.6768,
+            0.648,
+            0.8064,
+            1.01088,
+            2.69496,
+            50,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7144,
+            0.684,
+            0.8512,
+            1.06704,
+            2.850669,
+            50,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.752,
+            0.72,
+            0.896,
+            1.1232,
+            3.054288,
+            50,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.799,
+            0.765,
+            0.952,
+            1.1934,
+            3.257907,
+            50,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.846,
+            0.81,
+            1.008,
+            1.2636,
+            3.461526,
+            50,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.893,
+            0.855,
+            1.064,
+            1.3338,
+            3.665146,
+            50,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10412,
+      "name": "Mirror Reflection of Doom",
+      "desc": "Creates an illusory Phantom of Fate from coalesced waterspouts.\\n\\n<color=#FFD780FF>Phantom</color>\\nHas the following special properties:\\n·Continuously taunts nearby opponents, attracting their fire.\\n·Continuously deals <color=#80C0FFFF>Hydro DMG</color> to nearby opponents.\\n·When its duration expires, the Phantom explodes, dealing <color=#80C0FFFF>AoE Hydro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nUtilizes water currents to move backwards swiftly before conjuring a Phantom.\\n\\nOnly one Phantom created by Mirror Reflection of Doom can exist at any time.\\n\\n<i>Skilled astrologers have always dreamed of using a phantom facsimile of themselves to ward off imminent ill fate, but Mona must be the first to make such a mockery of it in all of Teyvat.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.32,
+            1.328,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.344,
+            1.4276,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.368,
+            1.5272,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4,
+            1.66,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.424,
+            1.7596,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.448,
+            1.8592,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.48,
+            1.992,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.512,
+            2.1248,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.544,
+            2.2576,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.576,
+            2.3904,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.608,
+            2.5232,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.64,
+            2.656,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.68,
+            2.822,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.72,
+            2.988,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Mona_01",
+          "desc": [
+            "DoT|{param1:F1P}",
+            "Explosion DMG|{param2:P}",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.76,
+            3.154,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10413,
+      "name": "Illusory Torrent",
+      "desc": "<color=#FFD780FF>Alternate Sprint</color>\\nMona cloaks herself within the water's flow, consuming Stamina to move rapidly.\\n\\nWhen under the effect of Illusory Torrent, Mona can move at high speed on water.\\nApplies the <color=#80C0FFFF>Wet</color> status to nearby opponents when she reappears.\\n\\n<i>This is something that Mona can do, but her teacher cannot. Well, but it's not as if her teacher would pursue any matter concerning Hydro Visions anyway...</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Mona_02",
+          "desc": [
+            "Activation Stamina Consumption|{param1:F2}",
+            "Stamina Drain|{param2:F2}/s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            10,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10415,
+      "name": "Stellaris Phantasm",
+      "desc": "Mona summons the sparkling waves and creates a reflection of the starry sky, applying the Illusory Bubble status to opponents in a large AoE.\\n\\n<color=#FFD780FF>Illusory Bubble</color>\\nTraps opponents inside a pocket of destiny and also makes them <color=#80C0FFFF>Wet</color>. Renders weaker opponents immobile.\\nWhen an opponent affected by Illusory Bubble sustains DMG, it has the following effects:\\n·Applies an Omen to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.\\n·Removes the Illusory Bubble, dealing <color=#80C0FFFF>Hydro</color> DMG in the process.\\n\\n<color=#FFD780FF>Omen</color>\\nDuring its duration, increases DMG taken by opponents.\\n\\n<i>It was from the time that gods first traced the lights in the heavens with their eyes that the notion of \"fate\" was born.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            4.424,
+            -0.42,
+            4,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            4.7558,
+            -0.44,
+            4,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.44,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            5.0876,
+            -0.46,
+            4,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.46,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            5.53,
+            -0.48,
+            4.5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.48,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            5.8618,
+            -0.5,
+            4.5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            6.1936,
+            -0.52,
+            4.5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.52,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            6.636,
+            -0.54,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.54,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            7.0784,
+            -0.56,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.56,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            7.5208,
+            -0.58,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.58,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            7.9632,
+            -0.6,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            8.4056,
+            -0.6,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            8.848,
+            -0.6,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            9.401,
+            -0.6,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            9.954,
+            -0.6,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Mona_01",
+          "desc": [
+            "Illusory Bubble Duration|{param1:F1}s",
+            "Illusory Bubble Explosion DMG|{param2:P}",
+            "DMG Bonus|{param10:P}",
+            "Omen Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8,
+            10.507,
+            -0.6,
+            5,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0.6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 412101,
+      "name": "\"Come 'n' Get Me, Hag!\"",
+      "desc": "After she has used <color=#FFD780FF>Illusory Torrent</color> for 2s, if there are any opponents nearby, Mona will automatically create a Phantom.\\nA Phantom created in this manner lasts for 2s, and its explosion DMG is equal to 50% of <color=#FFD780FF>Mirror Reflection of Doom</color>.",
+      "icon": "UI_Talent_S_Mona_05",
+      "unlock": 1,
+      "param_list": [
+        2,
+        2,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 412201,
+      "name": "Waterborne Destiny",
+      "desc": "Increases Mona's <color=#80C0FFFF>Hydro DMG Bonus</color> by a degree equivalent to 20% of her Energy Recharge rate.",
+      "icon": "UI_Talent_S_Mona_06",
+      "unlock": 4,
+      "param_list": [
+        1,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 412301,
+      "name": "Principium of Astrology",
+      "desc": "When Mona crafts Weapon Ascension Materials, she has a 25% chance to refund a portion of the crafting materials used.",
+      "icon": "UI_Talent_Combine_Weapon",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 415101,
+      "name": "Witch's Eve Rite: Genesis of Starsigns",
+      "desc": "After completing <color=#FFD780FF>Witch's Homework: Of Untested Insight</color>, Mona will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\\n\\n<color=#FFD780FF>Hexerei: Secret Rite</color>\\nWhen Mona's Normal Attacks or Charged Attacks hit an opponent, she gains 1 stack of <color=#FFD780FF>Astral Glow of Mercury</color>, for 8s. Max 3 stacks. This effect can grant at most one stack every 0.1s. When other party members trigger a Vaporize reaction on an enemy, all Astral Glow of Mercury stacks are consumed. Each stack consumed increases the damage of that Vaporize reaction by 5%.\\nAdditionally, when Mona's Normal Attacks or Charged Attacks hit an opponent, the enemy's <color=#FFD780FF>Omen</color> duration is extended by 2s. This effect can trigger at most once every 0.5s, and can extend the Omen by up to 8s through this method.",
+      "icon": "UI_Talent_S_Mona_07",
+      "param_list": [
+        8,
+        3,
+        0.05,
+        2,
+        4,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unlock": [
+        1000406
+      ],
+      "special": true,
+      "special_passive": true,
+      "special_desc": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": 411,
+      "name": "Prophecy of Submersion",
+      "desc": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\\n· Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%.\\n· Frozen duration is extended by 15%.",
+      "icon": "UI_Talent_S_Mona_01",
+      "param_list": [
+        0.15,
+        0.15,
+        0.15,
+        0.15,
+        5,
+        8,
+        0.6,
+        0.15
+      ],
+      "special": true,
+      "special_desc": "When any of your own party members hits an opponent affected by an Omen, the effects of <color=#80C0FFFF>Hydro-related Elemental Reactions</color> are enhanced for 8s:\\n· Electro-Charged DMG increases by 15%, Lunar-Charged DMG increases by 15%, Vaporize DMG increases by 15%, Hydro Swirl DMG increases by 15%, Lunar-Crystallize DMG increases by 15%.\\n· Frozen duration is extended by 15%.\\n\\nAdditionally, when your off-field party members trigger the above effect, the DMG Bonus to the above Hydro-related Elemental Reactions is enhanced to 160% of its original effect."
+    },
+    {
+      "id": 412,
+      "name": "Lunar Chain",
+      "desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack.\\nThis effect can only occur once every 5s.",
+      "icon": "UI_Talent_S_Mona_02",
+      "param_list": [
+        0.2,
+        1,
+        5,
+        5,
+        80,
+        12,
+        0,
+        0
+      ],
+      "special": true,
+      "special_desc": "When a Normal Attack hits, there is a 20% chance that it will be automatically followed by a Charged Attack. Additionally, within 5s after Mona unleashes her Elemental Burst <color=#FFD780FF>Stellaris Phantasm</color>, her next Normal Attack that hits an enemy will automatically trigger a Charged Attack.\\nThe aforementioned Charged Attack effect can only occur once every 5s.\\nWhen Mona's Charged Attack hits an opponent, all nearby party members will have their Elemental Mastery increased by 80 for 12s."
+    },
+    {
+      "id": 413,
+      "name": "Restless Revolution",
+      "desc": "Increases the Level of <color=#FFD780FF>Stellaris Phantasm</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Mona_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 414,
+      "name": "Prophecy of Oblivion",
+      "desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.",
+      "icon": "UI_Talent_S_Mona_03",
+      "param_list": [
+        -0.15,
+        0.15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "special": true,
+      "special_desc": "When any party member attacks an opponent affected by an Omen, their CRIT Rate is increased by 15%.\\nWhen any Hexerei party member attacks an opponent affected by an Omen, their CRIT DMG is increased by 15%."
+    },
+    {
+      "id": 415,
+      "name": "Mockery of Fortuna",
+      "desc": "Increases the Level of <color=#FFD780FF>Mirror Reflection of Doom</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Mona_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 416,
+      "name": "Rhetorics of Calamitas",
+      "desc": "Upon entering <color=#FFD780FF>Illusory Torrent</color>, Mona gains a 60% increase to the DMG of her next Charged Attack per second of movement.\\nA maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.",
+      "icon": "UI_Talent_S_Mona_04",
+      "param_list": [
+        1,
+        0.6,
+        1.8,
+        8,
+        1,
+        0,
+        0,
+        0
+      ],
+      "special": true,
+      "special_desc": "While Mona is the active character, while she is in the <color=#FFD780FF>Illusory Torrent</color> state or there are opponents affected by an Omen nearby, she gains a 60% increase to the DMG of her next Charged Attack per second. A maximum DMG Bonus of 180% can be achieved in this manner. The effect lasts for no more than 8s.\\nAdditionally, the DMG Mona's Charged Attacks deal to opponents affected by an Omen will be increased to 200% of the original DMG."
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Sliver",
+            "id": 104121,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Philanemo Mushroom",
+            "id": 100025,
+            "count": 3,
+            "rank": 0
+          },
+          {
+            "name": "Whopperflower Nectar",
+            "id": 112038,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Fragment",
+            "id": 104122,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Cleansing Heart",
+            "id": 113012,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Philanemo Mushroom",
+            "id": 100025,
+            "count": 10,
+            "rank": 0
+          },
+          {
+            "name": "Whopperflower Nectar",
+            "id": 112038,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Fragment",
+            "id": 104122,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Cleansing Heart",
+            "id": 113012,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Philanemo Mushroom",
+            "id": 100025,
+            "count": 20,
+            "rank": 0
+          },
+          {
+            "name": "Shimmering Nectar",
+            "id": 112039,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Chunk",
+            "id": 104123,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Cleansing Heart",
+            "id": 113012,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Philanemo Mushroom",
+            "id": 100025,
+            "count": 30,
+            "rank": 0
+          },
+          {
+            "name": "Shimmering Nectar",
+            "id": 112039,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Chunk",
+            "id": 104123,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Cleansing Heart",
+            "id": 113012,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Philanemo Mushroom",
+            "id": 100025,
+            "count": 45,
+            "rank": 0
+          },
+          {
+            "name": "Energy Nectar",
+            "id": 112040,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Gemstone",
+            "id": 104124,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Cleansing Heart",
+            "id": 113012,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Philanemo Mushroom",
+            "id": 100025,
+            "count": 60,
+            "rank": 0
+          },
+          {
+            "name": "Energy Nectar",
+            "id": 112040,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Ring of Boreas",
+              "id": 113007,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "special": true
+}

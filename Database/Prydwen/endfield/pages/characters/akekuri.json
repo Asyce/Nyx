@@ -1,0 +1,872 @@
+{
+  "id": "characters:akekuri",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "akekuri",
+  "name": "Akekuri",
+  "title": "Akekuri Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/akekuri",
+  "contentStatus": "live",
+  "statusLabels": [],
+  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "updatedText": "24/May/2026",
+  "meta": {
+    "title": "Akekuri Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 4,
+    "weapon": "Sword",
+    "class": "Vanguard",
+    "element": "Heat"
+  },
+  "assets": [
+    {
+      "id": "f341349cba2f",
+      "sourceHash": "f341349cba2f",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "akekuri-card",
+      "path": "Prydwen/endfield/assets/characters/akekuri-card-f341349cba2f.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "356f5dfcc644",
+      "sourceHash": "356f5dfcc644",
+      "kind": "icons",
+      "name": "Strength",
+      "fileStem": "stat-strength",
+      "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "fa8b0679d3bd",
+      "sourceHash": "fa8b0679d3bd",
+      "kind": "icons",
+      "name": "Agility",
+      "fileStem": "stat-agility",
+      "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "0638c69e0b8e",
+      "sourceHash": "0638c69e0b8e",
+      "kind": "icons",
+      "name": "Intellect",
+      "fileStem": "stat-intellect",
+      "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "6ae9fe735963",
+      "sourceHash": "6ae9fe735963",
+      "kind": "icons",
+      "name": "Will",
+      "fileStem": "stat-will",
+      "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "ee55a90ccdd7",
+      "sourceHash": "ee55a90ccdd7",
+      "kind": "characters",
+      "name": "Akekuri full illustration",
+      "fileStem": "akekuri-full",
+      "path": "Prydwen/endfield/assets/characters/akekuri-full-illustration-ee55a90ccdd7.webp",
+      "width": 600,
+      "height": 800
+    },
+    {
+      "id": "8d10a49baaf8",
+      "sourceHash": "8d10a49baaf8",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-15",
+      "path": "Prydwen/endfield/assets/weapons/weapon-15-8d10a49baaf8.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "26984d7fa028",
+      "sourceHash": "26984d7fa028",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-8",
+      "path": "Prydwen/endfield/assets/weapons/weapon-8-26984d7fa028.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "72e336f8cf2f",
+      "sourceHash": "72e336f8cf2f",
+      "kind": "weapons",
+      "name": "Weapon",
+      "fileStem": "weapon-5",
+      "path": "Prydwen/endfield/assets/weapons/weapon-5-72e336f8cf2f.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "755c2be029c8",
+      "sourceHash": "755c2be029c8",
+      "kind": "gear",
+      "name": "Gear Set",
+      "fileStem": "gear-106",
+      "path": "Prydwen/endfield/assets/gear/gear-106-755c2be029c8.webp",
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "1bbdeef9bce7",
+      "sourceHash": "1bbdeef9bce7",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-95",
+      "path": "Prydwen/endfield/assets/gear/gear-95-1bbdeef9bce7.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "47a7a9efc8e5",
+      "sourceHash": "47a7a9efc8e5",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-107",
+      "path": "Prydwen/endfield/assets/gear/gear-107-47a7a9efc8e5.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "8ce3f231b6b0",
+      "sourceHash": "8ce3f231b6b0",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-57",
+      "path": "Prydwen/endfield/assets/gear/gear-57-8ce3f231b6b0.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "d2c1906fe226",
+      "sourceHash": "d2c1906fe226",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-102",
+      "path": "Prydwen/endfield/assets/gear/gear-102-d2c1906fe226.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "926e3820f36c",
+      "sourceHash": "926e3820f36c",
+      "kind": "gear",
+      "name": "Gear",
+      "fileStem": "gear-15",
+      "path": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+      "width": 70,
+      "height": 70
+    },
+    {
+      "id": "6ee9abd7908f",
+      "sourceHash": "6ee9abd7908f",
+      "kind": "characters",
+      "name": "Laevatain",
+      "fileStem": "laevatain-icon",
+      "path": "Prydwen/endfield/assets/characters/laevatain-6ee9abd7908f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "4a975b15dfb0",
+      "sourceHash": "4a975b15dfb0",
+      "kind": "icons",
+      "name": "Heat",
+      "fileStem": "element-heat",
+      "path": "Prydwen/endfield/assets/icons/heat-4a975b15dfb0.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "72f4fe10ab2e",
+      "sourceHash": "72f4fe10ab2e",
+      "kind": "characters",
+      "name": "Rossi",
+      "fileStem": "rossi-icon",
+      "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "9b291c88ce28",
+      "sourceHash": "9b291c88ce28",
+      "kind": "icons",
+      "name": "Physical",
+      "fileStem": "element-physical",
+      "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "3a2535d8266d",
+      "sourceHash": "3a2535d8266d",
+      "kind": "characters",
+      "name": "Akekuri",
+      "fileStem": "akekuri-icon",
+      "path": "Prydwen/endfield/assets/characters/akekuri-3a2535d8266d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5e47d449e938",
+      "sourceHash": "5e47d449e938",
+      "kind": "characters",
+      "name": "Antal",
+      "fileStem": "antal-icon",
+      "path": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "15421cba5670",
+      "sourceHash": "15421cba5670",
+      "kind": "characters",
+      "name": "Ardelia",
+      "fileStem": "ardelia-icon",
+      "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+      "width": 60,
+      "height": 60
+    }
+  ],
+  "sections": [
+    {
+      "id": "akekuri-best-build-guide-0",
+      "level": 1,
+      "heading": "Akekuri Best Build Guide",
+      "text": "Last updated: 24/May/2026",
+      "assets": [
+        {
+          "id": "f341349cba2f",
+          "sourceHash": "f341349cba2f",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "akekuri-card",
+          "path": "Prydwen/endfield/assets/characters/akekuri-card-f341349cba2f.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Akekuri is a 4 -star character in Arknights: Endfield (AKE). Akekuri wields a Sword and belongs to the Vanguard class. Akekuri also has access to the Heat element. This guide provides a comprehensive overview of Akekuri 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Akekuri check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Akekuri has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 1\n\n Last major build/calcs update\n Patch 1.1\n\n Last profile update*\n 24/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Akekuri check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 110\n\n Agility\n 140\n\n Intellect\n 106\n\n Will\n 108",
+      "assets": [
+        {
+          "id": "356f5dfcc644",
+          "sourceHash": "356f5dfcc644",
+          "kind": "icons",
+          "name": "Strength",
+          "fileStem": "stat-strength",
+          "path": "Prydwen/endfield/assets/icons/strength-356f5dfcc644.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "fa8b0679d3bd",
+          "sourceHash": "fa8b0679d3bd",
+          "kind": "icons",
+          "name": "Agility",
+          "fileStem": "stat-agility",
+          "path": "Prydwen/endfield/assets/icons/agility-fa8b0679d3bd.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "0638c69e0b8e",
+          "sourceHash": "0638c69e0b8e",
+          "kind": "icons",
+          "name": "Intellect",
+          "fileStem": "stat-intellect",
+          "path": "Prydwen/endfield/assets/icons/intellect-0638c69e0b8e.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "6ae9fe735963",
+          "sourceHash": "6ae9fe735963",
+          "kind": "icons",
+          "name": "Will",
+          "fileStem": "stat-will",
+          "path": "Prydwen/endfield/assets/icons/will-6ae9fe735963.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Basic Attack\n Sword of Aspiration",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-12",
+      "level": 6,
+      "heading": "BASIC ATTACK:",
+      "text": "An attack with up to 4 sequences that deals Physical DMG . As the controlled operator, Final Strike also deals 17 Stagger .",
+      "assets": []
+    },
+    {
+      "id": "dive-attack-13",
+      "level": 6,
+      "heading": "DIVE ATTACK:",
+      "text": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+      "assets": []
+    },
+    {
+      "id": "finisher-14",
+      "level": 6,
+      "heading": "FINISHER:",
+      "text": "Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Burst of Passion\n SP Cost : 100\n\n A frontal slash that deals Heat DMG and applies Heat Infliction .\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Flash and Dash\n Cooldown: 9 s\n\n Performs a returning dash with 2 thrust sequences, with each sequence dealing Physical DMG and recovering some SP.\n Trigger: When an enemy becomes Stagger ed or hits a Stagger Node .\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n SQUAD! ON ME!\n Energy cost : 120\n\n Enters a channeling state and fires 3 Rallying Flares. Each firing recovers some SP.\n Multipliers (Rank 12)",
+      "assets": []
+    },
+    {
+      "id": "talents-16",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Base Talent\n Coffee or Tea\n\n Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10/14% .\n\n Base Talent\n Icebreaker\n\n Assign to Reception Room to slow Mood Drop of all operators in it by 10/14% .\n\n Combat Talent\n Cheer of Victory\n\n Combo skill Flash and Dash improved: For every 10 points of Intellect, SP Recovery + 1/1.5% (max: 50/75% ).\n\n Combat Talent\n Staying in the Zone\n\n Ultimate SQUAD! ON ME! improved: When ultimate is active, gains Link .\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-18",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "P1\n Positive Feedback\n Potential 1\n\n After recovering SP with skills, Akekuri gains ATK +10% for 10s . This effect can reach 5 stacks.\n\n P2\n Passionate Idealist\n Potential 2\n\n Agility +10 , Intellect +10 .\n\n P3\n Committed Team Player\n Potential 3\n\n Ultimate SQUAD! ON ME! improved: While ultimate is active, entire team gains ATK +10% .\n\n P4\n Super Perfect Status\n Potential 4\n\n Ultimate SQUAD! ON ME! improved: Ultimate Energy cost -10% .\n\n P5\n Tempo of Awareness\n Potential 5\n\n Talent Staying in the Zone improved: Even when the ultimate SQUAD! ON ME! ends, the Link buff persists for 5 s.\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "lore-20",
+      "level": 3,
+      "heading": "Lore",
+      "text": "\"Akekuri, Op Z7, reporting in! Excited to join the mission, let's make it a success!\"\n Akekuri, Captain of Operations Team Z7 under the Specialist Tech Division, is known for her smile and that trademark line: \"Leave it to me.\" From mission planning to day-to-day management, she handles it all. Beyond tactical command and strategy, she's a master of coordination who always uncovers the optimal solution, even with limited resources. She also knows how to care for her team, making sure everyone works in harmony and shines in the role that suits them best.\n She practically built Operations Team Z7 from the ground up. In just a few short months, she handled everything from recruitment and training to full deployment, leading the team to remarkable results. And to think, not long ago, she was just an honors student from the Business School who volunteered to join Endfield. No one expected a newcomer to rise so quickly and become a captain truly worthy of trust.\n If you've ever wondered about her passion, her drive, and her idealism, or about the simple wish that keeps her going, then...",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-22",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-24",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "ee55a90ccdd7",
+          "sourceHash": "ee55a90ccdd7",
+          "kind": "characters",
+          "name": "Akekuri full illustration",
+          "fileStem": "akekuri-full",
+          "path": "Prydwen/endfield/assets/characters/akekuri-full-illustration-ee55a90ccdd7.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "buffer-27",
+      "level": 6,
+      "heading": "Buffer",
+      "text": "T0.5\n Umbral Monument",
+      "assets": []
+    },
+    {
+      "id": "pros-30",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Battle Skill applies Heat Infliction.\n\n Can recover large amounts of SP through Ultimate and Combo Skill.\n\n Combo Skill has a low cooldown which, if you Stagger enough, can be realistically utilized.\n\n Strong supportive weapon and set options.\n\n Grants Link, plus a small short-duration Attack boost when using Ultimate.\n\n Very easy to get max Potentials.",
+      "assets": []
+    },
+    {
+      "id": "cons-31",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Higher than average Ultimate energy cost with no bonus energy generation.\n\n Low damage compared to other Vanguards pushes her into a pure support role in most cases.",
+      "assets": []
+    },
+    {
+      "id": "kit-intro-34",
+      "level": 6,
+      "heading": "Kit Intro",
+      "text": "Akekuri is a 4-star, Heat, Sword Support who excels at SP generation, generating a huge amount through her Ultimate and even more thanks to her low cooldown Combo Skill. Outside SP generation, she also has a small number of buffs that can be situationally powerful, as well as some excellent supportive weapon and gear pieces. She also has the ability to apply Heat Infliction to multiple targets at once with her Battle Skill.\n With all that said, the main reason you’re likely to bring Akekuri to the team is her bursty SP generation, much of which is tied to her Ultimate. It costs a lot of energy but also does a lot for the team. Using it grants the team close to 100 SP, applies a very short ATK% boost, and also grants Link, boosting the damage of the team's next Battle Skill or Ultimate. All that in one makes for a pretty darn stacked ability, but that’s not where the support stops. Akekuri’s Combo Skill also offers great support on a very short cooldown, alongside having an easy-to-satisfy trigger that only requires an enemy’s Stagger bar to reach a Stagger node or become fully Staggered. Using the Combo Skill after optimizing Akekuri’s talents provides a solid amount of SP, given how frequently it can be used in some encounters.\n Outside of that, her Battle Skill can also be a reason to include her in some teams, thanks to the fact that it applies its Heat Infliction in a cone instead of against a single target. For characters like Laevatain who absorb Heat off multiple targets, this can be a stand-out reason to include and use Akekuri’s Heat generation over others.\n Last but not least, due to some of her talents encouraging suboptimal damage stats, her kit being split between Physical and Heat, and her lack of a damaging Ultimate, she’s not going to be winning and DPS awards. Luckily, her team's focused capabilities and fantastic supportive gear and weapon choices allow her to position herself as a competent Amplifier and resource specialist, making up for that.",
+      "assets": []
+    },
+    {
+      "id": "ultimate-35",
+      "level": 6,
+      "heading": "Ultimate",
+      "text": "Akekuri’s Ultimate is the focal point of her kit and is responsible for a large amount of her total SP generation as well as all of her buffs. Its activation cost is a huge 120 energy (108 with Potential 4), much higher than average when compared to other operators. It’s a steep cost considering she doesn’t gain any other sources of energy outside the norm in her kit. However, this just makes it all the more important when you choose to use it.\n Using it causes Akekuri to channel fireworks for a very short period, firing with each volley, granting the team a chunk of SP. During the brief window she’s firing, she’ll grant the team Link, which should be consumed to empower your team's highest priority Ultimate or Battle Skill. All in all, Akekuri channeling lasts only around 2–3 seconds, so you’ll want to activate the Ultimate right before the abilities you want to buff.\n Potentials:\n Potential 3: Grants the whole team an ATK% boost while Akekuri is channeling fireworks, but just like her Link buff, only until she finishes.\n\n Potential 5: Upgrades the Link granted by Ultimate causing it to now linger for 5s after the fireworks end making when you can use this ultimate much more flexible and forgiving. Although you’ll still want to time it right if you want to take advantage of the potential 3.",
+      "assets": []
+    },
+    {
+      "id": "combo-36",
+      "level": 6,
+      "heading": "Combo",
+      "text": "Compared to her Ultimate, Akekuri’s Combo Skill is far simpler and is incredibly accessible thanks to its short cooldown. Triggering it is also very easy and happens whenever an enemy becomes Staggered, or in the case of bosses, when they reach a Stagger node as well.\n Using it deals some Physical damage, Stagger, and recovers a chunk of SP, which can be boosted further by talents. All up, this combo is simple, effective, easy to use, and generic enough that it’s useful in any team, just like Akekuri’s ultimate.\n Note: This ability’s SP generation is split into two hits, which is a relevant benefit for some weapons.",
+      "assets": []
+    },
+    {
+      "id": "battle-skill-37",
+      "level": 6,
+      "heading": "Battle Skill",
+      "text": "Akekuri’s Battle Skill is also incredibly simple. Using it deals Heat damage, Stagger, and Infliction in a small cone in front of her, that’s it. The one thing that makes this ability notable is the fact that it applies AoE Infliction, which is something that can be valuable to certain operators like Laevatain.",
+      "assets": []
+    },
+    {
+      "id": "talents-38",
+      "level": 6,
+      "heading": "Talents",
+      "text": "Akekuri’s talents are both key to her kit, and without them, she wouldn’t be nearly as strong. Her first talent, Cheer for Victor,y enhances the SP recovery of her Combo Skill based on how much Intellect she has. For every 10 Intellect the SP recovered by her Combo is increased by 1.5% up to a maximum of cap of 75%, hitting this cap and maxing out the effect requires a huge 500 Intellect. The extra SP from the Combo is always helpful, but investment into Intellect should always be balanced alongside using optimal supportive sets and weapons to maximize performance\n Akekuri’s other talent is Staying in the Zone, which adds a new effect to her Ultimate. On use, Akekuri’s Ultimate will now also grant the team Link, boosting the next Battle Skill or Ultimate used by a significant amount. Considering Link is its own unique effect, this talent alone becomes one of Akekuri’s most powerful supportive tools.\n Note: Before P5 Link will only remain active while Akekuri is within her Ultimate animation and launching Fire Works; if it’s not used during that time, it will be wasted.\n Potentials:\n Potential 5: Directly solves the issue above and causes Link to linger for 5 seconds after Akekuri’s Ultimate ends, significantly expanding the time you have to use it on the Ultimate or Battle Skill you want.",
+      "assets": []
+    },
+    {
+      "id": "gameplay-39",
+      "level": 6,
+      "heading": "Gameplay",
+      "text": "Playing Akekuri is simple, but timing her Ultimate at the right time to take advantage of Link, the extra SP, and the very short ATK% buff is crucial to getting the most out of her.\n Use Combo Skill whenever available to generate energy and SP,\n\n If you need it, use Akekuri’s Battle Skill for heat Infliction as required,\n\n Time Akekuri’s Ultimate before your most impactful Ultimate or Battle Skill so it benefits from Link. Ideally, this is at the same time as concentrating your other major damage cooldowns during Akekuri’s ATK% boost. Lastly, ensure the SP generated by the ultimate isn’t wasted by overcapping.\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-41",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "Akekuri best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Thermite Cutter (P 0 )\n\n Akekuri's all-around best generic support weapon. It has the main stat of WILL, which Akekuri can't use, but the other stats on this weapon are all ideal for her. The Weapon Effect is the real reason to use this Sword though, as it allows Akekuri to apply a team-wide ATK% close to permanantly thanks to her constant SP generation. While it can be beaten out by other options in specific teams, it is the best all-around choice.\n\n 2\n\n OBJ Edge of Lightness (P 5 )\n\n An alternative to the Thermite Cutter if another character is using it or you don't have it yet. Unlike the Thermite Cutter, this has ideal passives for Akekuri, but instead of generically buffing every archetype, this weapon only buffs Electric and Heat DMG% when Akekuri recovers SP, which, in most cases, is weaker than the ATK% buffs Thermite provides.\n\n 3\n\n Fortmaker (P 5 )\n\n If you have neither of the weapons above, you can instead use Fortmaker in the meantime for its passive Ultimate Gain, which will help Akekuri reach her Ultimate more quickly.",
+      "assets": [
+        {
+          "id": "8d10a49baaf8",
+          "sourceHash": "8d10a49baaf8",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-15",
+          "path": "Prydwen/endfield/assets/weapons/weapon-15-8d10a49baaf8.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "26984d7fa028",
+          "sourceHash": "26984d7fa028",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-8",
+          "path": "Prydwen/endfield/assets/weapons/weapon-8-26984d7fa028.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "72e336f8cf2f",
+          "sourceHash": "72e336f8cf2f",
+          "kind": "weapons",
+          "name": "Weapon",
+          "fileStem": "weapon-5",
+          "path": "Prydwen/endfield/assets/weapons/weapon-5-72e336f8cf2f.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-43",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "Akekuri best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Frontiers",
+      "assets": [
+        {
+          "id": "755c2be029c8",
+          "sourceHash": "755c2be029c8",
+          "kind": "gear",
+          "name": "Gear Set",
+          "fileStem": "gear-106",
+          "path": "Prydwen/endfield/assets/gear/gear-106-755c2be029c8.webp",
+          "width": 50,
+          "height": 50
+        }
+      ]
+    },
+    {
+      "id": "description-44",
+      "level": 6,
+      "heading": "Description",
+      "text": "Akekuri's best set in almost all cases, as almost all of Froniters' pieces are ideal for her and the 3P bonus is an incredible boost to her supportive capabilities, allowing her to apply a DMG% buff to the team close to permanently. Also, as a bonus, the 3P also reduces the cooldown of her Combo Skill.",
+      "assets": []
+    },
+    {
+      "id": "pieces-45",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Frontiers Protection Suit Frontiers\n\n Gloves\n Frontiers Fiber Gloves T1 Frontiers\n\n Kit\n Frontiers Extra O2 Tube T1 Frontiers\n\n Kit\n Redeemer Seal",
+      "assets": [
+        {
+          "id": "1bbdeef9bce7",
+          "sourceHash": "1bbdeef9bce7",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-95",
+          "path": "Prydwen/endfield/assets/gear/gear-95-1bbdeef9bce7.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "47a7a9efc8e5",
+          "sourceHash": "47a7a9efc8e5",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-107",
+          "path": "Prydwen/endfield/assets/gear/gear-107-47a7a9efc8e5.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "755c2be029c8",
+          "sourceHash": "755c2be029c8",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-106",
+          "path": "Prydwen/endfield/assets/gear/gear-106-755c2be029c8.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "8ce3f231b6b0",
+          "sourceHash": "8ce3f231b6b0",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-57",
+          "path": "Prydwen/endfield/assets/gear/gear-57-8ce3f231b6b0.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "alternative-pieces-46",
+      "level": 6,
+      "heading": "Alternative Pieces",
+      "text": "Redeemer Armor\n - If you prefer to maximize her Intellect for SP Recovery at the cost of some Ultimate Gain Efficiency, swap out her Armor for Redeemer Armor which has large Intellect, Redeemer Seal for another Frontiers Extra O2 Tube T1 for even more Secondary Attribute percent.\n\n 2\n No Set",
+      "assets": [
+        {
+          "id": "d2c1906fe226",
+          "sourceHash": "d2c1906fe226",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-102",
+          "path": "Prydwen/endfield/assets/gear/gear-102-d2c1906fe226.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "description-47",
+      "level": 6,
+      "heading": "Description",
+      "text": "An alternative way to build Akekuri is to forego any set bonuses and opt for maximum Ultimate Gain Efficiency, allowing her to regenerate more SP for the entire team, and also provide ATK% and Link buff. Aim for pieces with Intelligence to maximize the SP recovery from her Combo Skill.",
+      "assets": []
+    },
+    {
+      "id": "pieces-48",
+      "level": 6,
+      "heading": "Pieces",
+      "text": "Armor\n Redeemer Armor\n\n Gloves\n Eternal Xiranite Gloves T1\n\n Kit\n Redeemer Seal\n\n Kit\n Redeemer Seal",
+      "assets": [
+        {
+          "id": "d2c1906fe226",
+          "sourceHash": "d2c1906fe226",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-102",
+          "path": "Prydwen/endfield/assets/gear/gear-102-d2c1906fe226.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "926e3820f36c",
+          "sourceHash": "926e3820f36c",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-15",
+          "path": "Prydwen/endfield/assets/gear/gear-15-926e3820f36c.webp",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "8ce3f231b6b0",
+          "sourceHash": "8ce3f231b6b0",
+          "kind": "gear",
+          "name": "Gear",
+          "fileStem": "gear-57",
+          "path": "Prydwen/endfield/assets/gear/gear-57-8ce3f231b6b0.webp",
+          "width": 70,
+          "height": 70
+        }
+      ]
+    },
+    {
+      "id": "best-gear-pieces-50",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Akekuri gear pieces calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "potentials-review-52",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "Akekuri dupes are very easy to obtain due to their low rarity . That's why the guide and review above already assumes you have them max duped and we're not reviewing each separately.",
+      "assets": []
+    },
+    {
+      "id": "calculations-54",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "Akekuri calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "off-field-57",
+      "level": 6,
+      "heading": "Off Field :",
+      "text": "Ultimate > Combo Skill > Basic Attack > Battle Skill\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-59",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Akekuri has a few teams she's particularly effective in, but she's also universal enough that she can be played with just about anyone for the following reasons:\n Extremely powerful, consistent burst SP generation.\n Great access to powerful, supportive weapons and gear.\n Low cooldown generic Combo Skill that works in any team.\n Situationally powerful buffs like Link, which in certain teams act as huge damage multipliers.\n Heat\n\n Laevatain Heat\n\n Akekuri can be brought into place or alongside Wulfgard as another Heat applier. The thing that sets her apart from Wulfgard is that her Battle Skill applies Heat in an AoE, which, when positioned carefully, can inflict multiple Heat at once for Laevatain to absorb.\n\n Skilled players who are able to group enemies effectively will be able to generate far more Heat Infliction per SP spent fuelling Laevatain's ultimate generation and fully stacked Battle Skill spam.\n\n Outside of this, Akekuri's outstanding supportive set and weapon buffs also set her apart, boosting Lae's damage significantly, which, when combined with the buffs built into Lae's kit, truly makes for scary burst damage potential.\n\n Last but not least, Akekuri, of course, provides her usual improved SP generation for the team.\n\n Physical\n\n Rossi Physical\n\n Akekuri has one of the few sources of Heat Inflictions in the game to enable Rossi's kit through Combo Skill trigger or Combustion triggers.\n\n Akekuri is among the most competitive of supports, as she can use Thermite, supplies Link and has her ATK buff on Ultimate last long enough to cover Rossi's own Ultimate.\n\n However, her SP economy is lacklustre outside of Ultimate, leading to awkward and/or extended rotations outside of full energy starts.",
+      "assets": [
+        {
+          "id": "6ee9abd7908f",
+          "sourceHash": "6ee9abd7908f",
+          "kind": "characters",
+          "name": "Laevatain",
+          "fileStem": "laevatain-icon",
+          "path": "Prydwen/endfield/assets/characters/laevatain-6ee9abd7908f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4a975b15dfb0",
+          "sourceHash": "4a975b15dfb0",
+          "kind": "icons",
+          "name": "Heat",
+          "fileStem": "element-heat",
+          "path": "Prydwen/endfield/assets/icons/heat-4a975b15dfb0.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "72f4fe10ab2e",
+          "sourceHash": "72f4fe10ab2e",
+          "kind": "characters",
+          "name": "Rossi",
+          "fileStem": "rossi-icon",
+          "path": "Prydwen/endfield/assets/characters/rossi-72f4fe10ab2e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "9b291c88ce28",
+          "sourceHash": "9b291c88ce28",
+          "kind": "icons",
+          "name": "Physical",
+          "fileStem": "element-physical",
+          "path": "Prydwen/endfield/assets/icons/physical-9b291c88ce28.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "id": "teams-61",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Akekuri teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+      "assets": []
+    },
+    {
+      "id": "team-members-62",
+      "level": 6,
+      "heading": "Team Members",
+      "text": "Laevatain\n\n Akekuri\n\n Antal\n\n Ardelia",
+      "assets": [
+        {
+          "id": "6ee9abd7908f",
+          "sourceHash": "6ee9abd7908f",
+          "kind": "characters",
+          "name": "Laevatain",
+          "fileStem": "laevatain-icon",
+          "path": "Prydwen/endfield/assets/characters/laevatain-6ee9abd7908f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3a2535d8266d",
+          "sourceHash": "3a2535d8266d",
+          "kind": "characters",
+          "name": "Akekuri",
+          "fileStem": "akekuri-icon",
+          "path": "Prydwen/endfield/assets/characters/akekuri-3a2535d8266d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5e47d449e938",
+          "sourceHash": "5e47d449e938",
+          "kind": "characters",
+          "name": "Antal",
+          "fileStem": "antal-icon",
+          "path": "Prydwen/endfield/assets/characters/antal-5e47d449e938.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "15421cba5670",
+          "sourceHash": "15421cba5670",
+          "kind": "characters",
+          "name": "Ardelia",
+          "fileStem": "ardelia-icon",
+          "path": "Prydwen/endfield/assets/characters/ardelia-15421cba5670.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Akekuri teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "Akekuri best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Thermite Cutter (P 0 )\n\n Akekuri's all-around best generic support weapon. It has the main stat of WILL, which Akekuri can't use, but the other stats on this weapon are all ideal for her. The Weapon Effect is the real reason to use this Sword though, as it allows Akekuri to apply a team-wide ATK% close to permanantly thanks to her constant SP generation. While it can be beaten out by other options in specific teams, it is the best all-around choice.\n\n 2\n\n OBJ Edge of Lightness (P 5 )\n\n An alternative to the Thermite Cutter if another character is using it or you don't have it yet. Unlike the Thermite Cutter, this has ideal passives for Akekuri, but instead of generically buffing every archetype, this weapon only buffs Electric and Heat DMG% when Akekuri recovers SP, which, in most cases, is weaker than the ATK% buffs Thermite provides.\n\n 3\n\n Fortmaker (P 5 )\n\n If you have neither of the weapons above, you can instead use Fortmaker in the meantime for its passive Ultimate Gain, which will help Akekuri reach her Ultimate more quickly.",
+          "assets": [
+            {
+              "id": "8d10a49baaf8",
+              "sourceHash": "8d10a49baaf8",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-15",
+              "path": "Prydwen/endfield/assets/weapons/weapon-15-8d10a49baaf8.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "26984d7fa028",
+              "sourceHash": "26984d7fa028",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-8",
+              "path": "Prydwen/endfield/assets/weapons/weapon-8-26984d7fa028.webp",
+              "width": 70,
+              "height": 70
+            },
+            {
+              "id": "72e336f8cf2f",
+              "sourceHash": "72e336f8cf2f",
+              "kind": "weapons",
+              "name": "Weapon",
+              "fileStem": "weapon-5",
+              "path": "Prydwen/endfield/assets/weapons/weapon-5-72e336f8cf2f.webp",
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "Akekuri best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Frontiers",
+          "assets": [
+            {
+              "id": "755c2be029c8",
+              "sourceHash": "755c2be029c8",
+              "kind": "gear",
+              "name": "Gear Set",
+              "fileStem": "gear-106",
+              "path": "Prydwen/endfield/assets/gear/gear-106-755c2be029c8.webp",
+              "width": 50,
+              "height": 50
+            }
+          ]
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Akekuri gear pieces calculations aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Akekuri Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Akekuri\n Akekuri Best Build Guide\n Last updated: 24/May/2026\n\n Introduction\n\n Akekuri is a 4 -star character in Arknights: Endfield (AKE). Akekuri wields a Sword and belongs to the Vanguard class. Akekuri also has access to the Heat element. This guide provides a comprehensive overview of Akekuri 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Akekuri check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Akekuri has no video guide yet.\n\n Update tracker\n\n Last review update\n Patch 1\n\n Last major build/calcs update\n Patch 1.1\n\n Last profile update*\n 24/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Akekuri check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Strength\n 110\n\n Agility\n 140\n\n Intellect\n 106\n\n Will\n 108\n\n Skills\n\n Basic Attack\n Sword of Aspiration\n\n BASIC ATTACK:\n An attack with up to 4 sequences that deals Physical DMG . As the controlled operator, Final Strike also deals 17 Stagger .\n DIVE ATTACK:\n Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\n Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Battle Skill\n Burst of Passion\n SP Cost : 100\n\n A frontal slash that deals Heat DMG and applies Heat Infliction .\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Flash and Dash\n Cooldown: 9 s\n\n Performs a returning dash with 2 thrust sequences, with each sequence dealing Physical DMG and recovering some SP.\n Trigger: When an enemy becomes Stagger ed or hits a Stagger Node .\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n SQUAD! ON ME!\n Energy cost : 120\n\n Enters a channeling state and fires 3 Rallying Flares. Each firing recovers some SP.\n Multipliers (Rank 12)\n\n Talents\n\n Base Talent\n Coffee or Tea\n\n Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10/14% .\n\n Base Talent\n Icebreaker\n\n Assign to Reception Room to slow Mood Drop of all operators in it by 10/14% .\n\n Combat Talent\n Cheer of Victory\n\n Combo skill Flash and Dash improved: For every 10 points of Intellect, SP Recovery + 1/1.5% (max: 50/75% ).\n\n Combat Talent\n Staying in the Zone\n\n Ultimate SQUAD! ON ME! improved: When ultimate is active, gains Link .\n Show Effects\n\n Potential (dupes)\n\n P1\n Positive Feedback\n Potential 1\n\n After recovering SP with skills, Akekuri gains ATK +10% for 10s . This effect can reach 5 stacks.\n\n P2\n Passionate Idealist\n Potential 2\n\n Agility +10 , Intellect +10 .\n\n P3\n Committed Team Player\n Potential 3\n\n Ultimate SQUAD! ON ME! improved: While ultimate is active, entire team gains ATK +10% .\n\n P4\n Super Perfect Status\n Potential 4\n\n Ultimate SQUAD! ON ME! improved: Ultimate Energy cost -10% .\n\n P5\n Tempo of Awareness\n Potential 5\n\n Talent Staying in the Zone improved: Even when the ultimate SQUAD! ON ME! ends, the Link buff persists for 5 s.\n Show Effects\n\n Lore\n\n \"Akekuri, Op Z7, reporting in! Excited to join the mission, let's make it a success!\"\n Akekuri, Captain of Operations Team Z7 under the Specialist Tech Division, is known for her smile and that trademark line: \"Leave it to me.\" From mission planning to day-to-day management, she handles it all. Beyond tactical command and strategy, she's a master of coordination who always uncovers the optimal solution, even with limited resources. She also knows how to care for her team, making sure everyone works in harmony and shines in the role that suits them best.\n She practically built Operations Team Z7 from the ground up. In just a few short months, she handled everything from recruitment and training to full deployment, leading the team to remarkable results. And to think, not long ago, she was just an honors student from the Business School who volunteered to join Endfield. No one expected a newcomer to rise so quickly and become a captain truly worthy of trust.\n If you've ever wondered about her passion, her drive, and her idealism, or about the simple wish that keeps her going, then...\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Buffer\n T0.5\n Umbral Monument\n\n Pros & Cons\n\n Pros\n Battle Skill applies Heat Infliction.\n\n Can recover large amounts of SP through Ultimate and Combo Skill.\n\n Combo Skill has a low cooldown which, if you Stagger enough, can be realistically utilized.\n\n Strong supportive weapon and set options.\n\n Grants Link, plus a small short-duration Attack boost when using Ultimate.\n\n Very easy to get max Potentials.\n\n Cons\n Higher than average Ultimate energy cost with no bonus energy generation.\n\n Low damage compared to other Vanguards pushes her into a pure support role in most cases.\n\n Review\n\n Kit Intro\n Akekuri is a 4-star, Heat, Sword Support who excels at SP generation, generating a huge amount through her Ultimate and even more thanks to her low cooldown Combo Skill. Outside SP generation, she also has a small number of buffs that can be situationally powerful, as well as some excellent supportive weapon and gear pieces. She also has the ability to apply Heat Infliction to multiple targets at once with her Battle Skill.\n With all that said, the main reason you’re likely to bring Akekuri to the team is her bursty SP generation, much of which is tied to her Ultimate. It costs a lot of energy but also does a lot for the team. Using it grants the team close to 100 SP, applies a very short ATK% boost, and also grants Link, boosting the damage of the team's next Battle Skill or Ultimate. All that in one makes for a pretty darn stacked ability, but that’s not where the support stops. Akekuri’s Combo Skill also offers great support on a very short cooldown, alongside having an easy-to-satisfy trigger that only requires an enemy’s Stagger bar to reach a Stagger node or become fully Staggered. Using the Combo Skill after optimizing Akekuri’s talents provides a solid amount of SP, given how frequently it can be used in some encounters.\n Outside of that, her Battle Skill can also be a reason to include her in some teams, thanks to the fact that it applies its Heat Infliction in a cone instead of against a single target. For characters like Laevatain who absorb Heat off multiple targets, this can be a stand-out reason to include and use Akekuri’s Heat generation over others.\n Last but not least, due to some of her talents encouraging suboptimal damage stats, her kit being split between Physical and Heat, and her lack of a damaging Ultimate, she’s not going to be winning and DPS awards. Luckily, her team's focused capabilities and fantastic supportive gear and weapon choices allow her to position herself as a competent Amplifier and resource specialist, making up for that.\n Ultimate\n Akekuri’s Ultimate is the focal point of her kit and is responsible for a large amount of her total SP generation as well as all of her buffs. Its activation cost is a huge 120 energy (108 with Potential 4), much higher than average when compared to other operators. It’s a steep cost considering she doesn’t gain any other sources of energy outside the norm in her kit. However, this just makes it all the more important when you choose to use it.\n Using it causes Akekuri to channel fireworks for a very short period, firing with each volley, granting the team a chunk of SP. During the brief window she’s firing, she’ll grant the team Link, which should be consumed to empower your team's highest priority Ultimate or Battle Skill. All in all, Akekuri channeling lasts only around 2–3 seconds, so you’ll want to activate the Ultimate right before the abilities you want to buff.\n Potentials:\n Potential 3: Grants the whole team an ATK% boost while Akekuri is channeling fireworks, but just like her Link buff, only until she finishes.\n\n Potential 5: Upgrades the Link granted by Ultimate causing it to now linger for 5s after the fireworks end making when you can use this ultimate much more flexible and forgiving. Although you’ll still want to time it right if you want to take advantage of the potential 3.\n\n Combo\n Compared to her Ultimate, Akekuri’s Combo Skill is far simpler and is incredibly accessible thanks to its short cooldown. Triggering it is also very easy and happens whenever an enemy becomes Staggered, or in the case of bosses, when they reach a Stagger node as well.\n Using it deals some Physical damage, Stagger, and recovers a chunk of SP, which can be boosted further by talents. All up, this combo is simple, effective, easy to use, and generic enough that it’s useful in any team, just like Akekuri’s ultimate.\n Note: This ability’s SP generation is split into two hits, which is a relevant benefit for some weapons.\n Battle Skill\n Akekuri’s Battle Skill is also incredibly simple. Using it deals Heat damage, Stagger, and Infliction in a small cone in front of her, that’s it. The one thing that makes this ability notable is the fact that it applies AoE Infliction, which is something that can be valuable to certain operators like Laevatain.\n Talents\n Akekuri’s talents are both key to her kit, and without them, she wouldn’t be nearly as strong. Her first talent, Cheer for Victor,y enhances the SP recovery of her Combo Skill based on how much Intellect she has. For every 10 Intellect the SP recovered by her Combo is increased by 1.5% up to a maximum of cap of 75%, hitting this cap and maxing out the effect requires a huge 500 Intellect. The extra SP from the Combo is always helpful, but investment into Intellect should always be balanced alongside using optimal supportive sets and weapons to maximize performance\n Akekuri’s other talent is Staying in the Zone, which adds a new effect to her Ultimate. On use, Akekuri’s Ultimate will now also grant the team Link, boosting the next Battle Skill or Ultimate used by a significant amount. Considering Link is its own unique effect, this talent alone becomes one of Akekuri’s most powerful supportive tools.\n Note: Before P5 Link will only remain active while Akekuri is within her Ultimate animation and launching Fire Works; if it’s not used during that time, it will be wasted.\n Potentials:\n Potential 5: Directly solves the issue above and causes Link to linger for 5 seconds after Akekuri’s Ultimate ends, significantly expanding the time you have to use it on the Ultimate or Battle Skill you want.\n\n Gameplay\n Playing Akekuri is simple, but timing her Ultimate at the right time to take advantage of Link, the extra SP, and the very short ATK% buff is crucial to getting the most out of her.\n Use Combo Skill whenever available to generate energy and SP,\n\n If you need it, use Akekuri’s Battle Skill for heat Infliction as required,\n\n Time Akekuri’s Ultimate before your most impactful Ultimate or Battle Skill so it benefits from Link. Ideally, this is at the same time as concentrating your other major damage cooldowns during Akekuri’s ATK% boost. Lastly, ensure the SP generated by the ultimate isn’t wasted by overcapping.\n\n Build\n\n Best Weapons\n\n Akekuri best Weapons are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Thermite Cutter (P 0 )\n\n Akekuri's all-around best generic support weapon. It has the main stat of WILL, which Akekuri can't use, but the other stats on this weapon are all ideal for her. The Weapon Effect is the real reason to use this Sword though, as it allows Akekuri to apply a team-wide ATK% close to permanantly thanks to her constant SP generation. While it can be beaten out by other options in specific teams, it is the best all-around choice.\n\n 2\n\n OBJ Edge of Lightness (P 5 )\n\n An alternative to the Thermite Cutter if another character is using it or you don't have it yet. Unlike the Thermite Cutter, this has ideal passives for Akekuri, but instead of generically buffing every archetype, this weapon only buffs Electric and Heat DMG% when Akekuri recovers SP, which, in most cases, is weaker than the ATK% buffs Thermite provides.\n\n 3\n\n Fortmaker (P 5 )\n\n If you have neither of the weapons above, you can instead use Fortmaker in the meantime for its passive Ultimate Gain, which will help Akekuri reach her Ultimate more quickly.\n\n Best Gear\n\n Akekuri best sets are placed in order of what fits their playstyle the most . Check the comments to get additional context.\n\n 1\n\n Frontiers\n\n Description\n Akekuri's best set in almost all cases, as almost all of Froniters' pieces are ideal for her and the 3P bonus is an incredible boost to her supportive capabilities, allowing her to apply a DMG% buff to the team close to permanently. Also, as a bonus, the 3P also reduces the cooldown of her Combo Skill.\n Pieces\n Armor\n Frontiers Protection Suit Frontiers\n\n Gloves\n Frontiers Fiber Gloves T1 Frontiers\n\n Kit\n Frontiers Extra O2 Tube T1 Frontiers\n\n Kit\n Redeemer Seal\n\n Alternative Pieces\n Redeemer Armor\n - If you prefer to maximize her Intellect for SP Recovery at the cost of some Ultimate Gain Efficiency, swap out her Armor for Redeemer Armor which has large Intellect, Redeemer Seal for another Frontiers Extra O2 Tube T1 for even more Secondary Attribute percent.\n\n 2\n No Set\n\n Description\n An alternative way to build Akekuri is to forego any set bonuses and opt for maximum Ultimate Gain Efficiency, allowing her to regenerate more SP for the entire team, and also provide ATK% and Link buff. Aim for pieces with Intelligence to maximize the SP recovery from her Combo Skill.\n\n Pieces\n Armor\n Redeemer Armor\n\n Gloves\n Eternal Xiranite Gloves T1\n\n Kit\n Redeemer Seal\n\n Kit\n Redeemer Seal\n\n Best Gear Pieces\n\n Akekuri gear pieces calculations aren't available yet. They will be added soon.\n\n Potentials Review\n\n Akekuri dupes are very easy to obtain due to their low rarity . That's why the guide and review above already assumes you have them max duped and we're not reviewing each separately.\n\n Calculations\n\n Akekuri calculations aren't available yet. They will be added soon.\n\n Skill Priority\n\n Off Field :\n Ultimate > Combo Skill > Basic Attack > Battle Skill\n\n Teams and Synergies\n\n Synergies\n\n Akekuri has a few teams she's particularly effective in, but she's also universal enough that she can be played with just about anyone for the following reasons:\n Extremely powerful, consistent burst SP generation.\n Great access to powerful, supportive weapons and gear.\n Low cooldown generic Combo Skill that works in any team.\n Situationally powerful buffs like Link, which in certain teams act as huge damage multipliers.\n Heat\n\n Laevatain Heat\n\n Akekuri can be brought into place or alongside Wulfgard as another Heat applier. The thing that sets her apart from Wulfgard is that her Battle Skill applies Heat in an AoE, which, when positioned carefully, can inflict multiple Heat at once for Laevatain to absorb.\n\n Skilled players who are able to group enemies effectively will be able to generate far more Heat Infliction per SP spent fuelling Laevatain's ultimate generation and fully stacked Battle Skill spam.\n\n Outside of this, Akekuri's outstanding supportive set and weapon buffs also set her apart, boosting Lae's damage significantly, which, when combined with the buffs built into Lae's kit, truly makes for scary burst damage potential.\n\n Last but not least, Akekuri, of course, provides her usual improved SP generation for the team.\n\n Physical\n\n Rossi Physical\n\n Akekuri has one of the few sources of Heat Inflictions in the game to enable Rossi's kit through Combo Skill trigger or Combustion triggers.\n\n Akekuri is among the most competitive of supports, as she can use Thermite, supplies Link and has her ATK buff on Ultimate last long enough to cover Rossi's own Ultimate.\n\n However, her SP economy is lacklustre outside of Ultimate, leading to awkward and/or extended rotations outside of full energy starts.\n\n Teams\n\n Akekuri teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Team #1\n Team Members\n\n Laevatain\n\n Akekuri\n\n Antal\n\n Ardelia"
+}

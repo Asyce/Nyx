@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-06-20T13:22:06.063Z",
+  "note": "Endfield character upgrade material tables are not fully available in the local scrape yet. These rows are recommendation/material records that still lack a local icon.",
+  "count": 12,
+  "missing": [
+    {
+      "field": "aeSkillItems",
+      "name": "Valley Industry's Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aePreferredItems",
+      "name": "Valley Industry's Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aeSkillItems",
+      "name": "Valley Protocol's Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aePreferredItems",
+      "name": "Valley Protocol's Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aeSkillItems",
+      "name": "Wuling Merchants' Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aePreferredItems",
+      "name": "Wuling Merchants' Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aePreferredItems",
+      "name": "Wuling Runners' Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aeSkillItems",
+      "name": "Wuling Runners' Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aeSkillItems",
+      "name": "Wuling Swordmancers' Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aePreferredItems",
+      "name": "Wuling Swordmancers' Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aeSkillItems",
+      "name": "Wuling Tianshi Bureau's Choice",
+      "kind": "weapon"
+    },
+    {
+      "field": "aePreferredItems",
+      "name": "Wuling Tianshi Bureau's Choice",
+      "kind": "weapon"
+    }
+  ]
+}

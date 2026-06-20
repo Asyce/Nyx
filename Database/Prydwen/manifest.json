@@ -1,0 +1,106 @@
+{
+  "provider": "Prydwen",
+  "generatedAt": "2026-06-10T22:44:44.684Z",
+  "games": {
+    "hsr": {
+      "game": "hsr",
+      "gameName": "Honkai: Star Rail",
+      "counts": {
+        "collections": 3,
+        "records": 93,
+        "characters": 90,
+        "assetsPlanned": 713,
+        "errors": 0
+      },
+      "assets": {
+        "requested": 713,
+        "downloaded": 0,
+        "cached": 713,
+        "missing": 0
+      },
+      "changes": {
+        "records": {
+          "added": 91,
+          "removed": 0,
+          "changed": 0,
+          "unchanged": 2
+        }
+      }
+    },
+    "ww": {
+      "game": "ww",
+      "gameName": "Wuthering Waves",
+      "counts": {
+        "collections": 3,
+        "records": 56,
+        "characters": 53,
+        "assetsPlanned": 495,
+        "errors": 0
+      },
+      "assets": {
+        "requested": 495,
+        "downloaded": 0,
+        "cached": 495,
+        "missing": 0
+      },
+      "changes": {
+        "records": {
+          "added": 54,
+          "removed": 0,
+          "changed": 0,
+          "unchanged": 2
+        }
+      }
+    },
+    "zzz": {
+      "game": "zzz",
+      "gameName": "Zenless Zone Zero",
+      "counts": {
+        "collections": 4,
+        "records": 68,
+        "characters": 64,
+        "assetsPlanned": 321,
+        "errors": 0
+      },
+      "assets": {
+        "requested": 321,
+        "downloaded": 0,
+        "cached": 320,
+        "missing": 1
+      },
+      "changes": {
+        "records": {
+          "added": 65,
+          "removed": 0,
+          "changed": 0,
+          "unchanged": 3
+        }
+      }
+    },
+    "endfield": {
+      "game": "endfield",
+      "gameName": "Arknights: Endfield",
+      "counts": {
+        "collections": 3,
+        "records": 31,
+        "characters": 28,
+        "assetsPlanned": 286,
+        "errors": 0
+      },
+      "assets": {
+        "requested": 286,
+        "downloaded": 0,
+        "cached": 286,
+        "missing": 0
+      },
+      "changes": {
+        "records": {
+          "added": 29,
+          "removed": 0,
+          "changed": 0,
+          "unchanged": 2
+        }
+      }
+    }
+  }
+}

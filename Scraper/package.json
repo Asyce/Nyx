@@ -1,0 +1,33 @@
+{
+  "name": "nyxarium-scraper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "banners": "node ./banners/scrape.cjs",
+    "codes": "node ./codes/scrape.cjs",
+    "endfield:wiki": "node ./endfield-wiki/scrape.mjs",
+    "nanoka": "node ./nanoka/scrape.mjs",
+    "nanoka:gi": "node ./nanoka/scrape.mjs --game gi",
+    "nanoka:hsr": "node ./nanoka/scrape.mjs --game hsr",
+    "nanoka:ww": "node ./nanoka/scrape.mjs --game ww",
+    "nanoka:zzz": "node ./nanoka/scrape.mjs --game zzz",
+    "prydwen": "node ./prydwen/scrape.mjs",
+    "prydwen:endfield": "node ./prydwen/scrape.mjs --game endfield",
+    "prydwen:hsr": "node ./prydwen/scrape.mjs --game hsr",
+    "prydwen:wuwa": "node ./prydwen/scrape.mjs --game ww",
+    "prydwen:ww": "node ./prydwen/scrape.mjs --game ww",
+    "prydwen:zzz": "node ./prydwen/scrape.mjs --game zzz",
+    "wiki:titles": "node ./wiki-titles/scrape.mjs",
+    "wiki:titles:gi": "node ./wiki-titles/scrape.mjs --game gi",
+    "wiki:titles:hsr": "node ./wiki-titles/scrape.mjs --game hsr",
+    "wiki:titles:wuwa": "node ./wiki-titles/scrape.mjs --game wuwa",
+    "wiki:titles:ww": "node ./wiki-titles/scrape.mjs --game ww",
+    "wiki:titles:zzz": "node ./wiki-titles/scrape.mjs --game zzz"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

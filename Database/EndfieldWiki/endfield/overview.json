@@ -1,0 +1,33 @@
+{
+  "provider": "EndfieldWiki",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "scrapedAt": "2026-06-10T22:17:50.094Z",
+  "source": {
+    "site": "endfield.wiki.gg",
+    "api": "MediaWiki API + Cargo Operators table",
+    "table": "Operators"
+  },
+  "sample": null,
+  "counts": {
+    "characters": 29,
+    "assetsPlanned": 113,
+    "missingAssets": 3
+  },
+  "files": {
+    "characters": "EndfieldWiki/endfield/characters.json",
+    "raw": "EndfieldWiki/endfield/raw",
+    "assets": "EndfieldWiki/endfield/assets",
+    "missingAssets": "EndfieldWiki/endfield/missing-assets.json"
+  },
+  "assets": {
+    "requested": 113,
+    "downloaded": 113,
+    "cached": 0,
+    "missing": 0
+  },
+  "notes": [
+    "Banner and portrait art are optional on upstream wiki pages; missing files are reported without removing the operator.",
+    "Normalized data stores only local database-relative asset paths, not remote image URLs."
+  ]
+}

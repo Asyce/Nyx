@@ -1,0 +1,2 @@
+Database/Nanoka/hsr/live/characters.json filter=lfs diff=lfs merge=lfs -text
+Database/Nanoka/gi/live/characters.json filter=lfs diff=lfs merge=lfs -text

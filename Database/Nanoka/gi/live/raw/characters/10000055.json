@@ -1,0 +1,3892 @@
+{
+  "name": "Gorou",
+  "desc": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+  "chara_info": {
+    "release_date": "2021-12-14 18:00:00",
+    "birth": [
+      5,
+      18
+    ],
+    "vision": "Geo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Canis Bellatoris",
+    "region": "ASSOC_TYPE_INAZUMA",
+    "title": "Canine Warrior",
+    "native": "Watatsumi Island",
+    "detail": "The great general of Watatsumi Island's forces. He is deeply trusted by his subordinates.",
+    "va": {
+      "chinese": "杨昕燃",
+      "japanese": "畠中祐",
+      "english": "Cory Yee",
+      "korean": "Lee Sae-byeok"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Gorou is the great general of Watatsumi Island's military, and he is deeply loved by his subordinates.\\nDuring the period of the Vision Hunt Decree, Gorou led the forces of Watatsumi against the Shogun's Army, and successfully held the line against them.\\nThe troops call him the \"ever-victorious pointy-eared general,\" a nickname that has also seen broad use among Shogunate warriors.\\nIn private, however, Gorou puts on no airs and is a straightforward person, which has led him to be regarded by all as the man with the plan.\\nBut even such an exemplary general must have his fair share of troubles...",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Gorou was once an ordinary Watatsumi soldier.\\nDuring a certain special operation, Gorou's unit, Gorgasia II, faced an unprecedented crisis.\\nTheir captain had been felled by a stray arrow, and the survivors were surrounded deep in the mountains.\\nTo continue their mission, to ask for reinforcements, to open negotiations with the enemy... Countless choices lay before them, but the mountain was silent.\\nLeaderless and without any supplies, the unit was on its last legs. With their morale flagging, thoughts of surrender shrouded many minds.\\nAt this critical moment, Gorou stood up. He rejected negotiation and surrender, and instead proposed a bold plan.\\nThey would not hide any longer. Instead, he would lead the larger part of the platoon in a feigned attack to buy the others a chance to call for reinforcements. Once those reinforcements arrived, they could perform a pincer attack together.\\nWhen asked what they should do if they failed, Gorou replied:\\n\"If the enemy surrounds us any further, our options will be even more limited. The way I see it, we still have a chance, so we've got to give it all we've got.\"\\n\"I'll take responsibility if the plan fails.\"\\nAfter holding the line for several days without rest, the exhausted Gorou and his companions were finally relieved by a force led by Sangonomiya Kokomi herself.\\nAfter that, he was promoted to serve as the captain of Gorgasia II, and from there he would work his way up to the rank of General.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "In the eyes of the men, Gorou is a strict but humble general.\\nHe is straightforward and easy-going, and he treats his subordinates like his own family, sharing weal and woe with them.\\nSangonomiya Kokomi once told Gorou that material, supplies, and salaries were the three most important things to an army.\\nFrom that day on, he would personally explain weapon maintenance to his subordinates. Every time the granaries were opened, he would supervise the process strictly to prevent any unlawful deductions.\\nAnd as General Gorou, he will always lead from the front.\\nThe sight of him charging at the tip of the spear is like a rallying banner, encouraging the troops behind him to continue advancing.\\nThese are all reasons why the troops greatly respect him. As with Kokomi, Gorou greatly treasures the lives of his troops, but by contrast, values his own quite little.\\nSome who understand little of the thought process behind this occasionally joke that Gorou is a \"kid\" who doesn't seem like a general at all.\\nBut to the soldiers of Watatsumi Island, this kid is the best general they could ask for.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Gorou is valiant and decisive, often leading inferior forces to victory over superior opposition.\\nHowever, he does have a shortcoming of his own — a sometimes unstable temper.\\nThat is to say that the blood sometimes rushes to his head at the height of a battle.\\nWar is cruel, and Gorou does indeed lack experience compared to veterans who have been scrapping it out on battlefields for decades.\\nFortunately, he learns fast and is currently trying to make up for his various small failings.\\nSangonomiya Kokomi often provides her various commanders with directives, but how they are used is up to the skill of the commander in question.\\nFor his part, Gorou is always able to execute the courses of action that best suit the present situation from the directives he has been given.\\nGorou believes that over time, he will come to internalize the concepts behind them. Perhaps then, he can take the field with even more confidence than before.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "At Yae Miko's request, Gorou has taken up a certain extra \"job\" at Yae Publishing House.\\nWith the end of the Vision Hunt Decree, and the successful negotiations between Watatsumi Island and the Shogunate, relations between the two sides are beginning to warm.\\nGorou has also visited Narukami Island quite a few times to check out the changes, buy a few popular books, and go to Yae Publishing House to complete the task he agreed to help with.\\nYae Miko set up an anonymous column for Gorou in the \"That's Life\" magazine. Here, readers will write about the things that trouble them and send them to Yae Publishing House, upon which Gorou will give them some suggestions.\\nYae Publishing House will take special care to redact any personal information revealed on the part of the write-ins or Gorou's replies, and will replace real names with pseudonyms.\\nAccording to Yae Miko, she chose him because she'd heard that he often listened to his subordinates when they chatted about personal matters.\\nThe column proved to be very popular indeed, but for whatever reason, every time an editor delivers the royalties to Gorou, they might sheepishly ask:\\n\"Ah, speaking of which, Gorou, have you heard of Ms. Hina?\"\\n\"I've heard that she's a rather popular columnist, and a recent one, too. Is something the matter?\"\\n\"Oh, no, no... It's nothing...\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "Just as the troops don't exactly tell Gorou everything happening in their lives, Gorou, too, has some troubles that are difficult to share.\\nFor example, how his tail fur starts to get dull and look haggard after being exposed to the elements for too long, and how he'd love to tend to it — if he could only spare the time out in the field.\\nOr how he sometimes feels a bit inferior about his slight physique when bathing together with his subordinates.\\nOr about how encountering inscrutable women like Yae Miko sends him into defense mode instantly, rendering him unable to properly interact with them...\\nIn trying to maintain a respectable image, Gorou refrains from telling his soldiers about such troubles.\\nAnd while they have been able to guess at his troubles to some extent, the Watatsumi soldiers often just play along and pretend that they don't notice.\\nAs such, his worries just kept piling up, until the Traveler arrived, thus granting the Watatsumi general, ever good at banishing the worries of others, someone who could help relieve him of his own woes.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Mountaineering Gear",
+        "text": "Of Gorou's various hobbies, \"mountaineering\" is likely up there in the top three.\\nSweating it out while climbing a mountain with companions before admiring the beauty all around you helps to train both the mind and body and is a great camaraderie-builder.\\nTo better enjoy this hobby of his, Gorou bought a set of mountaineering gear from a traveling merchant.\\nThe set is not particularly pricey, but it is both sturdy and durable and has seen Gorou through many dangerous ascents.\\nJust as he maintains his weapons well, Gorou has also kept this set of gear in tip-top shape. There is little doubt that it will accompany him through many future journeys as well.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "There was a time when Gorou ascribed responsibility for victory or loss in battle entirely to himself.\\n\"If only I became a little stronger, perhaps I'd be able to turn the tide.\"\\nIt was in this spirit that Gorou trained his archery day and night, hoping to rely on his strength to lead his comrades to victory.\\nBut after some time on the battlefield, Gorou saw powerful warriors being isolated and captured alive, while weak troops in inferior positions could rout their enemies through unity.\\nThat was when Gorou realized that a single person's battlefield capabilities are limited.\\nGetting stronger is important, naturally, but uniting the troops to fight as one is even more crucial.\\nA troop can only be unbeatable if they are strong together.\\nHaving realized this, Gorou no longer pursued the apex of excellence in archery, but instead invested time and effort in those around him, helping everyone improve together.\\nThinking back on it, this may have opened the door for Gorou to obtain his Vision.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "General Gorou of the Watatsumi Island resistance, ready and waiting! I've long heard of your sterling reputation and I look forward to fighting our way to victory side-by-side! ...Heh, so what do you think? Did that sound inspiring?",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Tactics",
+        "text": "Keep your weapon at the ready. You never know what's around the corner...",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Training",
+        "text": "The fighting has ceased for now... Commence physical training!",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Physique",
+        "text": "A strong body shows strength and instills confidence in others around you. I must always stay at the top of my game!",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Ugh, my tail's getting wet... Let's find a fire and dry off.",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Stay alert!",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "Whew *shivering*... it's cold. These conditions are unsuitable for outdoor maneuvers.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "It'd be nice to just lie in the sun... Ahem, but I must set an example for the others.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "We can attack downwind and press the advantage. Or, bolster our courage and fight upwind!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "The sun is up and it is time to train. Shall we go climb a mountain?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Let's have Radish and Fish Stew with plain rice for lunch today. It's been a favorite among the troops lately, so I suggest you try it, too.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Though the sun is setting, our guard must remain high. We should let our eyes adapt to the dark... Even in the darkness of night, a battle may be looming.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "If you're feeling fatigued, then best turn in for the night. I'll take watch! Don't worry, you have my word that everything will still be in good order on your return.",
+        "unlocked": []
+      },
+      {
+        "title": "About Gorou: Top Dog",
+        "text": "Huh? \"Top Dog Gorou\"? Where did you hear that? *sigh* To be honest, I've grown quite close with my fellow officers, and always share any good news I might have with them. In private, they've all started calling me Top Dog out of respect... But in terms of age, they are all my seniors.",
+        "unlocked": []
+      },
+      {
+        "title": "About Gorou: Advice",
+        "text": "The troops seem to picture me as someone of extraordinary abilities — I think it might be because of our streak of victories lately. Now they always come to me for advice on even the most trivial matters. When I see the expectant look in their eyes, it's impossible for me to turn them away, but at the same time, my strategic ability is limited... All I can do is give some general pointers, or failing that, respond based on my gut feeling alone. *sigh* I just hope I'm not letting them down.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Speaking Your Mind",
+        "text": "If there's anything ever troubling you, don't keep it all muzzled up inside. You can always speak your mind with me! Although I can't guarantee that I'll always have an answer, I'll certainly offer you my best advice! Even when I can't muster much of a response, you can always count on me to be a good listener. Whatever it is, I'm all ears.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Camaraderie",
+        "text": "We train together, eat together, and relax together. There's no better way to strengthen communication and build tacit understanding between everyone on the team. In the heat of battle, just a simple glance can transmit crucial information. Hmm? You don't think it's very appropriate? Huh... Well, I mean, that's how the troops and I have been bonding as a team.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "My Vision amplifies my abilities in battle. It allows me to take greater responsibility on the battlefield and forge a way forward for the troops. But I also understand that one person alone, no matter how strong, is never enough to turn the tide of a battle. The key to victory is everyone's united effort, fighting for a common cause.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share: Dressed for Battle",
+        "text": "I don't like to enter battle wearing lots of heavy equipment. I travel light, that's my style. My strength is in moving quickly around the battlefield, seeking out opportunities to take control of the fight. I always target the strongest warriors first to weaken the enemy's morale.",
+        "unlocked": []
+      },
+      {
+        "title": "Something to Share: Ever-Victorious General",
+        "text": "The troops have come up with a nickname for me, the \"ever-victorious pointy-eared general.\" Now there's even a rumor going around saying that \"if you want Top Dog Gorou's victorious luck, give his pointy ears a rub.\" Grrr, there will be no rubbing of my ears, and that's final. If they think they can smile their way into persuading me otherwise, well, they've got another thing... Hmm? Hey, wh—what are you doing? Not you too...? Come on now, I... I thought I... Mm... Mm...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Interesting Things",
+        "text": "I've heard that there's a mountain range in Liyue that reaches all the way up into the clouds. Ah, I'd relish a chance to go climbing there!",
+        "unlocked": []
+      },
+      {
+        "title": "About Beidou",
+        "text": "Captain Beidou values camaraderie, and her exceptional abilities command respect. She once said that she prefers to avoid involving her companions in disputes that don't concern them, which I can completely understand. That's why I only request her help when we have no one else to turn to.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kaedehara Kazuha",
+        "text": "I've seen all kinds of wandering samurai before, and Kazuha is categorically a different breed from the others. He's like a gust of wind that sweeps through the land. Though he never stays for long, he is always able to contribute something to those who are around him. When I fought alongside him, I learned more about what it means to be truly carefree and without constraints. In any case, I think that Kazuha and I make a great team together!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Sangonomiya Kokomi: Duties",
+        "text": "As the leader of Watatsumi Island, Her Excellency is responsible for assessing the scenario and formulating a plan. It is then my duty to put every detail of the plan into action and to keep the situation under control on the front line. We are united with the whole resistance in achieving a single purpose: victory.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Sangonomiya Kokomi: Attitude",
+        "text": "I have only the utmost respect for Her Excellency. Without her ingenious and insightful strategies, the resistance could never have come as far as it has today. But if you ask me, it seems that deep down she prefers a much quieter existence. So when there's no pressing military matters, I try not to disturb her too much.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About the Raiden Shogun",
+        "text": "Grr, the Raiden Shogun... I could never bring myself to accept her past actions, no matter what her reasoning may have been. Though a peace treaty has been signed between Watatsumi Island and the Shogunate, I refuse to let my guard down. If conflict ever breaks out again, I will resume my place back on the front line.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Omnipresence Over Mortals\""
+        ]
+      },
+      {
+        "title": "About Kujou Sara",
+        "text": "I have nothing good to say about the Shogun's Army, but Kujou Sara is perhaps the most honorable officer among their ranks. We've met each other countless times in battle, emerging both victorious and defeated at different times. *sigh* I know now that it's not realistic to think this way, but I did use to wonder what things would be like if those like her could value the wishes of the people and be free from the grip of the Shogunate.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Stillness, the Sublimation of Shadow\""
+        ]
+      },
+      {
+        "title": "About Yae Miko",
+        "text": "Oh, her... I'd prefer not to talk about her. Can we change the topic? Or, if there are any tasks I can take off your hand, I'll gladly oblige! Anything at all? ...Ahem, let's just say it'd be best for my general well-being if we can we avoid talking about her...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kamisato Ayaka",
+        "text": "The Yashiro Commission operates as part of the Shogunate, but on many issues they tend to side with the people of Inazuma. In fact, the Shirasagi Himegimi has managed to establish an excellent reputation for herself, despite facing pressure from both sides. I suppose she must know how to keep her composure at all times and navigate sensitive situations tactfully... There's much I could learn from her.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Stillness, the Sublimation of Shadow\""
+        ]
+      },
+      {
+        "title": "About Sayu",
+        "text": "Hmm, according to our intel, she is a ninja proficient in the art of infiltration — a skill set which could prove very useful in some of Her Excellency's special operations... However, our intel also indicates that she could be difficult to recruit as she is rather unruly, and often disappears without a trace. Hmm? She's with the Yashiro Commission? Oh, well forget it then.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Shikanoin Heizou",
+        "text": "You mean that sneaky detective that never seems to actually be working on a case? Well, no one from the Shogunate can be fully trusted, so I'll be keeping my eyes and ears on him! On a separate note, he does have some talent for investigation. But how can we know that this isn't all part of some nefarious scheme? Hmm. Only time will tell, I suppose.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Gorou: I",
+        "text": "Hmm, I'm afraid that most of my days have been spent on the battlefield, so there's not much to tell about me. But if you'd really like to hear my stories, I'm happy to sit down and tell you everything!",
+        "unlocked": []
+      },
+      {
+        "title": "More About Gorou: II",
+        "text": "I may not have superior cunning or intelligence, but what I do have is my own two hands and my life to lay on the line. Countless battles in, I'm still here, so I guess these hands and my will to survive were both strong enough to see me through. Some even say that no matter how dire the battle may be, everyone will emerge unscathed as long as they follow me. And with that, I've somehow gained enough reputation among our forces to become the leader that I am now.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Gorou: III",
+        "text": "At first, our only enemies were roaming bandits, pirates, and monsters. But then, everything changed when the Raiden Shogun enacted the Vision Hunt Decree. The Shogun's Army marched up expecting to put us in our place, but we were ready for them, and we hit them hard. Hehe, I bet they never expected to meet such fierce resistance.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Stillness, the Sublimation of Shadow\""
+        ]
+      },
+      {
+        "title": "More About Gorou: IV",
+        "text": "Her Excellency once warned me of my fatal flaw... I tend to get too engrossed in battle, fighting deep into enemy lines and forgetting about everything else. She told me that my bravery is commendable, but as a ranking officer, it's not my place to do this. I'm doing my best to improve, but... Would you also be able to keep an eye on me?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Gorou: V",
+        "text": "We are not fighting against any particular group or faction. No, we fight against a destructive malice — a malice that has trampled the aspirations of the people and destroyed the peaceful lives they once knew. After I rid the land of such evil I will be able to peacefully lay down my weapon. Only then will I trade my uniform for civilian attire... and finally stroll the beautiful landscape of Watatsumi Island together with you.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Gorou's Hobbies",
+        "text": "I love mountain climbing! The steeper, the better. Climbing trains my body and mind, making me stronger with every grip and every foothold. Better yet is climbing mountains with fellow companions. After hours of dirt and sweat scaling the summit, we can sit down and enjoy the view together. It's one of life's greatest joys! Ahem, however, I have absolutely no desire to scale the tallest peak in Inazuma...",
+        "unlocked": []
+      },
+      {
+        "title": "Gorou's Troubles",
+        "text": "There are times when being lightly armored has its shortcomings... For example, I have to be particularly careful of my tail when the enemy attacks with fire.",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "My favorites are cake and Tricolor Dango, probably because I seldom get the chance to enjoy the luxury of sweets. The rations we have in the field are intended to be simple, effective, and quick, and are seldom served with any seasonings at all, let alone sugar... It's probably the most precious commodity of all. Ah, what can I say — I guess I just have a sweet tooth!",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "I'll pretty much eat anything, but onions are an exception. One time, the logistics division added ground onion to my food and I bawled in front of everyone, right there at the mess table... *sigh* Talk about embarrassing. The soldiers from logistics felt terrible about it, too.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Today's a momentous occasion, your birthday! Allow me to arrange all the celebrations for you! We can make a bonfire on the beach and catch some fresh fish and crabs. I'll personally prepare a morale-boosting meal that would make even the highest-ranking generals jealous.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "With this newfound strength, I will defend those who fight alongside me.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Protecting my soldiers doesn't just mean having a robust defense in place. Sometimes, it means going on the attack!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "The key to seizing victory in battle lies in remembering the meaning of battle and employing the right tactics to generate momentum, making your forces unstoppable.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "With momentum on our side and close camaraderie, we are unstoppable. Thank you for your guidance. This is a victory that belongs to the both of us.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Advance!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Charge!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Fall in!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Everyone on me!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Press the advantage!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Rally!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "The tide of battle is in our favor!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Let's distribute these among our forces.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Careful, it could be a trap... Oh? Never mind.",
+        "unlocked": []
+      },
+      {
+        "title": "Sprint Start: I",
+        "text": "Follow my lead!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "I can still fight!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "I got careless!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Surrender is not an option!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Fall back!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Stay in formation!",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "We're... defeated...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "For... Watatsumi Island...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "All forces... retreat...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "Shake it off!",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "C'mon!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Ready and waiting!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Prepare to move out!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Company, fall in!",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Mm! I become powerless in the face of sweets!",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Oh, I feel invigorated! Is there anything I can help you with?",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "It's a little spicier than I expected... *sniff* I—I don't think I can keep going.",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108365,
+      "recipe": 3202,
+      "name": "Victorious Legend",
+      "icon": "UI_ItemIcon_108365",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210104,
+      "name": "Gorou: Leisurely Hound",
+      "desc": "Namecard style.\\nAs long as you believe in the path you are walking, then everything you encounter on your journey will be a source of happiness.",
+      "icon": "UI_NameCardPic_Gorou_P"
+    },
+    "costume": [
+      {
+        "id": 205500,
+        "name": "Panoply of a Hundred Hunts",
+        "desc": "Gorou's outfit. This light armor is designed to allow the marksman-general Gorou to handle his bow with ease. The armoring at the shoulder and elbow is also designed with this in mind.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_BOW",
+  "rarity": "QUALITY_PURPLE",
+  "element": "Geo",
+  "icon": "UI_AvatarIcon_Gorou",
+  "stamina_recovery": 25,
+  "base_hp": 802.3761,
+  "base_atk": 15.31488,
+  "base_def": 54.36375,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.653,
+      "92": 8.957,
+      "93": 9.262,
+      "94": 9.566,
+      "95": 9.87,
+      "96": 10.174,
+      "97": 10.479,
+      "98": 10.783,
+      "99": 11.087,
+      "100": 11.392
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 599.416,
+        "fight_prop_base_defense": 40.6125,
+        "fight_prop_base_attack": 11.441268,
+        "fight_prop_rock_add_hurt": 0
+      },
+      {
+        "fight_prop_base_hp": 1025.3169,
+        "fight_prop_base_defense": 69.46875,
+        "fight_prop_base_attack": 19.57059,
+        "fight_prop_rock_add_hurt": 0.06
+      },
+      {
+        "fight_prop_base_hp": 1593.1847,
+        "fight_prop_base_defense": 107.94375,
+        "fight_prop_base_attack": 30.409685,
+        "fight_prop_rock_add_hurt": 0.12
+      },
+      {
+        "fight_prop_base_hp": 2019.0856,
+        "fight_prop_base_defense": 136.8,
+        "fight_prop_base_attack": 38.53901,
+        "fight_prop_rock_add_hurt": 0.12
+      },
+      {
+        "fight_prop_base_hp": 2444.9863,
+        "fight_prop_base_defense": 165.65625,
+        "fight_prop_base_attack": 46.66833,
+        "fight_prop_rock_add_hurt": 0.18
+      },
+      {
+        "fight_prop_base_hp": 2870.8872,
+        "fight_prop_base_defense": 194.5125,
+        "fight_prop_base_attack": 54.797653,
+        "fight_prop_rock_add_hurt": 0.24
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S4",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10551,
+      "name": "Ripping Fang Fletching",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal <color=#FFE699FF>Geo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.37754,
+            0.37152,
+            0.4945,
+            0.58996,
+            0.4386,
+            1.24,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.40827,
+            0.40176,
+            0.53475,
+            0.63798,
+            0.4743,
+            1.333,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.439,
+            0.432,
+            0.575,
+            0.686,
+            0.51,
+            1.426,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4829,
+            0.4752,
+            0.6325,
+            0.7546,
+            0.561,
+            1.55,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.51363,
+            0.50544,
+            0.67275,
+            0.80262,
+            0.5967,
+            1.643,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.54875,
+            0.54,
+            0.71875,
+            0.8575,
+            0.6375,
+            1.736,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.59704,
+            0.58752,
+            0.782,
+            0.93296,
+            0.6936,
+            1.86,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.64533,
+            0.63504,
+            0.84525,
+            1.00842,
+            0.7497,
+            1.984,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.69362,
+            0.68256,
+            0.9085,
+            1.08388,
+            0.8058,
+            2.108,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7463,
+            0.7344,
+            0.9775,
+            1.1662,
+            0.867,
+            2.232,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.79898,
+            0.78624,
+            1.0465,
+            1.24852,
+            0.9282,
+            2.356,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.85166,
+            0.83808,
+            1.1155,
+            1.33084,
+            0.9894,
+            2.48,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.90434,
+            0.88992,
+            1.1845,
+            1.41316,
+            1.0506,
+            2.635,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.95702,
+            0.94176,
+            1.2535,
+            1.49548,
+            1.1118,
+            2.79,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0097,
+            0.9936,
+            1.3225,
+            1.5778,
+            1.173,
+            2.945,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10552,
+      "name": "Inuzaka All-Round Defense",
+      "desc": "Deals <color=#FFE699FF>AoE Geo DMG</color> and sets up a General's War Banner.\\n\\n<color=#FFD780FF>General's War Banner</color>\\nProvides up to 3 buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party at the time of casting:\\n· 1 Geo character: Adds \"Standing Firm\" - DEF Bonus.\\n· 2 Geo characters: Adds \"Impregnable\" - Increased resistance to interruption.\\n· 3 Geo characters: Adds \"Crunch\" - <color=#FFE699FF>Geo DMG Bonus</color>.\\n\\nGorou can deploy only 1 General's War Banner on the field at any one time. Characters can only benefit from 1 General's War Banner at a time. When a party member leaves the field, the active buff will last for 2s.\\n\\n<color=#FFD780FF>Hold</color>\\nAdjust the location of the skill.\\n\\n<i>\"Take up this formation and we'll be safe — I guarantee it!\" As a general and a leader of troops, the last thing Gorou wants is to see is those who follow him getting hurt.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.072,
+            206.16,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1524,
+            221.622,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2328,
+            237.084,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.34,
+            257.7,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.4204,
+            273.162,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.5008,
+            288.624,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.608,
+            309.24,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7152,
+            329.856,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8224,
+            350.472,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9296,
+            371.088,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.0368,
+            391.704,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.144,
+            412.32,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.278,
+            438.09,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.412,
+            463.86,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "DEF Increase|{param2:I}",
+            "Geo DMG Bonus|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.546,
+            489.63,
+            0.15,
+            10,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10555,
+      "name": "Juuga: Forward Unto Victory",
+      "desc": "Displaying his valor as a general, Gorou deals <color=#FFE699FF>AoE Geo DMG</color> and creates a field known as General's Glory to embolden his comrades.\\n\\n<color=#FFD780FF>General's Glory</color>\\nThis field has the following properties:\\n· Like the General's War Banner created by Inuzaka All-Round Defense, provides buffs to active characters within the skill's AoE based on the number of <color=#FFE699FF>Geo</color> characters in the party. Also moves together with your active character.\\n· Generates 1 Crystal Collapse every 1.5s that deals <color=#FFE699FF>AoE Geo DMG</color> to 1 opponent within the skill's AoE.\\n· Pulls 1 elemental shard in the skill's AoE to your active character's position every 1.5s (elemental shards are created by Crystallize reactions).\\n\\nIf a General's War Banner created by Gorou currently exists on the field when this ability is used, it will be destroyed. In addition, for the duration of General's Glory, Gorou's Elemental Skill \"Inuzaka All-Round Defense\" will not create the General's War Banner.\\n If Gorou falls, the effects of General's Glory will be cleared.\\n\\n<i>\"We have the high ground!\" Gorou can ever so slightly change the terrain of the battlefield to help win victory. This technique has seen him through many battles against seemingly superior opposition.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.98216,
+            0.613,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.055822,
+            0.658975,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.129484,
+            0.70495,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2277,
+            0.76625,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.301362,
+            0.812225,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.375024,
+            0.8582,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.47324,
+            0.9195,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.571456,
+            0.9808,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.669672,
+            1.0421,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.767888,
+            1.1034,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.866104,
+            1.1647,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.96432,
+            1.226,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.08709,
+            1.302625,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.20986,
+            1.37925,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Gorou_01",
+          "desc": [
+            "Skill DMG|{param1:P} DEF",
+            "Crystal Collapse DMG|{param2:P} DEF",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.33263,
+            1.455875,
+            9,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 552101,
+      "name": "Heedless of the Wind and Weather",
+      "desc": "After using <color=#FFD780FF>Juuga: Forward Unto Victory</color>, all nearby party members' DEF is increased by 25% for 12s.",
+      "icon": "UI_Talent_S_Gorou_05",
+      "unlock": 1,
+      "param_list": [
+        0.25,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 552201,
+      "name": "A Favor Repaid",
+      "desc": "Gorou receives the following DMG Bonuses to his attacks based on his DEF:\\n· <color=#FFD780FF>Inuzaka All-Round Defense</color>: Skill DMG increased by 156% of DEF\\n· <color=#FFD780FF>Juuga: Forward Unto Victory</color>: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF",
+      "icon": "UI_Talent_S_Gorou_06",
+      "unlock": 4,
+      "param_list": [
+        1.56,
+        0.156,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 552301,
+      "name": "Seeker of Shinies",
+      "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Inazuma</color> on the mini-map.",
+      "icon": "UI_Talent_S_Gorou_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 551,
+      "name": "Rushing Hound: Swift as the Wind",
+      "desc": "When characters (other than Gorou) within the AoE of Gorou's <color=#FFD780FF>General's War Banner</color> or <color=#FFD780FF>General's Glory</color> deal Geo DMG to opponents, the CD of Gorou's <color=#FFD780FF>Inuzaka All-Round Defense</color> is decreased by 2s.\\nThis effect can occur once every 10s.",
+      "icon": "UI_Talent_S_Gorou_01",
+      "param_list": [
+        -2,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 552,
+      "name": "Sitting Hound: Steady as a Clock",
+      "desc": "While <color=#FFD780FF>General's Glory</color> is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction, or triggers a Lunar-Crystallize reaction. \\nThis effect can occur once every 0.1s. Max extension is 3s.",
+      "icon": "UI_Talent_S_Gorou_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 553,
+      "name": "Mauling Hound: Fierce as Fire",
+      "desc": "Increases the Level of <color=#FFD780FF>Inuzaka All-Round Defense</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Gorou_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 554,
+      "name": "Lapping Hound: Warm as Water",
+      "desc": "When <color=#FFD780FF>General's Glory</color> is in the \"Impregnable\" or \"Crunch\" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.",
+      "icon": "UI_Talent_S_Gorou_03",
+      "param_list": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 555,
+      "name": "Striking Hound: Thunderous Force",
+      "desc": "Increases the Level of <color=#FFD780FF>Juuga: Forward Unto Victory</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Gorou_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 556,
+      "name": "Valiant Hound: Mountainous Fealty",
+      "desc": "For 12s after using <color=#FFD780FF>Inuzaka All-Round Defense</color> or <color=#FFD780FF>Juuga: Forward Unto Victory</color>, increases the CRIT DMG of all nearby party members' <color=#FFE699FF>Geo DMG</color> based on the buff level of the skill's field at the time of use:\\n· \"Standing Firm\": +10%\\n· \"Impregnable\": +20%\\n· \"Crunch\": +40%\\n\\nThis effect cannot stack and will take reference from the last instance of the effect that is triggered.",
+      "icon": "UI_Talent_S_Gorou_04",
+      "param_list": [
+        0.1,
+        0.2,
+        0.4,
+        12,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Sliver",
+            "id": 104171,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Sango Pearl",
+            "id": 101207,
+            "count": 3,
+            "rank": 0
+          },
+          {
+            "name": "Spectral Husk",
+            "id": 112053,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Fragment",
+            "id": 104172,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Perpetual Heart",
+            "id": 113023,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Sango Pearl",
+            "id": 101207,
+            "count": 10,
+            "rank": 0
+          },
+          {
+            "name": "Spectral Husk",
+            "id": 112053,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Fragment",
+            "id": 104172,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Perpetual Heart",
+            "id": 113023,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Sango Pearl",
+            "id": 101207,
+            "count": 20,
+            "rank": 0
+          },
+          {
+            "name": "Spectral Heart",
+            "id": 112054,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Chunk",
+            "id": 104173,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Perpetual Heart",
+            "id": 113023,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Sango Pearl",
+            "id": 101207,
+            "count": 30,
+            "rank": 0
+          },
+          {
+            "name": "Spectral Heart",
+            "id": 112054,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Chunk",
+            "id": 104173,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Perpetual Heart",
+            "id": 113023,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Sango Pearl",
+            "id": 101207,
+            "count": 45,
+            "rank": 0
+          },
+          {
+            "name": "Spectral Nucleus",
+            "id": 112055,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Gemstone",
+            "id": 104174,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Perpetual Heart",
+            "id": 113023,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Sango Pearl",
+            "id": 101207,
+            "count": 60,
+            "rank": 0
+          },
+          {
+            "name": "Spectral Nucleus",
+            "id": 112055,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Spectral Husk",
+              "id": 112053,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Spectral Husk",
+              "id": 112053,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Spectral Husk",
+              "id": 112053,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Molten Moment",
+              "id": 113025,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  }
+}

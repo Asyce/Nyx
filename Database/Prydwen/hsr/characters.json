@@ -1,0 +1,2869 @@
+[
+  {
+    "id": "acheron",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Acheron",
+    "slug": "acheron",
+    "sourcePath": "/star-rail/characters/acheron",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Lightning",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/acheron-7af70ebb6120.webp",
+      "full": "Prydwen/hsr/assets/characters/acheron-b97d86ce4b72.webp",
+      "icon": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/acheron.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "aglaea",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Aglaea",
+    "slug": "aglaea",
+    "sourcePath": "/star-rail/characters/aglaea",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Lightning",
+      "path": "Remembrance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/aglaea-775754cfb8c5.webp",
+      "full": "Prydwen/hsr/assets/characters/aglaea-f94d5b796912.webp",
+      "icon": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/aglaea.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "anaxa",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Anaxa",
+    "slug": "anaxa",
+    "sourcePath": "/star-rail/characters/anaxa",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/anaxa-5979b0746f3c.webp",
+      "full": "Prydwen/hsr/assets/characters/anaxa-9deca43a40ab.webp",
+      "icon": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/anaxa.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 52
+  },
+  {
+    "id": "archer",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Archer",
+    "slug": "archer",
+    "sourcePath": "/star-rail/characters/archer",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/archer-cbcfd61516cc.webp",
+      "full": "Prydwen/hsr/assets/characters/archer-3a9c56eb8499.webp",
+      "icon": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/archer.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "argenti",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Argenti",
+    "slug": "argenti",
+    "sourcePath": "/star-rail/characters/argenti",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/argenti-e0158ba5931d.webp",
+      "full": "Prydwen/hsr/assets/characters/argenti-cdd5db26d874.webp",
+      "icon": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/argenti.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 32
+  },
+  {
+    "id": "arlan",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Arlan",
+    "slug": "arlan",
+    "sourcePath": "/star-rail/characters/arlan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Lightning",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/arlan-6570c752e7cc.webp",
+      "full": "Prydwen/hsr/assets/characters/arlan-f5ff2658fe9e.webp",
+      "icon": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/arlan.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "ashveil",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Ashveil",
+    "slug": "ashveil",
+    "sourcePath": "/star-rail/characters/ashveil",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Lightning",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/ashveil-052ce1666926.webp",
+      "full": "Prydwen/hsr/assets/characters/ashveil-b9f510eb9e49.webp",
+      "icon": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/ashveil.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "asta",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Asta",
+    "slug": "asta",
+    "sourcePath": "/star-rail/characters/asta",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Fire",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/asta-00298d219ef3.webp",
+      "full": "Prydwen/hsr/assets/characters/asta-6b116c87f39d.webp",
+      "icon": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/asta.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 48
+  },
+  {
+    "id": "aventurine",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Aventurine",
+    "slug": "aventurine",
+    "sourcePath": "/star-rail/characters/aventurine",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Preservation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/aventurine-ec37a043dccd.webp",
+      "full": "Prydwen/hsr/assets/characters/aventurine-7eab8a728935.webp",
+      "icon": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/aventurine.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 59
+  },
+  {
+    "id": "bailu",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Bailu",
+    "slug": "bailu",
+    "sourcePath": "/star-rail/characters/bailu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Lightning",
+      "path": "Abundance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/bailu-c44b2e3eb5c3.webp",
+      "full": "Prydwen/hsr/assets/characters/bailu-6d808a5df95b.webp",
+      "icon": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/bailu.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "black-swan",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Black Swan",
+    "slug": "black-swan",
+    "sourcePath": "/star-rail/characters/black-swan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/black-swan-270afa85f18e.webp",
+      "full": "Prydwen/hsr/assets/characters/black-swan-eaa0eb62d57f.webp",
+      "icon": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/black-swan.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "blade",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Blade",
+    "slug": "blade",
+    "sourcePath": "/star-rail/characters/blade",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/blade-8cfa3daebfe6.webp",
+      "full": "Prydwen/hsr/assets/characters/blade-d81cdf6c097e.webp",
+      "icon": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/blade.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "boothill",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Boothill",
+    "slug": "boothill",
+    "sourcePath": "/star-rail/characters/boothill",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/boothill-89426c95cc56.webp",
+      "full": "Prydwen/hsr/assets/characters/boothill-49799bbf17d6.webp",
+      "icon": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/boothill.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "bronya",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Bronya",
+    "slug": "bronya",
+    "sourcePath": "/star-rail/characters/bronya",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/bronya-8b9a40705315.webp",
+      "full": "Prydwen/hsr/assets/characters/bronya-4ae6e88598ab.webp",
+      "icon": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/bronya.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 52
+  },
+  {
+    "id": "castorice",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Castorice",
+    "slug": "castorice",
+    "sourcePath": "/star-rail/characters/castorice",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Remembrance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/castorice-e57e4aaef3ff.webp",
+      "full": "Prydwen/hsr/assets/characters/castorice-e684162b72fd.webp",
+      "icon": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/castorice.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "cerydra",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Cerydra",
+    "slug": "cerydra",
+    "sourcePath": "/star-rail/characters/cerydra",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "04/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/cerydra-a700141d7887.webp",
+      "full": "Prydwen/hsr/assets/characters/cerydra-d76dfbe116b9.webp",
+      "icon": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/cerydra.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "cipher",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Cipher",
+    "slug": "cipher",
+    "sourcePath": "/star-rail/characters/cipher",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/cipher-c7debfb39bc2.webp",
+      "full": "Prydwen/hsr/assets/characters/cipher-015686a982c5.webp",
+      "icon": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/cipher.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 59
+  },
+  {
+    "id": "clara",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Clara",
+    "slug": "clara",
+    "sourcePath": "/star-rail/characters/clara",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/clara-b30f96eb6551.webp",
+      "full": "Prydwen/hsr/assets/characters/clara-d52a34bd0b67.webp",
+      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/clara.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 39
+  },
+  {
+    "id": "cyrene",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Cyrene",
+    "slug": "cyrene",
+    "sourcePath": "/star-rail/characters/cyrene",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Remembrance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/cyrene-6d443544111a.webp",
+      "icon": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
+      "full": "Prydwen/hsr/assets/characters/cyrene-c68f58cf71c5.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/cyrene.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "dan-heng",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Dan Heng",
+    "slug": "dan-heng",
+    "sourcePath": "/star-rail/characters/dan-heng",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Wind",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/dan-heng-68aee0a99f24.webp",
+      "full": "Prydwen/hsr/assets/characters/dan-heng-2af74fc9cd45.webp",
+      "icon": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/dan-heng.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 32
+  },
+  {
+    "id": "imbibitor-lunae",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Dan Heng • Imbibitor Lunae",
+    "slug": "imbibitor-lunae",
+    "sourcePath": "/star-rail/characters/imbibitor-lunae",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-84f0773bc3d5.webp",
+      "full": "Prydwen/hsr/assets/characters/dan-heng-imbibitor-lunae-baa0ad20b2b7.webp",
+      "icon": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/imbibitor-lunae.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 38
+  },
+  {
+    "id": "dan-heng-permansor-terrae",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Dan Heng • Permansor Terrae",
+    "slug": "dan-heng-permansor-terrae",
+    "sourcePath": "/star-rail/characters/dan-heng-permansor-terrae",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Preservation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5a8994b046b4.webp",
+      "full": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-5d790d1ba159.webp",
+      "icon": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/dan-heng-permansor-terrae.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 58
+  },
+  {
+    "id": "dr-ratio",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Dr. Ratio",
+    "slug": "dr-ratio",
+    "sourcePath": "/star-rail/characters/dr-ratio",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/dr-ratio-b21115efaa74.webp",
+      "full": "Prydwen/hsr/assets/characters/dr-ratio-310ed2bb50ec.webp",
+      "icon": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/dr-ratio.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "evanescia",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Evanescia",
+    "slug": "evanescia",
+    "sourcePath": "/star-rail/characters/evanescia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "10/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Elation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/evanescia-7567d1297c5d.webp",
+      "full": "Prydwen/hsr/assets/characters/evanescia-67e58c4745c7.webp",
+      "icon": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/evanescia.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "feixiao",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Feixiao",
+    "slug": "feixiao",
+    "sourcePath": "/star-rail/characters/feixiao",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/feixiao-51f92b37ea6d.webp",
+      "full": "Prydwen/hsr/assets/characters/feixiao-f301a2c77dc1.webp",
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/feixiao.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 48
+  },
+  {
+    "id": "firefly",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Firefly",
+    "slug": "firefly",
+    "sourcePath": "/star-rail/characters/firefly",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/firefly-623b0891aedd.webp",
+      "full": "Prydwen/hsr/assets/characters/firefly-6259a9ca0ba4.webp",
+      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/firefly.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 33
+  },
+  {
+    "id": "fu-xuan",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Fu Xuan",
+    "slug": "fu-xuan",
+    "sourcePath": "/star-rail/characters/fu-xuan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Preservation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/fu-xuan-41b77b8d96c0.webp",
+      "full": "Prydwen/hsr/assets/characters/fu-xuan-5851d1dea1e9.webp",
+      "icon": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/fu-xuan.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "gallagher",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Gallagher",
+    "slug": "gallagher",
+    "sourcePath": "/star-rail/characters/gallagher",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Fire",
+      "path": "Abundance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/gallagher-53eb230701d1.webp",
+      "full": "Prydwen/hsr/assets/characters/gallagher-3b2d2ab7dcb6.webp",
+      "icon": "Prydwen/hsr/assets/characters/asta-cff56b15a208.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/gallagher.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 64
+  },
+  {
+    "id": "gepard",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Gepard",
+    "slug": "gepard",
+    "sourcePath": "/star-rail/characters/gepard",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Preservation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/gepard-c0e7cf4bb1f9.webp",
+      "full": "Prydwen/hsr/assets/characters/gepard-8f06a975750f.webp",
+      "icon": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/gepard.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 32
+  },
+  {
+    "id": "gilgamesh",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Gilgamesh",
+    "slug": "gilgamesh",
+    "sourcePath": "/star-rail/characters/gilgamesh",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "4.4"
+    ],
+    "updatedText": "07/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Lightning",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
+      "full": "Prydwen/hsr/assets/characters/gilgamesh-7eb51f1144e6.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/gilgamesh.json",
+    "recommendationSections": [
+      "teams"
+    ],
+    "assetCount": 2
+  },
+  {
+    "id": "guinaifen",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Guinaifen",
+    "slug": "guinaifen",
+    "sourcePath": "/star-rail/characters/guinaifen",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Fire",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/guinaifen-e7c32f758256.webp",
+      "full": "Prydwen/hsr/assets/characters/guinaifen-ccfd0b05a9af.webp",
+      "icon": "Prydwen/hsr/assets/characters/guinaifen-9ca500103ec6.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/guinaifen.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 43
+  },
+  {
+    "id": "hanya",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Hanya",
+    "slug": "hanya",
+    "sourcePath": "/star-rail/characters/hanya",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Physical",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/hanya-e05f75e0ed4b.webp",
+      "full": "Prydwen/hsr/assets/characters/hanya-ef653980c8ac.webp",
+      "icon": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/hanya.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 34
+  },
+  {
+    "id": "herta",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Herta",
+    "slug": "herta",
+    "sourcePath": "/star-rail/characters/herta",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Ice",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/herta-d93a5aec8214.webp",
+      "full": "Prydwen/hsr/assets/characters/herta-5eb921b823ca.webp",
+      "icon": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/herta.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "himeko",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Himeko",
+    "slug": "himeko",
+    "sourcePath": "/star-rail/characters/himeko",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/himeko-986dab5cee76.webp",
+      "full": "Prydwen/hsr/assets/characters/himeko-64afdc8a4aff.webp",
+      "icon": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/himeko.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 43
+  },
+  {
+    "id": "himeko-nova",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Himeko Nova",
+    "slug": "himeko-nova",
+    "sourcePath": "/star-rail/characters/himeko-nova",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "4.4"
+    ],
+    "updatedText": "06/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/himeko-nova-2a8de327b90f.webp",
+      "full": "Prydwen/hsr/assets/characters/himeko-nova-4191fdac6ee2.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/himeko-nova.json",
+    "recommendationSections": [
+      "teams"
+    ],
+    "assetCount": 2
+  },
+  {
+    "id": "hook",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Hook",
+    "slug": "hook",
+    "sourcePath": "/star-rail/characters/hook",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Fire",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/hook-04178d3d46d9.webp",
+      "full": "Prydwen/hsr/assets/characters/hook-c27c777b6337.webp",
+      "icon": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/hook.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 27
+  },
+  {
+    "id": "huohuo",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Huohuo",
+    "slug": "huohuo",
+    "sourcePath": "/star-rail/characters/huohuo",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Abundance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/huohuo-2eb0ec6b3ec0.webp",
+      "full": "Prydwen/hsr/assets/characters/huohuo-ac4d5717b69e.webp",
+      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/huohuo.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 50
+  },
+  {
+    "id": "hyacine",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Hyacine",
+    "slug": "hyacine",
+    "sourcePath": "/star-rail/characters/hyacine",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Remembrance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/hyacine-1e9a0fafaf7c.webp",
+      "full": "Prydwen/hsr/assets/characters/hyacine-7a76e3deaee9.webp",
+      "icon": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/hyacine.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 50
+  },
+  {
+    "id": "hysilens",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Hysilens",
+    "slug": "hysilens",
+    "sourcePath": "/star-rail/characters/hysilens",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/hysilens-cb2fae560eae.webp",
+      "full": "Prydwen/hsr/assets/characters/hysilens-5df2504c5560.webp",
+      "icon": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/hysilens.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 52
+  },
+  {
+    "id": "jade",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Jade",
+    "slug": "jade",
+    "sourcePath": "/star-rail/characters/jade",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/jade-5a27f10fb7e1.webp",
+      "full": "Prydwen/hsr/assets/characters/jade-e2f15621938e.webp",
+      "icon": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/jade.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 57
+  },
+  {
+    "id": "jiaoqiu",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Jiaoqiu",
+    "slug": "jiaoqiu",
+    "sourcePath": "/star-rail/characters/jiaoqiu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/jiaoqiu-29056a8915e0.webp",
+      "full": "Prydwen/hsr/assets/characters/jiaoqiu-ba3564847373.webp",
+      "icon": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/jiaoqiu.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 54
+  },
+  {
+    "id": "jing-yuan",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Jing Yuan",
+    "slug": "jing-yuan",
+    "sourcePath": "/star-rail/characters/jing-yuan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Lightning",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/jing-yuan-87407975cfe5.webp",
+      "full": "Prydwen/hsr/assets/characters/jing-yuan-388ef1942c9c.webp",
+      "icon": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/jing-yuan.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "jingliu",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Jingliu",
+    "slug": "jingliu",
+    "sourcePath": "/star-rail/characters/jingliu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/jingliu-b899a44529f0.webp",
+      "full": "Prydwen/hsr/assets/characters/jingliu-d236596ce94c.webp",
+      "icon": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/jingliu.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 40
+  },
+  {
+    "id": "kafka",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Kafka",
+    "slug": "kafka",
+    "sourcePath": "/star-rail/characters/kafka",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Lightning",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/kafka-400047d61892.webp",
+      "full": "Prydwen/hsr/assets/characters/kafka-5e4eda10e96f.webp",
+      "icon": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/kafka.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "lingsha",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Lingsha",
+    "slug": "lingsha",
+    "sourcePath": "/star-rail/characters/lingsha",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Abundance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/lingsha-d9effded33c0.webp",
+      "full": "Prydwen/hsr/assets/characters/lingsha-8774a66680b2.webp",
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/lingsha.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "luka",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Luka",
+    "slug": "luka",
+    "sourcePath": "/star-rail/characters/luka",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Physical",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/luka-1589f6fedf05.webp",
+      "full": "Prydwen/hsr/assets/characters/luka-c408c18123ff.webp",
+      "icon": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/luka.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 38
+  },
+  {
+    "id": "luocha",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Luocha",
+    "slug": "luocha",
+    "sourcePath": "/star-rail/characters/luocha",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Abundance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/luocha-50ed93457dad.webp",
+      "full": "Prydwen/hsr/assets/characters/luocha-81418a99216b.webp",
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-harmony-de41e1704266.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/luocha.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 58
+  },
+  {
+    "id": "lynx",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Lynx",
+    "slug": "lynx",
+    "sourcePath": "/star-rail/characters/lynx",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Quantum",
+      "path": "Abundance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/lynx-caf7bd0fec96.webp",
+      "full": "Prydwen/hsr/assets/characters/lynx-20fadae192d9.webp",
+      "icon": "Prydwen/hsr/assets/characters/clara-469e0f88e35b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/lynx.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 32
+  },
+  {
+    "id": "march-7th",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "March 7th",
+    "slug": "march-7th",
+    "sourcePath": "/star-rail/characters/march-7th",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Ice",
+      "path": "Preservation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/march-7th-c5b60a50f43d.webp",
+      "full": "Prydwen/hsr/assets/characters/march-7th-b9b058e0b744.webp",
+      "icon": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/march-7th.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 34
+  },
+  {
+    "id": "march-7th-evernight",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "March 7th • Evernight",
+    "slug": "march-7th-evernight",
+    "sourcePath": "/star-rail/characters/march-7th-evernight",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Remembrance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/march-7th-evernight-787da7cf2b25.webp",
+      "full": "Prydwen/hsr/assets/characters/march-7th-evernight-95ed5616b882.webp",
+      "icon": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/march-7th-evernight.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 40
+  },
+  {
+    "id": "march-7th-swordmaster",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "March 7th • The Hunt",
+    "slug": "march-7th-swordmaster",
+    "sourcePath": "/star-rail/characters/march-7th-swordmaster",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Imaginary",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/march-7th-the-hunt-d2e792400da2.webp",
+      "full": "Prydwen/hsr/assets/characters/march-7th-the-hunt-f54d5c1be4e8.webp",
+      "icon": "Prydwen/hsr/assets/characters/feixiao-55d5418dfd9c.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/march-7th-swordmaster.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "misha",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Misha",
+    "slug": "misha",
+    "sourcePath": "/star-rail/characters/misha",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Ice",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/misha-a59a3e8a73a9.webp",
+      "full": "Prydwen/hsr/assets/characters/misha-160cd1f54f79.webp",
+      "icon": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/misha.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 29
+  },
+  {
+    "id": "blade-mortenax",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Mortenax Blade",
+    "slug": "blade-mortenax",
+    "sourcePath": "/star-rail/characters/blade-mortenax",
+    "contentStatus": "live",
+    "statusLabels": [
+      "New"
+    ],
+    "updatedText": "10/June/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/mortenax-blade-95aef83c18a0.webp",
+      "full": "Prydwen/hsr/assets/characters/mortenax-blade-def9f0bdd69e.webp",
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-elation-c721ded1f2e0.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/blade-mortenax.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "moze",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Moze",
+    "slug": "moze",
+    "sourcePath": "/star-rail/characters/moze",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Lightning",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/moze-11cb976ee484.webp",
+      "full": "Prydwen/hsr/assets/characters/moze-abf9d7bef1cb.webp",
+      "icon": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/moze.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 39
+  },
+  {
+    "id": "mydei",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Mydei",
+    "slug": "mydei",
+    "sourcePath": "/star-rail/characters/mydei",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/mydei-a2ca53d1474f.webp",
+      "full": "Prydwen/hsr/assets/characters/mydei-9934d5364a1a.webp",
+      "icon": "Prydwen/hsr/assets/characters/cipher-552dee34688a.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/mydei.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 43
+  },
+  {
+    "id": "natasha",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Natasha",
+    "slug": "natasha",
+    "sourcePath": "/star-rail/characters/natasha",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Physical",
+      "path": "Abundance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/natasha-092e3b8edc77.webp",
+      "full": "Prydwen/hsr/assets/characters/natasha-85dfaeda1186.webp",
+      "icon": "Prydwen/hsr/assets/characters/natasha-e195102e5280.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/natasha.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 37
+  },
+  {
+    "id": "pela",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Pela",
+    "slug": "pela",
+    "sourcePath": "/star-rail/characters/pela",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Ice",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/pela-4023dca6dfde.webp",
+      "full": "Prydwen/hsr/assets/characters/pela-3a94179844a2.webp",
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/pela.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 39
+  },
+  {
+    "id": "phainon",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Phainon",
+    "slug": "phainon",
+    "sourcePath": "/star-rail/characters/phainon",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/phainon-3341050db154.webp",
+      "full": "Prydwen/hsr/assets/characters/phainon-99688b617211.webp",
+      "icon": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/phainon.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "qingque",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Qingque",
+    "slug": "qingque",
+    "sourcePath": "/star-rail/characters/qingque",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Quantum",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/qingque-42fec9840aca.webp",
+      "full": "Prydwen/hsr/assets/characters/qingque-fbd9d82bca58.webp",
+      "icon": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/qingque.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 40
+  },
+  {
+    "id": "rappa",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Rappa",
+    "slug": "rappa",
+    "sourcePath": "/star-rail/characters/rappa",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/rappa-c857d370ad35.webp",
+      "full": "Prydwen/hsr/assets/characters/rappa-75e4957f3e9e.webp",
+      "icon": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/rappa.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 40
+  },
+  {
+    "id": "rin-tohsaka",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Rin Tohsaka",
+    "slug": "rin-tohsaka",
+    "sourcePath": "/star-rail/characters/rin-tohsaka",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "4.4"
+    ],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
+      "full": "Prydwen/hsr/assets/characters/rin-tohsaka-ac78bcd23e3e.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/rin-tohsaka.json",
+    "recommendationSections": [
+      "teams"
+    ],
+    "assetCount": 2
+  },
+  {
+    "id": "robin",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Robin",
+    "slug": "robin",
+    "sourcePath": "/star-rail/characters/robin",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/robin-69c7301903f4.webp",
+      "full": "Prydwen/hsr/assets/characters/robin-166441a7c32b.webp",
+      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/robin.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 52
+  },
+  {
+    "id": "ruan-mei",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Ruan Mei",
+    "slug": "ruan-mei",
+    "sourcePath": "/star-rail/characters/ruan-mei",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/ruan-mei-8506b75184e5.webp",
+      "full": "Prydwen/hsr/assets/characters/ruan-mei-b4f3614106cf.webp",
+      "icon": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/ruan-mei.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 55
+  },
+  {
+    "id": "saber",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Saber",
+    "slug": "saber",
+    "sourcePath": "/star-rail/characters/saber",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Wind",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/saber-dae0995059e4.webp",
+      "full": "Prydwen/hsr/assets/characters/saber-241dd7321fad.webp",
+      "icon": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/saber.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "sampo",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Sampo",
+    "slug": "sampo",
+    "sourcePath": "/star-rail/characters/sampo",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Wind",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/sampo-ed86ec39afab.webp",
+      "full": "Prydwen/hsr/assets/characters/sampo-4990c1afc41a.webp",
+      "icon": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/sampo.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 28
+  },
+  {
+    "id": "seele",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Seele",
+    "slug": "seele",
+    "sourcePath": "/star-rail/characters/seele",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/seele-d60eff70f81c.webp",
+      "full": "Prydwen/hsr/assets/characters/seele-0ce26c00a884.webp",
+      "icon": "Prydwen/hsr/assets/characters/cipher-552dee34688a.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/seele.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 40
+  },
+  {
+    "id": "serval",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Serval",
+    "slug": "serval",
+    "sourcePath": "/star-rail/characters/serval",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Lightning",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/serval-3c247d3771b8.webp",
+      "full": "Prydwen/hsr/assets/characters/serval-e59543413d0c.webp",
+      "icon": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/serval.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "silver-wolf",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Silver Wolf",
+    "slug": "silver-wolf",
+    "sourcePath": "/star-rail/characters/silver-wolf",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/silver-wolf-a86ff142fa92.webp",
+      "full": "Prydwen/hsr/assets/characters/silver-wolf-4160e673662f.webp",
+      "icon": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/silver-wolf.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 58
+  },
+  {
+    "id": "silver-wolf-lv-999",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Silver Wolf • Lv. 999",
+    "slug": "silver-wolf-lv-999",
+    "sourcePath": "/star-rail/characters/silver-wolf-lv-999",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Elation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-525c30d127a5.webp",
+      "full": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-8f3d673fabce.webp",
+      "icon": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/silver-wolf-lv-999.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 34
+  },
+  {
+    "id": "sparkle",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Sparkle",
+    "slug": "sparkle",
+    "sourcePath": "/star-rail/characters/sparkle",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/sparkle-c948ac5a51ee.webp",
+      "full": "Prydwen/hsr/assets/characters/sparkle-12736023b340.webp",
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/sparkle.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "sparxie",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Sparxie",
+    "slug": "sparxie",
+    "sourcePath": "/star-rail/characters/sparxie",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Elation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/sparxie-67b870bc5ac4.webp",
+      "full": "Prydwen/hsr/assets/characters/sparxie-234f67152306.webp",
+      "icon": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/sparxie.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "sunday",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Sunday",
+    "slug": "sunday",
+    "sourcePath": "/star-rail/characters/sunday",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/sunday-6aab96cad79c.webp",
+      "full": "Prydwen/hsr/assets/characters/sunday-7a3f3cf10c31.webp",
+      "icon": "Prydwen/hsr/assets/characters/bronya-239e290d80b6.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/sunday.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "sushang",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Sushang",
+    "slug": "sushang",
+    "sourcePath": "/star-rail/characters/sushang",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Physical",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/sushang-257b48f16066.webp",
+      "full": "Prydwen/hsr/assets/characters/sushang-1f3fcfa90040.webp",
+      "icon": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/sushang.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 37
+  },
+  {
+    "id": "the-dahlia",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "The Dahlia",
+    "slug": "the-dahlia",
+    "sourcePath": "/star-rail/characters/the-dahlia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/the-dahlia-de1d9d08efeb.webp",
+      "full": "Prydwen/hsr/assets/characters/the-dahlia-04dcb5188322.webp",
+      "icon": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/the-dahlia.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "the-herta",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "The Herta",
+    "slug": "the-herta",
+    "sourcePath": "/star-rail/characters/the-herta",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Erudition"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/the-herta-f728fd35660c.webp",
+      "full": "Prydwen/hsr/assets/characters/the-herta-49570c83b7dc.webp",
+      "icon": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/the-herta.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 55
+  },
+  {
+    "id": "tingyun",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Tingyun",
+    "slug": "tingyun",
+    "sourcePath": "/star-rail/characters/tingyun",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Lightning",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/tingyun-1a50dd52f9a7.webp",
+      "full": "Prydwen/hsr/assets/characters/tingyun-6b93ecc4e161.webp",
+      "icon": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/tingyun.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 54
+  },
+  {
+    "id": "tingyun-fugue",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Tingyun • Fugue",
+    "slug": "tingyun-fugue",
+    "sourcePath": "/star-rail/characters/tingyun-fugue",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/tingyun-fugue-3f875158793e.webp",
+      "full": "Prydwen/hsr/assets/characters/tingyun-fugue-ca9647a723e1.webp",
+      "icon": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/tingyun-fugue.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 52
+  },
+  {
+    "id": "topaz",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Topaz & Numby",
+    "slug": "topaz",
+    "sourcePath": "/star-rail/characters/topaz",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/topaz-numby-e48ef824c5e0.webp",
+      "full": "Prydwen/hsr/assets/characters/topaz-numby-3624ace30bbd.webp",
+      "icon": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/topaz.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "trailblazer-destruction",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Trailblazer • Destruction",
+    "slug": "trailblazer-destruction",
+    "sourcePath": "/star-rail/characters/trailblazer-destruction",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/trailblazer-destruction-533411d696bf.webp",
+      "full": "Prydwen/hsr/assets/characters/trailblazer-destruction-9ca4f7d3313b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/trailblazer-destruction.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 27
+  },
+  {
+    "id": "trailblazer-elation",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Trailblazer • Elation",
+    "slug": "trailblazer-elation",
+    "sourcePath": "/star-rail/characters/trailblazer-elation",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Lightning",
+      "path": "Elation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/trailblazer-elation-b7e8d644ade6.webp",
+      "full": "Prydwen/hsr/assets/characters/trailblazer-elation-add66215f06a.webp",
+      "icon": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/trailblazer-elation.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 43
+  },
+  {
+    "id": "trailblazer-harmony",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Trailblazer • Harmony",
+    "slug": "trailblazer-harmony",
+    "sourcePath": "/star-rail/characters/trailblazer-harmony",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/trailblazer-harmony-3804679c33dd.webp",
+      "full": "Prydwen/hsr/assets/characters/trailblazer-harmony-65eb58c4d838.webp",
+      "icon": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/trailblazer-harmony.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 52
+  },
+  {
+    "id": "trailblazer-preservation",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Trailblazer • Preservation",
+    "slug": "trailblazer-preservation",
+    "sourcePath": "/star-rail/characters/trailblazer-preservation",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Fire",
+      "path": "Preservation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/trailblazer-preservation-81565a7917de.webp",
+      "full": "Prydwen/hsr/assets/characters/trailblazer-preservation-eab569c8a012.webp",
+      "icon": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/trailblazer-preservation.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 27
+  },
+  {
+    "id": "trailblazer-remembrance",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Trailblazer • Remembrance",
+    "slug": "trailblazer-remembrance",
+    "sourcePath": "/star-rail/characters/trailblazer-remembrance",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Remembrance"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/trailblazer-remembrance-eb61b9ef8eaa.webp",
+      "full": "Prydwen/hsr/assets/characters/trailblazer-remembrance-f5dae98ced6c.webp",
+      "icon": "Prydwen/hsr/assets/characters/sunday-3d568cb7f29d.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/trailblazer-remembrance.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 50
+  },
+  {
+    "id": "tribbie",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Tribbie",
+    "slug": "tribbie",
+    "sourcePath": "/star-rail/characters/tribbie",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Quantum",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/tribbie-fc0b40ff638a.webp",
+      "full": "Prydwen/hsr/assets/characters/tribbie-d248a0326c3d.webp",
+      "icon": "Prydwen/hsr/assets/characters/the-dahlia-cec6f11ca61e.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/tribbie.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 60
+  },
+  {
+    "id": "welt",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Welt",
+    "slug": "welt",
+    "sourcePath": "/star-rail/characters/welt",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Imaginary",
+      "path": "Nihility"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/welt-6c0cefc442eb.webp",
+      "full": "Prydwen/hsr/assets/characters/welt-1433e382bcf8.webp",
+      "icon": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/welt.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 61
+  },
+  {
+    "id": "xueyi",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Xueyi",
+    "slug": "xueyi",
+    "sourcePath": "/star-rail/characters/xueyi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Quantum",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/xueyi-89798f7f7acd.webp",
+      "full": "Prydwen/hsr/assets/characters/xueyi-3ab3f97e181a.webp",
+      "icon": "Prydwen/hsr/assets/characters/lingsha-ab0724067e0c.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/xueyi.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 37
+  },
+  {
+    "id": "yanqing",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Yanqing",
+    "slug": "yanqing",
+    "sourcePath": "/star-rail/characters/yanqing",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Ice",
+      "path": "Hunt"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/yanqing-2cb713068815.webp",
+      "full": "Prydwen/hsr/assets/characters/yanqing-6919e01de57d.webp",
+      "icon": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/yanqing.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 38
+  },
+  {
+    "id": "yao-guang",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Yao Guang",
+    "slug": "yao-guang",
+    "sourcePath": "/star-rail/characters/yao-guang",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Elation"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/yao-guang-84b9f69c7269.webp",
+      "full": "Prydwen/hsr/assets/characters/yao-guang-116e442805a2.webp",
+      "icon": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/yao-guang.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "yukong",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Yukong",
+    "slug": "yukong",
+    "sourcePath": "/star-rail/characters/yukong",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 4,
+      "element": "Imaginary",
+      "path": "Harmony"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/yukong-ec992fb513db.webp",
+      "full": "Prydwen/hsr/assets/characters/yukong-237e9805e9d7.webp",
+      "icon": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/yukong.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "yunli",
+    "provider": "Prydwen",
+    "game": "hsr",
+    "name": "Yunli",
+    "slug": "yunli",
+    "sourcePath": "/star-rail/characters/yunli",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "31/May/2026",
+    "facts": {
+      "rarity": 5,
+      "element": "Physical",
+      "path": "Destruction"
+    },
+    "art": {
+      "card": "Prydwen/hsr/assets/characters/yunli-0ec74736d83e.webp",
+      "full": "Prydwen/hsr/assets/characters/yunli-fee0a789395c.webp",
+      "icon": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp"
+    },
+    "pageFile": "Prydwen/hsr/pages/characters/yunli.json",
+    "recommendationSections": [
+      "best-light-cones",
+      "best-relic-sets",
+      "best-planetary-sets",
+      "best-stats",
+      "recommended-endgame-stats",
+      "traces-priority",
+      "synergy"
+    ],
+    "assetCount": 46
+  }
+]

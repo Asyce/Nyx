@@ -1,0 +1,3948 @@
+{
+  "name": "Ningguang",
+  "desc": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+  "chara_info": {
+    "release_date": "2020-09-15 04:00:00",
+    "birth": [
+      8,
+      26
+    ],
+    "vision": "Geo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Opus Aequilibrium",
+    "region": "ASSOC_TYPE_LIYUE",
+    "title": "Eclipsing Star",
+    "native": "Liyue Qixing",
+    "detail": "The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.",
+    "va": {
+      "chinese": "杜冥鸦",
+      "japanese": "大原さやか",
+      "english": "Erin Ebers",
+      "korean": "Kwak Kyu-mi"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "The \"Liyue Qixing\" controls all of the commerce that takes place in Liyue Harbor. Its highly-revered position is also coveted by many. Their primary ruling is to play things safe and keep a low profile.\\nThe \"Tianquan\" of the Qixing, Ningguang, is the only exception. \\nShe is seen as an excellent merchant in the eyes of her rivals, a friendly elder sister to kids, a socialite at the banquets of Yujing Terrace, and a connoisseur of desserts... Ningguang is the talk of the town, and everyone seems to know everything about her. However, they all seem to tell a different story of Ningguang, with great discrepancies between the versions.\\nStill, if there's one thing all the rumors about her agree on, it's that Ningguang is someone truly extraordinary.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Up above Liyue Harbor, there is a floating palace held up by Plaustrite. It is known as the \"Jade Chamber,\" and it belongs to Ningguang.\\nOn a clear day, one can see almost all of Liyue Harbor from the decks outside the palace gates.\\nWhenever Ningguang has important business matters to handle, she invariably comes to this floating palace. She strictly forbids anyone from accessing the premises except for her three trusted confidants. Her confidants sort through the relevant information, summarize it and hang the summaries on the wall, while Ningguang rests against the railings, enjoying the view of Liyue and quietly mulling everything over.\\nShe is certain to arrive at the perfect solution before her confidants have finished adding everything to the wall. Once she has made her decision she shreds everything and throws it out of the window, creating something of a snowstorm of paper.\\nThe handwriting on the shredded pieces of paper stands out like ink in the snow to all of the merchants in Liyue Harbor.\\nFor they know that whenever Ningguang's shredded snow falls, a huge change is about to descend on the business community.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "\"Ningguang knows everything,\" foreigners will often find the Liyue locals warning them.\\nLoophole-hunting guilds, market-manipulating hoarders, smugglers coming ashore with their illicit goods... The Tianquan knows all the details, good, bad, and ugly.\\nOnce, an alchemist from Sumeru was traveling in Liyue and unwittingly happened across the records of a certain noctilucous jade transaction involving the Blackcliff Forge ten years prior. That night, someone from Ningguang's inner circle knocked on his window and invited him to join Ningguang in the Jade Chamber for a talk.\\nRumor has it that Ningguang has enchanted the Jade Chamber in such a way that allows her to eavesdrop on everyone in the city's private conversations...\\nThe truth is that Ningguang's eyes and ears are in fact the children who play on the streets in Liyue Harbor.\\nBetween them, they are aware of every confidential meeting, every private conversation, and every new visitor to the city. When Ningguang gathers them around, her promise of delicious treats proves to be an irresistible incentive, and so they tell her everything they know.\\nOnce she has finished carefully cross-referencing everything she has learned from the children against other sources, there is no secret hidden from her in Liyue Harbor.\\nShe understands the value of reciprocity more than anyone, which is why she is more than willing to invest time in mingling with the common folk.\\nOn top of that, she does actually like seeing the children smile.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Ningguang's attitude to making money is largely the same as anyone else's: You can never have enough.\\nBut money to her is more than just a sign of wealth — each Mora is a trophy of a hard-won victory.\\nNingguang is kind and friendly toward the common folk, but this is a side of her that none of her business associates could ever hope to see.\\nTo her, the business world is a playground, and the zero-sum games are the most exciting. Each round she wins against a wealthy merchant brings a gleeful smile to her face as they sigh and reluctantly hand over the Mora, and nothing makes her happier than seeing the guilds bow to her wishes.\\nEvery victory in this game adds to the wealth of the Liyue Qixing. Liyue Harbor prospers as a result, and this in turn creates more business opportunities and more profit for Ningguang. Every member of the Liyue Qixing is more than happy with this perfect cycle of interlocking interests.\\nPeople often ask Ningguang why she is still doing business in Liyue Harbor when she has already acquired such vast wealth.\\n\"Vast wealth is a wonderful thing.\"\\nNingguang patiently replies, never able to understand why people would ask such foolish questions.\\n\"Adding another Mora to the pot can hardly make it any less wonderful, now, can it?\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Everyone living in Liyue Harbor has to abide by the rules. Those who do so will see their interests protected, while those who violate the rules will be punished accordingly.\\nThe rules are rooted in ancient laws set down by Morax, Liyue Harbor's divine protector, and they are absolute. Over the millennia, each Tianquan has introduced amendments to the rules to ensure they are well aligned with current societal needs.\\nThe laws are compiled and published along with a 279-page commentary, and a copy is given to each citizen of Liyue.\\nNingguang likes it this way: Law and order is good for business, and she understands the intricacies of the laws that forge the order better than anyone else.\\nHowever, there was a certain ship captain by the name of Beidou who acted with flagrant disregard for the rules, smuggling contraband goods by leveraging her exotic cargo and exclusive business intelligence. To Ningguang, captain Beidou was the black sheep of Liyue Harbor's business community.\\nAs Tianquan, it fell to Ningguang to impose heavy fines on Beidou each time she transgressed the rules. But much to her consternation, Beidou seemed to take these fines in her stride, like water off a duck's back.\\nOutside of the official channels, too, Ningguang tried to find ways to implore Beidou to change her ways and stop putting the Qixing in such a difficult position. In response, Beidou simply explained away her actions as \"enacting justice,\" \"helping the poor\" and \"keeping the sailors in their jobs.\" As a firm believer in the principle of live and let live, Beidou had no time for Ningguang's advice.\\nIn the end, Ningguang agreed to disagree and gave up trying to convince the stubborn Beidou to change.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "Being the charming and wealthy woman that she is, Ningguang has never had a shortage of suitors.\\nIt seems that every eligible bachelor, from the young esquires of Yujing Terrace, to accomplished young businessmen, to renowned sea captains, has at some point invested substantial energy into trying to win Ningguang's affection. One rumor even has it that a wealthy businessman from the Court of Fontaine signed a major trade deal with Liyue Harbor for the sole reason that it would mean he could see Ningguang more often.\\nNingguang treats all her suitors with an equal measure of kindness and grace, but also keeps them at distance — enough to keep them interested but not push them away. Curiosity got the better of everyone in town, and now everyone wants to know: Who is Ningguang's lover? \\nLittle do they know, Ningguang has no love for finite things, and will certainly not be bound by something that is finite.\\nThe Jade Chamber, a floating palace above Liyue Harbor, belongs to Ningguang alone. It started out about the size of a room, but has since grown so large that in the moonlight it casts its shadow over the whole of Liyue.\\nA portion of Ningguang's seemingly limitless wealth goes towards hiring skilled craftsmen to continue the expansion and refurbishment of the Jade Chamber, ensuring that it becomes ever more extravagant as time goes by.\\nTo Ningguang, the Jade Chamber is a symbol of her wealth and power, and a sign that her business is flourishing.\\nSave for Mora, it is the thing Ningguang loves most in the world — because it is infinite.\\nOne day, she insists, it will cast its shadow over all the seven nations of Teyvat.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Chess Game: Liyue Millennial",
+        "text": "Ningguang invented a form of chess to pass the time.\\nThis chessboard not only contains to-scale reproductions of Liyue Harbor's natural and urban geography, vendors, tea houses, shops, hotels and miscellaneous stores, but it also contains six, ten and twelve-sided dice (among others). Players use the dice to determine how far their chess pieces move, and landing on various locations will trigger different events. Victory in-game is decided by the number of counters in each player's hands.\\nThe rules can change at any time according to Ningguang's fancies, and when playing with others, she will always follow the newest rule set that she has on hand.\\nWhen she's truly feeling the spirit, she will even design new rules on the spot — no one has yet beaten her at this game, and she has now reached the 32.6th edition of her rulebook.\\nShe marketed the 8th edition of the game to the general public, believing it to be the easiest to understand, but it proved to still be far too complicated for ordinary folk.\\nNonetheless, people flock to purchase sets on account of the beauty and intricacy of the model pieces.\\nIn truth, more people buy it for the models than for the game.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "No one knows how Visions are created — they have always seemed to just appear out of thin air, leaving the countless unacknowledged in the lurch without a clue as to how to get one.\\nAs for Visions left behind after their users die, they are masterless husks without any elemental power, nor is any method of reawakening them known, save for a tiny chance that it may resonate with another — and only one such \"other\" at a time...\\nNingguang's first thought upon seeing such an object a subconscious \"oh, look, a new business opportunity.\"\\nPutting this up for sale would surely have the rich shelling out for it. And if they can't resonate with it, why, they'll just use it to keep up appearances. A sound call either way...\\nAnd if there should be a way to collect such empty shells, could this not become a long term business?\\nPlaying with the jewel in one hand, Ningguang began writing plans for an auction in the other, her smile widening as she thought about the riches to be had — and at that moment, the Vision shone forth its light.\\nNingguang's smile froze as the Vision activated.\\nHer attendants, coming upon the sight of their mistress, awakened Vision in hand, began to congratulate her on having obtained a priceless treasure.\\nNingguang, for her part, seemed annoyed instead.\\n\"What's there to be happy about? Once broken, considered sold!\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "I am Ningguang, Tianquan of Qixing. You wish to trade? You be my personal bodyguard, and I will show you how to get ahead in Liyue.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Antiques",
+        "text": "Even if an antique is priceless, the happiness it brings lasts for only the moment that you obtain it.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Trade War",
+        "text": "In a trade war, the perfect hunter leaves no trace.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Investments",
+        "text": "We should look for a new investment. Mora doesn't grow on trees.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Huh, it's raining. Fetch an umbrella for me, would you?",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "Nothing more than regular snowfall. One day I'll take you to see the \"snow\" that falls over Liyue.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "Calm weather? Do not trust your eyes. Your eyes can lie to you.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "Gales like this can be the demise of fishermen, not to mention... Heh, never mind.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Morning. Report your affairs, in order of priority.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Liuli Pavilion or Xinyue Kiosk. Which would you prefer to go to for lunch?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "The tea house has no more rooms? Then come, sit in the Jade Chamber... if you can afford the price.",
+        "unlocked": [
+          "Complete \"Farewell, Archaic Lord\""
+        ]
+      },
+      {
+        "title": "Good Night",
+        "text": "Sure. Go rest. If anything important comes up, I will be sure to send for you.",
+        "unlocked": []
+      },
+      {
+        "title": "About Ningguang: Worldview",
+        "text": "Be it simple price negotiation or a full-blown trade war, momentum and bargaining chips are but minor factors. To win, you need to be first to find out what cards your opponent is holding.",
+        "unlocked": []
+      },
+      {
+        "title": "About Ningguang: Impression",
+        "text": "Your impressions of me have changed? Haha, well, at first I required your strength, so naturally I had to be as cordial as possible. But now that we are partners bound by contract, we may do away with such pretentious formalities.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"A New Star Approaches\""
+        ]
+      },
+      {
+        "title": "About Us: Rumors",
+        "text": "I suppose you've heard enough rumors about me. Hehe... What kind of person am I? I shall leave that for you to decide... Of course, your judgment will become a part of the rumor.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Observing",
+        "text": "You've been with me for some time now. Have you learned to observe? Then observe me. Observe me right down to my very core.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About Us: Jade Chamber",
+        "text": "Come forward, stand beside me. Do you see the Jade Chamber? At first it was just a room, and now it clouds Liyue. When the time comes that it hangs above all of the seven nations, you shall stand by my side on that day too.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Farewell, Archaic Lord\""
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "There's no need to use a Vision in affairs that Mora can solve. As far as affairs only a Vision can solve go, I know of only one...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share: Banker",
+        "text": "Gamblers always place their bets on the next dice roll... But the bankers always have the last laugh, and they never touch a single die.",
+        "unlocked": []
+      },
+      {
+        "title": "Something to Share: Goal",
+        "text": "The departure of Rex Lapis will be no small test for both the Qixing and the city of Liyue. Seldom has any matter kept me tossing and turning at night like recent events.\\nNevertheless, I shall not lose sight of my goal. There will come a day when the shadow cast by the Jade Chamber reaches every end of Teyvat.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"A New Star Approaches\""
+        ]
+      },
+      {
+        "title": "Interesting Things",
+        "text": "In Liyue's ancient texts, there's no shortage of mentioning the beauty of the glaze lily, but in the modern era, the flower is on the brink of extinction. Now they can only be found in Yujing Terrace, and as such come with a hefty price tag.",
+        "unlocked": []
+      },
+      {
+        "title": "About Beidou: Fines",
+        "text": "That... captain. She clearly receives the adoration of many, but will always be the first to disregard the rules. The fines she has paid would be enough to buy her a whole new ship...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Beidou: Attitude",
+        "text": "Perhaps you've never heard me speak like this. All that can be said has been said — both the good and the bad — but she still does as she pleases. Forget it. Keep Beidou out of my sight.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Zhongli",
+        "text": "Zhongli... Of the Wangsheng Funeral Parlor. He's very versed in a great deal of affairs. Although... such excellent pawns are of no use to me until I know their weaknesses.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xingqiu",
+        "text": "The second son of the Feiyun Commerce Guild. People like him can't stand the sight of me, which is only to be expected. I have no intention of troubling him either. Those who have different beliefs should not work together.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xiangling",
+        "text": "That girl from Wanmin Restaurant... Her suspicion towards me is always written all over her face... Hehe, I wonder what face she would make if only she knew how much I helped finance that restaurant...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Ganyu",
+        "text": "One cannot afford to be overly reliant on others — even when it comes to Ganyu. There is a Liyue saying which goes, \"even the most meticulous can fall prey to happenstance.\" When there are important affairs to deal with, it is always safer to investigate and resolve them personally.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yaoyao",
+        "text": "I presume you mean the girl whom Ganyu has taken under her wing. Do not worry, I have no plans to make this matter public. I am content to extend some leniency to the odd bit of mischievous maneuvering by that boat captain. One thing, though — Yaoyao seems to have become somewhat enamored with seafood lately. You should try to convince her to include some more fruits and vegetables in her diet.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Keqing",
+        "text": "The Yuheng... She has changed a lot recently. But is Liyue better off with the Yuheng we have now, or the Yuheng we used to know? Only time will tell.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"A New Star Approaches\""
+        ]
+      },
+      {
+        "title": "About Jean",
+        "text": "The Acting Grand Master of Mondstadt, a strict and impeccable woman. Her flawless etiquette knows no fault, even her letters are meticulously written and creased according to the prescribed rules. It is such easily overlooked details that offer a glimpse into the true qualities of one's character.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yanfei",
+        "text": "Yanfei? I suppose you could say she's a dear rival of mine... Were she not so deft at explaining the meanders of the law and providing her clients with all sorts of cunning suggestions, it would take me many more months to identify existing loopholes in the legal codices and tighten them one by one.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Shenhe",
+        "text": "How is Miss Shenhe doing as of late? Please, look out for her whenever you can. I am most grateful to both of you for your assistance with rebuilding the Jade Chamber. Ahem, and on a more personal note — please know that if you are ever free, a cup of the finest tea will always be waiting for you here.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"The Crane Returns on the Wind\""
+        ]
+      },
+      {
+        "title": "About Yun Jin",
+        "text": "Yun Jin... Are you able to appreciate her performances? It might be difficult at first, but I would encourage you to give it a chance. The reason I decided to invest into her opera troupe is quite simple: Elegant art forms like these deserve to be passed down to future generations.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yelan",
+        "text": "She's a very interesting character. I can say with the utmost confidence that she is someone I trust unreservedly. She handles herself impeccably, which means she stays beyond reproach. Hehe, since you both have high intelligence in common, hopefully you will get along very well.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Ningguang: I",
+        "text": "Seeing as it's you, there's no need to keep up the formalities. You can be a little more casual. But I still ask that you respect my time. If you have something to say, be concise — I have no time to waste.",
+        "unlocked": []
+      },
+      {
+        "title": "More About Ningguang: II",
+        "text": "I've always believed that children are the most naive and innocent. The reports they give me are of the most value. So what about you? What will you have for me?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Ningguang: III",
+        "text": "I've been thinking about something lately. If I were to keep you in Liyue, perhaps... at the right time, I might be able to leverage this city to... For now, it's mere conjecture. I should really consider whether the investment is worth it some more.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Ningguang: IV",
+        "text": "You can learn from me, and use Mora to make things a little easier for yourself. But remember, relationships built on Mora can only be relied on for a time. Hehe... and that is why I have never brought Mora into our relationship.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Ningguang: V",
+        "text": "This is truly a great investment. Sure, no Mora has been made from it, but the time I've spent with you is already a solid return. Haha, seems I win again — I put my money on the right person.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Ningguang's Hobbies",
+        "text": "Care for a game of Liyue Millennial? It'll give me an opportunity to see exactly how good you are as a player.",
+        "unlocked": []
+      },
+      {
+        "title": "Ningguang's Troubles",
+        "text": "Concerns? If I told you of the concerns of the Liyue Qixing, do you think your shoulders could bear the burden? And, if you ever made the mistake of mentioning them to others...",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "A slow-boiled soup of leftover chicken and pork bones drenched over some cabbage leaves. I have few culinary requirements. Having a few staple dishes like this is enough.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "I've come across those who demand golden crab for every meal. Though it all seems so grandiose, I really have no desire for such frivolousness. If you're ever thinking of taking me out for such a dinner, you'd be better off just giving the Mora to me directly.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "#{M#These are some of Liyue's finest brocades, woven from Silk Flowers. This one is for you, and this one... I hope that someday soon, you will be able to give it to your sister, and I hope that she'll like it. I wish you both a happy birthday.}{F#This is one of Liyue's finest brocades, woven from Silk Flowers. You can use it to have some clothing made, and have a happy birthday.}",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "There's no style in resorting to violence. It's simply the worst of all the bad decisions you could make.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Cashing in time and Mora for power... Interesting. This shows their true value.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "What is it that you hold so dear that is making you so persistent...? No, don't tell me. Give me more time to understand you myself.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "I'm usually not so quick to place my trust in others, but it seems I will no longer be able to make such claims. You've done splendidly. If only I had more like you... No, perhaps... you alone are enough.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "It's nothing.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Don't waste my time.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Hmph! Give up.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Your life is mine.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Submit!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Goodbye!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "A keen eye.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "We can't have treasure unaccounted for.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Wealth... why settle for less than more?",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "You dare to hit me?",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "I'll remember that.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Urgh!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "You're out of moves.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Given the circumstances, I'm happy to help.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "We are all but pawns...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "The victor has been decided...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "Is this the end of Tianquan?",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "Ugh... rude.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Ugh! You wait!",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "Ugh! Blood repays blood!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Understood.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Let's make haste.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Don't disappoint me.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Mmm... You have surpassed my expectations, again.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "With some things, if you haven't grasped the essentials, all the hard work in the world can go to waste... Know what I mean?",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Ugh... It's the thought that counts.",
+        "unlocked": []
+      },
+      {
+        "title": "About Xianyun",
+        "text": "#I plan to have Lady Xianyun over for a casual conversation over tea in a few days. I happen to have in my possession a number of mechanical devices, and I would be most interested to hear her insights on their design and use. It would also be a fine opportunity to hear about her experiences as an adeptus adapting to a new life in Liyue Harbor. All I require now is a suitable candidate to deliver the invitation to her on my behalf... Would you be interested, {NICKNAME}?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"A Thousand Moonlit Miles\""
+        ]
+      },
+      {
+        "title": "About the White Horse Adeptus",
+        "text": "I was surprised when I learned that a new adeptus had joined the ranks. The White Horse Adeptus... It's a good thing she prefers to spend her time traveling, or I'd have to accept the truth behind Yelan's favorite adepti quip. ...You want to hear it? Heh, okay. I quote: \"Everyone says that the adepti want peace and tranquility, but I think they just like hanging around Liyue...\"",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"A Lanternlit Ode to the Silver Moon\""
+        ]
+      }
+    ],
+    "special_food": {
+      "id": 108139,
+      "recipe": 1101,
+      "name": "Qiankun Mora Meat",
+      "icon": "UI_ItemIcon_108139",
+      "rank": 1
+    },
+    "namecard": {
+      "id": 210038,
+      "name": "Ningguang: Phoenix",
+      "desc": "Namecard style.\\nThey say that \"more's the pity that phoenixes are few.\" But seriously, one Ningguang is more than enough...",
+      "icon": "UI_NameCardPic_Ningguang_P"
+    },
+    "costume": [
+      {
+        "id": 202701,
+        "name": "Orchid's Evening Gown",
+        "desc": "Ningguang's formal wear. The long cyan skirt traces her elegant curves, and the butterfly wings at her ankles lend the outfit a touch of light grace.",
+        "icon": "UI_AvatarIcon_NingguangCostumeFloral",
+        "quality": 4
+      },
+      {
+        "id": 202700,
+        "name": "Gold Leaf and Pearly Jade",
+        "desc": "Ningguang's outfit. Intricate embroidery is the hallmark of this graceful dress.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": [
+      {
+        "id": 215003,
+        "name": "Echo: Eclipsing Star",
+        "desc": "Ningguang's Envisaged Echo is shaped like gilded ginkgo leaves, noble and elegant.",
+        "icon": "UI_TraceEffectIcon_Ningguang"
+      }
+    ]
+  },
+  "weapon": "WEAPON_CATALYST",
+  "rarity": "QUALITY_PURPLE",
+  "element": "Geo",
+  "icon": "UI_AvatarIcon_Ningguang",
+  "stamina_recovery": 25,
+  "base_hp": 820.6119,
+  "base_atk": 17.808,
+  "base_def": 48.069,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.653,
+      "92": 8.957,
+      "93": 9.262,
+      "94": 9.566,
+      "95": 9.87,
+      "96": 10.174,
+      "97": 10.479,
+      "98": 10.783,
+      "99": 11.087,
+      "100": 11.392
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 613.0391,
+        "fight_prop_base_defense": 35.91,
+        "fight_prop_base_attack": 13.3038,
+        "fight_prop_rock_add_hurt": 0
+      },
+      {
+        "fight_prop_base_hp": 1048.6195,
+        "fight_prop_base_defense": 61.425,
+        "fight_prop_base_attack": 22.7565,
+        "fight_prop_rock_add_hurt": 0.06
+      },
+      {
+        "fight_prop_base_hp": 1629.3934,
+        "fight_prop_base_defense": 95.445,
+        "fight_prop_base_attack": 35.3601,
+        "fight_prop_rock_add_hurt": 0.12
+      },
+      {
+        "fight_prop_base_hp": 2064.9739,
+        "fight_prop_base_defense": 120.96,
+        "fight_prop_base_attack": 44.8128,
+        "fight_prop_rock_add_hurt": 0.12
+      },
+      {
+        "fight_prop_base_hp": 2500.5542,
+        "fight_prop_base_defense": 146.475,
+        "fight_prop_base_attack": 54.2655,
+        "fight_prop_rock_add_hurt": 0.18
+      },
+      {
+        "fight_prop_base_hp": 2936.1348,
+        "fight_prop_base_defense": 171.99,
+        "fight_prop_base_attack": 63.7182,
+        "fight_prop_rock_add_hurt": 0.24
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S4",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10271,
+      "name": "Sparkling Scatter",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nShoots gems that deal <color=#FFE699FF>Geo DMG</color>.\\nUpon hit, this grants Ningguang 1 Star Jade.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of stamina to fire off a giant gem that deals <color=#FFE699FF>Geo DMG</color>.\\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#FFE699FF>AoE Geo DMG</color> upon impact with the ground.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.28,
+            1.7408,
+            0.496,
+            50,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.301,
+            1.87136,
+            0.5332,
+            50,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.322,
+            2.00192,
+            0.5704,
+            50,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.35,
+            2.176,
+            0.62,
+            50,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.371,
+            2.30656,
+            0.6572,
+            50,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.392,
+            2.43712,
+            0.6944,
+            50,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.42,
+            2.6112,
+            0.744,
+            50,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.448,
+            2.78528,
+            0.7936,
+            50,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.476,
+            2.95936,
+            0.8432,
+            50,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.504,
+            3.13344,
+            0.8928,
+            50,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:F1P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.53312,
+            3.314483,
+            0.944384,
+            50,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.5712,
+            3.551232,
+            1.01184,
+            50,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.60928,
+            3.787981,
+            1.079296,
+            50,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.64736,
+            4.02473,
+            1.146752,
+            50,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "Normal Attack DMG|{param1:F1P}",
+            "Charged Attack DMG|{param2:P}",
+            "DMG per Star Jade|{param3:P}",
+            "Charged Attack Stamina Cost|{param4:F1}",
+            "Plunge DMG|{param5:F1P}",
+            "Low/High Plunge DMG|{param6:P}/{param7:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.68544,
+            4.261478,
+            1.214208,
+            50,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10272,
+      "name": "Jade Screen",
+      "desc": "Ningguang creates a Jade Screen out of gold, obsidian, and her great opulence, dealing <color=#FFE699FF>AoE Geo DMG</color>.\\n\\n<color=#FFD780FF>Jade Screen</color>\\n·Blocks opponents' projectiles.\\n·Endurance scales based on Ningguang's Max HP.\\n\\nJade Screen is considered a <color=#FFE699FF>Geo Construct</color> and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.\\n\\n<i>The canvas of stars is written upon this jade screen.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.499,
+            2.304,
+            0.501,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.469,
+            2.4768,
+            0.531,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.439,
+            2.6496,
+            0.561,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.4,
+            2.88,
+            0.6,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.37,
+            3.0528,
+            0.63,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.34,
+            3.2256,
+            0.66,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.301,
+            3.456,
+            0.699,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.262,
+            3.6864,
+            0.738,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.223,
+            3.9168,
+            0.777,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.184,
+            4.1472,
+            0.816,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.145,
+            4.3776,
+            0.855,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.106,
+            4.608,
+            0.894,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.067,
+            4.896,
+            0.933,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            -0.028,
+            5.184,
+            0.972,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Ningguang_01",
+          "desc": [
+            "Inherited HP|{param3:F1P}",
+            "Skill DMG|{param2:P}",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.011,
+            5.472,
+            1.011,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10274,
+      "name": "Starshatter",
+      "desc": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive <color=#FFE699FF>Geo DMG</color>.\\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.\\n\\n<i>Stars shatter. Silence falls.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:F1P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.8696,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:F1P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.93482,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.00004,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.087,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.15222,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.21744,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3044,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.39136,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.47832,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.56528,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.65224,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7392,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8479,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9566,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Ningguang_01",
+          "desc": [
+            "DMG Per Gem|{param1:P}",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.0653,
+            12,
+            40,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 272101,
+      "name": "Backup Plan",
+      "desc": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina.",
+      "icon": "UI_Talent_S_Ningguang_02",
+      "unlock": 1,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 272201,
+      "name": "Strategic Reserve",
+      "desc": "A character that passes through the <color=#FFD780FF>Jade Screen</color> will gain a 12% <color=#FFE699FF>Geo DMG Bonus</color> for 10s.",
+      "icon": "UI_Talent_S_Ningguang_06",
+      "unlock": 4,
+      "param_list": [
+        0.12,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 272301,
+      "name": "Trove of Marvelous Treasures",
+      "desc": "Displays the location of nearby <color=#FFD780FF>ore veins used in forging</color> on the mini-map.",
+      "icon": "UI_Talent_Collect_Ore",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 271,
+      "name": "Piercing Fragments",
+      "desc": "When a Normal Attack hits, it deals AoE DMG.",
+      "icon": "UI_Talent_S_Ningguang_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 272,
+      "name": "Shock Effect",
+      "desc": "When <color=#FFD780FF>Jade Screen</color> is shattered, its CD will reset.\\nCan occur once every 6s.",
+      "icon": "UI_Talent_S_Ningguang_05",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 273,
+      "name": "Majesty Be the Array of Stars",
+      "desc": "Increases the Level of <color=#FFD780FF>Starshatter</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Ningguang_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 274,
+      "name": "Exquisite be the Jade, Outshining All Beneath",
+      "desc": "<color=#FFD780FF>Jade Screen</color> increases nearby characters' Elemental RES by 10%.",
+      "icon": "UI_Talent_S_Ningguang_03",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 275,
+      "name": "Invincible Be the Jade Screen",
+      "desc": "Increases the Level of <color=#FFD780FF>Jade Screen</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Ningguang_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 276,
+      "name": "Grandeur Be the Seven Stars",
+      "desc": "When <color=#FFD780FF>Starshatter</color> is used, Ningguang gains 7 Star Jades.",
+      "icon": "UI_Talent_S_Ningguang_04",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Sliver",
+            "id": 104171,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Glaze Lily",
+            "id": 100030,
+            "count": 3,
+            "rank": 0
+          },
+          {
+            "name": "Recruit's Insignia",
+            "id": 112032,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Fragment",
+            "id": 104172,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Glaze Lily",
+            "id": 100030,
+            "count": 10,
+            "rank": 0
+          },
+          {
+            "name": "Recruit's Insignia",
+            "id": 112032,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Fragment",
+            "id": 104172,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Glaze Lily",
+            "id": 100030,
+            "count": 20,
+            "rank": 0
+          },
+          {
+            "name": "Sergeant's Insignia",
+            "id": 112033,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Chunk",
+            "id": 104173,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Glaze Lily",
+            "id": 100030,
+            "count": 30,
+            "rank": 0
+          },
+          {
+            "name": "Sergeant's Insignia",
+            "id": 112033,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Chunk",
+            "id": 104173,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Glaze Lily",
+            "id": 100030,
+            "count": 45,
+            "rank": 0
+          },
+          {
+            "name": "Lieutenant's Insignia",
+            "id": 112034,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Gemstone",
+            "id": 104174,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Glaze Lily",
+            "id": 100030,
+            "count": 60,
+            "rank": 0
+          },
+          {
+            "name": "Lieutenant's Insignia",
+            "id": 112034,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Spirit Locket of Boreas",
+              "id": 113008,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  }
+}

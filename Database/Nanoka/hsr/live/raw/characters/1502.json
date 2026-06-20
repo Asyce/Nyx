@@ -1,0 +1,3787 @@
+{
+  "name": "Yao Guang",
+  "desc": "Mysterious, bold, radical... her quest for change is stunning.\\nWith the \"eye\" of The Hunt, she sees all fates. Though she knows fate is immutable, the Seer Strategist still walks into danger alone.\\nWith the odds stacked against her, how can she possibly change her destiny?",
+  "chara_info": {
+    "camp": "The Xianzhou Yuque",
+    "va": {
+      "chinese": "秦紫翼",
+      "japanese": "花澤香菜",
+      "korean": "이슬",
+      "english": "Ari Thrash"
+    },
+    "stories": {
+      "0": "Mysterious, bold, radical... her quest for change is stunning.\\nWith the \"eye\" of The Hunt, she sees all fates. Though she knows fate is immutable, the Seer Strategist still walks into danger alone.\\nWith the odds stacked against her, how can she possibly change her destiny?",
+      "1": "One day, after the morning meeting at the Yuque's Divination Commission, the solemn silence was broken by snippets of idle gossip.\\n\\n<i>\"First she skips morning practice, and now she runs off to the Yuque Cup tournament!\"</i>\\n<i>\"When I confronted her, she said only a true master of augury could be called a 'Master of Cards,' and I should play her if I didn't believe it.\"</i>\\n<i>\"And you actually played against her? Did you win?\"</i>\\n<i>\"...\"</i>\\n\\nSeveral robes fluttered in the wind, as if holding a bellyful of grievances.\\n\\n<i>\"Remember last time? She gathered a few young diviners at midnight to sketch matrices, claiming she wanted to test foreign divination techniques and study their strengths. Nearly scared the elder on night patrol out of his wits.\"</i>\\n<i>\"How could I forget? She publicly challenged her teacher in class with her own invented methods of divination, infuriating him so much he complained to the Master Diviner. If the Master Diviner hadn't been so merciful, she would've been in deep trouble, genius or not...\"</i>\\n<i>\"But still... for all her flaws, she did contribute to the formation of the 'Deca-Light Reflection Barrier.' Tell me, who else in the whole division can get the divination right with a single glance?\"</i>\\n<i>\"Hmph, do you know what her peers call her now? 'Boss Yao,' saying man's divination is no match for heaven's will, and heaven's will is no match for her. This is nothing like Yuque's simple and austere academic style!\"</i>\\n\\nA simultaneous sigh washed away half their resentment, softening their tones at last.\\n<i>\"Speaking of which, where did that girl run off to now?\"</i>\\n\\nA sudden song drifted in from above. A young girl straddled the rooftop wind vane, gazing up at the heavens. She flashed a bright smile:\\n<i>\"Heads up, seniors! Master did a divination reading for me today, something about 'thunder shakes a hundred miles, yet the ritual vessels remain.' You might want to keep your distance, or you'll get struck by lightning too!\"</i>\\n\\nRight then, thunder instantly roared across the dome of the Yuque, deafening and fierce. Brilliant arcs of lightning unfurled, dazzling to the eye, yet horrifying to the heart.\\n<i>\"If we can't dodge it, might as well sit back and enjoy this once-in-a-lifetime spectacle!\"</i>\\n\\nShe knew this commotion was merely vibrations from stardust scraping against the hull as the Yuque passed through a nebula. She would be perfectly safe.\\n\\nYet a small doubt still flickered in her heart: did this divination... truly come to pass?\\n<align=\"right\">The divination reads: Thunder shakes a hundred miles, yet the ritual vessels remain.</align>",
+      "2": "In a secluded courtyard, she sat in the tranquility of the night with her junior soror who had returned home for a visit.\\nOn the simple wooden table, besides two cups of fresh tea, lay a set of divination cards for a game, seemingly veiled in a layer of long-settled dust.\\n\\n<i>\"Have you been to Master Jingtian's place?\"</i>\\n<i>\"Yes, I've paid my respects.\"</i>\\n<i>\"When you left the Yuque, Master had already foreseen this day. So, you still won't consider my proposal? Look, Huaiyan has a granddaughter, Jing Yuan has a disciple. If I ever follow the same path our Master did, it'd be perfect for you to take my place~\"</i>\\n\\nThe teacup hung in midair as the pink-haired diviner's brows furrowed slightly.\\n<i>\"Senior soror, becoming a successor General is just a change in position. How did it manage to change your temperament too?\"</i>\\n\\n<i>\"Do you remember? Master used to always say: 'Sometimes there is only ever one path in destiny. Everything is predetermined.'\"</i>\\nShe focused on her cards in contemplation, as scenes from the past surfaced before her eyes.\\nBefore sending the Cloudpeer Telescope to the Fanghu, Jingtian had assigned her to guard the Yuque, ensuring the success of the plan to eliminate the Abominations of Abundance with the Reignbow's Lux Arrow.\\nWithin the Deca-Light Reflection Barrier, she had divined ceaselessly, yet never managed to grasp even a single thread of possibility that could rewrite the battle at the Fanghu.\\nWhen the Reignbow's Lux Arrow fell, that inconceivable Aeonic power destroyed everything in its path, yet also forged the hope of the present.\\n\\nBut she knew that navigating the Xianzhou through the increasingly turbulent cosmic currents would only grow more and more challenging.\\n\\nBeneath the jest, the Master Diviner saw the General's true intent. Perhaps in all of the Xianzhou Alliance, she alone perceived it... but she revealed nothing, merely taking a gentle sip of tea.\\n<i>\"And what about you, senior soror? What will you leave behind for the Xianzhou Yuque?\"</i>\\n\\nShe did not answer immediately, but instead played the card in her hand.\\n<i>\"Well, did you see this move coming?\"</i>\\n<i>\"Master proved himself right, but that was his legacy. As for me... I want the Xianzhou, centuries from now, to look back on what I leave behind and say...\"</i>\\n\\nShe smiled, pondering, conviction settling in her expression.\\n\\n<i>\"'Who'd have expected that destiny could have a path like this too.'\"</i>\\n\\n<align=\"right\">— The divination reads: Though assembled in place, the will is not yet bright.</align>",
+      "3": "<b>Volume Title:</b> Yuque Administrative Edict Records Star Calendar Year ████ File No. Crag-██ (II)\\n<b>Summary:</b> Application for Ultra-miniaturization Technology of the Jade Abacus\\n<b>Consultation Content:</b> With phased progress in research on Fallow Earth traits, our academy believes focus should be placed on further miniaturization research of the jade abacus.\\n<b>Artisanship Commission Opinion:</b> Regarding the Sapientia Academe's funding request for the jade abacus miniaturization research: firstly, their research direction conflicts with the Artisanship Commission's. Secondly, bypassing Commission approval and reporting directly to the General violates proper procedures.\\n<b>Reviewer: Yao Guang</b>\\n<b>Opinion:</b> I've reviewed the Artisanship Commission's proposal. Whose brilliant idea was it to improve performance by making the jade abacus bigger? While jade abaci are directly tied to the lifeline of the Xianzhou, we can't be overly cautious and set in our ways. Look at IPC's efficiency. Can we really afford to wait?\\n...\\n\\n<b>Volume Title:</b> Yuque Administrative Edict Records Star Calendar Year ████ File No. Goat-██ (III)\\n<b>Summary:</b> Yuque Navigation Routes\\n<b>Consultation Content:</b> The Divination Commission's divination indicates that following previous patrolling routes bring low risk and stable returns. Continued exploration along ancient routes invites numerous uncertainties. During this time of cosmic upheaval, such action may provoke calamities...\\n<b>Reviewer: Yao Guang</b>\\n<b>Opinion:</b> Proceed with exploration along ancient routes. The jade abacus technology wasn't developed in vain, and our improved extrapolation precision is sufficient to foresee disasters. From an interstellar trade perspective, this is enough to drive the Yuque's annual revenue to a new record high. Yet, looking at the current state of the universe, a cosmic transformation of unprecedented scale approaches, we cannot stay on the old paths. If possible, seek opportunities where the Trailblaze and Erudition converge.\\n...\\n\\n<b>Volume Title:</b> Xianzhou Alliance Administrative Edict Records Star Calendar Year ████ File No. Rabbit-██ (VII)\\n<b>Summary:</b> Regarding the Disposition of Suspects in the Luofu \"Ambrosial Arbor\" Crisis\\n<b>Petitioner: Yao Guang</b>\\n<b>Petition Content:</b> ...The chaos Luocha and Jingliu stirred on the Luofu was likely not merely to deliver the Stellaron into the Xianzhou. According to divination through the Deca-Light Reflection Barrier, these two still harbor secrets that may sway the fate of the Xianzhou. I request they be sent to the Yuque for interrogation. If we can grasp this major variable, it might prove to be a crucial piece in achieving victory. While this is not without risk, I am willing to stake my position as the General on this...\\n<b>Reviewer: Hua</b>\\n<b>Opinion:</b> Approved.\\n...\\n\\nAt every crossroad of destiny, her mind would return to those pivotal choices that had shaped the Yuque's current prosperity, yet also charted its course toward an alternate fate.\\nDid her hands never tremble? She asked herself countless times. Every seemingly effortless and clever move that others saw was, on the other end, tied to the future of countless citizens of the Xianzhou.\\nAll along, she had been walking on a tightrope that could give way at any moment, but she couldn't look back, nor could she stop...\\n\\nJust like that near-death beginning.\\n\\n<align=\"right\">— The divination reads: The noble strives diligently and unceasingly, vigilant as if peril lurks within the night.</align>",
+      "4": "<i>\"Radiant heaven, morph into arrows. Celestial thunder, cleanse the flesh and bone.\"</i>\\nA voice of absolute authority, seemingly resonating through every bone in her body, echoed in the deepest recesses of consciousness. Even after enduring the Rainbow Ordainment, she still had to overcome this final trial before truly taking up the mantle and claiming the title of \"General.\"\\n\\n<i>\"First Arrow, Purge Calamities!\"</i>\\nEven in this realm of pure consciousness, her hair stood on end as an unprecedented sense of danger seared across her nerves like electricity. She focused intently on detecting its direction, muttering the verses:\\nThe \"celestial thunder\" struck violently, and the Barrier trembles in fright, like a planet on the brink of destruction. She barely dodged this arrow. One hair's breadth closer, and she would have been obliterated.\\n\\n<i>\"Second Arrow: Fell the Unbridled!\"</i>\\nThe ordeal continued relentlessly, giving no room to breathe. She drew upon every bit of knowledge she had learned to extrapolate the trajectory. Once again, she managed to dodge the arrow with perfect precision.\\n\\n<i>\"Third Arrow!\"</i>\\n<i>\"Fourth Arrow!\"</i>\\n...\\n<i>\"Seventh Arrow!\"</i>\\nLike a lonely boat in a surging river, like a butterfly in a sea of thorns, the only thing keeping her from falling was her eyes that could peer into the unknown.\\nBut her spirit was gradually scattering, her steps becoming slower... As time passed, her spirit is willing, but the flesh is weak.\\n\\n<i>\"Eighth Arrow: Quell the Defiant!\"</i>\\n\\n<i>\"I can't dodge this...\"</i>\\nShe heard her own despair. So close to the summit, yet falling at the final step... Death and failure cast their shadows over her, blinding her as the merciless lightning of the Reignbow loomed above.\\n\\nTilting her face to meet the descending celestial thunder, the memories of the distant past abruptly resurfaced, a divination from her Master, and that bygone day when thunder roared over fair skies.\\n<i>\"If we can't dodge it, might as well sit back and enjoy this once-in-a-lifetime spectacle!\"</i>\\nShe heard her younger self say those words.\\nThe eighth bolt of celestial thunder struck beside her, the impact rustling her hair, but she remained unmoved.\\n\\nThe ninth arrow never fell, and the imposing voice told her that she had passed the trial.\\n\\nTo this day, she still does not know whether that final bolt waits somewhere in the unwritten future, ready to drop without warning.\\nBut as she departs for Planarcadia, she no longer cares.\\n<align=\"right\">— The divination reads: From the abyss to the sky, no blame shall follow.</align>"
+    },
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "I am General Yao Guang, Seer Strategist aboard the Xianzhou Yuque. Like everyone else, you may simply call me Madam Yao. It's true, I could have divined the finer details of this encounter, but where's the fun in that? Being here in person has turned up some rather pleasant surprises.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Judging by today's weather, I'd wager you'll cross paths with the greatest mind in the entire Xianzhou Alliance... I never said that person was me, did I?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "With skies so high and the world so wide, there's nothing that can hold you back. Next time we cross paths, I expect tales of exploits so grand they'll leave me speechless.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Form of Address",
+        "voice_m": "The title of \"General\" always comes shackled with weight and formality. \"Madam\" feels far freer, far lighter, wouldn't you agree? Of course, I've never cared much for formality. If you'd rather address me as \"Sis\"... Well, that could be fun too.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Eye of Īśvara",
+        "voice_m": "My gaze has swept across the cosmos more than once, and I've seen the fate of the cosmos rocking like a ship on the verge of being swallowed by towering waves. Still, I've never put my faith in \"seeing is believing.\" Possibility, after all, exists for no other reason than to be defied.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "About Self: Outlook",
+        "voice_m": "Most diviners like to say \"humanity's calculations are no match for heaven's plans,\" while the exceptional ones like to behave as if \"heaven's plans are no match for my calculations.\" But if you ask me, all that scheming and calculating is wasted effort. Better to seize the moment yourself: clean, swift, decisive.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Hand Balm",
+        "voice_m": "Whether it's polishing a piece of jade or setting the heavens in motion, both demand a deft touch. That's why, no matter how busy official business gets, I still steal a moment to craft my own hand balm.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Chat: Sour Things",
+        "voice_m": "Those of the Yuque savor sourness, as naturally as the Luofu folks cherish their tea. Lemons, pickled plums, hawthorn berries... perfect jolts for when the mind grows dull. Fancy a bite?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Hobbies",
+        "voice_m": "Back when I was studying at the Divination Commission, I may have pulled a few tricks here and there, and somehow won the Yuque Cup several years running. If others claim my divination technique lacks refinement, fine, I'll accept that critique. But call me a bad card player? Now that's just slander. Why not come see for yourself when I play Huaiyan and Feixiao next time?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Annoyances",
+        "voice_m": "There are those in the Alliance who, upon seeing the Matrix's calculations, become hesitant and indecisive. If a divination ever dares to return \"This reading is unreliable,\" I suspect their decaying minds would simply explode on the spot.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Something to Share",
+        "voice_m": "Inspired by the extrapolations of Wisdomwalker, the Yuque constructed the Deca-Light Reflection Barrier for divining the future. A jeweled web that mirrors the world itself, its radiance multiplying without end. And thanks to a little... mishap, I once glimpsed every possible outcome through it. Heh, that so-called \"variability\"? That's just another word for \"opportunity.\"",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Knowledge",
+        "voice_m": "The Reignbow granted me a Spiritus known as the Kālacakra Skyplume — the \"eye\" of The Hunt itself. I just call it \"Little Bird.\" Feel it watching you? Well, that's only natural. The cosmos's shining hero deserves an audience.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About {NICKNAME}",
+        "voice_m": "Your future does not lie within my sight, but rather beneath your own feet. As for that little secret... Well, only the heavens, the earth, and you know. I know nothing of it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Jing Yuan",
+        "voice_m": "People say I'm always competing with the Divine Foresight, but little do they know we're just being honest with each other. Superficial harmony won't help the Xianzhou's development. If someone needs to play the stalwart to stir up these still waters and spark a grand competition of a hundred ships, then I'll gladly take on that role.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Fu Xuan",
+        "voice_m": "Ah, my dear junior soror... Even when she comes to report to the Yuque, she doesn't stay a day longer than necessary, insisting on returning right on schedule. She used to love competing with me when she was little, but now her rival has become that General of the Luofu... even though I knew her first.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Fugue",
+        "voice_m": "They say foxians from the merchant guild are good at going whichever way the wind blows, but her rudder stays remarkably steady. Speaking up for the common folk, calling out the Aeons' injustice... That kind of boldness is rare, and I like it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Sparxie",
+        "voice_m": "That girl is like a firecracker, always catching people off-guard. If she were willing to make some mischief with me... Hmm, we could definitely accomplish things no one's done before.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Himeko",
+        "voice_m": "She keeps her edge hidden and doesn't draw attention to herself... Even you know very little about her past, don't you? But everyone must return to where they started at some point in life, and from there, embark on a new journey.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Sunday",
+        "voice_m": "A Xianzhou General roping in Penacony's former top brass? Sounds unbelievable, doesn't it? But that's exactly the kind of \"unpredictable\" twist I'm after. As for what surprises lie ahead... Well, we'll just have to wait and see.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Qingque",
+        "voice_m": "Many spend their whole lives chasing their dreams, but she alone knows that \"ignorance is bliss\".. hey, don't laugh. That's actually an essential quality for becoming a General.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Feixiao",
+        "voice_m": "The Merlin's Claw acts as the talons of The Hunt. \"Eyes\" without \"talons\" are weak, and \"talons\" without \"eyes\" are blind. She loves hearing my ideas, and I trust her commands. Although every time she gives me fitness advice — telling me to ditch the peacock dance for the sparrow fist — she's giving me a bit too much credit.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Jingliu",
+        "voice_m": "I don't mind her utilizing the remnants of the Propagation, burning the golden blood of the Destruction, or even borrowing the power of the Abundance itself. It's just that the picture she's painted, unfortunately, has yet to fully convince me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "About Ashveil",
+        "voice_m": "Some people's futures are like the trajectory of a bullet, never able to turn back, forever doomed to fly in a singular direction until they pierce their enemy's heart.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "Back in the day, I was good at mathematical calculations, loved having fun, and worked in intelligence... Could I have been a hacker just like her? I'd really love to face off against her in a match.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "About Evanescia",
+        "voice_m": "She's got a whole trove of tall tales about the arcadia to share... But no matter how absurd they sound, considering this is Planarcadia we're talking about, I'm more than happy to nod along to every word.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "About Mortenax Blade",
+        "voice_m": "See? Planarcadia is a place where fates collide, where people fight to live through death. With what he's become, the Xianzhou now stands a better chance of victory. As for him being a former Luofu criminal... I'd say that merits and faults balance each other out, don't you think?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "The moon's cycles are fixed, the universe is boundless, and yet human effort decides success.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "Character Ascension",
+        "voice_m": "Do not be troubled by waxing or waning.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Would it not be uninteresting if the omniscia truly spared none?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "Trace Activation",
+        "voice_m": "Does this road have more variables to come?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "As expected, your fate remains inscrutable.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "Added to Team With Jing Yuan",
+        "voice_m": "\"Intellect rivaled only by military strategy...\" Shall we put that to the test, Divine Foresight?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "Added to Team With Jingliu",
+        "voice_m": "Is your blade still as keen as it was?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "Added to Team With Fugue",
+        "voice_m": "If I could trouble you to take charge of correspondences⁓",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 109,
+        "voice_title": "Added to Team With Fu Xuan",
+        "voice_m": "Junior soror, shall we stick to our previous methodology?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 110,
+        "voice_title": "Added to Team With Sparxie",
+        "voice_m": "This engagement must be no less constructive than the last, young lady.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 111,
+        "voice_title": "Added to Team With Himeko",
+        "voice_m": "May our cooperation bear fruit, Navigator.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 112,
+        "voice_title": "Added to Team With Sunday",
+        "voice_m": "Worry not, I never force anyone to do anything.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 113,
+        "voice_title": "Added to Team With Qingque",
+        "voice_m": "Good fortune, little Que⁓",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 114,
+        "voice_title": "Added to Team With Feixiao",
+        "voice_m": "In the days apart from the Merlin's Claw... I thought up a few wonderful things. Care to listen?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 115,
+        "voice_title": "Added to Team With Ashveil",
+        "voice_m": "Are you finally ready to bare your fangs?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 116,
+        "voice_title": "Added to Team With Evanescia",
+        "voice_m": "Though I can't see your future clearly... the Weal and Woe of our enemies is crystal clear to me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 117,
+        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "With an expert on our side, all bets are off~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 118,
+        "voice_title": "Added to Team With Mortenax Blade",
+        "voice_m": "As long as it doesn't get too ugly, I'll turn a blind eye.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Trouble ahead... What? It's my fault?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Fortune favors the bold. Make your move.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "Divination tells me that this will hurt.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Troublemaker? I'd like to be one too.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "Turn Idling",
+        "voice_m": "Today's a good day for attacking. Trust me.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "Basic ATK",
+        "voice_m": "As easy as that.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "Skill 1",
+        "voice_m": "Stars of fortune favor us.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "Skill 2",
+        "voice_m": "Baneful clouds, scatter!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Blessing in disguise.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "An evil portent...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "Elation Skill 1",
+        "voice_m": "May you have the best of luck. To an explosive start!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "Elation Skill 2",
+        "voice_m": "Here's a bad omen slip. No need to thank me~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "People always say that the will of heaven can't be overturned...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "But I wish to observe the heavens with my divinations.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "Downed",
+        "voice_m": "This can't be fate...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "Return to Battle",
+        "voice_m": "Heaven blesses the kind.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "Health Recovery",
+        "voice_m": "Thank you for your help.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "Technique",
+        "voice_m": "All's revealed in divining light.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "Battle Won",
+        "voice_m": "Limitless possibilities still exist within the omniscia.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Surprises sure go hand-in-hand with you.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "The feng shui here's pretty good. I've made a note of it.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "See? This is Madam Yao's luck.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "You're using this to test ME, a general?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Oh please. This didn't even need any calculations.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Is today a special day?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "Returning to Town",
+        "voice_m": "Leisure comes easy... Pity that I struggle to keep my sights on the present.",
+        "is_battle_voice": true
+      }
+    ]
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "yaoguang",
+  "sp_need": 180,
+  "base_type": "Elation",
+  "damage_type": "Physical",
+  "ranks": {
+    "1": {
+      "id": 150201,
+      "name": "Chuckle Chimes Where Jade Falls",
+      "desc": "In <u>Aha's</u> <u>extra turn</u> triggered by Ultimate, the fixed amount of <u>Punchline</u> taken into account increases to <unbreak>#2[i]</unbreak>. When dealing <u>Elation DMG</u>, all ally targets ignore <unbreak>#1[i]%</unbreak> of the target's DEF.",
+      "icon": "SkillIcon_1502_Rank1.png",
+      "param_list": [
+        0.2,
+        40
+      ],
+      "extra": {
+        "10000000": {
+          "name": "Extra Turn",
+          "desc": "Gain 1 extra turn that won't expend your remaining turns when taking action. During this extra turn, no Ultimate can be used.",
+          "param": []
+        },
+        "10000026": {
+          "name": "Aha",
+          "desc": "When taking action, triggers an Aha Instant and causes units capable of using Elation Skills to each use their Elation Skill 1 time. If there are no units capable of using Elation Skills when Aha takes action, Aha will use \"Let There Be Laughter.\"\\nThe Aha Instant lasts until the final Elation Skill finishes this time.\\nWhen the Aha Instant ends, participating characters gain the \"Certified Banger\" state for the Punchline points taken into account this time, lasting for 2 turns. After Aha takes action, all Punchlines will be consumed.",
+          "param": []
+        },
+        "10000027": {
+          "name": "Punchline",
+          "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
+          "param": []
+        },
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        }
+      }
+    },
+    "2": {
+      "id": 150202,
+      "name": "Blind Arrows Guided by Feathers",
+      "desc": "While the Zone is active, increases all ally targets' SPD by <unbreak>#2[i]%</unbreak>, and additionally increases Elation by <unbreak>#1[i]%</unbreak>.",
+      "icon": "SkillIcon_1502_Rank2.png",
+      "param_list": [
+        0.16,
+        0.12
+      ],
+      "extra": {}
+    },
+    "3": {
+      "id": 150203,
+      "name": "Auspices Mirrored In Decalight",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.\\nElation Skill Lv. +1, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1502_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 150204,
+      "name": "Threads of Fate Colored by Plumes",
+      "desc": "In <u>Aha's</u> <u>extra turn</u> triggered by Yao Guang's Ultimate, the DMG dealt by all ally characters' Elation Skill becomes <unbreak>#1[i]%</unbreak> of the original DMG.",
+      "icon": "SkillIcon_1502_Rank4.png",
+      "param_list": [
+        1.5
+      ],
+      "extra": {
+        "10000000": {
+          "name": "Extra Turn",
+          "desc": "Gain 1 extra turn that won't expend your remaining turns when taking action. During this extra turn, no Ultimate can be used.",
+          "param": []
+        },
+        "10000026": {
+          "name": "Aha",
+          "desc": "When taking action, triggers an Aha Instant and causes units capable of using Elation Skills to each use their Elation Skill 1 time. If there are no units capable of using Elation Skills when Aha takes action, Aha will use \"Let There Be Laughter.\"\\nThe Aha Instant lasts until the final Elation Skill finishes this time.\\nWhen the Aha Instant ends, participating characters gain the \"Certified Banger\" state for the Punchline points taken into account this time, lasting for 2 turns. After Aha takes action, all Punchlines will be consumed.",
+          "param": []
+        }
+      }
+    },
+    "5": {
+      "id": 150205,
+      "name": "Bejeweled in Radiant Grace",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nElation Skill Lv. +1, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1502_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 150206,
+      "name": "Ferried Along the Astral Arc",
+      "desc": "All ally targets' <u>Elation DMG</u> <u>merrymakes</u> by <unbreak>#1[i]%</unbreak>. Increases the DMG multiplier of Yao Guang's Elation Skill by <unbreak>#2[i]%</unbreak> of its original multiplier.",
+      "icon": "SkillIcon_1502_Rank6.png",
+      "param_list": [
+        0.25,
+        1
+      ],
+      "extra": {
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        },
+        "30000011": {
+          "name": "Merrymake",
+          "desc": "A special effect that affects Elation DMG and can additionally boost Elation DMG dealt.",
+          "param": []
+        }
+      }
+    }
+  },
+  "skills": {
+    "150201": {
+      "id": 150201,
+      "name": "Whistlebolt Sings Joy",
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Yao Guang's ATK to one designated enemy and Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Yao Guang's ATK to targets adjacent to it. The Energy regenerated from Basic ATK increases to <unbreak>30</unbreak>.",
+      "simple_desc": "Deals minor Physical DMG to one enemy target and minor Physical DMG to adjacent targets.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "Blast",
+      "sp_base": 30,
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        15
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.45,
+            0.15
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.54,
+            0.18
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.63,
+            0.21
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.72,
+            0.24
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.81,
+            0.27
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.9,
+            0.3
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.99,
+            0.33
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.08,
+            0.36
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.17,
+            0.39
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.26,
+            0.42
+          ]
+        }
+      }
+    },
+    "150202": {
+      "id": 150202,
+      "name": "Decalight Unveils All",
+      "desc": "Deploys a Zone for <unbreak>#1[i]</unbreak> turn(s). This duration decreases by 1 at the start of this unit's every turn. While the Zone is active, increases all allies' Elation by an amount equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Yao Guang's Elation. After Yao Guang uses Basic ATK or Skill, gains <unbreak>#3[i]</unbreak> <u>Punchline</u>.",
+      "simple_desc": "Deploys a Zone that <color=#f29e38ff>increases Elation</color> for all ally targets. After Yao Guang uses Basic ATK or Skill, <color=#f29e38ff>gains <u>Punchline</u></color>.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Support",
+      "sp_base": 30,
+      "bp_need": 1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000027": {
+          "name": "Punchline",
+          "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            3,
+            0.1,
+            3
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            3,
+            0.11,
+            3
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            3,
+            0.12,
+            3
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            3,
+            0.13,
+            3
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            3,
+            0.14,
+            3
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            3,
+            0.15,
+            3
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            3,
+            0.1625,
+            3
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            3,
+            0.175,
+            3
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            3,
+            0.1875,
+            3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            3,
+            0.2,
+            3
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            3,
+            0.21,
+            3
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            3,
+            0.22,
+            3
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            3,
+            0.23,
+            3
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            3,
+            0.24,
+            3
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            3,
+            0.25,
+            3
+          ]
+        }
+      }
+    },
+    "150203": {
+      "id": 150203,
+      "name": "Hexagram of Feathered Fortune",
+      "desc": "Gains <unbreak>#1[i]</unbreak> <u>Punchline</u>. <u>Aha</u> immediately gains 1 <u>extra turn</u> where a fixed amount of <unbreak>#4[i]</unbreak> <u>Punchline</u> is taken into account. This turn does not consume <u>Punchline</u>, and increases all allies' All-Type <u>RES PEN</u> by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s).",
+      "simple_desc": "<color=#f29e38ff>Gains <u>Punchline</u></color>. Immediately grants <color=#f29e38ff><u>Aha</u></color> 1 <color=#f29e38ff><u>extra turn</u></color> where a fixed amount of <u>Punchline</u> is taken into account, and increases all allies' All-Type <u>RES PEN</u>.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "Support",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000000": {
+          "name": "Extra Turn",
+          "desc": "Gain 1 extra turn that won't expend your remaining turns when taking action. During this extra turn, no Ultimate can be used.",
+          "param": []
+        },
+        "10000026": {
+          "name": "Aha",
+          "desc": "When taking action, triggers an Aha Instant and causes units capable of using Elation Skills to each use their Elation Skill 1 time. If there are no units capable of using Elation Skills when Aha takes action, Aha will use \"Let There Be Laughter.\"\\nThe Aha Instant lasts until the final Elation Skill finishes this time.\\nWhen the Aha Instant ends, participating characters gain the \"Certified Banger\" state for the Punchline points taken into account this time, lasting for 2 turns. After Aha takes action, all Punchlines will be consumed.",
+          "param": []
+        },
+        "10000027": {
+          "name": "Punchline",
+          "desc": "Punchline is shared by the whole team. When dealing Elation DMG, the more Punchline taken into account, the higher the Elation DMG.",
+          "param": []
+        },
+        "30000005": {
+          "name": "RES PEN",
+          "desc": "When dealing DMG, ignore a part of the enemy target's resistance to the corresponding damage type.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            5,
+            0.1,
+            3,
+            20,
+            1
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            5,
+            0.11,
+            3,
+            20,
+            1
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            5,
+            0.12,
+            3,
+            20,
+            1
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            5,
+            0.13,
+            3,
+            20,
+            1
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            5,
+            0.14,
+            3,
+            20,
+            1
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            5,
+            0.15,
+            3,
+            20,
+            1
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            5,
+            0.1625,
+            3,
+            20,
+            1
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            5,
+            0.175,
+            3,
+            20,
+            1
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            5,
+            0.1875,
+            3,
+            20,
+            1
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            5,
+            0.2,
+            3,
+            20,
+            1
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            5,
+            0.21,
+            3,
+            20,
+            1
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            5,
+            0.22,
+            3,
+            20,
+            1
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            5,
+            0.23,
+            3,
+            20,
+            1
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            5,
+            0.24,
+            3,
+            20,
+            1
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            5,
+            0.25,
+            3,
+            20,
+            1
+          ]
+        }
+      }
+    },
+    "150204": {
+      "id": 150204,
+      "name": "Behold Wherever Light Unfolds",
+      "desc": "While Yao Guang holds \"<u>Certified Banger</u>\":\\nAfter an ally target uses an attack, triggers the \"Great Boon\" effect, dealing 1 additional instance of <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> <u>Elation DMG</u> of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, then additionally triggers \"Great Boon\" 1 time.\\nWhen triggering the \"Great Boon\" effect, if the attacker's Elation is lower than that of Yao Guang, then this instance of <u>Elation DMG</u> will take Yao Guang's Elation into calculation.\\nTriggering the \"Great Boon\" effect is not considered as using 1 instance of attack.",
+      "simple_desc": "While Yao Guang is in possession of \"<u>Certified Banger</u>,\" after an ally target uses an attack, triggers \"Great Boon\": <color=#f29e38ff>Additionally deals</color> 1 instance of minor <color=#f29e38ff><u>Elation DMG</u></color> of the corresponding Type to 1 random hit target. If this attack consumes Skill Points, this effect triggers 1 extra time. This effect is not considered as using 1 instance of attack.",
+      "type_name": "Talent",
+      "tag": "Support",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        },
+        "10000029": {
+          "name": "Certified Banger",
+          "desc": "Characters participating in the Aha Instant gain the \"Certified Banger\" state. And the Punchline points from the current Aha Instant are taken into account for this state, lasting for 2 turns. Ability effects and Elation DMG produced by the \"Certified Banger\" state are calculated based on the Punchline points taken into account.\\nPunchline points taken into account for multiple \"Certified Banger\" states are combined for the calculation.\\nThe duration of each \"Certified Banger\" state is tracked independently.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.1
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.11
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.12
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.13
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.14
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.15
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.1625
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.175
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.1875
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.21
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.22
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.23
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.24
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.25
+          ]
+        }
+      }
+    },
+    "150206": {
+      "id": 150206,
+      "name": "Whistlebolt Sings Joy",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "150207": {
+      "id": 150207,
+      "name": "Untethered Glimmer Sails Far",
+      "desc": "After using Technique, automatically triggers Skill 1 time at the start of the next battle without consuming any Skill Points. When Yao Guang is in the team, breaking destructible objects immediately grants Fortune Pouch, up to <unbreak>#1[i]</unbreak> within every Earth Week.",
+      "simple_desc": "Upon entering combat, automatically triggers Skill 1 time. When Yao Guang is in the team, immediately gains Fortune Pouch when breaking destructible objects.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "Support",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            8
+          ]
+        }
+      }
+    },
+    "150220": {
+      "id": 150220,
+      "name": "Let Thy Fortune Burst in Flames",
+      "desc": "Inflicts \"Woe's Whisper\" on all enemies, lasting for <unbreak>#4[i]</unbreak> turn(s). Enemy targets under the \"Woe's Whisper\" state take <unbreak>#3[f1]%</unbreak> increased DMG. Deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Physical <u>Elation DMG</u> to all enemies. Then, deals <unbreak>#5[i]</unbreak> instance(s) of <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> Physical <u>Elation DMG</u> to one random enemy.",
+      "simple_desc": "Increases DMG received by all enemies. Deals Physical <u>Elation DMG</u> to all enemies. Then, deals minor Physical <u>Elation DMG</u> to one random enemy.",
+      "type": "ElationDamage",
+      "type_name": "Elation Skill",
+      "tag": "AoEAttack",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        15,
+        60,
+        0
+      ],
+      "extra": {
+        "10000028": {
+          "name": "Elation DMG",
+          "desc": "The more Punchline taken into account, and the higher the Elation and Character Level, the greater the Elation DMG dealt.\\nElation DMG is not affected by DMG Boost effects.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1,
+            0.5,
+            0.16,
+            3,
+            5,
+            0.1
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1,
+            0.55,
+            0.16,
+            3,
+            5,
+            0.11
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1,
+            0.6,
+            0.16,
+            3,
+            5,
+            0.12
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1,
+            0.65,
+            0.16,
+            3,
+            5,
+            0.13
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1,
+            0.7,
+            0.16,
+            3,
+            5,
+            0.14
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1,
+            0.75,
+            0.16,
+            3,
+            5,
+            0.15
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1,
+            0.8125,
+            0.16,
+            3,
+            5,
+            0.1625
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1,
+            0.875,
+            0.16,
+            3,
+            5,
+            0.175
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1,
+            0.9375,
+            0.16,
+            3,
+            5,
+            0.1875
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1,
+            1,
+            0.16,
+            3,
+            5,
+            0.2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            1,
+            1.05,
+            0.16,
+            3,
+            5,
+            0.21
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            1,
+            1.1,
+            0.16,
+            3,
+            5,
+            0.22
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1,
+            1.15,
+            0.16,
+            3,
+            5,
+            0.23
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1,
+            1.2,
+            0.16,
+            3,
+            5,
+            0.24
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1,
+            1.25,
+            0.16,
+            3,
+            5,
+            0.25
+          ]
+        }
+      },
+      "elation_priority_value": 116
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1502_Normal.png",
+        "level_up_skill_id": [
+          150201
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1502001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Normal.png",
+        "level_up_skill_id": [
+          150201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1502001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Normal.png",
+        "level_up_skill_id": [
+          150201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1502001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Normal.png",
+        "level_up_skill_id": [
+          150201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1502001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Normal.png",
+        "level_up_skill_id": [
+          150201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1502001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Normal.png",
+        "level_up_skill_id": [
+          150201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1502001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 15000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 65000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_BP.png",
+        "level_up_skill_id": [
+          150202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 15000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 65000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Ultra.png",
+        "level_up_skill_id": [
+          150203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 15000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 65000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Passive.png",
+        "level_up_skill_id": [
+          150204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1502_Maze.png",
+        "level_up_skill_id": [
+          150207
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          120,
+          0.3,
+          1,
+          0.01,
+          200
+        ],
+        "point_id": 1502101,
+        "point_name": "Amaze-In Grace",
+        "point_desc": "When Yao Guang's SPD is <unbreak>#1[i]</unbreak> or higher, increases this unit's Elation by <unbreak>#2[i]%</unbreak>. For every <unbreak>#3[i]</unbreak> SPD exceeded, increases this unit's Elation by <unbreak>#4[i]%</unbreak>. Up to a max of <unbreak>#5[i]</unbreak> excess SPD can be taken into account for this effect.",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          1,
+          0.25,
+          0.4,
+          0.6
+        ],
+        "point_id": 1502102,
+        "point_name": "Poised and Sated",
+        "point_desc": "Increases this unit's CRIT DMG by <unbreak>#4[i]%</unbreak>. After using Elation Skill, recovers <unbreak>#1[i]</unbreak> Skill Point(s) for the team.",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          20,
+          1
+        ],
+        "point_id": 1502103,
+        "point_name": "Felicity Ensemble",
+        "point_desc": "When Yao Guang gains \"<u>Certified Banger</u>,\" its duration increases by <unbreak>#2[i]</unbreak> turn(s).",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000029": {
+            "name": "Certified Banger",
+            "desc": "Characters participating in the Aha Instant gain the \"Certified Banger\" state. And the Punchline points from the current Aha Instant are taken into account for this state, lasting for 2 turns. Ability effects and Elation DMG produced by the \"Certified Banger\" state are calculated based on the Punchline points taken into account.\\nPunchline points taken into account for multiple \"Certified Banger\" states are combined for the calculation.\\nThe duration of each \"Certified Banger\" state is tracked independently.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502201,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502202,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 2,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502203,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1502101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconJoy.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502204,
+        "point_name": "Elation Boost",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [
+          1502101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "ElationDamageAddedRatioBase",
+            "value": 0.04,
+            "name": "Elation"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 18000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502205,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1502102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502206,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1502205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 3,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502207,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [
+          1502206
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconJoy.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502208,
+        "point_name": "Elation Boost",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1502103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "ElationDamageAddedRatioBase",
+            "value": 0.06,
+            "name": "Elation"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502209,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1502208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 4,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1502210,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1502209
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.053,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point22": {
+      "1": {
+        "anchor": "Point22",
+        "default_unlock": true,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110261,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 5,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 8000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 15000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 24000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110262,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 5,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 32000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 65000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 120000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point22",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1502_Elation.png",
+        "level_up_skill_id": [
+          150220
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 250000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110263,
+            "item_num": 12,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1502420,
+        "point_name": "Elation Skill",
+        "point_trigger_key": 22,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {},
+  "unique": {},
+  "stats": {
+    "0": {
+      "attack_base": 63.36,
+      "attack_add": 3.168,
+      "defence_base": 89.1,
+      "defence_add": 4.455,
+      "hp_base": 168.96,
+      "hp_add": 8.448,
+      "speed_base": 101,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 88.704,
+      "attack_add": 3.168,
+      "defence_base": 124.74,
+      "defence_add": 4.455,
+      "hp_base": 236.544,
+      "hp_add": 8.448,
+      "speed_base": 101,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 114.048,
+      "attack_add": 3.168,
+      "defence_base": 160.38,
+      "defence_add": 4.455,
+      "hp_base": 304.128,
+      "hp_add": 8.448,
+      "speed_base": 101,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110431,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 139.392,
+      "attack_add": 3.168,
+      "defence_base": 196.02,
+      "defence_add": 4.455,
+      "hp_base": 371.712,
+      "hp_add": 8.448,
+      "speed_base": 101,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110431,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 164.736,
+      "attack_add": 3.168,
+      "defence_base": 231.66,
+      "defence_add": 4.455,
+      "hp_base": 439.296,
+      "hp_add": 8.448,
+      "speed_base": 101,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110431,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 190.08,
+      "attack_add": 3.168,
+      "defence_base": 267.3,
+      "defence_add": 4.455,
+      "hp_base": 506.88,
+      "hp_add": 8.448,
+      "speed_base": 101,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110431,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 215.424,
+      "attack_add": 3.168,
+      "defence_base": 302.94,
+      "defence_add": 4.455,
+      "hp_base": 574.464,
+      "hp_add": 8.448,
+      "speed_base": 101,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1502,
+    "set4_id_list": [
+      130,
+      114
+    ],
+    "set2_id_list": [
+      317,
+      308,
+      310
+    ],
+    "property_list3": [
+      "CriticalDamageBase",
+      "CriticalChanceBase"
+    ],
+    "property_list4": [
+      "SpeedDelta"
+    ],
+    "property_list5": [
+      "HPAddedRatio",
+      "DefenceAddedRatio"
+    ],
+    "property_list6": [
+      "SPRatioBase"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "CriticalDamageBase"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "SpeedDelta"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "HPAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "SPRatioBase"
+      }
+    ],
+    "sub_affix_property_list": [
+      "SpeedDelta",
+      "CriticalDamageBase",
+      "CriticalChanceBase"
+    ],
+    "score_rank_list": [
+      190,
+      128
+    ]
+  },
+  "lightcones": [
+    23054,
+    21064
+  ],
+  "teams": [
+    {
+      "avatar_id": 1502,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1501,
+        1306,
+        1414
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1403,
+        8007
+      ],
+      "backup_list3": [
+        1409,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        117,
+        118
+      ],
+      "backup_group_list2": [
+        118,
+        108,
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1502,
+      "team_id": 2,
+      "position": 1,
+      "member_list": [
+        1403,
+        1415,
+        1409
+      ],
+      "backup_list1": [
+        1415,
+        1413,
+        1406,
+        8007
+      ],
+      "backup_list2": [
+        1413,
+        1406,
+        8007
+      ],
+      "backup_list3": [
+        1414,
+        1222,
+        1304,
+        1217,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1502,
+      "team_id": 3,
+      "position": 1,
+      "member_list": [
+        1015,
+        1306,
+        1414
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1403,
+        1406,
+        8007
+      ],
+      "backup_list3": [
+        1409,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        103,
+        102
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

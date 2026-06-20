@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="icon" type="image/png" href="../assets/icon/nyx_logo.png"/>
+<title>Nyxarium — Wuthering Waves</title>
+<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260619-iconfix1"/>
+<style>
+  html, body{ margin:0; height:100%; background:#05040b; overflow:hidden; }
+  .gp-vsep{ width:1px; height:34px; background:linear-gradient(180deg, rgba(183,170,255,0), rgba(183,170,255,.45), rgba(183,170,255,0)); }
+  .stage-wrap{ position:fixed; inset:0; display:flex; justify-content:center; align-items:flex-start; overflow:hidden; }
+  .stage{ position:relative; flex:none; width:1600px; height:900px; transform-origin:top center; }
+  /* page-level background lives at viewport scale so letterboxing stays dark */
+  .page-bg{ position:fixed; inset:0; background:#05040b url('../assets/bg/page_bg.jpg') center/cover no-repeat; }
+  .page-pattern{ position:fixed; top:50%; left:50%; width:150vmax; height:150vmax;
+    transform:translate(-50%,-50%) rotate(0deg); transform-origin:center center;
+    background:url('../assets/decor/pattern.png') center/cover no-repeat;
+    mix-blend-mode:screen; opacity:.2; pointer-events:none;
+    animation:spinPattern 480s linear infinite; }
+  @keyframes spinPattern{ from{ transform:translate(-50%,-50%) rotate(0deg); } to{ transform:translate(-50%,-50%) rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce){ .page-pattern{ animation:none; } }
+  .page-vignette{ position:fixed; inset:0; pointer-events:none;
+    background:
+      radial-gradient(120% 90% at 50% 8%, rgba(120,96,200,.16), transparent 46%),
+      radial-gradient(140% 120% at 50% 120%, rgba(70,48,140,.28), transparent 55%),
+      linear-gradient(180deg, rgba(5,4,11,.6) 0%, rgba(5,4,11,.06) 24%, rgba(5,4,11,.06) 60%, rgba(5,4,11,.8) 100%); }
+  /* the .gp root inside the stage is transparent; backdrop is page-level */
+  .gp.bare .gp-bg, .gp.bare .gp-pattern, .gp.bare .gp-vignette{ display:none; }
+</style>
+</head>
+<body>
+<script src="../dist/vendor/react.production.min.js"></script>
+<script src="../dist/vendor/react-dom.production.min.js"></script>
+
+<div class="page-bg"></div>
+<div class="page-pattern"></div>
+<div class="page-vignette"></div>
+
+<div class="stage-wrap">
+  <div class="stage" id="stage">
+    <div class="gp bare" id="app"></div>
+  </div>
+</div>
+
+<script>
+  // Fluid stage: height-fit scaling; stage width grows with aspect ratio
+  // (1600 design units at 16:9 up to 2150 at ultrawide), anchored to the top
+  // so the header band always sits flush with the window top. Windows text
+  // scaling / browser zoom shrink the CSS viewport — this absorbs both.
+  (function(){
+    var stage = document.getElementById('stage');
+    function fit(){
+      var vw = window.innerWidth || document.documentElement.clientWidth;
+      var vh = window.innerHeight || document.documentElement.clientHeight;
+      if(!vw || !vh){ requestAnimationFrame(fit); return; }
+      if (vw <= 760) {
+        stage.classList.add('is-compact-stage');
+        document.documentElement.classList.add('nyx-compact-layout');
+        stage.style.width = vw + 'px';
+        stage.style.height = vh + 'px';
+        stage.style.transform = 'none';
+        return;
+      }
+      stage.classList.remove('is-compact-stage');
+      document.documentElement.classList.remove('nyx-compact-layout');
+      var aspect = vw / vh;
+      var sw = Math.max(1600, Math.min(2150, Math.round(900 * aspect)));
+      var scale = Math.min(vw / sw, vh / 900);
+      if(!isFinite(scale) || scale <= 0) scale = 1;
+      stage.style.width = sw + 'px';
+      stage.style.height = '900px';
+      stage.style.transform = 'scale(' + scale + ')';
+    }
+    window.addEventListener('resize', fit);
+    fit();
+  })();
+</script>
+
+<script>
+  window.GP_PAGE = {
+    key:'wuwa', charName:'Carlotta', art:'../assets/bg/wuwabg2.png',
+    fns:['Character Materials','Echo Sorter','Convene Tracker'],
+    banner:{ title:'Tides of Echo', five:'Carlotta', fours:['Yangyang','Baizhi','Chixia'], time:'Ends in 4d 7h', pct:70 },
+    track:{ pull:'Convene', pulls:'Convenes', title:'Convene Tracker', currency:'Astrite', cost:160, fives:['Carlotta','Jinhsi','Changli','Camellya','Zani'], fours:['Yangyang','Baizhi','Chixia','Sanhua','Taoqi'] },
+    codes:[
+      { code:'WUTHERINGGIFT', reward:'Astrite ×100 · 20,000 Shell Credit' },
+      { code:'WAVESHORE',     reward:'Astrite ×50 · 2 Premium Resonance Potion' }
+    ]
+  };
+</script>
+
+<script src="../dist/cm-data.js?v=20260619-iconfix1"></script>
+<script src="../dist/cm-data-wuwa.js?v=20260619-iconfix1"></script>
+<script src="../dist/nyx-data.js?v=20260619-iconfix1"></script>
+<script src="../dist/game-page.bundle.js?v=20260619-iconfix1"></script>
+</body>
+</html>

@@ -1,0 +1,3466 @@
+{
+  "name": "Mydei",
+  "desc": "Kremnos, the mist-shrouded city of chaos and war! Its royal lineage is tainted with patricide, and its god bears the name of calamity.\\nThe undying Mydeimos, the lion apart from the rest. Chrysos Heir who seeks the Coreflame of Strife, must suffer a thousand deaths, be bathed in blood on the path home, and bear the madness of fate alone.\\n— Kingslayer be king, godslayer be god. Iron-hooves pound across the wilderness for the campaign, and must eventually soak in the blood of their homeland.",
+  "chara_info": {
+    "camp": "Amphoreus",
+    "va": {
+      "chinese": "赵成晨",
+      "japanese": "阿座上洋平",
+      "korean": "안효민",
+      "english": "Gabriel Warburton"
+    },
+    "stories": {
+      "0": "Kremnos, the mist-shrouded city of chaos and war! Its royal lineage is tainted with patricide, and its god bears the name of calamity.\\nThe undying Mydeimos, the lion apart from the rest. Chrysos Heir who seeks the Coreflame of Strife, must suffer a thousand deaths, be bathed in blood on the path home, and bear the madness of fate alone.\\n— Kingslayer be king, godslayer be god. Iron-hooves pound across the wilderness for the campaign, and must eventually soak in the blood of their homeland.",
+      "1": "<i>\"In the ancient legends of the coastal city-states, the Sea of Souls is said to have birthed beings as mighty as gods. Fishermen speak of a king of the seas who appears among the waves as a young child, with a fierce countenance and bluish lips, bathing in the bone-chilling waters of the Sea of Souls, wrestling with its savage beasts, thirsting for blood, and devouring flesh and bone.\\n\\nIt is said that each time they sink to the seabed, they soon resurrect from the Sea of Souls. Over approximately nine years, they reforged themselves no less than ten thousand times, ultimately tearing apart a giant monster, staining the sea red for miles, yet no flesh-eating sea creature dared approach.\\n\\nLegends speak of how that the king of the seas could sweep countless fish and shrimp onto the shore with a flick of the tail. Once, shipwrecked fishermen praying for salvation were rescued by the king alongside his crew. As the tales grew more fantastical over time, fishermen started painting the king on their boats, in the hope it will grant them safe voyages.\\n\\nRumors have emerged claiming that this so-called king of the seas is the vengeful spirit of the crown prince Mydeimos. Terrified by the prophecy he carried, his father, the former king, cast him into the Sea of Souls at birth. His life cut short, the child died with his grievances unredressed, vowing to scour the Sea of Souls. However, the writer believes this is merely the cunning Kremnoans trying to glorify themselves, for three reasons:\\n\\nFirst, though the Kremnoans traditionally engage in father-son struggles where the victor becomes king, why would they throw a newborn crown prince into the sea?\\nSecond, even if King Eurypon of Kremnos, grown old and senile, believed the prophecy and sacrificed his heir to the sea, how could an infant possess the divine strength to battle giant monsters?\\nThird, even if such a child existed, he could hardly be Kremnoan. Why would a Kremnoan, known for their selfish and brutal nature as they are, assist fishermen struck by disaster?\\nDear readers, I will now reveal the truth: the so-called king of the seas\\n— Naturally, he is the embodiment of the ocean itself!\"</i>\\n\\n<align=\"right\">— Excerpt from <i>\"Inquiry into the Legend of the Mighty Sea King\"\\n</i>archived in the Garbaniphoro Library collection</align>\\n\\n<i>\"Strong.\"</i>\\n<align=\"right\">— A man's handwriting</align>",
+      "2": "<i>\"The lone army emits a strong scent of blood, like a blood-stained spear. The leading warrior, the speartip, is always enveloped in unfathomable rage and hatred, thrusting towards the enemy.\\n\\nFrom Ladon, through Aidonia, to Aenionus, he returned from death time and again, leaving towering infernos of war in his wake. In the infamous Battle of Aenionus, the undefeated Klytius raised his massive axe as thousands of arrows darkened the sky behind him. Yet, when the smoke cleared and fire rose from the blood-soaked ground, the warrior's fist struck like a spear, tearing open Klytius's throat.\\n\\nAfter that epic battle, the true identity of the warrior became yet more elusive. That army clearly bore the marks of Kremnoan training but had never flown Kremnos's flag. None know whether they are Kremnoan spirits wandering on the battlefield or lost souls who have long been away from their homeland.\\n\\nWandering bards turned the lone army's journey into mournful songs, while in the rust-flavored winds of Amphoreus, the lone lion led a group of old and weak soldiers as they wandered, searching for a nonexistent homeland.\\n\\nReality will never alter its face due to cruelty. The once-elite citizens of Kremnos who followed him were loyal but mortal, lacking his god-like immortality. As time wore on, and even the gods of Kremnos succumbed to madness, how could humanity hope to know whither they should go?\\n\\nWill that proud, lonely man carry the weight of his people's fate alone? Will he bind himself to the chains of kingship? Or was it all just his wishful thinking...\"</i>\\n\\n<align=\"right\">— Excerpt from <i>\"A History of the Wars of Amphoreus\"\\n</i>archived in the Garbaniphoro Library collection</align>\\n\\n<i>\"Hephaestion, Perdikkas, Leonnius, Ptolemy, Peucesta... your names will not be forgotten by history.\"</i>\\n<align=\"right\"> — A man's handwriting</align>",
+      "3": "<i>\"Mydeimos! You treacherous ingrate, you coward who has forsaken the spirit of Kremnos!\\n\\nYou slew the former king and had your vengeance, yet you shirked the duty of restoring the dynasty. Was your honor swallowed whole by the beasts of the Sea of Souls?\\nYou roam among those who chase flames, swayed by the wild tales of a witch, fraternizing with low-born soldiers. You choose to pin your hopes on elusive oracles rather than trust in your strength!\\nThe Kremnoans yearn to return to their war-torn homeland, yet you urge us to settle in the city-state of our sworn enemies. Have you grown enamored with the opulence of Okhema, or are you already bewitched by the mists rising from its golden baths?\\n\\nMydeimos! You, with your noble and immortal essence, how can you submit to that woman of Okhema? You are a predator, a messenger of Strife — have you lost sight of the difference between predator and prey?\\n\\nRumors swirl that you saved outlanders from Nikador's kin alongside the one claiming the mantle of Chrysos Heirs. In that endless long night, you let your body shatter, drenched in blood and madness.\\nMydeimos! Your noble blood should not be wasted on such unworthy individuals! You should be rallying your armies and plundering resources to carve out a path for Kremnos's survival in these apocalyptic times!\\n\\nThat supposed Flame-Chase Journey has distorted you beyond recognition, my king! A king requires no equals, no allies, no doubts, no rescue — if any semblance of your clear mind lingers, command us!\\nLet Kremnos's glory eclipse all other city-states!\"</i>\\n\\n<align=\"right\">— Excerpt from <i>\"Collected Resolutions of the Kremnos Council of Elders\"\\n</i>stored in the Garbaniphoro Library collection</align>\\n\\n<i>\"Keep moving.\"</i>\\n<align=\"right\">— A man's directive</align>",
+      "4": "<i>\"The holy city of Okhema remains one of the last pure lands untouched by the black tide. Yet, the encirclement of the black tide around it has become unmistakably clear.\\n\\nFor a thousand years, wherever the black tide has swept, life has been twisted into inhuman monstrosities, and city-states have been eroded by the wind into desolate ruins. Even a stronghold like Kremnos saw its gods tainted by the black tide, leaving nothing but wastelands in its wake.\\n\\nMost of the Coreflames had been restored, yet as the black tide approached, we found ourselves desperately short on time. All we have achieved will have been in vain should Okhema fall before the Era Nova.\\n\\nThe author boldly speculated that, soon, the heroes chasing the flame would inevitably face a decisive battle against the black tide. Historical records showed that even the most valiant warriors could not endure long within the black tide. Among the Chrysos Heir heroes, if there was any hope for this battle, it would either rest upon the fearless Phainon or fall to Mydeimos.\\n\\nThis wasn't merely because Mydeimos hailed as the bravest in this world, carried a destiny that defied death, nor was it solely because the old city of Kremnos occupied a strategic choke point against the black tide. Even though Mydeimos, like the lion of Kremnos, had migrated countless times in his life and ultimately settled far from his birthplace, the solitary king would never submit to foreign rule. Once he had settled his people, Mydeimos, who regarded his mission as his very essence, would undoubtedly return home. Yet, this time, he bore not only the hopes of the Kremnoans but also the future of the entire world.\\n\\nTalanton's priests once prophesied that the millennium of Strife that started in Kremnos would also find its end there. Perhaps, one day, that eternal figure will face the black tide — suspended between life and death. Imagine such a scene, such a profound tragedy...\"</i>\\n\\n<align=\"right\">— Excerpt from <i>\"Flame-Chasing Observations: Black Tide Special Report\"\\n</i>archived in the Garbaniphoro Library collection</align>\\n\\n<i>\"As with the Sea of Souls, as it has always been.\"</i>\\n<align=\"right\"> — A recently-made annotation in a man's handwriting</align>"
+    },
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "I am the crown prince of Kremnos \"Mydeimos,\" and also the warrior of Okhema \"Mydei.\" If you want to know me better, observe me in battle or fight me yourself.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Mhm.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Alright, goodbye.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Past",
+        "voice_m": "My earliest memory is of fighting the darkness in the Abyss. This was because the former king of Kremnos, under the guise of prophecy, threw me into the Sea of Souls as a sacrifice to the Titans. But after nine winters, this body of mine crawled out of the Sea... Even the Reaper themself had abandoned it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Holy City",
+        "voice_m": "In the past, I never would've thought that I'd join forces with the enemy nations of Kremnos and wage war across the land. Okhema is a prosperous city-state, but... it cannot be a home for everyone.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "About Self: Future",
+        "voice_m": "Tell the future generations that I shall keep my promise, guarding Kremnos until I spill my last drop of blood. Watch closely. It won't be the black tide that devours me. I shall be the one who crushes it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat",
+        "voice_m": "Spears and swords forged in flames also wear down with the corrosion of time. On the battlefield, the only thing I can rely on is this undying body.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Interests: Nutrition",
+        "voice_m": "A strong body and a healthy mind both rely on proper nutrition. Knowing how to handle ingredients and cook properly is a lesson every warrior must learn.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Interests: Pomegranate Juice",
+        "voice_m": "Whenever I drink honey brew with my people, I am drinking in our homeland and our bright red memories. But if you add a little cheese... your body will be healthier.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Annoyances",
+        "voice_m": "Castrum Kremnos and Okhema have long been at odds. A spear can pierce through the enemy king, but it cannot resolve the deep grudges of the people.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Something to Share",
+        "voice_m": "At the Kremnos Festival, regardless of birth, the victor is granted the right to challenge the king. The former king used this rule to kill my grandfather and seize power, but he ultimately fell because of it. A pitiful cycle...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Knowledge",
+        "voice_m": "There is a legend in Kremnos's history of three hundred warriors standing alone against the black tide. Today, they may have fallen or been corrupted, but as long as one person remains, they will not forget that true death is not \"death\" itself, but abandoning one's honor.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Aglaea",
+        "voice_m": "We gathered together under Aglaea's direction, not because of her cunning, but because there's a blazing fire in her cold eyes that is destined to ignite.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Tribbie, Trianne, and Trinnon",
+        "voice_m": "The prophecy brought by Lady Tribios is not so much fate as it is a form of hope. In this fractured era, believe in your own choices, and then give it your all.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Phainon",
+        "voice_m": "I've fought with him several times, battling for dozens of days and nights without a clear victor. I know the strength of this man, and because of that, he is worthy to have my back.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Castorice",
+        "voice_m": "The Death Servant of Aidonia... she is destined to carry the Coreflame of Thanatos. I hope that at the end of the black tide, on the other side of the warm west wind, is also a sea of flowers.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Anaxa",
+        "voice_m": "I've heard more than a dozen sins attributed to him, but a certain good student from the Grove loves to talk about how wonderful that scholar is as a teacher... Anyone capable of leaving such an impression on him is likely someone I'd appreciate as well.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "About Hyacine",
+        "voice_m": "Nikador and Aquila had fought a long divine war in the past, and now the representatives of Sky and Strife stand as comrades. This is proof that humanity can overcome the gods.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "About Cipher",
+        "voice_m": "Before I came to Okhema, I had heard from the Kremnoan children about a thief who came and went as they pleased, often playing with the children. Sometimes, they would tell the children where the juiciest fruits could be found. Other times, they warned of where the black tide would strike. Looking back now, it must have been her.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "About Hysilens",
+        "voice_m": "I also once fought against the malevolent tides of the Sea of Souls, and I know the taste of despair and deathly silence... Perhaps that is why the deep sea's honey brew has such a bitter and intense flavor.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "About Cerydra",
+        "voice_m": "We've both made very difficult choices for our city-states and people. However, no matter how painful it is to cast out the old and bring in the new, it's the road a worthy ruler must one day take.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "About March 7th",
+        "voice_m": "With the will of a Nameless, she'll definitely be able to confront and overcome the shadows of her past.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "About Dan Heng • Permansor Terrae",
+        "voice_m": "The powers of the earth have sharpened his spear. If given the chance, I'd love to spar with him and learn more of the way of the lance.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "About Cyrene",
+        "voice_m": "The great efforts and sacrifices she made for Amphoreus will make this broken and charred land flourish with prosperous cities.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "I will use humanity's wrath to strip gods of their authority.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "Character Ascension",
+        "voice_m": "This journey is forged with blood and flames.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Strife will not cease with victory.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "Trace Activation",
+        "voice_m": "Each pattern is a mark of blood from the past.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Cry out, for victory will come.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Added to Team With Tribbie",
+        "voice_m": "Stay back. I alone am enough.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Added to Team With Aglaea",
+        "voice_m": "Witness with your own eyes what it means to have \"a power to rival all lands\"!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Added to Team With Castorice",
+        "voice_m": "May death forge glory for the warriors.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With Anaxa",
+        "voice_m": "Your reputation precedes you. The ever-changing battlefield is also a place where knowledge comes in handy.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Added to Team With Hyacine",
+        "voice_m": "With you here, we charge without fear.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "Added to Team With Cipher",
+        "voice_m": "The legendary thief in the flesh? Pleasure to meet you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With Phainon",
+        "voice_m": "I'll take the lead. Just like the old times.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "Added to Team With Hysilens",
+        "voice_m": "Well met, soldier of the Ocean.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 38,
+        "voice_title": "Added to Team With Cerydra",
+        "voice_m": "This will be a battle to shake the very foundations of the world.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 39,
+        "voice_title": "Added to Team With March 7th",
+        "voice_m": "Dedicate yourself to battle. Then, you'll surely conquer the doubts in your heart.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 40,
+        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
+        "voice_m": "Such spirit. Let's go, and fight to our hearts' content.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 41,
+        "voice_title": "Added to Team With Cyrene",
+        "voice_m": "Now, is the time for Amphoreus's victory.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Weakling... use all your might!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Let's see who remains in the end.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "Come on, show me your courage.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Spare no effort, let this place witness glory!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "Move already! Don't let our fervor die.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Basic ATK",
+        "voice_m": "Covered in flaws!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Skill 1",
+        "voice_m": "Burn it all!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Skill 2",
+        "voice_m": "Forever doomed!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Enhanced Skill 1",
+        "voice_m": "Fury upon you!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Enhanced Skill 2",
+        "voice_m": "Conquer all lands!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "So feeble.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "How noisy!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Dying soul, face me!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "I allow you to accept your punishment!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Talent 1",
+        "voice_m": "Blood of Kremnos, stream forth!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Talent 2",
+        "voice_m": "Hear my roar. I am Strife!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Downed",
+        "voice_m": "It's... over...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Return to Battle",
+        "voice_m": "Hmph, death refuses me.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Health Recovery",
+        "voice_m": "I can't die, but... thanks.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Technique",
+        "voice_m": "Submit, or die!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Battle Won",
+        "voice_m": "The winds of battle never cease.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "You may have it. Consider it your reward.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Take it, and buy some new armor for your tribe.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Hmm... Not bad, I'll accept it.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "There is no word for \"cower\" in the Kremnoan language.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Problems are solved by taking action — that's the most basic principle.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 77,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Alright, I'll give you the honor of dying in battle.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 78,
+        "voice_title": "Returning to Town",
+        "voice_m": "The wild wind carries with it the scent of rust...",
+        "is_battle_voice": true
+      }
+    ]
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "mydei",
+  "sp_need": 160,
+  "base_type": "Warrior",
+  "damage_type": "Imaginary",
+  "ranks": {
+    "1": {
+      "id": 140401,
+      "name": "Frost Hones Spine of Steel",
+      "desc": "Increases the DMG multiplier dealt by \"Godslayer Be God\" to the primary target by <unbreak>#1[i]%</unbreak>. This ability now deals to all enemies Imaginary DMG equal to the DMG multiplier dealt to the primary target.",
+      "icon": "SkillIcon_1404_Rank1.png",
+      "param_list": [
+        0.3
+      ],
+      "extra": {}
+    },
+    "2": {
+      "id": 140402,
+      "name": "Strife Beholds Cry of Dead",
+      "desc": "During \"Vendetta,\" the DMG dealt by Mydei ignores <unbreak>#1[i]%</unbreak> of enemy targets' DEF. After he receives healing, converts <unbreak>#2[i]%</unbreak> of the healed amount to Charge. The tally of the converted Charge cannot exceed <unbreak>#3[i]</unbreak> point(s). Resets this tally of Charge after any unit takes action.",
+      "icon": "SkillIcon_1404_Rank2.png",
+      "param_list": [
+        0.15,
+        0.4,
+        40
+      ],
+      "extra": {}
+    },
+    "3": {
+      "id": 140403,
+      "name": "Honor Exalts Feast of Faith",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1404_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 140404,
+      "name": "Siren Jolts the Laconic Lion",
+      "desc": "While in \"Vendetta,\" increases CRIT DMG by <unbreak>#2[i]%</unbreak> and restores HP by <unbreak>#1[i]%</unbreak> of this unit's Max HP after receiving attacks from enemy targets.",
+      "icon": "SkillIcon_1404_Rank4.png",
+      "param_list": [
+        0.1,
+        0.3
+      ],
+      "extra": {}
+    },
+    "5": {
+      "id": 140405,
+      "name": "War Chisels Flesh of Flame",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1404_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 140406,
+      "name": "Legacy Scales Mound of Blood",
+      "desc": "When entering battle, immediately enters the \"Vendetta\" state, and lowers the Charge required for \"Godslayer Be God\" to <unbreak>#1[i]</unbreak> point(s).",
+      "icon": "SkillIcon_1404_Rank6.png",
+      "param_list": [
+        100
+      ],
+      "extra": {}
+    }
+  },
+  "skills": {
+    "140401": {
+      "id": 140401,
+      "name": "Vow of Voyage",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Mydei's Max HP to one designated enemy.",
+      "simple_desc": "Deals minor Imaginary DMG to one enemy.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "sp_base": 20,
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.25
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.3
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.35
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.4
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.45
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.5
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.55
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.6
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.65
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.7
+          ]
+        }
+      }
+    },
+    "140402": {
+      "id": 140402,
+      "name": "Deaths are Legion, Regrets are None",
+      "desc": "Consumes HP by an amount equal to <unbreak>#3[i]%</unbreak> of Mydei's current HP. Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Mydei's Max HP to one designated enemy and Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Mydei's Max HP to adjacent targets.\\nIf the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.",
+      "simple_desc": "Consumes HP and deals Imaginary DMG to one designated enemy unit and minor Imaginary DMG to adjacent targets.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Blast",
+      "sp_base": 30,
+      "bp_need": -1,
+      "show_stance_list": [
+        60,
+        0,
+        30
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.45,
+            0.25,
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.495,
+            0.275,
+            0.5
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.54,
+            0.3,
+            0.5
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.585,
+            0.325,
+            0.5
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.63,
+            0.35,
+            0.5
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.675,
+            0.375,
+            0.5
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.73125,
+            0.40625,
+            0.5
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.7875,
+            0.4375,
+            0.5
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.84375,
+            0.46875,
+            0.5
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.9,
+            0.5,
+            0.5
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.945,
+            0.525,
+            0.5
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.99,
+            0.55,
+            0.5
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1.035,
+            0.575,
+            0.5
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1.08,
+            0.6,
+            0.5
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1.125,
+            0.625,
+            0.5
+          ]
+        }
+      }
+    },
+    "140403": {
+      "id": 140403,
+      "name": "Throne of Bones",
+      "desc": "Restores HP by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Mydei's Max HP and accumulates <unbreak>#5[i]</unbreak> Talent's Charge point(s). Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for <unbreak>#4[i]</unbreak> turn(s). The next use of \"Godslayer Be God\" prioritizes attacking one designated enemy, and this effect only works on the latest target.",
+      "simple_desc": "<color=#f29e38ff>Restores HP</color> and accumulates Talent's Charge. Deals massive Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets, then <color=#f29e38ff>Taunts</color> the target and their adjacent targets.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "Blast",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        60,
+        0,
+        60
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.96,
+            0.6,
+            0.15,
+            2,
+            20
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.024,
+            0.64,
+            0.155,
+            2,
+            20
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.088,
+            0.68,
+            0.16,
+            2,
+            20
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.152,
+            0.72,
+            0.165,
+            2,
+            20
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.216,
+            0.76,
+            0.17,
+            2,
+            20
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1.28,
+            0.8,
+            0.175,
+            2,
+            20
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.36,
+            0.85,
+            0.18125,
+            2,
+            20
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.44,
+            0.9,
+            0.1875,
+            2,
+            20
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.52,
+            0.95,
+            0.19375,
+            2,
+            20
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.6,
+            1,
+            0.2,
+            2,
+            20
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            1.664,
+            1.04,
+            0.205,
+            2,
+            20
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            1.728,
+            1.08,
+            0.21,
+            2,
+            20
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1.792,
+            1.12,
+            0.215,
+            2,
+            20
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1.856,
+            1.16,
+            0.22,
+            2,
+            20
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1.92,
+            1.2,
+            0.225,
+            2,
+            20
+          ]
+        }
+      }
+    },
+    "140404": {
+      "id": 140404,
+      "name": "Blood for Blood",
+      "desc": "For each 1% of HP lost, accumulates 1 point of Charge (up to <unbreak>200</unbreak> points). When Charge reaches <unbreak>100</unbreak>, consumes <unbreak>100</unbreak> points of Charge to enter the \"Vendetta\" state, restores HP equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Mydei's Max HP, and advances action by <unbreak>100%</unbreak>. While the \"Vendetta\" state is active, Max HP increases by <unbreak>#5[i]%</unbreak> of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses \"Kingslayer Be King.\"\\nWhen Charge reaches <unbreak>#3[i]</unbreak> points during the \"Vendetta\" state, Mydei immediately gains 1 <u>extra turn</u> and automatically uses \"Godslayer Be God.\"\\nWhen receiving a killing blow during the \"Vendetta\" state, Mydei will not be <u>knocked down</u>, but will clear his Charge, exits the \"Vendetta\" state, and restores HP by <unbreak>#4[i]%</unbreak> of his Max HP.",
+      "simple_desc": "When losing HP, accumulates Charge. When Charge is at <unbreak>100</unbreak>, enters the <color=#f29e38ff>\"Vendetta\"</color> state, restores HP and advances action. During \"Vendetta,\" Max HP increases and DEF remains at 0. At the start of this unit's turn, <color=#f29e38ff>automatically uses</color> \"Kingslayer Be King.\"\\nWhen Charge reaches <unbreak>150</unbreak> during \"Vendetta,\" Mydei immediately gains 1 <color=#f29e38ff><u>extra turn</u></color> and <color=#f29e38ff>automatically uses</color> \"Godslayer Be God.\"\\nWhen Mydei receives a killing blow, he exits the \"Vendetta\" state.",
+      "type_name": "Talent",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000000": {
+          "name": "Extra Turn",
+          "desc": "Gain 1 extra turn that won't expend your remaining turns when taking action. During this extra turn, no Ultimate can be used.",
+          "param": []
+        },
+        "10000007": {
+          "name": "Downed State",
+          "desc": "An ally will be incapacitated once their HP is reduced to 0.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.15,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.16,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.17,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.18,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.19,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.2,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.2125,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.225,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.2375,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.25,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.26,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.27,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.28,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.29,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.3,
+            0,
+            150,
+            0.5,
+            0.5
+          ]
+        }
+      }
+    },
+    "140406": {
+      "id": 140406,
+      "name": "Attack",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "140407": {
+      "id": 140407,
+      "name": "Cage of Broken Lance",
+      "desc": "After using Technique, pulls in enemies within a certain area and inflicts Daze on them for <unbreak>#1[i]</unbreak> second(s). Dazed enemies will not actively attack ally targets.\\nIf actively attacking Dazed enemies, when entering battle, deals Imaginary DMG equal to <unbreak>#2[i]%</unbreak> of Mydei's Max HP to all enemies, and Taunts the targets, lasting for <unbreak>#4[i]</unbreak> turn(s). This unit accumulates <unbreak>#5[i]</unbreak> point(s) of Talent's Charge.",
+      "simple_desc": "Pulls in enemies within a certain area and inflicts Daze on them. After attacking Dazed enemies and entering battle, deals minor Imaginary DMG to all enemies and Taunts the targets. This unit accumulates Talent's Charge.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "Impair",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            10,
+            0.8,
+            1,
+            1,
+            50
+          ]
+        }
+      }
+    },
+    "140409": {
+      "id": 140409,
+      "name": "Kingslayer Be King",
+      "desc": "Consumes HP by an amount equal to <unbreak>#3[i]%</unbreak> of Mydei's current HP. Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Mydei's Max HP to one enemy and Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Mydei's Max HP to adjacent targets.\\nIf the current HP is not sufficient, using Skill reduces Mydei's current HP to 1.\\nThis ability will be automatically used.",
+      "simple_desc": "Consumes HP. Deals Imaginary DMG to one designated enemy and Imaginary DMG to adjacent targets.\\nThis ability will be <color=#f29e38ff>automatically used</color>.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Blast",
+      "sp_base": 30,
+      "bp_need": -1,
+      "show_stance_list": [
+        60,
+        0,
+        30
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.55,
+            0.33,
+            0.35
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.605,
+            0.363,
+            0.35
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.66,
+            0.396,
+            0.35
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.715,
+            0.429,
+            0.35
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.77,
+            0.462,
+            0.35
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.825,
+            0.495,
+            0.35
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.89375,
+            0.53625,
+            0.35
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.9625,
+            0.5775,
+            0.35
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.03125,
+            0.61875,
+            0.35
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.1,
+            0.66,
+            0.35
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            1.155,
+            0.693,
+            0.35
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            1.21,
+            0.726,
+            0.35
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1.265,
+            0.759,
+            0.35
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1.32,
+            0.792,
+            0.35
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1.375,
+            0.825,
+            0.35
+          ]
+        }
+      }
+    },
+    "140411": {
+      "id": 140411,
+      "name": "Godslayer Be God",
+      "desc": "Consumes <unbreak>#3[i]</unbreak> point(s) of Charge. Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Mydei's Max HP to one enemy and Imaginary DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Mydei's Max HP to adjacent targets.\\nThis ability will be automatically used. While this ability is in use, Charge cannot be accumulated.",
+      "simple_desc": "<color=#f29e38ff>Consumes Charge</color>. Deals massive Imaginary DMG to one designated enemy and massive Imaginary DMG to adjacent targets.\\nThis ability will be <color=#f29e38ff>automatically used</color>.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Blast",
+      "sp_base": 10,
+      "bp_need": -1,
+      "show_stance_list": [
+        90,
+        0,
+        60
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1.4,
+            0.84,
+            150
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.54,
+            0.924,
+            150
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.68,
+            1.008,
+            150
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.82,
+            1.092,
+            150
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.96,
+            1.176,
+            150
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            2.1,
+            1.26,
+            150
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            2.275,
+            1.365,
+            150
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            2.45,
+            1.47,
+            150
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            2.625,
+            1.575,
+            150
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            2.8,
+            1.68,
+            150
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            2.94,
+            1.764,
+            150
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            3.08,
+            1.848,
+            150
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            3.22,
+            1.932,
+            150
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            3.36,
+            2.016,
+            150
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            3.5,
+            2.1,
+            150
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1404_Normal.png",
+        "level_up_skill_id": [
+          140401
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1404001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Normal.png",
+        "level_up_skill_id": [
+          140401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1404001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Normal.png",
+        "level_up_skill_id": [
+          140401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1404001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Normal.png",
+        "level_up_skill_id": [
+          140401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1404001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Normal.png",
+        "level_up_skill_id": [
+          140401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1404001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Normal.png",
+        "level_up_skill_id": [
+          140401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1404001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_BP.png",
+        "level_up_skill_id": [
+          140402,
+          140409,
+          140411
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Ultra.png",
+        "level_up_skill_id": [
+          140403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_Passive.png",
+        "level_up_skill_id": [
+          140404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1404004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1404_Maze.png",
+        "level_up_skill_id": [
+          140407
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          3
+        ],
+        "point_id": 1404101,
+        "point_name": "Earth and Water",
+        "point_desc": "During the \"Vendetta\" state, Mydei will not exit the \"Vendetta\" state when receiving a killing blow. This effect can trigger <unbreak>#1[i]</unbreak> time(s) per battle.",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404102,
+        "point_name": "Thirty Tyrants",
+        "point_desc": "While in the \"Vendetta\" state, Mydei is immune to <u>Crowd Control debuffs</u>.",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000011": {
+            "name": "Crowd Control debuff",
+            "desc": "Freeze, Entanglement, Imprisonment, Dominance, Outrage, Strong Reverberation, Alien Dream, Snarelock, Terrified, Action Lock, Happiness Puppet, Grudge Ablaze.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1404_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          4000,
+          4000,
+          0.012,
+          0.025,
+          0.0075
+        ],
+        "point_id": 1404103,
+        "point_name": "Bloodied Chiton",
+        "point_desc": "When battle starts, if Mydei's Max HP exceeds <unbreak>#1[i]</unbreak>, for every <unbreak>100</unbreak> excess HP, Mydei's CRIT Rate increases by <unbreak>#3[f1]%</unbreak>, his Charge ratio from enemy targets' DMG increases by <unbreak>#4[f1]%</unbreak>, and his HP restored when receiving healing increases by <unbreak>#5[f2]%</unbreak>. Up to <unbreak>#2[i]</unbreak> excess HP can be taken into account for this effect.",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404201,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.053,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconMaxHP.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404202,
+        "point_name": "HP Boost",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [
+          1404101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "HPAddedRatio",
+            "value": 0.04,
+            "name": "HP"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404203,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1404202
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.053,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404204,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [
+          1404203
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 2,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404205,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1404102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.08,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconMaxHP.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404206,
+        "point_name": "HP Boost",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1404205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "HPAddedRatio",
+            "value": 0.06,
+            "name": "HP"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404207,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [
+          1404206
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.08,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404208,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1404103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 3,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconMaxHP.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404209,
+        "point_name": "HP Boost",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1404208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "HPAddedRatio",
+            "value": 0.08,
+            "name": "HP"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1404210,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1404208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.107,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {},
+  "unique": {},
+  "stats": {
+    "0": {
+      "attack_base": 58.08,
+      "attack_add": 2.904,
+      "defence_base": 26.4,
+      "defence_add": 1.32,
+      "hp_base": 211.2,
+      "hp_add": 10.56,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 81.312,
+      "attack_add": 2.904,
+      "defence_base": 36.96,
+      "defence_add": 1.32,
+      "hp_base": 295.68,
+      "hp_add": 10.56,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 104.544,
+      "attack_add": 2.904,
+      "defence_base": 47.52,
+      "defence_add": 1.32,
+      "hp_base": 380.16,
+      "hp_add": 10.56,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 127.776,
+      "attack_add": 2.904,
+      "defence_base": 58.08,
+      "defence_add": 1.32,
+      "hp_base": 464.64,
+      "hp_add": 10.56,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 151.008,
+      "attack_add": 2.904,
+      "defence_base": 68.64,
+      "defence_add": 1.32,
+      "hp_base": 549.12,
+      "hp_add": 10.56,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 174.24,
+      "attack_add": 2.904,
+      "defence_base": 79.2,
+      "defence_add": 1.32,
+      "hp_base": 633.6,
+      "hp_add": 10.56,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110437,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 197.472,
+      "attack_add": 2.904,
+      "defence_base": 89.76,
+      "defence_add": 1.32,
+      "hp_base": 718.08,
+      "hp_add": 10.56,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1404,
+    "set4_id_list": [
+      122,
+      113,
+      112
+    ],
+    "set2_id_list": [
+      319,
+      309,
+      302
+    ],
+    "property_list3": [
+      "HPAddedRatio",
+      "CriticalDamageBase"
+    ],
+    "property_list4": [
+      "SpeedDelta",
+      "HPAddedRatio"
+    ],
+    "property_list5": [
+      "ImaginaryAddedRatio",
+      "HPAddedRatio"
+    ],
+    "property_list6": [
+      "HPAddedRatio"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "HPAddedRatio"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "SpeedDelta"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "ImaginaryAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "HPAddedRatio"
+      }
+    ],
+    "sub_affix_property_list": [
+      "CriticalChanceBase",
+      "CriticalDamageBase",
+      "HPAddedRatio",
+      "SpeedDelta"
+    ],
+    "score_rank_list": [
+      333,
+      275
+    ],
+    "local_critical_chance": 0.45
+  },
+  "lightcones": [
+    23039,
+    23009,
+    22003
+  ],
+  "teams": [
+    {
+      "avatar_id": 1404,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1403,
+        1415,
+        1409
+      ],
+      "backup_list1": [
+        1303
+      ],
+      "backup_list2": [
+        1313,
+        1306,
+        8007
+      ],
+      "backup_list3": [
+        1222,
+        1217,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

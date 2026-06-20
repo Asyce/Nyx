@@ -1,0 +1,732 @@
+{
+  "generatedAt": "2026-06-20T13:22:05.466Z",
+  "note": "overviewArtPool is used only by overview favourite cards. Material/detail art stays on normal character assets.",
+  "counts": {
+    "roster": 115,
+    "withCharacterCard": 104,
+    "withManualExtra": 39,
+    "withOverviewPool": 107,
+    "missingOverviewPool": 8
+  },
+  "missingCharacterCards": [
+    "Columbina",
+    "Durin",
+    "Illuga",
+    "Jahoda",
+    "Linnea",
+    "Lohen",
+    "Nicole",
+    "Prune",
+    "Traveler",
+    "Varka",
+    "Zibai"
+  ],
+  "missingOverviewPool": [
+    "Illuga",
+    "Jahoda",
+    "Linnea",
+    "Lohen",
+    "Nicole",
+    "Prune",
+    "Varka",
+    "Zibai"
+  ],
+  "missingManualPrefixes": [
+    {
+      "character": "Kachina",
+      "prefix": "332043"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Lohen",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Nicole",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Prune",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Linnea",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Varka",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Zibai",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Illuga",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Columbina",
+      "automatic": 0,
+      "manual": 2,
+      "pool": 2
+    },
+    {
+      "name": "Durin",
+      "automatic": 0,
+      "manual": 1,
+      "pool": 1
+    },
+    {
+      "name": "Jahoda",
+      "automatic": 0,
+      "manual": 0,
+      "pool": 0
+    },
+    {
+      "name": "Nefer",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Flins",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Lauma",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Aino",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Ineffa",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Skirk",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Dahlia",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Escoffier",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Ifa",
+      "automatic": 1,
+      "manual": 2,
+      "pool": 3
+    },
+    {
+      "name": "Varesa",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Iansan",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Yumemizuki Mizuki",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Lan Yan",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Citlali",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Mavuika",
+      "automatic": 1,
+      "manual": 2,
+      "pool": 3
+    },
+    {
+      "name": "Chasca",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Ororon",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Xilonen",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Kinich",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Mualani",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Kachina",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Emilie",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Sigewinne",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Clorinde",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Sethos",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Arlecchino",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Chiori",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Xianyun",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Gaming",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Chevreuse",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Navia",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Furina",
+      "automatic": 1,
+      "manual": 2,
+      "pool": 3
+    },
+    {
+      "name": "Charlotte",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Wriothesley",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Neuvillette",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Freminet",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Lyney",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Lynette",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Kirara",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Baizhu",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Kaveh",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Mika",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Dehya",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Alhaitham",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Yaoyao",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Wanderer",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Faruzan",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Layla",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Nahida",
+      "automatic": 1,
+      "manual": 2,
+      "pool": 3
+    },
+    {
+      "name": "Nilou",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Cyno",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Candace",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Dori",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Tighnari",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Collei",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Shikanoin Heizou",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Kuki Shinobu",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Yelan",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Kamisato Ayato",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Yae Miko",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Shenhe",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Yun Jin",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Arataki Itto",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Gorou",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Thoma",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Sangonomiya Kokomi",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Raiden Shogun",
+      "automatic": 1,
+      "manual": 3,
+      "pool": 4
+    },
+    {
+      "name": "Kujou Sara",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Yoimiya",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Sayu",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Kamisato Ayaka",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Kaedehara Kazuha",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Eula",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Yanfei",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Rosaria",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Hu Tao",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Xiao",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Ganyu",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Albedo",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Zhongli",
+      "automatic": 1,
+      "manual": 2,
+      "pool": 3
+    },
+    {
+      "name": "Xinyan",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Tartaglia",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Diona",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Diluc",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Jean",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Keqing",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Klee",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Mona",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Qiqi",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Venti",
+      "automatic": 1,
+      "manual": 2,
+      "pool": 3
+    },
+    {
+      "name": "Amber",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Barbara",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Beidou",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Bennett",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Chongyun",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Fischl",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Kaeya",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Lisa",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Ningguang",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Noelle",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Razor",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Sucrose",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Xiangling",
+      "automatic": 1,
+      "manual": 1,
+      "pool": 2
+    },
+    {
+      "name": "Xingqiu",
+      "automatic": 1,
+      "manual": 0,
+      "pool": 1
+    },
+    {
+      "name": "Traveler",
+      "automatic": 0,
+      "manual": 1,
+      "pool": 1
+    }
+  ]
+}

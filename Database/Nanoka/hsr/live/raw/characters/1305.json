@@ -1,0 +1,2995 @@
+{
+  "name": "Dr. Ratio",
+  "desc": "Member of the Intelligentsia Guild.\\nEccentric temperament, sharp-tongued but with an elegant demeanor.\\nThe face under the strange alabaster head sculpture is apparently unexpectedly handsome.",
+  "chara_info": {
+    "camp": "Intelligentsia Guild",
+    "va": {
+      "chinese": "桑毓泽",
+      "japanese": "武内駿輔",
+      "korean": "이동훈",
+      "english": "Jordan Paul Haro"
+    },
+    "stories": {
+      "0": "A candid and self-assured Intelligentsia Guild member, who often conceals his appearance with a strange plaster sculpture.\\nHe demonstrated unparalleled intelligence and talent since his youth, but now refers to himself as a \"Mundanite.\"\\nFirmly believing that intellect and creativity are not confined to geniuses, he seeks to distribute knowledge to the entire universe to cure the persistent disease named ignorance.",
+      "1": "Veritas Ratio, who calls himself \"Dr. Ratio,\" is as contentious as his research. In Ratio's homeworld, there are no less than eight documentaries detailing his legendary exploits, and over a dozen memoirs about him. However, despite the plethora of commentaries, none of them seems to provide a compelling perspective. To fill this void, I personally visited Professor Rond, who had a significant influence on Ratio's upbringing. Though advanced in years and unable to speak coherently, Professor Rond couldn't contain his excitement at the mention of Ratio's name. With the help of his family and students, I obtained a yellowed yet remarkably well-preserved letter of recommendation.\\n\\n<i>\\n\"To the respected admission committee of the University of Veritas Prime:\\n\\nI am Rond, Professor Emeritus of the Department of Mathematics at the Cosmos Liberty University. Given your institution's reputation for valuing talents and education, I would like to recommend a student named Ratio to advance his studies at your university. Although Ratio is a secondary school student at the moment, his mastery of math, physics, and even philosophy has far exceeded the requirements for an undergraduate degree in many universities.\\n\\nWhile he was under my tutelage, Ratio managed to solve complicated mathematical equations at an unexpectedly staggering speed. The undergraduates in my class struggled to even comprehend the concepts. Out of curiosity, I shared a manuscript about an equation named Rond's Conjecture in private. Although I'm the one who proposed the equation, I've been unable to prove it. After days of discussion, Ratio came up with a brilliant and stunning idea that managed to finally prove the equation in one strike. The paper will be published shortly, and you will see that I am speaking the truth.\\n\\nRatio showed remarkable perception, curiosity, and creativity during the time we spent together. He wakes up early every morning to exercise before diving straight into the sea of knowledge afterward. Perhaps, he is exactly what everyone would picture a genius to be — passionate, profound, fervent, and inherently dominating.\\n\\nDue to the lack of more advanced science programs at local schools, I sincerely hope that your esteemed institution will accept Ratio's enrollment. I can vouch for him on my reputation that he will definitely achieve accomplishments that transcend this era and bring glory to your widely-renowned institution.\\n\\nBest wishes,\\nRond\\n██ ██ ██, Philosopher Calendar\"</i>\\n\\nExtracted from page 9, <i>Wisdom as a Privilege: Decoding Dr. Ratio</i>",
+      "2": "After acquiring his eighth doctoral degree, Ratio was awarded the First Class Honors Degree that had been left vacant for two Amber Eras in the University of Veritas Prime. Even many years later, this achievement remained unparalleled in the history of the university and was likely to remain unmatched for generations to come. At that time, Ratio was already a prominent figure in society, but there were varying opinions about him among his teachers and peers. This is the electronic copy of some valuable information I gathered:\\n\\n\"\\n<b>Campus Highlights:</b>\\n<b>1. #First Class Honors Degree Awarded to Veritas Ratio#</b>\\nViews (<unbreak>2500</unbreak>), Comments (<unbreak>145</unbreak>)\\nDetails:\\nThe First Class Honors Degree of our university that has been vacant for two Amber Eras will soon be awarded to Veritas Ratio in recognition of his outstanding achievements in the fields of biology, medicine, natural theology, philosophy, mathematics, physics, engineering, etc. Given his remarkable contribution to the subject of energy sources on this planet, Veritas Ratio will be granted direct eligibility for teaching.\\n\\n<b>Professor Velita, Department of Mathematics</b>:\\nCongratulations to Ratio! He deserves all the glory for his diligence and intelligence! Do you still remember how he put on a headgear to keep away all external distractions and completely focus on thinking? Who else in the world could manage that? Although Ratio was my student for some time, I'm afraid I actually learned more from him than what I taught him. Ratio was a breath of fresh air at the University of Veritas Prime with his honesty and straightforwardness. We should all be grateful to him!\\nAgree (<unbreak>1000</unbreak>+), Disagree (2)\\n<b>Philosophy_Delinquent</b>:\\nShouldn't he be a member of the Genius Society already?\\nAgree (<unbreak>850</unbreak>), Disagree (5)\\n<b>Physics_Is_Beautiful</b>:\\nRumor has it that some congressman's son attended a class where Ratio was the TA. The guy tossed some cash on Ratio, trying to bribe him for a pass. Ratio came down hard on the guy and threw him out of the classroom. That's right — he literally THREW him... What a god among men.\\nAgree (<unbreak>550</unbreak>), Disagree (<unbreak>112</unbreak>)\\n<b>BearMarket_Loser</b>\\nI once went to a class where he was the TA and couldn't wrap my head around what he was saying. I held on to the end and scored 0. I count myself lucky that my score wasn't negative...\\nAgree (<unbreak>448</unbreak>), Disagree (<unbreak>37</unbreak>)\\n<b>Cosmos_Walker</b>\\nGive me a like if you've ever cried because of his scolding!\\nAgree (<unbreak>330</unbreak>), Disagree (<unbreak>110</unbreak>)\\n<b>BoredomKillledTheCat</b>\\nIs it true that he showers with his headgear on?\\nAgree (<unbreak>220</unbreak>), Disagree (<unbreak>10</unbreak>)\\n<b>Follow-My-Lead</b>\\nHe's not that great, is he? I can do the same if I just work harder...\\nAgree (1), Disagree (<unbreak>1000</unbreak>)\\n...\\nYou might like:\\n2. #The 8th Doctoral Degree Under Ratio's Belt#\\n3. #Ratio Featured in College Textbooks#\\n4. #Is Veritas Ratio Crazy?#\\n\"\\n\\nAccording to statistics, Ratio has taught <unbreak>52</unbreak> courses during his tenure. The courses, known to be harsh and challenging, have a completion rate of no more than 3%. Almost all the students who made it to the end have become experts in certain fields.\\n...\\nExtracted from page <unbreak>82</unbreak>, <i>Wisdom as a Privilege: Decoding Dr. Ratio</i>",
+      "3": "It is widely speculated that Ratio aspires to join the Genius Society, though he has never spoken about the subject. No matter how amazing Ratio's accomplishments are in the eyes of the ordinary folks, Nous has never batted an eye at him. This issue has become a much-discussed mystery in the academic community over time. I reached out to Margaret, a former assistant of Ratio, and gathered some valuable testimony from her.\\n\\n<i>\"Mr. Ratio has never talked about the Genius Society with me, but there's something I remember well, even till today... It happened when I was still Mr. Ratio's academic assistant. I'm mainly responsible for managing his correspondences to and from all over the cosmos and handling his interactions with the outside world.\"</i>\\n\\n<i>\"One day, I received a letter from Interastral Peace Corporation. I think... it was during the successful test-firing of the anti-planetary weapon Mr. Ratio had worked on for years. I could tell the solemnity of the invitation, so I excitedly passed it on to Mr. Ratio. Yet, he said nothing. I could sense his heavy silence even through the headgear. He then politely asked me to leave. The moment I closed the door, I heard a grim sigh followed by a self-deprecating laughter... Perhaps, he realized he would never be accepted into the Genius Society...\"</i>\\n\\n<i>\"The rest is history. In my view, Mr. Ratio is a genius in the truest sense of the word, as his inventions have propelled many worlds forward. Is a scholar who heals the universe destined to be worth less than a genius who is confined to their own ivory tower? Sorry, I'm getting a little worked up. Please remove that statement.\"</i>\\n\\nFrom my observation, many of Dr. Ratio's supporters feel sorry for him like Margaret. In their opinion, the Society's failure to admit someone like Ratio is a manifestation of the eccentricity and narrow-mindedness of \"geniuses.\"\\n\\nExtracted from page <unbreak>150</unbreak>, <i>Wisdom as a Privilege: Decoding Dr. Ratio</i>",
+      "4": "Many believe that after joining the Intelligentsia Guild, Ratio will learn to smooth out his sharp personality to adapt to the Guild's practical and simplistic academic environment. But I must say Ratio is still his old self. Below is the original excerpt from the internal records that I have transcribed:\\n\\n<i>\"\\nRespondent: Veritas Ratio\\nSubject: Logical Epistemology\\nChairman of the Committee: Roseth\\nTranscriber: Morriway\\nDefense Transcript:\\nRoseth: Mr. Ratio, your paper is exceptional. Thank you for your presentation. Now, we will open the floor for questions.\\nThere was a silence.\\nRoseth: Well, I'll do the honor then.\\nRoseth: I fully concur with your main ideas, but there's a detail that I find slightly confusing.\\nVeritas Ratio: Whenever someone agrees with me, I feel like I must be wrong.\\nRoseth: My question is, why do you think knowledge is a privilege?\\nVeritas Ratio: Dear Professor Roseth, your question indicates that you haven't fully grasped the content of my paper and do not understand the deductive methods I employed.\\nVeritas Ratio: To put it simply, you would be a great example. Your inability to comprehend my ideas shows precisely that knowledge is not for everyone.\\nVeritas Ratio: If ignorance is an ailment, it is the duty of scholars to weed it out and heal the universe.\\nVeritas Ratio walked to the podium, facing the crowd. Veritas Ratio: So, ladies and gentlemen, turning a blind eye to the folly of others is not an etiquette, but a wicked worldly practice. To spread knowledge, we must first make people realize their folly. The same surely applies to the scholars of the Guild.\\nRoseth shrugged and smiled bitterly.\\n...\\nVeritas Ratio left amid the commotion.\\nRemark: A passionate hand holding an icy sword — that is probably the best way to describe Mr. Veritas Ratio. By blending logic, passion, and the art of criticism into one, Ratio presents to us how a great thinker perceives and reacts to ignorance. We strongly believe that the addition of Mr. Veritas Ratio will bring immeasurable benefits to the Intelligentsia Guild.\\nCommittee Decision: Approved unanimously.\\n\"</i>\\n\\nThere are words about a mysterious organization within the Intelligentsia Guild called the \"Council of Mundanites\" that houses the brightest minds of the Guild. The fact that Ratio calls himself a Mundanite seems to affirm the rumor. It is hard not to read something into the organization's name, given Ratio's entangled history with the Genius Society. The mundane, as opposed to the ingenious, often has to make enormous efforts and sacrifices just to catch up with the latter. Is Ratio calling himself mundane a form of submission, mockery, or declaration of war? Anyway, he does live up to his name of Dr. Ratio with his dedication to curing ill minds with knowledge.\\n...\\n\\nExtracted from page <unbreak>230</unbreak>, <i>Wisdom as a Privilege: Decoding Dr. Ratio</i>"
+    },
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "I am Dr. Ratio, a scholar and teacher of the Intelligentsia Guild, and one of the mediocres. If one day your brain shows symptoms of dullness, then please give the doctor a call.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "You look distressed. Is something troubling you? If so, you can figure it out for yourself.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Another day has passed. If your problem still hasn't been solved, is it possible that the problem is you?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Headpiece",
+        "voice_m": "First, with the headpiece on, isolated from my five senses, I can think without interference. And second, I don't have to set eyes on stupid people. Of course, they don't want to see me either.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: True Appearance",
+        "voice_m": "I don't mind revealing my true colors if it helps me teach students and treat patients. But in my experience, it's usually counterproductive.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Intelligentsia Guild",
+        "voice_m": "The Intelligentsia Guild is often seen as a vendor of knowledge, but the right to set a price is always in the hands of the buyer. When someone is willing to listen to knowledge that is being disseminated and circulated, a price is created.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Genius Society",
+        "voice_m": "They dedicate themselves to truth... And it's right to say so — after all, everything they do is for the sake of Nous.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Hobbies",
+        "voice_m": "I can't stay away from books and bathtubs, especially the former. When one's head is stuffed with filth, one's body is no cleaner.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Annoyances",
+        "voice_m": "The most annoying thing about idiocy is that you can't explain it to an idiot.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Something to Share",
+        "voice_m": "Before you ask a question, why don't you consider whether the answer has already been determined? It is better for everyone if such questions are not asked.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Knowledge",
+        "voice_m": "The beauty of truth is that it never changes, even when no one understands it. Well, that's true for me, at least.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "About Herta",
+        "voice_m": "Herta is a quintessential genius — a natural wonder who sees no one as her equal. I have no doubt that she is talented, but I doubt whether her talent is always helpful to others.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Screwllum",
+        "voice_m": "In his field, Screwllum is trying to establish new laws. I prefer to call such a person a monarch, rather than a genius.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Ruan Mei",
+        "voice_m": "How many people have been fooled by her claim to fame as a hermetic genius? It seems to me that she wants to explore much more than just life. Just wait and see — the Genius Society member with all the real ambition is her.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Aventurine",
+        "voice_m": "Our man here always manages to wriggle out from the jaws of catastrophe, and we can't chalk it all up to \"good luck.\" The audience is forever anticipating his blunder... maybe he's anticipating it as well — will that day ever come?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "About Sunday",
+        "voice_m": "Fools think themselves wise, but the wise know their own ignorance — now, he has become the latter.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Thought is the only means available through which to know ourselves.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "Character Ascension",
+        "voice_m": "The faster the progress, the greater the chance of errors.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "Max Level Reached",
+        "voice_m": "If this day I have not gained the recognition of Nous, it stands to reason that I never will at any point in the future.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "Trace Activation",
+        "voice_m": "You may choose to do the same as everyone else, but you are bound to get a completely different result.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "Added to Team With Herta",
+        "voice_m": "Can ordinary men still manage to believe in themselves under the scorn of a genius?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "Added to Team With Ruan Mei",
+        "voice_m": "Harnessing and tempering the instincts of life... you know more of such things than myself.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "Added to Team With Aventurine",
+        "voice_m": "Keep to yourself, gambler, and spare me the false display of concern.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "Added to Team With Sunday",
+        "voice_m": "It's rare to run into someone with brains.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Call that defense?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Need I... teach someone a lesson?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "I'm asking the questions.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Do you have answers?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "No need to rush. Patience breeds success.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Skill 1",
+        "voice_m": "Let's test your knowledge.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Skill 2",
+        "voice_m": "Never stop thinking.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Basic ATK",
+        "voice_m": "Think!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Mediocre!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "You fool!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Esse est percipi...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Knowledge is the measure of all things. It reveals truth... and falsehood.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Talent 1",
+        "voice_m": "Zero points... Next!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Talent 2",
+        "voice_m": "Fail... Get out!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Downed",
+        "voice_m": "Mere flesh...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Return to Battle",
+        "voice_m": "Well done... ten points.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Health Recovery",
+        "voice_m": "Not bad... five points.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Technique",
+        "voice_m": "For the theater of the mediocre.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Battle Won",
+        "voice_m": "Just as my calculations predicted.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Since when were knowledge and wealth mutually exclusive?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Wealth shouldn't be a hindrance to pursuit of truth.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "I accept, as would any man.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Hardly a work of genius...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "An interesting test of intellect.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "You learn to know yourself before your enemy.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Returning to Town",
+        "voice_m": "Ready to squander the remainder of your days?",
+        "is_battle_voice": true
+      }
+    ]
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "drratio",
+  "sp_need": 140,
+  "base_type": "Rogue",
+  "damage_type": "Imaginary",
+  "ranks": {
+    "1": {
+      "id": 130501,
+      "name": "Pride Comes Before a Fall",
+      "desc": "The maximum stackable count for the Trace \"Summation\" increases by <unbreak>#1[i]</unbreak>. When a battle begins, immediately obtains <unbreak>#2[i]</unbreak> stacks of Summation. Needs to unlock Summation first.",
+      "icon": "SkillIcon_1305_Rank1.png",
+      "param_list": [
+        4,
+        4
+      ],
+      "extra": {}
+    },
+    "2": {
+      "id": 130502,
+      "name": "The Divine Is in the Details",
+      "desc": "When his Talent's <u>Follow-Up ATK</u> hits a target, for every <u>debuff</u> the target has, deals Imaginary <u>Additional DMG</u> equal to <unbreak>#1[i]%</unbreak> of Dr. Ratio's ATK. This effect can be triggered for a maximum of <unbreak>#2[i]</unbreak> time(s) during each <u>Follow-Up ATK</u>.",
+      "icon": "SkillIcon_1305_Rank2.png",
+      "param_list": [
+        0.2,
+        4
+      ],
+      "extra": {
+        "10000004": {
+          "name": "Follow-Up ATK",
+          "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+          "param": []
+        },
+        "10000005": {
+          "name": "Additional DMG",
+          "desc": "Causes the target being hit to take extra DMG, which is not considered an attack.",
+          "param": []
+        },
+        "10000010": {
+          "name": "Debuff",
+          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "param": []
+        }
+      }
+    },
+    "3": {
+      "id": 130503,
+      "name": "Know Thyself",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1305_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 130504,
+      "name": "Ignorance Is Blight",
+      "desc": "When triggering the Talent, additionally regenerates <unbreak>#1[i]</unbreak> Energy for Dr. Ratio.",
+      "icon": "SkillIcon_1305_Rank4.png",
+      "param_list": [
+        15
+      ],
+      "extra": {}
+    },
+    "5": {
+      "id": 130505,
+      "name": "Sic Itur Ad Astra",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1305_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 130506,
+      "name": "Vincit Omnia Veritas",
+      "desc": "Additionally increases the trigger count for \"Wiseman's Folly\" by <unbreak>#1[i]</unbreak>. The DMG dealt by the Talent's <u>Follow-Up ATK</u> increases by <unbreak>#2[i]%</unbreak>.",
+      "icon": "SkillIcon_1305_Rank6.png",
+      "param_list": [
+        1,
+        0.5
+      ],
+      "extra": {
+        "10000004": {
+          "name": "Follow-Up ATK",
+          "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+          "param": []
+        }
+      }
+    }
+  },
+  "skills": {
+    "130501": {
+      "id": 130501,
+      "name": "Mind is Might",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dr. Ratio's ATK to one designated enemy target.",
+      "simple_desc": "Deals minor Imaginary DMG to one designated enemy target.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "sp_base": 20,
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.6
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.7
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.8
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.9
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.1
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.4
+          ]
+        }
+      }
+    },
+    "130502": {
+      "id": 130502,
+      "name": "Intellectual Midwifery",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dr. Ratio's ATK to one designated enemy target.",
+      "simple_desc": "Deals Imaginary DMG to one designated enemy.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "SingleAttack",
+      "sp_base": 30,
+      "bp_need": 1,
+      "show_stance_list": [
+        60,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.75
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.825
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.9
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.975
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.05
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1.125
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.21875
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.3125
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.40625
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.5
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            1.575
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            1.65
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1.725
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1.8
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1.875
+          ]
+        }
+      }
+    },
+    "130503": {
+      "id": 130503,
+      "name": "Syllogistic Paradox",
+      "desc": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dr. Ratio's ATK to one designated enemy target and applies \"Wiseman's Folly.\" When Dr. Ratio's teammates attack a target afflicted with \"Wiseman's Folly,\" Dr. Ratio launches 1 instance of his Talent's <u>Follow-Up ATK</u> against this target.\\n\"Wiseman's Folly\" can be triggered for up to <unbreak>#2[i]</unbreak> times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used.",
+      "simple_desc": "Deals Imaginary DMG to one designated enemy target and applies \"Wiseman's Folly.\" When Dr. Ratio's teammates attack a target afflicted with \"Wiseman's Folly,\" Dr. Ratio launches 1 instance of <color=#f29e38ff><u>Follow-Up ATK</u></color> on this target.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "SingleAttack",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        90,
+        0,
+        0
+      ],
+      "extra": {
+        "10000004": {
+          "name": "Follow-Up ATK",
+          "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1.44,
+            2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.536,
+            2
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.632,
+            2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.728,
+            2
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.824,
+            2
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1.92,
+            2
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            2.04,
+            2
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            2.16,
+            2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            2.28,
+            2
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            2.4,
+            2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            2.496,
+            2
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            2.592,
+            2
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            2.688,
+            2
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            2.784,
+            2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            2.88,
+            2
+          ]
+        }
+      }
+    },
+    "130504": {
+      "id": 130504,
+      "name": "Cogito, Ergo Sum",
+      "desc": "When using his Skill, Dr. Ratio has a <unbreak>#2[i]%</unbreak> <u>fixed chance</u> of launching a <u>Follow-Up ATK</u> against his target for 1 time, dealing Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Dr. Ratio's ATK. For each debuff the target enemy has, the <u>fixed chance</u> of launching <u>Follow-Up ATK</u> increases by <unbreak>#3[i]%</unbreak>. If the target enemy is defeated before the <u>Follow-Up ATK</u> triggers, the <u>Follow-Up ATK</u> will be directed at a single random enemy instead.",
+      "simple_desc": "When using Skill, there is a chance to launch 1 instance of <color=#f29e38ff><u>Follow-Up ATK</u></color> on the target, dealing Imaginary DMG.",
+      "type_name": "Talent",
+      "tag": "SingleAttack",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {
+        "10000004": {
+          "name": "Follow-Up ATK",
+          "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+          "param": []
+        },
+        "30000002": {
+          "name": "Fixed Chance",
+          "desc": "Fixed chance will not be affected by any factor.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1.35,
+            0.4,
+            0.2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.485,
+            0.4,
+            0.2
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.62,
+            0.4,
+            0.2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.755,
+            0.4,
+            0.2
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.89,
+            0.4,
+            0.2
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            2.025,
+            0.4,
+            0.2
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            2.19375,
+            0.4,
+            0.2
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            2.3625,
+            0.4,
+            0.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            2.53125,
+            0.4,
+            0.2
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            2.7,
+            0.4,
+            0.2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            2.835,
+            0.4,
+            0.2
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            2.97,
+            0.4,
+            0.2
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            3.105,
+            0.4,
+            0.2
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            3.24,
+            0.4,
+            0.2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            3.375,
+            0.4,
+            0.2
+          ]
+        }
+      }
+    },
+    "130506": {
+      "id": 130506,
+      "name": "Attack",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "130507": {
+      "id": 130507,
+      "name": "Mold of Idolatry",
+      "desc": "After using Technique, creates a Special Dimension that Taunts nearby enemies, lasting for <unbreak>#1[i]</unbreak> second(s). After entering battle with enemies in this Special Dimension, there is a <unbreak>#2[i]%</unbreak> <u>base chance</u> to reduce each single enemy target's SPD by <unbreak>#3[i]%</unbreak> for <unbreak>#4[i]</unbreak> turn(s). Only 1 Dimension Effect created by allies can exist at the same time.",
+      "simple_desc": "Creates a Special Dimension. Enemies within the dimension are Taunted. After entering battle with enemies in this dimension, there is a high chance to <color=#f29e38ff>reduce SPD</color> of enemy targets.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "Impair",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "30000001": {
+          "name": "Base Chance",
+          "desc": "The base chance of applying debuffs to targets hit. \\nThe final probability is affected by the attacker's Effect Hit Rate and enemy targets' Effect RES.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            10,
+            1,
+            0.15,
+            2
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1305_Normal.png",
+        "level_up_skill_id": [
+          130501
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1305001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Normal.png",
+        "level_up_skill_id": [
+          130501
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110121,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1305001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Normal.png",
+        "level_up_skill_id": [
+          130501
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1305001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Normal.png",
+        "level_up_skill_id": [
+          130501
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1305001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Normal.png",
+        "level_up_skill_id": [
+          130501
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1305001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Normal.png",
+        "level_up_skill_id": [
+          130501
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1305001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110121,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_BP.png",
+        "level_up_skill_id": [
+          130502
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110121,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Ultra.png",
+        "level_up_skill_id": [
+          130503
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110121,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_Passive.png",
+        "level_up_skill_id": [
+          130504
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1305004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1305_Maze.png",
+        "level_up_skill_id": [
+          130507
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110121,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.025,
+          0.05,
+          6
+        ],
+        "point_id": 1305101,
+        "point_name": "Summation",
+        "point_desc": "When Dr. Ratio uses his Skill, for every <u>debuff</u> on the target, his CRIT Rate increases by <unbreak>#1[f1]%</unbreak> and CRIT DMG by <unbreak>#2[i]%</unbreak>. This effect can stack up to <unbreak>#3[i]</unbreak> time(s).",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000010": {
+            "name": "Debuff",
+            "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          1,
+          0.1,
+          2
+        ],
+        "point_id": 1305102,
+        "point_name": "Inference",
+        "point_desc": "When Skill is used to attack an enemy target, there is a <unbreak>#1[i]%</unbreak> <u>base chance</u> to reduce the attacked enemy target's Effect RES by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "30000001": {
+            "name": "Base Chance",
+            "desc": "The base chance of applying debuffs to targets hit. \\nThe final probability is affected by the attacker's Effect Hit Rate and enemy targets' Effect RES.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1305_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110504,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          3,
+          0.1,
+          0.5
+        ],
+        "point_id": 1305103,
+        "point_name": "Deduction",
+        "point_desc": "When dealing DMG to a target that has <unbreak>#1[i]</unbreak> or more debuff(s), for each <u>debuff</u> the target has, the DMG dealt by Dr. Ratio to this target increases by <unbreak>#2[i]%</unbreak>, up to a maximum increase of <unbreak>#3[i]%</unbreak>.",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000010": {
+            "name": "Debuff",
+            "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305201,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.04,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110121,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 111011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305202,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [
+          1305101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305203,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1305202
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.04,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconDefence.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305204,
+        "point_name": "DEF Boost",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "DefenceAddedRatio",
+            "value": 0.05,
+            "name": "DEF"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110122,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 111012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305205,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1305102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.06,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305206,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1305205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305207,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.06,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconDefence.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305208,
+        "point_name": "DEF Boost",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1305103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "DefenceAddedRatio",
+            "value": 0.075,
+            "name": "DEF"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305209,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1305208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.053,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110123,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 111013,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1305210,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1305208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.08,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {},
+  "unique": {},
+  "stats": {
+    "0": {
+      "attack_base": 105.6,
+      "attack_add": 5.28,
+      "defence_base": 62.7,
+      "defence_add": 3.135,
+      "hp_base": 142.56,
+      "hp_add": 7.128,
+      "speed_base": 103,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111011,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 147.84,
+      "attack_add": 5.28,
+      "defence_base": 87.78,
+      "defence_add": 3.135,
+      "hp_base": 199.584,
+      "hp_add": 7.128,
+      "speed_base": 103,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111011,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 190.08,
+      "attack_add": 5.28,
+      "defence_base": 112.86,
+      "defence_add": 3.135,
+      "hp_base": 256.608,
+      "hp_add": 7.128,
+      "speed_base": 103,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111012,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110417,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 232.32,
+      "attack_add": 5.28,
+      "defence_base": 137.94,
+      "defence_add": 3.135,
+      "hp_base": 313.632,
+      "hp_add": 7.128,
+      "speed_base": 103,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111012,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110417,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 274.56,
+      "attack_add": 5.28,
+      "defence_base": 163.02,
+      "defence_add": 3.135,
+      "hp_base": 370.656,
+      "hp_add": 7.128,
+      "speed_base": 103,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111013,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110417,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 316.8,
+      "attack_add": 5.28,
+      "defence_base": 188.1,
+      "defence_add": 3.135,
+      "hp_base": 427.68,
+      "hp_add": 7.128,
+      "speed_base": 103,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 111013,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110417,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 359.04,
+      "attack_add": 5.28,
+      "defence_base": 213.18,
+      "defence_add": 3.135,
+      "hp_base": 484.704,
+      "hp_add": 7.128,
+      "speed_base": 103,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1305,
+    "set4_id_list": [
+      117,
+      112,
+      115
+    ],
+    "set2_id_list": [
+      315,
+      306,
+      311
+    ],
+    "property_list3": [
+      "CriticalDamageBase",
+      "CriticalChanceBase"
+    ],
+    "property_list4": [
+      "SpeedDelta"
+    ],
+    "property_list5": [
+      "ImaginaryAddedRatio"
+    ],
+    "property_list6": [
+      "AttackAddedRatio"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "CriticalDamageBase"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "SpeedDelta"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "ImaginaryAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "AttackAddedRatio"
+      }
+    ],
+    "sub_affix_property_list": [
+      "CriticalChanceBase",
+      "CriticalDamageBase",
+      "AttackAddedRatio",
+      "SpeedDelta"
+    ],
+    "score_rank_list": [
+      346,
+      287
+    ],
+    "local_critical_chance": 0.1
+  },
+  "lightcones": [
+    23020,
+    24001,
+    23012
+  ],
+  "teams": [
+    {
+      "avatar_id": 1305,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1220,
+        1403,
+        1304
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1112,
+        1224,
+        1223
+      ],
+      "backup_list3": [
+        1409,
+        1222,
+        1414,
+        1217,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101,
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

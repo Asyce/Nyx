@@ -1,0 +1,3980 @@
+{
+  "name": "Phainon",
+  "desc": "Aedes Elysiae, a remote frontier village isolated from the world, now lives on only in cryptic legends.\\nThe Nameless hero, ████████, the Chrysos Heir holding the Coreflame of \"Worldbearing,\" memorizes the ideals of the entire world, carries the fate of millions, and brings the first light of dawn to the new world\\n—<i>\"But if dawn should never come, let this fury consume this body, and rise as tomorrow's blazing sun!\"</i>",
+  "chara_info": {
+    "camp": "Amphoreus",
+    "va": {
+      "chinese": "秦且歌",
+      "japanese": "日野聡",
+      "korean": "윤용식",
+      "english": "Joshua Waters"
+    },
+    "stories": {
+      "0": "Aedes Elysiae, a remote frontier village isolated from the world, now lives on only in cryptic legends.\\nThe Nameless hero, ████████, the Chrysos Heir holding the Coreflame of \"Worldbearing,\" memorizes the ideals of the entire world, carries the fate of millions, and brings the first light of dawn to the new world\\n—<i>\"But if dawn should never come, let this fury consume this body, and rise as tomorrow's blazing sun!\"</i>",
+      "1": "Aedes Elysiae, the boy's hometown.\\nThe village lived by the rhythm of the sun: working at daybreak, resting at sundown, just like his own life, simple and unadorned.\\n\\nIn a tiny schoolhouse that could barely fit a handful of students, the boy drifted off during a droning history lesson, his thoughts floating away with the wood shavings dancing from his hands.\\n\\nStroke by stroke, the figure of a warrior slowly emerged from the block of wood hidden in his desk drawer.\\n<i>\"A mighty greatsword... only a blade like that could match this strength...\"</i>\\nHe sharpened the edges of the wood chip in the sunlight.\\n<i>\"Armor scarred by honor, a cloak like wings soaring through the storm.\"\\n\"And then...\"</i>\\n\\n<i>\"Phainon! If you want to be the strongest warrior... you'd better start paying attention.\"</i>\\nMiss Pythias never gets tired of dragging him back to reality.\\n\\nThe boy preferred the training yard stacked with hay bales far more than school.\\nIt was his battlefield — where scarecrows turned into charging soldiers, or wild beasts on the rampage.\\nWhen he was not at school, he often spent entire days there with his carved wooden comrades, until the smell of cooking wafted from every household.\\n\\nBeneath the cool shade of the trees, the exhausted boy could fall asleep right on the grass.\\nIn his broken dreams, he gazed at city-states he had never seen and witnessed grand tales unfold.\\n\\n<i>\"Go... become a hero.\"</i>\\n\\nThat voice, like the endless waves of wheat in Aedes Elysiae, guided the boy onto the road of adventure.",
+      "2": "Facing the young drifter from afar, the weaver and the childlike seer would sometimes speak of the Flame-Chase and Chrysos Heirs.\\nThe weaver's sightless eyes seemed to see through his inner turmoil, while the seer's bright innocence gave him a warm sense of home.\\n\\n<i>\"So... the Chrysos Heirs were destined by the heavens?\"</i>\\nThe young man asked, gathering his courage.\\nThe weaver shook her head.\\n<i>\"No. It's more like a long, grueling pilgrimage.\"</i>\\n\\nThe young man tucked away the wheat-scented memories of his past and joined the holy city's legion, training day and night until difficult swordplay became as natural as breathing.\\nIn a death match that stunned the world, he battled the crown prince of Kremnos for ten days and nights. In each sweeping strike, he wielded his blade as if he'd already offered up his life without hesitation.\\n\\nOf course, more often than not, the young man greeted the world with humor and ease.\\n<i>\"I just want people to feel comfortable around me,\" he would say.</i>\\nThough his friends often scoffed at that, they knew it was that very spirit that earned the silver-haired youth the trust and respect of commoners and nobles alike in the holy city.\\n\\nDuring his years of study at the Grove, even though he had little interest in logic, the young man often triumphed in debates with his sharp wit after poring over books until the pages wore thin.\\nThough he could not outcompete his teacher's wisdom, deep down he knew — it was the courage to stay true to himself that he still lacked.\\n\\nYet when the young man returned from the battlefield and after the physician had bandaged his wounds, there was still a long silence.\\n<i>\"Lord Phainon... do you often wake in the night, or find yourself unable to sleep?\"</i>\\n\\nHe didn't mind.\\nTo walk the path that would strike down the gods themselves, he had to carve himself into the shape the people needed him to be.",
+      "3": "The god who wielded the Lightning Spear fell into madness. In the battle named Strife, the man and his comrade gave the mad god the final release.\\nIn the debate where the Coreflame of Reason was contested, the man faced down his old mentor and witnessed a brutal execution.\\nOn the battlefield of the Sky, he crossed the rainbow bridge, piercing the gloom with the burning light of the sun, lighting the perilous road ahead.\\n\\n<i>\"Deliverer, lead us forward.\"</i>\\nHearing those words of relief from the weaver, he felt only a bitter ache, a worry he refused to show in front of the crowd.\\n\\nThe crown prince of Kremnos, scarred by a thousand deaths, entrusted his people to him.\\n<i>\"Don't worry. I'll look after them for you.\"</i>\\nThe seer, her body split into countless pieces, faded away, and he took up the oath she had sworn before her journey.\\n<i>\"Miss Tribbie, I will live to see that morrow filled with the radiance of stars...\"</i>\\nThe scholar raced toward death in search of truth. The Holy Maiden embraced her lonely fate.\\n<i>\"In the next life, truth will be revealed, and life and death will find their rightful place.\"</i>\\nThe weaver found eternal rest in a golden bath. The fleet-footed rogue stopped in regret. The healer who once roamed the skies would never again return to the earth.\\n<i>\"With my body as kindling, I will become the blaze that lights the new world.\"</i>\\n\\nThe man could not shed tears, but used these searing pains to carve such memories into his mind.\\nBearing the hopes of all people, he staggered toward the mountain peak where the morning sun rises.\\n\\nHe believed that, one day, the dawn would break through the endless night of Amphoreus.\\n\\n<i>\"But should dawn have never existed...\"</i>\\nHe had asked himself that question thousands of times.\\nNow, heading toward the blazing, merciless end, he carved the final mark of \"Phainon\"—\\n\\n<i>\"Let the fires of rage burn this body to ashes and transform into the blazing sun of tomorrow!\"</i>",
+      "4": "As he had countless times before, he once again saw it through the blaze —\\n\\nMorning light pouring over the wheat fields of Aedes Elysiae, bathing the village in a golden glow.\\n\\n<i>\"Feels like... I've had this dream a thousand times before...\"</i>\\nThe boy rubbed his sleepy eyes as he woke beneath the tree.\\n\\nIn the dream, the sun fell from the sky, the statue of a hero crumbling, melting, shattering, consuming the world in flames.\\nIn the dead silence, a familiar figure, charred and broken, trudged alone into the endless darkness.\\n\\n<i>\"That figure burned itself away... and everything else around it too...\"</i>\\nThe boy stared blankly at the unfinished wooden carving. The searing anger and deep self-loathing from the dream still echoed through his heart.\\n<i>\"Maybe that broken world... is calling out for a hero...\"</i>\\n\\n<i>\"What will the future look like?\"</i>\\nLying back on the soft, golden straw, the boy pictured an epic tale unfolding before his eyes.\\n<i>\"Maybe the hero will roam the world, righting wrongs, solving impossible problems, yet leaving no name behind...\\n\"Carrying a mysterious past, defying a cruel fate, and vanquishing fearsome enemies.\\n\"When the world teeters on the brink, they'll honor their vow with a heart pure and true — wherever they go, peace and prosperity will follow...\\n\"Even if they fall a hundred times, a thousand times, a million times... A hero can be destroyed, but never defeated...\"</i>\\n\\n...\\n\\nIf nothing had changed...\\nThe days at Aedes Elysiae would have continued to drift by quietly, just as they always had.\\nThat tiny ember had already been planted deep in his heart at the start of his journey.\\nWhen the boy grew into a young man, when he once again stood at the ferry, setting out toward distant lands...\\nHe would rush toward the future, forgetting the broken dreams he left behind.\\nHe wouldn't realize how long and arduous the road ahead would be — not until he had used himself as the kindling to feed a futile flame.\\nOnly when he reached the end would he learn how far he had come.\\n\\nOne last time, he would remember that morning when the sun first rose and who he was when he carved the first shape of his ideals. In the years to come, he would give that person a new name: \"Deliverer.\"\\n\\nAnd so, his name faded into the scattered fragments of memory."
+    },
+    "voicelines": [
+      {
+        "voice_id": 34,
+        "voice_title": "First Meeting",
+        "voice_m": "I'm Phainon of Aedes Elysiae. Greetings. As fellow outlanders in Okhema, our meeting is surely fate's design. Come. Maybe we'll even have a chance to fight alongside each other in the future.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "Greeting",
+        "voice_m": "Perfect timing! I was just heading out to find you. How about we spar a bit?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "Parting",
+        "voice_m": "Goodbye, my friend. When we meet again, may we both become the heroes we aspire to be!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 1,
+        "voice_title": "About Self: Wishes",
+        "voice_m": "I left for the holy city to seek the dawn after the black-robed swordmaster laid waste to my homeland. My wish as a Chrysos Heir has never changed: I just want to shoulder the hopes of others, chase the Coreflames, and build a new tomorrow...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "About Self: Wishes",
+        "voice_m": "I left for the holy city to seek the dawn after the black-robed swordmaster laid waste to my homeland. My wish as a Chrysos Heir has never changed — I just want to shoulder the hopes of others, chase the Coreflames, and build a new tomorrow... But now... I realize Amphoreus has no tomorrow... not until you arrived.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "About Self: Past",
+        "voice_m": "When I was a child, I often imagined myself learning swordplay from an outland hero, cutting through monsters, and then embarking on a journey to save the world... I guess that dream came true.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "Chat: The Hero Within",
+        "voice_m": "There's a hero within everyone's heart. With the chisel of time, we carve ourselves stroke by stroke, until the hero becomes real. Until they become our greatest creation.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "Hobbies: Treasure Appraisal",
+        "voice_m": "Spotting fakes isn't the hard part. The real trick is knowing how to talk people into accepting that their beloved treasure is a fake. If you can do that, you can succeed at anything.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Annoyances",
+        "voice_m": "The hunger for vengeance has carried me through this journey, but despite my uncertainty, I still believe there's light at the end of the deepest dark.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Annoyances",
+        "voice_m": "The hunger for vengeance has carried me through this journey. Despite my uncertainty, I still believe there's light at the end of the deepest dark. But that light is not the blazing sun that will bring a new dawn. It's a blazing anger that will set my very being aflame!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Something to Share",
+        "voice_m": "The wheat fields of Aedes Elysiae were like endless seas. Like plants that bud, bloom, then wilt... Children were born there, played there, and grew up there... No matter where I went, I could always smell that sweet, wheat-scented breeze. Looking back now, I think that's what stopped me from straying off the path.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Knowledge",
+        "voice_m": "For some reason, I keep having this dream... I dreamed that I carried a huge rock up to the top of a mountain at dusk, but whenever the sun was about to come up, the rock would fall, and I'd carry it on my back to climb the mountain again...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Knowledge",
+        "voice_m": "I carried a huge rock up to the top of a mountain at dusk, but whenever the sun was about to come up, the rock would fall, and I'd carry it on my back to climb the mountain again... A road of agony and despair, yet it is the only moment I feel happiness! Millions of Coreflames are searing my soul to embers, yet they also cradle me in warmth.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "About {NICKNAME} 1",
+        "voice_m": "I've learned much from you about the essence of \"Trailblazing.\" Exploring the Cosmos, bridging worlds... If it weren't for my duties, I'd gladly try my hand at being a Nameless!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "About {NICKNAME} 2",
+        "voice_m": "...The composition of our existences may be fundamentally different, but the \"heart\" that beats within us both burns with the same heat.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Cyrene",
+        "voice_m": "She always said that she hoped for the world to no longer need a Deliverer. She must've known deep down that, as long as there are still people who love this world, a Deliverer is destined to appear.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Aglaea",
+        "voice_m": "Many said that her heart is a void, filled with nothing. Yet, this seeming emptiness was needed to encompass the wishes of an entire world.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Tribbie, Trianne, and Trinnon",
+        "voice_m": "They created history, recounted history, and became a part of history... But they have never let the passage of time erode their resolve. I should do the same.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Mydei",
+        "voice_m": "He never says what he thinks, but his simple and heavy feelings are always evident — so simple that they contain nothing except his home, and so heavy that they are reduced to nothing except sighs... Maybe that's why we became kindred spirits.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Castorice",
+        "voice_m": "She taught us that death can be warm, graceful, and kind... Shouldn't life, then, be even more so?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Anaxa",
+        "voice_m": "\"The man cursed by Mnestia\" — The professor often referred to me this way, and I took it in stride. After all, the courage to be unique is a virtue I learned from him.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Hyacine",
+        "voice_m": "Every time I visit that sunlit courtyard, the gentle light through the latticed windows evokes the image of my homeland's sprawling wheat fields. In these end times, the hope she gives is far more precious than any medicine or healing.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Cipher",
+        "voice_m": "She teased Death, toyed with Strife, and single-handedly upheld her Trickery. Her endurance and unrestrained spirit are truly admirable.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "About Hysilens",
+        "voice_m": "After waiting in solitude for so long, we were both able to see the arrival of the hero who would break the cycle. Every second that passed during that wait will be fermented by time and turned into a blazing and potent final brew.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 38,
+        "voice_title": "About Cerydra",
+        "voice_m": "With the golden blood of countless beings, she etched the mark of heroes upon the ages. Though I did not walk with them, the great cause of the Flame-Chase would have long died without her sacrifices.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 39,
+        "voice_title": "About March 7th",
+        "voice_m": "A person may have many names over their lifetime. Whether hers is \"Evernight\" or \"March 7th,\" I hope her colors never fade with the passage of time.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 40,
+        "voice_title": "About Dan Heng • Permansor Terrae",
+        "voice_m": "He always gives out this trustworthy feeling of \"he'll stand with you no matter what.\" That's what you expect out of a Nameless.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Fate is enough to surpass prophecies.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Character Ascension",
+        "voice_m": "Golden blood will not flow in vain.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "Max Level Reached",
+        "voice_m": "We will eventually become the flames that light up the new world.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Trace Activation",
+        "voice_m": "Every step upon the ashes once kindled sparks.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "We can always fight side by side, no matter the time.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Added to Team With Aglaea",
+        "voice_m": "Everything is ready. It's time to march out.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Added to Team With Castorice",
+        "voice_m": "Even in the face of death, people can still make a choice.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Added to Team With Tribbie",
+        "voice_m": "Lady Tribbie, it's fine if you just direct us from a distance.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "Added to Team With Mydei",
+        "voice_m": "What should our contest be this time? Speed? Or strength?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With Anaxa",
+        "voice_m": "The battlefield is like a classroom. I look forward to your valuable insight.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "Added to Team With Hyacine",
+        "voice_m": "If an emergency unfolds, please focus on healing the others first.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "Added to Team With Cipher",
+        "voice_m": "Miss Cipher, if you've got a scheme in mind, a little early notice wouldn't hurt.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 41,
+        "voice_title": "Added to Team With Hysilens",
+        "voice_m": "Singer of the Ocean, let us walk towards triumph together.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 42,
+        "voice_title": "Added to Team With Cerydra",
+        "voice_m": "Where will your commands be directed, Imperator?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 43,
+        "voice_title": "Added to Team With March 7th",
+        "voice_m": "Thank you for standing with Amphoreus, Miss March.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 44,
+        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
+        "voice_m": "I shall remember every risk that the Nameless took for us.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 45,
+        "voice_title": "Added to Team With Cyrene",
+        "voice_m": "Let us fight for the world we so deeply love... just how we had wished.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Don't stop. Finish them off.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "It's time to temper myself.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Battle Begins: Weakness Break (Divine Vessel)",
+        "voice_m": "The scorching hatred... Do you feel it now?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "There's no other choice but to move forward.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "My existence is of little consequence.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Turn Begins 1 (Divine Vessel)",
+        "voice_m": "I will never yield to such a fate.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Turn Begins 2 (Divine Vessel)",
+        "voice_m": "The flames in this body are not strong enough.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Turn Idling",
+        "voice_m": "I won't give up, no matter how long I must wait.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Turn Idling (Divine Vessel)",
+        "voice_m": "Don't let time burn away in vain.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Basic ATK",
+        "voice_m": "Let's get started!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Skill 1",
+        "voice_m": "The new world will arrive!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Skill 2",
+        "voice_m": "For the next tomorrow!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Basic ATK 1 (Divine Vessel)",
+        "voice_m": "Merely an empty shell.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Basic ATK 2 (Divine Vessel)",
+        "voice_m": "A soul without substance.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Enhanced (Divine Vessel)",
+        "voice_m": "Quench the flames, with blood!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Counter 1 (Divine Vessel)",
+        "voice_m": "Remember this agony!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Counter 2 (Divine Vessel)",
+        "voice_m": "Branded with Strife's name!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Skill 1 (Divine Vessel)",
+        "voice_m": "Melt the eternal night!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Skill 2 (Divine Vessel)",
+        "voice_m": "Shatter this cage!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Enhanced Skill 1 (Divine Vessel)",
+        "voice_m": "With this newborn sun, tear open the sky!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Enhanced Skill 2 (Divine Vessel)",
+        "voice_m": "With the old sun's embers, hail the new world's dawn!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "I'm fine.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Hit by Light Attack (Divine Vessel)",
+        "voice_m": "Is that all?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "I can't... let them down...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "The fury of innumerable Coreflames, consume me!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 77,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "I grant you a dawn where all stars burn to ash.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 78,
+        "voice_title": "Downed",
+        "voice_m": "I won't... forget...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 79,
+        "voice_title": "Return to Battle",
+        "voice_m": "No matter. I'll once more give everything.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 80,
+        "voice_title": "Health Recovery",
+        "voice_m": "Thank you. I can still keep going.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 81,
+        "voice_title": "Technique",
+        "voice_m": "Light up the dawn!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 82,
+        "voice_title": "Battle Won",
+        "voice_m": "Amphoreus will welcome a true dawn.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 83,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "I've appraised it all. No fakes.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 84,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Is this also a blessing of the Trailblaze?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 85,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Mmm, pretty good luck.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 86,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Reminds me of when I was studying at the Grove...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 87,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "No worries. Anything's possible if you take it step by step.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 88,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "That looks like a tough one... Let me test the waters first.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 89,
+        "voice_title": "Returning to Town",
+        "voice_m": "Peaceful days are like breezes carrying the scent of wheat fields.",
+        "is_battle_voice": true
+      }
+    ]
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "phainon",
+  "sp_need": 12,
+  "base_type": "Warrior",
+  "damage_type": "Physical",
+  "ranks": {
+    "1": {
+      "id": 140801,
+      "name": "Fire and Light Bind Virtue and Vice",
+      "desc": "The base SPD inheritance ratio for <u>Khaslana's extra turn</u> increases to <unbreak>#5[i]%</unbreak>. For every enemy target defeated in one battle, additionally increases this ratio by <unbreak>#1[f1]%</unbreak>, up to a max of <unbreak>#4[i]%</unbreak>.\\nWhen using Ultimate, increases CRIT DMG by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+      "icon": "SkillIcon_1408_Rank1.png",
+      "param_list": [
+        0.015,
+        0.5,
+        3,
+        0.84,
+        0.66
+      ],
+      "extra": {
+        "10014082": {
+          "name": "Khaslana's Extra Turn",
+          "desc": "When Phainon transforms into Khaslana, a countdown will appear on the Action Order. When the countdown begins, Khaslana will gain 1 extra turn. When the last turn of the countdown begins, transforms into Khaslana and delivers a final hit before ending the transformation.\\nThe countdown initial action value will be set between 0–<unbreak>100%</unbreak>. The action value will not be reset at the start of each wave.\\nWhen Khaslana is under the effect of action advance, the first countdown's action is advanced instead.",
+          "param": []
+        }
+      }
+    },
+    "2": {
+      "id": 140802,
+      "name": "Sky and Earth Churn Mortal Froth",
+      "desc": "Khaslana's Physical <u>RES PEN</u> increases by <unbreak>#2[i]%</unbreak>. When one use of \"Foundation: Stardeath Verdict\" consumes <unbreak>#1[i]</unbreak> <u>\"Scourge\"</u> point(s), gains 1 <u>extra turn</u>.",
+      "icon": "SkillIcon_1408_Rank2.png",
+      "param_list": [
+        4,
+        0.2
+      ],
+      "extra": {
+        "10000000": {
+          "name": "Extra Turn",
+          "desc": "Gain 1 extra turn that won't expend your remaining turns when taking action. During this extra turn, no Ultimate can be used.",
+          "param": []
+        },
+        "10014081": {
+          "name": "Scourge",
+          "desc": "Khaslana's exclusive charge with an upper limit of 7. Will be retained even before transforming.",
+          "param": []
+        },
+        "30000005": {
+          "name": "RES PEN",
+          "desc": "When dealing DMG, ignore a part of the enemy target's resistance to the corresponding damage type.",
+          "param": []
+        }
+      }
+    },
+    "3": {
+      "id": 140803,
+      "name": "Depths of Quiet, Entombed in Ruin",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1408_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 140804,
+      "name": "Faces of Titans, Blurred by Time",
+      "desc": "When using \"Calamity: Soulscorch Edict,\" additionally gains <unbreak>#1[i]</unbreak> stack(s) of \"Soulscorch.\"",
+      "icon": "SkillIcon_1408_Rank4.png",
+      "param_list": [
+        4
+      ],
+      "extra": {}
+    },
+    "5": {
+      "id": 140805,
+      "name": "The Wheel Spins Forevermore",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1408_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 140806,
+      "name": "Embers of Old Rise Still",
+      "desc": "The number of overflow points allowed for \"Coreflame\" no longer has an upper limit. When the battle starts, gains <unbreak>#2[i]</unbreak> point(s) of \"Coreflame.\"\\nAfter using the attack from \"Foundation: Stardeath Verdict,\" additionally deals <u>True DMG</u> equal to <unbreak>#1[i]%</unbreak> of the total DMG dealt in this attack to the enemy target with the highest HP.",
+      "icon": "SkillIcon_1408_Rank6.png",
+      "param_list": [
+        0.36,
+        6
+      ],
+      "extra": {
+        "10000017": {
+          "name": "True DMG",
+          "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as using 1 attack.",
+          "param": []
+        }
+      }
+    }
+  },
+  "skills": {
+    "140801": {
+      "id": 140801,
+      "name": "Stride to Deliverance",
+      "desc": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Phainon's ATK to one designated enemy.",
+      "simple_desc": "Deals minor Physical DMG to one enemy.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.6
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.7
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.8
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.9
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.1
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.4
+          ]
+        }
+      }
+    },
+    "140802": {
+      "id": 140802,
+      "name": "Let There Be Light",
+      "desc": "Gains <unbreak>#3[i]</unbreak> point(s) of \"Coreflame,\" dealing Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Phainon's ATK to one designated enemy and Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Phainon's ATK to adjacent targets.",
+      "simple_desc": "Gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> point(s) of <color=#f29e38ff>\"Coreflame\"</color>, dealing massive Physical DMG to one enemy and Physical DMG to adjacent targets.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Blast",
+      "bp_need": 1,
+      "show_stance_list": [
+        60,
+        0,
+        30
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1.5,
+            0.6,
+            2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.65,
+            0.66,
+            2
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.8,
+            0.72,
+            2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.95,
+            0.78,
+            2
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            2.1,
+            0.84,
+            2
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            2.25,
+            0.9,
+            2
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            2.4375,
+            0.975,
+            2
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            2.625,
+            1.05,
+            2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            2.8125,
+            1.125,
+            2
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            3,
+            1.2,
+            2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            3.15,
+            1.26,
+            2
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            3.3,
+            1.32,
+            2
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            3.45,
+            1.38,
+            2
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            3.6,
+            1.44,
+            2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            3.75,
+            1.5,
+            2
+          ]
+        }
+      }
+    },
+    "140803": {
+      "id": 140803,
+      "name": "He Who Bears the World Must Burn",
+      "desc": "Transforms into Khaslana. During the transformation, deploys the <u>Territory</u> \"Ruinous Irontomb.\" Within the <u>Territory</u>, other teammates <u>depart</u> and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has <unbreak>#4[i]</unbreak> <u>Khaslana's extra turn(s)</u>, with a SPD set at <unbreak>#3[i]%</unbreak> of Khaslana's base SPD. When the last of <u>Khaslana's extra turns</u> starts, immediately launches a final hit and deals Physical Ultimate DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Khaslana's ATK that is distributed evenly across all enemies.",
+      "simple_desc": "<color=#f29e38ff>Transforms into Khaslana</color> and deploys a <u>Territory</u>: Teammates <u>depart</u> and cannot take action, and all enemies have Physical Weaknesses.\\nKhaslana does not enter his own turn, but has <color=#f29e38ff><unbreak>#4[i]</unbreak></color> <u>Khaslana's <color=#f29e38ff>extra turn(s)</color></u>. In the final turn, launches a final hit and deals massive Physical DMG that is distributed evenly across all enemies.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "AoEAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        60,
+        0
+      ],
+      "extra": {
+        "10000016": {
+          "name": "Departed",
+          "desc": "Targets in the Departed state cannot be designated as ability targets and will not appear in the Action Order.",
+          "param": []
+        },
+        "10000020": {
+          "name": "Territory",
+          "desc": "Territory effects are unique in the battle. While it exists, other abilities with Territory effects cannot be used.",
+          "param": []
+        },
+        "10014082": {
+          "name": "Khaslana's Extra Turn",
+          "desc": "When Phainon transforms into Khaslana, a countdown will appear on the Action Order. When the countdown begins, Khaslana will gain 1 extra turn. When the last turn of the countdown begins, transforms into Khaslana and delivers a final hit before ending the transformation.\\nThe countdown initial action value will be set between 0–<unbreak>100%</unbreak>. The action value will not be reset at the start of each wave.\\nWhen Khaslana is under the effect of action advance, the first countdown's action is advanced instead.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            4.8,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            5.28,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            5.76,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            6.24,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            6.72,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            7.2,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            7.8,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            8.4,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            9,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            9.6,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            10.08,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            10.56,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            11.04,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            11.52,
+            12,
+            0.6,
+            8
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            12,
+            12,
+            0.6,
+            8
+          ]
+        }
+      }
+    },
+    "140804": {
+      "id": 140804,
+      "name": "Pyric Corpus",
+      "desc": "Phainon's Talent. When \"Coreflame\" reaches <unbreak>#4[i]</unbreak> point(s), can activate Ultimate. Even after reaching the limit, can still hold up to <unbreak>#3[i]</unbreak> overflow point(s). When the transformation ends, gains \"Coreflame\" based on the number of overflow points.\\nWhen Phainon is targeted by an ability from any other target, gains 1 \"Coreflame\" point. And if the ability is cast by one of Phainon's teammates, can also increase Phainon's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).",
+      "simple_desc": "Phainon's Talent. When \"Coreflame\" reaches <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, can activate Ultimate.\\nWhen Phainon is <color=#f29e38ff>targeted by abilities from other targets</color>, gains <color=#f29e38ff>\"Coreflame\"</color>. When targeted by a teammate's ability, increases CRIT DMG.",
+      "type_name": "Talent",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.15,
+            3,
+            3,
+            12
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.165,
+            3,
+            3,
+            12
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.18,
+            3,
+            3,
+            12
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.195,
+            3,
+            3,
+            12
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.21,
+            3,
+            3,
+            12
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.225,
+            3,
+            3,
+            12
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.24375,
+            3,
+            3,
+            12
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.2625,
+            3,
+            3,
+            12
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.28125,
+            3,
+            3,
+            12
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.3,
+            3,
+            3,
+            12
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.315,
+            3,
+            3,
+            12
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.33,
+            3,
+            3,
+            12
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.345,
+            3,
+            3,
+            12
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.36,
+            3,
+            3,
+            12
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.375,
+            3,
+            3,
+            12
+          ]
+        }
+      }
+    },
+    "140805": {
+      "id": 140805,
+      "name": "Fate: Divine Vessel",
+      "desc": "Khaslana's Talent. Upon transformation, gains <unbreak>#1[i]</unbreak> point(s) of <u>\"Scourge\"</u>. If this happens during an ally target's turn, then the duration of all <u>buffs</u> on that target is extended by 1 turn and the current turn ends.\\nKhaslana is immune to <u>Crowd Control debuffs</u>, has 1 Enhanced Basic ATK and 2 Enhanced Skills, but cannot use Ultimate. During the transformation, increases ATK by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> and Max HP by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>. After using an attack, restores HP equal to <unbreak>#7[i]%</unbreak> of his Max HP. When Khaslana takes a killing blow, he will not get <u>knocked down</u>. Instead, he will restore HP equal to <unbreak>#2[i]%</unbreak> of Max HP and immediately launch a final hit. For every 1 remaining <u>Khaslana's extra turn</u>, the final hit's DMG multiplier decreases by <unbreak>#3[f1]%</unbreak> of its original multiplier value.\\nWhen the transformation ends, increases all allies' SPD by <unbreak>#6[i]%</unbreak> for 1 turn.",
+      "simple_desc": "Khaslana's Talent. Upon transformation, gains <u>\"Scourge\"</u>.\\nKhaslana is immune to <u>Crowd Control debuffs</u> and has <color=#f29e38ff>3 new abilities</color>. During the transformation, increases ATK and Max HP. Using attacks restores HP. When taking a killing blow, restores HP and immediately uses a final hit. The more remaining actions he has, the lower the DMG multiplier.\\nWhen the transformation ends, increases all allies' SPD.",
+      "type_name": "Talent",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000007": {
+          "name": "Downed State",
+          "desc": "An ally will be incapacitated once their HP is reduced to 0.",
+          "param": []
+        },
+        "10000009": {
+          "name": "Buff",
+          "desc": "Can buff combat ability for a period of time, which can be dispelled unless otherwise specified.",
+          "param": []
+        },
+        "10000011": {
+          "name": "Crowd Control debuff",
+          "desc": "Freeze, Entanglement, Imprisonment, Dominance, Outrage, Strong Reverberation, Alien Dream, Snarelock, Terrified, Action Lock, Happiness Puppet, Grudge Ablaze.",
+          "param": []
+        },
+        "10014081": {
+          "name": "Scourge",
+          "desc": "Khaslana's exclusive charge with an upper limit of 7. Will be retained even before transforming.",
+          "param": []
+        },
+        "10014082": {
+          "name": "Khaslana's Extra Turn",
+          "desc": "When Phainon transforms into Khaslana, a countdown will appear on the Action Order. When the countdown begins, Khaslana will gain 1 extra turn. When the last turn of the countdown begins, transforms into Khaslana and delivers a final hit before ending the transformation.\\nThe countdown initial action value will be set between 0–<unbreak>100%</unbreak>. The action value will not be reset at the start of each wave.\\nWhen Khaslana is under the effect of action advance, the first countdown's action is advanced instead.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.4,
+            1.35,
+            0.15,
+            0.2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.44,
+            1.485,
+            0.15,
+            0.2
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.48,
+            1.62,
+            0.15,
+            0.2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.52,
+            1.755,
+            0.15,
+            0.2
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.56,
+            1.89,
+            0.15,
+            0.2
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.6,
+            2.025,
+            0.15,
+            0.2
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.65,
+            2.19375,
+            0.15,
+            0.2
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.7,
+            2.3625,
+            0.15,
+            0.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.75,
+            2.53125,
+            0.15,
+            0.2
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.8,
+            2.7,
+            0.15,
+            0.2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.84,
+            2.835,
+            0.15,
+            0.2
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.88,
+            2.97,
+            0.15,
+            0.2
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.92,
+            3.105,
+            0.15,
+            0.2
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            0.96,
+            3.24,
+            0.15,
+            0.2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            4,
+            0.25,
+            0.125,
+            1,
+            3.375,
+            0.15,
+            0.2
+          ]
+        }
+      }
+    },
+    "140806": {
+      "id": 140806,
+      "name": "Attack",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "140807": {
+      "id": 140807,
+      "name": "Beginning of the End",
+      "desc": "While Phainon is in the team, increases Max Technique Points by 3.\\nWhen actively using this Technique, consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, regenerates <unbreak>#3[i]</unbreak> Energy for allies and gains <unbreak>#2[i]</unbreak> <u>\"Scourge\"</u> and <unbreak>#4[i]</unbreak> Skill Point(s). Deals Physical DMG equal to <unbreak>#1[i]%</unbreak> of Phainon's ATK to all enemies at the start of each wave.\\nIf attacking a normal enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
+      "simple_desc": "Increases <color=#f29e38ff>Max Technique Points</color> by 3. When actively using this Technique, consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, regenerates Energy for allies and gains Skill Points and <u>\"Scourge.\"</u> Deals Physical DMG to all enemies at the start of each wave.\\nIf attacking a normal enemy, <color=#f29e38ff>immediately defeats them</color> without entering combat. No Technique Points are consumed if no enemies are hit.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        60,
+        0,
+        0
+      ],
+      "extra": {
+        "10014081": {
+          "name": "Scourge",
+          "desc": "Khaslana's exclusive charge with an upper limit of 7. Will be retained even before transforming.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            2,
+            2,
+            25,
+            1
+          ]
+        }
+      }
+    },
+    "140808": {
+      "id": 140808,
+      "name": "Creation: Bloodthorn Ferry",
+      "desc": "Gains <unbreak>#3[i]</unbreak> point(s) of <u>\"Scourge\"</u>, dealing Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Khaslana's ATK to one designated enemy and Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Khaslana's ATK to adjacent targets.",
+      "simple_desc": "Gains <color=#f29e38ff><unbreak>#3[i]</unbreak></color> point(s) of <color=#f29e38ff><u>\"Scourge\"</u></color>, dealing massive Physical DMG to one designated enemy and Physical DMG to adjacent targets.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "Blast",
+      "bp_need": -1,
+      "show_stance_list": [
+        90,
+        0,
+        60
+      ],
+      "extra": {
+        "10014081": {
+          "name": "Scourge",
+          "desc": "Khaslana's exclusive charge with an upper limit of 7. Will be retained even before transforming.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1.25,
+            0.375,
+            2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.5,
+            0.45,
+            2
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.75,
+            0.525,
+            2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            2,
+            0.6,
+            2
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            2.25,
+            0.675,
+            2
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            2.5,
+            0.75,
+            2
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            2.75,
+            0.825,
+            2
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            3,
+            0.9,
+            2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            3.25,
+            0.975,
+            2
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            3.5,
+            1.05,
+            2
+          ]
+        }
+      }
+    },
+    "140809": {
+      "id": 140809,
+      "name": "Calamity: Soulscorch Edict",
+      "desc": "Gains <u>\"Scourge\"</u> by an amount equal to the number of enemies and 1 stack of \"Soulscorch,\" then causes all enemies to immediately take action.\\nWhile in the \"Soulscorch\" state, Khaslana takes <unbreak>#2[i]%</unbreak> reduced DMG. After an enemy target attacks or takes action, gains 1 more stack of \"Soulscorch.\" After said enemy targets finish their actions, immediately launches <u>Counter</u>, deals Physical DMG to all enemies equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Khaslana's ATK, and additionally deals <unbreak>#3[i]</unbreak> instance(s) of DMG, with each instance being Physical DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Khaslana's ATK dealt to one random enemy. Afterward, \"Soulscorch\" is dispelled. Each \"Soulscorch\" stack increases the DMG multiplier of said <u>Counter</u> by <unbreak>#5[i]%</unbreak> of its original multiplier value.\\nDMG dealt through this ability is considered as Skill DMG. If \"Soulscorch\" is still active at the start of <u>Khaslana's extra turn</u>, immediately launches <u>Counter</u>.",
+      "simple_desc": "Gains an equal amount of <color=#f29e38ff><u>\"Scourge\"</u></color> based on the number of enemies, and causes them to immediately take action. Gains \"Soulscorch\": Reduces DMG taken. After all enemy targets have taken action, launches <color=#f29e38ff><u>Counter</u></color>, and deals minor Physical DMG to all enemies that bounces <color=#f29e38ff><unbreak>#3[i]</unbreak></color> time(s), with each time dealing minor Physical DMG to one random enemy. The more actions enemies take, the higher the DMG.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        15,
+        0
+      ],
+      "extra": {
+        "10000003": {
+          "name": "Counter",
+          "desc": "An effect that automatically triggers when the target is attacked, which unleashes an extra attack on the attacker.\\nCounter is also considered a Follow-Up ATK.",
+          "param": []
+        },
+        "10014081": {
+          "name": "Scourge",
+          "desc": "Khaslana's exclusive charge with an upper limit of 7. Will be retained even before transforming.",
+          "param": []
+        },
+        "10014082": {
+          "name": "Khaslana's Extra Turn",
+          "desc": "When Phainon transforms into Khaslana, a countdown will appear on the Action Order. When the countdown begins, Khaslana will gain 1 extra turn. When the last turn of the countdown begins, transforms into Khaslana and delivers a final hit before ending the transformation.\\nThe countdown initial action value will be set between 0–<unbreak>100%</unbreak>. The action value will not be reset at the start of each wave.\\nWhen Khaslana is under the effect of action advance, the first countdown's action is advanced instead.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.2,
+            0.75,
+            4,
+            0.15,
+            0.2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.22,
+            0.75,
+            4,
+            0.165,
+            0.2
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.24,
+            0.75,
+            4,
+            0.18,
+            0.2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.26,
+            0.75,
+            4,
+            0.195,
+            0.2
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.28,
+            0.75,
+            4,
+            0.21,
+            0.2
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.3,
+            0.75,
+            4,
+            0.225,
+            0.2
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.325,
+            0.75,
+            4,
+            0.24375,
+            0.2
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.35,
+            0.75,
+            4,
+            0.2625,
+            0.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.375,
+            0.75,
+            4,
+            0.28125,
+            0.2
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.4,
+            0.75,
+            4,
+            0.3,
+            0.2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.42,
+            0.75,
+            4,
+            0.315,
+            0.2
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.44,
+            0.75,
+            4,
+            0.33,
+            0.2
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.46,
+            0.75,
+            4,
+            0.345,
+            0.2
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.48,
+            0.75,
+            4,
+            0.36,
+            0.2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.5,
+            0.75,
+            4,
+            0.375,
+            0.2
+          ]
+        }
+      }
+    },
+    "140811": {
+      "id": 140811,
+      "name": "Foundation: Stardeath Verdict",
+      "desc": "Dispels all <u>debuffs</u> on this unit, then deals Physical DMG equal to a max of <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of Khaslana's ATK.\\nFor every 1 point of <u>\"Scourge\"</u> consumed, deals <unbreak>#3[i]</unbreak> instance(s) of DMG, with each instance being Physical DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Khaslana's ATK dealt to one random enemy. When consuming <unbreak>#4[i]</unbreak> point(s) of <u>\"Scourge\"</u>, additionally deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Khaslana's ATK, which is evenly distributed across all enemies.",
+      "simple_desc": "Dispels all <u>debuffs</u> on this unit. <color=#f29e38ff>For every 1 <u>\"Scourge\"</u> consumed, bounces <color=#f29e38ff><unbreak>#3[i]</unbreak></color> time(s)</color>, with each time dealing minor Physical DMG to one random enemy.\\nIf <color=#f29e38ff><unbreak>#4[i]</unbreak></color> <u>\"Scourge\"</u> are consumed, additionally deals massive Physical DMG that is evenly taken by all enemies.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Bounce",
+      "bp_need": -1,
+      "show_stance_list": [
+        10,
+        60,
+        0
+      ],
+      "extra": {
+        "10000010": {
+          "name": "Debuff",
+          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "param": []
+        },
+        "10014081": {
+          "name": "Scourge",
+          "desc": "Khaslana's exclusive charge with an upper limit of 7. Will be retained even before transforming.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            2.25,
+            0.225,
+            4,
+            4,
+            5.85
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            2.475,
+            0.2475,
+            4,
+            4,
+            6.435
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            2.7,
+            0.27,
+            4,
+            4,
+            7.02
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            2.925,
+            0.2925,
+            4,
+            4,
+            7.605
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            3.15,
+            0.315,
+            4,
+            4,
+            8.19
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            3.375,
+            0.3375,
+            4,
+            4,
+            8.775
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            3.65625,
+            0.365625,
+            4,
+            4,
+            9.50625
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            3.9375,
+            0.39375,
+            4,
+            4,
+            10.2375
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            4.21875,
+            0.421875,
+            4,
+            4,
+            10.96875
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            4.5,
+            0.45,
+            4,
+            4,
+            11.7
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            4.725,
+            0.4725,
+            4,
+            4,
+            12.285
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            4.95,
+            0.495,
+            4,
+            4,
+            12.87
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            5.175,
+            0.5175,
+            4,
+            4,
+            13.455
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            5.4,
+            0.54,
+            4,
+            4,
+            14.04
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            5.625,
+            0.5625,
+            4,
+            4,
+            14.625
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1408_Normal.png",
+        "level_up_skill_id": [
+          140801,
+          140808
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1408001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Normal.png",
+        "level_up_skill_id": [
+          140801,
+          140808
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1408001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Normal.png",
+        "level_up_skill_id": [
+          140801,
+          140808
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1408001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Normal.png",
+        "level_up_skill_id": [
+          140801,
+          140808
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1408001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Normal.png",
+        "level_up_skill_id": [
+          140801,
+          140808
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1408001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Normal.png",
+        "level_up_skill_id": [
+          140801,
+          140808
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1408001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_BP.png",
+        "level_up_skill_id": [
+          140802,
+          140809,
+          140811
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Ultra.png",
+        "level_up_skill_id": [
+          140803
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_Passive.png",
+        "level_up_skill_id": [
+          140804,
+          140805
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1408004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1408_Maze.png",
+        "level_up_skill_id": [
+          140807
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          3,
+          1
+        ],
+        "point_id": 1408101,
+        "point_name": "March to Oblivion",
+        "point_desc": "When the battle starts, gains <unbreak>#2[i]</unbreak> point(s) of \"Coreflame.\" When the transformation ends, gains <unbreak>#1[i]</unbreak> point(s) of \"Coreflame.\"",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.45,
+          4,
+          1
+        ],
+        "point_id": 1408102,
+        "point_name": "Bide in Flames",
+        "point_desc": "When receiving healing or a Shield from a teammate, deals <unbreak>#1[i]%</unbreak> increased DMG for <unbreak>#2[i]</unbreak> turn(s). This effect cannot trigger repeatedly within one turn.\\nWhen receiving an Energy Regeneration effect from a teammate's ability, gains <unbreak>#3[i]</unbreak> point(s) of \"Coreflame.\"",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1408_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110507,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.5,
+          2
+        ],
+        "point_id": 1408103,
+        "point_name": "Shine with Valor",
+        "point_desc": "When entering combat or ending transformation, increases ATK by <unbreak>#1[i]%</unbreak>. This effect can stack up to <unbreak>#2[i]</unbreak> time(s).",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408201,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.053,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110181,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408202,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [
+          1408101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408203,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1408202
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.053,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408204,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [
+          1408203
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 2,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110182,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408205,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1408102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.08,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408206,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1408205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408207,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [
+          1408206
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.08,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408208,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1408103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 3,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408209,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1408208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.053,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110183,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1408210,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1408208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.107,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {},
+  "unique": {},
+  "stats": {
+    "0": {
+      "attack_base": 79.2,
+      "attack_add": 3.96,
+      "defence_base": 95.7,
+      "defence_add": 4.785,
+      "hp_base": 195.36,
+      "hp_add": 9.768,
+      "speed_base": 94,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115011,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 110.88,
+      "attack_add": 3.96,
+      "defence_base": 133.98,
+      "defence_add": 4.785,
+      "hp_base": 273.504,
+      "hp_add": 9.768,
+      "speed_base": 94,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115011,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 142.56,
+      "attack_add": 3.96,
+      "defence_base": 172.26,
+      "defence_add": 4.785,
+      "hp_base": 351.648,
+      "hp_add": 9.768,
+      "speed_base": 94,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115012,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110431,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 174.24,
+      "attack_add": 3.96,
+      "defence_base": 210.54,
+      "defence_add": 4.785,
+      "hp_base": 429.792,
+      "hp_add": 9.768,
+      "speed_base": 94,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115012,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110431,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 205.92,
+      "attack_add": 3.96,
+      "defence_base": 248.82,
+      "defence_add": 4.785,
+      "hp_base": 507.936,
+      "hp_add": 9.768,
+      "speed_base": 94,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115013,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110431,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 237.6,
+      "attack_add": 3.96,
+      "defence_base": 287.1,
+      "defence_add": 4.785,
+      "hp_base": 586.08,
+      "hp_add": 9.768,
+      "speed_base": 94,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115013,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110431,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 269.28,
+      "attack_add": 3.96,
+      "defence_base": 325.38,
+      "defence_add": 4.785,
+      "hp_base": 664.224,
+      "hp_add": 9.768,
+      "speed_base": 94,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 125,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1408,
+    "set4_id_list": [
+      126,
+      105,
+      122
+    ],
+    "set2_id_list": [
+      321,
+      309,
+      301
+    ],
+    "property_list3": [
+      "CriticalChanceBase",
+      "CriticalDamageBase"
+    ],
+    "property_list4": [
+      "AttackAddedRatio"
+    ],
+    "property_list5": [
+      "PhysicalAddedRatio",
+      "AttackAddedRatio"
+    ],
+    "property_list6": [
+      "AttackAddedRatio"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "CriticalChanceBase"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "AttackAddedRatio"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "PhysicalAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "AttackAddedRatio"
+      }
+    ],
+    "sub_affix_property_list": [
+      "CriticalChanceBase",
+      "CriticalDamageBase",
+      "AttackAddedRatio"
+    ],
+    "score_rank_list": [
+      324,
+      266
+    ]
+  },
+  "lightcones": [
+    23044,
+    24000,
+    21058
+  ],
+  "teams": [
+    {
+      "avatar_id": 1408,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1412,
+        1415,
+        1414
+      ],
+      "backup_list1": [
+        1313,
+        1403,
+        1309,
+        1303
+      ],
+      "backup_list2": [
+        1313,
+        1403,
+        1309,
+        1303
+      ],
+      "backup_list3": [
+        1217,
+        1409,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

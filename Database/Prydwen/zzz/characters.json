@@ -1,0 +1,1953 @@
+[
+  {
+    "id": "alice",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Alice",
+    "slug": "alice",
+    "sourcePath": "/zenless/characters/alice",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Anomaly",
+      "faction": "Spook Shack",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/alice-card-3068331af0bc.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/alice.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "anby-demara",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Anby",
+    "slug": "anby-demara",
+    "sourcePath": "/zenless/characters/anby-demara",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Stun",
+      "faction": "Cunning Hares",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/anby-demara-card-420d54a053fa.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/anby-demara.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 35
+  },
+  {
+    "id": "anby-demara-soldier-0",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Anby: Soldier 0",
+    "slug": "anby-demara-soldier-0",
+    "sourcePath": "/zenless/characters/anby-demara-soldier-0",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Attack",
+      "faction": "Unknown",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/anby-demara-soldier-0-card-757f03b93a63.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/anby-demara-soldier-0.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "anton",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Anton",
+    "slug": "anton",
+    "sourcePath": "/zenless/characters/anton",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Attack",
+      "faction": "Belobog Heavy Industries",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/anton-card-e474583d3963.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/anton.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 40
+  },
+  {
+    "id": "aria",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Aria",
+    "slug": "aria",
+    "sourcePath": "/zenless/characters/aria",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Anomaly",
+      "faction": "Angels of Delusion",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/aria-card-85e6eab1e21b.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/aria.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 43
+  },
+  {
+    "id": "astra-yao",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Astra Yao",
+    "slug": "astra-yao",
+    "sourcePath": "/zenless/characters/astra-yao",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Support",
+      "faction": "Stars of Lyra",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/astra-yao-card-9e47eb946906.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/astra-yao.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 53
+  },
+  {
+    "id": "banyue",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Banyue",
+    "slug": "banyue",
+    "sourcePath": "/zenless/characters/banyue",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Rupture",
+      "faction": "Krampus Compliance Authority",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/banyue-card-0c1cb4ce5ba5.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/banyue.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "ben",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Ben",
+    "slug": "ben",
+    "sourcePath": "/zenless/characters/ben",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Defence",
+      "faction": "Belobog Heavy Industries",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/ben-card-46b1afc0f1e3.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/ben.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "billy-kid",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Billy",
+    "slug": "billy-kid",
+    "sourcePath": "/zenless/characters/billy-kid",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Attack",
+      "faction": "Cunning Hares",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/billy-kid-card-6206f07f5204.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/billy-kid.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "billy-starlight",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Billy - Starlight",
+    "slug": "billy-starlight",
+    "sourcePath": "/zenless/characters/billy-starlight",
+    "contentStatus": "live",
+    "statusLabels": [
+      "New"
+    ],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Rupture",
+      "faction": "Cunning Hares",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/billy-starlight-card-0ed8eb7c555e.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/billy-starlight.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "burnice",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Burnice",
+    "slug": "burnice",
+    "sourcePath": "/zenless/characters/burnice",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Anomaly",
+      "faction": "Sons of Calydon",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/burnice-card-293c8567a0e0.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/burnice.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "caesar",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Caesar",
+    "slug": "caesar",
+    "sourcePath": "/zenless/characters/caesar",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Defence",
+      "faction": "Sons of Calydon",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/caesar-card-1391fa604454.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/caesar.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 59
+  },
+  {
+    "id": "cissia",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Cissia",
+    "slug": "cissia",
+    "sourcePath": "/zenless/characters/cissia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Attack",
+      "faction": "Metropolitan Order Division",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/cissia-card-2e12f3602dee.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/cissia.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "claret",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Claret",
+    "slug": "claret",
+    "sourcePath": "/zenless/characters/claret",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/claret-card-17fa415ab21f.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/claret.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "corin",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Corin",
+    "slug": "corin",
+    "sourcePath": "/zenless/characters/corin",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Attack",
+      "faction": "Victoria Housekeeping Co.",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/corin-card-61bc3852fb48.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/corin.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 43
+  },
+  {
+    "id": "dialyn",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Dialyn",
+    "slug": "dialyn",
+    "sourcePath": "/zenless/characters/dialyn",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Stun",
+      "faction": "Krampus Compliance Authority",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/dialyn-card-0237631c9941.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/dialyn.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "ellen",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Ellen",
+    "slug": "ellen",
+    "sourcePath": "/zenless/characters/ellen",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ice",
+      "specialty": "Attack",
+      "faction": "Victoria Housekeeping Co.",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/ellen-card-3b3592fe3c69.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/ellen.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "evelyn",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Evelyn",
+    "slug": "evelyn",
+    "sourcePath": "/zenless/characters/evelyn",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Attack",
+      "faction": "Stars of Lyra",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/evelyn-card-a426018184c5.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/evelyn.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "grace-howard",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Grace",
+    "slug": "grace-howard",
+    "sourcePath": "/zenless/characters/grace-howard",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Anomaly",
+      "faction": "Belobog Heavy Industries",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/grace-howard-card-a5d17776bed9.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/grace-howard.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 48
+  },
+  {
+    "id": "harumasa",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Harumasa",
+    "slug": "harumasa",
+    "sourcePath": "/zenless/characters/harumasa",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Attack",
+      "faction": "Section 6",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/harumasa-card-0942d53bcdf0.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/harumasa.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "hugo",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Hugo",
+    "slug": "hugo",
+    "sourcePath": "/zenless/characters/hugo",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ice",
+      "specialty": "Attack",
+      "faction": "Mockingbird",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/hugo-card-fde01c1b39cb.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/hugo.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "jane-doe",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Jane Doe",
+    "slug": "jane-doe",
+    "sourcePath": "/zenless/characters/jane-doe",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Anomaly",
+      "faction": "N.E.P.S.",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/jane-doe-card-59c7bcdfa19b.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/jane-doe.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 48
+  },
+  {
+    "id": "ju-fufu",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Ju Fufu",
+    "slug": "ju-fufu",
+    "sourcePath": "/zenless/characters/ju-fufu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Stun",
+      "faction": "Yunkui Summit",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/ju-fufu-card-ed2fd934b5c6.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/ju-fufu.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 52
+  },
+  {
+    "id": "koleda",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Koleda",
+    "slug": "koleda",
+    "sourcePath": "/zenless/characters/koleda",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Stun",
+      "faction": "Belobog Heavy Industries",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/koleda-card-e10522f3c747.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/koleda.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 48
+  },
+  {
+    "id": "lighter",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Lighter",
+    "slug": "lighter",
+    "sourcePath": "/zenless/characters/lighter",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Stun",
+      "faction": "Sons of Calydon",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/lighter-card-f660ea594d47.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/lighter.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "lucia",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Lucia",
+    "slug": "lucia",
+    "sourcePath": "/zenless/characters/lucia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Support",
+      "faction": "Spook Shack",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/lucia-card-a0197eabc9aa.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/lucia.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 39
+  },
+  {
+    "id": "lucy",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Lucy",
+    "slug": "lucy",
+    "sourcePath": "/zenless/characters/lucy",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Support",
+      "faction": "Sons of Calydon",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/lucy-card-d81b3141fde3.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/lucy.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 52
+  },
+  {
+    "id": "lycaon",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Lycaon",
+    "slug": "lycaon",
+    "sourcePath": "/zenless/characters/lycaon",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ice",
+      "specialty": "Stun",
+      "faction": "Victoria Housekeeping Co.",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/lycaon-card-e706e87c67e0.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/lycaon.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 53
+  },
+  {
+    "id": "manato",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Manato",
+    "slug": "manato",
+    "sourcePath": "/zenless/characters/manato",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Rupture",
+      "faction": "Spook Shack",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/manato-card-8bec1392bd95.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/manato.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 37
+  },
+  {
+    "id": "miyabi",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Miyabi",
+    "slug": "miyabi",
+    "sourcePath": "/zenless/characters/miyabi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ice",
+      "specialty": "Anomaly",
+      "faction": "Section 6",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/miyabi-card-6ec442dcf805.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/miyabi.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "nangong-yu",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Nangong Yu",
+    "slug": "nangong-yu",
+    "sourcePath": "/zenless/characters/nangong-yu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Stun",
+      "faction": "Angels of Delusion",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/nangong-yu-card-f9e4f44692a6.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/nangong-yu.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "nekomata",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Nekomata",
+    "slug": "nekomata",
+    "sourcePath": "/zenless/characters/nekomata",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Attack",
+      "faction": "Cunning Hares",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/nekomata-card-b9bdae637f03.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/nekomata.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 43
+  },
+  {
+    "id": "nicole-demara",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Nicole",
+    "slug": "nicole-demara",
+    "sourcePath": "/zenless/characters/nicole-demara",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Support",
+      "faction": "Cunning Hares",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/nicole-demara-card-dc98ff775994.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/nicole-demara.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 54
+  },
+  {
+    "id": "norma",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Norma",
+    "slug": "norma",
+    "sourcePath": "/zenless/characters/norma",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.0"
+    ],
+    "updatedText": "07/June/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Stun",
+      "faction": "External Strategy Department",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/norma-card-37b562dcffd6.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/norma.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 3
+  },
+  {
+    "id": "orphie-and-magus",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Orphie & Magus",
+    "slug": "orphie-and-magus",
+    "sourcePath": "/zenless/characters/orphie-and-magus",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Attack",
+      "faction": "OBOLS Squad",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/orphie-and-magus-card-bfbdf4b3ab71.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/orphie-and-magus.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "pan-yinhu",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Pan Yinhu",
+    "slug": "pan-yinhu",
+    "sourcePath": "/zenless/characters/pan-yinhu",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Defence",
+      "faction": "Yunkui Summit",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/pan-yinhu-card-51234ed58c65.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/pan-yinhu.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "phoenix",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "sourcePath": "/zenless/characters/phoenix",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/phoenix-card-004477e43e6a.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/phoenix.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "piper",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Piper",
+    "slug": "piper",
+    "sourcePath": "/zenless/characters/piper",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Anomaly",
+      "faction": "Sons of Calydon",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/piper-card-65240c1c1fef.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/piper.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "promeia",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Promeia",
+    "slug": "promeia",
+    "sourcePath": "/zenless/characters/promeia",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "30/May/2026",
+    "facts": {
+      "attribute": "Ice",
+      "specialty": "Anomaly",
+      "faction": "Krampus Compliance Authority",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/promeia-card-a03c6cd391d2.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/promeia.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "pulchra",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Pulchra",
+    "slug": "pulchra",
+    "sourcePath": "/zenless/characters/pulchra",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Stun",
+      "faction": "Sons of Calydon",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/pulchra-card-dc3c088abe6b.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/pulchra.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 56
+  },
+  {
+    "id": "pyrois",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Pyrois",
+    "slug": "pyrois",
+    "sourcePath": "/zenless/characters/pyrois",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/pyrois-card-4b8909998042.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/pyrois.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "qingyi",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Qingyi",
+    "slug": "qingyi",
+    "sourcePath": "/zenless/characters/qingyi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Stun",
+      "faction": "N.E.P.S.",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/qingyi-card-d4428a1ed5b7.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/qingyi.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 50
+  },
+  {
+    "id": "remielle",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Remielle",
+    "slug": "remielle",
+    "sourcePath": "/zenless/characters/remielle",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/remielle-card-e8b52d52cf40.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/remielle.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "rina",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Rina",
+    "slug": "rina",
+    "sourcePath": "/zenless/characters/rina",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Support",
+      "faction": "Victoria Housekeeping Co.",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/rina-card-c1e5e69afdcd.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/rina.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "roxy",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Roxy",
+    "slug": "roxy",
+    "sourcePath": "/zenless/characters/roxy",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/roxy-card-493c2cf722ad.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/roxy.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "seed",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Seed",
+    "slug": "seed",
+    "sourcePath": "/zenless/characters/seed",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Attack",
+      "faction": "OBOLS Squad",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/seed-card-77ec54cdcb4f.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/seed.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 51
+  },
+  {
+    "id": "seth",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Seth",
+    "slug": "seth",
+    "sourcePath": "/zenless/characters/seth",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Defence",
+      "faction": "N.E.P.S.",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/seth-card-e376b296a914.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/seth.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 35
+  },
+  {
+    "id": "severian",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Severian",
+    "slug": "severian",
+    "sourcePath": "/zenless/characters/severian",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/severian-card-3825b4c9fad3.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/severian.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "sigrid",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Sigrid",
+    "slug": "sigrid",
+    "sourcePath": "/zenless/characters/sigrid",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/sigrid-card-30ecebbe136b.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/sigrid.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "soldier-11",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Soldier 11",
+    "slug": "soldier-11",
+    "sourcePath": "/zenless/characters/soldier-11",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Fire",
+      "specialty": "Attack",
+      "faction": "OBOLS Squad",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/soldier-11-card-e38c6c583d4e.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/soldier-11.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 50
+  },
+  {
+    "id": "soukaku",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Soukaku",
+    "slug": "soukaku",
+    "sourcePath": "/zenless/characters/soukaku",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ice",
+      "specialty": "Support",
+      "faction": "Section 6",
+      "rarity": "A"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/soukaku-card-023ed4ea14e8.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/soukaku.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 46
+  },
+  {
+    "id": "sunbringer",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Sunbringer",
+    "slug": "sunbringer",
+    "sourcePath": "/zenless/characters/sunbringer",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/sunbringer-card-dd4ba74d5d7d.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/sunbringer.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "sunna",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Sunna",
+    "slug": "sunna",
+    "sourcePath": "/zenless/characters/sunna",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Support",
+      "faction": "Angels of Delusion",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/sunna-card-f8d4ae5bce0c.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/sunna.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "teams",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy"
+    ],
+    "assetCount": 49
+  },
+  {
+    "id": "the-storyteller",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "The Storyteller",
+    "slug": "the-storyteller",
+    "sourcePath": "/zenless/characters/the-storyteller",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.x"
+    ],
+    "updatedText": "12/May/2026",
+    "facts": {
+      "attribute": "Unknown",
+      "specialty": "Unknown",
+      "faction": "Unknown"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/the-storyteller-card-3c5a2a31b657.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/the-storyteller.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 1
+  },
+  {
+    "id": "trigger",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Trigger",
+    "slug": "trigger",
+    "sourcePath": "/zenless/characters/trigger",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Stun",
+      "faction": "OBOLS Squad",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/trigger-card-d5bdbb4a5e1f.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/trigger.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 56
+  },
+  {
+    "id": "velina",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Velina",
+    "slug": "velina",
+    "sourcePath": "/zenless/characters/velina",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "3.0"
+    ],
+    "updatedText": "07/June/2026",
+    "facts": {
+      "attribute": "Wind",
+      "specialty": "Anomaly",
+      "faction": "External Strategy Department",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/velina-card-4d32c038d75f.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/velina.json",
+    "recommendationSections": [
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 3
+  },
+  {
+    "id": "vivian",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Vivian",
+    "slug": "vivian",
+    "sourcePath": "/zenless/characters/vivian",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Anomaly",
+      "faction": "Mockingbird",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/vivian-card-482bcf62de00.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/vivian.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 45
+  },
+  {
+    "id": "yanagi",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Yanagi",
+    "slug": "yanagi",
+    "sourcePath": "/zenless/characters/yanagi",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Electric",
+      "specialty": "Anomaly",
+      "faction": "Section 6",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/yanagi-card-177b4ce659ce.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/yanagi.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 47
+  },
+  {
+    "id": "ye-shunguang",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Ye Shunguang",
+    "slug": "ye-shunguang",
+    "sourcePath": "/zenless/characters/ye-shunguang",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Attack",
+      "faction": "Yunkui Summit",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/ye-shunguang-card-df29444e0ab2.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/ye-shunguang.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "yidhari",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Yidhari",
+    "slug": "yidhari",
+    "sourcePath": "/zenless/characters/yidhari",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ice",
+      "specialty": "Rupture",
+      "faction": "Spook Shack",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/yidhari-card-c82ab9906959.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/yidhari.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 42
+  },
+  {
+    "id": "yixuan",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Yixuan",
+    "slug": "yixuan",
+    "sourcePath": "/zenless/characters/yixuan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Rupture",
+      "faction": "Yunkui Summit",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/yixuan-card-ad55b88ea3b6.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/yixuan.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 41
+  },
+  {
+    "id": "ukinami-yuzuha",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Yuzuha",
+    "slug": "ukinami-yuzuha",
+    "sourcePath": "/zenless/characters/ukinami-yuzuha",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Physical",
+      "specialty": "Support",
+      "faction": "Spook Shack",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/ukinami-yuzuha-card-67a7255fc026.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/ukinami-yuzuha.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "teams",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy"
+    ],
+    "assetCount": 44
+  },
+  {
+    "id": "zhao",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Zhao",
+    "slug": "zhao",
+    "sourcePath": "/zenless/characters/zhao",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ice",
+      "specialty": "Defence",
+      "faction": "Krampus Compliance Authority",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/zhao-card-f906d81225cd.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/zhao.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 48
+  },
+  {
+    "id": "zhu-yuan",
+    "provider": "Prydwen",
+    "game": "zzz",
+    "name": "Zhu Yuan",
+    "slug": "zhu-yuan",
+    "sourcePath": "/zenless/characters/zhu-yuan",
+    "contentStatus": "live",
+    "statusLabels": [],
+    "updatedText": "27/May/2026",
+    "facts": {
+      "attribute": "Ether",
+      "specialty": "Attack",
+      "faction": "N.E.P.S.",
+      "rarity": "S"
+    },
+    "art": {
+      "card": "Prydwen/zzz/assets/characters/zhu-yuan-card-1a293fc449ae.webp"
+    },
+    "pageFile": "Prydwen/zzz/pages/characters/zhu-yuan.json",
+    "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
+      "skill-priority",
+      "synergy",
+      "teams"
+    ],
+    "assetCount": 44
+  }
+]

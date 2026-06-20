@@ -1,0 +1,300 @@
+{
+  "id": "characters:camille",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "camille",
+  "name": "Camille",
+  "title": "Camille Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/camille",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "Soon"
+  ],
+  "scrapedAt": "2026-06-10T22:44:44.684Z",
+  "updatedText": "27/May/2026",
+  "meta": {
+    "title": "Camille Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {
+    "rarity": 6,
+    "weapon": "Polearm",
+    "class": "Vanguard",
+    "element": "Heat"
+  },
+  "assets": [
+    {
+      "id": "c01d749cf2bc",
+      "sourceHash": "c01d749cf2bc",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "camille-card",
+      "path": "Prydwen/endfield/assets/characters/camille-card-c01d749cf2bc.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "ee735b733b8e",
+      "sourceHash": "ee735b733b8e",
+      "kind": "characters",
+      "name": "Camille full illustration",
+      "fileStem": "camille-full",
+      "path": "Prydwen/endfield/assets/characters/camille-full-illustration-ee735b733b8e.webp",
+      "width": 600,
+      "height": 800
+    }
+  ],
+  "sections": [
+    {
+      "id": "camille-best-build-guide-0",
+      "level": 1,
+      "heading": "Camille Best Build Guide",
+      "text": "Last updated: 27/May/2026",
+      "assets": [
+        {
+          "id": "c01d749cf2bc",
+          "sourceHash": "c01d749cf2bc",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "camille-card",
+          "path": "Prydwen/endfield/assets/characters/camille-card-c01d749cf2bc.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Camille is a 6 -star character in Arknights: Endfield (AKE). Camille wields a Polearm and belongs to the Vanguard class. Camille also has access to the Heat element. This guide provides a comprehensive overview of Camille 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Camille check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Camille has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 27/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Camille check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Camille attributes aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Basic Attack\n Sanguine Absolution",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-12",
+      "level": 6,
+      "heading": "BASIC ATTACK:",
+      "text": "Mi Fu can perform up to 5 basic attack sequences, dealing Heat DMG to enemies. When performing a finisher on an enemy, Camille deals massive Heat DMG and restores some SP.",
+      "assets": []
+    },
+    {
+      "id": "dive-attack-13",
+      "level": 6,
+      "heading": "DIVE ATTACK:",
+      "text": "Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.",
+      "assets": []
+    },
+    {
+      "id": "finisher-14",
+      "level": 6,
+      "heading": "FINISHER:",
+      "text": "Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.\n\n Battle Skill\n Blazing Exorcism\n SP Cost : 9999\n\n Summons Firefang Vesperwings to fly toward the enemy, dealing Heat DMG and applying Heat Infliction to a small area of enemies, triggering Weakness, and Heat Susceptibility to the target.\nWhen the target is hit by Camille’s combo skill, it takes additional explosion DMG. If the enemy is defeated, Firefang Vesperwings will fly toward another nearby enemy.\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Heartstake Thorn\n Cooldown: 9999 s\n\n Trigger: When an enemy’s Heat Infliction is consumed or absorbed. Performs a returning dash on the enemy, dealing Heat DMG and restoring some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Sanguine Downpour\n Energy cost : 9999\n\n Camille flies to the sky, rains down a barrage of spears, and follows through with a sweep attack. This deals Heat DMG and applies Heat Infliction to enemies over a large area while restoring some SP. Shortly after casting, Camille enters a temporary Hunter Pursuit State, and his next battle skill is converted to an Enhanced Combo.\n Multipliers (Rank 12)\n\n Show Effects",
+      "assets": []
+    },
+    {
+      "id": "talents-16",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Camille Talents are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-18",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "Camille Potential information are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "lore-20",
+      "level": 3,
+      "heading": "Lore",
+      "text": "Camille lore is currently missing. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-22",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-24",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "ee735b733b8e",
+          "sourceHash": "ee735b733b8e",
+          "kind": "characters",
+          "name": "Camille full illustration",
+          "fileStem": "camille-full",
+          "path": "Prydwen/endfield/assets/characters/camille-full-illustration-ee735b733b8e.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "ratings-26",
+      "level": 3,
+      "heading": "Ratings",
+      "text": "Camille ratings aren't available yet. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "pros-cons-28",
+      "level": 3,
+      "heading": "Pros & Cons",
+      "text": "Camille pros & cons aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "review-30",
+      "level": 3,
+      "heading": "Review",
+      "text": "Camille review isn't available yet. It will be added soon!\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-32",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "Camille best Weapons aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-34",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "Camille best Gear aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-pieces-36",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Camille gear pieces calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "potentials-review-38",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "Camille dupes reviews aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "calculations-40",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "Camille calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-42",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Camille skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-44",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Camille synergies aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "teams-46",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Camille teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Camille team compositions aren't available yet. They will be added soon.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Camille teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Camille team compositions aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "Camille best Weapons aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "Camille best Gear aren't available yet. They will be added soon.",
+          "assets": []
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Camille gear pieces calculations aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Camille Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Camille\n Camille Best Build Guide\n Last updated: 27/May/2026\n\n Introduction\n\n Camille is a 6 -star character in Arknights: Endfield (AKE). Camille wields a Polearm and belongs to the Vanguard class. Camille also has access to the Heat element. This guide provides a comprehensive overview of Camille 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Camille check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Camille has no video guide yet.\n\n Update tracker\n\n Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 27/May/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Camille check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Camille attributes aren't available yet. They will be added soon!\n\n Skills\n\n Basic Attack\n Sanguine Absolution\n\n BASIC ATTACK:\n Mi Fu can perform up to 5 basic attack sequences, dealing Heat DMG to enemies. When performing a finisher on an enemy, Camille deals massive Heat DMG and restores some SP.\n DIVE ATTACK:\n Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies.\n FINISHER:\n Basic attack performed near a Stagger ed enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.\n\n Battle Skill\n Blazing Exorcism\n SP Cost : 9999\n\n Summons Firefang Vesperwings to fly toward the enemy, dealing Heat DMG and applying Heat Infliction to a small area of enemies, triggering Weakness, and Heat Susceptibility to the target.\nWhen the target is hit by Camille’s combo skill, it takes additional explosion DMG. If the enemy is defeated, Firefang Vesperwings will fly toward another nearby enemy.\n Multipliers (Rank 12)\n\n Show Effects\n\n Combo Skill\n Heartstake Thorn\n Cooldown: 9999 s\n\n Trigger: When an enemy’s Heat Infliction is consumed or absorbed. Performs a returning dash on the enemy, dealing Heat DMG and restoring some SP.\n\n Multipliers (Rank 12)\n\n Show Effects\n\n Ultimate\n Sanguine Downpour\n Energy cost : 9999\n\n Camille flies to the sky, rains down a barrage of spears, and follows through with a sweep attack. This deals Heat DMG and applies Heat Infliction to enemies over a large area while restoring some SP. Shortly after casting, Camille enters a temporary Hunter Pursuit State, and his next battle skill is converted to an Enhanced Combo.\n Multipliers (Rank 12)\n\n Show Effects\n\n Talents\n\n Camille Talents are currently missing. They will be added soon!\n\n Potential (dupes)\n\n Camille Potential information are currently missing. They will be added soon!\n\n Lore\n\n Camille lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Camille ratings aren't available yet. It will be added soon!\n\n Pros & Cons\n\n Camille pros & cons aren't available yet. They will be added soon.\n\n Review\n\n Camille review isn't available yet. It will be added soon!\n\n Build\n\n Best Weapons\n\n Camille best Weapons aren't available yet. They will be added soon.\n\n Best Gear\n\n Camille best Gear aren't available yet. They will be added soon.\n\n Best Gear Pieces\n\n Camille gear pieces calculations aren't available yet. They will be added soon.\n\n Potentials Review\n\n Camille dupes reviews aren't available yet. They will be added soon.\n\n Calculations\n\n Camille calculations aren't available yet. They will be added soon.\n\n Skill Priority\n\n Camille skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies\n\n Synergies\n\n Camille synergies aren't available yet. They will be added soon.\n\n Teams\n\n Camille teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Camille team compositions aren't available yet. They will be added soon."
+}

@@ -619,6 +619,11 @@ const CM_META_ICONS = {
     el: { glacio:'wuwa/glacio.webp', fusion:'wuwa/fusion.webp', electro:'wuwa/electro.webp', aero:'wuwa/aero.webp', spectro:'wuwa/spectro.webp', havoc:'wuwa/havoc.webp' },
     w:  { sword:'wuwa/wp_sword.webp', broadblade:'wuwa/wp_broadblade.webp', pistols:'wuwa/wp_pistols.webp', gauntlets:'wuwa/wp_gauntlets.webp', rectifier:'wuwa/wp_rectifier.webp' },
   },
+  ae: {
+    el:  { heat:'ae/heat.png', cryo:'ae/cryo.png', electric:'ae/electric.png', nature:'ae/nature.png', physical:'ae/physical.png' },
+    cls: { guard:'ae/cls_guard.png', defender:'ae/cls_defender.png', caster:'ae/cls_caster.png', vanguard:'ae/cls_vanguard.png', supporter:'ae/cls_supporter.png', striker:'ae/cls_striker.png' },
+    w:   { sword:'ae/wp_sword.png', polearm:'ae/wp_polearm.png', greatsword:'ae/wp_greatsword.png', artsunit:'ae/wp_artsunit.png', handcannon:'ae/wp_handcannon.png' },
+  },
 };
 
 function cmMetaIconSrc(gameKey, field, value){
@@ -628,8 +633,12 @@ function cmMetaIconSrc(gameKey, field, value){
   return g[field][key] ? CM_META_ICON_BASE + g[field][key] : null;
 }
 
+function cmMetaColor(value){
+  return CM_ELEM[value] || CM_ELEM[String(value || '').replace(/^Electric$/i, 'Electro')] || '#b7aaff';
+}
+
 function CMMetaIcon({ gameKey, chip }){
-  const color = CM_ELEM[chip.value] || CM_ELEM[String(chip.value || '').replace(/^Electric$/i, 'Electro')] || '#b7aaff';
+  const color = cmMetaColor(chip.value);
   const type = cmMetaIconType(chip.key, chip.value);
   const src = cmMetaIconSrc(gameKey, chip.key, chip.value);
   const [failed, setFailed] = React.useState(false);
@@ -1349,7 +1358,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                     <div className="cm-pop-name">{sel.n}</div>
                     <div className="cm-pop-tags">
                       {metaChips.map((chip) => (
-                        <span key={chip.key + chip.value} className="cm-pop-chip icon-only" title={`${chip.label}: ${chip.value}`} aria-label={`${chip.label}: ${chip.value}`}>
+                        <span key={chip.key + chip.value} className="cm-pop-chip icon-only" style={{ '--meta':cmMetaColor(chip.value) }} title={`${chip.label}: ${chip.value}`} aria-label={`${chip.label}: ${chip.value}`}>
                           <CMMetaIcon gameKey={gk} chip={chip} />
                         </span>
                       ))}

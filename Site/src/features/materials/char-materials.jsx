@@ -1529,7 +1529,10 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                           </div>
                         )}
                         {showWeaponDisclaimer && (
-                          <div className="cm-sig-disclaimer">Signature is an educated guess and could be incorrect. Please double check before making decisions.</div>
+                          <div className="cm-sig-disclaimer">
+                            <span>Signature is an <u>automated</u> educated guess and could be incorrect.</span>
+                            <span>Please double check other sources before making decisions.</span>
+                          </div>
                         )}
                       </div>
                       <div className="cm-mats cm-ledger-mats">

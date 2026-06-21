@@ -7,22 +7,17 @@
 @font-face{ font-family:'GI';  src:url('../../assets/fonts/GI.ttf')  format('truetype'); font-display:swap; }
 @font-face{ font-family:'HSR'; src:url('../../assets/fonts/HSR.ttf') format('truetype'); font-display:swap; }
 
-/* Pre-mount veil — kills the bright-background flash on game pages.
-   This stylesheet is in <head>, so the cover paints with the page-level
-   background; it stays opaque (hiding the bare full-brightness backdrop)
-   until the React app sets html.nyx-app-ready (see nyx-app.jsx), then fades.
-   The delayed animation is a failsafe so the page never stays dark if the
-   bundle fails to mount. Scoped to game pages only — index.html doesn't load
-   this file. */
-body::before{
-  content:''; position:fixed; inset:0; z-index:60; pointer-events:none;
-  background:#05040b; opacity:1;
-  transition:opacity .55s ease;
-  animation:nyxPreloadFailsafe .6s ease 6s forwards;
-}
-html.nyx-app-ready body::before{ opacity:0; }
-@keyframes nyxPreloadFailsafe{ to{ opacity:0; visibility:hidden; } }
-@media (prefers-reduced-motion: reduce){ body::before{ transition:none; } }
+/* Game-page reveal — the (bright) page background paints immediately; the app
+   content fades in once it has actually mounted (html.nyx-app-ready, set in
+   nyx-app.jsx) rather than hiding behind a black veil. This removes BOTH the
+   bright-background flash and the "dark for a few seconds" wait while the bundle
+   loads (the old solid veil sat opaque the whole time). The delayed keyframe is
+   a failsafe if the bundle never mounts. Scoped to game pages only — index.html
+   doesn't load this file. */
+.gp{ transition:opacity .45s ease; }
+html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forwards; }
+@keyframes nyxGpReveal{ to{ opacity:1; } }
+@media (prefers-reduced-motion: reduce){ html:not(.nyx-app-ready) .gp{ opacity:1; animation:none; } .gp{ transition:none; } }
 
 .gp{
   --accent:#8b7bff;
@@ -1208,6 +1203,8 @@ html.nyx-app-ready body::before{ opacity:0; }
 .cm-weapon-options button span:last-child{ min-width:0; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
 .cm-weapon-empty{ padding:10px; text-align:center; color:#9e93c8; font-size:12px; }
 .cm-sig-disclaimer{ width:min(100%, 230px); color:#cdbff4; font-size:11px; line-height:1.32; font-style:italic; text-shadow:0 1px 4px rgba(0,0,0,.7); }
+.cm-sig-disclaimer span{ display:block; }
+.cm-sig-disclaimer u{ text-decoration-color:rgba(183,170,255,.8); }
 .cm-ledger-mats{ gap:12px; align-items:flex-start; }
 .cm-ledger-mats .cm-mat{ width:72px; min-width:72px; gap:5px; padding:0; border-radius:0;
   background:transparent; box-shadow:none; }

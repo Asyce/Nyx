@@ -73,16 +73,16 @@
 
   /* ===== top-left: large wordmark on the (180-flipped) achievement-cycle plate ===== */
   .hd-right{ position:absolute; top:52px; left:6px; z-index:20;
-    width:474px; height:98px; display:flex; align-items:center; justify-content:center; }
+    width:600px; height:110px; display:flex; align-items:center; justify-content:flex-start; }
   .hd-right .plate{ position:absolute; inset:0; pointer-events:none;
     background:url('../assets/decor/achievement_cycle.png') center/100% 100% no-repeat;
     mix-blend-mode:screen; opacity:.55; transform:rotate(180deg);
     -webkit-mask:linear-gradient(90deg, #000 0%, #000 30%, transparent 88%);
     mask:linear-gradient(90deg, #000 0%, #000 30%, transparent 88%); }
-  .hd-right .wm{ position:relative; display:flex; align-items:center; gap:14px;
+  .hd-right .wm{ position:relative; display:flex; align-items:center; gap:16px; white-space:nowrap;
     font-family:'GI',serif; font-size:62px; line-height:.9; letter-spacing:.04em; color:#f7f4ff;
     text-shadow:0 0 26px var(--accent-glow), 0 2px 18px rgba(0,0,0,.6); }
-  .hd-right .wm-logo{ height:66px; width:auto; flex:none;
+  .hd-right .wm-logo{ height:94px; width:auto; flex:none;
     filter:drop-shadow(0 0 14px var(--accent-glow)) drop-shadow(0 2px 8px rgba(0,0,0,.55)); }
 
   /* ===== banner buttons — centered above the cards ===== */

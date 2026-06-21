@@ -10,7 +10,14 @@ unchecked box; each phase is independent.
 - d1eae06 — **codes → layout D** (checkbox redeemed, code→redeem, copy, currency icon+amount, hover→full rewards) (plan 2.4 codes).
 - d4762b1 — **banners → layout F** (art-forward, 4★ icons, no 5★/element text, big duration directly below) (plan 2.4 banners).
 - 8840f37 — index logo one-line + larger (1.1/1.2); game-page bg brightness 1.18→1.4 (2.1); **dark-on-load fixed** via `html:not(.nyx-app-ready) .gp{opacity:0}` fade (2.2); signature disclaimer reworded with `<u>automated</u>` (3.6).
-- **STILL TODO:** 2.3 topbar rework; 3.1 empty box under talents; 3.2b wiki-source data; 3.3 "[Region] Talent Domain"; 3.5 header circle-icon + inline meta; 3.7 HSR traces; 3.8 writable levels; 3.9 weapon-name shrink; 3.10 per-game level caps (HSR 80!); 4.1 stale chars; 4.2 ZZZ nanoka-only.
+- ad87551 — **topbar rework** (2.3): eye behind "Nyx" wordmark (left), Pengo icon (right), all three → index; rail cards still switch games. Compact rules updated.
+- a6cf85c — popout batch: per-game level caps (3.10, HSR 80), writable GI ascension level (3.8), removed empty box below talents (3.1), header circle-icon-behind-name + inline meta no containers (3.5), GI talent-book → "[Region] Talent Domain" (3.3), weapon name wraps not ellipsis (3.9).
+- 7d6dc06 — ZZZ roster → Nanoka-backed agents only (4.2): 64→50, all with icons.
+- **STILL TODO (data-heavy; deferred):**
+  - **3.7 HSR traces** — needs the generator to extract per-trace-level materials. DATA PATH FOUND: `Database/Nanoka/hsr/live/raw/characters/<id>.json` has `skills` + `skill_trees` objects with the per-level material costs and skill icons. Build an HSR `talentStages` (Basic/Skill/Ultimate/Talent, lvl 1-10) + `skillIcons` in `buildPrydwenRoster`/HSR req path like GI's `talentStages`, then reuse the GI talent-triplet UI extended to 4 inputs + a "Max" default (all-to-max is the current behavior).
+  - **4.1 stale chars (Himeko/Nova/Gilgamesh)** — needs a re-scrape (Nanoka/Prydwen → Database → regenerate) or specifics on which fields are wrong. These look like custom/OC roster entries; get exact wrong fields from the user.
+  - **3.2b wiki-source obtaining text** — audit materials whose scraped source is wrong/missing and backfill from the wiki.
+- NOTE: preview BROWSER cache is stuck (shows stale CSS/HTML even on fresh URLs) — verify via `curl` of the preview server or the deployed site, not `preview_eval`.
 - NOTE: the preview *browser* aggressively caches — it showed stale CSS even on fresh URLs while the server served correct files. Verify via `curl` of the preview server or after a token bump, not just `preview_eval` computed styles.
 
 ## Working conventions (read first)

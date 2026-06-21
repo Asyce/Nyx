@@ -249,8 +249,76 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/banner.png",
-      "aePreferredItems": [],
-      "aeSkillItems": [],
+      "aePreferredItems": [
+        {
+          "id": "weapon:grand-vision",
+          "name": "Grand Vision",
+          "n": "Grand Vision",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+          "assetId": "6213098755db",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:eminent-repute",
+          "name": "Eminent Repute",
+          "n": "Eminent Repute",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+          "assetId": "422f4ebe9134",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:sundering-steel",
+          "name": "Sundering Steel",
+          "n": "Sundering Steel",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+          "assetId": "5885ce319ff1",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:rapid-ascent",
+          "name": "Rapid Ascent",
+          "n": "Rapid Ascent",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+          "assetId": "3e8807087807",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:contingent-measure",
+          "name": "Contingent Measure",
+          "n": "Contingent Measure",
+          "kind": "weapon",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+          "assetId": "1a19647c67d3",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "aeSkillItems": [
+        {
+          "id": "gear:frontiers-comm",
+          "name": "Frontiers Comm",
+          "n": "Frontiers Comm",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-126-2252670f4118.webp",
+          "assetId": "2252670f4118",
+          "type": "Kit",
+          "source": "Prydwen recommendation"
+        }
+      ],
       "aeStatItems": [],
       "recent": 1,
       "recentFallback": 1,
@@ -276,8 +344,76 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/icon.png",
           "art": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/splash.png",
           "card": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-male/banner.png",
-          "aePreferredItems": [],
-          "aeSkillItems": [],
+          "aePreferredItems": [
+            {
+              "id": "weapon:grand-vision",
+              "name": "Grand Vision",
+              "n": "Grand Vision",
+              "kind": "weapon",
+              "rar": 6,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+              "assetId": "6213098755db",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            },
+            {
+              "id": "weapon:eminent-repute",
+              "name": "Eminent Repute",
+              "n": "Eminent Repute",
+              "kind": "weapon",
+              "rar": 6,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+              "assetId": "422f4ebe9134",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            },
+            {
+              "id": "weapon:sundering-steel",
+              "name": "Sundering Steel",
+              "n": "Sundering Steel",
+              "kind": "weapon",
+              "rar": 5,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+              "assetId": "5885ce319ff1",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            },
+            {
+              "id": "weapon:rapid-ascent",
+              "name": "Rapid Ascent",
+              "n": "Rapid Ascent",
+              "kind": "weapon",
+              "rar": 6,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+              "assetId": "3e8807087807",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            },
+            {
+              "id": "weapon:contingent-measure",
+              "name": "Contingent Measure",
+              "n": "Contingent Measure",
+              "kind": "weapon",
+              "rar": 4,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+              "assetId": "1a19647c67d3",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            }
+          ],
+          "aeSkillItems": [
+            {
+              "id": "gear:frontiers-comm",
+              "name": "Frontiers Comm",
+              "n": "Frontiers Comm",
+              "kind": "gear",
+              "rar": 4,
+              "icon": "../../Database/Prydwen/endfield/assets/gear/gear-126-2252670f4118.webp",
+              "assetId": "2252670f4118",
+              "type": "Kit",
+              "source": "Prydwen recommendation"
+            }
+          ],
           "aeStatItems": [],
           "recent": 1,
           "recentFallback": 1,
@@ -302,8 +438,76 @@
           "icon": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-female/icon.png",
           "art": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-female/splash.png",
           "card": "../../Database/EndfieldWiki/endfield/assets/operators/endministrator-female/banner.png",
-          "aePreferredItems": [],
-          "aeSkillItems": [],
+          "aePreferredItems": [
+            {
+              "id": "weapon:grand-vision",
+              "name": "Grand Vision",
+              "n": "Grand Vision",
+              "kind": "weapon",
+              "rar": 6,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+              "assetId": "6213098755db",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            },
+            {
+              "id": "weapon:eminent-repute",
+              "name": "Eminent Repute",
+              "n": "Eminent Repute",
+              "kind": "weapon",
+              "rar": 6,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+              "assetId": "422f4ebe9134",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            },
+            {
+              "id": "weapon:sundering-steel",
+              "name": "Sundering Steel",
+              "n": "Sundering Steel",
+              "kind": "weapon",
+              "rar": 5,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+              "assetId": "5885ce319ff1",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            },
+            {
+              "id": "weapon:rapid-ascent",
+              "name": "Rapid Ascent",
+              "n": "Rapid Ascent",
+              "kind": "weapon",
+              "rar": 6,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+              "assetId": "3e8807087807",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            },
+            {
+              "id": "weapon:contingent-measure",
+              "name": "Contingent Measure",
+              "n": "Contingent Measure",
+              "kind": "weapon",
+              "rar": 4,
+              "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+              "assetId": "1a19647c67d3",
+              "type": "Sword",
+              "source": "Prydwen recommendation"
+            }
+          ],
+          "aeSkillItems": [
+            {
+              "id": "gear:frontiers-comm",
+              "name": "Frontiers Comm",
+              "n": "Frontiers Comm",
+              "kind": "gear",
+              "rar": 4,
+              "icon": "../../Database/Prydwen/endfield/assets/gear/gear-126-2252670f4118.webp",
+              "assetId": "2252670f4118",
+              "type": "Kit",
+              "source": "Prydwen recommendation"
+            }
+          ],
           "aeStatItems": [],
           "recent": 1,
           "recentFallback": 1,
@@ -407,22 +611,61 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/laevatain/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:valleyprotocolschoice",
-          "name": "Valley Protocol's Choice",
-          "n": "Valley Protocol's Choice",
+          "id": "weapon:forgeborn-scathe",
+          "name": "Forgeborn Scathe",
+          "n": "Forgeborn Scathe",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-12-aabe53d3a9d2.webp",
+          "assetId": "aabe53d3a9d2",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:umbral-torch",
+          "name": "Umbral Torch",
+          "n": "Umbral Torch",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-13-f7ec5488e601.webp",
+          "assetId": "f7ec5488e601",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:white-night-nova",
+          "name": "White Night Nova",
+          "n": "White Night Nova",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-17-1ef46c9351db.webp",
+          "assetId": "1ef46c9351db",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:wave-tide",
+          "name": "Wave Tide",
+          "n": "Wave Tide",
           "kind": "weapon",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-3-608120057b4a.webp",
+          "assetId": "608120057b4a",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
         {
-          "id": "weapon:valleyprotocolschoice",
-          "name": "Valley Protocol's Choice",
-          "n": "Valley Protocol's Choice",
-          "kind": "weapon",
+          "id": "gear:frontiers-fiber-gloves",
+          "name": "Frontiers Fiber Gloves",
+          "n": "Frontiers Fiber Gloves",
+          "kind": "gear",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-76-d9034544e721.webp",
+          "assetId": "d9034544e721",
+          "type": "Gloves",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeStatItems": [],
@@ -443,22 +686,72 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:valleyindustryschoice",
-          "name": "Valley Industry's Choice",
-          "n": "Valley Industry's Choice",
+          "id": "weapon:khravengger",
+          "name": "Khravengger",
+          "n": "Khravengger",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-26-f2a006932fe1.webp",
+          "assetId": "f2a006932fe1",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:sundered-prince",
+          "name": "Sundered Prince",
+          "n": "Sundered Prince",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-29-5fdc05b5d065.webp",
+          "assetId": "5fdc05b5d065",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:seeker-of-dark-lung",
+          "name": "Seeker of Dark Lung",
+          "n": "Seeker of Dark Lung",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-21-adf7eecd048b.webp",
+          "assetId": "adf7eecd048b",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:exemplar",
+          "name": "Exemplar",
+          "n": "Exemplar",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+          "assetId": "86f77e0b50d9",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:industry-0-1",
+          "name": "Industry 0.1",
+          "n": "Industry 0.1",
           "kind": "weapon",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-19-f87b5e806d4b.webp",
+          "assetId": "f87b5e806d4b",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
         {
-          "id": "weapon:valleyindustryschoice",
-          "name": "Valley Industry's Choice",
-          "n": "Valley Industry's Choice",
-          "kind": "weapon",
+          "id": "gear:frontiers-extra-o2-tube-t1",
+          "name": "Frontiers Extra O2 Tube T1",
+          "n": "Frontiers Extra O2 Tube T1",
+          "kind": "gear",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-27-b3fc6deaead5.webp",
+          "assetId": "b3fc6deaead5",
+          "type": "Kit",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeStatItems": [],
@@ -479,12 +772,37 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:wulingrunnerschoice",
-          "name": "Wuling Runners' Choice",
-          "n": "Wuling Runners' Choice",
+          "id": "weapon:mountain-bearer",
+          "name": "Mountain Bearer",
+          "n": "Mountain Bearer",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-36-4edc630595bb.webp",
+          "assetId": "4edc630595bb",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:valiant",
+          "name": "Valiant",
+          "n": "Valiant",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-37-b3be88b51d6d.webp",
+          "assetId": "b3be88b51d6d",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:pathfinders-beacon",
+          "name": "Pathfinder's Beacon",
+          "n": "Pathfinder's Beacon",
           "kind": "weapon",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-31-674e135e66be.webp",
+          "assetId": "674e135e66be",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
@@ -518,22 +836,50 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/mi-fu/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:wulingswordmancerschoice",
-          "name": "Wuling Swordmancers' Choice",
-          "n": "Wuling Swordmancers' Choice",
+          "id": "weapon:amaranthine-tassel",
+          "name": "Amaranthine Tassel",
+          "n": "Amaranthine Tassel",
           "kind": "weapon",
-          "rar": 4,
-          "source": "Endfield database"
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-69-f1acc14244a5.webp",
+          "assetId": "f1acc14244a5",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:exemplar",
+          "name": "Exemplar",
+          "n": "Exemplar",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+          "assetId": "86f77e0b50d9",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:phantom-pain",
+          "name": "Phantom Pain",
+          "n": "Phantom Pain",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-71-02dce8a3fb8a.webp",
+          "assetId": "02dce8a3fb8a",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
         {
-          "id": "weapon:wulingswordmancerschoice",
-          "name": "Wuling Swordmancers' Choice",
-          "n": "Wuling Swordmancers' Choice",
-          "kind": "weapon",
+          "id": "gear:frontiers-armor-t2",
+          "name": "Frontiers Armor T2",
+          "n": "Frontiers Armor T2",
+          "kind": "gear",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-129-6ae3332f1556.webp",
+          "assetId": "6ae3332f1556",
+          "type": "Armor",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeStatItems": []
@@ -625,22 +971,72 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/rossi/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:wulingmerchantschoice",
-          "name": "Wuling Merchants' Choice",
-          "n": "Wuling Merchants' Choice",
+          "id": "weapon:lupine-scarlet",
+          "name": "Lupine Scarlet",
+          "n": "Lupine Scarlet",
           "kind": "weapon",
-          "rar": 4,
-          "source": "Endfield database"
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-63-69501df96038.webp",
+          "assetId": "69501df96038",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:glorious-memory",
+          "name": "Glorious Memory",
+          "n": "Glorious Memory",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-66-1ab42b505330.webp",
+          "assetId": "1ab42b505330",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:sundering-steel",
+          "name": "Sundering Steel",
+          "n": "Sundering Steel",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+          "assetId": "5885ce319ff1",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:umbral-torch",
+          "name": "Umbral Torch",
+          "n": "Umbral Torch",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-13-f7ec5488e601.webp",
+          "assetId": "f7ec5488e601",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:rapid-ascent",
+          "name": "Rapid Ascent",
+          "n": "Rapid Ascent",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+          "assetId": "3e8807087807",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
         {
-          "id": "weapon:wulingmerchantschoice",
-          "name": "Wuling Merchants' Choice",
-          "n": "Wuling Merchants' Choice",
-          "kind": "weapon",
+          "id": "gear:hot-work-power-cartridge",
+          "name": "Hot Work Power Cartridge",
+          "n": "Hot Work Power Cartridge",
+          "kind": "gear",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+          "assetId": "371d63275c69",
+          "type": "Kit",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeStatItems": []
@@ -659,12 +1055,37 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/tangtang/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:wulingmerchantschoice",
-          "name": "Wuling Merchants' Choice",
-          "n": "Wuling Merchants' Choice",
+          "id": "weapon:brigands-calling",
+          "name": "Brigand's Calling",
+          "n": "Brigand's Calling",
           "kind": "weapon",
-          "rar": 4,
-          "source": "Endfield database"
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-64-7c0cbefda221.webp",
+          "assetId": "7c0cbefda221",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:home-longing",
+          "name": "Home Longing",
+          "n": "Home Longing",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-65-e8b472018de9.webp",
+          "assetId": "e8b472018de9",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:obj-velocitous",
+          "name": "OBJ Velocitous",
+          "n": "OBJ Velocitous",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-43-1c1e8db53162.webp",
+          "assetId": "1c1e8db53162",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
@@ -696,22 +1117,83 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:valleyprotocolschoice",
-          "name": "Valley Protocol's Choice",
-          "n": "Valley Protocol's Choice",
+          "id": "weapon:artzy-tyrannical",
+          "name": "Artzy Tyrannical",
+          "n": "Artzy Tyrannical",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-45-bc1f47caaaf1.webp",
+          "assetId": "bc1f47caaaf1",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:navigator",
+          "name": "Navigator",
+          "n": "Navigator",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-46-04502e5e808b.webp",
+          "assetId": "04502e5e808b",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:wedge",
+          "name": "Wedge",
+          "n": "Wedge",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-47-c35515eb63c5.webp",
+          "assetId": "c35515eb63c5",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:clannibal",
+          "name": "Clannibal",
+          "n": "Clannibal",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-48-0155a527bae3.webp",
+          "assetId": "0155a527bae3",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:opus-the-living",
+          "name": "Opus: The Living",
+          "n": "Opus: The Living",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-42-fdd90ff9ad3f.webp",
+          "assetId": "fdd90ff9ad3f",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:howling-guard",
+          "name": "Howling Guard",
+          "n": "Howling Guard",
           "kind": "weapon",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-40-05900d261057.webp",
+          "assetId": "05900d261057",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
         {
-          "id": "weapon:valleyprotocolschoice",
-          "name": "Valley Protocol's Choice",
-          "n": "Valley Protocol's Choice",
-          "kind": "weapon",
+          "id": "gear:hot-work-gloves",
+          "name": "Hot Work Gloves",
+          "n": "Hot Work Gloves",
+          "kind": "gear",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
+          "assetId": "da7a61fbb290",
+          "type": "Gloves",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeStatItems": []
@@ -730,22 +1212,50 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/zhuang-fangyi/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:wulingtianshibureauschoice",
-          "name": "Wuling Tianshi Bureau's Choice",
-          "n": "Wuling Tianshi Bureau's Choice",
+          "id": "weapon:lone-barge",
+          "name": "Lone Barge",
+          "n": "Lone Barge",
           "kind": "weapon",
-          "rar": 4,
-          "source": "Endfield database"
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-68-a67f3a59ec6a.webp",
+          "assetId": "a67f3a59ec6a",
+          "type": "Arts Unit",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:flickers-in-the-mist",
+          "name": "Flickers in the Mist",
+          "n": "Flickers in the Mist",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-67-f78876ac577c.webp",
+          "assetId": "f78876ac577c",
+          "type": "Arts Unit",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:oblivion",
+          "name": "Oblivion",
+          "n": "Oblivion",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-61-3d8cd2218ea9.webp",
+          "assetId": "3d8cd2218ea9",
+          "type": "Arts Unit",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
         {
-          "id": "weapon:wulingtianshibureauschoice",
-          "name": "Wuling Tianshi Bureau's Choice",
-          "n": "Wuling Tianshi Bureau's Choice",
-          "kind": "weapon",
+          "id": "gear:swordmancer-heavy-armor-t1",
+          "name": "Swordmancer Heavy Armor T1",
+          "n": "Swordmancer Heavy Armor T1",
+          "kind": "gear",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-119-0c265088b275.webp",
+          "assetId": "0c265088b275",
+          "type": "Armor",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeStatItems": []
@@ -815,12 +1325,70 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/arclight/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:valleyindustryschoice",
-          "name": "Valley Industry's Choice",
-          "n": "Valley Industry's Choice",
+          "id": "weapon:thermite-cutter",
+          "name": "Thermite Cutter",
+          "n": "Thermite Cutter",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-15-8d10a49baaf8.webp",
+          "assetId": "8d10a49baaf8",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:obj-edge-of-lightness",
+          "name": "OBJ Edge of Lightness",
+          "n": "OBJ Edge of Lightness",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-8-26984d7fa028.webp",
+          "assetId": "26984d7fa028",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:twelve-questions",
+          "name": "Twelve Questions",
+          "n": "Twelve Questions",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-7-7be45f2db113.webp",
+          "assetId": "7be45f2db113",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:eminent-repute",
+          "name": "Eminent Repute",
+          "n": "Eminent Repute",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+          "assetId": "422f4ebe9134",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:sundering-steel",
+          "name": "Sundering Steel",
+          "n": "Sundering Steel",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+          "assetId": "5885ce319ff1",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:contingent-measure",
+          "name": "Contingent Measure",
+          "n": "Contingent Measure",
           "kind": "weapon",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+          "assetId": "1a19647c67d3",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
@@ -914,22 +1482,83 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/chen-qianyu/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:wulingrunnerschoice",
-          "name": "Wuling Runners' Choice",
-          "n": "Wuling Runners' Choice",
+          "id": "weapon:sundering-steel",
+          "name": "Sundering Steel",
+          "n": "Sundering Steel",
           "kind": "weapon",
-          "rar": 4,
-          "source": "Endfield database"
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+          "assetId": "5885ce319ff1",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:glorious-memory",
+          "name": "Glorious Memory",
+          "n": "Glorious Memory",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-66-1ab42b505330.webp",
+          "assetId": "1ab42b505330",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:grand-vision",
+          "name": "Grand Vision",
+          "n": "Grand Vision",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+          "assetId": "6213098755db",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:eminent-repute",
+          "name": "Eminent Repute",
+          "n": "Eminent Repute",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-16-422f4ebe9134.webp",
+          "assetId": "422f4ebe9134",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:rapid-ascent",
+          "name": "Rapid Ascent",
+          "n": "Rapid Ascent",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+          "assetId": "3e8807087807",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:aspirant",
+          "name": "Aspirant",
+          "n": "Aspirant",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-9-270c0c790924.webp",
+          "assetId": "270c0c790924",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
         {
-          "id": "weapon:wulingrunnerschoice",
-          "name": "Wuling Runners' Choice",
-          "n": "Wuling Runners' Choice",
-          "kind": "weapon",
+          "id": "gear:mi-security-hands-ppe",
+          "name": "MI Security Hands PPE",
+          "n": "MI Security Hands PPE",
+          "kind": "gear",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-113-cca65de1a939.webp",
+          "assetId": "cca65de1a939",
+          "type": "Gloves",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeStatItems": []
@@ -948,12 +1577,70 @@
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/da-pan/banner.png",
       "aePreferredItems": [
         {
-          "id": "weapon:wulingrunnerschoice",
-          "name": "Wuling Runners' Choice",
-          "n": "Wuling Runners' Choice",
+          "id": "weapon:amaranthine-tassel",
+          "name": "Amaranthine Tassel",
+          "n": "Amaranthine Tassel",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-69-f1acc14244a5.webp",
+          "assetId": "f1acc14244a5",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:exemplar",
+          "name": "Exemplar",
+          "n": "Exemplar",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+          "assetId": "86f77e0b50d9",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:phantom-pain",
+          "name": "Phantom Pain",
+          "n": "Phantom Pain",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-71-02dce8a3fb8a.webp",
+          "assetId": "02dce8a3fb8a",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:sundered-prince",
+          "name": "Sundered Prince",
+          "n": "Sundered Prince",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-29-5fdc05b5d065.webp",
+          "assetId": "5fdc05b5d065",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:ancient-canal",
+          "name": "Ancient Canal",
+          "n": "Ancient Canal",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-22-28a6674042cd.webp",
+          "assetId": "28a6674042cd",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        },
+        {
+          "id": "weapon:industry-0-1",
+          "name": "Industry 0.1",
+          "n": "Industry 0.1",
           "kind": "weapon",
           "rar": 4,
-          "source": "Endfield database"
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-19-f87b5e806d4b.webp",
+          "assetId": "f87b5e806d4b",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
         }
       ],
       "aeSkillItems": [
@@ -1721,7 +2408,8 @@
         }
       ],
       "chars": [
-        "Da Pan"
+        "Da Pan",
+        "Mi Fu"
       ]
     },
     {
@@ -1742,6 +2430,26 @@
       ],
       "chars": [
         "Perlica"
+      ]
+    },
+    {
+      "region": "Armor",
+      "title": "Swordmancer Heavy Armor T1",
+      "mats": [
+        {
+          "id": "gear:swordmancer-heavy-armor-t1",
+          "name": "Swordmancer Heavy Armor T1",
+          "n": "Swordmancer Heavy Armor T1",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-119-0c265088b275.webp",
+          "assetId": "0c265088b275",
+          "type": "Armor",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Zhuang Fangyi"
       ]
     },
     {
@@ -1766,6 +2474,26 @@
     },
     {
       "region": "Gloves",
+      "title": "Frontiers Fiber Gloves",
+      "mats": [
+        {
+          "id": "gear:frontiers-fiber-gloves",
+          "name": "Frontiers Fiber Gloves",
+          "n": "Frontiers Fiber Gloves",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-76-d9034544e721.webp",
+          "assetId": "d9034544e721",
+          "type": "Gloves",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Laevatain"
+      ]
+    },
+    {
+      "region": "Gloves",
       "title": "Grizzled Edge Gauntlets T1",
       "mats": [
         {
@@ -1786,6 +2514,26 @@
     },
     {
       "region": "Gloves",
+      "title": "Hot Work Gloves",
+      "mats": [
+        {
+          "id": "gear:hot-work-gloves",
+          "name": "Hot Work Gloves",
+          "n": "Hot Work Gloves",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-42-da7a61fbb290.webp",
+          "assetId": "da7a61fbb290",
+          "type": "Gloves",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Yvonne"
+      ]
+    },
+    {
+      "region": "Gloves",
       "title": "MI Security Hands PPE",
       "mats": [
         {
@@ -1801,6 +2549,7 @@
         }
       ],
       "chars": [
+        "Chen Qianyu",
         "Tangtang"
       ]
     },
@@ -1987,6 +2736,66 @@
     },
     {
       "region": "Kit",
+      "title": "Frontiers Comm",
+      "mats": [
+        {
+          "id": "gear:frontiers-comm",
+          "name": "Frontiers Comm",
+          "n": "Frontiers Comm",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-126-2252670f4118.webp",
+          "assetId": "2252670f4118",
+          "type": "Kit",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Endministrator"
+      ]
+    },
+    {
+      "region": "Kit",
+      "title": "Frontiers Extra O2 Tube T1",
+      "mats": [
+        {
+          "id": "gear:frontiers-extra-o2-tube-t1",
+          "name": "Frontiers Extra O2 Tube T1",
+          "n": "Frontiers Extra O2 Tube T1",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-27-b3fc6deaead5.webp",
+          "assetId": "b3fc6deaead5",
+          "type": "Kit",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Last Rite"
+      ]
+    },
+    {
+      "region": "Kit",
+      "title": "Hot Work Power Cartridge",
+      "mats": [
+        {
+          "id": "gear:hot-work-power-cartridge",
+          "name": "Hot Work Power Cartridge",
+          "n": "Hot Work Power Cartridge",
+          "kind": "gear",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/gear/gear-92-371d63275c69.webp",
+          "assetId": "371d63275c69",
+          "type": "Kit",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Rossi"
+      ]
+    },
+    {
+      "region": "Kit",
       "title": "Pulser Labs Probe",
       "mats": [
         {
@@ -2116,6 +2925,46 @@
     },
     {
       "region": "Arts Unit",
+      "title": "Flickers in the Mist",
+      "mats": [
+        {
+          "id": "weapon:flickers-in-the-mist",
+          "name": "Flickers in the Mist",
+          "n": "Flickers in the Mist",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-67-f78876ac577c.webp",
+          "assetId": "f78876ac577c",
+          "type": "Arts Unit",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Zhuang Fangyi"
+      ]
+    },
+    {
+      "region": "Arts Unit",
+      "title": "Lone Barge",
+      "mats": [
+        {
+          "id": "weapon:lone-barge",
+          "name": "Lone Barge",
+          "n": "Lone Barge",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-68-a67f3a59ec6a.webp",
+          "assetId": "a67f3a59ec6a",
+          "type": "Arts Unit",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Zhuang Fangyi"
+      ]
+    },
+    {
+      "region": "Arts Unit",
       "title": "OBJ Arts Identifier",
       "mats": [
         {
@@ -2132,6 +2981,26 @@
       ],
       "chars": [
         "Antal"
+      ]
+    },
+    {
+      "region": "Arts Unit",
+      "title": "Oblivion",
+      "mats": [
+        {
+          "id": "weapon:oblivion",
+          "name": "Oblivion",
+          "n": "Oblivion",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-61-3d8cd2218ea9.webp",
+          "assetId": "3d8cd2218ea9",
+          "type": "Arts Unit",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Zhuang Fangyi"
       ]
     },
     {
@@ -2200,6 +3069,69 @@
     },
     {
       "region": "Greatsword",
+      "title": "Amaranthine Tassel",
+      "mats": [
+        {
+          "id": "weapon:amaranthine-tassel",
+          "name": "Amaranthine Tassel",
+          "n": "Amaranthine Tassel",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-69-f1acc14244a5.webp",
+          "assetId": "f1acc14244a5",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Da Pan",
+        "Mi Fu"
+      ]
+    },
+    {
+      "region": "Greatsword",
+      "title": "Ancient Canal",
+      "mats": [
+        {
+          "id": "weapon:ancient-canal",
+          "name": "Ancient Canal",
+          "n": "Ancient Canal",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-22-28a6674042cd.webp",
+          "assetId": "28a6674042cd",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Da Pan"
+      ]
+    },
+    {
+      "region": "Greatsword",
+      "title": "Exemplar",
+      "mats": [
+        {
+          "id": "weapon:exemplar",
+          "name": "Exemplar",
+          "n": "Exemplar",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-27-86f77e0b50d9.webp",
+          "assetId": "86f77e0b50d9",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Da Pan",
+        "Last Rite",
+        "Mi Fu"
+      ]
+    },
+    {
+      "region": "Greatsword",
       "title": "Finishing Call",
       "mats": [
         {
@@ -2259,8 +3191,30 @@
       ],
       "chars": [
         "Catcher",
+        "Da Pan",
         "Ember",
+        "Last Rite",
         "Snowshine"
+      ]
+    },
+    {
+      "region": "Greatsword",
+      "title": "Khravengger",
+      "mats": [
+        {
+          "id": "weapon:khravengger",
+          "name": "Khravengger",
+          "n": "Khravengger",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-26-f2a006932fe1.webp",
+          "assetId": "f2a006932fe1",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Last Rite"
       ]
     },
     {
@@ -2285,6 +3239,27 @@
     },
     {
       "region": "Greatsword",
+      "title": "Phantom Pain",
+      "mats": [
+        {
+          "id": "weapon:phantom-pain",
+          "name": "Phantom Pain",
+          "n": "Phantom Pain",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-71-02dce8a3fb8a.webp",
+          "assetId": "02dce8a3fb8a",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Da Pan",
+        "Mi Fu"
+      ]
+    },
+    {
+      "region": "Greatsword",
       "title": "Seeker of Dark Lung",
       "mats": [
         {
@@ -2302,7 +3277,29 @@
       "chars": [
         "Catcher",
         "Ember",
+        "Last Rite",
         "Snowshine"
+      ]
+    },
+    {
+      "region": "Greatsword",
+      "title": "Sundered Prince",
+      "mats": [
+        {
+          "id": "weapon:sundered-prince",
+          "name": "Sundered Prince",
+          "n": "Sundered Prince",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-29-5fdc05b5d065.webp",
+          "assetId": "5fdc05b5d065",
+          "type": "Greatsword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Da Pan",
+        "Last Rite"
       ]
     },
     {
@@ -2329,6 +3326,46 @@
     },
     {
       "region": "Handcannon",
+      "title": "Artzy Tyrannical",
+      "mats": [
+        {
+          "id": "weapon:artzy-tyrannical",
+          "name": "Artzy Tyrannical",
+          "n": "Artzy Tyrannical",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-45-bc1f47caaaf1.webp",
+          "assetId": "bc1f47caaaf1",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Yvonne"
+      ]
+    },
+    {
+      "region": "Handcannon",
+      "title": "Brigand's Calling",
+      "mats": [
+        {
+          "id": "weapon:brigands-calling",
+          "name": "Brigand's Calling",
+          "n": "Brigand's Calling",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-64-7c0cbefda221.webp",
+          "assetId": "7c0cbefda221",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Tangtang"
+      ]
+    },
+    {
+      "region": "Handcannon",
       "title": "Clannibal",
       "mats": [
         {
@@ -2344,7 +3381,28 @@
         }
       ],
       "chars": [
-        "Wulfgard"
+        "Wulfgard",
+        "Yvonne"
+      ]
+    },
+    {
+      "region": "Handcannon",
+      "title": "Home Longing",
+      "mats": [
+        {
+          "id": "weapon:home-longing",
+          "name": "Home Longing",
+          "n": "Home Longing",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-65-e8b472018de9.webp",
+          "assetId": "e8b472018de9",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Tangtang"
       ]
     },
     {
@@ -2364,7 +3422,28 @@
         }
       ],
       "chars": [
-        "Fluorite"
+        "Fluorite",
+        "Yvonne"
+      ]
+    },
+    {
+      "region": "Handcannon",
+      "title": "Navigator",
+      "mats": [
+        {
+          "id": "weapon:navigator",
+          "name": "Navigator",
+          "n": "Navigator",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-46-04502e5e808b.webp",
+          "assetId": "04502e5e808b",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Yvonne"
       ]
     },
     {
@@ -2385,7 +3464,28 @@
       ],
       "chars": [
         "Fluorite",
+        "Tangtang",
         "Wulfgard"
+      ]
+    },
+    {
+      "region": "Handcannon",
+      "title": "Opus: The Living",
+      "mats": [
+        {
+          "id": "weapon:opus-the-living",
+          "name": "Opus: The Living",
+          "n": "Opus: The Living",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-42-fdd90ff9ad3f.webp",
+          "assetId": "fdd90ff9ad3f",
+          "type": "Handcannon",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Yvonne"
       ]
     },
     {
@@ -2425,7 +3525,8 @@
         }
       ],
       "chars": [
-        "Wulfgard"
+        "Wulfgard",
+        "Yvonne"
       ]
     },
     {
@@ -2507,7 +3608,8 @@
         }
       ],
       "chars": [
-        "Estella"
+        "Estella",
+        "Lifeng"
       ]
     },
     {
@@ -2532,6 +3634,26 @@
     },
     {
       "region": "Polearm",
+      "title": "Pathfinder's Beacon",
+      "mats": [
+        {
+          "id": "weapon:pathfinders-beacon",
+          "name": "Pathfinder's Beacon",
+          "n": "Pathfinder's Beacon",
+          "kind": "weapon",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-31-674e135e66be.webp",
+          "assetId": "674e135e66be",
+          "type": "Polearm",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Lifeng"
+      ]
+    },
+    {
+      "region": "Polearm",
       "title": "Valiant",
       "mats": [
         {
@@ -2547,7 +3669,49 @@
         }
       ],
       "chars": [
-        "Estella"
+        "Estella",
+        "Lifeng"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Aspirant",
+      "mats": [
+        {
+          "id": "weapon:aspirant",
+          "name": "Aspirant",
+          "n": "Aspirant",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-9-270c0c790924.webp",
+          "assetId": "270c0c790924",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Chen Qianyu"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Contingent Measure",
+      "mats": [
+        {
+          "id": "weapon:contingent-measure",
+          "name": "Contingent Measure",
+          "n": "Contingent Measure",
+          "kind": "weapon",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-2-1a19647c67d3.webp",
+          "assetId": "1a19647c67d3",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Arclight",
+        "Endministrator"
       ]
     },
     {
@@ -2567,7 +3731,30 @@
         }
       ],
       "chars": [
+        "Arclight",
+        "Chen Qianyu",
+        "Endministrator",
         "Pogranichnik"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Forgeborn Scathe",
+      "mats": [
+        {
+          "id": "weapon:forgeborn-scathe",
+          "name": "Forgeborn Scathe",
+          "n": "Forgeborn Scathe",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-12-aabe53d3a9d2.webp",
+          "assetId": "aabe53d3a9d2",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Laevatain"
       ]
     },
     {
@@ -2590,6 +3777,68 @@
         "Akekuri",
         "Alesh",
         "Pogranichnik"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Glorious Memory",
+      "mats": [
+        {
+          "id": "weapon:glorious-memory",
+          "name": "Glorious Memory",
+          "n": "Glorious Memory",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-66-1ab42b505330.webp",
+          "assetId": "1ab42b505330",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Chen Qianyu",
+        "Rossi"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Grand Vision",
+      "mats": [
+        {
+          "id": "weapon:grand-vision",
+          "name": "Grand Vision",
+          "n": "Grand Vision",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-10-6213098755db.webp",
+          "assetId": "6213098755db",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Chen Qianyu",
+        "Endministrator"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Lupine Scarlet",
+      "mats": [
+        {
+          "id": "weapon:lupine-scarlet",
+          "name": "Lupine Scarlet",
+          "n": "Lupine Scarlet",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-63-69501df96038.webp",
+          "assetId": "69501df96038",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Rossi"
       ]
     },
     {
@@ -2629,7 +3878,53 @@
         }
       ],
       "chars": [
-        "Akekuri"
+        "Akekuri",
+        "Arclight"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Rapid Ascent",
+      "mats": [
+        {
+          "id": "weapon:rapid-ascent",
+          "name": "Rapid Ascent",
+          "n": "Rapid Ascent",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-14-3e8807087807.webp",
+          "assetId": "3e8807087807",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Chen Qianyu",
+        "Endministrator",
+        "Rossi"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Sundering Steel",
+      "mats": [
+        {
+          "id": "weapon:sundering-steel",
+          "name": "Sundering Steel",
+          "n": "Sundering Steel",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-4-5885ce319ff1.webp",
+          "assetId": "5885ce319ff1",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Arclight",
+        "Chen Qianyu",
+        "Endministrator",
+        "Rossi"
       ]
     },
     {
@@ -2651,7 +3946,89 @@
       "chars": [
         "Akekuri",
         "Alesh",
+        "Arclight",
         "Pogranichnik"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Twelve Questions",
+      "mats": [
+        {
+          "id": "weapon:twelve-questions",
+          "name": "Twelve Questions",
+          "n": "Twelve Questions",
+          "kind": "weapon",
+          "rar": 5,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-7-7be45f2db113.webp",
+          "assetId": "7be45f2db113",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Arclight"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Umbral Torch",
+      "mats": [
+        {
+          "id": "weapon:umbral-torch",
+          "name": "Umbral Torch",
+          "n": "Umbral Torch",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-13-f7ec5488e601.webp",
+          "assetId": "f7ec5488e601",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Laevatain",
+        "Rossi"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "Wave Tide",
+      "mats": [
+        {
+          "id": "weapon:wave-tide",
+          "name": "Wave Tide",
+          "n": "Wave Tide",
+          "kind": "weapon",
+          "rar": 4,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-3-608120057b4a.webp",
+          "assetId": "608120057b4a",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Laevatain"
+      ]
+    },
+    {
+      "region": "Sword",
+      "title": "White Night Nova",
+      "mats": [
+        {
+          "id": "weapon:white-night-nova",
+          "name": "White Night Nova",
+          "n": "White Night Nova",
+          "kind": "weapon",
+          "rar": 6,
+          "icon": "../../Database/Prydwen/endfield/assets/weapons/weapon-17-1ef46c9351db.webp",
+          "assetId": "1ef46c9351db",
+          "type": "Sword",
+          "source": "Prydwen recommendation"
+        }
+      ],
+      "chars": [
+        "Laevatain"
       ]
     }
   ]

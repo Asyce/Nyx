@@ -1668,19 +1668,20 @@ function extractRankedRecommendationNames(text) {
     .split(/\n\s*\d+\s*\n+/)
     .slice(1)
     .map((chunk) => {
-      const line = chunk.split(/\n+/).map((row) => cleanText(row, 120)).find(Boolean);
-      return line
-        ? cleanText(line.replace(/\s*\(P\s*\d+\s*\)\s*$/i, ''), 90)
-        : '';
+      const line = chunk
+        .split(/\n+/)
+        .map((row) => cleanText(row, 120))
+        .find((row) => row && !/%/.test(row) && !/^(?:solo|team)\b/i.test(row));
+      return line ? cleanText(line.replace(/\s*\(P\s*\d+\s*\)\s*$/i, ''), 90) : '';
     })
-    .filter((name) => name && !/%/.test(name) && !/^solo\b/i.test(name) && !/^no set$/i.test(name));
+    .filter((name) => name && !/^no set$/i.test(name));
 }
 
 function endfieldRecommendationItems(ch, recKey, fallbackKind) {
   const page = endfieldPageForCharacter(ch);
   const section = page?.recommendations?.[recKey]?.sections?.find((row) => row?.text);
   if (!section) return [];
-  const names = extractRankedRecommendationNames(section.text);
+  const names = uniq(extractRankedRecommendationNames(section.text));
   const assets = section.assets || [];
   return names.map((name, index) => {
     const asset = assets[index];

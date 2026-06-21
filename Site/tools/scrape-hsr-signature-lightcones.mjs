@@ -11,7 +11,7 @@ const manifestPath = path.resolve(outRoot, 'manifest.json');
 const reportsDir = path.resolve(dbDir, 'reports');
 const reportPath = path.resolve(reportsDir, 'hsr-signature-lightcones.json');
 const apiRoot = 'https://honkai-star-rail.fandom.com/api.php';
-const userAgent = 'NyxariumHsrSignatureLightConeScraper/1.0';
+const userAgent = 'NyxHsrSignatureLightConeScraper/1.0';
 const fetchTimeoutMs = 20_000;
 
 const args = new Map();

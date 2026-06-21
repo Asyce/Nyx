@@ -1,5 +1,5 @@
 // ============================================================
-// Nyxarium — unified game-hub app (single-page / tabbed)
+// Nyx — unified game-hub app (single-page / tabbed)
 // One mounted app for ALL pages. The top rail switches the active
 // game in React state — no navigation, no reload — so it feels like
 // tabs. The top bar + rail stay mounted; only the content swaps;
@@ -293,7 +293,7 @@ const GAME_REGISTRY = {
     ],
   },
 };
-const NYX_META = { key:'nyx', name:'Simulacrum', charName:'Nyx', art:'../assets/bg/noxbg.png',
+const NYX_META = { key:'nyx', name:'Nyx', charName:'Nyx', art:'../assets/bg/noxbg.png',
   benchIcon:'../assets/bg/noxbg.png', pageBg:'../assets/bg/backgroundnyx.png', bgPos:'50% 48%', bgSize:'132% auto', bgTransform:'scaleX(-1) scale(1.03) rotate(-1deg)',
   codes:GAME_REGISTRY.gi.codes, banner:GAME_REGISTRY.gi.banner };
 
@@ -755,7 +755,7 @@ function OverviewAside({ cfg }){
   );
 }
 
-/* ================= Simulacrum hub (all-games) views ================= */
+/* ================= Nyx hub (all-games) views ================= */
 const SIM_GAMES = [
   { key:'gi',   name:'Genshin Impact',      icon:'../assets/icon/giicon.png',   bg:'../assets/bg/gibg2.png',  pos:'50% 14%' },
   { key:'hsr',  name:'Honkai: Star Rail',   icon:'../assets/icon/hsricon.png',  bg:'../assets/bg/hsrbg.png',  pos:'50% 10%' },
@@ -1145,6 +1145,20 @@ function NyxApp(){
   const [materialModal, setMaterialModal] = React.useState(null);
   useCmGameVersion(activeKey);
 
+  // reveal the page once the app has actually mounted. The page-level
+  // background paints the instant the HTML is parsed (well before this bundle
+  // downloads + runs), so without a cover you briefly see the bare backdrop at
+  // full brightness before any content appears. A dark veil (body::before in
+  // game-page-shared.css) sits on top until we flip html.nyx-app-ready here,
+  // one frame after first commit so the bg-art layer below has settled.
+  React.useEffect(() => {
+    // Add directly (not via requestAnimationFrame): effects still run when the
+    // tab is hidden, but rAF is throttled there — so an open-in-background tab
+    // would otherwise stay dark until the CSS failsafe. The veil's own CSS
+    // transition handles the smooth fade.
+    document.documentElement.classList.add('nyx-app-ready');
+  }, []);
+
   // living eye: slow random wander (top bar). Runs once — bar never unmounts.
   React.useEffect(() => {
     const ball = document.getElementById('tbBall');
@@ -1194,7 +1208,8 @@ function NyxApp(){
       const href = GP_PAGE_HREF[key];
       if (href) window.history.pushState({ nyxKey:key }, '', href);
       const cfg = key === 'nyx' ? NYX_META : GAME_REGISTRY[key];
-      document.title = 'Nyxarium \u2014 ' + (cfg ? cfg.name : 'Hub');
+      const cfgName = cfg ? cfg.name : 'Hub';
+      document.title = (cfgName && cfgName !== 'Nyx') ? 'Nyx \u2014 ' + cfgName : 'Nyx';
     } catch (e) {}
   };
 
@@ -1215,7 +1230,7 @@ function NyxApp(){
         </div>
         <div className="tb-right" aria-hidden="true">
           <span className="plate"></span>
-          <span className="wm">Nyxarium</span>
+          <span className="wm">Nyx</span>
         </div>
       </header>
 

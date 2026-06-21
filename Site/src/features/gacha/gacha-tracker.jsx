@@ -1,5 +1,5 @@
 // ============================================================
-// Nyxarium — universal gacha pull tracker (overlay)
+// Nyx — universal gacha pull tracker (overlay)
 // window.GachaTracker({ open, onClose, cfg })
 //   cfg = { pull, pulls, currency, cost, fives:[], fours:[], key }
 // Two phases: (1) import screen, (2) pull-history visualization.
@@ -169,7 +169,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
             <ol className="gt-steps">
               <li><span className="n">1</span><div><b>Open your history</b><span>In {CUR === 'Primogems' ? 'Genshin' : 'the game'}, open the {PULL} history page so the feed URL is cached.</span></div></li>
               <li><span className="n">2</span><div><b>Copy the feed URL</b><span>{ADAPT ? 'Open PowerShell (Windows search → PowerShell) and run the command below — it copies your link to the clipboard.' : 'Run the helper command, then copy the ' + PULL.toLowerCase() + ' history link it prints.'}</span></div></li>
-              <li><span className="n">3</span><div><b>Paste &amp; import</b><span>Drop the link below — Nyxarium reads every banner and never sees your account.</span></div></li>
+              <li><span className="n">3</span><div><b>Paste &amp; import</b><span>Drop the link below — Nyx reads every banner and never sees your account.</span></div></li>
             </ol>
             {ADAPT && ADAPT.helperCommand && (
               <div className="gt-cmd">

@@ -142,7 +142,7 @@ function writeCards(folderName, cards) {
 
 const response = await fetch(sourceUrl, {
   redirect: 'follow',
-  headers: { 'user-agent': 'Mozilla/5.0 Nyxarium scraper' },
+  headers: { 'user-agent': 'Mozilla/5.0 Nyx scraper' },
   signal: AbortSignal.timeout(fetchTimeoutMs),
 });
 if (!response.ok) throw new Error(`Nanoka GCG scrape failed: ${response.status} ${response.statusText}`);

@@ -1,11 +1,11 @@
 // ============================================================
-// Nyxarium — Game Page shared components (Genshin placeholder)
+// Nyx — Game Page shared components (Genshin placeholder)
 // Exports to window: GPRoot, GPSec, GPHex, GPBack, GPMedallion,
 // GPSwitcher, GPFnRows, GPFav, GPBanner, GPCodes, GP_GAMES, GP_FNS
 // ============================================================
 
 const GP_GAMES = [
-  { key:'nyx',  name:'Simulacrum',        icon:'../assets/icon/noxicon.png', glyph:true },
+  { key:'nyx',  name:'Nyx',        icon:'../assets/icon/noxicon.png', glyph:true },
   { key:'gi',   name:'Genshin Impact',    icon:'../assets/icon/giicon.png' },
   { key:'hsr',  name:'Honkai: Star Rail', icon:'../assets/icon/hsricon.png' },
   { key:'zzz',  name:'Zenless Zone Zero', icon:'../assets/icon/zzzicon.png' },
@@ -100,7 +100,7 @@ function GPLogoBack({ size }){
   );
 }
 
-/* Simulacrum medallion — the hub's living eye (gaze follows the mouse,
+/* Nyx medallion — the hub's living eye (gaze follows the mouse,
    vibrates with excitement when hovered) */
 function GPMedSim({ on, href, onSwitch }){
   const ref = React.useRef(null);
@@ -128,7 +128,7 @@ function GPMedSim({ on, href, onSwitch }){
     return () => { document.removeEventListener('mousemove', onMove); if (raf) cancelAnimationFrame(raf); };
   }, []);
   return (
-    <a ref={ref} href={href || GP_PAGE_HREF.nyx} className={'gp-med sim' + (on ? ' on' : ' sz-sm')} title="Simulacrum" onClick={(e) => gpNav(e, onSwitch, 'nyx')}>
+    <a ref={ref} href={href || GP_PAGE_HREF.nyx} className={'gp-med sim' + (on ? ' on' : ' sz-sm')} title="Nyx" onClick={(e) => gpNav(e, onSwitch, 'nyx')}>
       <span className="ballvibe"><span className="ballscale"><span ref={ballRef} className="slayer ball"></span></span></span>
       <span className="slayer lid"></span>
       <span className="slayer drips"></span>
@@ -136,8 +136,8 @@ function GPMedSim({ on, href, onSwitch }){
   );
 }
 
-/* Simulacrum eye first, then the active game, then the rest.
-   When Simulacrum itself is active, the eye IS the highlighted medallion. */
+/* Nyx eye first, then the active game, then the rest.
+   When Nyx itself is active, the eye IS the highlighted medallion. */
 /* fixed game order on every page — the current page's icon is highlighted
    in place (never reordered to the front) so positions stay stable. */
 function GPGameRail({ active, onSwitch }){

@@ -10,7 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, '../..'); // Nyxarium root
+const root = path.resolve(__dirname, '../..'); // Nyx root
 const dbDir = path.resolve(root, 'Database');
 const generatedDataDir = path.resolve(root, 'Site', 'src', 'data', 'generated');
 
@@ -27,7 +27,7 @@ const GAMES = {
   gi:  { src: 'Nanoka/gi/live/weapons.json',     types: GI_WEAPON_TYPES },
   hsr: { src: 'Nanoka/hsr/live/lightcones.json', types: {} }, // Light Cones
   zzz: { src: 'Nanoka/zzz/live/w-engines.json',  types: {} }, // W-Engines
-  wuwa: { src: 'Nanoka/ww/live/weapons.json',    types: {} }, // Nyxarium key is 'wuwa'
+  wuwa: { src: 'Nanoka/ww/live/weapons.json',    types: {} }, // Nyx key is 'wuwa'
 };
 
 // Asset field names vary per game/category (weapons, light cones,

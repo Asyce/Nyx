@@ -1,5 +1,5 @@
 // ============================================================
-// Nyxarium — Character Materials (Art of Khemia)
+// Nyx — Character Materials (Art of Khemia)
 // Data-driven from window.CM_CFG (cm-data.jsx, loaded first).
 // Per game: Roster + a material tab (Talents/Traces/Chips/Skills)
 // + a boss tab (Trounce Domain / Echo of War / Notorious Hunt /
@@ -12,14 +12,59 @@ const CM_DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 const CM_GLYPHS = ['\u25C8', '\u2726', '\u2756', '\u25C9', '\u2736', '\u2B22', '\u273F', '\u265B'];
 const CM_GI_PRESETS = [
   { key:'6-6-6', label:'6/6/6', targets:[6, 6, 6] },
-  { key:'6-6-9', label:'6/6/9', targets:[6, 6, 9] },
   { key:'6-9-9', label:'6/9/9', targets:[6, 9, 9] },
   { key:'9-9-9', label:'9/9/9', targets:[9, 9, 9] },
-  { key:'9-10-10', label:'9/10/10', targets:[9, 10, 10] },
   { key:'10-10-10', label:'10/10/10', targets:[10, 10, 10] },
 ];
 const CM_GI_TALENT_LABELS = ['Normal Attack', 'Elemental Skill', 'Elemental Burst'];
 const CM_GI_TALENT_SHORT = ['NA', 'Skill', 'Burst'];
+
+// Genshin ascension is 6 phases unlocked at Lv 20/40/50/60/70/80, each capping
+// the level at 40/50/60/70/80/90. The material quantities per phase are
+// universal (identical for every character — only the gem/boss/specialty/mob
+// identities differ), so we can rebuild the cost for any target max level from
+// the flat to-90 list the data already carries. Selectable max levels and the
+// number of ascension phases each requires:
+const CM_GI_ASC_LEVELS = [90, 80, 70, 60, 50, 40, 20];
+const CM_GI_ASC_PHASES = { 20:0, 40:1, 50:2, 60:3, 70:4, 80:5, 90:6 };
+// per-phase (A1..A6) quantities for each universal ascension slot
+const CM_GI_ASC_PATTERN = {
+  gem1:[1,0,0,0,0,0], gem2:[0,3,6,0,0,0], gem3:[0,0,0,3,6,0], gem4:[0,0,0,0,0,6],
+  specialty:[3,10,20,30,45,60], boss:[0,2,4,8,12,20],
+  mob1:[3,15,0,0,0,0], mob2:[0,0,12,18,0,0], mob3:[0,0,0,0,12,24],
+  mora:[20000,40000,60000,80000,100000,120000],
+};
+
+function cmNextAscLevel(level){
+  const i = CM_GI_ASC_LEVELS.indexOf(Number(level));
+  return CM_GI_ASC_LEVELS[(i + 1) % CM_GI_ASC_LEVELS.length];
+}
+
+// Rebuild the GI ascension item list + Mora cost for a target max level by
+// summing the universal per-phase pattern up to that phase. Slots are inferred
+// from the flat list: gems by rarity (sliver/fragment/chunk/gemstone), the
+// specialty by kind, and the remaining drops by rarity (3 mob tiers + boss).
+function cmGiAscensionForLevel(ascItems, ascCost, targetLevel){
+  const phases = CM_GI_ASC_PHASES[Number(targetLevel)] ?? 6;
+  if (phases >= 6) return { items:ascItems || [], cost:Number(ascCost || 0) };
+  const items = ascItems || [];
+  const gems = items.filter((m) => m.kind === 'gem').sort((a, b) => cmRarityValue(a.rar) - cmRarityValue(b.rar));
+  const drops = items.filter((m) => m.kind !== 'gem' && m.kind !== 'specialty').sort((a, b) => cmRarityValue(a.rar) - cmRarityValue(b.rar));
+  const slotOf = (m) => {
+    if (m.kind === 'gem') return ['gem1', 'gem2', 'gem3', 'gem4'][gems.indexOf(m)];
+    if (m.kind === 'specialty') return 'specialty';
+    return ['mob1', 'mob2', 'mob3', 'boss'][drops.indexOf(m)];
+  };
+  const sumTo = (pat) => { let q = 0; for (let i = 0; i < phases; i += 1) q += pat[i] || 0; return q; };
+  const out = [];
+  items.forEach((m) => {
+    const pat = CM_GI_ASC_PATTERN[slotOf(m)];
+    if (!pat) { out.push(m); return; }
+    const qty = sumTo(pat);
+    if (qty > 0) out.push({ ...m, qty });
+  });
+  return { items:out, cost:sumTo(CM_GI_ASC_PATTERN.mora) };
+}
 
 const NYX_SEARCH_ALIASES = {
   dante:['Dan Heng \u2022 Permansor Terrae', 'Dan Heng Permansor Terrae'],
@@ -196,7 +241,7 @@ function cmCurrencyMat(cfg, qty){
     id: 'currency:' + name,
     name,
     qty: count,
-    rar: 4,
+    rar: 3, // base credits/Mora-tier currency is a 3-star item, not purple (4)
     kind: 'currency',
     icon: cfg?.curIcon || null,
   };
@@ -207,18 +252,41 @@ function cmInitials(name){
   return ((p[0] && p[0][0] || 'N') + (p[1] ? p[1][0] : (p[0] && p[0][1] || ''))).toUpperCase();
 }
 
+// Tidy scraped source blurbs for the hover tooltip: drop the useless
+// "Go to collect" CTA artifact, strip the "Recommendation:" prefix, and remove
+// the stray word "recommendation" (e.g. "Prydwen recommendation" -> "Prydwen").
+function cmCleanSourceName(name){
+  let s = String(name || '').trim();
+  if (/^go to collect$/i.test(s)) return '';
+  s = s.replace(/^\s*recommendation\s*:\s*/i, '');
+  s = s.replace(/\brecommendations?\b/ig, '').replace(/\s{2,}/g, ' ').replace(/\s*[:·-]\s*$/, '').trim();
+  return s;
+}
+
 function cmMatSourceInfo(m){
   if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) {
-    return m.sourceDetails.map((entry) => entry?.name).filter(Boolean).join(' / ');
+    const names = m.sourceDetails.map((entry) => cmCleanSourceName(entry?.name)).filter(Boolean);
+    if (names.length) return names.join(' / ');
   }
   const direct = m?.source || m?.dropSource || m?.sourceText;
-  if (direct) return String(direct);
-  if (Array.isArray(m?.sources) && m.sources.length) return m.sources.filter(Boolean).join(' / ');
+  if (direct) {
+    const cleaned = String(direct).split(/\s+\/\s+/).map(cmCleanSourceName).filter(Boolean).join(' / ');
+    if (cleaned) return cleaned;
+  }
+  if (Array.isArray(m?.sources) && m.sources.length) {
+    const cleaned = m.sources.map(cmCleanSourceName).filter(Boolean);
+    if (cleaned.length) return cleaned.join(' / ');
+  }
   return 'Source details pending.';
 }
 
 function cmMatSourceDetails(m){
-  if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) return m.sourceDetails.filter((entry) => entry?.name);
+  if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) {
+    const cleaned = m.sourceDetails
+      .map((entry) => ({ ...entry, name:cmCleanSourceName(entry?.name) }))
+      .filter((entry) => entry.name);
+    if (cleaned.length) return cleaned;
+  }
   const text = cmMatSourceInfo(m);
   return text && text !== 'Source details pending.'
     ? text.split(/\s+\/\s+/).filter(Boolean).map((name) => ({ name }))
@@ -529,9 +597,49 @@ function cmSvgIcon(type){
   }
 }
 
-function cmMetaIcon(gameKey, chip){
+// Real in-game element/path/weapon-type icons saved locally under
+// assets/meta/<game>/ (sourced from jmp.blue, gi.yatta.moe, and the StarRailRes
+// wiki). Anything not listed here falls back to the hand-drawn SVG glyph, so
+// partial coverage degrades gracefully per game/field.
+const CM_META_ICON_BASE = '../assets/meta/';
+const CM_META_ICONS = {
+  gi: {
+    el: { pyro:'gi/pyro.webp', hydro:'gi/hydro.webp', cryo:'gi/cryo.webp', electro:'gi/electro.webp', anemo:'gi/anemo.webp', geo:'gi/geo.webp', dendro:'gi/dendro.webp' },
+    w:  { sword:'gi/sword.png', claymore:'gi/claymore.png', polearm:'gi/polearm.png', bow:'gi/bow.png', catalyst:'gi/catalyst.png' },
+  },
+  hsr: {
+    el:   { physical:'hsr/physical.png', fire:'hsr/fire.png', ice:'hsr/ice.png', lightning:'hsr/lightning.png', wind:'hsr/wind.png', quantum:'hsr/quantum.png', imaginary:'hsr/imaginary.png' },
+    path: { destruction:'hsr/path_destruction.png', hunt:'hsr/path_hunt.png', erudition:'hsr/path_erudition.png', harmony:'hsr/path_harmony.png', nihility:'hsr/path_nihility.png', preservation:'hsr/path_preservation.png', abundance:'hsr/path_abundance.png', remembrance:'hsr/path_remembrance.png', elation:'hsr/path_elation.png' },
+  },
+  zzz: {
+    el:   { physical:'zzz/physical.webp', fire:'zzz/fire.webp', ice:'zzz/ice.webp', electric:'zzz/electric.webp', ether:'zzz/ether.webp' },
+    spec: { attack:'zzz/spec_attack.webp', stun:'zzz/spec_stun.webp', anomaly:'zzz/spec_anomaly.webp', support:'zzz/spec_support.webp', defense:'zzz/spec_defense.webp', defence:'zzz/spec_defense.webp', rupture:'zzz/spec_rupture.webp' },
+  },
+  wuwa: {
+    el: { glacio:'wuwa/glacio.webp', fusion:'wuwa/fusion.webp', electro:'wuwa/electro.webp', aero:'wuwa/aero.webp', spectro:'wuwa/spectro.webp', havoc:'wuwa/havoc.webp' },
+    w:  { sword:'wuwa/wp_sword.webp', broadblade:'wuwa/wp_broadblade.webp', pistols:'wuwa/wp_pistols.webp', gauntlets:'wuwa/wp_gauntlets.webp', rectifier:'wuwa/wp_rectifier.webp' },
+  },
+};
+
+function cmMetaIconSrc(gameKey, field, value){
+  const g = CM_META_ICONS[gameKey];
+  if (!g || !g[field]) return null;
+  const key = String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  return g[field][key] ? CM_META_ICON_BASE + g[field][key] : null;
+}
+
+function CMMetaIcon({ gameKey, chip }){
   const color = CM_ELEM[chip.value] || CM_ELEM[String(chip.value || '').replace(/^Electric$/i, 'Electro')] || '#b7aaff';
   const type = cmMetaIconType(chip.key, chip.value);
+  const src = cmMetaIconSrc(gameKey, chip.key, chip.value);
+  const [failed, setFailed] = React.useState(false);
+  if (src && !failed) {
+    return (
+      <span className="cm-meta-symbol img" aria-hidden="true">
+        <img src={src} alt="" draggable="false" onError={() => setFailed(true)} />
+      </span>
+    );
+  }
   return (
     <span className={'cm-meta-symbol is-' + type} style={{ '--meta':color }} aria-hidden="true">
       {cmSvgIcon(type)}
@@ -690,8 +798,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
   const [showHidden, setShowHidden] = React.useState(false);
   const [hiddenPrefs, setHiddenPrefs] = React.useState(cmLoadHiddenPrefs);
   const [day, setDay] = React.useState(() => { const d = new Date().getDay(); return d === 0 ? 6 : d - 1; }); // 0=Mon..6=Sun
-  const [giPreset, setGiPreset] = React.useState('9-10-10');
-  const [giTargets, setGiTargets] = React.useState([9, 10, 10]);
+  const [giPreset, setGiPreset] = React.useState('9-9-9');
+  const [giTargets, setGiTargets] = React.useState([9, 9, 9]);
+  const [giAscLevel, setGiAscLevel] = React.useState(90);
   const [activeVariant, setActiveVariant] = React.useState(null);
   const [activeGender, setActiveGender] = React.useState(null);
   const [activeArtIndex, setActiveArtIndex] = React.useState(0);
@@ -918,7 +1027,10 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
   const formOptions = cmFormOptions(sel);
   const genderOptions = cmGenderOptions(sel);
   const req = view ? cmRequirements(gk, view, { targets:gk === 'gi' ? giTargets : activePreset.targets }) : null;
-  const ascReq = req ? cmReqItems([cmCurrencyMat(cfg, req.ascCost), ...(req.ascension || [])]) : [];
+  const giAsc = (gk === 'gi' && req && req.ascension) ? cmGiAscensionForLevel(req.ascension, req.ascCost, giAscLevel) : null;
+  const ascItems = giAsc ? giAsc.items : (req?.ascension || []);
+  const ascItemsCost = giAsc ? giAsc.cost : (req?.ascCost || 0);
+  const ascReq = req ? cmReqItems([cmCurrencyMat(cfg, ascItemsCost), ...ascItems]) : [];
   const talentReq = req ? cmReqItems([cmCurrencyMat(cfg, req.talentCost), ...(req.talents || [])]) : [];
   const weaponOptions = view ? (cfg.weapons || []).filter((weapon) => cmWeaponCompatible(gk, view, weapon)) : [];
   const weaponPickKey = view ? `${gk}:${cmHiddenKey(view)}` : null;
@@ -1006,7 +1118,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
 
         <div className="cm-head">
           <span className="cm-dia"></span>
-          <div className="cm-ttl"><div className="t">Character Materials</div><div className="s">Art of Khemia \u00B7 {gMeta.name}</div></div>
+          <div className="cm-ttl"><div className="t">Character Materials</div><div className="s">Art of Khemia {'\u00B7'} {gMeta.name}</div></div>
           <div className="cm-tools">
             <div className="cm-search">
               <span className="ic"></span>
@@ -1238,7 +1350,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                     <div className="cm-pop-tags">
                       {metaChips.map((chip) => (
                         <span key={chip.key + chip.value} className="cm-pop-chip icon-only" title={`${chip.label}: ${chip.value}`} aria-label={`${chip.label}: ${chip.value}`}>
-                          {cmMetaIcon(gk, chip)}
+                          <CMMetaIcon gameKey={gk} chip={chip} />
                         </span>
                       ))}
                     </div>
@@ -1302,7 +1414,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                 <div className="cm-ledger-rows">
                   {ascReq.length > 0 && (
                     <div className="cm-ledger-row">
-                      <div className="cm-ledger-label"><b>ASCENSION</b><span>Lv.90</span></div>
+                      <div className="cm-ledger-label"><b>ASCENSION</b>
+                        {gk === 'gi'
+                          ? <button type="button" className="cm-asc-level" title="Click to change the ascension target level" onClick={() => setGiAscLevel(cmNextAscLevel(giAscLevel))}>Lv {giAscLevel}</button>
+                          : <span>Lv.90</span>}
+                      </div>
                       <div className="cm-mats cm-ledger-mats">{ascReq.map((m, i) => <MatTile key={i} m={m} />)}</div>
                     </div>
                   )}
@@ -1311,7 +1427,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                       <div className="cm-ledger-label">
                         <b>{String(cfg.tabs.mid || 'Materials').toUpperCase()}</b>
                         <span className="cm-talent-summary" title={gk === 'gi' ? 'Talent targets: Normal Attack / Elemental Skill / Elemental Burst' : undefined}>
-                          {gk === 'gi' ? 'Targets' : 'all to max'}
+                          {gk === 'gi' ? '' : 'all to max'}
                         </span>
                         {gk === 'gi' && (
                           <div className="cm-talent-triplet" aria-label="Talent level targets">
@@ -1319,20 +1435,26 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                               const icon = view?.skillIcons?.[index];
                               const label = CM_GI_TALENT_LABELS[index];
                               return (
-                                <button
-                                  type="button"
+                                <label
                                   className="cm-talent-control"
                                   key={index}
-                                  aria-label={`${label} target level ${value}`}
-                                  title={`${label}: ${value}`}
-                                  onClick={() => setGiTalentTarget(index, value >= 10 ? 1 : value + 1)}
-                                  onContextMenu={(event) => { event.preventDefault(); setGiTalentTarget(index, value <= 1 ? 10 : value - 1); }}
+                                  title={`${label}: type a target level (1-10)`}
                                 >
                                   <span className="cm-talent-icon">
                                     {icon ? <img src={icon} alt="" draggable="false" /> : <em>{CM_GI_TALENT_SHORT[index]}</em>}
                                   </span>
-                                  <span className="cm-talent-num">{value}</span>
-                                </button>
+                                  <input
+                                    type="number"
+                                    min="1"
+                                    max="10"
+                                    inputMode="numeric"
+                                    className="cm-talent-num"
+                                    aria-label={`${label} target level`}
+                                    value={value}
+                                    onChange={(e) => setGiTalentTarget(index, e.target.value)}
+                                    onFocus={(e) => e.target.select()}
+                                  />
+                                </label>
                               );
                             })}
                           </div>
@@ -1375,7 +1497,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                                   className={!pickedWeaponId ? 'on' : ''}
                                   onClick={() => pickWeapon(null)}
                                 >
-                                  <span className="sig">\u2605</span>
+                                  <span className="sig">{'\u2605'}</span>
                                   <span>Signature ({signatureWeapon.name})</span>
                                 </button>
                               )}

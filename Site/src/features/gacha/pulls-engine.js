@@ -1,5 +1,5 @@
 // ============================================================
-// Nyxarium — wish/gacha import engine  (window.NyxPulls)
+// Nyx — wish/gacha import engine  (window.NyxPulls)
 //
 // Ported from the proven As-I've-Hoarded "asivepulled" adapters, but
 // rewritten as a self-contained browser global (no ES imports) so it
@@ -540,8 +540,8 @@ window.NyxPulls = (function () {
   ];
   function buildWuwaBannerViews(pulls) { return buildViewsFor('wuwa', pulls, WW_VIEW_BANNERS, WW_STANDARD_5); }
 
-  // ---- adapter registry (Nyxarium game-key → adapter) ----------------
-  // Nyxarium uses 'wuwa'/'ae'; the underlying data model uses 'ww'/
+  // ---- adapter registry (Nyx game-key → adapter) ----------------
+  // Nyx uses 'wuwa'/'ae'; the underlying data model uses 'ww'/
   // 'endfield'. Map at the boundary so storage stays canonical.
   const ADAPTERS = {
     gi: {

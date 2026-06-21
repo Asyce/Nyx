@@ -11,7 +11,7 @@ const manifestPath = path.resolve(outRoot, 'manifest.json');
 const reportsDir = path.resolve(dbDir, 'reports');
 const reportPath = path.resolve(reportsDir, 'genshin-birthday-art.json');
 const apiRoot = 'https://genshin-impact.fandom.com/api.php';
-const userAgent = 'NyxariumBirthdayArtScraper/1.0';
+const userAgent = 'NyxBirthdayArtScraper/1.0';
 const fetchTimeoutMs = 20_000;
 
 const args = new Map();

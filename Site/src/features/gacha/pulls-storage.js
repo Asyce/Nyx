@@ -1,5 +1,5 @@
 // ============================================================
-// Nyxarium — pull history persistence  (window.NyxPullStore)
+// Nyx — pull history persistence  (window.NyxPullStore)
 //
 // Local-first store, ported from As-I've-Hoarded's asivepulled/storage.
 // IndexedDB keyed by [game, uid, id] so re-imports merge idempotently

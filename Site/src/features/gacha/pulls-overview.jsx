@@ -1,9 +1,9 @@
 // ============================================================
-// Nyxarium — cross-game Pull Overview (window.PullsOverview)
+// Nyx — cross-game Pull Overview (window.PullsOverview)
 // Reads every game's imported history from IndexedDB and shows a
 // per-game summary card: current character-banner pity, lifetime
 // pulls, 5★ count, and the most recent 5★ with art. Lives on the
-// Nyxarium (Simulacrum) hub's "Pull Overview" tab.
+// Nyx (Nyx) hub's "Pull Overview" tab.
 // ============================================================
 
 function PullsOverview() {

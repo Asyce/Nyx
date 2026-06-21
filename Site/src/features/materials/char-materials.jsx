@@ -277,7 +277,7 @@ function cmMatSourceInfo(m){
     const cleaned = m.sources.map(cmCleanSourceName).filter(Boolean);
     if (cleaned.length) return cleaned.join(' / ');
   }
-  return 'Source details pending.';
+  return '';
 }
 
 function cmMatSourceDetails(m){
@@ -288,7 +288,7 @@ function cmMatSourceDetails(m){
     if (cleaned.length) return cleaned;
   }
   const text = cmMatSourceInfo(m);
-  return text && text !== 'Source details pending.'
+  return text
     ? text.split(/\s+\/\s+/).filter(Boolean).map((name) => ({ name }))
     : [];
 }
@@ -323,7 +323,7 @@ function MatTile({ m }){
   const source = cmMatSourceInfo(m);
   const details = cmMatSourceDetails(m);
   return (
-    <div className="cm-mat" title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + '\n' + source}
+    <div className="cm-mat" title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + (source ? '\n' + source : '')}
          style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../../assets/mats/rarity' + rarity + '.png")' }}>
       <div className="ic">
         {m.sprite ? <ZzzSpriteIcon icon={icon} sprite={m.sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{g}</span>}
@@ -336,12 +336,13 @@ function MatTile({ m }){
           <span className="src-list">
             {details.map((detail, i) => (
               <span key={i} className="src-row">
-                {detail.icon && <img src={detail.icon} alt="" draggable="false" />}
-                <em>{detail.name}</em>
+                {detail.icon
+                  ? <img src={detail.icon} alt={detail.name || ''} draggable="false" />
+                  : <em>{detail.name}</em>}
               </span>
             ))}
           </span>
-        ) : <em>{source}</em>}
+        ) : (source ? <em>{source}</em> : null)}
       </span>
     </div>
   );

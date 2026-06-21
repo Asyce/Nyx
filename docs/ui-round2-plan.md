@@ -75,13 +75,24 @@ Target:
 - CSS: rework `.gp-topbar` grid so left = eye+wordmark, right = pengo icon; update `.tb-eye`,
   `.tb-right`, add a `.tb-pengo`. The eye uses the `.elayer` mask layers (ball/lid/drips).
 
-### 2.4 Mockups (produce, don't implement yet — user chooses)
-- [ ] **Redemption-code panel: 6 mockups.** (3 were shown round-1: compact rows / reward cards /
-  voucher stubs. Add 3 more, e.g. dense table, copy-on-click chips, expandable list.) Implement the
-  chosen one in `CodeCardRow`/`CodesPanel` (`nyx-app.jsx` ~L652-734) + `.gp-code` CSS.
-- [ ] **Banner panel: 6 mockups.** Current banners render via `GPBanner`/`bannerPhaseCards`
-  (`nyx-app.jsx`, `OverviewAside`). Mock 6 layouts (e.g. hero card, split 5★/4★, timeline, compact
-  list, dual-banner, art-forward). Implement chosen one in `GPBanner` + `.gp-ban*`/`.sim-ban*` CSS.
+### 2.4 Mockups — DECIDED (implement these)
+- [ ] **Redemption codes → layout D (dense table).** Implement in `CodeCardRow`/`CodesPanel`
+  (`nyx-app.jsx` ~L652-734) + `.gp-code` CSS. Required behaviors:
+  - **Click the code text → open the redeem page** (`r.redeemUrl`, new tab).
+  - **Copy button on the right → copies the code only** (no redeem).
+  - **Checkbox** to mark redeemed / unredeemed (persists via the existing
+    `nyx:redeemed-codes:v1` localStorage set; replace the current "Done/Undo" button with a checkbox).
+  - **Reward column format = `[currency icon] + [amount]`** (e.g. the Primogem icon + `100`), not the
+    full reward string. Use `premiumCodeMeta(gameKey, codes).icon` for the currency icon + the code's
+    premium amount.
+  - **Hover the currency cell → a small popout listing the rest of the rewards** (the full
+    `r.reward` breakdown / `RewardChips`).
+- [ ] **Banners → layout F (art-forward + info bar).** Implement in `GPBanner`/`bannerPhaseCards`
+  (`nyx-app.jsx`, `OverviewAside`) + `.gp-ban*`/`.sim-ban*` CSS. Changes vs the mockup:
+  - **Remove** the "5★" label and the element/weapon text line.
+  - **4-stars shown as icons** on the banner art (character icons, not text chips).
+  - **Duration shown prominently + large** (big countdown).
+  - **If multiple banners**, the duration goes **directly below** (stacked under each banner), not in a corner.
 
 ---
 
@@ -91,18 +102,21 @@ Target:
   `.cm-talent-triplet` container (gi) or an empty `.cm-mats`/placeholder renders an empty box when a
   section has no mats. Find the stray empty element under the talents row and conditionally omit it
   (render only when it has content).
-- [ ] **3.2 Broken "obtaining" text + icon-vs-text.** In `MatTile` (~L248-280) the hover `.src-tip`
-  renders `.src-row`s as `{detail.icon && <img/>}<em>{detail.name}</em>`. Change so **when a row has
-  an icon, do not render the `<em>` text** (icon only). Also fix the broken source strings (see
-  attached screenshot from user — likely malformed multi-source concatenation; tighten
-  `cmCleanSourceName`/`cmMatSourceInfo` so junk/duplicated/overlong blurbs are dropped).
+- [x] **3.2a Obtaining-text DISPLAY — DONE (commit pending).** Root cause of the screenshot's
+  one-word-per-line was: a text-only `.src-row` has a single `<em>`, which grid auto-placed into the
+  24px icon column. Fixed: `.src-tip{ width:228px }` (was `max-content`), `.src-row` is now `display:flex`
+  with `em{ flex:1; min-width:0 }`. Also: `MatTile` now renders **icon OR text** per row (`detail.icon
+  ? <img alt=name/> : <em>name</em>`) so an icon row shows no text; `cmMatSourceInfo` returns `''`
+  (no more "Source details pending."); empty source renders no `<em>` and no trailing title newline.
+- [ ] **3.2b Obtaining-text DATA — "look it up properly, source the wiki".** Where the scraped
+  source is wrong/missing, source the correct obtaining info from the wiki (Nanoka/Prydwen/wiki.gg).
+  (Skysplit Gembloom's data was actually correct — "Found in Atocpan / Grown in the Serenitea Pot" —
+  it was only the display that broke; but audit other mats and backfill from the wiki where wrong.)
 - [ ] **3.3 Genshin talent source = "[Region] Talent Domain".** For talent-book materials (gi),
   the obtaining text should just read e.g. `Mondstadt Talent Domain`. Derive the region from the
   character's talent-domain data (`cfg.talentDomains[].name`/region, used at ~L1013, L1243). Map the
   talent-book material → its domain region and render `"<Region> Talent Domain"` instead of scraped text.
-- [ ] **3.4 Remove "Source details pending." everywhere.** In `cmMatSourceInfo` change the final
-  `return 'Source details pending.'` to `return ''`; in `MatTile`/`cmMatSourceDetails` don't render
-  the `.src-tip` (or the `<em>`) when the cleaned source is empty.
+- [x] **3.4 Remove "Source details pending." — DONE** (folded into 3.2a: `cmMatSourceInfo` returns `''`).
 - [ ] **3.5 Character icon + inline element/type/weapon in the header (no container).** In the popout
   header (`.cm-ledger-title` / `.cm-pop-name` ~L1340s) put the character's **circle icon behind the
   name**, then the element/type/weapon icons **inline after the name** — remove the `.cm-pop-chip
@@ -157,7 +171,9 @@ Target:
 - [ ] Commit per phase (or one commit) with `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`; push `main`.
 - [ ] If asked to deploy: `npm --prefix Site run build:deploy` + `npx wrangler deploy`; verify live with `curl -L https://pengo.gg/...`.
 
+## Decisions locked (this round)
+- Codes → **layout D** + behaviors (2.4). Banners → **layout F** + changes (2.4).
+- Obtaining text: display fixed (3.2a); data should be sourced from the wiki where wrong (3.2b).
+
 ## Open questions / needs from user
-- The "broken obtaining text" screenshot (3.2) was referenced but not attached — get it to pin the exact malformation.
-- Which of the 6 code mockups and 6 banner mockups to implement (3 code variants already exist; new ones below).
 - Endfield max level confirmation (3.10).

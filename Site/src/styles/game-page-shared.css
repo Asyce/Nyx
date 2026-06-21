@@ -540,10 +540,31 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
    to their left. Scaled to bar height so page content keeps its room. */
 .gp-topbar{ position:relative; height:132px; flex:none; display:flex; align-items:center; justify-content:center;
   background:linear-gradient(180deg, rgba(10,7,24,.85), rgba(10,7,24,0)); }
-.gp-topbar .tb-eye{ position:absolute; top:-18px; left:14px; width:146px; height:146px; display:block; cursor:pointer; z-index:5;
-  filter:drop-shadow(0 0 6px var(--accent-glow)) drop-shadow(0 3px 12px rgba(0,0,0,.6));
-  transition:filter .35s; }
-.gp-topbar .tb-eye:hover{ filter:drop-shadow(0 0 10px var(--accent-bright)) drop-shadow(0 3px 12px rgba(0,0,0,.6)); }
+/* left brand — the living eye sits BEHIND the "Nyx" wordmark on the decorative
+   plate; the whole group (and the right-hand Pengo icon) link to the index */
+.gp-topbar .tb-brand{ position:absolute; top:50%; left:22px; transform:translateY(-50%); z-index:6;
+  display:inline-flex; align-items:center; height:96px; padding:0 28px 0 4px; text-decoration:none; cursor:pointer; }
+.gp-topbar .tb-brand .plate{ position:absolute; left:-14px; top:50%; transform:translateY(-50%);
+  width:340px; height:86px; pointer-events:none;
+  background:url('../../assets/decor/achievement_cycle.png') center/100% 100% no-repeat;
+  mix-blend-mode:screen; opacity:.5;
+  -webkit-mask:linear-gradient(90deg, #000 0%, #000 36%, transparent 92%);
+  mask:linear-gradient(90deg, #000 0%, #000 36%, transparent 92%); }
+.gp-topbar .tb-brand .brand-mark{ position:relative; display:inline-flex; align-items:center; }
+.gp-topbar .tb-brand .tb-eye{ position:absolute; left:50%; top:44%; transform:translate(-50%,-50%);
+  width:64px; height:64px; z-index:1; pointer-events:none;
+  filter:drop-shadow(0 0 7px var(--accent-glow)) drop-shadow(0 3px 10px rgba(0,0,0,.6)); transition:filter .35s; }
+.gp-topbar .tb-brand .wm{ position:relative; z-index:2; font-family:'GI',serif; font-size:50px; line-height:.9;
+  letter-spacing:.06em; color:#f7f4ff; text-shadow:0 0 22px var(--accent-glow), 0 2px 16px rgba(0,0,0,.78); }
+.gp-topbar .tb-brand:hover .wm{ color:#fff; text-shadow:0 0 28px var(--accent-bright), 0 2px 16px rgba(0,0,0,.78); }
+.gp-topbar .tb-brand:hover .tb-eye{ filter:drop-shadow(0 0 11px var(--accent-bright)) drop-shadow(0 3px 10px rgba(0,0,0,.6)); }
+/* right — Pengo icon, also links to the index */
+.gp-topbar .tb-pengo{ position:absolute; top:50%; right:24px; transform:translateY(-50%); z-index:6;
+  display:inline-flex; cursor:pointer; transition:transform .3s, filter .3s;
+  filter:drop-shadow(0 0 8px var(--accent-glow)) drop-shadow(0 3px 10px rgba(0,0,0,.55)); }
+.gp-topbar .tb-pengo img{ height:74px; width:auto; display:block; }
+.gp-topbar .tb-pengo:hover{ transform:translateY(-50%) scale(1.06);
+  filter:drop-shadow(0 0 12px var(--accent-bright)) drop-shadow(0 4px 12px rgba(0,0,0,.6)); }
 .gp-topbar .elayer{ position:absolute; inset:0; background:#f7f4ff;
   -webkit-mask-repeat:no-repeat; mask-repeat:no-repeat;
   -webkit-mask-position:center; mask-position:center;
@@ -576,15 +597,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-search-wrap{ position:relative; flex:none; margin-right:16px; }
 .search-seat{ position:absolute; right:22px; bottom:-14px; height:74px; width:auto; z-index:4;
   pointer-events:none; filter:drop-shadow(0 5px 9px rgba(0,0,0,.55)); }
-.gp-topbar .tb-right{ position:absolute; top:18px; right:6px; width:340px; height:70px;
-  display:flex; align-items:center; justify-content:center; pointer-events:none; }
-.gp-topbar .tb-right .plate{ position:absolute; inset:0;
-  background:url('../../assets/decor/achievement_cycle.png') center/100% 100% no-repeat;
-  mix-blend-mode:screen; opacity:.55;
-  -webkit-mask:linear-gradient(90deg, #000 0%, #000 30%, transparent 88%);
-  mask:linear-gradient(90deg, #000 0%, #000 30%, transparent 88%); }
-.gp-topbar .tb-right .wm{ position:relative; font-family:'GI',serif; font-size:44px; line-height:.9; letter-spacing:.04em;
-  color:#f7f4ff; text-shadow:0 0 26px var(--accent-glow), 0 2px 18px rgba(0,0,0,.6); }
 .gp-bench-dia .bp:hover{ background:linear-gradient(160deg,#d3c8ff,#9a89ea); }
 .gp-bench-dia .bp:hover::before{ color:#0c0922; }
 
@@ -1451,15 +1463,18 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   }
   .stage.is-compact-stage .gp-page{ padding:0 18px 18px; }
   .stage.is-compact-stage .gp-topbar{ height:auto; min-height:94px; padding:12px 0 8px; justify-content:flex-start; }
-  .stage.is-compact-stage .gp-topbar .tb-eye{ top:-10px; left:10px; width:112px; height:112px; }
+  .stage.is-compact-stage .gp-topbar .tb-brand{ left:8px; height:60px; padding:0 12px 0 2px; }
+  .stage.is-compact-stage .gp-topbar .tb-brand .plate{ width:190px; height:54px; left:-8px; }
+  .stage.is-compact-stage .gp-topbar .tb-brand .tb-eye{ width:42px; height:42px; }
+  .stage.is-compact-stage .gp-topbar .tb-brand .wm{ font-size:30px; }
   .stage.is-compact-stage .gp-topbar .tb-center{
-    margin-left:128px; max-width:calc(100vw - 144px); gap:10px; overflow-x:auto; padding:4px 4px 8px;
+    margin-left:150px; max-width:calc(100vw - 166px); gap:10px; overflow-x:auto; padding:4px 4px 8px;
     scrollbar-width:none; -ms-overflow-style:none;
   }
   .stage.is-compact-stage .gp-topbar .tb-center::-webkit-scrollbar{ display:none; }
   .stage.is-compact-stage .gp-topbar .banner{ min-width:178px; height:46px; padding:0 20px; font-size:12px; }
   .stage.is-compact-stage .banner-seat{ height:78px; left:-10px; bottom:-8px; }
-  .stage.is-compact-stage .gp-topbar .tb-right{ display:none; }
+  .stage.is-compact-stage .gp-topbar .tb-pengo{ display:none; }
   .stage.is-compact-stage .gp-layout,
   .stage.is-compact-stage .gp-layout.has-aside{
     grid-template-columns:minmax(0, 1fr); grid-auto-rows:auto; gap:14px; overflow:auto; padding-bottom:8px;
@@ -1498,8 +1513,10 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 
 @media (max-width: 680px){
   .stage.is-compact-stage .gp-page{ padding:0 12px 12px; }
-  .stage.is-compact-stage .gp-topbar .tb-eye{ width:88px; height:88px; left:8px; top:-6px; }
-  .stage.is-compact-stage .gp-topbar .tb-center{ margin-left:104px; max-width:calc(100vw - 116px); }
+  .stage.is-compact-stage .gp-topbar .tb-brand{ left:6px; height:52px; }
+  .stage.is-compact-stage .gp-topbar .tb-brand .tb-eye{ width:36px; height:36px; }
+  .stage.is-compact-stage .gp-topbar .tb-brand .wm{ font-size:26px; }
+  .stage.is-compact-stage .gp-topbar .tb-center{ margin-left:128px; max-width:calc(100vw - 140px); }
   .stage.is-compact-stage .gp-topbar .banner{ min-width:150px; font-size:10.5px; letter-spacing:.11em; }
   .stage.is-compact-stage .gp-favs > div:first-child{ gap:10px !important; }
   .stage.is-compact-stage .gp-sec{ gap:8px; }

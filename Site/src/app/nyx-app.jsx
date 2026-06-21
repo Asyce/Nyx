@@ -1165,7 +1165,7 @@ function NyxApp(){
     (function wander(){
       const a = Math.random() * Math.PI * 2;
       const r = Math.sqrt(Math.random());
-      ball.style.transform = 'translate(' + (Math.cos(a) * r * 14.5).toFixed(1) + 'px,' + (Math.sin(a) * r * 6).toFixed(1) + 'px)';
+      ball.style.transform = 'translate(' + (Math.cos(a) * r * 5).toFixed(1) + 'px,' + (Math.sin(a) * r * 2.6).toFixed(1) + 'px)';
       tm = setTimeout(wander, 1100 + Math.random() * 1900);
     })();
     return () => clearTimeout(tm);
@@ -1218,18 +1218,23 @@ function NyxApp(){
   return (
     <div style={{ position:'absolute', inset:0, display:'flex', flexDirection:'column' }} data-screen-label={cfg.name + ' page'}>
       <header className="gp-topbar" data-screen-label="Top bar">
-        <a className="tb-eye" href="index.html" title="Back to Worlds" aria-label="Back to Worlds">
-          <span className="elayer ball" id="tbBall"></span>
-          <span className="elayer lid"></span>
-          <span className="elayer drips"></span>
+        <a className="tb-brand" href="index.html" title="Back to Worlds" aria-label="Back to the worlds index">
+          <span className="plate" aria-hidden="true"></span>
+          <span className="brand-mark">
+            <span className="tb-eye" aria-hidden="true">
+              <span className="elayer ball" id="tbBall"></span>
+              <span className="elayer lid"></span>
+              <span className="elayer drips"></span>
+            </span>
+            <span className="wm">Nyx</span>
+          </span>
         </a>
         <div className="tb-center">
           <GPGameRail active={activeKey} onSwitch={switchGame} />
         </div>
-        <div className="tb-right" aria-hidden="true">
-          <span className="plate"></span>
-          <span className="wm">Nyx</span>
-        </div>
+        <a className="tb-pengo" href="index.html" title="Back to Worlds" aria-label="Home">
+          <img src="../assets/icon/pengo.png" alt="" draggable="false" />
+        </a>
       </header>
 
       {isNyx

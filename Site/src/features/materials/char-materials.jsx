@@ -25,9 +25,9 @@ const CM_GI_TALENT_SHORT = ['NA', 'Skill', 'Burst'];
 // identities differ), so we can rebuild the cost for any target max level from
 // the flat to-90 list the data already carries. Selectable max levels and the
 // number of ascension phases each requires:
-const CM_GI_ASC_LEVELS = [90, 80, 70, 60, 50, 40, 20];
-const CM_GI_ASC_PHASES = { 20:0, 40:1, 50:2, 60:3, 70:4, 80:5, 90:6 };
-// per-phase (A1..A6) quantities for each universal ascension slot
+// Per-game max character level (GI/WuWa 90, HSR 80, ZZZ 60, Endfield 80).
+const CM_GAME_MAX_LEVEL = { gi:90, hsr:80, zzz:60, wuwa:90, ae:80 };
+// per-phase (A1..A6) quantities for each universal GI ascension slot
 const CM_GI_ASC_PATTERN = {
   gem1:[1,0,0,0,0,0], gem2:[0,3,6,0,0,0], gem3:[0,0,0,3,6,0], gem4:[0,0,0,0,0,6],
   specialty:[3,10,20,30,45,60], boss:[0,2,4,8,12,20],
@@ -35,9 +35,18 @@ const CM_GI_ASC_PATTERN = {
   mora:[20000,40000,60000,80000,100000,120000],
 };
 
-function cmNextAscLevel(level){
-  const i = CM_GI_ASC_LEVELS.indexOf(Number(level));
-  return CM_GI_ASC_LEVELS[(i + 1) % CM_GI_ASC_LEVELS.length];
+// How many of the 6 GI ascension phases a given target level needs. Phases
+// unlock at Lv 20/40/50/60/70/80 (raising the cap to 40/50/60/70/80/90), so any
+// typed level 1-90 maps to a phase count.
+function cmGiPhasesForLevel(level){
+  const lv = Math.max(1, Math.min(90, Math.round(Number(level)) || 90));
+  if (lv > 80) return 6;
+  if (lv > 70) return 5;
+  if (lv > 60) return 4;
+  if (lv > 50) return 3;
+  if (lv > 40) return 2;
+  if (lv > 20) return 1;
+  return 0;
 }
 
 // Rebuild the GI ascension item list + Mora cost for a target max level by
@@ -45,7 +54,7 @@ function cmNextAscLevel(level){
 // from the flat list: gems by rarity (sliver/fragment/chunk/gemstone), the
 // specialty by kind, and the remaining drops by rarity (3 mob tiers + boss).
 function cmGiAscensionForLevel(ascItems, ascCost, targetLevel){
-  const phases = CM_GI_ASC_PHASES[Number(targetLevel)] ?? 6;
+  const phases = cmGiPhasesForLevel(targetLevel);
   if (phases >= 6) return { items:ascItems || [], cost:Number(ascCost || 0) };
   const items = ascItems || [];
   const gems = items.filter((m) => m.kind === 'gem').sort((a, b) => cmRarityValue(a.rar) - cmRarityValue(b.rar));
@@ -263,7 +272,25 @@ function cmCleanSourceName(name){
   return s;
 }
 
+// GI talent-book series -> region, so a talent book's obtaining text reads
+// just "<Region> Talent Domain" instead of scraped per-day blurbs.
+const CM_GI_TALENT_REGION = {
+  freedom:'Mondstadt', resistance:'Mondstadt', ballad:'Mondstadt',
+  prosperity:'Liyue', diligence:'Liyue', gold:'Liyue',
+  transience:'Inazuma', elegance:'Inazuma', light:'Inazuma',
+  admonition:'Sumeru', ingenuity:'Sumeru', praxis:'Sumeru',
+  equity:'Fontaine', justice:'Fontaine', order:'Fontaine',
+  contention:'Natlan', kindling:'Natlan', conflict:'Natlan',
+};
+function cmTalentDomainSource(m){
+  const mm = String(m?.name || '').match(/\b(?:teaching|teachings|guide|philosophies)\s+(?:of|to)\s+([A-Za-z]+)/i);
+  const region = mm && CM_GI_TALENT_REGION[mm[1].toLowerCase()];
+  return region ? region + ' Talent Domain' : null;
+}
+
 function cmMatSourceInfo(m){
+  const dom = cmTalentDomainSource(m);
+  if (dom) return dom;
   if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) {
     const names = m.sourceDetails.map((entry) => cmCleanSourceName(entry?.name)).filter(Boolean);
     if (names.length) return names.join(' / ');
@@ -281,6 +308,8 @@ function cmMatSourceInfo(m){
 }
 
 function cmMatSourceDetails(m){
+  const dom = cmTalentDomainSource(m);
+  if (dom) return [{ name:dom }];
   if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) {
     const cleaned = m.sourceDetails
       .map((entry) => ({ ...entry, name:cmCleanSourceName(entry?.name) }))
@@ -1356,13 +1385,20 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
               <div className="cm-pop-main cm-ledger-main">
                 <div className="cm-ledger-top">
                   <div className="cm-ledger-title">
-                    <div className="cm-pop-name">{sel.n}</div>
-                    <div className="cm-pop-tags">
-                      {metaChips.map((chip) => (
-                        <span key={chip.key + chip.value} className="cm-pop-chip icon-only" style={{ '--meta':cmMetaColor(chip.value) }} title={`${chip.label}: ${chip.value}`} aria-label={`${chip.label}: ${chip.value}`}>
-                          <CMMetaIcon gameKey={gk} chip={chip} />
+                    <div className="cm-pop-name-row">
+                      <span className="cm-pop-name-wrap">
+                        {(view.icon || view.circle) && <img className="cm-name-circle" src={view.icon || view.circle} alt="" draggable="false" />}
+                        <span className="cm-pop-name">{sel.n}</span>
+                      </span>
+                      {metaChips.length > 0 && (
+                        <span className="cm-pop-meta-inline">
+                          {metaChips.map((chip) => (
+                            <span key={chip.key + chip.value} className="cm-meta-inline" title={`${chip.label}: ${chip.value}`} aria-label={`${chip.label}: ${chip.value}`}>
+                              <CMMetaIcon gameKey={gk} chip={chip} />
+                            </span>
+                          ))}
                         </span>
-                      ))}
+                      )}
                     </div>
                   </div>
 
@@ -1426,8 +1462,16 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label"><b>ASCENSION</b>
                         {gk === 'gi'
-                          ? <button type="button" className="cm-asc-level" title="Click to change the ascension target level" onClick={() => setGiAscLevel(cmNextAscLevel(giAscLevel))}>Lv {giAscLevel}</button>
-                          : <span>Lv.90</span>}
+                          ? <label className="cm-asc-level" title="Type a target level (1-90)"><span className="lv">Lv</span>
+                              <input
+                                type="number" min="1" max="90" inputMode="numeric"
+                                aria-label="Ascension target level"
+                                value={giAscLevel}
+                                onChange={(e) => setGiAscLevel(Math.max(1, Math.min(90, Math.round(Number(e.target.value)) || 1)))}
+                                onFocus={(e) => e.target.select()}
+                              />
+                            </label>
+                          : <span>Lv.{CM_GAME_MAX_LEVEL[gk] || 90}</span>}
                       </div>
                       <div className="cm-mats cm-ledger-mats">{ascReq.map((m, i) => <MatTile key={i} m={m} />)}</div>
                     </div>
@@ -1436,9 +1480,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label">
                         <b>{String(cfg.tabs.mid || 'Materials').toUpperCase()}</b>
-                        <span className="cm-talent-summary" title={gk === 'gi' ? 'Talent targets: Normal Attack / Elemental Skill / Elemental Burst' : undefined}>
-                          {gk === 'gi' ? '' : 'all to max'}
-                        </span>
+                        {gk !== 'gi' && <span className="cm-talent-summary">all to max</span>}
                         {gk === 'gi' && (
                           <div className="cm-talent-triplet" aria-label="Talent level targets">
                             {giTargets.map((value, index) => {

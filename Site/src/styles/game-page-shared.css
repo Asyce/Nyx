@@ -1034,8 +1034,21 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   border:1px solid rgba(216,184,106,.24); box-shadow:0 0 46px color-mix(in oklab, var(--el) 22%, transparent);
   z-index:2; opacity:.75; }
 .cm-pop-id{ position:absolute; left:30px; right:30px; bottom:30px; z-index:3; min-width:0; }
-.cm-pop-name{ font-family:'GI',serif; font-size:clamp(30px, 4.4vw, 54px); line-height:.95; color:#f8f2ff;
+.cm-pop-name{ position:relative; z-index:1; font-family:'GI',serif; font-size:clamp(30px, 4.4vw, 54px); line-height:.95; color:#f8f2ff;
   text-shadow:0 0 18px color-mix(in oklab, var(--el) 45%, transparent), 0 3px 18px rgba(0,0,0,.75); }
+/* header: character circle icon sits behind the name; element/type/weapon icons
+   run inline after it with no chip containers */
+.cm-pop-name-row{ display:flex; align-items:center; flex-wrap:wrap; gap:8px 16px; }
+.cm-pop-name-wrap{ position:relative; display:inline-flex; align-items:center; }
+.cm-name-circle{ position:absolute; left:-14px; top:50%; transform:translateY(-50%);
+  height:128%; width:auto; aspect-ratio:1/1; border-radius:50%; object-fit:cover; z-index:0; opacity:.34;
+  -webkit-mask:radial-gradient(circle at 50% 50%, #000 52%, transparent 76%);
+  mask:radial-gradient(circle at 50% 50%, #000 52%, transparent 76%);
+  filter:saturate(1.1); pointer-events:none; }
+.cm-pop-meta-inline{ display:inline-flex; align-items:center; gap:10px; }
+.cm-meta-inline{ width:30px; height:30px; display:grid; place-items:center; }
+.cm-meta-inline .cm-meta-symbol{ width:28px; height:28px; }
+.cm-meta-inline .cm-meta-symbol.img{ width:30px; height:30px; }
 .cm-pop-tags{ display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:14px; }
 .cm-pop-chip{ min-height:30px; display:inline-flex; align-items:center; gap:8px; padding:0 11px 0 6px; border-radius:999px;
   font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:#ded6ff;
@@ -1164,12 +1177,18 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .cm-ledger-label > span{ display:inline-flex; align-items:center; width:max-content; max-width:100%; min-height:32px; padding:0 12px;
   border-radius:7px; color:#e4ebff; background:rgba(6,15,34,.72); box-shadow:inset 0 0 0 1px rgba(132,183,255,.24);
   font-family:'GI',serif; font-size:17px; line-height:1.1; }
-/* clickable ascension target-level chip — purple box signals it cycles on click */
-.cm-ledger-label .cm-asc-level{ display:inline-flex; align-items:center; width:max-content; max-width:100%; min-height:32px; padding:0 13px;
-  border:0; cursor:pointer; border-radius:7px; color:#f0ecff; background:rgba(20,14,46,.78);
+/* typeable ascension target-level field — purple box + caret signal it's editable */
+.cm-ledger-label .cm-asc-level{ display:inline-flex; align-items:center; gap:6px; width:max-content; max-width:100%; min-height:32px; padding:0 11px;
+  border:0; cursor:text; border-radius:7px; color:#f0ecff; background:rgba(20,14,46,.78);
   box-shadow:inset 0 0 0 1px rgba(139,123,255,.55); font-family:'GI',serif; font-size:17px; line-height:1.1;
   transition:box-shadow .15s ease, background .15s ease; }
-.cm-ledger-label .cm-asc-level:hover{ background:rgba(28,20,60,.85); box-shadow:inset 0 0 0 1.5px rgba(174,160,255,.9), 0 0 12px rgba(139,123,255,.32); }
+.cm-ledger-label .cm-asc-level .lv{ color:#b3a6f0; font-size:14px; }
+.cm-ledger-label .cm-asc-level input{ width:2.2em; border:0; outline:0; background:transparent; padding:0; cursor:text;
+  font-family:'GI',serif; font-size:17px; line-height:1.1; color:#fff; text-align:center; -moz-appearance:textfield; appearance:textfield; }
+.cm-ledger-label .cm-asc-level input::-webkit-outer-spin-button,
+.cm-ledger-label .cm-asc-level input::-webkit-inner-spin-button{ -webkit-appearance:none; margin:0; }
+.cm-ledger-label .cm-asc-level:hover{ background:rgba(28,20,60,.85); box-shadow:inset 0 0 0 1px rgba(168,153,255,.78); }
+.cm-ledger-label .cm-asc-level:focus-within{ background:rgba(28,20,60,.92); box-shadow:inset 0 0 0 1.5px rgba(174,160,255,.95), 0 0 12px rgba(139,123,255,.35); }
 .cm-talent-triplet{ width:min(100%, 252px); display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:7px;
   min-height:48px; padding:6px; border-radius:8px; background:rgba(4,12,28,.78);
   box-shadow:inset 0 0 0 1px rgba(132,183,255,.2); }
@@ -1196,7 +1215,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   border:0; cursor:pointer; border-radius:7px; padding:0 10px; color:#efe8ff; background:rgba(16,12,36,.78);
   box-shadow:inset 0 0 0 1px rgba(183,170,255,.27); font-family:'GI',serif; font-size:15px; text-align:left; }
 .cm-weapon-pick:disabled{ cursor:default; opacity:.86; }
-.cm-weapon-pick span{ min-width:0; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.cm-weapon-pick span{ min-width:0; overflow:hidden; white-space:normal; line-height:1.12; overflow-wrap:anywhere;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; font-size:.94em; }
 .cm-weapon-pick i{ flex:none; font-style:normal; color:#cdb3ff; }
 .cm-weapon-pick:not(:disabled):hover{ color:#fff; box-shadow:inset 0 0 0 1px rgba(221,0,68,.55), 0 0 16px rgba(221,0,68,.18); }
 .cm-weapon-menu{ position:absolute; left:0; right:0; top:calc(100% - 2px); z-index:60; overflow:hidden; border-radius:8px;

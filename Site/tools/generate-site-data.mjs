@@ -1513,7 +1513,10 @@ function buildWuwaReqMap() {
 function buildPrydwenRoster(game, mapFacts, reqByName = null) {
   const overlayGame = game === 'ww' ? 'wuwa' : game;
   const overlay = localAvatarOverlay(game);
-  const chars = readJson(`Prydwen/${game}/characters.json`).map((ch) => {
+  const rawChars = readJson(`Prydwen/${game}/characters.json`);
+  // ZZZ: only surface agents Nanoka actually has — drop Prydwen-only placeholders
+  // (which arrive without icons/data). Other games keep the full Prydwen roster.
+  const chars = (game === 'zzz' ? rawChars.filter((ch) => overlay.has(normKey(ch.name))) : rawChars).map((ch) => {
     const mapped = mapFacts(ch.facts || {});
     const local = overlay.get(normKey(ch.name));
     const req = reqByName?.get(String(ch.name || '').toLowerCase()) || reqByName?.get(normKey(ch.name)) || null;

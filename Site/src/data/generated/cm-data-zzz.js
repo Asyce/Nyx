@@ -33,9 +33,7 @@
         "Fire",
         "Ice",
         "Electric",
-        "Ether",
-        "Unknown",
-        "Wind"
+        "Ether"
       ]
     },
     {
@@ -47,8 +45,7 @@
         "Anomaly",
         "Support",
         "Rupture",
-        "Defence",
-        "Unknown"
+        "Defence"
       ]
     },
     {
@@ -67,46 +64,6 @@
     }
   ],
   "roster": [
-    {
-      "id": "zzz-norma",
-      "n": "Norma",
-      "slug": "norma",
-      "updated": 1780783200000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-      "iconZoom": 1.24,
-      "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-      "status": "beta",
-      "labels": [
-        "3.0"
-      ],
-      "r": "S",
-      "el": "Fire",
-      "spec": "Stun",
-      "tag": "External Strategy Department",
-      "recent": 1
-    },
-    {
-      "id": "zzz-velina",
-      "n": "Velina",
-      "slug": "velina",
-      "updated": 1780783200000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-      "iconZoom": 1.24,
-      "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-      "status": "beta",
-      "labels": [
-        "3.0"
-      ],
-      "r": "S",
-      "el": "Wind",
-      "spec": "Anomaly",
-      "tag": "External Strategy Department",
-      "recent": 1
-    },
     {
       "id": "zzz-promeia",
       "n": "Promeia",
@@ -265,7 +222,8 @@
         "talentCost": 2905000,
         "currency": 3705000
       },
-      "recent": 1
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-alice",
@@ -424,22 +382,9 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      }
-    },
-    {
-      "id": "zzz-anby-demara-soldier-0",
-      "n": "Anby: Soldier 0",
-      "title": "Gelatin Silver Dance",
-      "slug": "anby-demara-soldier-0",
-      "updated": 1779832800000,
-      "sourceOrder": 0,
-      "icon": null,
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Electric",
-      "spec": "Attack",
-      "tag": "Unknown"
+      },
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-aria",
@@ -597,7 +542,9 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      }
+      },
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-astra-yao",
@@ -756,7 +703,9 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      }
+      },
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-banyue",
@@ -915,27 +864,9 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      }
-    },
-    {
-      "id": "zzz-billy-starlight",
-      "n": "Billy - Starlight",
-      "title": "Hero Pose",
-      "slug": "billy-starlight",
-      "updated": 1779832800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/billy-starlight-0ed8eb7c555e.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/billy-starlight-0ed8eb7c555e.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/billy-starlight-0ed8eb7c555e.webp",
-      "status": "live",
-      "labels": [
-        "New"
-      ],
-      "r": "S",
-      "el": "Physical",
-      "spec": "Rupture",
-      "tag": "Cunning Hares"
+      },
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-burnice",
@@ -1094,7 +1025,9 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      }
+      },
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-caesar",
@@ -1253,7 +1186,9 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      }
+      },
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-cissia",
@@ -1412,7 +1347,9 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      }
+      },
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-dialyn",
@@ -1571,7 +1508,9 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      }
+      },
+      "recent": 1,
+      "recentFallback": 1
     },
     {
       "id": "zzz-ellen",
@@ -2367,24 +2306,6 @@
         "talentCost": 2905000,
         "currency": 3705000
       }
-    },
-    {
-      "id": "zzz-jane-doe",
-      "n": "Jane Doe",
-      "title": "Anonymity",
-      "slug": "jane-doe",
-      "updated": 1779832800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/jane-doe-59c7bcdfa19b.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/jane-doe-59c7bcdfa19b.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/jane-doe-59c7bcdfa19b.webp",
-      "status": "live",
-      "labels": [],
-      "r": "S",
-      "el": "Physical",
-      "spec": "Anomaly",
-      "tag": "N.E.P.S."
     },
     {
       "id": "zzz-ju-fufu",
@@ -8106,177 +8027,6 @@
         "talentCost": 2905000,
         "currency": 3705000
       }
-    },
-    {
-      "id": "zzz-claret",
-      "n": "Claret",
-      "slug": "claret",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
-    },
-    {
-      "id": "zzz-phoenix",
-      "n": "Phoenix",
-      "slug": "phoenix",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
-    },
-    {
-      "id": "zzz-pyrois",
-      "n": "Pyrois",
-      "slug": "pyrois",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
-    },
-    {
-      "id": "zzz-remielle",
-      "n": "Remielle",
-      "slug": "remielle",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
-    },
-    {
-      "id": "zzz-roxy",
-      "n": "Roxy",
-      "slug": "roxy",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
-    },
-    {
-      "id": "zzz-severian",
-      "n": "Severian",
-      "slug": "severian",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
-    },
-    {
-      "id": "zzz-sigrid",
-      "n": "Sigrid",
-      "slug": "sigrid",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
-    },
-    {
-      "id": "zzz-sunbringer",
-      "n": "Sunbringer",
-      "slug": "sunbringer",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
-    },
-    {
-      "id": "zzz-the-storyteller",
-      "n": "The Storyteller",
-      "slug": "the-storyteller",
-      "updated": 1778536800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
-      "status": "beta",
-      "labels": [
-        "3.x"
-      ],
-      "el": "Unknown",
-      "spec": "Unknown",
-      "tag": "Unknown",
-      "recent": 1
     }
   ],
   "midGroups": [
@@ -8578,7 +8328,7 @@
   ],
   "boss": {
     "title": "Notorious Hunt",
-    "count": 64
+    "count": 50
   },
   "bossGroups": [
     {

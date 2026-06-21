@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-06-21T17:43:57.525Z",
+  "generatedAt": "2026-06-21T23:36:11.014Z",
   "providers": {
     "Prydwen": "2026-06-10T22:44:44.684Z",
     "Nanoka": {
@@ -484,9 +484,9 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Velina",
-              "icon": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-              "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-              "rarity": "S"
+              "icon": null,
+              "art": null,
+              "rarity": null
             }
           ],
           "subBanners": []
@@ -513,9 +513,9 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Norma",
-                "icon": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-                "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-                "rarity": "S"
+                "icon": null,
+                "art": null,
+                "rarity": null
               }
             ],
             "subBanners": []
@@ -10874,7 +10874,7 @@ var NYX_DB = {
     "zzz": {
       "name": "Zenless Zone Zero",
       "icon": "../assets/icon/zzzicon.png",
-      "rosterCount": 64,
+      "rosterCount": 50,
       "collections": [
         {
           "key": "w-engines",
@@ -13102,9 +13102,9 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Velina",
-              "icon": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-              "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-              "rarity": "S"
+              "icon": null,
+              "art": null,
+              "rarity": null
             }
           ],
           "subBanners": []
@@ -13131,9 +13131,9 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Norma",
-                "icon": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-                "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-                "rarity": "S"
+                "icon": null,
+                "art": null,
+                "rarity": null
               }
             ],
             "subBanners": []
@@ -13156,28 +13156,6 @@ var NYX_DB = {
       },
       "roster": [
         {
-          "id": "zzz-norma",
-          "name": "Norma",
-          "aliases": [],
-          "rarity": "S",
-          "element": "Fire",
-          "role": "Stun",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-velina",
-          "name": "Velina",
-          "aliases": [],
-          "rarity": "S",
-          "element": "Wind",
-          "role": "Anomaly",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
-          "forms": []
-        },
-        {
           "id": "zzz-promeia",
           "name": "Promeia",
           "aliases": [],
@@ -13199,17 +13177,6 @@ var NYX_DB = {
           "role": "Anomaly",
           "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle46.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/alice-3068331af0bc.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-anby-demara-soldier-0",
-          "name": "Anby: Soldier 0",
-          "aliases": [],
-          "title": "Gelatin Silver Dance",
-          "rarity": "S",
-          "element": "Electric",
-          "role": "Attack",
-          "icon": null,
           "forms": []
         },
         {
@@ -13246,18 +13213,6 @@ var NYX_DB = {
           "role": "Rupture",
           "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle53.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/banyue-0c1cb4ce5ba5.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-billy-starlight",
-          "name": "Billy - Starlight",
-          "aliases": [],
-          "title": "Hero Pose",
-          "rarity": "S",
-          "element": "Physical",
-          "role": "Rupture",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/billy-starlight-0ed8eb7c555e.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/billy-starlight-0ed8eb7c555e.webp",
           "forms": []
         },
         {
@@ -13366,18 +13321,6 @@ var NYX_DB = {
           "role": "Attack",
           "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle42.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/hugo-fde01c1b39cb.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-jane-doe",
-          "name": "Jane Doe",
-          "aliases": [],
-          "title": "Anonymity",
-          "rarity": "S",
-          "element": "Physical",
-          "role": "Anomaly",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/jane-doe-59c7bcdfa19b.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/jane-doe-59c7bcdfa19b.webp",
           "forms": []
         },
         {
@@ -13810,96 +13753,6 @@ var NYX_DB = {
           "role": "Support",
           "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle17.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/soukaku-023ed4ea14e8.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-claret",
-          "name": "Claret",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-phoenix",
-          "name": "Phoenix",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-pyrois",
-          "name": "Pyrois",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-remielle",
-          "name": "Remielle",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/remielle-e8b52d52cf40.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-roxy",
-          "name": "Roxy",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-severian",
-          "name": "Severian",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-sigrid",
-          "name": "Sigrid",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-sunbringer",
-          "name": "Sunbringer",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
-          "forms": []
-        },
-        {
-          "id": "zzz-the-storyteller",
-          "name": "The Storyteller",
-          "aliases": [],
-          "element": "Unknown",
-          "role": "Unknown",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
-          "art": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
           "forms": []
         }
       ]

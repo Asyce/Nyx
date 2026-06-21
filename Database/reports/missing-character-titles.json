@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:43:55.563Z",
+  "generatedAt": "2026-06-21T23:36:10.233Z",
   "note": "Genshin titles come from Nanoka profile.title with wiki cache fallback. HSR subtitles use wiki How to Obtain with light-cone fallback, ZZZ subtitles use wiki Namecard names, and Wuthering Waves subtitles use wiki title. Endfield displays class. Missing entries need wiki data, class data, or a manual override.",
   "missing": {
     "gi": [],
@@ -26,19 +26,7 @@
       "Xueyi",
       "Yukong"
     ],
-    "zzz": [
-      "Claret",
-      "Norma",
-      "Phoenix",
-      "Pyrois",
-      "Remielle",
-      "Roxy",
-      "Severian",
-      "Sigrid",
-      "Sunbringer",
-      "The Storyteller",
-      "Velina"
-    ],
+    "zzz": [],
     "wuwa": [
       "Rover"
     ],
@@ -47,7 +35,7 @@
   "counts": {
     "gi": 0,
     "hsr": 21,
-    "zzz": 11,
+    "zzz": 0,
     "wuwa": 1,
     "ae": 0
   }

@@ -648,28 +648,42 @@ function Favourites({ cfg, onOpenMaterial }){
   );
 }
 
-/* ---------------- overview-aside redemption codes ---------------- */
-function CodeCardRow({ row, onCopy, onRowAction, isNew }){
+/* ---------------- overview-aside redemption codes (table layout) ---------------- */
+// Pull the premium-currency amount out of the reward string for the
+// "[currency icon] + [amount]" column. Handles "100 Primogems" and "Astrite x100".
+function codeCurrencyAmount(reward, currencyName){
+  const text = String(reward || '');
+  const name = String(currencyName || '').replace(/s$/, '').trim();
+  if (!name) return null;
+  const esc = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // amount can precede or follow the currency, with an optional x / × separator
+  const m = text.match(new RegExp('([0-9][0-9,]*)\\s*[x\\u00D7]?\\s*' + esc + '|' + esc + '\\s*[x\\u00D7]?\\s*([0-9][0-9,]*)', 'i'));
+  const amt = m ? (m[1] || m[2]) : null;
+  return amt ? amt.replace(/[,\s]+$/, '') : null;
+}
+
+function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
   const r = row;
+  const amount = codeCurrencyAmount(r.reward, currency.name);
+  const redeemed = r.st === 'redeemed';
   return (
-    <div className={'gp-code st-' + r.st + (r.premium ? ' premium' : '') + (isNew ? ' is-new' : '')}>
-      <div className="code-main">
-        {r.redeemUrl
-          ? <a className="cc" href={r.redeemUrl} target="_blank" rel="noopener noreferrer" onClick={() => onRowAction(r.code, 'redeem')}>{r.code}</a>
-          : <span className="cc">{r.code}</span>}
-        {r.premium && <span className="premium-dot"></span>}
-        {isNew && r.st !== 'redeemed' && <span className="newtag">NEW</span>}
-      </div>
-      <div className="code-actions">
-        <button type="button" className={'cp icon' + (r.st === 'copied' ? ' ask' : '')}
-                title="Copy code" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
-          <span className="i-copy"></span>
-        </button>
-        <button type="button" className="mark" onClick={() => onRowAction(r.code, 'toggle')}>
-          {r.st === 'redeemed' ? 'Undo' : r.st === 'copied' ? 'Save' : 'Done'}
-        </button>
-      </div>
-      <div className="rw"><RewardChips reward={r.reward} /></div>
+    <div className={'gp-code-row st-' + r.st + (r.premium ? ' premium' : '')}>
+      <label className="cc-check" title={redeemed ? 'Mark as not redeemed' : 'Mark as redeemed'}>
+        <input type="checkbox" checked={redeemed} onChange={() => onToggleRedeemed(r.code)} />
+        <span className="box"></span>
+      </label>
+      {r.redeemUrl
+        ? <a className="cc" href={r.redeemUrl} target="_blank" rel="noopener noreferrer" title="Open the redeem page">{r.code}</a>
+        : <span className="cc no-link" title="No redeem link available">{r.code}</span>}
+      <span className="cc-reward" tabIndex={0} aria-label="Show all rewards">
+        {currency.icon ? <img src={currency.icon} alt={currency.name} draggable="false" /> : <span className="cur-glyph"></span>}
+        {amount && <b>{amount}</b>}
+        <span className="cc-reward-pop" role="tooltip"><RewardChips reward={r.reward} /></span>
+      </span>
+      <button type="button" className={'cc-copy' + (r.st === 'copied' ? ' ok' : '')}
+              title="Copy code" aria-label={'Copy ' + r.code} onClick={() => onCopy(r.code)}>
+        <span className="i-copy"></span>
+      </button>
     </div>
   );
 }
@@ -694,28 +708,12 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
     setRedeemed(next);
     try { localStorage.setItem('nyx:redeemed-codes:v1', JSON.stringify([...next])); } catch (e) {}
   };
-  const markRedeemed = (code) => {
+  const toggleRedeemed = (code) => {
     const next = new Set(redeemed);
-    next.add(code);
+    if (next.has(code)) next.delete(code); else next.add(code);
     saveRedeemed(next);
-    setCopiedCode(null);
   };
-  const onCopy = (code) => {
-    copyText(code);
-    if (!redeemed.has(code)) setCopiedCode(code);
-  };
-  const undoRedeemed = (code) => {
-    const next = new Set(redeemed);
-    next.delete(code);
-    saveRedeemed(next);
-    setCopiedCode(null);
-  };
-  const onRowAction = (code) => {
-    const r = rows.find(row => row.code === code);
-    if (!r) return;
-    if (r.st === 'redeemed') undoRedeemed(code);
-    else markRedeemed(code);
-  };
+  const onCopy = (code) => { copyText(code); setCopiedCode(code); };
   return (
     <React.Fragment>
       <label className={'code-filter' + (filterActive ? ' on' : '') + (!hasPremiumRows ? ' disabled' : '')}>
@@ -723,9 +721,9 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
         {currency.icon ? <img src={currency.icon} alt="" draggable="false" /> : <span className="cur-glyph"></span>}
         <span className="code-filter-text"><b>{currency.name}</b><small>{rows.length}/{sourceCodes.length}</small></span>
       </label>
-      <div className="gp-codes-scroll overview-codes" style={{ flex:'0 0 auto', minHeight:'120px', maxHeight:'318px' }}>
+      <div className="gp-codes-table overview-codes" style={{ flex:'0 0 auto' }}>
         {rows.map(r => (
-          <CodeCardRow key={r.code} row={r} onCopy={onCopy} onRowAction={(code, action) => action === 'redeem' ? markRedeemed(code) : onRowAction(code)} />
+          <CodeCardRow key={r.code} row={r} currency={currency} onCopy={onCopy} onToggleRedeemed={toggleRedeemed} />
         ))}
         {rows.length === 0 && <div className="code-empty">No premium-currency codes found.</div>}
       </div>

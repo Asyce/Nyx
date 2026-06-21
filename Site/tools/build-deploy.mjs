@@ -50,7 +50,7 @@ async function listFiles(dir) {
 
 function databaseRefsFromText(text) {
   const refs = new Set();
-  const re = /(?:\.\.\/)*Database\/[^"'`),\]\s]+(?: [^"'`),\]\s]+)*/g;
+  const re = /(?:\.\.\/)*Database\/[^"`),\]\s]+(?: [^"`),\]\s]+)*/g;
   for (const match of text.matchAll(re)) {
     const value = match[0].replace(/^(?:\.\.\/)*/, '');
     if (/\.(?:png|jpe?g|webp|gif|svg|ico|ttf|woff2?)$/i.test(value)) refs.add(value);

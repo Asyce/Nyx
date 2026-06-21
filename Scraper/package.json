@@ -5,6 +5,7 @@
   "scripts": {
     "banners": "node ./banners/scrape.cjs",
     "codes": "node ./codes/scrape.cjs",
+    "codes:test": "node --test codes/tests/",
     "endfield:wiki": "node ./endfield-wiki/scrape.mjs",
     "nanoka": "node ./nanoka/scrape.mjs",
     "nanoka:gi": "node ./nanoka/scrape.mjs --game gi",

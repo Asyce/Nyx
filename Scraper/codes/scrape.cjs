@@ -2,6 +2,12 @@
 const fs = require("fs");
 const path = require("path");
 const cheerio = require("cheerio");
+const { isUsefulReward } = require("./reward-vocab.cjs");
+
+// Codes redeem case-insensitively, so identity for dedupe/corroboration/expiry
+// matching is the upper-cased form. Display casing is preserved on the record;
+// only comparisons use this key.
+const codeKey = (code) => String(code || "").toUpperCase();
 
 // ---- config -----------------------------------------------------------------
 
@@ -263,10 +269,42 @@ async function fetchCrimsonwitchActive(slug) {
   const tag = `crimsonwitch-${slug}`;
   const r = await fetchWithRetry(url, { tag });
   if (!r.ok) { console.warn(`[${tag}] ${r.error}`); return null; }
-  const html = r.text;
-  const entries = [];
+  const arr = parseCrimsonwitchPayload(r.text);
+  if (arr === null) {
+    console.warn(`[${tag}] initialCodes not found / parse failed`);
+    return null; // can't trust this run for prune-by-absence
+  }
 
-  // Concatenate every Flight payload string body.
+  const entries = [];
+  for (const item of arr) {
+    const code = normalizeText(item?.code || "");
+    if (!code || !/^[A-Za-z0-9]{4,20}$/.test(code)) continue;
+    const added = item?.added ? new Date(item.added) : null;
+    if (!added || Number.isNaN(added.getTime())) continue;
+    const rewards = Array.isArray(item.rewards)
+      ? item.rewards.filter(r => r && r.item)
+          .map(r => `${r.qty ?? ""} ${r.item}`.trim().replace(/\s+/g, " "))
+          .join(", ")
+      : "";
+    const expiresDate = item?.expires ? new Date(item.expires) : null;
+    entries.push({
+      code,
+      rewards,
+      added: toIsoDate(added),
+      sourceUrl: url,
+      // region_locked: null / "$undefined" (Next.js Flight sentinel) = global.
+      regionLocked: normalizeRegionLocked(item?.region_locked),
+      expires: expiresDate && !Number.isNaN(expiresDate.getTime()) ? expiresDate.toISOString() : null,
+      variants: parseCodeVariants(item?.code_variants),
+    });
+  }
+  return entries;
+}
+
+// Pure: extract the `initialCodes` array out of crimsonwitch's Next.js Flight
+// payloads. Returns the raw item array, or null when the payload can't be parsed
+// (so callers don't prune-by-absence on a bad fetch). Exported for unit tests.
+function parseCrimsonwitchPayload(html) {
   const re = /self\.__next_f\.push\(\[1,"((?:[^"\\]|\\.)*)"\]\)/g;
   let combined = "";
   let m;
@@ -275,10 +313,8 @@ async function fetchCrimsonwitchActive(slug) {
   }
 
   const idx = combined.indexOf('"initialCodes":[');
-  if (idx < 0) {
-    console.warn(`[${tag}] initialCodes not found in payload`);
-    return null; // can't trust this run for prune-by-absence
-  }
+  if (idx < 0) return null;
+
   // Bracket-balance the JSON array starting after "initialCodes":
   const start = idx + '"initialCodes":'.length;
   let depth = 0, end = start, inStr = false, esc = false;
@@ -292,23 +328,22 @@ async function fetchCrimsonwitchActive(slug) {
     else if (c === "]") { depth--; if (depth === 0) { end = i + 1; break; } }
   }
 
-  let arr;
-  try { arr = JSON.parse(combined.slice(start, end)); }
-  catch (err) { console.warn(`[${tag}] JSON parse failed: ${err.message}`); return null; }
+  try { return JSON.parse(combined.slice(start, end)); }
+  catch { return null; }
+}
 
-  for (const item of arr) {
-    const code = normalizeText(item?.code || "");
-    if (!code || !/^[A-Za-z0-9]{4,20}$/.test(code)) continue;
-    const added = item?.added ? new Date(item.added) : null;
-    if (!added || Number.isNaN(added.getTime())) continue;
-    const rewards = Array.isArray(item.rewards)
-      ? item.rewards.filter(r => r && r.item)
-          .map(r => `${r.qty ?? ""} ${r.item}`.trim().replace(/\s+/g, " "))
-          .join(", ")
-      : "";
-    entries.push({ code, rewards, added: toIsoDate(added), sourceUrl: url });
-  }
-  return entries;
+// null / "$undefined" / empty = global (not region-locked); otherwise the region tag.
+function normalizeRegionLocked(value) {
+  if (value == null) return null;
+  const s = String(value).trim();
+  if (!s || s === "$undefined" || s.toLowerCase() === "null") return null;
+  return s;
+}
+
+function parseCodeVariants(value) {
+  if (!value) return [];
+  const list = Array.isArray(value) ? value : String(value).split(/[\s,]+/);
+  return list.map((v) => normalizeText(v)).filter((v) => /^[A-Za-z0-9]{4,20}$/.test(v));
 }
 
 // game8's Wuwa page lists active codes as `CODE - rewards` in <ul> bullets.
@@ -363,6 +398,49 @@ async function fetchGame8WuwaActive() {
   return entries;
 }
 
+// ---- hoyo-codes (active, redemption-verified) ------------------------------
+//
+// hoyo-codes.seria.moe re-checks each code by actually attempting redemption
+// through a HoYoLAB account and only returns ones whose status is "OK". That
+// makes it a strong AUTHORITATIVE source for Genshin/HSR/ZZZ: consumed before
+// Reddit, it both supplies clean codes directly and corroborates Reddit codes
+// (a Reddit code it also lists wins the dedupe with a non-reddit sourceUrl, so
+// it's no longer "Reddit-only" and publishes). The API carries no publish date,
+// so hoyo-exclusive codes are stamped "today" — fine, since they're verified
+// live now and our own firstSeen tracking stabilises age across runs. Region
+// caveat: it validates on a global/Asia account, so it is NOT a Global-vs-CN
+// authority — the region_locked / CN filters still apply.
+const HOYO_CODES_GAME = { genshin: "genshin", hsr: "hkrpg", zzz: "nap" };
+
+async function fetchHoyoCodes(game) {
+  const apiGame = HOYO_CODES_GAME[game.slug];
+  if (!apiGame) return []; // wuwa not covered by hoyo-codes
+  const tag = `hoyo-codes-${game.slug}`;
+  const url = `https://hoyo-codes.seria.moe/codes?game=${apiGame}`;
+  const r = await fetchWithRetry(url, { headers: JSON_HEADERS, tag, responseType: "json" });
+  if (!r.ok) { console.warn(`[${tag}] ${r.error}`); return null; } // null = fetch failed
+  const list = Array.isArray(r.json?.codes) ? r.json.codes : (Array.isArray(r.json) ? r.json : []);
+  const today = toIsoDate(new Date());
+  const entries = [];
+  for (const item of list) {
+    if (item?.status && String(item.status).toUpperCase() !== "OK") continue;
+    const code = normalizeText(item?.code || "");
+    if (!code || !/^[A-Za-z0-9]{4,20}$/.test(code)) continue;
+    // Normalise the "Item*Qty;Item*Qty" shape into readable prose; leave already
+    // prose-formatted reward strings (some games) untouched.
+    const rewards = normalizeText(String(item?.rewards || "").replace(/\*/g, " x ").replace(/;/g, ", "));
+    entries.push({
+      code,
+      rewards,
+      added: today,
+      sourceUrl: game.redeemBase ? game.redeemBase + encodeURIComponent(code) : url,
+      hoyoVerified: true, // redemption-verified; exempt from the referral-flood burst guard
+    });
+  }
+  console.log(`[${tag}] ${entries.length} OK code(s)`);
+  return entries;
+}
+
 // ---- Reddit (active, via RSS) ----------------------------------------------
 //
 // Many livestream / collaboration codes land on Reddit (e.g. WuWa's
@@ -389,11 +467,15 @@ async function fetchGame8WuwaActive() {
 // still apply — Reddit codes that are wrong / typo'd get pruned the moment
 // they show up on the fandom / game8 expired tables.
 
+// One or more subreddits per game. A real livestream/collab code usually shows
+// up across more than one of these, which strengthens the "≥2 independent
+// mentions" signal in harvestRedditCodes; the same strict gate runs on every
+// candidate, so the extra surface adds little noise.
 const REDDIT_SUBS = {
-  genshin: "Genshin_Impact",
-  hsr:     "HonkaiStarRail",
-  zzz:     "ZZZ_Official",
-  wuwa:    "WutheringWaves",
+  genshin: ["Genshin_Impact"],
+  hsr:     ["HonkaiStarRail", "StarRailStation"],
+  zzz:     ["ZZZ_Official", "ZenlessZoneZero"],
+  wuwa:    ["WutheringWaves"],
 };
 
 // Code-candidate regex. Accepts mixed case (e.g. "snezhnaya20260812") and
@@ -476,6 +558,51 @@ function isInviteShapedCode(slug, code) {
   return !!shapes && shapes.some((re) => re.test(code));
 }
 
+// CN / China-server context. Such codes redeem on a separate mainland portal and
+// never work on any Global server, so they're dropped. This is a FALLBACK for
+// sources that don't tag region (Reddit, game8, nexus) — crimsonwitch's
+// region_locked field is the primary, authoritative signal. Deliberately EXCLUDES
+// the global server names Asia/Europe/America/TW/HK/MO (the global gift page lists
+// "Asia" as a selectable server, so matching it would drop legit codes).
+const CN_CONTEXT_RE = /\b(?:cn[\s-]?server|china(?:se)?[\s-]?server|mainland(?:\s+china)?|cn[\s-]?only|cn[\s-]?exclusive|bilibili|taptap|wechat|weibo|qq\s*group|mihoyo\s*cn|hoyoverse\s*cn)\b|国服|官服|米哈游/i;
+
+function isCnContext(text) {
+  return CN_CONTEXT_RE.test(String(text || ""));
+}
+
+// A code is "authoritative / corroborated" when its surviving sourceUrl is NOT a
+// reddit.com permalink — i.e. nexus, crimsonwitch, game8 or hoyo-codes won the
+// dedupe for it. Reddit-only codes (reddit.com sourceUrl) face the confidence gate.
+function isAuthoritativeSource(sourceUrl) {
+  return !/reddit\.com/i.test(String(sourceUrl || ""));
+}
+
+// Confidence gate (pure). Given the merged+pruned `kept` list, returns the set of
+// upper-cased keys for Reddit-ONLY codes that must be held for review. A Reddit-only
+// code (reddit.com sourceUrl) is held when it fails to (a) name a real reward or
+// (b) appear in ≥2 independent posts/comments. The reward check ALWAYS applies —
+// even to codes that were live last run — so junk like EARLYGIFT is removed from
+// live on the next pass. The mentions check is waived for already-live codes only,
+// because Reddit carry-forward (on a failed fetch) loses the per-code mention tally
+// and we don't want to yank a legit, already-published code over that.
+// Mutates each held record's `reviewReason` for operator visibility.
+function classifyRedditOnlyHolds(kept, { slug, prevLiveKeys = new Set() } = {}) {
+  const held = new Set();
+  for (const c of kept) {
+    if (REVIEWED_CODES.has(c.code)) continue;
+    if (isAuthoritativeSource(c.sourceUrl)) continue;   // corroborated → publish
+    const wasLive = prevLiveKeys.has(codeKey(c.code));
+    const reasons = [];
+    if (!isUsefulReward(slug, c.rewards, c.sourceUrl)) reasons.push("no real reward");
+    if (!wasLive && (c.mentions || 0) < 2) reasons.push("single mention");
+    if (reasons.length) {
+      held.add(codeKey(c.code));
+      c.reviewReason = `unconfirmed Reddit-only code (${reasons.join("; ")})`;
+    }
+  }
+  return held;
+}
+
 // Strip out URLs (raw + markdown) before code-extraction so we don't fish
 // IDs out of links. Also strips inline-code backticks since real codes are
 // usually bold/plain, not code-formatted (and `inline` text often contains
@@ -513,9 +640,15 @@ function extractRedditReward(line, code) {
   return normalizeText(after.split(/(?:\.\s|[\n\r])/)[0]).slice(0, 140);
 }
 
-function harvestRedditCodes(rawText, postedAt, sourceUrl, out, seen) {
+// Harvest code candidates from one Reddit body (post self-text or a single
+// comment) into `byCode` (Map keyed by upper-cased code → { code, rewards,
+// added, sourceUrl, mentions }). Each distinct body contributes at most one
+// mention per code, so `mentions` counts independent posts/comments — the
+// signal the confidence gate uses for "≥2 independent mentions".
+function harvestRedditCodes(rawText, postedAt, sourceUrl, byCode) {
   if (!rawText) return;
   const text = stripRedditNoise(rawText);
+  const seenThisBody = new Set();
   // Walk line-by-line so reward-context detection stays local. Many posts
   // use a "Stellar Jade Codes:" header followed by codes on separate lines
   // (markdown link extraction collapses [CODE](url) to bare CODE), so we
@@ -581,37 +714,41 @@ function harvestRedditCodes(rawText, postedAt, sourceUrl, out, seen) {
     let m;
     while ((m = REDDIT_CODE_RE.exec(line)) !== null) {
       const code = m[0];
-      // Drop all-lowercase tokens outright ("version7", "patch52", prose) —
-      // real codes are upper or mixed-case.
-      if (code === code.toLowerCase()) continue;
-      // Letter-only candidates (no digit) are the danger zone: real WuWa drops
-      // (STRANGEVISITORS / BEYONDTHEDOOR / SAYCHEESE) are letter-only ALLCAPS,
-      // but so is shouty prose ("…ALIEN COMPUTERS AND SHIT and honestly…").
-      // Require the token to stand alone as a code, not sit inside a running
-      // sentence:
-      //   • reject Title-case-no-digit words ("Preview", "Broadcast"); and
-      //   • accept ALLCAPS-no-digit only when the line is essentially just
-      //     code(s) (≤2 chars of other text) or is a short reward/redeem line
-      //     (≤40 chars of prose). A reward keyword buried in a long paragraph
-      //     ("Fate/Extra…" trips `fates?`) no longer qualifies.
-      // Digit-bearing codes are unambiguous and skip this gate entirely.
-      if (!/\d/.test(code)) {
-        if (code !== code.toUpperCase()) continue;
-        if (lineProseLen > 2 && !(lineHasReward && lineProseLen <= 40)) continue;
-      }
+      // Reddit candidates must be UPPERCASE-only. Real livestream drops
+      // (STRANGEVISITORS / BEYONDTHEDOOR / digit-bearing ones) are all uppercase;
+      // mixed/lower-case tokens are almost always usernames/prose. A themed
+      // mixed-case code (e.g. "ToTheMoon") still reaches us via an authoritative
+      // source and publishes through corroboration — we just don't trust Reddit
+      // to introduce it on its own.
+      if (code !== code.toUpperCase()) continue;
+      // Standalone-line check, now applied to ALL candidates (the old digit
+      // bypass let any digit-bearing token through near reward context). Accept
+      // only when the line is essentially just code(s) (≤2 chars of other text)
+      // or is a short reward/redeem line (≤40 chars of prose); a code-shaped
+      // token buried in a long paragraph no longer qualifies.
+      if (lineProseLen > 2 && !(lineHasReward && lineProseLen <= 40)) continue;
       if (REDDIT_STOPWORDS.has(code.toLowerCase())) continue;
       // Drop codes whose own line or sticky header is invite/return-event
-      // context — personal referral codes masquerading as redemption codes.
+      // context (personal referral codes) or CN/China-server context (won't
+      // redeem on Global).
       if (REDDIT_INVITE_CONTEXT_RE.test(line) ||
           (lastHeader && REDDIT_INVITE_CONTEXT_RE.test(lastHeader))) continue;
-      if (seen.has(code)) continue;
-      seen.add(code);
+      if (isCnContext(line) || (lastHeader && isCnContext(lastHeader))) continue;
+      const key = codeKey(code);
+      if (seenThisBody.has(key)) continue; // one mention max per body
+      seenThisBody.add(key);
       let rewards = extractRedditReward(line, code);
       // Fallback: code is alone on its line under a "<Reward> Codes:" header.
       if (!rewards && lastHeader && REDDIT_REWARD_CONTEXT_RE.test(lastHeader)) {
         rewards = lastHeader;
       }
-      out.push({ code, rewards, added: toIsoDate(postedAt), sourceUrl });
+      const existing = byCode.get(key);
+      if (existing) {
+        existing.mentions += 1;
+        if (!existing.rewards && rewards) existing.rewards = rewards;
+      } else {
+        byCode.set(key, { code, rewards, added: toIsoDate(postedAt), sourceUrl, mentions: 1 });
+      }
     }
   }
 }
@@ -731,43 +868,41 @@ function parseRedditFeed(xml) {
 }
 
 async function fetchRedditActive(game) {
-  const sub = REDDIT_SUBS[game.slug];
-  if (!sub) return [];
+  const subs = REDDIT_SUBS[game.slug];
+  if (!subs || !subs.length) return [];
   const tag = `reddit-${game.slug}`;
 
-  // Two discovery surfaces, run in parallel:
+  // Discover across every configured sub. Two surfaces per sub:
   //   1. Subreddit search (last month) for code-drop keywords — catches
   //      "[Code] X.Y Livestream", "Active Codes Compilation", etc.
   //   2. /new — catches very recent posts the search index may not have
   //      picked up yet (Reddit search lags ~10–30 min behind submission).
-  const searchPath = `/r/${sub}/search.rss?q=${encodeURIComponent("code OR redeem OR livestream")}&restrict_sr=on&sort=new&t=month&limit=${REDDIT_LISTING_LIMIT}`;
-  const newPath = `/r/${sub}/new.rss?limit=${REDDIT_LISTING_LIMIT}`;
-  const [searchXml, newXml] = await Promise.all([
-    fetchRedditRss(searchPath, `${tag}-search`),
-    fetchRedditRss(newPath, `${tag}-new`),
-  ]);
-  if (!searchXml && !newXml) return null;
+  const feedJobs = [];
+  for (const sub of subs) {
+    const searchPath = `/r/${sub}/search.rss?q=${encodeURIComponent("code OR redeem OR livestream")}&restrict_sr=on&sort=new&t=month&limit=${REDDIT_LISTING_LIMIT}`;
+    const newPath = `/r/${sub}/new.rss?limit=${REDDIT_LISTING_LIMIT}`;
+    feedJobs.push(
+      fetchRedditRss(searchPath, `${tag}-${sub}-search`).then((xml) => ({ sub, xml, requireKeyword: false, applyAgeCutoff: false })),
+      fetchRedditRss(newPath, `${tag}-${sub}-new`).then((xml) => ({ sub, xml, requireKeyword: true, applyAgeCutoff: true })),
+    );
+  }
+  const feeds = await Promise.all(feedJobs);
+  if (feeds.every((f) => !f.xml)) return null;
 
   const ageCutoffMs = Date.now() - REDDIT_NEW_POST_MAX_AGE_HOURS * 3600 * 1000;
-  const posts = new Map();   // post_id → entry
-
-  const addPosts = (xml, requireKeyword, applyAgeCutoff) => {
-    if (!xml) return;
+  const posts = new Map();   // post_id → entry (carries its source sub)
+  for (const { sub, xml, requireKeyword, applyAgeCutoff } of feeds) {
+    if (!xml) continue;
     for (const e of parseRedditFeed(xml)) {
       if (e.kind !== "t3") continue;
       if (requireKeyword && !REDDIT_TITLE_KEYWORD_RE.test(e.title)) continue;
       if (applyAgeCutoff && e.date && e.date.getTime() < ageCutoffMs) continue;
-      if (!posts.has(e.id)) posts.set(e.id, e);
+      if (!posts.has(e.id)) posts.set(e.id, { ...e, sub });
     }
-  };
+  }
 
-  // Search results already matched the query, so no extra keyword/age filter.
-  addPosts(searchXml, false, false);
-  // /new: title must match keyword AND post must be within the age window.
-  addPosts(newXml, true, true);
-
-  const out = [];
-  const seen = new Set();
+  // byCode: upper-cased code → candidate with a cross-body `mentions` tally.
+  const byCode = new Map();
 
   // Cap targets so we don't burn the rate limit on noisy subs; newest first.
   const sortedPosts = [...posts.values()]
@@ -775,16 +910,20 @@ async function fetchRedditActive(game) {
     .slice(0, REDDIT_MAX_TARGETS_PER_GAME);
 
   for (const post of sortedPosts) {
-    // Skip invite/return-event threads outright — their body and comments are
-    // wall-to-wall personal referral codes, not redemption codes.
+    // Skip invite/return-event or CN/China-server threads outright — their body
+    // and comments are wall-to-wall referral codes / non-Global codes.
     if (REDDIT_INVITE_CONTEXT_RE.test(post.title)) {
       console.log(`[${tag}] skipping invite/return-event post: ${post.title.slice(0, 80)}`);
       continue;
     }
-    const permalink = post.link || `https://www.reddit.com/r/${sub}/comments/${post.id}/`;
+    if (isCnContext(post.title)) {
+      console.log(`[${tag}] skipping CN/region post: ${post.title.slice(0, 80)}`);
+      continue;
+    }
+    const permalink = post.link || `https://www.reddit.com/r/${post.sub}/comments/${post.id}/`;
     const postedAt = post.date ?? new Date();
     // Scan the post body (self-text). Link posts have no body — harmless.
-    harvestRedditCodes(post.body, postedAt, permalink, out, seen);
+    harvestRedditCodes(post.body, postedAt, permalink, byCode);
 
     // Only dig into comments when the title looks code-related — most code
     // drops live in a pinned comment under a "Livestream"/"Codes" post.
@@ -793,7 +932,7 @@ async function fetchRedditActive(game) {
     try {
       commentPath = new URL(permalink).pathname.replace(/\/$/, "");
     } catch {
-      commentPath = `/r/${sub}/comments/${post.id}`;
+      commentPath = `/r/${post.sub}/comments/${post.id}`;
     }
     const commentXml = await fetchRedditRss(`${commentPath}/.rss?sort=top&limit=200`, `${tag}-comments-${post.id}`);
     if (!commentXml) continue;
@@ -802,11 +941,12 @@ async function fetchRedditActive(game) {
       // Only scan comments that mention a code-ish keyword or carry a long
       // ALLCAPS run. Skips chit-chat.
       if (!REDDIT_COMMENT_KEYWORD_RE.test(c.body) && !/[A-Z0-9]{8,}/.test(c.body)) continue;
-      harvestRedditCodes(c.body, c.date ?? postedAt, c.link || permalink, out, seen);
+      harvestRedditCodes(c.body, c.date ?? postedAt, c.link || permalink, byCode);
     }
   }
 
-  console.log(`[${tag}] ${out.length} candidate code(s) from ${sortedPosts.length}/${posts.size} post(s)`);
+  const out = [...byCode.values()];
+  console.log(`[${tag}] ${out.length} candidate code(s) from ${sortedPosts.length}/${posts.size} post(s) across ${subs.length} sub(s)`);
   return out;
 }
 
@@ -896,10 +1036,11 @@ async function processGame(game, prevGame) {
     fetchCrimsonwitchActive(game.slug),   // null on failure
     fetchExpiredAll(game.slug),
     fetchRedditActive(game),              // null on failure, [] on no codes
+    fetchHoyoCodes(game),                 // null on failure, [] when game not covered
   ];
   if (game.slug === "wuwa") tasks.push(fetchGame8WuwaActive());
 
-  const [nexus, cw, expired, redditRaw, game8Wuwa = []] = await Promise.all(tasks);
+  const [nexus, cw, expired, redditRaw, hoyo, game8Wuwa = []] = await Promise.all(tasks);
 
   // Reddit carry-forward: GitHub Actions runners are 403'd by Reddit's
   // unauth API, so the hourly CI run can't refresh Reddit-sourced codes.
@@ -920,13 +1061,32 @@ async function processGame(game, prevGame) {
 
   // Crimsonwitch authority rule: a code we've ever seen on crimsonwitch.com
   // disappears = it's expired. Build the "currently on crimsonwitch" and
-  // "ever seen on crimsonwitch" sets so we can prune confidently.
+  // "ever seen on crimsonwitch" sets (case-folded) plus the region-lock and
+  // hard-expiry sets crimsonwitch now exposes. code_variants are folded in as
+  // aliases so a code and its alternate string share identity.
   const cwOk = cw !== null;
   const cwArr = cwOk ? cw : [];
-  const cwCurrent = new Set(cwArr.map((e) => e.code));
+  const cwCurrent = new Set();
+  const cwRegionLocked = new Set();   // codeKey → non-Global, drop entirely
+  const cwExpires = new Map();        // codeKey → ISO expiry
+  for (const e of cwArr) {
+    for (const k of [codeKey(e.code), ...(e.variants || []).map(codeKey)]) {
+      cwCurrent.add(k);
+      if (e.regionLocked) cwRegionLocked.add(k);
+      if (e.expires) cwExpires.set(k, e.expires);
+    }
+  }
   const cwHistorical = new Set(
-    (prevGame?.codes || []).filter((c) => c.cwSeen).map((c) => c.code)
+    (prevGame?.codes || []).filter((c) => c.cwSeen).map((c) => codeKey(c.code))
   );
+  // Expired tables (fandom/game8), folded for case-insensitive matching.
+  const expiredKeys = new Set([...(expired || [])].map(codeKey));
+
+  // Codes hoyo-codes verified as redeemable this run. These are provably not
+  // broken referral codes, so they're exempt from the referral-flood burst guard
+  // (a genuine referral flood won't validate on a global account, so it isn't
+  // here). Built from the raw result so it's independent of dedupe order.
+  const hoyoVerifiedKeys = new Set((Array.isArray(hoyo) ? hoyo : []).map((e) => codeKey(e.code)));
 
   const seen = new Set();
   const merged = [];
@@ -936,7 +1096,20 @@ async function processGame(game, prevGame) {
     if (!entries) return;
     for (const e of entries) {
       if (!e || !e.code) continue;
+      const key = codeKey(e.code);
       if (IGNORED_CODES.has(e.code)) continue;
+      // Region-locked (crimsonwitch's authoritative region_locked) — never works
+      // on Global, so drop on every path even if another source also lists it.
+      if (cwRegionLocked.has(key)) {
+        console.log(`[${game.slug}] dropped region-locked code ${e.code}`);
+        continue;
+      }
+      // CN/China-server context in the reward text — fallback for sources that
+      // don't tag region (Reddit/game8/nexus).
+      if (isCnContext(e.rewards)) {
+        console.log(`[${game.slug}] dropped CN-context code ${e.code}`);
+        continue;
+      }
       // Return-event referral codes (GUNSXVJX2K, GEJE24ZY2K, …): drop by shape
       // regardless of source/context. Catches the ones that slip past the
       // reward-context invite filter below because they're listed bare.
@@ -951,21 +1124,29 @@ async function processGame(game, prevGame) {
       if (REDDIT_INVITE_CONTEXT_RE.test(e.rewards || "")) continue;
       const added = new Date(e.added);
       if (Number.isNaN(added.getTime())) continue;
+      // Hard expiry from crimsonwitch's `expires` field — more precise than the
+      // age cutoff (catches codes that expire inside the 28-day window).
+      const cwExp = cwExpires.get(key);
+      if (cwExp && new Date(cwExp).getTime() < now) continue;
       const { premium, premium100 } = classifyPremium(e.rewards);
       // Livestream-style codes get a stricter 72h cutoff; everything else 28d.
       if (premium100) {
         if (now - added.getTime() > PREMIUM100_TTL_MS) continue;
       } else if (!isRecent(added)) continue;
-      if (expired.has(e.code)) continue;
-      if (seen.has(e.code)) continue;
-      seen.add(e.code);
-      const cwSeen = cwCurrent.has(e.code) || cwHistorical.has(e.code);
+      if (expiredKeys.has(key)) continue;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const cwSeen = cwCurrent.has(key) || cwHistorical.has(key);
       merged.push({ ...e, premium, premium100, cwSeen });
     }
   };
   consume(nexus);
   consume(cwArr);
   consume(game8Wuwa);
+  // hoyo-codes before Reddit: it's authoritative (redemption-verified), so a
+  // Reddit code it also lists wins the dedupe with a non-reddit sourceUrl and is
+  // thereby corroborated (no longer "Reddit-only").
+  consume(hoyo);
   // Reddit last so authoritative sources win the dedupe (date + rewards).
   // Reddit-only codes still survive — they just lose the metadata race.
   consume(reddit);
@@ -976,9 +1157,23 @@ async function processGame(game, prevGame) {
   let kept = merged;
   if (cwOk) {
     const before = kept.length;
-    kept = kept.filter((c) => !c.cwSeen || cwCurrent.has(c.code));
+    kept = kept.filter((c) => !c.cwSeen || cwCurrent.has(codeKey(c.code)));
     const dropped = before - kept.length;
     if (dropped > 0) console.log(`[crimsonwitch-${game.slug}] pruned ${dropped} code(s) no longer on crimsonwitch`);
+  }
+
+  // ---- confidence gate (Reddit-only codes) --------------------------------
+  // A code still carrying a reddit.com sourceUrl after the merge was discovered
+  // ONLY on Reddit (no authoritative source — nexus/crimsonwitch/game8/hoyo-codes
+  // — claimed it). Such a code auto-publishes only if it (a) names a real reward
+  // and (b) was seen in ≥2 independent posts/comments; otherwise it's held for
+  // review (released via REVIEWED_CODES). Codes already published in the previous
+  // file are exempt so we never retroactively yank a live code (this also
+  // preserves the Reddit carry-forward behaviour on a failed fetch).
+  const prevLiveKeys = new Set((prevGame?.codes || []).map((c) => codeKey(c.code)));
+  const gateHeldKeys = classifyRedditOnlyHolds(kept, { slug: game.slug, prevLiveKeys });
+  for (const c of kept) {
+    if (gateHeldKeys.has(codeKey(c.code))) console.log(`[${game.slug}] holding Reddit-only code ${c.code}: ${c.reviewReason}`);
   }
 
   kept.sort((a, b) =>
@@ -992,15 +1187,15 @@ async function processGame(game, prevGame) {
   const prevFirstSeen = new Map();
   const prevHeld = new Set();
   for (const c of prevGame?.codes || []) {
-    if (c.code) prevFirstSeen.set(c.code, c.firstSeen || c.added);
+    if (c.code) prevFirstSeen.set(codeKey(c.code), c.firstSeen || c.added);
   }
   for (const c of prevGame?.review?.codes || []) {
     if (!c.code) continue;
-    prevFirstSeen.set(c.code, c.firstSeen || c.added);
-    prevHeld.add(c.code); // already quarantined last run → keep it quarantined
+    prevFirstSeen.set(codeKey(c.code), c.firstSeen || c.added);
+    prevHeld.add(codeKey(c.code)); // already quarantined last run → keep it quarantined
   }
   const nowIso = new Date().toISOString();
-  for (const c of kept) c.firstSeen = prevFirstSeen.get(c.code) || nowIso;
+  for (const c of kept) c.firstSeen = prevFirstSeen.get(codeKey(c.code)) || nowIso;
 
   // A flood = MORE than BURST_THRESHOLD non-allowlisted codes first seen inside
   // the window. When that trips, hold every recent code; established codes
@@ -1010,28 +1205,39 @@ async function processGame(game, prevGame) {
   // auto-publishes once it slides past the 24h mark.
   const burstFloor = Date.now() - BURST_WINDOW_MS;
   const isRecentFirstSeen = (c) => new Date(c.firstSeen).getTime() >= burstFloor;
-  const recent = kept.filter((c) => !REVIEWED_CODES.has(c.code) && isRecentFirstSeen(c));
+  // hoyo-verified codes don't count toward a "flood" (they're proven redeemable,
+  // not referral codes), so a legit batch surfacing at once can't trip the guard.
+  const recent = kept.filter((c) =>
+    !REVIEWED_CODES.has(c.code) && isRecentFirstSeen(c) && !hoyoVerifiedKeys.has(codeKey(c.code)));
   const burst = recent.length > BURST_THRESHOLD;
 
   const liveCodes = [];
   const heldCodes = [];
   for (const c of kept) {
-    const hold = !REVIEWED_CODES.has(c.code) &&
-      (prevHeld.has(c.code) || (burst && isRecentFirstSeen(c)));
+    const key = codeKey(c.code);
+    // Verified-redeemable codes are never burst-held, and a previously-held code
+    // that hoyo now verifies is released.
+    const hold = !REVIEWED_CODES.has(c.code) && !hoyoVerifiedKeys.has(key) &&
+      (prevHeld.has(key) ||        // quarantined on a previous run
+        gateHeldKeys.has(key) ||   // failed the Reddit-only confidence gate
+        (burst && isRecentFirstSeen(c)));   // caught in a sudden flood
     (hold ? heldCodes : liveCodes).push(c);
   }
 
   let review = null;
   if (heldCodes.length) {
+    const gateHeldCount = heldCodes.filter((c) => gateHeldKeys.has(codeKey(c.code))).length;
+    const reasonParts = [];
+    if (burst) reasonParts.push(`possible referral/invite flood (${recent.length} first seen in 24h, threshold ${BURST_THRESHOLD})`);
+    if (gateHeldCount) reasonParts.push(`${gateHeldCount} unconfirmed Reddit-only code(s)`);
+    if (!reasonParts.length) reasonParts.push("held from an earlier run");
     review = {
-      reason: burst
-        ? `Possible referral/invite-code flood: ${recent.length} ${game.name} codes first seen in 24h (threshold ${BURST_THRESHOLD}). Held for review — confirm legit ones in REVIEWED_CODES to publish.`
-        : `${heldCodes.length} ${game.name} code(s) held from an earlier burst, pending review.`,
+      reason: `${heldCodes.length} ${game.name} code(s) held for review: ${reasonParts.join("; ")}. Confirm legit ones in REVIEWED_CODES to publish.`,
       detectedAt: nowIso,
       codes: heldCodes,
     };
-    console.warn(`[burst-${game.slug}] ${review.reason}`);
-    console.warn(`[burst-${game.slug}] held: ${heldCodes.map((c) => c.code).join(", ")}`);
+    console.warn(`[review-${game.slug}] ${review.reason}`);
+    console.warn(`[review-${game.slug}] held: ${heldCodes.map((c) => c.code).join(", ")}`);
   }
 
   return {
@@ -1091,4 +1297,25 @@ async function main() {
   console.log(`Saved ${OUTPUT}`);
 }
 
-main().catch((err) => { console.error(err); process.exit(1); });
+// Run only when invoked directly; when required (tests) just expose the
+// internals so the pure heuristics can be exercised without the network.
+if (require.main === module) {
+  main().catch((err) => { console.error(err); process.exit(1); });
+}
+
+module.exports = {
+  processGame,
+  parseCrimsonwitchPayload,
+  normalizeRegionLocked,
+  parseCodeVariants,
+  harvestRedditCodes,
+  classifyRedditOnlyHolds,
+  isCnContext,
+  isAuthoritativeSource,
+  isInviteShapedCode,
+  classifyPremium,
+  codeKey,
+  CN_CONTEXT_RE,
+  REDDIT_SUBS,
+  HOYO_CODES_GAME,
+};

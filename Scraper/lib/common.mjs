@@ -261,16 +261,32 @@ export function extFromUrl(url, fallback = '.bin') {
 }
 
 async function fetchWithRetries(url, options = {}) {
-  const { optional = false, retries = 3, headers = {}, timeoutMs = DEFAULT_FETCH_TIMEOUT_MS } = options;
+  const { optional = false, retries = 3, headers = {}, timeoutMs = DEFAULT_FETCH_TIMEOUT_MS, cache = false } = options;
   let lastError;
+
+  // Conditional-GET cache: opt-in (used by the Nanoka JSON fetchers). A cache hit still
+  // makes the request, but the server answers 304 with no body, so we reuse the stored
+  // payload and skip re-downloading/re-parsing unchanged data. Fail-safe: any cache error
+  // falls through to a normal fetch.
+  const cacheEntry = cache ? await readHttpCache(url) : null;
 
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
+      const conditional = cacheEntry
+        ? {
+          ...(cacheEntry.etag ? { 'If-None-Match': cacheEntry.etag } : {}),
+          ...(cacheEntry.lastModified ? { 'If-Modified-Since': cacheEntry.lastModified } : {})
+        }
+        : {};
+
       const response = await fetch(url, {
         signal: AbortSignal.timeout(timeoutMs),
-        headers: { 'User-Agent': DEFAULT_UA, ...headers }
+        headers: { 'User-Agent': DEFAULT_UA, ...headers, ...conditional }
       });
 
+      if (response.status === 304 && cacheEntry) {
+        return cachedResponse(cacheEntry.body);
+      }
       if (response.status === 404 && optional) return null;
       if (!response.ok) {
         const error = new Error(`HTTP ${response.status} ${response.statusText}`);
@@ -278,6 +294,18 @@ async function fetchWithRetries(url, options = {}) {
         error.retryAfter = response.headers.get('retry-after');
         throw error;
       }
+
+      if (cache) {
+        // Read the body once here so we can both cache it and hand it back.
+        const body = await response.text();
+        await writeHttpCache(url, {
+          etag: response.headers.get('etag'),
+          lastModified: response.headers.get('last-modified'),
+          body
+        });
+        return cachedResponse(body);
+      }
+
       return response;
     } catch (error) {
       lastError = error;
@@ -286,6 +314,52 @@ async function fetchWithRetries(url, options = {}) {
   }
 
   throw new Error(`Failed to fetch ${url}: ${lastError?.message || lastError}`);
+}
+
+// Minimal duck-typed Response carrying an already-read body, so fetchText/fetchJson work
+// transparently whether the body came from the network or the conditional-GET cache.
+function cachedResponse(body) {
+  return {
+    ok: true,
+    status: 200,
+    fromCache: true,
+    async text() { return body; },
+    async json() { return JSON.parse(body); }
+  };
+}
+
+function httpCacheDir() {
+  const base = process.env.NYXARIUM_DATABASE_DIR
+    ? path.resolve(process.env.NYXARIUM_DATABASE_DIR)
+    : DEFAULT_DATABASE_DIR;
+  return path.join(base, '_httpcache');
+}
+
+function httpCacheFile(url) {
+  return path.join(httpCacheDir(), `${shortHash(url, 24)}.json`);
+}
+
+async function readHttpCache(url) {
+  try {
+    const entry = JSON.parse(await fs.readFile(httpCacheFile(url), 'utf8'));
+    if (entry && entry.url === url && typeof entry.body === 'string' && (entry.etag || entry.lastModified)) {
+      return entry;
+    }
+  } catch {
+    // No cache / unreadable cache: behave as a normal fetch.
+  }
+  return null;
+}
+
+async function writeHttpCache(url, { etag, lastModified, body }) {
+  if (!etag && !lastModified) return; // Nothing to revalidate against next time.
+  try {
+    const file = httpCacheFile(url);
+    await ensureDir(path.dirname(file));
+    await fs.writeFile(file, JSON.stringify({ url, etag, lastModified, body, savedAt: new Date().toISOString() }), 'utf8');
+  } catch {
+    // Caching is best-effort; a write failure must never break a scrape.
+  }
 }
 
 function retryDelay(error, attempt) {

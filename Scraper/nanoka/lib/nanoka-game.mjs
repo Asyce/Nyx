@@ -55,6 +55,8 @@ async function scrapeChannel(context) {
     sample,
     skipAssets,
     forceAssets,
+    includeSourceSnapshot,
+    allowEmpty,
     liveComparison,
     config
   } = context;
@@ -97,6 +99,15 @@ async function scrapeChannel(context) {
     }));
   }
 
+  // Asset registration happens during normalize, so the bag is fully populated by now.
+  // sourceSnapshot is the verbatim upstream blob (the bulk of the file size); it is
+  // dropped unless --debug is set. The same raw data is always written under raw/.
+  if (!includeSourceSnapshot) {
+    for (const key of Object.keys(collections)) {
+      collections[key] = stripKeyDeep(collections[key], 'sourceSnapshot');
+    }
+  }
+
   const assetSummary = skipAssets
     ? { skipped: assetBag.downloads.size, downloaded: 0, cached: 0, missing: 0, missingAssets: [] }
     : await downloadAssets(assetBag, { concurrency, forceAssets });
@@ -106,6 +117,13 @@ async function scrapeChannel(context) {
   const hashes = Object.fromEntries(
     Object.entries(collections).map(([name, records]) => [name, collectionHashes(records)])
   );
+
+  // Robustness guard: read previous state up front and refuse to overwrite a populated
+  // section with an empty one (a classic symptom of upstream returning an empty 200 or
+  // renaming a field). This leaves the last good output in place. Override with --allow-empty.
+  const previousStateFile = path.join(databaseDir, STATE_ROOT, `${config.gameId}-${channel.name}-hashes.json`);
+  const previousState = await readJson(previousStateFile, {});
+  assertNoSectionCollapse({ config, channel, previousState, collections, allowEmpty });
 
   if (channel.name === 'beta' && liveComparison) {
     markBetaStatus(collections, hashes, liveComparison.hashes);
@@ -135,8 +153,6 @@ async function scrapeChannel(context) {
     );
   }
 
-  const previousStateFile = path.join(databaseDir, STATE_ROOT, `${config.gameId}-${channel.name}-hashes.json`);
-  const previousState = await readJson(previousStateFile, {});
   const changes = buildChangeReport({ config, channel, previousState, hashes, collections, overview });
 
   await writeJson(previousStateFile, {
@@ -315,6 +331,29 @@ function buildOverview({ config, manifest, channel, sample, lists, collections, 
   });
 }
 
+export function assertNoSectionCollapse({ config, channel, previousState, collections, allowEmpty }) {
+  if (allowEmpty) {
+    return;
+  }
+
+  const collapsed = [];
+  for (const section of config.sections) {
+    const previousCount = Object.keys(previousState?.hashes?.[section.key] || {}).length;
+    const currentCount = (collections[section.key] || []).length;
+    if (previousCount > 0 && currentCount === 0) {
+      collapsed.push(`${section.key} (${previousCount} -> 0)`);
+    }
+  }
+
+  if (collapsed.length) {
+    throw new Error(
+      `Refusing to overwrite ${config.gameId}/${channel.name}: section(s) collapsed to empty: ${collapsed.join(', ')}. `
+      + 'This usually means an upstream change broke parsing. Existing output was left untouched. '
+      + 'Re-run with --allow-empty to override.'
+    );
+  }
+}
+
 function buildChangeReport({ config, channel, previousState, hashes, collections, overview }) {
   const sections = {};
 
@@ -473,6 +512,20 @@ export function removeRemoteLinks(value) {
     return Object.fromEntries(Object.entries(value)
       .map(([key, child]) => [key, removeRemoteLinks(child)])
       .filter(([, child]) => child !== null && child !== undefined));
+  }
+
+  return value;
+}
+
+export function stripKeyDeep(value, dropKey) {
+  if (Array.isArray(value)) {
+    return value.map((item) => stripKeyDeep(item, dropKey));
+  }
+
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(Object.entries(value)
+      .filter(([key]) => key !== dropKey)
+      .map(([key, child]) => [key, stripKeyDeep(child, dropKey)]));
   }
 
   return value;

@@ -53176,6 +53176,11 @@
       "release": 1781020800000,
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Lohen_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lohen.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Lohen_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Lohen_01.webp"
+      ],
       "book": "Resistance",
       "signatureWeapon": {
         "id": "13517",
@@ -55087,6 +55092,11 @@
       "release": 1779141600000,
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nicole_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nicole.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Nicole_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Nicole_01.webp"
+      ],
       "book": "Elysium",
       "signatureWeapon": {
         "id": "14523",
@@ -57307,6 +57317,11 @@
       "release": 1779141600000,
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Prune_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Prune.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Prune_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Prune_01.webp"
+      ],
       "book": "Resistance",
       "signatureWeapon": {
         "id": "14401",
@@ -59488,6 +59503,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/linnea/01-Linnea Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Linnea_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Linnea_01.webp"
+      ],
       "book": "Vagrancy",
       "signatureWeapon": {
         "id": "15516",
@@ -61666,6 +61686,11 @@
       "release": 1771887600000,
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Varka_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varka.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Varka_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Varka_01.webp"
+      ],
       "book": "Freedom",
       "signatureWeapon": {
         "id": "12515",
@@ -63840,6 +63865,11 @@
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zibai.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/zibai/01-Zibai Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Zibai_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Zibai_01.webp"
       ],
       "book": "Gold",
       "signatureWeapon": {
@@ -66022,6 +66052,11 @@
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Illuga.webp",
       "iconZoom": 1.18,
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Illuga.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Illuga_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Illuga_01.webp"
+      ],
       "book": "Elysium",
       "signatureWeapon": {
         "id": "13407",
@@ -68200,6 +68235,11 @@
       "icon": "../../Database/Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
       "iconZoom": 1.32,
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Columbina_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Columbina_01.webp"
+      ],
       "book": "Moonlight",
       "signatureWeapon": {
         "id": "14522",
@@ -70387,6 +70427,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/durin/01-Durin Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Durin_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Durin_01.webp"
+      ],
       "book": "Ballad",
       "signatureWeapon": {
         "id": "11518",
@@ -72572,6 +72617,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/jahoda/01-Jahoda Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Jahoda_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Jahoda_01.webp"
+      ],
       "book": "Vagrancy",
       "signatureWeapon": {
         "id": "15503",
@@ -74750,6 +74800,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/nefer/01-Nefer Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Nefer_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Nefer_01.webp"
+      ],
       "book": "Elysium",
       "signatureWeapon": {
         "id": "14521",
@@ -76908,6 +76963,11 @@
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/flins/01-Flins Birthday 2025.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Flins_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Flins_01.webp"
       ],
       "book": "Vagrancy",
       "signatureWeapon": {
@@ -79093,6 +79153,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/lauma/01-Lauma Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Lauma_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Lauma_01.webp"
+      ],
       "book": "Moonlight",
       "signatureWeapon": {
         "id": "14520",
@@ -81251,6 +81316,11 @@
       "release": 1757368800000,
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Aino_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Aino.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Aino_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Aino_01.webp"
+      ],
       "book": "Elysium",
       "signatureWeapon": {
         "id": "12401",
@@ -83429,6 +83499,11 @@
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/ineffa/01-Ineffa Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Ineffa_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Ineffa_01.webp"
       ],
       "book": "Conflict",
       "signatureWeapon": {
@@ -85615,6 +85690,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/skirk/01-Skirk Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_SkirkNew_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_SkirkNew_01.webp"
+      ],
       "book": "Contention",
       "signatureWeapon": {
         "id": "11517",
@@ -87237,6 +87317,11 @@
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Dahlia.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/dahlia/01-Dahlia Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Dahlia_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Dahlia_01.webp"
       ],
       "book": "Ballad",
       "signatureWeapon": {
@@ -89159,6 +89244,11 @@
         "../../Database/GenshinWiki/birthday-art/escoffier/01-Escoffier Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/escoffier/02-Escoffier Birthday 2026.jpg"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Escoffier_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Escoffier_01.webp"
+      ],
       "book": "Justice",
       "signatureWeapon": {
         "id": "13514",
@@ -90775,6 +90865,11 @@
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ifa.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/ifa/01-Ifa Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Ifa_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Ifa_01.webp"
       ],
       "book": "Conflict",
       "signatureWeapon": {
@@ -92959,6 +93054,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/varesa/01-Varesa Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Varesa_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Varesa_01.webp"
+      ],
       "book": "Conflict",
       "signatureWeapon": {
         "id": "14519",
@@ -95139,6 +95239,11 @@
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Iansan.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/iansan/01-Iansan Birthday 2025.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Iansan_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Iansan_01.webp"
       ],
       "book": "Contention",
       "signatureWeapon": {
@@ -97323,6 +97428,11 @@
         "../../Database/GenshinWiki/birthday-art/yumemizukimizuki/01-Yumemizuki Mizuki Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/yumemizukimizuki/02-Yumemizuki Mizuki Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Mizuki_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Mizuki_01.webp"
+      ],
       "book": "Transience",
       "signatureWeapon": {
         "id": "14518",
@@ -99456,6 +99566,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/lanyan/01-Lan Yan Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Lanyan_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Lanyan_01.webp"
+      ],
       "book": "Diligence",
       "signatureWeapon": {
         "id": "14517",
@@ -101340,6 +101455,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/citlali/01-Citlali Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/citlali/02-Citlali Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Citlali_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Citlali_01.webp"
       ],
       "book": "Kindling",
       "signatureWeapon": {
@@ -103526,6 +103646,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/mavuika/01-Mavuika Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Mavuika_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Mavuika_01.webp"
+      ],
       "book": "Contention",
       "signatureWeapon": {
         "id": "12514",
@@ -105706,6 +105831,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/chasca/01-Chasca Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/chasca/02-Chasca Birthday 2025.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Chasca_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Chasca_01.webp"
       ],
       "book": "Conflict",
       "signatureWeapon": {
@@ -107888,6 +108018,11 @@
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Olorun.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/ororon/01-Ororon Birthday 2025.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Olorun_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Olorun_01.webp"
       ],
       "book": "Kindling",
       "signatureWeapon": {
@@ -110074,6 +110209,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/xilonen/01-Xilonen Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/xilonen/02-Xilonen Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Xilonen_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Xilonen_01.webp"
       ],
       "book": "Kindling",
       "signatureWeapon": {
@@ -112300,6 +112440,11 @@
         "../../Database/GenshinWiki/birthday-art/kinich/01-Kinich Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/kinich/02-Kinich Birthday 2025.jpg"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Kinich_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Kinich_01.webp"
+      ],
       "book": "Kindling",
       "signatureWeapon": {
         "id": "12513",
@@ -114461,6 +114606,11 @@
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mualani.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/mualani/01-Mualani Birthday 2025.jpg"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Mualani_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Mualani_01.webp"
       ],
       "book": "Contention",
       "signatureWeapon": {
@@ -116648,6 +116798,11 @@
         "../../Database/GenshinWiki/birthday-art/kachina/01-Kachina Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/kachina/02-Kachina Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Kachina_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Kachina_01.webp"
+      ],
       "book": "Conflict",
       "signatureWeapon": {
         "id": "13407",
@@ -118833,6 +118988,11 @@
         "../../Database/GenshinWiki/birthday-art/emilie/01-Emilie Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/emilie/02-Emilie Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Emilie_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Emilie_01.webp"
+      ],
       "book": "Order",
       "signatureWeapon": {
         "id": "13513",
@@ -120430,6 +120590,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/sigewinne/01-Sigewinne Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/sigewinne/02-Sigewinne Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Sigewinne_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Sigewinne_01.webp"
       ],
       "book": "Equity",
       "signatureWeapon": {
@@ -122610,6 +122775,11 @@
         "../../Database/GenshinWiki/birthday-art/clorinde/01-Clorinde Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/clorinde/02-Clorinde Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Clorinde_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Clorinde_01.webp"
+      ],
       "book": "Justice",
       "signatureWeapon": {
         "id": "11515",
@@ -124788,6 +124958,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/sethos/01-Sethos Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/sethos/02-Sethos Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Sethos_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Sethos_01.webp"
       ],
       "book": "Praxis",
       "signatureWeapon": {
@@ -127010,6 +127185,11 @@
         "../../Database/GenshinWiki/birthday-art/arlecchino/01-Arlecchino Birthday 2024.jpg",
         "../../Database/GenshinWiki/birthday-art/arlecchino/02-Arlecchino Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Arlecchino_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Arlecchino_01.webp"
+      ],
       "book": "Order",
       "signatureWeapon": {
         "id": "13512",
@@ -129192,6 +129372,11 @@
         "../../Database/GenshinWiki/birthday-art/chiori/01-Chiori Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/chiori/02-Chiori Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Chiori_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Chiori_01.webp"
+      ],
       "book": "Light",
       "signatureWeapon": {
         "id": "11514",
@@ -131206,6 +131391,11 @@
         "../../Database/GenshinWiki/birthday-art/xianyun/01-Xianyun Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/xianyun/02-Xianyun Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/xianyun/03-Xianyun Birthday 2026.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Liuyun_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Liuyun_01.webp"
       ],
       "book": "Gold",
       "signatureWeapon": {
@@ -133389,6 +133579,11 @@
         "../../Database/GenshinWiki/birthday-art/gaming/01-Gaming Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/gaming/02-Gaming Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Gaming_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Gaming_01.webp"
+      ],
       "book": "Prosperity",
       "signatureWeapon": {
         "id": "12430",
@@ -135571,6 +135766,11 @@
         "../../Database/GenshinWiki/birthday-art/chevreuse/04-Chevreuse TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/chevreuse/05-Chevreuse TPRGT 2024 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Chevreuse_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Chevreuse_01.webp"
+      ],
       "book": "Order",
       "signatureWeapon": {
         "id": "13514",
@@ -137191,6 +137391,11 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/navia/01-Navia Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/navia/02-Navia Birthday 2025.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Navia_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Navia_01.webp"
       ],
       "book": "Equity",
       "signatureWeapon": {
@@ -139371,6 +139576,11 @@
         "../../Database/GenshinWiki/birthday-art/furina/01-Furina Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/furina/02-Furina Birthday 2025.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Furina_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Furina_01.webp"
+      ],
       "book": "Justice",
       "signatureWeapon": {
         "id": "11513",
@@ -141256,6 +141466,11 @@
         "../../Database/GenshinWiki/birthday-art/charlotte/02-Charlotte Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/charlotte/03-Charlotte Birthday 2026.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Charlotte_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Charlotte_01.webp"
+      ],
       "book": "Justice",
       "signatureWeapon": {
         "id": "14302",
@@ -142877,6 +143092,11 @@
         "../../Database/GenshinWiki/birthday-art/wriothesley/04-Wriothesley TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/wriothesley/05-Wriothesley TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Wriothesley_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Wriothesley_01.webp"
+      ],
       "book": "Order",
       "signatureWeapon": {
         "id": "14513",
@@ -144497,6 +144717,11 @@
         "../../Database/GenshinWiki/birthday-art/neuvillette/03-Neuvillette Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/neuvillette/04-Neuvillette TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/neuvillette/05-Neuvillette TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Neuvillette_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Neuvillette_01.webp"
       ],
       "book": "Equity",
       "signatureWeapon": {
@@ -146681,6 +146906,11 @@
         "../../Database/GenshinWiki/birthday-art/freminet/04-Freminet TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/freminet/05-Freminet TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Freminet_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Freminet_01.webp"
+      ],
       "book": "Justice",
       "signatureWeapon": {
         "id": "12501",
@@ -148863,6 +149093,11 @@
         "../../Database/GenshinWiki/birthday-art/lyney/03-Lyney Birthday 2026.png",
         "../../Database/GenshinWiki/birthday-art/lyney/04-Lyney TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/lyney/05-Lyney TPRGT 2024 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Liney_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Liney_01.webp"
       ],
       "book": "Equity",
       "signatureWeapon": {
@@ -151050,6 +151285,11 @@
         "../../Database/GenshinWiki/birthday-art/lynette/04-Lynette TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/lynette/05-Lynette TPRGT 2024 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Linette_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Linette_01.webp"
+      ],
       "book": "Order",
       "signatureWeapon": {
         "id": "11503",
@@ -152674,6 +152914,11 @@
         "../../Database/GenshinWiki/birthday-art/kirara/03-Kirara Birthday 2026.png",
         "../../Database/GenshinWiki/birthday-art/kirara/04-Kirara TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/kirara/05-Kirara TPRGT 2024 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Momoka_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Momoka_01.webp"
       ],
       "book": "Transience",
       "signatureWeapon": {
@@ -154671,6 +154916,11 @@
         "../../Database/GenshinWiki/birthday-art/baizhu/02-Baizhu Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/baizhu/03-Baizhu Birthday 2026.png",
         "../../Database/GenshinWiki/birthday-art/baizhu/04-Baizhu Birthday 2024 - Miyoushe.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Baizhuer_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Baizhuer_01.webp"
       ],
       "book": "Gold",
       "signatureWeapon": {
@@ -156836,6 +157086,11 @@
         "../../Database/GenshinWiki/birthday-art/kaveh/03-Kaveh Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/kaveh/04-Kaveh TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/kaveh/05-Kaveh TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Kaveh_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Kaveh_01.webp"
       ],
       "book": "Ingenuity",
       "signatureWeapon": {
@@ -159004,6 +159259,11 @@
         "../../Database/GenshinWiki/birthday-art/mika/03-Mika Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/mika/04-Mika TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/mika/05-Mika TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Mika_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Mika_01.webp"
       ],
       "book": "Ballad",
       "signatureWeapon": {
@@ -161227,6 +161487,11 @@
         "../../Database/GenshinWiki/birthday-art/dehya/05-Dehya Birthday 2026.png",
         "../../Database/GenshinWiki/birthday-art/dehya/06-Dehya TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/dehya/07-Dehya TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Dehya_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Dehya_01.webp"
       ],
       "book": "Praxis",
       "signatureWeapon": {
@@ -163458,6 +163723,11 @@
         "../../Database/GenshinWiki/birthday-art/alhaitham/07-Alhaitham TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/alhaitham/08-Alhaitham TPRGT 2024 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Alhatham_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Alhatham_01.webp"
+      ],
       "book": "Ingenuity",
       "signatureWeapon": {
         "id": "11512",
@@ -165662,6 +165932,11 @@
         "../../Database/GenshinWiki/birthday-art/yaoyao/04-Yaoyao Birthday 2026.png",
         "../../Database/GenshinWiki/birthday-art/yaoyao/05-Yaoyao TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/yaoyao/06-Yaoyao TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Yaoyao_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Yaoyao_01.webp"
       ],
       "book": "Diligence",
       "signatureWeapon": {
@@ -167873,6 +168148,11 @@
         "../../Database/GenshinWiki/birthday-art/wanderer/07-Wanderer TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/wanderer/08-Wanderer TPRGT 2024 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Wanderer_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Wanderer_01.webp"
+      ],
       "book": "Praxis",
       "signatureWeapon": {
         "id": "14512",
@@ -170049,6 +170329,11 @@
         "../../Database/GenshinWiki/birthday-art/faruzan/03-Faruzan Birthday 2025.png",
         "../../Database/GenshinWiki/birthday-art/faruzan/04-Faruzan TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/faruzan/05-Faruzan TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Faruzan_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Faruzan_01.webp"
       ],
       "book": "Admonition",
       "signatureWeapon": {
@@ -172277,6 +172562,11 @@
         "../../Database/GenshinWiki/birthday-art/layla/07-Layla TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/layla/08-Layla TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Layla_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Layla_01.webp"
+      ],
       "book": "Ingenuity",
       "signatureWeapon": {
         "id": "11511",
@@ -174498,6 +174788,11 @@
         "../../Database/GenshinWiki/birthday-art/nahida/04-Nahida TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/nahida/05-Nahida TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Nahida_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Nahida_01.webp"
+      ],
       "book": "Ingenuity",
       "signatureWeapon": {
         "id": "14511",
@@ -176706,6 +177001,11 @@
         "../../Database/GenshinWiki/birthday-art/nilou/06-Nilou TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/nilou/07-Nilou TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/nilou/08-Nilou TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Nilou_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Nilou_01.webp"
       ],
       "book": "Praxis",
       "signatureWeapon": {
@@ -178929,6 +179229,11 @@
         "../../Database/GenshinWiki/birthday-art/cyno/05-Cyno TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/cyno/06-Cyno TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Cyno_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Cyno_01.webp"
+      ],
       "book": "Admonition",
       "signatureWeapon": {
         "id": "13511",
@@ -181151,6 +181456,11 @@
         "../../Database/GenshinWiki/birthday-art/candace/05-Candace Birthday 2026.png",
         "../../Database/GenshinWiki/birthday-art/candace/06-Candace TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/candace/07-Candace TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Candace_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Candace_01.webp"
       ],
       "book": "Admonition",
       "signatureWeapon": {
@@ -183380,6 +183690,11 @@
         "../../Database/GenshinWiki/birthday-art/dori/08-Dori TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/dori/09-Dori TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Dori_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Dori_01.webp"
+      ],
       "book": "Ingenuity",
       "signatureWeapon": {
         "id": "12401",
@@ -185564,6 +185879,11 @@
         "../../Database/GenshinWiki/birthday-art/tighnari/06-Tighnari TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/tighnari/07-Tighnari TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/tighnari/08-Tighnari TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Tighnari_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Tighnari_01.webp"
       ],
       "book": "Admonition",
       "signatureWeapon": {
@@ -187768,6 +188088,11 @@
         "../../Database/GenshinWiki/birthday-art/collei/06-Collei TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/collei/07-Collei TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Collei_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Collei_01.webp"
+      ],
       "book": "Praxis",
       "signatureWeapon": {
         "id": "15503",
@@ -189710,6 +190035,11 @@
         "../../Database/GenshinWiki/birthday-art/shikanoinheizou/06-Shikanoin Heizou TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/shikanoinheizou/07-Shikanoin Heizou TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/shikanoinheizou/08-Shikanoin Heizou TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Heizo_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Heizo_01.webp"
       ],
       "book": "Transience",
       "signatureWeapon": {
@@ -191938,6 +192268,11 @@
         "../../Database/GenshinWiki/birthday-art/kukishinobu/07-Kuki Shinobu TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/kukishinobu/08-Kuki Shinobu TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Shinobu_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Shinobu_01.webp"
+      ],
       "book": "Elegance",
       "signatureWeapon": {
         "id": "11503",
@@ -193998,6 +194333,11 @@
         "../../Database/GenshinWiki/birthday-art/yelan/05-Yelan Birthday 2026.png",
         "../../Database/GenshinWiki/birthday-art/yelan/06-Yelan TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/yelan/07-Yelan TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Yelan_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Yelan_01.webp"
       ],
       "book": "Prosperity",
       "signatureWeapon": {
@@ -196183,6 +196523,11 @@
         "../../Database/GenshinWiki/birthday-art/kamisatoayato/06-Kamisato Ayato TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/kamisatoayato/07-Kamisato Ayato TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Ayato_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Ayato_01.webp"
+      ],
       "book": "Elegance",
       "signatureWeapon": {
         "id": "11510",
@@ -198362,6 +198707,11 @@
         "../../Database/GenshinWiki/birthday-art/yaemiko/07-Yae Miko TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/yaemiko/08-Yae Miko TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/yaemiko/09-Yae Miko TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Yae_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Yae_01.webp"
       ],
       "book": "Light",
       "signatureWeapon": {
@@ -200548,6 +200898,11 @@
         "../../Database/GenshinWiki/birthday-art/shenhe/09-Shenhe TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/shenhe/10-Shenhe TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Shenhe_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Shenhe_01.webp"
+      ],
       "book": "Prosperity",
       "signatureWeapon": {
         "id": "13507",
@@ -202447,6 +202802,11 @@
         "../../Database/GenshinWiki/birthday-art/yunjin/08-Yun Jin TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/yunjin/09-Yun Jin TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/yunjin/10-Yun Jin TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Yunjin_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Yunjin_01.webp"
       ],
       "book": "Diligence",
       "signatureWeapon": {
@@ -204641,6 +205001,11 @@
         "../../Database/GenshinWiki/birthday-art/aratakiitto/09-Arataki Itto TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/aratakiitto/10-Arataki Itto TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Itto_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Itto_01.webp"
+      ],
       "book": "Elegance",
       "signatureWeapon": {
         "id": "12510",
@@ -206832,6 +207197,11 @@
         "../../Database/GenshinWiki/birthday-art/gorou/09-Gorou TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/gorou/10-Gorou TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Gorou_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Gorou_01.webp"
+      ],
       "book": "Light",
       "signatureWeapon": {
         "id": "15401",
@@ -208853,6 +209223,11 @@
         "../../Database/GenshinWiki/birthday-art/thoma/08-Thoma TPRGT 2023 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/thoma/09-Thoma TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/thoma/10-Thoma TPRGT 2024 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Tohma_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Tohma_01.webp"
       ],
       "book": "Transience",
       "signatureWeapon": {
@@ -211043,6 +211418,11 @@
         "../../Database/GenshinWiki/birthday-art/sangonomiyakokomi/08-Sangonomiya Kokomi TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/sangonomiyakokomi/09-Sangonomiya Kokomi TPRGT 2024 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Kokomi_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Kokomi_01.webp"
+      ],
       "book": "Transience",
       "signatureWeapon": {
         "id": "14302",
@@ -213067,6 +213447,11 @@
         "../../Database/GenshinWiki/birthday-art/raidenshogun/07-Raiden Shogun TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/raidenshogun/08-Raiden Shogun TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/raidenshogun/09-Raiden Shogun TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Shougun_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Shougun_01.webp"
       ],
       "book": "Light",
       "signatureWeapon": {
@@ -215207,6 +215592,11 @@
         "../../Database/GenshinWiki/birthday-art/kujousara/06-Kujou Sara TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/kujousara/07-Kujou Sara TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/kujousara/08-Kujou Sara TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Sara_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Sara_01.webp"
       ],
       "book": "Elegance",
       "signatureWeapon": {
@@ -217393,6 +217783,11 @@
         "../../Database/GenshinWiki/birthday-art/yoimiya/07-Yoimiya TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/yoimiya/08-Yoimiya TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/yoimiya/09-Yoimiya TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Yoimiya_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Yoimiya_01.webp"
       ],
       "book": "Transience",
       "signatureWeapon": {
@@ -219586,6 +219981,11 @@
         "../../Database/GenshinWiki/birthday-art/sayu/08-Sayu TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/sayu/09-Sayu TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Sayu_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Sayu_01.webp"
+      ],
       "book": "Light",
       "signatureWeapon": {
         "id": "12401",
@@ -221475,6 +221875,11 @@
         "../../Database/GenshinWiki/birthday-art/kamisatoayaka/08-Kamisato Ayaka TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/kamisatoayaka/09-Kamisato Ayaka TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/kamisatoayaka/10-Kamisato Ayaka TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Ayaka_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Ayaka_02.webp"
       ],
       "book": "Elegance",
       "signatureWeapon": {
@@ -223614,6 +224019,11 @@
         "../../Database/GenshinWiki/birthday-art/kaedeharakazuha/07-Kaedehara Kazuha TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/kaedeharakazuha/08-Kaedehara Kazuha TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/kaedeharakazuha/09-Kaedehara Kazuha TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Kazuha_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Kazuha_01.webp"
       ],
       "book": "Diligence",
       "signatureWeapon": {
@@ -225804,6 +226214,11 @@
         "../../Database/GenshinWiki/birthday-art/eula/08-Eula TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/eula/09-Eula TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Eula_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Eula_01.webp"
+      ],
       "book": "Resistance",
       "signatureWeapon": {
         "id": "12503",
@@ -227993,6 +228408,11 @@
         "../../Database/GenshinWiki/birthday-art/yanfei/08-Yanfei TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/yanfei/09-Yanfei TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Feiyan_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Feiyan_01.webp"
+      ],
       "book": "Gold",
       "signatureWeapon": {
         "id": "14502",
@@ -230181,6 +230601,11 @@
         "../../Database/GenshinWiki/birthday-art/rosaria/07-Rosaria TPRGT 2023 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/rosaria/08-Rosaria TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/rosaria/09-Rosaria TPRGT 2024 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Rosaria_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Rosaria_01.webp"
       ],
       "book": "Ballad",
       "signatureWeapon": {
@@ -232373,6 +232798,11 @@
         "../../Database/GenshinWiki/birthday-art/hutao/09-Hu Tao TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/hutao/10-Hu Tao TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Hutao_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Hutao_01.webp"
+      ],
       "book": "Diligence",
       "signatureWeapon": {
         "id": "13501",
@@ -234271,6 +234701,11 @@
         "../../Database/GenshinWiki/birthday-art/xiao/10-Xiao TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/xiao/11-Xiao TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/xiao/12-Xiao TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Xiao_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Xiao_01.webp"
       ],
       "book": "Prosperity",
       "signatureWeapon": {
@@ -236466,6 +236901,11 @@
         "../../Database/GenshinWiki/birthday-art/ganyu/09-Ganyu TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/ganyu/10-Ganyu TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Ganyu_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Ganyu_01.webp"
+      ],
       "book": "Diligence",
       "signatureWeapon": {
         "id": "15512",
@@ -238360,6 +238800,11 @@
         "../../Database/GenshinWiki/birthday-art/albedo/07-Albedo TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/albedo/08-Albedo TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/albedo/09-Albedo TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Albedo_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Albedo_01.webp"
       ],
       "book": "Ballad",
       "signatureWeapon": {
@@ -240553,6 +240998,11 @@
         "../../Database/GenshinWiki/birthday-art/zhongli/08-Zhongli TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/zhongli/09-Zhongli TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/zhongli/10-Zhongli TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Zhongli_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Zhongli_01.webp"
       ],
       "book": "Gold",
       "signatureWeapon": {
@@ -242748,6 +243198,11 @@
         "../../Database/GenshinWiki/birthday-art/xinyan/08-Xinyan TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/xinyan/09-Xinyan TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Xinyan_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Xinyan_01.webp"
+      ],
       "book": "Gold",
       "signatureWeapon": {
         "id": "12510",
@@ -244936,6 +245391,11 @@
         "../../Database/GenshinWiki/birthday-art/tartaglia/07-Tartaglia TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/tartaglia/08-Tartaglia TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/tartaglia/09-Tartaglia TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Tartaglia_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Tartaglia_01.webp"
       ],
       "book": "Freedom",
       "signatureWeapon": {
@@ -247126,6 +247586,11 @@
         "../../Database/GenshinWiki/birthday-art/diona/10-Diona TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/diona/11-Diona TPRGT 2024 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Diona_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Diona_01.webp"
+      ],
       "book": "Freedom",
       "signatureWeapon": {
         "id": "15401",
@@ -249056,6 +249521,11 @@
         "../../Database/GenshinWiki/birthday-art/diluc/10-Diluc TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/diluc/11-Diluc TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/diluc/12-Diluc TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Diluc_01_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Diluc_01.webp"
       ],
       "book": "Resistance",
       "signatureWeapon": {
@@ -251251,6 +251721,11 @@
         "../../Database/GenshinWiki/birthday-art/jean/10-Jean TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/jean/11-Jean TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Qin_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Qin_01.webp"
+      ],
       "book": "Resistance",
       "signatureWeapon": {
         "id": "11401",
@@ -253441,6 +253916,11 @@
         "../../Database/GenshinWiki/birthday-art/keqing/09-Keqing TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/keqing/10-Keqing TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Keqing_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Keqing_01.webp"
+      ],
       "book": "Prosperity",
       "signatureWeapon": {
         "id": "11509",
@@ -255364,6 +255844,11 @@
         "../../Database/GenshinWiki/birthday-art/klee/09-Klee TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/klee/10-Klee TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/klee/11-Klee TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Klee_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Klee_01.webp"
       ],
       "book": "Freedom",
       "signatureWeapon": {
@@ -257578,6 +258063,11 @@
         "../../Database/GenshinWiki/birthday-art/mona/09-Mona TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/mona/10-Mona TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Mona_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Mona_02.webp"
+      ],
       "book": "Resistance",
       "signatureWeapon": {
         "id": "14302",
@@ -259496,6 +259986,11 @@
         "../../Database/GenshinWiki/birthday-art/qiqi/09-Qiqi TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/qiqi/10-Qiqi TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/qiqi/11-Qiqi TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Qiqi_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Qiqi_01.webp"
       ],
       "book": "Prosperity",
       "signatureWeapon": {
@@ -261714,6 +262209,11 @@
         "../../Database/GenshinWiki/birthday-art/venti/10-Venti TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/venti/11-Venti TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/venti/12-Venti TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Venti_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Venti_01.webp"
       ],
       "book": "Ballad",
       "signatureWeapon": {
@@ -263937,6 +264437,11 @@
         "../../Database/GenshinWiki/birthday-art/amber/10-Amber TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/amber/11-Amber TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Ambor_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Ambor.webp"
+      ],
       "book": "Freedom",
       "signatureWeapon": {
         "id": "15514",
@@ -265866,6 +266371,11 @@
         "../../Database/GenshinWiki/birthday-art/barbara/08-Barbara TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/barbara/09-Barbara TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/barbara/10-Barbara TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Barbara_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Barbara_01.webp"
       ],
       "book": "Freedom",
       "signatureWeapon": {
@@ -268080,6 +268590,11 @@
         "../../Database/GenshinWiki/birthday-art/beidou/09-Beidou TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/beidou/10-Beidou TPRGT 2024 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Beidou_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Beidou_01.webp"
+      ],
       "book": "Gold",
       "signatureWeapon": {
         "id": "12514",
@@ -270272,6 +270787,11 @@
         "../../Database/GenshinWiki/birthday-art/bennett/08-Bennett TPRGT 2023 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/bennett/09-Bennett TPRGT 2024 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/bennett/10-Bennett TPRGT 2024 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Bennett_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Bennett_01.webp"
       ],
       "book": "Resistance",
       "signatureWeapon": {
@@ -272467,6 +272987,11 @@
         "../../Database/GenshinWiki/birthday-art/chongyun/09-Chongyun TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/chongyun/10-Chongyun TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Chongyun_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Chongyun_01.webp"
+      ],
       "book": "Diligence",
       "signatureWeapon": {
         "id": "12502",
@@ -274659,6 +275184,11 @@
         "../../Database/GenshinWiki/birthday-art/fischl/11-Fischl TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/fischl/12-Fischl TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_02.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Fischl_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Fischl_01.webp"
+      ],
       "book": "Ballad",
       "signatureWeapon": {
         "id": "15515",
@@ -276616,6 +277146,11 @@
         "../../Database/GenshinWiki/birthday-art/kaeya/08-Kaeya TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/kaeya/09-Kaeya TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/kaeya/10-Kaeya TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Kaeya_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Kaeya_01.webp"
       ],
       "book": "Ballad",
       "signatureWeapon": {
@@ -278838,6 +279373,11 @@
         "../../Database/GenshinWiki/birthday-art/lisa/11-Lisa TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/lisa/12-Lisa TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Lisa_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Lisa_01.webp"
+      ],
       "book": "Ballad",
       "signatureWeapon": {
         "id": "14521",
@@ -281031,6 +281571,11 @@
         "../../Database/GenshinWiki/birthday-art/ningguang/09-Ningguang TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/ningguang/10-Ningguang TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/ningguang/11-Ningguang TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Ningguang_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Ningguang_01.webp"
       ],
       "book": "Prosperity",
       "signatureWeapon": {
@@ -283257,6 +283802,11 @@
         "../../Database/GenshinWiki/birthday-art/noelle/11-Noelle TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/noelle/12-Noelle TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Noel_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Noel_01.webp"
+      ],
       "book": "Resistance",
       "signatureWeapon": {
         "id": "12510",
@@ -285451,6 +286001,11 @@
         "../../Database/GenshinWiki/birthday-art/razor/09-Razor TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/razor/10-Razor TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_04.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Razor_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Razor_01.webp"
+      ],
       "book": "Resistance",
       "signatureWeapon": {
         "id": "12515",
@@ -287641,6 +288196,11 @@
         "../../Database/GenshinWiki/birthday-art/sucrose/09-Sucrose TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/sucrose/10-Sucrose TPRGT 2023 - Lumine.png"
       ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_Catalyst_MD.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Sucrose_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Sucrose_01.webp"
+      ],
       "book": "Freedom",
       "signatureWeapon": {
         "id": "14302",
@@ -289566,6 +290126,11 @@
         "../../Database/GenshinWiki/birthday-art/xiangling/08-Xiangling TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/xiangling/09-Xiangling TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/xiangling/10-Xiangling TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_03.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Xiangling_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Xiangling_01.webp"
       ],
       "book": "Diligence",
       "signatureWeapon": {
@@ -291757,6 +292322,11 @@
         "../../Database/GenshinWiki/birthday-art/xingqiu/08-Xingqiu TPRGT 2022 - Lumine.png",
         "../../Database/GenshinWiki/birthday-art/xingqiu/09-Xingqiu TPRGT 2023 - Aether.png",
         "../../Database/GenshinWiki/birthday-art/xingqiu/10-Xingqiu TPRGT 2023 - Lumine.png"
+      ],
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_Xingqiu_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_Xingqiu_01.webp"
       ],
       "book": "Gold",
       "signatureWeapon": {
@@ -293965,6 +294535,11 @@
       "release": -3600000,
       "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
       "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+      "skillIcons": [
+        "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerWind_01.webp",
+        "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerWind_01.webp"
+      ],
       "book": "Freedom",
       "req": {
         "ascension": [
@@ -296061,6 +296636,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerWind_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerWind_01.webp"
+          ],
           "book": "Freedom",
           "req": {
             "ascension": [
@@ -298153,6 +298733,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerWind_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerWind_01.webp"
+          ],
           "book": "Freedom",
           "req": {
             "ascension": [
@@ -300245,6 +300830,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerRock_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerRock_01.webp"
+          ],
           "book": "Freedom",
           "req": {
             "ascension": [
@@ -302248,6 +302838,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerRock_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerRock_01.webp"
+          ],
           "book": "Freedom",
           "req": {
             "ascension": [
@@ -304251,6 +304846,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerElectric_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerElectric_01.webp"
+          ],
           "book": "Transience",
           "req": {
             "ascension": [
@@ -306301,6 +306901,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerElectric_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerElectric_01.webp"
+          ],
           "book": "Transience",
           "req": {
             "ascension": [
@@ -308351,6 +308956,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerGrass_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerGrass_01.webp"
+          ],
           "book": "Admonition",
           "req": {
             "ascension": [
@@ -310479,6 +311089,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerGrass_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerGrass_01.webp"
+          ],
           "book": "Admonition",
           "req": {
             "ascension": [
@@ -312607,6 +313222,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerWater_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerWater_01.webp"
+          ],
           "book": "Equity",
           "req": {
             "ascension": [
@@ -314699,6 +315319,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerWater_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerWater_01.webp"
+          ],
           "book": "Equity",
           "req": {
             "ascension": [
@@ -316791,6 +317416,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerBoy_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerBoy.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerFire_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerFire_01.webp"
+          ],
           "book": "Contention",
           "req": {
             "ascension": [
@@ -318871,6 +319501,11 @@
           "release": -3600000,
           "icon": "../../Database/Nanoka/gi/assets/characters/circles/UI_AvatarIcon_PlayerGirl_Circle.webp",
           "art": "../../Database/Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_PlayerGirl.webp",
+          "skillIcons": [
+            "../../Database/Nanoka/gi/assets/skills/Skill_A_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_S_PlayerFire_01.webp",
+            "../../Database/Nanoka/gi/assets/skills/Skill_E_PlayerFire_01.webp"
+          ],
           "book": "Contention",
           "req": {
             "ascension": [

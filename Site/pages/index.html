@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="icon" type="image/png" href="../assets/icon/nyx_logo.png"/>
-<title>Nyxarium — Worlds</title>
+<title>Pengo • Nyx</title>
 <style>
   @font-face{ font-family:'GI';  src:url('../assets/fonts/GI.ttf')  format('truetype'); font-display:swap; }
   @font-face{ font-family:'HSR'; src:url('../assets/fonts/HSR.ttf') format('truetype'); font-display:swap; }
@@ -29,8 +29,11 @@
   }
   /* ===== full-viewport background stack ===== */
   .page-bg{
-    position:fixed; inset:0; z-index:0;
-    background:#05040b url('../assets/bg/page_bg.jpg') center/cover no-repeat;
+    position:fixed; inset:-6vmax; z-index:0;
+    background:#05040b url('../assets/bg/backgroundnyx.png') 50% 46%/112% auto no-repeat;
+    filter:brightness(.62) saturate(1.03) contrast(1.02);
+    transform:scale(1.025);
+    transform-origin:center center;
   }
   .page-pattern{
     position:fixed; top:50%; left:50%; width:150vmax; height:150vmax; z-index:1;
@@ -203,6 +206,20 @@
     </svg>
   </template>
   <div class="page-bg"></div>
+  <script>
+    (function(){
+      var bg = document.querySelector('.page-bg');
+      if (!bg) return;
+      function rnd(min, max){ return min + Math.random() * (max - min); }
+      var zoom = Math.round(rnd(106, 118));
+      var x = Math.round(rnd(28, 72));
+      var y = Math.round(rnd(24, 76));
+      var flip = Math.random() < .5 ? -1 : 1;
+      bg.style.backgroundPosition = x + '% ' + y + '%';
+      bg.style.backgroundSize = zoom + '% auto';
+      bg.style.transform = 'scaleX(' + flip + ') scale(1.025) rotate(' + rnd(-3.5, 3.5).toFixed(2) + 'deg)';
+    })();
+  </script>
   <div class="page-pattern"></div>
   <div class="page-vignette"></div>
 
@@ -210,7 +227,7 @@
     <div class="stage" id="stage">
 
       <header class="hd">
-        <div class="hd-eye" id="hdEye" role="img" aria-label="Nyxarium">
+        <div class="hd-eye" id="hdEye" role="img" aria-label="Pengo • Nyx">
           <div class="elayer ball" id="hdBall"></div>
           <div class="elayer lid"></div>
           <div class="elayer drips"></div>
@@ -219,7 +236,7 @@
 
       <div class="hd-right">
         <div class="plate"></div>
-        <div class="wm">Nyxarium</div>
+        <div class="wm">Pengo • Nyx</div>
       </div>
 
       <div class="layout" id="layout">

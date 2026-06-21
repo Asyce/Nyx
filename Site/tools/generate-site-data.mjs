@@ -1,9 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
+
+// Shared reward vocabulary — single source of truth used by both the codes
+// scraper's publish gate and this display filter, so they never disagree.
+const require = createRequire(import.meta.url);
+const { isUsefulReward: isUsefulRewardShared } = require(path.resolve(root, 'Scraper', 'codes', 'reward-vocab.cjs'));
 const siteDir = path.resolve(root, 'Site');
 const generatedDataDir = path.resolve(siteDir, 'src', 'data', 'generated');
 const dbDir = path.resolve(root, 'Database');
@@ -108,8 +114,8 @@ const QUALITY_RARITY = {
   Normal: 1,
   NotNormal: 2,
   Rare: 3,
-  VeryRare: 4,
-  SuperRare: 5,
+  SuperRare: 4,
+  VeryRare: 5,
 };
 
 function rarityNumber(value, fallback = 1) {
@@ -1063,6 +1069,24 @@ function buildGiWeaponRoster() {
     .sort((a, b) => b.rarity - a.rarity || a.weaponType.localeCompare(b.weaponType) || a.name.localeCompare(b.name));
 }
 
+function giSkillIconName(skill) {
+  const promote = skill?.promote;
+  const promoted = promote && typeof promote === 'object'
+    ? Object.values(promote).find((row) => row?.icon)
+    : null;
+  return promoted?.icon || skill?.icon || null;
+}
+
+function giSkillIcons(raw) {
+  return (raw?.skills || [])
+    .slice(0, 3)
+    .map((skill) => {
+      const icon = giSkillIconName(skill);
+      return icon ? dbAsset(`Nanoka/gi/assets/skills/${icon}.webp`) : null;
+    })
+    .filter(Boolean);
+}
+
 function loadGiSignatureMap() {
   const rel = 'AsIveHoarded/gi-signatures.json';
   if (!exists(rel)) return new Map();
@@ -1099,6 +1123,7 @@ function buildGiRoster() {
       const iconZoom = MANUAL_ICON_ZOOM.gi[nameKey] || (!circleIcon && !!fallbackIcon ? 1.18 : undefined);
       const birthdayArtPool = GENSHIN_BIRTHDAY_ART.get(nameKey) || [];
       const signature = signatures.get(nameKey);
+      const skillIcons = giSkillIcons(raw);
       return {
         id: 'gi-' + ch.id,
         n: ch.name,
@@ -1112,6 +1137,7 @@ function buildGiRoster() {
         iconZoom,
         art: dbAsset(ch.assets?.gacha || ch.assets?.card || ch.assets?.circle || ch.assets?.icon),
         birthdayArtPool: birthdayArtPool.length ? birthdayArtPool : undefined,
+        ...(skillIcons.length ? { skillIcons } : {}),
         book,
         ...(signature ? {
           signatureWeapon: signature,
@@ -1141,8 +1167,8 @@ const HSR_RARITY_SCORE = {
   Normal: 1,
   NotNormal: 2,
   Rare: 3,
-  VeryRare: 4,
-  SuperRare: 5,
+  SuperRare: 4,
+  VeryRare: 5,
 };
 
 function hsrRarityScore(value) {
@@ -2420,16 +2446,6 @@ function rewardText(value) {
   return cleanText(value, 180);
 }
 
-const codeRewardKeywords = {
-  gi: ['primogem', 'mora', 'adventurer', 'enhancement ore', 'geode', 'jueyun', 'stir fried', 'adeptea', 'torte'],
-  hsr: ['stellar jade', 'credit', 'traveler', 'condensed aether', 'lost gold', 'quantum ghost'],
-  zzz: ['polychrome', 'denny', 'investigator', 'w-engine', 'boopon'],
-  wuwa: ['astrite', 'shell credit', 'resonance', 'potion', 'waveplate'],
-  ae: ['originium', 'industrial currency', 'skill summary'],
-};
-
-const codeRewardReject = /\b(checkout|discount|coupon|shipping|store|shop|etsy|patreon|all items)\b|\^\^/i;
-
 const premiumCurrencyMeta = {
   gi: { name: 'Primogems', needle: 'primogem', icon: dbAsset('Nanoka/gi/assets/items/UI_ItemIcon_201.webp') },
   hsr: { name: 'Stellar Jade', needle: 'stellar jade', icon: dbAsset('Nanoka/hsr/assets/items/900001.webp') },
@@ -2444,13 +2460,10 @@ function codeHasPremiumCurrency(key, reward) {
   return String(reward || '').toLowerCase().includes(needle);
 }
 
+// Delegates to the shared reward vocabulary so the site filter and the scraper's
+// publish gate stay in lockstep.
 function isUsefulCodeReward(key, reward, sourceUrl) {
-  const text = String(reward || '').toLowerCase();
-  if (!text || text === 'rewards') return false;
-  if (codeRewardReject.test(text)) return false;
-  const keywords = codeRewardKeywords[key] || [];
-  if (keywords.some((word) => text.includes(word))) return true;
-  return /hoyoverse\.com\/.*gift/i.test(String(sourceUrl || ''));
+  return isUsefulRewardShared(key, reward, sourceUrl);
 }
 
 function buildCodesData() {

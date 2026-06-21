@@ -1,15 +1,16 @@
-import { createHash } from 'node:crypto';
+// Nanoka diff helpers. Hashing/canonicalization lives in ../../lib/common.mjs
+// (single source of truth); this module only pins the Nanoka-specific omit set
+// (so contentStatus/liveComparison/scrapedAt churn never shows up as a change)
+// and the collection-shaped diff report.
+import { contentHash as commonContentHash } from '../../lib/common.mjs';
 
-const DEFAULT_OMIT_KEYS = new Set([
-  'contentStatus',
-  'liveComparison',
-  'scrapedAt'
-]);
+// sourceSnapshot is the verbatim upstream blob; it is excluded from the hash so
+// the change report tracks curated-field changes rather than upstream noise, and
+// so toggling --debug (which controls whether the blob is written) never churns hashes.
+const NANOKA_OMIT_KEYS = new Set(['contentStatus', 'liveComparison', 'scrapedAt', 'sourceSnapshot']);
 
-export function contentHash(value, omitKeys = DEFAULT_OMIT_KEYS) {
-  return createHash('sha256')
-    .update(stableStringify(stripKeys(value, omitKeys)))
-    .digest('hex');
+export function contentHash(value, omitKeys = NANOKA_OMIT_KEYS) {
+  return commonContentHash(value, omitKeys);
 }
 
 export function collectionHashes(records) {
@@ -52,46 +53,6 @@ export function diffHashes(previousHashes = {}, currentHashes = {}, names = {}) 
   };
 }
 
-export function stableStringify(value) {
-  return JSON.stringify(canonicalize(value));
-}
-
-export function stripKeys(value, keys = DEFAULT_OMIT_KEYS) {
-  if (Array.isArray(value)) {
-    return value.map((item) => stripKeys(item, keys));
-  }
-
-  if (value && typeof value === 'object') {
-    const next = {};
-    for (const key of Object.keys(value).sort()) {
-      if (!keys.has(key) && value[key] !== undefined) {
-        next[key] = stripKeys(value[key], keys);
-      }
-    }
-    return next;
-  }
-
-  return value;
-}
-
-function canonicalize(value) {
-  if (Array.isArray(value)) {
-    return value.map(canonicalize);
-  }
-
-  if (value && typeof value === 'object') {
-    const sorted = {};
-    for (const key of Object.keys(value).sort()) {
-      if (value[key] !== undefined) {
-        sorted[key] = canonicalize(value[key]);
-      }
-    }
-    return sorted;
-  }
-
-  return value;
-}
-
 function entityChange(id, previousHash, currentHash, names) {
   return {
     id,
@@ -102,9 +63,5 @@ function entityChange(id, previousHash, currentHash, names) {
 }
 
 function sortChanges(changes) {
-  return changes.sort((left, right) => naturalCompare(left.id, right.id));
-}
-
-function naturalCompare(left, right) {
-  return String(left).localeCompare(String(right), undefined, { numeric: true });
+  return changes.sort((left, right) => String(left.id).localeCompare(String(right.id), undefined, { numeric: true }));
 }

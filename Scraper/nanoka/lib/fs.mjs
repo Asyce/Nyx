@@ -1,45 +1,11 @@
-import { promises as fs } from 'node:fs';
+// Nanoka filesystem helpers. The generic JSON/dir primitives live in
+// ../../lib/common.mjs (single source of truth); this module only adds the
+// database-relative path resolver used by the asset bag.
 import path from 'node:path';
+import { ensureDir, fileExists, readJson, toPosixPath, writeJson } from '../../lib/common.mjs';
 
-export async function ensureDir(dir) {
-  await fs.mkdir(dir, { recursive: true });
-}
-
-export async function fileExists(file) {
-  try {
-    await fs.access(file);
-    return true;
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      return false;
-    }
-
-    throw error;
-  }
-}
-
-export async function readJson(file, fallback = null) {
-  try {
-    const text = await fs.readFile(file, 'utf8');
-    return JSON.parse(text);
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      return fallback;
-    }
-
-    throw error;
-  }
-}
-
-export async function writeJson(file, data) {
-  await ensureDir(path.dirname(file));
-  await fs.writeFile(file, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
-}
+export { ensureDir, fileExists, readJson, toPosixPath, writeJson };
 
 export function fromDatabasePath(databaseDir, databaseRelativePath) {
   return path.join(databaseDir, ...databaseRelativePath.split('/'));
-}
-
-export function toPosixPath(value) {
-  return value.split(path.sep).join('/');
 }

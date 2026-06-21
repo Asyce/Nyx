@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="icon" type="image/png" href="../assets/icon/nyx_logo.png"/>
 <title>Nyxarium — Zenless Zone Zero</title>
-<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260619-iconfix1"/>
+<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260621-popout2"/>
 <style>
   html, body{ margin:0; height:100%; background:#05040b; overflow:hidden; }
   .gp-vsep{ width:1px; height:34px; background:linear-gradient(180deg, rgba(183,170,255,0), rgba(183,170,255,.45), rgba(183,170,255,0)); }
   .stage-wrap{ position:fixed; inset:0; display:flex; justify-content:center; align-items:flex-start; overflow:hidden; }
   .stage{ position:relative; flex:none; width:1600px; height:900px; transform-origin:top center; }
   /* page-level background lives at viewport scale so letterboxing stays dark */
-  .page-bg{ position:fixed; inset:0; background:#05040b url('../assets/bg/page_bg.jpg') center/cover no-repeat; }
+  .page-bg{ position:fixed; inset:-6vmax; background:#05040b url('../assets/bg/backgroundnyx.png') 50% 50%/118% auto no-repeat; transform:scale(1.025); filter:brightness(1.18) saturate(1.12) contrast(1.05); transform-origin:center center; }
   .page-pattern{ position:fixed; top:50%; left:50%; width:150vmax; height:150vmax;
     transform:translate(-50%,-50%) rotate(0deg); transform-origin:center center;
     background:url('../assets/decor/pattern.png') center/cover no-repeat;
@@ -90,9 +90,9 @@
   };
 </script>
 
-<script src="../dist/cm-data.js?v=20260619-iconfix1"></script>
-<script src="../dist/cm-data-zzz.js?v=20260619-iconfix1"></script>
-<script src="../dist/nyx-data.js?v=20260619-iconfix1"></script>
-<script src="../dist/game-page.bundle.js?v=20260619-iconfix1"></script>
+<script src="../dist/cm-data.js?v=20260621-popout2"></script>
+<script src="../dist/cm-data-zzz.js?v=20260621-popout2"></script>
+<script src="../dist/nyx-data.js?v=20260621-popout2"></script>
+<script src="../dist/game-page.bundle.js?v=20260621-popout2"></script>
 </body>
 </html>

@@ -28,7 +28,7 @@
 .gp *{ box-sizing:border-box; margin:0; padding:0; }
 
 /* background stack */
-.gp-bg{ position:absolute; inset:0; background:#05040b url('../../assets/bg/page_bg.jpg') center/cover no-repeat; }
+.gp-bg{ position:absolute; inset:0; background:#05040b url('../../assets/bg/backgroundnyx.png') 50% 46%/cover no-repeat; }
 .gp-pattern{ position:absolute; top:50%; left:50%; width:170%; aspect-ratio:1; transform:translate(-50%,-50%);
   background:url('../../assets/decor/pattern.png') center/cover no-repeat;
   mix-blend-mode:screen; opacity:.34; pointer-events:none; }
@@ -590,8 +590,9 @@
 
 /* ===== per-game background art (crossfades on tab switch) ===== */
 .nyx-bgwrap{ position:fixed; inset:0; pointer-events:none; }
-.nyx-bgart{ position:absolute; inset:0; background-size:cover; background-repeat:no-repeat;
-  opacity:0; transition:opacity .55s ease; filter:saturate(1.05); }
+.nyx-bgart{ position:absolute; inset:-8vmax; background-size:cover; background-repeat:no-repeat;
+  opacity:0; transition:opacity .55s ease; transform-origin:center center; }
+.nyx-bgart.on{ opacity:1 !important; }
 .nyx-bgscrim{ position:absolute; inset:0;
   background:
     radial-gradient(120% 95% at 50% 20%, rgba(5,4,11,.46), rgba(5,4,11,.74) 70%),
@@ -953,9 +954,16 @@
 .cm-pop-name{ font-family:'GI',serif; font-size:clamp(30px, 4.4vw, 54px); line-height:.95; color:#f8f2ff;
   text-shadow:0 0 18px color-mix(in oklab, var(--el) 45%, transparent), 0 3px 18px rgba(0,0,0,.75); }
 .cm-pop-tags{ display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:14px; }
-.cm-pop-tags span{ min-height:26px; display:inline-flex; align-items:center; padding:0 11px; border-radius:999px;
-  font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:#ded6ff;
+.cm-pop-chip{ min-height:30px; display:inline-flex; align-items:center; gap:8px; padding:0 11px 0 6px; border-radius:999px;
+  font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:#ded6ff;
   background:rgba(12,9,30,.72); box-shadow:inset 0 0 0 1px rgba(183,170,255,.24); }
+.cm-pop-chip.icon-only{ width:34px; height:34px; min-height:34px; padding:0; justify-content:center; border-radius:50%;
+  background:radial-gradient(circle at 50% 34%, color-mix(in oklab, var(--meta) 28%, rgba(12,9,30,.82)), rgba(12,9,30,.78));
+  box-shadow:inset 0 0 0 1px color-mix(in oklab, var(--meta) 52%, transparent), 0 0 14px color-mix(in oklab, var(--meta) 18%, transparent); }
+.cm-pop-chip .cm-fi{ width:22px; height:22px; border-radius:50%; }
+.cm-pop-chip em{ font-style:normal; line-height:1; }
+.cm-meta-symbol{ width:23px; height:23px; display:grid; place-items:center; color:var(--meta, #b7aaff); }
+.cm-meta-symbol svg{ width:100%; height:100%; display:block; filter:drop-shadow(0 1px 5px rgba(0,0,0,.55)); }
 .cm-pop-tags .rr.r5{ color:#2b1d06; background:linear-gradient(160deg,#ffd98a,#d99f48); box-shadow:0 0 16px rgba(255,190,90,.28); }
 .cm-pop-tags .rr.r4{ color:#fff; background:linear-gradient(160deg,#9a89ea,#6f57bf); }
 .cm-pop-tags .el{ box-shadow:inset 0 0 0 1px color-mix(in oklab, var(--el) 58%, transparent), 0 0 14px color-mix(in oklab, var(--el) 18%, transparent); }
@@ -1001,7 +1009,7 @@
   background:linear-gradient(160deg, color-mix(in oklab, var(--rA) 16%, rgba(16,12,38,.88)), rgba(16,12,38,.76));
   box-shadow:inset 0 0 0 1px color-mix(in oklab, var(--rA) 38%, transparent); }
 .cm-mat .ic{ width:46px; height:46px; flex:none; border-radius:8px; display:grid; place-items:center; overflow:hidden; padding:3px;
-  background-image:var(--rarBg), linear-gradient(160deg, var(--rA), var(--rB)); background-size:cover; background-position:center;
+  background:var(--rarBg) center/100% 100% no-repeat, var(--rB);
   box-shadow:0 2px 7px rgba(0,0,0,.4), inset 0 0 0 1px rgba(255,255,255,.16); }
 .cm-mat .ic img{ width:100%; height:100%; object-fit:contain; filter:drop-shadow(0 3px 5px rgba(0,0,0,.42)); }
 .cm-mat .ic .glyph{ font-size:20px; color:#fff; text-shadow:0 1px 3px rgba(0,0,0,.5); }
@@ -1071,14 +1079,19 @@
 .cm-ledger-label > span{ display:inline-flex; align-items:center; width:max-content; max-width:100%; min-height:32px; padding:0 12px;
   border-radius:7px; color:#e4ebff; background:rgba(6,15,34,.72); box-shadow:inset 0 0 0 1px rgba(132,183,255,.24);
   font-family:'GI',serif; font-size:17px; line-height:1.1; }
-.cm-talent-triplet{ width:max-content; max-width:100%; display:flex; align-items:center; gap:4px; min-height:32px; padding:4px 7px;
-  border-radius:7px; background:rgba(4,12,28,.78); box-shadow:inset 0 0 0 1px rgba(132,183,255,.2); }
-.cm-talent-triplet label{ display:grid; grid-template-columns:auto 34px; align-items:center; gap:5px; }
-.cm-talent-triplet em{ font-style:normal; font-size:9px; letter-spacing:.08em; text-transform:uppercase; color:#a9bef2; }
-.cm-talent-triplet i{ font-style:normal; color:#665d8b; font-family:'GI',serif; font-size:18px; line-height:1; }
-.cm-talent-triplet input{ width:34px; height:24px; border:0; border-radius:5px; text-align:center; color:#f8f2ff;
-  background:rgba(2,5,13,.86); box-shadow:inset 0 0 0 1px rgba(132,183,255,.24); font-family:'GI',serif; font-size:15px; outline:none; }
-.cm-talent-triplet input:focus{ box-shadow:inset 0 0 0 1px rgba(221,0,68,.72), 0 0 12px rgba(221,0,68,.22); }
+.cm-talent-triplet{ width:min(100%, 252px); display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:7px;
+  min-height:48px; padding:6px; border-radius:8px; background:rgba(4,12,28,.78);
+  box-shadow:inset 0 0 0 1px rgba(132,183,255,.2); }
+.cm-talent-control{ min-width:0; height:40px; border:0; cursor:pointer; border-radius:7px; display:grid; grid-template-columns:26px minmax(18px, 1fr);
+  align-items:center; gap:5px; padding:0 5px; text-align:left; color:#eef3ff; background:rgba(2,5,13,.72);
+  box-shadow:inset 0 0 0 1px rgba(132,183,255,.22); }
+.cm-talent-control:hover{ color:#fff; box-shadow:inset 0 0 0 1px rgba(221,0,68,.58), 0 0 12px rgba(221,0,68,.18); }
+.cm-talent-icon{ width:26px; height:26px; display:grid; place-items:center; border-radius:6px; overflow:hidden;
+  background:linear-gradient(160deg, rgba(132,183,255,.22), rgba(13,9,31,.9));
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.22); }
+.cm-talent-icon img{ width:100%; height:100%; object-fit:contain; filter:drop-shadow(0 2px 4px rgba(0,0,0,.55)); }
+.cm-talent-icon em{ font-style:normal; font-size:8px; letter-spacing:.04em; text-transform:uppercase; color:#bcd0ff; }
+.cm-talent-num{ min-width:0; font-family:'GI',serif; font-size:19px; line-height:1; color:#f8f2ff; text-align:center; }
 .cm-ledger-row.weapon{ align-items:stretch; }
 .cm-weapon-label{ position:relative; justify-content:center; overflow:visible; isolation:isolate; }
 .cm-weapon-watermark{ position:absolute; right:-6px; top:50%; z-index:-1; width:112px; height:112px; object-fit:contain;
@@ -1132,7 +1145,8 @@
   .cm-ledger-top{ padding:0 52px 8px 0; gap:14px; }
   .cm-ledger-top .cm-pop-name{ font-size:clamp(36px, 2.8vw, 48px); }
   .cm-pop.ledger .cm-pop-tags{ margin-top:8px; gap:6px; }
-  .cm-pop.ledger .cm-pop-tags span{ min-height:23px; padding:0 9px; font-size:10px; }
+  .cm-pop.ledger .cm-pop-chip{ min-height:25px; padding:0 8px 0 5px; font-size:10px; }
+  .cm-pop.ledger .cm-pop-chip .cm-fi{ width:19px; height:19px; }
   .cm-pop.ledger .cm-presets-ledger button{ min-width:92px; height:40px; font-size:15px; }
   .cm-form-switches.compact{ padding:7px 9px; }
   .cm-ledger-row{ grid-template-columns:220px minmax(0, 1fr); gap:16px; min-height:104px; padding:10px 20px; }
@@ -1147,8 +1161,10 @@
   .cm-total-checks{ gap:5px; }
   .cm-total-checks button{ min-height:23px; font-size:15px; }
   .cm-total-checks button .box{ width:20px; height:20px; }
-  .cm-talent-triplet{ min-height:28px; padding:3px 6px; }
-  .cm-talent-triplet input{ height:22px; font-size:14px; }
+  .cm-talent-triplet{ min-height:42px; padding:5px; gap:5px; }
+  .cm-talent-control{ height:34px; grid-template-columns:23px minmax(16px, 1fr); gap:4px; }
+  .cm-talent-icon{ width:23px; height:23px; }
+  .cm-talent-num{ font-size:17px; }
   .cm-weapon-pick{ min-height:29px; font-size:14px; }
   .cm-weapon-watermark{ width:94px; height:94px; }
   .cm-weapon-options{ max-height:190px; }
@@ -1188,7 +1204,7 @@
   .cm-ledger-mats .cm-mat .ic{ width:68px; height:68px; }
   .cm-ledger-mats .cm-mat .qt{ font-size:16px; }
   .cm-total-checks{ flex-direction:row; flex-wrap:wrap; }
-  .cm-talent-triplet{ max-width:100%; }
+  .cm-talent-triplet{ width:min(100%, 300px); max-width:100%; }
   .cm-weapon-label{ align-items:flex-start; }
   .cm-weapon-pick{ width:100%; max-width:260px; }
   .cm-weapon-menu{ left:0; right:auto; width:min(290px, 100%); }

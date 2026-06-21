@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-06-20T13:22:06.155Z",
+  "generatedAt": "2026-06-21T00:32:41.164Z",
   "providers": {
     "Prydwen": "2026-06-10T22:44:44.684Z",
     "Nanoka": {
@@ -16,10 +16,80 @@ var NYX_DB = {
     "EndfieldWiki": "2026-06-10T22:17:50.094Z"
   },
   "codes": {
-    "updated": "2026-06-13T20:18:32.371Z",
+    "updated": "2026-06-21T00:31:09.829Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "MAGENICOLESPUZZLE",
+          "reward": "Primogem x 60, Midsommar Torte x 1, Fruit Tandem Turnovers x 1, Chenyu Adeptea x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-13T20:18:32.371Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE"
+        },
+        {
+          "code": "MARIONETTE",
+          "reward": "Primogem x 100, Fine Enhancement Ore x 10",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MARIONETTE",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MARIONETTE"
+        },
+        {
+          "code": "PFY1S40I88T9",
+          "reward": "Primogem x 60, Adventurer's Experience x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
+        },
+        {
+          "code": "TEAPARTYTIME",
+          "reward": "Primogem x 100, Mora x 50000",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=TEAPARTYTIME",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=TEAPARTYTIME"
+        },
+        {
+          "code": "TOTHEMOON",
+          "reward": "Primogem x 100, Hero's Wit x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=TOTHEMOON",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=TOTHEMOON"
+        },
         {
           "code": "LCXGEA5SX65L",
           "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
@@ -61,23 +131,79 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:32.371Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U"
-        },
-        {
-          "code": "MageNicolesPuzzle",
-          "reward": "30 Primogems, Five Chenyu Adeptea, One Fruit Tandem Turnovers, and One Midsommar Torte",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-05-22",
-          "firstSeen": "2026-06-13T20:18:32.371Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MageNicolesPuzzle",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MageNicolesPuzzle"
         }
       ],
       "hsr": [
+        {
+          "code": "CREATIONNYMPH",
+          "reward": "60 stellar jade and one fuel",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
+        },
+        {
+          "code": "FAREWELL",
+          "reward": "60 stellar jade and one fuel",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
+        },
+        {
+          "code": "IFYOUAREREADINGTHIS",
+          "reward": "60 stellar jade and one fuel",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
+        },
+        {
+          "code": "OMEGA",
+          "reward": "60 stellar jade and one fuel",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
+        },
+        {
+          "code": "STARRAILGIFT",
+          "reward": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
+        },
         {
           "code": "BladeFitCheck",
           "reward": "Three Traveler S Guides and Two Cold Jokes",
@@ -119,23 +245,80 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:18.521Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
-        },
-        {
-          "code": "SitByEvanescia",
-          "reward": "Three Traveler S Guides and Two Bottled Quantum Ghosts",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-05-18",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=SitByEvanescia",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=SitByEvanescia"
         }
       ],
-      "zzz": [],
+      "zzz": [
+        {
+          "code": "ZENLESSGIFT",
+          "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:44.037Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
+        },
+        {
+          "code": "ROSCAELIFER0617",
+          "reward": "30 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-11",
+          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
+        },
+        {
+          "code": "ZZZ30BANGBOO",
+          "reward": "60 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-11",
+          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZSEASON3",
+          "reward": "50 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-11",
+          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
+        },
+        {
+          "code": "ZZZSTEAM",
+          "reward": "60 Polychrome, Two W Engine Energy Modules, Two Senior Investigator Logs, and 6,666 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-11",
+          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
+        }
+      ],
       "wuwa": []
     }
   },
@@ -4031,6 +4214,76 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "MAGENICOLESPUZZLE",
+          "reward": "Primogem x 60, Midsommar Torte x 1, Fruit Tandem Turnovers x 1, Chenyu Adeptea x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-13T20:18:32.371Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MAGENICOLESPUZZLE"
+        },
+        {
+          "code": "MARIONETTE",
+          "reward": "Primogem x 100, Fine Enhancement Ore x 10",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MARIONETTE",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MARIONETTE"
+        },
+        {
+          "code": "PFY1S40I88T9",
+          "reward": "Primogem x 60, Adventurer's Experience x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=PFY1S40I88T9"
+        },
+        {
+          "code": "TEAPARTYTIME",
+          "reward": "Primogem x 100, Mora x 50000",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=TEAPARTYTIME",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=TEAPARTYTIME"
+        },
+        {
+          "code": "TOTHEMOON",
+          "reward": "Primogem x 100, Hero's Wit x 5",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:46.446Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=TOTHEMOON",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=TOTHEMOON"
+        },
+        {
           "code": "LCXGEA5SX65L",
           "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
           "premium": false,
@@ -4071,20 +4324,6 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:32.371Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=YMYD76U85Z1U"
-        },
-        {
-          "code": "MageNicolesPuzzle",
-          "reward": "30 Primogems, Five Chenyu Adeptea, One Fruit Tandem Turnovers, and One Midsommar Torte",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/Nanoka/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-05-22",
-          "firstSeen": "2026-06-13T20:18:32.371Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MageNicolesPuzzle",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MageNicolesPuzzle"
         }
       ],
       "banners": {
@@ -9158,6 +9397,76 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "CREATIONNYMPH",
+          "reward": "60 stellar jade and one fuel",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=CREATIONNYMPH"
+        },
+        {
+          "code": "FAREWELL",
+          "reward": "60 stellar jade and one fuel",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=FAREWELL"
+        },
+        {
+          "code": "IFYOUAREREADINGTHIS",
+          "reward": "60 stellar jade and one fuel",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=IFYOUAREREADINGTHIS"
+        },
+        {
+          "code": "OMEGA",
+          "reward": "60 stellar jade and one fuel",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=OMEGA"
+        },
+        {
+          "code": "STARRAILGIFT",
+          "reward": "50 stellar jade, 10k credits, two traveler's guides, and five bottled soda",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:40.844Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
+        },
+        {
           "code": "BladeFitCheck",
           "reward": "Three Traveler S Guides and Two Cold Jokes",
           "premium": false,
@@ -9198,20 +9507,6 @@ var NYX_DB = {
           "firstSeen": "2026-06-13T20:18:18.521Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=5S6ZHRWTDNJB"
-        },
-        {
-          "code": "SitByEvanescia",
-          "reward": "Three Traveler S Guides and Two Bottled Quantum Ghosts",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/Nanoka/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-05-18",
-          "firstSeen": "2026-06-13T20:18:18.521Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=SitByEvanescia",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=SitByEvanescia"
         }
       ],
       "banners": {
@@ -12711,7 +13006,78 @@ var NYX_DB = {
           ]
         }
       ],
-      "codes": [],
+      "codes": [
+        {
+          "code": "ZENLESSGIFT",
+          "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-21",
+          "firstSeen": "2026-06-20T23:42:44.037Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZENLESSGIFT"
+        },
+        {
+          "code": "ROSCAELIFER0617",
+          "reward": "30 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-11",
+          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ROSCAELIFER0617"
+        },
+        {
+          "code": "ZZZ30BANGBOO",
+          "reward": "60 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-11",
+          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ30BANGBOO"
+        },
+        {
+          "code": "ZZZSEASON3",
+          "reward": "50 Polychrome",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-11",
+          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSEASON3"
+        },
+        {
+          "code": "ZZZSTEAM",
+          "reward": "60 Polychrome, Two W Engine Energy Modules, Two Senior Investigator Logs, and 6,666 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/Nanoka/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-06-11",
+          "firstSeen": "2026-06-13T20:18:20.166Z",
+          "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZSTEAM"
+        }
+      ],
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": null,

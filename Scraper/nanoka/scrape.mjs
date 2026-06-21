@@ -28,6 +28,8 @@ function parseArgs(argv) {
     concurrency: 8,
     skipAssets: false,
     forceAssets: false,
+    includeSourceSnapshot: false,
+    allowEmpty: false,
     sample: null
   };
 
@@ -57,6 +59,10 @@ function parseArgs(argv) {
       options.skipAssets = true;
     } else if (arg === '--force-assets') {
       options.forceAssets = true;
+    } else if (arg === '--debug' || arg === '--include-snapshots') {
+      options.includeSourceSnapshot = true;
+    } else if (arg === '--allow-empty') {
+      options.allowEmpty = true;
     } else if (arg === '--help' || arg === '-h') {
       printHelp();
       process.exit(0);
@@ -102,6 +108,11 @@ Options:
   --sample <number>         Limit each section for quick validation.
   --skip-assets             Write JSON only.
   --force-assets            Re-download existing assets.
+  --debug                   Include the verbatim upstream sourceSnapshot blob in
+                            normalized output (off by default; the same raw data is
+                            always written under <channel>/raw/).
+  --allow-empty             Allow a section that previously had records to be written
+                            as empty (the collapse guard is on by default).
 `);
 }
 

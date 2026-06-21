@@ -22,6 +22,8 @@ npm run nanoka:zzz -- --channel beta
 npm run nanoka:ww -- --sample 3
 npm run nanoka -- --game all --skip-assets
 npm run nanoka:hsr -- --force-assets
+npm run nanoka:hsr -- --debug          # include the raw upstream sourceSnapshot blob
+npm run nanoka:gi -- --allow-empty     # override the empty-section guard
 ```
 
 Output layout:
@@ -32,8 +34,15 @@ Output layout:
 - `../Database/Nanoka/<game>/assets`
 - `../Database/Nanoka/_state`
 - `../Database/Nanoka/changes`
+- `../Database/_httpcache` (conditional-GET cache; safe to delete)
 
 The normalized files only use local database-relative asset paths. Change reports compare the current scrape against the previous local state, and Beta records are marked as `live`, `beta`, or `beta_changed` by comparing them to the Live channel.
+
+Behavior notes:
+
+- **`sourceSnapshot` is omitted by default.** Each normalized record used to embed the full verbatim upstream blob, which bloated output (HSR `characters.json` was ~110 MB) and made the change report flip on any upstream noise. The blob is now dropped unless you pass `--debug`; the same raw data is always written under `<channel>/raw/`. It is also excluded from the change hash, so `--debug` never churns the diff.
+- **Conditional-GET cache.** Static JSON is revalidated with `ETag`/`Last-Modified`; unchanged files come back `304` and are reused from `../Database/_httpcache` instead of being re-downloaded and re-parsed. Disable with `NYXARIUM_HTTP_CACHE=0`.
+- **Empty-section guard.** A scrape refuses to overwrite a section that previously had records with an empty one (a common symptom of upstream breakage), leaving the last good output in place. Override with `--allow-empty`.
 
 ## Endfield Wiki
 

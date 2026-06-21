@@ -107,7 +107,7 @@ function cmReqSort(a, b){
 function cmRarityValue(value, fallback = 1){
   const n = Number(value);
   if (Number.isFinite(n) && n >= 0) return n;
-  return { S:5, A:4, B:3, Normal:1, NotNormal:2, Rare:3, VeryRare:4, SuperRare:5 }[String(value || '')] || fallback;
+  return { S:5, A:4, B:3, Normal:1, NotNormal:2, Rare:3, SuperRare:4, VeryRare:5 }[String(value || '')] || fallback;
 }
 
 function cmMergeMat(map, mat){
@@ -207,8 +207,6 @@ function cmInitials(name){
   return ((p[0] && p[0][0] || 'N') + (p[1] ? p[1][0] : (p[0] && p[0][1] || ''))).toUpperCase();
 }
 
-const cmRarClass = (r) => (r === 4 || r === 'A' || r === 3) ? 'r4' : 'r5';
-
 function cmMatSourceInfo(m){
   if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) {
     return m.sourceDetails.map((entry) => entry?.name).filter(Boolean).join(' / ');
@@ -248,9 +246,9 @@ function CMAvatar({ ch, big }){
 }
 
 function MatTile({ m }){
-  const pal = CM_RAR[m.rar] || CM_RAR[2];
   const icon = m.icon || m.art;
   const rarity = Math.max(0, Math.min(5, cmRarityValue(m.rar, 0)));
+  const pal = CM_RAR[rarity] || CM_RAR[2];
   const g = m.kind === 'currency' ? '\u25CE' : m.kind === 'crown' ? '\u265B' : m.kind === 'gem' ? '\u25C8' : m.kind === 'book' ? '\u25A4'
     : m.kind === 'weekly' ? '\u2726' : m.kind === 'boss' ? '\u2756' : m.kind === 'specialty' ? '\u273F' : m.kind === 'weapon' ? '\u25A6' : '\u25C9';
   const qty = Number(m.qty || 0);
@@ -258,7 +256,7 @@ function MatTile({ m }){
   const details = cmMatSourceDetails(m);
   return (
     <div className="cm-mat" title={(m.name || 'Material') + (qty ? ' x' + qty.toLocaleString('en-US') : '') + '\n' + source}
-         style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../assets/mats/rarity' + rarity + '.png")' }}>
+         style={{ '--rA':pal.a, '--rB':pal.b, '--rarBg':'url("../../assets/mats/rarity' + rarity + '.png")' }}>
       <div className="ic">
         {m.sprite ? <ZzzSpriteIcon icon={icon} sprite={m.sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph">{g}</span>}
       </div>
@@ -462,6 +460,105 @@ function cmFilterGlyph(gameKey, filterKey, label, value){
     Striker:'St', Guard:'Gu', Defender:'De', Caster:'Ca', Vanguard:'Va', Specialist:'Sp',
   }[text] || text.slice(0, 2);
   return <span className="cm-fi sym">{short}</span>;
+}
+
+function cmMetaKey(value){
+  return String(value || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+}
+
+function cmMetaIconType(field, value){
+  const key = cmMetaKey(value);
+  const element = {
+    pyro:'flame', fire:'flame', heat:'flame', fusion:'flame',
+    hydro:'drop', water:'drop',
+    cryo:'snow', ice:'snow', frost:'snow', glacio:'snow',
+    electro:'bolt', lightning:'bolt', electric:'bolt',
+    dendro:'leaf', nature:'leaf',
+    anemo:'wind', wind:'wind', aero:'wind',
+    geo:'diamond', quantum:'diamond', spectro:'star', imaginary:'sun', ether:'void', havoc:'crescent',
+    physical:'impact',
+  }[key];
+  if (field === 'el' && element) return element;
+  const weapon = {
+    sword:'sword', claymore:'claymore', broadblade:'claymore', polearm:'spear', pole:'spear',
+    bow:'bow', catalyst:'catalyst', rectifier:'catalyst', pistols:'pistols', gauntlets:'gauntlet',
+  }[key];
+  if ((field === 'w' || field === 'weapon') && weapon) return weapon;
+  return ({
+    destruction:'burst', hunt:'arrow', erudition:'book', preservation:'shield', nihility:'void',
+    harmony:'wave', abundance:'leaf', remembrance:'crystal', elation:'spark',
+    attack:'sword', damage:'sword', stun:'burst', anomaly:'triangle', support:'plus',
+    buff:'plus', defense:'shield', defence:'shield', shield:'shield', rupture:'slash', ruin:'slash',
+    striker:'sword', guard:'shield', defender:'shield', caster:'catalyst', vanguard:'spear', specialist:'spark',
+  })[key] || 'spark';
+}
+
+function cmSvgIcon(type){
+  const common = { fill:'none', stroke:'currentColor', strokeWidth:'1.9', strokeLinecap:'round', strokeLinejoin:'round' };
+  switch (type) {
+    case 'flame': return <svg viewBox="0 0 24 24"><path {...common} d="M12 22c4.4-1.4 7-4.5 7-8.4 0-3-1.6-5.5-4.6-8.2.1 2.8-.8 4.6-2.2 5.7.2-3.2-1.3-5.8-4.1-8.1.2 4.5-3.1 6.4-3.1 10.7C5 18 7.7 21 12 22z" /></svg>;
+    case 'drop': return <svg viewBox="0 0 24 24"><path {...common} d="M12 3c4 4.6 6 7.9 6 11a6 6 0 0 1-12 0c0-3.1 2-6.4 6-11z" /></svg>;
+    case 'snow': return <svg viewBox="0 0 24 24"><path {...common} d="M12 3v18M4.2 7.5l15.6 9M19.8 7.5l-15.6 9M8 5.8 12 8l4-2.2M8 18.2l4-2.2 4 2.2" /></svg>;
+    case 'bolt': return <svg viewBox="0 0 24 24"><path {...common} d="M13 2 5.5 13H11l-1 9 8.5-12H13l0-8z" /></svg>;
+    case 'leaf': return <svg viewBox="0 0 24 24"><path {...common} d="M20 4c-7.6.3-13.4 4-15 11.4C9.8 17 16 13.8 20 4zM5 20c2.4-5.4 6.1-8.7 11-10" /></svg>;
+    case 'wind': return <svg viewBox="0 0 24 24"><path {...common} d="M4 9h10.6c2 0 3.4-1 3.4-2.5S16.8 4 15.2 4M3 14h13.8c1.9 0 3.2 1 3.2 2.5S18.8 19 17.2 19M6 19h5" /></svg>;
+    case 'diamond': return <svg viewBox="0 0 24 24"><path {...common} d="M12 3 21 12 12 21 3 12 12 3zM12 7l5 5-5 5-5-5 5-5z" /></svg>;
+    case 'star': return <svg viewBox="0 0 24 24"><path {...common} d="M12 2.8 14.8 9l6.5.8-4.8 4.4 1.3 6.4L12 17.2l-5.8 3.4 1.3-6.4-4.8-4.4L9.2 9 12 2.8z" /></svg>;
+    case 'sun': return <svg viewBox="0 0 24 24"><circle {...common} cx="12" cy="12" r="4.2" /><path {...common} d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1" /></svg>;
+    case 'crescent': return <svg viewBox="0 0 24 24"><path {...common} d="M17.8 19.5A8.8 8.8 0 0 1 12 3.1a7 7 0 1 0 5.8 16.4z" /></svg>;
+    case 'impact': return <svg viewBox="0 0 24 24"><path {...common} d="M12 3v7M12 14v7M3 12h7M14 12h7M6 6l4 4M14 14l4 4M18 6l-4 4M10 14l-4 4" /></svg>;
+    case 'sword': return <svg viewBox="0 0 24 24"><path {...common} d="M14.5 4 20 2l-2 5.5-9.7 9.7-3.5-3.5L14.5 4zM6 16l2 2M3.5 20.5 7 17" /></svg>;
+    case 'claymore': return <svg viewBox="0 0 24 24"><path {...common} d="M15 2 21 8 9.5 19.5 4.5 14.5 15 2zM7 17l-3 3M5.5 13.5l5 5" /></svg>;
+    case 'spear': return <svg viewBox="0 0 24 24"><path {...common} d="M15 2 22 9l-5.5 1.5L4 23M12 8l4 4" /></svg>;
+    case 'bow': return <svg viewBox="0 0 24 24"><path {...common} d="M7 3c6 3.8 6 14.2 0 18M17 3c-6 3.8-6 14.2 0 18M7 12h10" /></svg>;
+    case 'catalyst': return <svg viewBox="0 0 24 24"><circle {...common} cx="12" cy="12" r="6.5" /><path {...common} d="M12 7v10M7 12h10M8.5 8.5l7 7M15.5 8.5l-7 7" /></svg>;
+    case 'pistols': return <svg viewBox="0 0 24 24"><path {...common} d="M4 9h10l2 2h4v3h-6l-2-2H9l-1 5H5l1-5H4V9z" /></svg>;
+    case 'gauntlet': return <svg viewBox="0 0 24 24"><path {...common} d="M7 10V5M10 10V4M13 10V5M16 11V7M6 10h9.5c1.8 0 3.5 1.7 3.5 3.8V20H8.5C5.7 20 4 18.1 4 15.5V12c0-1.1.9-2 2-2z" /></svg>;
+    case 'shield': return <svg viewBox="0 0 24 24"><path {...common} d="M12 3 20 6v5.6c0 4.7-2.9 8.1-8 9.4-5.1-1.3-8-4.7-8-9.4V6l8-3z" /></svg>;
+    case 'arrow': return <svg viewBox="0 0 24 24"><path {...common} d="M4 20 20 4M13 4h7v7M7 17l-3 3" /></svg>;
+    case 'book': return <svg viewBox="0 0 24 24"><path {...common} d="M5 4h6a3 3 0 0 1 3 3v13a3 3 0 0 0-3-3H5V4zM14 7a3 3 0 0 1 3-3h2v13h-2a3 3 0 0 0-3 3" /></svg>;
+    case 'wave': return <svg viewBox="0 0 24 24"><path {...common} d="M3 13c3.5-5 6.5-5 9 0s5.5 5 9 0M3 18c3.5-5 6.5-5 9 0" /></svg>;
+    case 'void': return <svg viewBox="0 0 24 24"><circle {...common} cx="12" cy="12" r="7" /><circle {...common} cx="12" cy="12" r="2.4" /></svg>;
+    case 'crystal': return <svg viewBox="0 0 24 24"><path {...common} d="M12 2 18 8l-2 11-4 3-4-3L6 8l6-6zM8 8h8M12 2v20" /></svg>;
+    case 'plus': return <svg viewBox="0 0 24 24"><path {...common} d="M12 5v14M5 12h14" /></svg>;
+    case 'triangle': return <svg viewBox="0 0 24 24"><path {...common} d="M12 3 22 20H2L12 3zM12 9v5M12 17h.01" /></svg>;
+    case 'slash': return <svg viewBox="0 0 24 24"><path {...common} d="M20 4 4 20M16 3l5 5M3 16l5 5" /></svg>;
+    case 'burst':
+    case 'spark':
+    default: return <svg viewBox="0 0 24 24"><path {...common} d="M12 2 14.3 9.7 22 12l-7.7 2.3L12 22l-2.3-7.7L2 12l7.7-2.3L12 2z" /></svg>;
+  }
+}
+
+function cmMetaIcon(gameKey, chip){
+  const color = CM_ELEM[chip.value] || CM_ELEM[String(chip.value || '').replace(/^Electric$/i, 'Electro')] || '#b7aaff';
+  const type = cmMetaIconType(chip.key, chip.value);
+  return (
+    <span className={'cm-meta-symbol is-' + type} style={{ '--meta':color }} aria-hidden="true">
+      {cmSvgIcon(type)}
+    </span>
+  );
+}
+
+const CM_META_FIELDS = {
+  gi: [['el', 'Element'], ['w', 'Weapon']],
+  hsr: [['el', 'Type'], ['path', 'Path']],
+  zzz: [['el', 'Attribute'], ['spec', 'Specialty']],
+  wuwa: [['el', 'Attribute'], ['w', 'Weapon']],
+  ae: [['el', 'Element'], ['cls', 'Class'], ['w', 'Weapon']],
+};
+
+function cmMetaChips(gameKey, ch){
+  const fields = CM_META_FIELDS[gameKey] || [];
+  const seen = new Set();
+  return fields.map(([key, label]) => {
+    const value = ch?.[key];
+    const text = String(value || '').trim();
+    if (!text || /^unknown$/i.test(text)) return null;
+    const id = key + ':' + text.toLowerCase();
+    if (seen.has(id)) return null;
+    seen.add(id);
+    return { key, label, value:text };
+  }).filter(Boolean);
 }
 
 function cmRoleLabel(ch){
@@ -858,7 +955,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
   const hasAnyLedgerReq = ascReq.length > 0 || talentReq.length > 0 || weaponReq.length > 0;
   const selArt = view ? cmPopupArtFor(gk, sel, view, activeArtIndex) : null;
   const specialArtClass = view ? cmSpecialArtClass(gk, sel, view) : '';
-  const selRole = view ? cmRoleLabel(view) : '';
+  const metaChips = view ? cmMetaChips(gk, view) : [];
   const setGiTalentTarget = (index, value) => {
     const next = giTargets.slice(0, 3);
     next[index] = Math.max(1, Math.min(10, Number(value) || 1));
@@ -1139,9 +1236,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                   <div className="cm-ledger-title">
                     <div className="cm-pop-name">{sel.n}</div>
                     <div className="cm-pop-tags">
-                      <span className={'rr ' + cmRarClass(view.r)}>{cfg.rarityLabel[view.r] || view.r}</span>
-                      {view.el && <span className="el">{view.el}</span>}
-                      {selRole && <span>{selRole}</span>}
+                      {metaChips.map((chip) => (
+                        <span key={chip.key + chip.value} className="cm-pop-chip icon-only" title={`${chip.label}: ${chip.value}`} aria-label={`${chip.label}: ${chip.value}`}>
+                          {cmMetaIcon(gk, chip)}
+                        </span>
+                      ))}
                     </div>
                   </div>
 
@@ -1212,26 +1311,30 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                       <div className="cm-ledger-label">
                         <b>{String(cfg.tabs.mid || 'Materials').toUpperCase()}</b>
                         <span className="cm-talent-summary" title={gk === 'gi' ? 'Talent targets: Normal Attack / Elemental Skill / Elemental Burst' : undefined}>
-                          {gk === 'gi' ? giTargets.join(' / ') : 'all to max'}
+                          {gk === 'gi' ? 'Targets' : 'all to max'}
                         </span>
                         {gk === 'gi' && (
                           <div className="cm-talent-triplet" aria-label="Talent level targets">
-                            {giTargets.map((value, index) => (
-                              <React.Fragment key={index}>
-                                <label title={`${CM_GI_TALENT_LABELS[index]} target level`}>
-                                  <em>{CM_GI_TALENT_SHORT[index]}</em>
-                                  <input
-                                    type="number"
-                                    min="1"
-                                    max="10"
-                                    aria-label={`${CM_GI_TALENT_LABELS[index]} target level`}
-                                    value={value}
-                                    onChange={(e) => setGiTalentTarget(index, e.target.value)}
-                                  />
-                                </label>
-                                {index < giTargets.length - 1 && <i aria-hidden="true">/</i>}
-                              </React.Fragment>
-                            ))}
+                            {giTargets.map((value, index) => {
+                              const icon = view?.skillIcons?.[index];
+                              const label = CM_GI_TALENT_LABELS[index];
+                              return (
+                                <button
+                                  type="button"
+                                  className="cm-talent-control"
+                                  key={index}
+                                  aria-label={`${label} target level ${value}`}
+                                  title={`${label}: ${value}`}
+                                  onClick={() => setGiTalentTarget(index, value >= 10 ? 1 : value + 1)}
+                                  onContextMenu={(event) => { event.preventDefault(); setGiTalentTarget(index, value <= 1 ? 10 : value - 1); }}
+                                >
+                                  <span className="cm-talent-icon">
+                                    {icon ? <img src={icon} alt="" draggable="false" /> : <em>{CM_GI_TALENT_SHORT[index]}</em>}
+                                  </span>
+                                  <span className="cm-talent-num">{value}</span>
+                                </button>
+                              );
+                            })}
                           </div>
                         )}
                       </div>

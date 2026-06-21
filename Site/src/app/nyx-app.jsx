@@ -62,6 +62,34 @@ function bgUrl(src){
   return 'url("' + encodeURI(String(src)).replace(/#/g, '%23').replace(/"/g, '%22') + '")';
 }
 
+function randomRange(min, max){
+  return min + Math.random() * (max - min);
+}
+
+function nyxBgScene(mode){
+  const isIndex = mode === 'index';
+  const zoom = Math.round(randomRange(isIndex ? 106 : 110, isIndex ? 118 : 126));
+  const x = Math.round(randomRange(28, 72));
+  const y = Math.round(randomRange(24, 76));
+  const flip = Math.random() < .5 ? -1 : 1;
+  const rot = randomRange(-3.5, 3.5).toFixed(2);
+  return {
+    pos:`${x}% ${y}%`,
+    size:`${zoom}% auto`,
+    transform:`scaleX(${flip}) scale(1.025) rotate(${rot}deg)`,
+    filter:`brightness(${isIndex ? .62 : 1.18}) saturate(${isIndex ? 1.03 : 1.12}) contrast(${isIndex ? 1.02 : 1.05})`,
+  };
+}
+
+function applyNyxBgElement(el, src, scene){
+  if (!el || !scene) return;
+  if (src) el.style.backgroundImage = bgUrl(src);
+  el.style.backgroundPosition = scene.pos;
+  el.style.backgroundSize = scene.size;
+  el.style.transform = scene.transform;
+  el.style.filter = scene.filter;
+}
+
 function rosterTag(ch){
   return ch.title || ch.tag || '';
 }
@@ -90,12 +118,12 @@ function appGameIcon(key){
   return ((window.CM_CFG || {})[key] || {}).icon || null;
 }
 
-function overviewCardArt(cfg, ch){
+function overviewCardArt(cfg, ch, offset = 0){
   const pool = Array.isArray(ch.overviewArtPool)
     ? ch.overviewArtPool.filter(Boolean)
     : [];
   if (!pool.length) return ch.overviewArt || ch.art || ch.card || cfg.art;
-  return pool[Math.floor(Math.random() * pool.length)];
+  return pool[Math.abs(Number(offset) || 0) % pool.length];
 }
 
 function makeRoster(cfg){
@@ -116,7 +144,7 @@ function makeRoster(cfg){
       gameName:cfg.name,
       aliases:ch.aliases || [],
       tag:rosterTag(ch),
-      art:overviewCardArt(cfg, ch),
+      art:overviewCardArt(cfg, ch, i),
       overviewArtPool:ch.overviewArtPool,
       overviewArtZoom:ch.overviewArtZoom,
       icon:ch.icon || ch.circle || ch.card || cfg.benchIcon,
@@ -193,7 +221,7 @@ const GAME_REGISTRY = {
   gi: {
     key:'gi', name:'Genshin Impact', charName:'Skirk',
     art:'../assets/char/skirk.jpg', benchIcon:'../assets/char/skirk_icon.png',
-    pageBg:'../assets/bg/gibg2.png', bgPos:'50% 16%',
+    pageBg:'../assets/bg/backgroundnyx.png', bgPos:'42% 38%', bgSize:'138% auto', bgTransform:'scale(1.04) rotate(-2deg)',
     fns:['Character Materials','Artifact Sorter','Wish Tracker'],
     banner:{ title:'Lone Shadow', five:'Skirk', fours:['Bennett','Xiangling','Fischl'], time:'Ends in 11d 22h 14m', pct:42 },
     track:{ pull:'Wish', pulls:'Wishes', title:'Wish Tracker', currency:'Primogems', cost:160,
@@ -210,7 +238,7 @@ const GAME_REGISTRY = {
   hsr: {
     key:'hsr', name:'Honkai: Star Rail', charName:'Castorice',
     art:'../assets/bg/hsrbg.png', benchIcon:'../assets/bg/hsrbg.png',
-    pageBg:'../assets/bg/hsrbg.png', bgPos:'50% 12%',
+    pageBg:'../assets/bg/backgroundnyx.png', bgPos:'63% 31%', bgSize:'152% auto', bgTransform:'scaleX(-1) scale(1.07) rotate(2.5deg)',
     fns:['Character Materials','Relic Sorter','Warp Tracker'],
     banner:{ title:'Reverie of Ash', five:'Castorice', fours:['Asta','March 7th','Herta'], time:'Ends in 6d 4h', pct:55 },
     track:{ pull:'Warp', pulls:'Warps', title:'Warp Tracker', currency:'Stellar Jade', cost:160,
@@ -225,7 +253,7 @@ const GAME_REGISTRY = {
   zzz: {
     key:'zzz', name:'Zenless Zone Zero', charName:'Yixuan',
     art:'../assets/bg/zzzbg3.png', benchIcon:'../assets/bg/zzzbg3.png',
-    pageBg:'../assets/bg/zzzbg3.png', bgPos:'55% 24%',
+    pageBg:'../assets/bg/backgroundnyx.png', bgPos:'30% 55%', bgSize:'165% auto', bgTransform:'scale(1.08) rotate(4deg)',
     fns:['Character Materials','Drive Disc Sorter','Signal Tracker'],
     banner:{ title:'Astral Drive', five:'Yixuan', fours:['Nicole','Anby','Billy'], time:'Ends in 9d 13h', pct:40 },
     track:{ pull:'Signal', pulls:'Signals', title:'Signal Tracker', currency:'Polychrome', cost:160,
@@ -239,7 +267,7 @@ const GAME_REGISTRY = {
   wuwa: {
     key:'wuwa', name:'Wuthering Waves', charName:'Carlotta',
     art:'../assets/bg/wuwabg2.png', benchIcon:'../assets/bg/wuwabg2.png',
-    pageBg:'../assets/bg/wuwabg2.png', bgPos:'45% 18%',
+    pageBg:'../assets/bg/backgroundnyx.png', bgPos:'74% 45%', bgSize:'148% auto', bgTransform:'scaleX(-1) scale(1.06) rotate(-3deg)',
     fns:['Character Materials','Echo Sorter','Convene Tracker'],
     banner:{ title:'Tides of Echo', five:'Carlotta', fours:['Yangyang','Baizhi','Chixia'], time:'Ends in 4d 7h', pct:70 },
     track:{ pull:'Convene', pulls:'Convenes', title:'Convene Tracker', currency:'Astrite', cost:160,
@@ -253,7 +281,7 @@ const GAME_REGISTRY = {
   ae: {
     key:'ae', name:'Arknights: Endfield', charName:'Perlica',
     art:'../assets/bg/aebg.png', benchIcon:'../assets/bg/aebg.png',
-    pageBg:'../assets/bg/aebg.png', bgPos:'50% 28%',
+    pageBg:'../assets/bg/backgroundnyx.png', bgPos:'52% 68%', bgSize:'158% auto', bgTransform:'scale(1.08) rotate(1.5deg)',
     fns:['Character Materials','Gear Sorter','Headhunting Tracker'],
     banner:{ title:'First Light', five:'Perlica', fours:['Wulfgard','Xaihi','Endmin'], time:'Ends in 15d 2h', pct:30 },
     track:{ pull:'Headhunt', pulls:'Headhunts', title:'Headhunting Tracker', currency:'Originium', cost:120,
@@ -266,7 +294,7 @@ const GAME_REGISTRY = {
   },
 };
 const NYX_META = { key:'nyx', name:'Simulacrum', charName:'Nyx', art:'../assets/bg/noxbg.png',
-  benchIcon:'../assets/bg/noxbg.png', pageBg:'../assets/bg/page_bg.jpg', bgPos:'50% 30%',
+  benchIcon:'../assets/bg/noxbg.png', pageBg:'../assets/bg/backgroundnyx.png', bgPos:'50% 48%', bgSize:'132% auto', bgTransform:'scaleX(-1) scale(1.03) rotate(-1deg)',
   codes:GAME_REGISTRY.gi.codes, banner:GAME_REGISTRY.gi.banner };
 
 function dbGame(key){
@@ -416,8 +444,9 @@ const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currenc
 
 /* ---------------- pinned favourites ---------------- */
 function FavCardI({ ch, idx, w, hgt, dt, faded, h, art }){
+  const cardArt = overviewCardArt({ art }, ch, idx);
   const artStyle = {
-    backgroundImage:bgUrl(ch.art || art),
+    backgroundImage:bgUrl(cardArt || ch.art || art),
     ...(ch.overviewArtZoom ? { backgroundSize:Math.round(Number(ch.overviewArtZoom || 1) * 100) + '% auto' } : {}),
   };
   return (
@@ -1138,10 +1167,11 @@ function NyxApp(){
     if (!layers.length || !cfg) return;
     const next = layers[bgToggle.current % layers.length];
     const prev = layers[(bgToggle.current + 1) % layers.length];
-    next.style.backgroundImage = 'url(' + cfg.pageBg + ')';
-    next.style.backgroundPosition = cfg.bgPos || '50% 20%';
-    next.style.opacity = '1';
-    if (prev) prev.style.opacity = '0';
+    const scene = nyxBgScene(activeKey === 'nyx' ? 'index' : 'game');
+    applyNyxBgElement(next, cfg.pageBg, scene);
+    applyNyxBgElement(document.querySelector('.page-bg'), cfg.pageBg, scene);
+    next.classList.add('on');
+    if (prev) prev.classList.remove('on');
     bgToggle.current += 1;
   }, [activeKey]);
 

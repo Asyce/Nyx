@@ -236,45 +236,39 @@ function GPFav({ w, h, land, name, art, pos }){
   );
 }
 
+// Layout F (art-forward): the 5-star art fills the card; 4-stars are shown as
+// icons on the art; no "5\u2605"/element/weapon text; the duration sits directly
+// below each banner, large and prominent.
 function GPBanner({ w, h, next, compact, ph, title, five, fiveIcon, status, fourStars, chips, time, pct, art }){
-  const stars = fourStars || ['Bennett', 'Xiangling', 'Fischl'];
   const usePh = ph !== undefined ? ph : next;
-  const showStars = !next && !(compact && fourStars === null);
-  const chipRows = chips || stars.map((s) => ({ key:s, text:'4\u2605 ' + s }));
+  const stripRarity = (s) => String(s || '').replace(/^\s*\d+\u2605\s*/, '').trim();
+  const fiveName = stripRarity(five) || (next ? '???' : 'Skirk');
+  const stars = chips || (fourStars || ['Bennett', 'Xiangling', 'Fischl']).map((s) => ({ key:s, text:s }));
   return (
-    <div className={'gp-ban' + (compact ? ' compact' : '')} style={{ width: w ? w + 'px' : undefined, height: h ? h + 'px' : undefined }}>
-      <span className="rim"></span>
-      <div className="body" style={{ height:'100%' }}>
+    <div className={'gp-ban f' + (compact ? ' compact' : '')} style={{ width: w ? w + 'px' : undefined }}>
+      <div className="ban-art-card" style={{ height: h ? h + 'px' : undefined }}>
+        <span className="rim"></span>
         {usePh
           ? <div className="art ph"><span className="phnote">banner art</span></div>
           : <div className="art" style={{ backgroundImage:'url(' + (art || '../assets/banner/skirk_namecard.png') + ')' }}></div>}
         <div className="shade"></div>
-        <div className="inner" style={{ height:'100%' }}>
-          <div className="ban-head">
-            <div className={'status' + (next ? ' next' : '')}>
-              <span className="dot"></span>
-              <span>{status || (next ? 'Up next \u00B7 Phase II' : 'Ongoing \u00B7 Phase I')}</span>
+        <div className={'status f' + (next ? ' next' : '')}>
+          <span className="dot"></span><span>{status || (next ? 'Up next' : 'Ongoing')}</span>
+        </div>
+        <div className="ban-bottom">
+          <div className="bt">{fiveName}</div>
+          {stars.length > 0 && (
+            <div className="four-icons">
+              {stars.map((s) => (
+                s.icon
+                  ? <img key={s.key || s.text} src={s.icon} alt={stripRarity(s.text)} title={stripRarity(s.text)} draggable="false" />
+                  : <span key={s.key || s.text} className="four-init" title={stripRarity(s.text)}>{(stripRarity(s.text) || '?').slice(0, 1)}</span>
+              ))}
             </div>
-            <span className="tm">{time || (next ? 'Starts in 11d 22h' : 'Ends in 11d 22h 14m')}</span>
-          </div>
-          <div className="bt">{title || (next ? 'To Be Revealed' : 'Lone Shadow')}</div>
-          <div className="feat">
-            <span className="chip five">
-              {fiveIcon && <img src={fiveIcon} alt="" draggable="false" />}
-              {five || (next ? '5\u2605 ???' : '5\u2605 Skirk')}
-            </span>
-            {showStars && chipRows.map(s => (
-              <span key={s.key || s.text || s} className="chip">
-                {s.icon && <img src={s.icon} alt="" draggable="false" />}
-                {s.text || s}
-              </span>
-            ))}
-          </div>
-          <div className="cd">
-            {!next && <span className="bar"><i style={{ width:(pct || 42) + '%' }}></i></span>}
-          </div>
+          )}
         </div>
       </div>
+      <div className="ban-duration">{time || (next ? 'Date pending' : 'Ends soon')}</div>
     </div>
   );
 }

@@ -5,6 +5,14 @@ icons for all 5 games, ascension-level selector — all live on pengo.gg as `ui4
 This document is the full step-by-step plan for the round-2 changes. Pick up any
 unchecked box; each phase is independent.
 
+## Progress log (done so far — committed, NOT yet deployed; token bumped ui4→ui5)
+- 3d5fd67 — material source tooltip: fixed one-word-per-line (`.src-tip` fixed-width + `.src-row` flex), icon-OR-text per row, removed "Source details pending." (plan 3.2a, 3.4).
+- d1eae06 — **codes → layout D** (checkbox redeemed, code→redeem, copy, currency icon+amount, hover→full rewards) (plan 2.4 codes).
+- d4762b1 — **banners → layout F** (art-forward, 4★ icons, no 5★/element text, big duration directly below) (plan 2.4 banners).
+- 8840f37 — index logo one-line + larger (1.1/1.2); game-page bg brightness 1.18→1.4 (2.1); **dark-on-load fixed** via `html:not(.nyx-app-ready) .gp{opacity:0}` fade (2.2); signature disclaimer reworded with `<u>automated</u>` (3.6).
+- **STILL TODO:** 2.3 topbar rework; 3.1 empty box under talents; 3.2b wiki-source data; 3.3 "[Region] Talent Domain"; 3.5 header circle-icon + inline meta; 3.7 HSR traces; 3.8 writable levels; 3.9 weapon-name shrink; 3.10 per-game level caps (HSR 80!); 4.1 stale chars; 4.2 ZZZ nanoka-only.
+- NOTE: the preview *browser* aggressively caches — it showed stale CSS even on fresh URLs while the server served correct files. Verify via `curl` of the preview server or after a token bump, not just `preview_eval` computed styles.
+
 ## Working conventions (read first)
 - Repo: `C:\Pengo\Nyx` (GitHub `Asyce/Nyx`, branch `main`). Currently clean at `f425284`.
 - Game pages serve JS from `Site/dist/` (so **JSX edits need `npm --prefix Site run build`**)

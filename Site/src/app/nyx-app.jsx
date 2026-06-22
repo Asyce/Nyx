@@ -173,12 +173,27 @@ function rarityValue(r){
 let GP_DRAG = null; // { zone:'card', idx }
 
 function copyText(txt){
-  try { navigator.clipboard.writeText(txt); } catch (e) {
+  const fallback = () => {
     const ta = document.createElement('textarea');
-    ta.value = txt; document.body.appendChild(ta); ta.select();
+    ta.value = txt;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.top = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    try { ta.setSelectionRange(0, txt.length); } catch (e0) {}
     try { document.execCommand('copy'); } catch (e2) {}
     ta.remove();
-  }
+  };
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      // writeText() rejects ASYNCHRONOUSLY (unfocused doc / denied permission /
+      // insecure origin); a sync try/catch can't see that, so .catch() + fall back.
+      navigator.clipboard.writeText(txt).catch(fallback);
+      return;
+    }
+  } catch (e) {}
+  fallback();
 }
 
 function rewardParts(text){
@@ -675,9 +690,12 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
       {r.redeemUrl
         ? <a className="cc" href={r.redeemUrl} target="_blank" rel="noopener noreferrer" title="Open the redeem page">{r.code}</a>
         : <span className="cc no-link" title="No redeem link available">{r.code}</span>}
-      <span className="cc-reward" tabIndex={0} aria-label="Show all rewards">
-        {currency.icon ? <img src={currency.icon} alt={currency.name} draggable="false" /> : <span className="cur-glyph"></span>}
-        {amount && <b>{amount}</b>}
+      <span className={'cc-reward' + (r.premium ? '' : ' plain')} tabIndex={0} aria-label="Show all rewards">
+        {r.premium && (currency.icon
+          ? <img src={currency.icon} alt={currency.name} draggable="false" />
+          : <span className="cur-glyph"></span>)}
+        {r.premium && amount && <b>{amount}</b>}
+        {!r.premium && <span className="reward-text">{rewardParts(r.reward)[0] || 'Reward'}</span>}
         <span className="cc-reward-pop" role="tooltip"><RewardChips reward={r.reward} /></span>
       </span>
       <button type="button" className={'cc-copy' + (r.st === 'copied' ? ' ok' : '')}
@@ -691,19 +709,11 @@ function CodeCardRow({ row, currency, onCopy, onToggleRedeemed }){
 function CodesPanel({ codes, gameKey = 'nyx' }){
   const sourceCodes = codes || [];
   const currency = premiumCodeMeta(gameKey, sourceCodes);
-  const hasPremiumRows = sourceCodes.some((c) => c.premium);
-  const [premiumOnly, setPremiumOnly] = React.useState(true);
   const [copiedCode, setCopiedCode] = React.useState(null);
   const [redeemed, setRedeemed] = React.useState(() => {
     try { return new Set(JSON.parse(localStorage.getItem('nyx:redeemed-codes:v1') || '[]')); }
     catch (e) { return new Set(); }
   });
-  const filterActive = premiumOnly && hasPremiumRows;
-  const visibleCodes = sourceCodes.filter((c) => !filterActive || c.premium);
-  const rows = visibleCodes.map(c => ({
-    ...c,
-    st:redeemed.has(c.code) ? 'redeemed' : copiedCode === c.code ? 'copied' : 'new',
-  }));
   const saveRedeemed = (next) => {
     setRedeemed(next);
     try { localStorage.setItem('nyx:redeemed-codes:v1', JSON.stringify([...next])); } catch (e) {}
@@ -714,19 +724,54 @@ function CodesPanel({ codes, gameKey = 'nyx' }){
     saveRedeemed(next);
   };
   const onCopy = (code) => { copyText(code); setCopiedCode(code); };
+
+  const rows = sourceCodes.map((c, i) => ({
+    ...c,
+    _i:i,
+    st:redeemed.has(c.code) ? 'redeemed' : copiedCode === c.code ? 'copied' : 'new',
+  }));
+  // redeemed codes sink to the bottom of their group (stable order otherwise)
+  const sortRedeemedLast = (a, b) => {
+    const ra = a.st === 'redeemed' ? 1 : 0;
+    const rb = b.st === 'redeemed' ? 1 : 0;
+    return ra - rb || a._i - b._i;
+  };
+  const premiumRows = rows.filter(r => r.premium).sort(sortRedeemedLast);
+  const plainRows = rows.filter(r => !r.premium).sort(sortRedeemedLast);
+  const moreCount = Math.max(0, rows.length - 3);
+
+  const renderGroup = (kind, list) => (
+    list.length === 0 ? null : (
+      <div className="codes-group" key={kind}>
+        <div className="codes-group-hd">
+          {kind === 'premium' && (currency.icon
+            ? <img src={currency.icon} alt="" draggable="false" />
+            : <span className="cur-glyph"></span>)}
+          <span className="gl">{kind === 'premium' ? currency.name : 'Other rewards'}</span>
+          <span className="gn">{list.length}</span>
+          <span className="rule"></span>
+        </div>
+        <div className="gp-codes-table overview-codes">
+          {list.map(r => (
+            <CodeCardRow key={r.code} row={r} currency={currency} onCopy={onCopy} onToggleRedeemed={toggleRedeemed} />
+          ))}
+        </div>
+      </div>
+    )
+  );
+
   return (
     <React.Fragment>
-      <label className={'code-filter' + (filterActive ? ' on' : '') + (!hasPremiumRows ? ' disabled' : '')}>
-        <input type="checkbox" checked={filterActive} disabled={!hasPremiumRows} onChange={(e) => setPremiumOnly(e.target.checked)} />
-        {currency.icon ? <img src={currency.icon} alt="" draggable="false" /> : <span className="cur-glyph"></span>}
-        <span className="code-filter-text"><b>{currency.name}</b><small>{rows.length}/{sourceCodes.length}</small></span>
-      </label>
-      <div className="gp-codes-table overview-codes" style={{ flex:'0 0 auto' }}>
-        {rows.map(r => (
-          <CodeCardRow key={r.code} row={r} currency={currency} onCopy={onCopy} onToggleRedeemed={toggleRedeemed} />
-        ))}
-        {rows.length === 0 && <div className="code-empty">No premium-currency codes found.</div>}
+      <div className="overview-codes-scroll">
+        {renderGroup('premium', premiumRows)}
+        {renderGroup('other', plainRows)}
+        {rows.length === 0 && <div className="code-empty">No redemption codes found.</div>}
       </div>
+      {moreCount > 0 && (
+        <div className="codes-more-hint" aria-hidden="true">
+          <span className="chev">{'⌄'}</span>{moreCount} more below
+        </div>
+      )}
     </React.Fragment>
   );
 }
@@ -1136,6 +1181,27 @@ function coerceTabForKey(key, wanted){
 
 const DEFAULT_TAB = () => 'overview';
 
+// Live/Beta data toggle — pinned bottom-left of the game page (above the Pengo).
+// Owns nothing but the per-game channel in localStorage; the materials panel
+// (CharMaterials) listens for 'nyx:cm-channel-changed' and re-renders to match.
+// Shares cmHasBeta/cmLoadChannel/cmSaveChannel from char-materials.jsx (same bundle).
+function NyxChannelToggle({ gameKey }){
+  const [channel, setChannel] = React.useState(() => cmLoadChannel(gameKey));
+  React.useEffect(() => { setChannel(cmLoadChannel(gameKey)); }, [gameKey]);
+  if (!cmHasBeta(gameKey)) return null;
+  const pick = (ch) => {
+    setChannel(ch);
+    cmSaveChannel(gameKey, ch);
+    try { window.dispatchEvent(new CustomEvent('nyx:cm-channel-changed', { detail:{ key:gameKey, channel:ch } })); } catch (e) {}
+  };
+  return (
+    <div className={'cm-chan' + (channel === 'beta' ? ' beta' : '')} role="group" aria-label="Data channel">
+      <button type="button" className={channel === 'live' ? 'on' : ''} aria-pressed={channel === 'live'} onClick={() => pick('live')} title="Released, live-server data">Live</button>
+      <button type="button" className={channel === 'beta' ? 'on' : ''} aria-pressed={channel === 'beta'} onClick={() => pick('beta')} title="Beta (latest) data — upcoming, subject to change">Beta</button>
+    </div>
+  );
+}
+
 function NyxApp(){
   const initialKey = (window.GP_PAGE && window.GP_PAGE.key) || keyFromLocation() || 'nyx';
   const [activeKey, setActiveKey] = React.useState(initialKey);
@@ -1221,21 +1287,25 @@ function NyxApp(){
         <a className="tb-brand" href="index.html" title="Back to Worlds" aria-label="Back to the worlds index">
           <span className="plate" aria-hidden="true"></span>
           <span className="brand-mark">
+            <span className="wm">Nyx</span>
             <span className="tb-eye" aria-hidden="true">
               <span className="elayer ball" id="tbBall"></span>
               <span className="elayer lid"></span>
               <span className="elayer drips"></span>
             </span>
-            <span className="wm">Nyx</span>
           </span>
         </a>
         <div className="tb-center">
           <GPGameRail active={activeKey} onSwitch={switchGame} />
         </div>
-        <a className="tb-pengo" href="index.html" title="Back to Worlds" aria-label="Home">
+      </header>
+
+      <div className="gp-corner">
+        {!isNyx && <NyxChannelToggle gameKey={activeKey} />}
+        <a className="tb-pengo corner" href="index.html" title="Back to Worlds" aria-label="Home">
           <img src="../assets/icon/pengo.png" alt="" draggable="false" />
         </a>
-      </header>
+      </div>
 
       {isNyx
         ? <SimContent tab={tab} setTab={setTab} onOpenMaterial={openMaterialModal} />

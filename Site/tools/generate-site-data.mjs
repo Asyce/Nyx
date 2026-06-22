@@ -1046,15 +1046,27 @@ function materialIdSort(a, b) {
 }
 
 function sumGiWeaponMaterials(weapon) {
-  const rows = Object.values(weapon?.materials || {}).map((stage) => ({
-    cost: Number(stage?.cost?.sourceSnapshot || 0),
-    mats: (stage?.mats?.sourceSnapshot || []).map((mat) => ({
-      id: mat.id,
-      name: mat.name,
-      count: mat.count,
-      rank: mat.rank,
-    })),
-  }));
+  // Source shape is materials.<stage>.{mats,cost}.materials (NOT .sourceSnapshot,
+  // which never existed in the file). Keep a sourceSnapshot fallback in case a
+  // future scrape emits that shape. NOTE: as of this writing the upstream Nanoka
+  // GI weapons.json carries EMPTY mats/cost for every weapon, so weapon material
+  // totals come out empty until GI weapon ascension materials are re-scraped.
+  const rows = Object.values(weapon?.materials || {}).map((stage) => {
+    const costSrc = stage?.cost?.sourceSnapshot ?? stage?.cost?.materials ?? stage?.cost;
+    const cost = Array.isArray(costSrc)
+      ? costSrc.reduce((sum, c) => sum + Number(c?.count || c?.qty || 0), 0)
+      : Number(costSrc || 0);
+    const matsSrc = stage?.mats?.sourceSnapshot ?? stage?.mats?.materials ?? [];
+    return {
+      cost,
+      mats: (matsSrc || []).map((mat) => ({
+        id: mat.id,
+        name: mat.name,
+        count: mat.count,
+        rank: mat.rank,
+      })),
+    };
+  });
   return sumMaterials(rows, giItemLookup(), 'gi');
 }
 

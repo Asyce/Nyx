@@ -319,9 +319,17 @@ function cmMatSourceDetails(m){
   const dom = cmTalentDomainSource(m);
   if (dom) return [{ name:dom }];
   if (Array.isArray(m?.sourceDetails) && m.sourceDetails.length) {
+    const seen = new Set();
     const cleaned = m.sourceDetails
       .map((entry) => ({ ...entry, name:cmCleanSourceName(entry?.name) }))
-      .filter((entry) => entry.name);
+      .filter((entry) => {
+        if (!entry.name) return false;
+        // collapse repeats: same art (icon) shows once; otherwise dedupe by name
+        const key = entry.icon ? 'icon:' + entry.icon : 'name:' + entry.name.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
     if (cleaned.length) return cleaned;
   }
   const text = cmMatSourceInfo(m);
@@ -369,17 +377,22 @@ function MatTile({ m }){
       <span className="nm">{m.name}</span>
       <span className="src-tip" role="tooltip">
         <b>{m.name}</b>
-        {details.length > 0 ? (
-          <span className="src-list">
-            {details.map((detail, i) => (
-              <span key={i} className="src-row">
-                {detail.icon
-                  ? <img src={detail.icon} alt={detail.name || ''} draggable="false" />
-                  : <em>{detail.name}</em>}
-              </span>
-            ))}
-          </span>
-        ) : (source ? <em>{source}</em> : null)}
+        {details.length > 0 ? (() => {
+          const withIcon = details.filter((d) => d.icon);
+          const noIcon = details.filter((d) => !d.icon);
+          return (
+            <span className="src-list">
+              {withIcon.length > 0 && (
+                <span className="src-icons">
+                  {withIcon.map((detail, i) => (
+                    <img key={'i' + i} src={detail.icon} alt={detail.name || ''} title={detail.name || ''} draggable="false" />
+                  ))}
+                </span>
+              )}
+              {noIcon.length > 0 && <em className="src-names">{noIcon.map((d) => d.name).join(' / ')}</em>}
+            </span>
+          );
+        })() : (source ? <em>{source}</em> : null)}
       </span>
     </div>
   );
@@ -937,6 +950,20 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
     return () => { live = false; window.removeEventListener('nyx:cm-beta-loaded', onBeta); };
   }, [gk, channel, betaAvailable]);
 
+  // the Live/Beta toggle now lives in the page bottom-left corner (rendered by
+  // the shell); sync this panel's channel when it fires for our game.
+  React.useEffect(() => {
+    const onChan = (event) => {
+      const d = event.detail || {};
+      if (d.key === gk && (d.channel === 'live' || d.channel === 'beta')) {
+        setChannel(d.channel);
+        setSel(null);
+      }
+    };
+    window.addEventListener('nyx:cm-channel-changed', onChan);
+    return () => window.removeEventListener('nyx:cm-channel-changed', onChan);
+  }, [gk]);
+
   React.useEffect(() => { if (open || inline) { setGk(game || 'gi'); if (!selectedName) setSel(null); } }, [open, inline, game, selectedName]);
   React.useEffect(() => { setSel(null); setQ(''); setFilt({}); setShowFilt(false); setHideMenu(false); setChannel(cmLoadChannel(gk)); }, [gk]);
   React.useEffect(() => {
@@ -1292,13 +1319,6 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
               <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); }}>{t.label}</button>
             ))}
           </div>
-          {betaAvailable && (
-            <div className={'cm-chan' + (channel === 'beta' ? ' beta' : '')} role="group" aria-label="Data channel">
-              <span className="cm-chan-lbl">Data</span>
-              <button type="button" className={channel === 'live' ? 'on' : ''} onClick={() => switchChannel('live')} title="Released, live-server data">Live</button>
-              <button type="button" className={channel === 'beta' ? 'on' : ''} onClick={() => switchChannel('beta')} title="Beta (latest) data — upcoming, subject to change">Beta</button>
-            </div>
-          )}
         </div>
 
         {/* day selector (Genshin Talents only) */}
@@ -1663,7 +1683,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                       <div className="cm-mats cm-ledger-mats">
                         {weaponReq.length > 0
                           ? weaponReq.map((m, i) => <MatTile key={i} m={m} />)
-                          : <div className="cm-total-empty">Select a weapon to see materials.</div>}
+                          : <div className="cm-total-empty">{activeWeapon ? 'No material data for this weapon yet.' : 'Select a weapon to see materials.'}</div>}
                       </div>
                     </div>
                   )}

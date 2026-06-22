@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="icon" type="image/png" href="../assets/icon/nyx_logo.png"/>
 <title>Nyx — Honkai: Star Rail</title>
-<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260621-ui6"/>
+<link rel="stylesheet" href="../src/styles/game-page-shared.css?v=20260621-ui7"/>
 <style>
   html, body{ margin:0; height:100%; background:#05040b; overflow:hidden; }
   .gp-vsep{ width:1px; height:34px; background:linear-gradient(180deg, rgba(183,170,255,0), rgba(183,170,255,.45), rgba(183,170,255,0)); }
@@ -27,9 +27,40 @@
       linear-gradient(180deg, rgba(5,4,11,.6) 0%, rgba(5,4,11,.06) 24%, rgba(5,4,11,.06) 60%, rgba(5,4,11,.8) 100%); }
   /* the .gp root inside the stage is transparent; backdrop is page-level */
   .gp.bare .gp-bg, .gp.bare .gp-pattern, .gp.bare .gp-vignette{ display:none; }
+  /* boot splash — covers the bare background until the app mounts, then fades out
+     (reuses the existing html.nyx-app-ready flip; 8s failsafe if the bundle never mounts) */
+  .nyx-boot{ position:fixed; inset:0; z-index:50; display:grid; place-items:center;
+    background:radial-gradient(120% 95% at 50% 30%, #0b0820 0%, #05040b 70%);
+    opacity:1; transition:opacity .5s ease; }
+  html.nyx-app-ready .nyx-boot{ opacity:0; visibility:hidden; pointer-events:none; transition:opacity .5s ease, visibility 0s linear .5s; }
+  /* failsafe: only while NOT ready, so it never overrides the ready fade-out */
+  html:not(.nyx-app-ready) .nyx-boot{ animation:nyxBootFailsafe .6s ease 8s forwards; }
+  .nyx-boot-eye{ position:relative; width:128px; height:128px; animation:nyxBootPulse 1.7s ease-in-out infinite;
+    filter:drop-shadow(0 0 12px rgba(139,123,255,.55)); }
+  .nyx-boot-eye .elayer{ position:absolute; inset:0; background:#cdc2ff;
+    -webkit-mask-repeat:no-repeat; mask-repeat:no-repeat; -webkit-mask-position:center; mask-position:center;
+    -webkit-mask-size:100% 100%; mask-size:100% 100%; }
+  .nyx-boot-eye .elayer.ball{ -webkit-mask-image:url('../assets/icon/eye_ball.png'); mask-image:url('../assets/icon/eye_ball.png'); }
+  .nyx-boot-eye .elayer.lid{ -webkit-mask-image:url('../assets/icon/eye_lid.png'); mask-image:url('../assets/icon/eye_lid.png'); }
+  .nyx-boot-eye .elayer.drips{ -webkit-mask-image:url('../assets/icon/eye_drips.png'); mask-image:url('../assets/icon/eye_drips.png'); }
+  .nyx-boot-spin{ position:absolute; width:200px; height:200px; border-radius:50%;
+    border:2px solid transparent; border-top-color:rgba(183,170,255,.7); border-right-color:rgba(139,123,255,.35);
+    animation:nyxBootRot .9s linear infinite; }
+  @keyframes nyxBootPulse{ 0%,100%{ transform:scale(.94); opacity:.82; } 50%{ transform:scale(1.04); opacity:1; } }
+  @keyframes nyxBootRot{ to{ transform:rotate(360deg); } }
+  @keyframes nyxBootFailsafe{ to{ opacity:0; visibility:hidden; } }
+  @media (prefers-reduced-motion: reduce){ .nyx-boot-eye, .nyx-boot-spin{ animation:none; } .nyx-boot{ transition:none; } }
 </style>
 </head>
 <body>
+<div class="nyx-boot" id="nyxBoot" aria-hidden="true">
+  <div class="nyx-boot-eye">
+    <span class="elayer ball"></span>
+    <span class="elayer lid"></span>
+    <span class="elayer drips"></span>
+  </div>
+  <div class="nyx-boot-spin"></div>
+</div>
 <script src="../dist/vendor/react.production.min.js"></script>
 <script src="../dist/vendor/react-dom.production.min.js"></script>
 
@@ -91,9 +122,9 @@
   };
 </script>
 
-<script src="../dist/cm-data.js?v=20260621-ui6"></script>
-<script src="../dist/cm-data-hsr.js?v=20260621-ui6"></script>
-<script src="../dist/nyx-data.js?v=20260621-ui6"></script>
-<script src="../dist/game-page.bundle.js?v=20260621-ui6"></script>
+<script src="../dist/cm-data.js?v=20260621-ui7"></script>
+<script src="../dist/cm-data-hsr.js?v=20260621-ui7"></script>
+<script src="../dist/nyx-data.js?v=20260621-ui7"></script>
+<script src="../dist/game-page.bundle.js?v=20260621-ui7"></script>
 </body>
 </html>

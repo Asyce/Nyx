@@ -59,8 +59,8 @@
   .stage{ position:relative; width:1600px; height:900px; transform-origin:center center; }
 
   /* ===== header — large living-eye logo, hugging the top-right border ===== */
-  .hd{ position:absolute; top:-78px; right:-26px; z-index:20; }
-  .hd-eye{ position:relative; width:380px; height:380px;
+  .hd{ position:absolute; top:-92px; right:-44px; z-index:20; }
+  .hd-eye{ position:relative; width:336px; height:336px;
     filter:drop-shadow(0 0 calc(6px*var(--glow)) var(--accent-glow)) drop-shadow(0 3px 12px rgba(0,0,0,.6)); }
   .elayer{ position:absolute; inset:0; background:#f7f4ff;
     -webkit-mask-repeat:no-repeat; mask-repeat:no-repeat;
@@ -72,7 +72,7 @@
   .elayer.drips{ -webkit-mask-image:url('../assets/icon/eye_drips.png'); mask-image:url('../assets/icon/eye_drips.png'); }
 
   /* ===== top-left: large wordmark on the (180-flipped) achievement-cycle plate ===== */
-  .hd-right{ position:absolute; top:52px; left:6px; z-index:20;
+  .hd-right{ position:absolute; top:24px; left:-18px; z-index:20;
     width:600px; height:110px; display:flex; align-items:center; justify-content:flex-start; }
   .hd-right .plate{ position:absolute; inset:0; pointer-events:none;
     background:url('../assets/decor/achievement_cycle.png') center/100% 100% no-repeat;
@@ -396,9 +396,19 @@
         'wuthering-waves.html',
         'arknights-endfield.html'
       ];
+      var leaving = false;
       document.querySelectorAll('.grid .col').forEach(function(el, i){
         el.style.cursor = 'pointer';
-        el.addEventListener('click', function(){ if(dests[i]) window.location.href = dests[i]; });
+        el.addEventListener('click', function(){
+          var dest = dests[i];
+          if(!dest || leaving) return;
+          leaving = true;
+          // fade the index out before navigating so the jump to the game page
+          // reads as a deliberate transition instead of a hard cut to its bg
+          document.body.style.transition = 'opacity .32s ease';
+          document.body.style.opacity = '0';
+          setTimeout(function(){ window.location.href = dest; }, 300);
+        });
       });
     })();
 

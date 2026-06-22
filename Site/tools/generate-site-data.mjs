@@ -1220,6 +1220,31 @@ function hsrRequirements(raw) {
     ascensionRows.push(...(row?.cost || []));
   }
   const asc = sumHsrMaterialList(ascensionRows, lookup);
+  const sortItems = (arr) => arr.sort((a, b) => kindRank(a.kind) - kindRank(b.kind) || String(a.id).localeCompare(String(b.id)));
+  // The 4 main traces are point01 (Basic ATK, max 6), point02 (Skill),
+  // point03 (Ultimate), point04 (Talent) — each level's material_list is the
+  // incremental cost to reach that level, so they form Genshin-style stages.
+  // Everything else (point05+) is minor traces / stat nodes — always included.
+  const HSR_MAIN_POINTS = ['point01', 'point02', 'point03', 'point04'];
+  const talentStages = HSR_MAIN_POINTS.map((pk) => {
+    const point = raw.skill_trees?.[pk];
+    if (!point) return [];
+    // the level is the object key ("1".."10"); level 1 is the free unlock, so
+    // each stage (keys 2..max) is the incremental cost to reach that level.
+    return Object.entries(point)
+      .filter(([k, lv]) => Number(k) > 1 && lv && Array.isArray(lv.material_list) && lv.material_list.length)
+      .sort((a, b) => Number(a[0]) - Number(b[0]))
+      .map(([, lv]) => {
+        const s = sumHsrMaterialList(lv.material_list, lookup);
+        return { cost: s.cost, items: s.items };
+      });
+  });
+  const minorRows = [];
+  for (const [pk, point] of Object.entries(raw.skill_trees || {})) {
+    if (HSR_MAIN_POINTS.includes(pk)) continue;
+    for (const level of Object.values(point || {})) minorRows.push(...(level?.material_list || []));
+  }
+  const minor = sumHsrMaterialList(minorRows, lookup);
   const traceRows = [];
   for (const point of Object.values(raw.skill_trees || {})) {
     for (const level of Object.values(point || {})) {
@@ -1228,8 +1253,11 @@ function hsrRequirements(raw) {
   }
   const traces = sumHsrMaterialList(traceRows, lookup);
   return {
-    ascension: asc.items.sort((a, b) => kindRank(a.kind) - kindRank(b.kind) || String(a.id).localeCompare(String(b.id))).slice(0, 14),
-    talents: traces.items.sort((a, b) => kindRank(a.kind) - kindRank(b.kind) || String(a.id).localeCompare(String(b.id))).slice(0, 14),
+    ascension: sortItems(asc.items).slice(0, 14),
+    talents: sortItems(traces.items).slice(0, 14),
+    talentStages,
+    talentBase: sortItems(minor.items),
+    talentBaseCost: minor.cost,
     ascCost: asc.cost,
     talentCost: traces.cost,
     currency: asc.cost + traces.cost,

@@ -18,6 +18,12 @@ const CM_GI_PRESETS = [
 ];
 const CM_GI_TALENT_LABELS = ['Normal Attack', 'Elemental Skill', 'Elemental Burst'];
 const CM_GI_TALENT_SHORT = ['NA', 'Skill', 'Burst'];
+// Per-game talent/trace input config: labels, short codes, and the max level of
+// each (GI talents max 10; HSR Basic ATK maxes at 6, Skill/Ultimate/Talent at 10).
+const CM_TALENT_CFG = {
+  gi:  { labels:CM_GI_TALENT_LABELS, short:CM_GI_TALENT_SHORT, max:[10, 10, 10] },
+  hsr: { labels:['Basic ATK', 'Skill', 'Ultimate', 'Talent'], short:['Basic', 'Skill', 'Ult', 'Talent'], max:[6, 10, 10, 10] },
+};
 
 // Genshin ascension is 6 phases unlocked at Lv 20/40/50/60/70/80, each capping
 // the level at 40/50/60/70/80/90. The material quantities per phase are
@@ -188,7 +194,9 @@ function cmMergeMat(map, mat){
 function cmTalentForTargets(ch, targets){
   const groups = ch?.req?.talentStages || [];
   const by = new Map();
-  let cost = 0;
+  // minor traces / always-on nodes (HSR) are included regardless of trace levels
+  let cost = Number(ch?.req?.talentBaseCost || 0);
+  (ch?.req?.talentBase || []).forEach((mat) => cmMergeMat(by, mat));
   groups.forEach((stages, i) => {
     const target = Math.max(1, Math.min(10, Number(targets[i] || targets[targets.length - 1] || 10)));
     const limit = Math.max(0, Math.min(stages.length, target - 1));
@@ -203,7 +211,7 @@ function cmTalentForTargets(ch, targets){
 
 function cmRequirements(gameKey, ch, opts){
   if (ch && ch.req) {
-    const targeted = gameKey === 'gi' && opts?.targets && ch.req.talentStages?.length
+    const targeted = (gameKey === 'gi' || gameKey === 'hsr') && opts?.targets && ch.req.talentStages?.some((s) => s.length)
       ? cmTalentForTargets(ch, opts.targets)
       : null;
     const ascCost = Number(ch.req.ascCost || 0);
@@ -840,6 +848,8 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
   const [giPreset, setGiPreset] = React.useState('9-9-9');
   const [giTargets, setGiTargets] = React.useState([9, 9, 9]);
   const [giAscLevel, setGiAscLevel] = React.useState(90);
+  const [hsrTargets, setHsrTargets] = React.useState([6, 10, 10, 10]);
+  const [hsrMax, setHsrMax] = React.useState(true);
   const [activeVariant, setActiveVariant] = React.useState(null);
   const [activeGender, setActiveGender] = React.useState(null);
   const [activeArtIndex, setActiveArtIndex] = React.useState(0);
@@ -1065,7 +1075,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
   const view = sel ? cmActiveForm(sel, activeVariant, activeGender) : null;
   const formOptions = cmFormOptions(sel);
   const genderOptions = cmGenderOptions(sel);
-  const req = view ? cmRequirements(gk, view, { targets:gk === 'gi' ? giTargets : activePreset.targets }) : null;
+  const hsrTalentTargets = hsrMax ? CM_TALENT_CFG.hsr.max : hsrTargets;
+  const talentTargets = gk === 'gi' ? giTargets : (gk === 'hsr' ? hsrTalentTargets : activePreset.targets);
+  const req = view ? cmRequirements(gk, view, { targets:talentTargets }) : null;
   const giAsc = (gk === 'gi' && req && req.ascension) ? cmGiAscensionForLevel(req.ascension, req.ascCost, giAscLevel) : null;
   const ascItems = giAsc ? giAsc.items : (req?.ascension || []);
   const ascItemsCost = giAsc ? giAsc.cost : (req?.ascCost || 0);
@@ -1480,37 +1492,51 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                     <div className="cm-ledger-row">
                       <div className="cm-ledger-label">
                         <b>{String(cfg.tabs.mid || 'Materials').toUpperCase()}</b>
-                        {gk !== 'gi' && <span className="cm-talent-summary">all to max</span>}
-                        {gk === 'gi' && (
-                          <div className="cm-talent-triplet" aria-label="Talent level targets">
-                            {giTargets.map((value, index) => {
-                              const icon = view?.skillIcons?.[index];
-                              const label = CM_GI_TALENT_LABELS[index];
-                              return (
-                                <label
-                                  className="cm-talent-control"
-                                  key={index}
-                                  title={`${label}: type a target level (1-10)`}
-                                >
-                                  <span className="cm-talent-icon">
-                                    {icon ? <img src={icon} alt="" draggable="false" /> : <em>{CM_GI_TALENT_SHORT[index]}</em>}
-                                  </span>
-                                  <input
-                                    type="number"
-                                    min="1"
-                                    max="10"
-                                    inputMode="numeric"
-                                    className="cm-talent-num"
-                                    aria-label={`${label} target level`}
-                                    value={value}
-                                    onChange={(e) => setGiTalentTarget(index, e.target.value)}
-                                    onFocus={(e) => e.target.select()}
-                                  />
-                                </label>
-                              );
-                            })}
-                          </div>
-                        )}
+                        {(() => {
+                          const tcfg = CM_TALENT_CFG[gk];
+                          const hasInputs = tcfg && view?.req?.talentStages?.some?.((s) => s.length);
+                          if (!hasInputs) return gk !== 'gi' ? <span className="cm-talent-summary">all to max</span> : null;
+                          const values = gk === 'gi' ? giTargets : hsrTalentTargets;
+                          const setTalent = (index, raw) => {
+                            const max = tcfg.max[index] || 10;
+                            const v = Math.max(1, Math.min(max, Math.round(Number(raw)) || 1));
+                            if (gk === 'gi') { setGiTalentTarget(index, v); return; }
+                            const next = (hsrMax ? CM_TALENT_CFG.hsr.max : hsrTargets).slice();
+                            next[index] = v;
+                            setHsrTargets(next);
+                            setHsrMax(false);
+                          };
+                          return (
+                            <React.Fragment>
+                              {gk === 'hsr' && (
+                                <button type="button" className={'cm-trace-max' + (hsrMax ? ' on' : '')} aria-pressed={hsrMax}
+                                        title="Max out all traces" onClick={() => { setHsrTargets(CM_TALENT_CFG.hsr.max.slice()); setHsrMax(true); }}>Max</button>
+                              )}
+                              <div className={'cm-talent-triplet cols' + values.length} aria-label="Talent level targets">
+                                {values.map((value, index) => {
+                                  const icon = view?.skillIcons?.[index];
+                                  const label = tcfg.labels[index];
+                                  const max = tcfg.max[index] || 10;
+                                  return (
+                                    <label className="cm-talent-control" key={index} title={`${label}: type a target level (1-${max})`}>
+                                      <span className="cm-talent-icon">
+                                        {icon ? <img src={icon} alt="" draggable="false" /> : <em>{tcfg.short[index]}</em>}
+                                      </span>
+                                      <input
+                                        type="number" min="1" max={max} inputMode="numeric"
+                                        className="cm-talent-num"
+                                        aria-label={`${label} target level`}
+                                        value={value}
+                                        onChange={(e) => setTalent(index, e.target.value)}
+                                        onFocus={(e) => e.target.select()}
+                                      />
+                                    </label>
+                                  );
+                                })}
+                              </div>
+                            </React.Fragment>
+                          );
+                        })()}
                       </div>
                       <div className="cm-mats cm-ledger-mats">{talentReq.map((m, i) => <MatTile key={i} m={m} />)}</div>
                     </div>

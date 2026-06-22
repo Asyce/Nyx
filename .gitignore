@@ -26,3 +26,7 @@ Thumbs.db
 .thumbnail/
 verification-screenshots/
 
+# Scraper beta / unreleased data — never ship (asset policy)
+Database/*/*/beta/
+Database/Nanoka/*/beta/
+

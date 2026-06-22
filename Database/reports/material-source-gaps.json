@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-22T10:46:09.271Z",
+  "generatedAt": "2026-06-22T18:29:04.189Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
-  "count": 185,
+  "count": 188,
   "missing": [
     {
       "game": "gi",
@@ -30,6 +30,13 @@
       "id": "101232",
       "name": "Beryl Conch",
       "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Astral Vulture's Crimson Plumage weapon",
+      "id": "112117",
+      "name": "Bewildering Broadleaf",
+      "kind": "mob"
     },
     {
       "game": "gi",
@@ -187,6 +194,13 @@
     },
     {
       "game": "gi",
+      "context": "Astral Vulture's Crimson Plumage weapon",
+      "id": "112118",
+      "name": "Illusory Leafcoil",
+      "kind": "mob"
+    },
+    {
+      "game": "gi",
       "context": "Yaoyao ascension",
       "id": "100027",
       "name": "Jueyun Chili",
@@ -310,6 +324,13 @@
       "id": "101236",
       "name": "Rainbow Rose",
       "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Astral Vulture's Crimson Plumage weapon",
+      "id": "112116",
+      "name": "Refractive Bud",
+      "kind": "mob"
     },
     {
       "game": "gi",

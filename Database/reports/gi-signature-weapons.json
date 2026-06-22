@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-06-22T18:20:32.021Z",
+  "startedAt": "2026-06-22T18:20:31.774Z",
+  "dryRun": false,
+  "source": "GameWith character build pages",
+  "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
+  "existingSignatures": 115,
+  "targetCharacters": [],
+  "skipped": [
+    {
+      "name": "Traveler",
+      "reason": "known-no-signature",
+      "weaponType": "Sword"
+    }
+  ],
+  "results": [],
+  "summary": {
+    "targets": 0,
+    "found": 0,
+    "added": 0,
+    "skipped": 1,
+    "unresolved": 0
+  }
+}

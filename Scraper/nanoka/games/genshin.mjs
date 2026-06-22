@@ -244,6 +244,18 @@ function normalizeGenshinMaterials(materials, itemsById, registerItem) {
     }
 
     if (value && typeof value === 'object') {
+      // Weapon ascension stages arrive as a single group { mats:[...], cost:<number> }
+      // keyed by stage number. The per-level iteration below was written for a
+      // legacy { level:{mats,cost} } shape and silently dropped weapon materials
+      // (it read group.mats off the mats ARRAY / cost NUMBER, getting undefined).
+      // Normalize the group directly when it looks like { mats:[...], cost:N }.
+      if (Array.isArray(value.mats) || typeof value.cost === 'number') {
+        return [key, removeEmpty({
+          cost: value?.cost ?? null,
+          materials: normalizeMaterials(value?.mats || [], itemsById, registerItem),
+          sourceSnapshot: removeRemoteLinks(value)
+        })];
+      }
       return [key, Object.fromEntries(Object.entries(value).map(([level, group]) => [level, removeEmpty({
         level,
         cost: group?.cost ?? null,

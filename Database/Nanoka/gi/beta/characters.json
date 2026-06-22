@@ -200954,8 +200954,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "9f15693807fb5ec72387f510e24cdbc7488ac94b2512d39d76ebd0431dfa43d0",
-      "currentHash": "87477cc7f86d82a4d53415006324d63f9218eb0d68ba6d5c4e5766d9a34f0449"
+      "liveHash": "680758ed02f7dce54aed209a8b777a2bfd0c498cc3a3ed79f1e14cbc5ddfcf20",
+      "currentHash": "383f8d3386bb3cbfe9a2fced5d1c71836f2ec13d4c2ce793cfd354a31e2b3e91"
     }
   },
   {
@@ -445756,7 +445756,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -448724,8 +448726,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "243c4d510d7d0ec9d4b1d9dfbd1c7d9e461458eee2d939a7fdadee444be69cdf",
-      "currentHash": "a64e77629af1a6fb7d7e87cf4ed9911f0946abb8db3bf3174fe3c3111ead4f83"
+      "liveHash": "498a7712896d2f4a67f6df763660188d4f02d01584d52aeb318a69eb1e0a2023",
+      "currentHash": "005d5ef83f761c9babe5a3fe91069a604299a73499d57e677e2b221c90503e96"
     }
   },
   {
@@ -448741,7 +448743,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -451709,8 +451713,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "6811b724a09c463aab35516e6a4cb179ab22e12cb3e55ebbcfe5918850d8857f",
-      "currentHash": "2186f01b66155de21ce995044aebf8e3fb64710f6b392f3226c76a1c1a983fd6"
+      "liveHash": "a9e8d4852f82c3146c63ff32a5105e43b9de0fbfd7a9fa5d0916b32e24fedff3",
+      "currentHash": "1f8bea912d4976881f9a1d9f6838cad5711b9e16062bb2b00d7343516c9d17fe"
     }
   },
   {
@@ -451726,7 +451730,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -454694,8 +454700,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "38b633b66604ef4095668e51c0d33de7106caedbb62479a43c498141acf7da67",
-      "currentHash": "2ab5291d25a34189bc7f3f6295709fb1e2dd823c0ef88d4a4a49032d8bc596a1"
+      "liveHash": "c1f1e5bbac6569d34ff233a6dc0738c3237c2a87b044912ec8557cb8faeb8e1c",
+      "currentHash": "c538277367f5f606fea40ce90edc573247a53cf477e9631a37c8f83402222f35"
     }
   },
   {
@@ -454711,7 +454717,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -457679,8 +457687,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "2c1bbc025ef39a6037dcef1e05cf1aafdccd0855c4f6ba96054867529304f10e",
-      "currentHash": "21927651857487ade7f2153e155539cc991a0f80127ad4b836071111e8201626"
+      "liveHash": "62df70268e9c10d86ecf700006fb5bfa8e51346eaada1734a08d2e2bdbc667bd",
+      "currentHash": "451ef1b75d1c0dd0688c1b7fb09990f7ec71304aec5d1bbfcdec2b5681a9a115"
     }
   },
   {
@@ -457696,7 +457704,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -460664,8 +460674,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "4b57c4469d13ddf1929816e7b8812d30ad84ca448671d8b6526b96e9ea57bdcb",
-      "currentHash": "f9b86ecbf2bbf173533e9d34987d27facdc0257f0f383abf49368422555d881e"
+      "liveHash": "1907f4a7d9e10dd17935d744d07bb00471609012f3f86de4861d17c65e3e72cc",
+      "currentHash": "119981612151defcc5db69f0daf878dfad08f4534c77f7dcd7399cd27cdeb84d"
     }
   },
   {
@@ -460681,7 +460691,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinBoy.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinBoy.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinBoy_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinBoy_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -463649,8 +463661,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "72cc51713abdc7075472d5c92e5f179e9a115e33ceda5f0df7a75c20d0844db1",
-      "currentHash": "269c89ce538ffac05465609077f40e43236841ddf7a7181b3b96b6bea49ccd5a"
+      "liveHash": "acfcc80daf35632285d91d7beb5b881e4972900c3d8268a909015bf6d80ed598",
+      "currentHash": "c2a90bbc532a7f54c23271b2e74890f7403fdf7ae33892499d5daad07ee3dfbc"
     }
   },
   {
@@ -463666,7 +463678,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -466634,8 +466648,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "9fa817c62524767d2a71eef3806e242d0c981726333c0dffc8ae1364ffc5f9ca",
-      "currentHash": "d1825ac487b175c184393f1c456510a9646b8df6393f4e51f673bcf4d6a4eb35"
+      "liveHash": "e7f65c4e83833da5c34664acf387889322bd9797f8404c6e51155f3091bc9c6f",
+      "currentHash": "32e168fe72145e1717f8f16fa4b381796cb3e456ebd8a475c595eb3bf5a6dcd1"
     }
   },
   {
@@ -466651,7 +466665,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -469619,8 +469635,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "bc4d5e449d95ee1d54ac06ad2021e848fe29e6cc27a3cd7b6fe3e036b821f607",
-      "currentHash": "1ff302a3b4c28ad6e9fb07a46e92d32d3ec2001eaa448736b89922edf87d1e06"
+      "liveHash": "010f6239af38c9f695e7202e773aad62f23fe5720c9370f2ac12140702965420",
+      "currentHash": "6076ae3dccace59c268b11e33d3916b1147ff359d3845634a5e6929bcb9cdb05"
     }
   },
   {
@@ -469636,7 +469652,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -472604,8 +472622,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "fd5117285413fdf75e93b60160301f0e4dd6cacf53ce827e879c2be755658c2b",
-      "currentHash": "43e91aa9634c86f70ea813f7a201b7a0e92b9ae79c78720f2a06a00b8b9ad406"
+      "liveHash": "701342dbb18b001e16ae5a00610f84ef783d0b9f4f4022e936c6a817515b1546",
+      "currentHash": "594feac35353889fc5b7044d9e67ce52c9fe0de455546c71a1aad4128903fee9"
     }
   },
   {
@@ -472621,7 +472639,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -475589,8 +475609,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "b48bd43bdc8fa5a8d75c480fa85b26801a47a1266dbec999c77c7a19262e26ea",
-      "currentHash": "9dce5366e9929a818a277a7d63d38ad0af4e066c4400c9261431eb18524f55df"
+      "liveHash": "48cb3e66e0c3a86d5a5247b3b62c2e09255e8886b31128b82dc1e888530a4613",
+      "currentHash": "e654ec1514148f1fa9a3d64016893480021bd028835ba48315ce09e3b69a91f3"
     }
   },
   {
@@ -475606,7 +475626,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -478574,8 +478596,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "60e65cd8f5dcbe3f3d7c2528244b4b8553750eb6a93be9d04d2bd67f0ff99d9c",
-      "currentHash": "49ed9b4538567b91cde819eb1854d76395289dfc8d23c68218e841d1c85bfd89"
+      "liveHash": "905dc21b9173109dc8d2323f29f3d4f849c076696665174800fa79ad24d72371",
+      "currentHash": "c57758c88288f8a3314b0ee51e2045ad2a488d73a81b78cc5a4c3d95d275d260"
     }
   },
   {
@@ -478591,7 +478613,9 @@
     "birthday": [],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_MannequinGirl.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_MannequinGirl.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_MannequinGirl_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_MannequinGirl_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -481559,8 +481583,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "90b84826b48a293d3c40a73d038738de2a0b4d11959fc489426672b99229938c",
-      "currentHash": "ee3d665e900d888054de4b5cb82b46daab3981e4047ec8535aa1e15b09b61931"
+      "liveHash": "2a612232a43c178d9414ac7bcbc14652ef3917df34d5eba76eb4f40e6456643e",
+      "currentHash": "31399e488d2078e192fbd31151da358f6780a8542d5eb65086e990f2d53b7347"
     }
   },
   {
@@ -493106,7 +493130,9 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Nefer.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nefer.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Nefer.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Nefer_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Nefer_Circle.webp"
     },
     "profile": {
       "release_date": "2025-10-21 00:00:00",
@@ -496952,8 +496978,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "5e344f9751cd557c3dad4442ac4710c6d716d0038e5ad09d0cc7c7853a3ad95a",
-      "currentHash": "b02a10876c091bbdb67ecf84c8e078718f60dce592b46ba8dc9f24ae66e35b16"
+      "liveHash": "26cc0027aa80948de38d40b742af09209a26038f566d261bd2b84387551c8651",
+      "currentHash": "4d280ce8dd30ace0817dd08c97df331817a6d6c1d3f8712741dcbf45d6139556"
     }
   },
   {
@@ -496972,7 +496998,9 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Durin.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Durin.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Durin.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Durin_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Durin_Circle.webp"
     },
     "profile": {
       "release_date": "2025-12-02 00:00:00",
@@ -500872,8 +500900,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "021d1bb62dda0e193f5016ae4d7f5ae4c6b1b76ed6e69e558de95af353a6ac8b",
-      "currentHash": "3905721930162ef00772ffcc3d72f511d874133b27a63ed5032d3efe33be87ce"
+      "liveHash": "92c12589ea8b7343f2fb267c9a4651493b1127a32149097664e9d80fba509038",
+      "currentHash": "32b317297901d46b5b2152d12ee38044b2f1f73b9c278e828555d36234415099"
     }
   },
   {
@@ -500893,6 +500921,7 @@
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Jahoda.webp",
       "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Jahoda.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Jahoda_Card.webp",
       "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Jahoda_Circle.webp"
     },
     "profile": {
@@ -504676,8 +504705,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "24893b8f7ac046a6355fb1b19c589cb456329764e0556ecec1b809d39b9429d9",
-      "currentHash": "9a7fa65b5a9d5e56920a6fa39d2aba3c909c9f613db9be37a067e6cd3ae298d5"
+      "liveHash": "df68326d7fddd63ae650f078d66e52e8178b28f4a5ca31d0a989457b2d30bf21",
+      "currentHash": "902d07f30cee109bee88b91a9835fe49eda1f0806b5953e83e33ef47ba0afb31"
     }
   },
   {
@@ -504696,7 +504725,9 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Columbina.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Columbina.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Columbina_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Columbina_Circle.webp"
     },
     "profile": {
       "release_date": "2026-01-13 00:00:00",
@@ -508573,8 +508604,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "4a2eaac353657ad5db54cbb1cb51cd6a5519e8d9b4005b9da2e0f2aed1ba7e4a",
-      "currentHash": "380bbd01337a6483641a66e45e186f658d44c0cd667e61460e6a576b79ad5685"
+      "liveHash": "a76b326b318df038075dc6ad0edaebb7117ba88d117781ad26460d8d4ee63a33",
+      "currentHash": "88c94cca865f41bbde3a3c8c410f6af36781c6f976eeb0d2a38caa57e4bc9673"
     }
   },
   {
@@ -508593,7 +508624,9 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Zibai.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zibai.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Zibai.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Zibai_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Zibai_Circle.webp"
     },
     "profile": {
       "release_date": "2026-02-03 18:00:00",
@@ -512426,8 +512459,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "6dfe1c0211bfe87d367c9bbbad7abfbb023966ccf52065396498a85f5e70944b",
-      "currentHash": "e8d27be9a63dc4d9d51705d58b2ef4bb74a17e9a6738831f204a59e9a25dcbf6"
+      "liveHash": "d5e01f6cd51ba480ace725a5bec06409af756af52b8b275dc337c165045c547f",
+      "currentHash": "f5e37a9e8dcb7530cfbc3b507afd216c624b42723b7be0bec8549e56c465de86"
     }
   },
   {
@@ -512446,7 +512479,9 @@
     ],
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Illuga.webp",
-      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Illuga.webp"
+      "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Illuga.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Illuga_Card.webp",
+      "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Illuga_Circle.webp"
     },
     "profile": {
       "release_date": "2026-02-03 18:00:00",
@@ -516269,8 +516304,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "c8f62af6857e180e750e498a538cb6fef6eec544648bab78f3b9a7ab45c95977",
-      "currentHash": "9c3182807d3139175b2d0fe4de27d4c457b5a338107c468068ceb53477772a3e"
+      "liveHash": "f781d51ae450845a7e30ab7a15a3da1a4859f90b67dc4497e29d27a75b62590c",
+      "currentHash": "141d8c1c760211a85611a8b4a16b1be3f6bd9789d923de72614f5ee795a44cb4"
     }
   },
   {
@@ -516290,6 +516325,7 @@
     "assets": {
       "icon": "Nanoka/gi/assets/characters/icons/UI_AvatarIcon_Varka.webp",
       "gacha": "Nanoka/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Varka.webp",
+      "card": "Nanoka/gi/assets/characters/cards/UI_AvatarIcon_Varka_Card.webp",
       "circle": "Nanoka/gi/assets/characters/circles/UI_AvatarIcon_Varka_Circle.webp"
     },
     "profile": {
@@ -520246,8 +520282,8 @@
       ]
     },
     "liveComparison": {
-      "liveHash": "0eb55e04424cd9ed331b4f582b988b7e600b1c5615b335ad0241593946892095",
-      "currentHash": "00f0154ad76ad4917736bd60ed5f1e9aed21cc1e31b0eaa7a9803a2764792185"
+      "liveHash": "626289fc9504a863e03d02a1e314e1fa121a5b31377dffa915db3e6a087853b5",
+      "currentHash": "75dc1987afcfbb8acc103e5b794e1571224a7d844c8f301ac83988fe113ee77c"
     }
   },
   {

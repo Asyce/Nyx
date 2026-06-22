@@ -3171,7 +3171,9 @@
       5
     ],
     "type": "artifact set",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/artifacts/sets/UI_RelicIcon_15004_4.webp"
+    },
     "setEffects": [
       {
         "id": "2150040",
@@ -3247,7 +3249,9 @@
             "ko": "ART/UI/Readable/KR/Relic15004_4_KR"
           }
         },
-        "assets": {}
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_4.webp"
+        }
       },
       {
         "slot": "equip_dress",
@@ -3261,7 +3265,9 @@
             "ko": "ART/UI/Readable/KR/Relic15004_3_KR"
           }
         },
-        "assets": {}
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_3.webp"
+        }
       },
       {
         "slot": "equip_necklace",
@@ -3275,7 +3281,9 @@
             "ko": "ART/UI/Readable/KR/Relic15004_2_KR"
           }
         },
-        "assets": {}
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_2.webp"
+        }
       },
       {
         "slot": "equip_ring",
@@ -3289,7 +3297,9 @@
             "ko": "ART/UI/Readable/KR/Relic15004_1_KR"
           }
         },
-        "assets": {}
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_1.webp"
+        }
       },
       {
         "slot": "equip_shoes",
@@ -3303,7 +3313,9 @@
             "ko": "ART/UI/Readable/KR/Relic15004_5_KR"
           }
         },
-        "assets": {}
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15004_5.webp"
+        }
       }
     ]
   },
@@ -4121,7 +4133,9 @@
       5
     ],
     "type": "artifact set",
-    "assets": {},
+    "assets": {
+      "icon": "Nanoka/gi/assets/artifacts/sets/UI_RelicIcon_15012_3.webp"
+    },
     "setEffects": [
       {
         "id": "2150120",
@@ -4167,7 +4181,9 @@
             "ko": "ART/UI/Readable/KR/Relic15012_3_KR"
           }
         },
-        "assets": {}
+        "assets": {
+          "icon": "Nanoka/gi/assets/artifacts/parts/UI_RelicIcon_15012_3.webp"
+        }
       }
     ]
   },

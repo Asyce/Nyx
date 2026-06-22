@@ -1,0 +1,63 @@
+{
+  "name": "Iniquitous Baptist",
+  "desc": "A monster from the Abyss that wields multiple types of Elemental Power and has gained extra limbs from its \"evolution.\"\\n\\n<i>\"The nature of the 'Abyss' is essentially irreconcilable with the elements. However, even the elements of gods can be entrapped and distorted before they are subsumed to become tools of the abyssal will. Just judging from outcomes and practical use, \"Abyssal powers\" seem little different from elemental items, from ones as paltry as the Treasure Hoarders' elemental containers to those as powerful as Visions...\"</i>\\n—Notes left behind in Hangeh Afrasiyab by someone.",
+  "icon": "UI_MonsterIcon_Invoker_Archdeacon",
+  "codex": "ABYSS",
+  "title": "Iniquitous Baptist",
+  "special_names": [
+    "The Guide to the Dark Paradise"
+  ],
+  "reward": [],
+  "child": {
+    "22100501": {
+      "monster_name": "Invoker_Archdeacon_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 135.84,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "id": 15006,
+  "icon": "UI_RelicIcon_15006_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_FIRE_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150060,
+      "id": 215006,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Crimson Witch of Flames",
+      "desc": "Pyro DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150061,
+      "id": 215006,
+      "level": 1,
+      "open_config": "Relic_ReactionFireEnhance",
+      "param_list": [
+        0.4,
+        0.15,
+        0.15,
+        0.5,
+        10,
+        0,
+        0,
+        0
+      ],
+      "name": "Crimson Witch of Flames",
+      "desc": "Increases Overloaded, Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15006_1",
+      "name": "Witch's Heart Flames",
+      "desc": "",
+      "story": {
+        "285061": {
+          "zh": "ART/UI/Readable/CHS/Relic15006_1",
+          "en": "ART/UI/Readable/EN/Relic15006_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15006_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15006_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15006_2",
+      "name": "Witch's Ever-Burning Plume",
+      "desc": "",
+      "story": {
+        "285062": {
+          "zh": "ART/UI/Readable/CHS/Relic15006_2",
+          "en": "ART/UI/Readable/EN/Relic15006_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15006_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15006_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15006_3",
+      "name": "Witch's Scorching Hat",
+      "desc": "",
+      "story": {
+        "285063": {
+          "zh": "ART/UI/Readable/CHS/Relic15006_3",
+          "en": "ART/UI/Readable/EN/Relic15006_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15006_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15006_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15006_4",
+      "name": "Witch's Flower of Blaze",
+      "desc": "",
+      "story": {
+        "285064": {
+          "zh": "ART/UI/Readable/CHS/Relic15006_4",
+          "en": "ART/UI/Readable/EN/Relic15006_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15006_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15006_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15006_5",
+      "name": "Witch's End Time",
+      "desc": "",
+      "story": {
+        "285065": {
+          "zh": "ART/UI/Readable/CHS/Relic15006_5",
+          "en": "ART/UI/Readable/EN/Relic15006_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15006_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15006_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Qucusaurus Chick",
+  "desc": "A young Qucusaur with a light, agile body.\\nIts neck and wings have yet to fully develop, and it still has a long way to go before it can wield gaseous phlogiston. There are stories of older Qucusaurs pushing younglings off cliffs to encourage them to fly. While the truth of such tales is uncertain, as long as it keeps practicing day and night, there can be no doubt that the soft-feathered fledgling will eventually grow strong and resilient.",
+  "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Small",
+  "codex": "BEAST",
+  "title": "Qucusaurus Chick",
+  "special_names": [
+    "Ranging Saurians of Natlan"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112103,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    {
+      "id": 112102,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    {
+      "id": 112101,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    }
+  ],
+  "child": {
+    "26230101": {
+      "monster_name": "Monster_Natsaurus_Flamingo_Small_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.3,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 14.9424,
+        "atk": 22.608,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

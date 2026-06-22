@@ -1,0 +1,4075 @@
+{
+  "name": "Himeko • Nova",
+  "desc": "Some fight side by side, some keep watch. The Trailblaze is never a lonely voyage.\\nShe paints a trailblazing miracle. The silver rail stretches on, and the Nameless set sail once more, illuminating the galaxy's eternal night.\\nAt the end of the line, she looks back once again. The dream of setting forth has never run aground.",
+  "chara_info": {
+    "va": {},
+    "stories": {},
+    "voicelines": []
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "himekonova",
+  "sp_need": 150,
+  "base_type": "Mage",
+  "damage_type": "Fire",
+  "ranks": {
+    "1": {
+      "id": 151001,
+      "name": "That Which We Stride Is the Trailblaze",
+      "desc": "Increases the number of times the Talent triggers the extra <u>Assist Skill</u> effect by <unbreak>#4[i]</unbreak>. When in the \"Companion Protocol: Verdict\" state, the number of Ultimate uses required to launch the <u>Assist Skill</u> is reduced by <unbreak>#1[i]</unbreak>. When in the \"Companion Protocol: Decimation\" state, the Charge required to launch the <u>Assist Skill</u> is reduced by <unbreak>#2[i]</unbreak>. When Himeko • Nova launches the <u>Assist Skill</u>, the number of times the extra DMG effect is triggered increases by <unbreak>#3[i]</unbreak>.",
+      "icon": "SkillIcon_1510_Rank1.png",
+      "param_list": [
+        1,
+        3,
+        1,
+        1
+      ],
+      "extra": {
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      }
+    },
+    "2": {
+      "id": 151002,
+      "name": "The Colors We Never Strike",
+      "desc": "Max uses of Himeko • Nova's <u>Assist Skill</u> increase to 2, and DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. At the start of each turn in the \"Navigator's Semaphore\" state, immediately recovers 1 extra <u>Assist Skill</u> use. Trace \"Hark! The Express's Pulse Roars\" effect: When characters other than <u>Trailblaze Companions</u> use <u>Assist Skill</u>, they also gain 1 <u>extra turn</u>.",
+      "icon": "SkillIcon_1510_Rank2.png",
+      "param_list": [
+        1.24
+      ],
+      "extra": {
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      }
+    },
+    "3": {
+      "id": 151003,
+      "name": "We Who Are Starborn Muse Starward",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1510_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 151004,
+      "name": "Let No Skyward Hand Stay Unheld",
+      "desc": "When using the <u>Assist Skill</u> from Talent \"Of Fire and Far Faring,\" the All-Type RES PEN increase effect applies to all allies. When Himeko • Nova gains this effect, her All-Type RES PEN increases by an additional <unbreak>#1[i]%</unbreak>.",
+      "icon": "SkillIcon_1510_Rank4.png",
+      "param_list": [
+        0.1
+      ],
+      "extra": {
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      }
+    },
+    "5": {
+      "id": 151005,
+      "name": "To Cross the Cosmos and Beyond",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1510_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 151006,
+      "name": "Ours Is the Oath to Sail Starward",
+      "desc": "Himeko • Nova's Fire Type <u>RES PEN</u> increases by <unbreak>#1[i]%</unbreak>. Max <u>\"Source Energy\"</u> increases to <unbreak>#2[i]</unbreak> point(s), and when an ally uses or triggers an <u>Assist Skill</u>, DMG dealt by the <u>Assist Skill</u> increases by <unbreak>#3[i]%</unbreak>, and Himeko • Nova gains 1 point of <u>\"Source Energy\"</u>. When launching a \"Hyperluminal Particle Beam\" attack during Ultimate, additionally gains 1 point of <u>\"Source Energy\"</u>. When launching \"Orbital Annihilation Pulse,\" if the current <u>\"Source Energy\"</u> is <unbreak>#4[i]</unbreak> point(s) or more, additionally deals Fire DMG equal to <unbreak>#5[i]%</unbreak> of Himeko • Nova's ATK to all enemies 1 time.",
+      "icon": "SkillIcon_1510_Rank6.png",
+      "param_list": [
+        0.2,
+        6,
+        1,
+        6,
+        2.4
+      ],
+      "extra": {
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      }
+    }
+  },
+  "skills": {
+    "151001": {
+      "id": 151001,
+      "name": "Enkindle the First Lodestar",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to one enemy.",
+      "simple_desc": "Deals minor Fire DMG to one enemy.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "sp_base": 20,
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.6
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.7
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.8
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.9
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.1
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.4
+          ]
+        }
+      }
+    },
+    "151002": {
+      "id": 151002,
+      "name": "Upraise the Vanward Cresset",
+      "desc": "After using Skill, immediately regains all uses of <u>Assist Skill</u> and Himeko • Nova gains \"Navigator's Semaphore,\" lasting for <unbreak>#2[i]</unbreak> turn(s). At the start of each of Himeko • Nova's turn, the duration is reduced by 1. When Himeko • Nova has \"Navigator's Semaphore,\" DMG dealt by all allies increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. At the start of every turn, immediately regains 1 use of <u>Assist Skill</u>.",
+      "simple_desc": "After using Skill, immediately regains all uses of <u>Assist Skill</u> and Himeko • Nova gains \"Navigator's Semaphore.\" When Himeko • Nova has \"Navigator's Semaphore,\" DMG dealt increases. At the start of every turn, immediately regains 1 use of <u>Assist Skill</u>.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Support",
+      "sp_base": 30,
+      "bp_need": 1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.1,
+            3
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.11,
+            3
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.12,
+            3
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.13,
+            3
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.14,
+            3
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.15,
+            3
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.1625,
+            3
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.175,
+            3
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.1875,
+            3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.2,
+            3
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.21,
+            3
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.22,
+            3
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.23,
+            3
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.24,
+            3
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.25,
+            3
+          ]
+        }
+      }
+    },
+    "151003": {
+      "id": 151003,
+      "name": "We, Too, Stride the Stars",
+      "desc": "Immediately takes control of Starblazer. Starblazer can launch \"Hyperluminal Particle Beam\" against enemies 6 times, or consume <u>\"Source Energy\"</u> to launch \"Orbital Annihilation Pulse,\" dealing Fire DMG up to <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> of Himeko • Nova's ATK to one designated enemy, and Fire DMG up to <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> of Himeko • Nova's ATK to other targets.\\nWhen the uses of \"Hyperluminal Particle Beam\" are depleted, automatically launches \"Orbital Annihilation Pulse,\" followed by Final Hit, dealing <unbreak>#6[i]</unbreak> instance(s) of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.\\nWhen \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" deals fatal damage to all enemies on the field, or when enemy HP can no longer be reduced, immediately launches Final Hit.",
+      "simple_desc": "During the Ultimate, can unleash \"Hyperluminal Particle Beam\" or \"Orbital Annihilation Pulse\" on all enemies. At the end, deals Fire DMG to <color=#f29e38ff><unbreak>#6[i]</unbreak></color> random single enemies.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "AoEAttack",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        144,
+        0
+      ],
+      "extra": {
+        "10015101": {
+          "name": "Source Energy",
+          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.2,
+            1,
+            0.1,
+            1,
+            0.2,
+            3,
+            0.5,
+            3,
+            4.8,
+            1.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.22,
+            1,
+            0.11,
+            1,
+            0.22,
+            3,
+            0.55,
+            3,
+            5.28,
+            1.65
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.24,
+            1,
+            0.12,
+            1,
+            0.24,
+            3,
+            0.6,
+            3,
+            5.76,
+            1.8
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.26,
+            1,
+            0.13,
+            1,
+            0.26,
+            3,
+            0.65,
+            3,
+            6.24,
+            1.95
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.28,
+            1,
+            0.14,
+            1,
+            0.28,
+            3,
+            0.7,
+            3,
+            6.72,
+            2.1
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.3,
+            1,
+            0.15,
+            1,
+            0.3,
+            3,
+            0.75,
+            3,
+            7.2,
+            2.25
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.325,
+            1,
+            0.1625,
+            1,
+            0.325,
+            3,
+            0.8125,
+            3,
+            7.8,
+            2.4375
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.35,
+            1,
+            0.175,
+            1,
+            0.35,
+            3,
+            0.875,
+            3,
+            8.4,
+            2.625
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.375,
+            1,
+            0.1875,
+            1,
+            0.375,
+            3,
+            0.9375,
+            3,
+            9,
+            2.8125
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.4,
+            1,
+            0.2,
+            1,
+            0.4,
+            3,
+            1,
+            3,
+            9.6,
+            3
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.42,
+            1,
+            0.21,
+            1,
+            0.42,
+            3,
+            1.05,
+            3,
+            10.08,
+            3.15
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.44,
+            1,
+            0.22,
+            1,
+            0.44,
+            3,
+            1.1,
+            3,
+            10.56,
+            3.3
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.46,
+            1,
+            0.23,
+            1,
+            0.46,
+            3,
+            1.15,
+            3,
+            11.04,
+            3.45
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.48,
+            1,
+            0.24,
+            1,
+            0.48,
+            3,
+            1.2,
+            3,
+            11.52,
+            3.6
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.5,
+            1,
+            0.25,
+            1,
+            0.5,
+            3,
+            1.25,
+            3,
+            12,
+            3.75
+          ]
+        }
+      }
+    },
+    "151004": {
+      "id": 151004,
+      "name": "Of Fire and Far Faring",
+      "desc": "While Himeko • Nova is on the field, immediately deploys the <u>Territory</u> \"Starblazer Visioscape,\" causing a \"Starblazer\" to appear on the field and granting all ally characters 1 <u>Assist Skill</u> usage. Ally characters can use the <u>Assist Skill</u> to command the \"Starblazer\" to attack enemies.\\nUsing the <u>Assist Skill</u> is considered as Himeko • Nova using her Skill. Himeko • Nova's All-Type <u>RES PEN</u> increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and CRIT DMG increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Attacks can ignore Weakness Types to reduce enemy Toughness. When Weakness is Broken, triggers the Fire Weakness Break effect.\\nWhen an ally character other than Himeko • Nova uses the <u>Assist Skill</u>, they regenerate <unbreak>#3[i]</unbreak> Energy.",
+      "simple_desc": "When Himeko • Nova is on the field, she deploys a <u>Territory</u>, granting all ally characters <u>Assist Skill</u>. When an ally character uses <u>Assist Skill</u>, Himeko • Nova's gains All-Type <u>RES PEN</u>boost and CRIT DMG boost, and her attacks ignore Weakness Types to reduce Toughness.\\nWhen ally characters aside from Himeko • Nova use <u>Assist Skill</u>, she regenerates Energy.",
+      "type_name": "Talent",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000020": {
+          "name": "Territory",
+          "desc": "Territory effects are unique in the battle. While it exists, other abilities with Territory effects cannot be used.",
+          "param": []
+        },
+        "10000031": {
+          "name": "Trailblaze Companions",
+          "desc": "Trailblazer, Himeko, Himeko • Nova, March 7th, Evernight, Dan Heng, Dan Heng • Imbibitor Lunae, Dan Heng • Permansor Terrae, Welt, Sunday.",
+          "param": []
+        },
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.5,
+            0.1,
+            10
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.55,
+            0.11,
+            10
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.6,
+            0.12,
+            10
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.65,
+            0.13,
+            10
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.7,
+            0.14,
+            10
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.75,
+            0.15,
+            10
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.8125,
+            0.1625,
+            10
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.875,
+            0.175,
+            10
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.9375,
+            0.1875,
+            10
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1,
+            0.2,
+            10
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            1.05,
+            0.21,
+            10
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            1.1,
+            0.22,
+            10
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1.15,
+            0.23,
+            10
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1.2,
+            0.24,
+            10
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1.25,
+            0.25,
+            10
+          ]
+        }
+      }
+    },
+    "151006": {
+      "id": 151006,
+      "name": "Attack",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "151007": {
+      "id": 151007,
+      "name": "Starcharter Cruise",
+      "desc": "When Himeko • Nova is in the team, increases max Technique Points by 3.\\nAfter using the Technique, she enters the \"Cruise\" state, lasting for <unbreak>#1[i]</unbreak> seconds. Actively using the Technique consumes 2 Technique Points and immediately attacks all enemies within a certain range. After entering combat, immediately uses Skill 1 time at the start of each wave.\\nIf attacking a Normal Enemy, immediately defeats them without entering combat. No Technique Points are consumed if no enemies are hit.",
+      "simple_desc": "Increases <color=#f29e38ff>max Technique Points</color> by 3. After using the Technique actively, enters the \"Cruise\" state and consumes 2 Technique Points to attack all enemies within a certain range. After entering combat, uses Skill 1 time at the start of each wave.\\nIf attacking a Normal Enemy, <color=#f29e38ff>immediately defeats them</color> without entering combat. No Technique Points are consumed if no enemies are hit.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            30
+          ]
+        }
+      }
+    },
+    "151008": {
+      "id": 151008,
+      "name": "Hyperluminal Particle Beam",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies and gains <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u>. A maximum of <unbreak>#3[i]</unbreak> <u>\"Source Energy\"</u> can be held.",
+      "simple_desc": "Deals minor Fire DMG to all enemies. Gains <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy\"</u>. A maximum of <color=#f29e38ff><unbreak>#3[i]</unbreak></color> <u>\"Source Energy\"</u> can be held.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "AoEAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        6,
+        0
+      ],
+      "extra": {
+        "10015101": {
+          "name": "Source Energy",
+          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.2,
+            1,
+            3
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.22,
+            1,
+            3
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.24,
+            1,
+            3
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.26,
+            1,
+            3
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.28,
+            1,
+            3
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.3,
+            1,
+            3
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.325,
+            1,
+            3
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.35,
+            1,
+            3
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.375,
+            1,
+            3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.4,
+            1,
+            3
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.42,
+            1,
+            3
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.44,
+            1,
+            3
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.46,
+            1,
+            3
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.48,
+            1,
+            3
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.5,
+            1,
+            3
+          ]
+        }
+      }
+    },
+    "151009": {
+      "id": 151009,
+      "name": "Orbital Annihilation Pulse",
+      "desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies. When current <u>\"Source Energy\"</u> is 1 point or more, for every <unbreak>#2[i]</unbreak> point(s) of <u>\"Source Energy\"</u> consumed, additionally deals 1 instance of Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.",
+      "simple_desc": "Consumes 1 point of <u>\"Source Energy\"</u> to deal minor Fire DMG to all enemies. When current <u>\"Source Energy\"</u> is 1 point or more, for every <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point(s) of <u>\"Source Energy\"</u> consumed, deals minor Fire DMG 1 time to one random enemy.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "AoEAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        6,
+        6,
+        0
+      ],
+      "extra": {
+        "10015101": {
+          "name": "Source Energy",
+          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.1,
+            1,
+            0.2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.11,
+            1,
+            0.22
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.12,
+            1,
+            0.24
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.13,
+            1,
+            0.26
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.14,
+            1,
+            0.28
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.15,
+            1,
+            0.3
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.1625,
+            1,
+            0.325
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.175,
+            1,
+            0.35
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.1875,
+            1,
+            0.375
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.2,
+            1,
+            0.4
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.21,
+            1,
+            0.42
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.22,
+            1,
+            0.44
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.23,
+            1,
+            0.46
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.24,
+            1,
+            0.48
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.25,
+            1,
+            0.5
+          ]
+        }
+      }
+    },
+    "151014": {
+      "id": 151014,
+      "name": "We, Too, Stride the Stars",
+      "simple_desc": "Deals <color=#f29e38ff><unbreak>#2[i]</unbreak></color> instance(s) of DMG, each dealing Fire DMG to one random enemy.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "AoEAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        12,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            3,
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            3,
+            0.55
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            3,
+            0.6
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            3,
+            0.65
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            3,
+            0.7
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            3,
+            0.75
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            3,
+            0.8125
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            3,
+            0.875
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            3,
+            0.9375
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            3,
+            1
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            3,
+            1.05
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            3,
+            1.1
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            3,
+            1.15
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            3,
+            1.2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            3,
+            1.25
+          ]
+        }
+      }
+    },
+    "151022": {
+      "id": 151022,
+      "name": "Trailblaze, By Your Side",
+      "desc": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies, and deals <unbreak>#2[i]</unbreak> extra instances of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy. When used by Himeko • Nova, deals Fire DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Himeko • Nova's ATK to all enemies, and deals <unbreak>#5[i]</unbreak> extra instances of DMG, with each instance dealing Fire DMG equal to <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of Himeko • Nova's ATK to one random enemy.\\nIf used by a <u>Trailblaze Companions</u> character other than Himeko • Nova, Himeko • Nova will additionally gain 1 of the <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=0 width=1 height=1>Special</unbreak> Effects</u></color> depending on the user.\\nThe extra <u>Assist Skill</u> triggered by all <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=1 width=1 height=1>Special</unbreak> Effects</u></color> can be triggered up to <unbreak>#8[i]</unbreak> time(s) per battle, and the trigger count is reset after Himeko • Nova uses her Ultimate.",
+      "simple_desc": "Deals minor Fire DMG to all enemies, and minor Fire DMG to <color=#f29e38ff><unbreak>#2[i]</unbreak></color> random enemies. When used by Himeko • Nova, deals minor Fire DMG to all enemies, and minor Fire DMG to <color=#f29e38ff><unbreak>#5[i]</unbreak></color> random enemies. If used by a <u>Trailblaze Companions</u> character other than Himeko • Nova, Himeko • Nova obtains 1 of the <color=#DE7A66><u><unbreak><icon SpriteName=AvatarHimekoNova id=0 width=1 height=1>Special</unbreak> Effects</u></color>.",
+      "type": "Assist",
+      "type_name": "Assist Skill",
+      "tag": "AoEAttack",
+      "sp_base": 18,
+      "bp_need": -1,
+      "show_stance_list": [
+        15,
+        30,
+        0
+      ],
+      "extra": {
+        "10000031": {
+          "name": "Trailblaze Companions",
+          "desc": "Trailblazer, Himeko, Himeko • Nova, March 7th, Evernight, Dan Heng, Dan Heng • Imbibitor Lunae, Dan Heng • Permansor Terrae, Welt, Sunday.",
+          "param": []
+        },
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1,
+            3,
+            0.15,
+            1.25,
+            4,
+            0.2,
+            10,
+            2
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.1,
+            3,
+            0.165,
+            1.375,
+            4,
+            0.22,
+            10,
+            2
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.2,
+            3,
+            0.18,
+            1.5,
+            4,
+            0.24,
+            10,
+            2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.3,
+            3,
+            0.195,
+            1.625,
+            4,
+            0.26,
+            10,
+            2
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.4,
+            3,
+            0.21,
+            1.75,
+            4,
+            0.28,
+            10,
+            2
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1.5,
+            3,
+            0.225,
+            1.875,
+            4,
+            0.3,
+            10,
+            2
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.625,
+            3,
+            0.24375,
+            2.03125,
+            4,
+            0.325,
+            10,
+            2
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.75,
+            3,
+            0.2625,
+            2.1875,
+            4,
+            0.35,
+            10,
+            2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.875,
+            3,
+            0.28125,
+            2.34375,
+            4,
+            0.375,
+            10,
+            2
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            2,
+            3,
+            0.3,
+            2.5,
+            4,
+            0.4,
+            10,
+            2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            2.1,
+            3,
+            0.315,
+            2.625,
+            4,
+            0.42,
+            10,
+            2
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            2.2,
+            3,
+            0.33,
+            2.75,
+            4,
+            0.44,
+            10,
+            2
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            2.3,
+            3,
+            0.345,
+            2.875,
+            4,
+            0.46,
+            10,
+            2
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            2.4,
+            3,
+            0.36,
+            3,
+            4,
+            0.48,
+            10,
+            2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            2.5,
+            3,
+            0.375,
+            3.125,
+            4,
+            0.5,
+            10,
+            2
+          ]
+        }
+      }
+    },
+    "151025": {
+      "id": 151025,
+      "name": "Companion Protocol: Verdict",
+      "desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova by <color=#f29e38ff><unbreak>#8[i]%</unbreak></color>, and additionally increases her Ultimate DMG dealt by <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>. After Himeko • Nova's teammates actively use their Ultimate <unbreak>#9[i]</unbreak> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy at no cost.",
+      "simple_desc": "Enters the \"Companion Protocol: Verdict\" state. Increases DMG dealt by Himeko • Nova, and additionally increases DMG dealt by her Ultimate. After Himeko • Nova's teammates actively use their Ultimate <color=#f29e38ff><unbreak>#9[i]</unbreak></color> time(s), Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy.",
+      "type": "Assist",
+      "type_name": "Assist Skill",
+      "tag": "AoEAttack",
+      "sp_base": 18,
+      "bp_need": -1,
+      "show_stance_list": [
+        15,
+        30,
+        0
+      ],
+      "extra": {
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1,
+            3,
+            0.15,
+            1.25,
+            4,
+            0.2,
+            10,
+            0.5,
+            2,
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.1,
+            3,
+            0.165,
+            1.25,
+            4,
+            0.22,
+            10,
+            0.55,
+            2,
+            0.55
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.2,
+            3,
+            0.18,
+            1.25,
+            4,
+            0.24,
+            10,
+            0.6,
+            2,
+            0.6
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.3,
+            3,
+            0.195,
+            1.25,
+            4,
+            0.26,
+            10,
+            0.65,
+            2,
+            0.65
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.4,
+            3,
+            0.21,
+            1.25,
+            4,
+            0.28,
+            10,
+            0.7,
+            2,
+            0.7
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1.5,
+            3,
+            0.225,
+            1.25,
+            4,
+            0.3,
+            10,
+            0.75,
+            2,
+            0.75
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.625,
+            3,
+            0.24375,
+            1.25,
+            4,
+            0.325,
+            10,
+            0.8125,
+            2,
+            0.8125
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.75,
+            3,
+            0.2625,
+            1.25,
+            4,
+            0.35,
+            10,
+            0.875,
+            2,
+            0.875
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.875,
+            3,
+            0.28125,
+            1.25,
+            4,
+            0.375,
+            10,
+            0.9375,
+            2,
+            0.9375
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            2,
+            3,
+            0.3,
+            1.25,
+            4,
+            0.4,
+            10,
+            1,
+            2,
+            1
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            2.1,
+            3,
+            0.315,
+            1.25,
+            4,
+            0.42,
+            10,
+            1.05,
+            2,
+            1.05
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            2.2,
+            3,
+            0.33,
+            1.25,
+            4,
+            0.44,
+            10,
+            1.1,
+            2,
+            1.1
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            2.3,
+            3,
+            0.345,
+            1.25,
+            4,
+            0.46,
+            10,
+            1.15,
+            2,
+            1.15
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            2.4,
+            3,
+            0.36,
+            1.25,
+            4,
+            0.48,
+            10,
+            1.2,
+            2,
+            1.2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            2.5,
+            3,
+            0.375,
+            1.25,
+            4,
+            0.5,
+            10,
+            1.25,
+            2,
+            1.25
+          ]
+        }
+      }
+    },
+    "151026": {
+      "id": 151026,
+      "name": "Companion Protocol: Decimation",
+      "desc": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG by <color=#f29e38ff><unbreak>#8[i]%</unbreak></color>, and additionally increases the CRIT DMG dealt by Skills by <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches <unbreak>#9[i]</unbreak> points, consumes all Charge, and Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy at no cost. This instance of <u>Assist Skill</u> cannot gain Charge.",
+      "simple_desc": "Enters the \"Companion Protocol: Decimation\" state. Increases all allies' CRIT DMG, and additionally increases CRIT DMG dealt by Skills. Gains 1 point of Charge for each enemy target hit by an ally. When Charge reaches <color=#f29e38ff><unbreak>#9[i]</unbreak></color> points, consumes all Charge, and Himeko • Nova immediately launches 1 <u>Assist Skill</u> against the enemy.",
+      "type": "Assist",
+      "type_name": "Assist Skill",
+      "tag": "AoEAttack",
+      "sp_base": 18,
+      "bp_need": -1,
+      "show_stance_list": [
+        15,
+        30,
+        0
+      ],
+      "extra": {
+        "10000032": {
+          "name": "Assist Skill",
+          "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1,
+            3,
+            0.15,
+            1.25,
+            4,
+            0.2,
+            10,
+            0.5,
+            9,
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.1,
+            3,
+            0.165,
+            1.375,
+            4,
+            0.22,
+            10,
+            0.55,
+            9,
+            0.55
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.2,
+            3,
+            0.18,
+            1.5,
+            4,
+            0.24,
+            10,
+            0.6,
+            9,
+            0.6
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.3,
+            3,
+            0.195,
+            1.625,
+            4,
+            0.26,
+            10,
+            0.65,
+            9,
+            0.65
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.4,
+            3,
+            0.21,
+            1.75,
+            4,
+            0.28,
+            10,
+            0.7,
+            9,
+            0.7
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1.5,
+            3,
+            0.225,
+            1.875,
+            4,
+            0.3,
+            10,
+            0.75,
+            9,
+            0.75
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.625,
+            3,
+            0.24375,
+            2.03125,
+            4,
+            0.325,
+            10,
+            0.8125,
+            9,
+            0.8125
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.75,
+            3,
+            0.2625,
+            2.1875,
+            4,
+            0.35,
+            10,
+            0.875,
+            9,
+            0.875
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.875,
+            3,
+            0.28125,
+            2.34375,
+            4,
+            0.375,
+            10,
+            0.9375,
+            9,
+            0.9375
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            2,
+            3,
+            0.3,
+            2.5,
+            4,
+            0.4,
+            10,
+            1,
+            9,
+            1
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            2.1,
+            3,
+            0.315,
+            2.625,
+            4,
+            0.42,
+            10,
+            1.05,
+            9,
+            1.05
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            2.2,
+            3,
+            0.33,
+            2.75,
+            4,
+            0.44,
+            10,
+            1.1,
+            9,
+            1.1
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            2.3,
+            3,
+            0.345,
+            2.875,
+            4,
+            0.46,
+            10,
+            1.15,
+            9,
+            1.15
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            2.4,
+            3,
+            0.36,
+            3,
+            4,
+            0.48,
+            10,
+            1.2,
+            9,
+            1.2
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            2.5,
+            3,
+            0.375,
+            3.125,
+            4,
+            0.5,
+            10,
+            1.25,
+            9,
+            1.25
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1510_Normal.png",
+        "level_up_skill_id": [
+          151001
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1510001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Normal.png",
+        "level_up_skill_id": [
+          151001
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110291,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1510001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Normal.png",
+        "level_up_skill_id": [
+          151001
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1510001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Normal.png",
+        "level_up_skill_id": [
+          151001
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1510001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Normal.png",
+        "level_up_skill_id": [
+          151001
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1510001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Normal.png",
+        "level_up_skill_id": [
+          151001
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1510001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110291,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_BP.png",
+        "level_up_skill_id": [
+          151002
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110291,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Ultra.png",
+        "level_up_skill_id": [
+          151003,
+          151008,
+          151009,
+          151014
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110291,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_Passive.png",
+        "level_up_skill_id": [
+          151004,
+          151022,
+          151025,
+          151026
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1510004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1510_Maze.png",
+        "level_up_skill_id": [
+          151007
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110291,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          5
+        ],
+        "point_id": 1510101,
+        "point_name": "Whither, the Last and First Men?",
+        "point_desc": "When Himeko • Nova uses her <u>Assist Skill</u>, it does not consume <u>Assist Skill</u> uses. At the start of the turn, if the current <u>Assist Skill</u> uses equal the current maximum limit, Himeko • Nova additionally regenerates <unbreak>#1[i]</unbreak> Energy.",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000032": {
+            "name": "Assist Skill",
+            "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510102,
+        "point_name": "Hark! The Express's Pulse Roars",
+        "point_desc": "When a <u>Trailblaze Companions</u> character other than Himeko • Nova uses an <u>Assist Skill</u>, that character immediately gains 1 <u>extra turn</u> during which they can use their Ultimate. An <u>extra turn</u> gained from an <u>Assist Skill</u> will not repeatedly trigger this Trace effect.",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000000": {
+            "name": "Extra Turn",
+            "desc": "Gain 1 extra turn that won't expend your remaining turns when taking action. During this extra turn, no Ultimate can be used.",
+            "param": []
+          },
+          "10000031": {
+            "name": "Trailblaze Companions",
+            "desc": "Trailblazer, Himeko, Himeko • Nova, March 7th, Evernight, Dan Heng, Dan Heng • Imbibitor Lunae, Dan Heng • Permansor Terrae, Welt, Sunday.",
+            "param": []
+          },
+          "10000032": {
+            "name": "Assist Skill",
+            "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1510_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          3,
+          3,
+          0.4
+        ],
+        "point_id": 1510103,
+        "point_name": "The Silver Rail, Hushed in Antiquity",
+        "point_desc": "When using Ultimate, immediately gains <unbreak>#1[i]</unbreak> point(s) of <u>\"Source Energy.\"</u> If current <u>\"Source Energy\"</u> is <unbreak>#2[i]</unbreak> point(s) or more, when using the \"Orbital Annihilation Pulse\" attack, the DMG multiplier of \"Orbital Annihilation Pulse\" against random single enemies increases by <unbreak>#3[i]%</unbreak>.",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10015101": {
+            "name": "Source Energy",
+            "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510201,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.04,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110291,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510202,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [
+          1510101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510203,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1510202
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.04,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconFireAddedRatio.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510204,
+        "point_name": "DMG Boost: Fire",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [
+          1510202
+        ],
+        "status_add_list": [
+          {
+            "property_type": "FireAddedRatio",
+            "value": 0.032,
+            "name": "Fire DMG Boost"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110292,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510205,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1510102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.06,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510206,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1510205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510207,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [
+          1510205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.06,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconFireAddedRatio.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510208,
+        "point_name": "DMG Boost: Fire",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1510103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "FireAddedRatio",
+            "value": 0.048,
+            "name": "Fire DMG Boost"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510209,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1510103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.053,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110293,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1510210,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.08,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {},
+  "unique": {},
+  "stats": {
+    "0": {
+      "attack_base": 102.96,
+      "attack_add": 5.148,
+      "defence_base": 66,
+      "defence_add": 3.3,
+      "hp_base": 153.12,
+      "hp_add": 7.656,
+      "speed_base": 98,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 144.144,
+      "attack_add": 5.148,
+      "defence_base": 92.4,
+      "defence_add": 3.3,
+      "hp_base": 214.368,
+      "hp_add": 7.656,
+      "speed_base": 98,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 185.328,
+      "attack_add": 5.148,
+      "defence_base": 118.8,
+      "defence_add": 3.3,
+      "hp_base": 275.616,
+      "hp_add": 7.656,
+      "speed_base": 98,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110432,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 226.512,
+      "attack_add": 5.148,
+      "defence_base": 145.2,
+      "defence_add": 3.3,
+      "hp_base": 336.864,
+      "hp_add": 7.656,
+      "speed_base": 98,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110432,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 267.696,
+      "attack_add": 5.148,
+      "defence_base": 171.6,
+      "defence_add": 3.3,
+      "hp_base": 398.112,
+      "hp_add": 7.656,
+      "speed_base": 98,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110432,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 308.88,
+      "attack_add": 5.148,
+      "defence_base": 198,
+      "defence_add": 3.3,
+      "hp_base": 459.36,
+      "hp_add": 7.656,
+      "speed_base": 98,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110432,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 350.064,
+      "attack_add": 5.148,
+      "defence_base": 224.4,
+      "defence_add": 3.3,
+      "hp_base": 520.608,
+      "hp_add": 7.656,
+      "speed_base": 98,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1510,
+    "set4_id_list": [
+      131,
+      126,
+      107
+    ],
+    "set2_id_list": [
+      327,
+      306,
+      318
+    ],
+    "property_list3": [
+      "CriticalChanceBase",
+      "CriticalDamageBase"
+    ],
+    "property_list4": [
+      "AttackAddedRatio",
+      "SpeedDelta"
+    ],
+    "property_list5": [
+      "FireAddedRatio",
+      "AttackAddedRatio"
+    ],
+    "property_list6": [
+      "SPRatioBase",
+      "AttackAddedRatio"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "CriticalChanceBase"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "AttackAddedRatio"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "FireAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "SPRatioBase"
+      }
+    ],
+    "sub_affix_property_list": [
+      "CriticalChanceBase",
+      "CriticalDamageBase",
+      "AttackAddedRatio",
+      "SpeedDelta"
+    ],
+    "score_rank_list": [
+      346,
+      288
+    ]
+  },
+  "lightcones": [
+    23060,
+    23037,
+    24004
+  ],
+  "teams": [
+    {
+      "avatar_id": 1510,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1507,
+        1306,
+        1414
+      ],
+      "backup_list1": [
+        1403,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_list2": [
+        1415,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_list3": [],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1510,
+      "team_id": 2,
+      "position": 1,
+      "member_list": [
+        1313,
+        1306,
+        1414
+      ],
+      "backup_list1": [
+        1004
+      ],
+      "backup_list2": [
+        1415,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_list3": [
+        1409,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        126
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

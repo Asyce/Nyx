@@ -1,0 +1,138 @@
+{
+  "id": 15024,
+  "icon": "UI_RelicIcon_15024_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150240,
+      "id": 215024,
+      "param_list": [
+        0.18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Echoes of an Offering",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150241,
+      "id": 215024,
+      "level": 1,
+      "open_config": "Relic_AttackWithExtraDamage",
+      "param_list": [
+        0.36,
+        0.7,
+        0.05,
+        0.2,
+        0.2,
+        0.2,
+        0,
+        0
+      ],
+      "name": "Echoes of an Offering",
+      "desc": "When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15024_1",
+      "name": "Chalice of the Font",
+      "desc": "This teacup forever overflows with fresh water. Perhaps it was a gift from an adeptus, one of their relics, or just something they left behind.",
+      "story": {
+        "285241": {
+          "zh": "ART/UI/Readable/CHS/Relic15024_1",
+          "en": "ART/UI/Readable/EN/Relic15024_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15024_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15024_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15024_2",
+      "name": "Jade Leaf",
+      "desc": "A jade ornament shaped like a leaf. It seems to have once had deep meaning between specific friends.",
+      "story": {
+        "285242": {
+          "zh": "ART/UI/Readable/CHS/Relic15024_2",
+          "en": "ART/UI/Readable/EN/Relic15024_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15024_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15024_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15024_3",
+      "name": "Flowing Rings",
+      "desc": "A pair of earrings made from a single piece of jade. It has a most gentle texture.",
+      "story": {
+        "285243": {
+          "zh": "ART/UI/Readable/CHS/Relic15024_3",
+          "en": "ART/UI/Readable/EN/Relic15024_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15024_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15024_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15024_4",
+      "name": "Soulscent Bloom",
+      "desc": "A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it.",
+      "story": {
+        "285244": {
+          "zh": "ART/UI/Readable/CHS/Relic15024_4",
+          "en": "ART/UI/Readable/EN/Relic15024_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15024_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15024_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15024_5",
+      "name": "Symbol of Felicitation",
+      "desc": "A circular jade ornament. Legend has it that it was once used somewhere as a symbol for rituals to begin.",
+      "story": {
+        "285245": {
+          "zh": "ART/UI/Readable/CHS/Relic15024_5",
+          "en": "ART/UI/Readable/EN/Relic15024_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15024_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15024_5_KR"
+        }
+      }
+    }
+  }
+}

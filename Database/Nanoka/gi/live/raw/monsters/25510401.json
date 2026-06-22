@@ -1,0 +1,175 @@
+{
+  "name": "Yumkasaurus Warrior: Flowing Skyfire",
+  "desc": "A powerful warrior from the Canopy, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\\nA warrior who can use a grappling hook to extend their attack range. Following intricate mechanical tinkering, the handcannon they wield can be fired using said grappling hook. For the Saurian-Crowned warriors of the Scions of the Canopy, refining one's skills and thought is more important than training the spirit and will.",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Launcher_Hookwalker",
+  "codex": "HUMAN",
+  "title": "Yumkasaurus Warrior: Flowing Skyfire",
+  "special_names": [
+    "Bravery Saurian-Crowned"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112106,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    {
+      "id": 112105,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    {
+      "id": 112104,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    }
+  ],
+  "child": {
+    "25510401": {
+      "monster_name": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010013,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010013,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010023,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510402": {
+      "monster_name": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_Ghost_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010013,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010013,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010023,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 70.6368,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510403": {
+      "monster_name": "Tribalwarrior_Female_Standard_Launcher_Hookwalker_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010013,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010013,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010023,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

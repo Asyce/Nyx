@@ -1,0 +1,33 @@
+{
+  "name": "Musketeer of Wild Wheat",
+  "icon": "SpriteOutput/ItemIcon/71001.png",
+  "parts": {
+    "31021": {
+      "name": "Musketeer's Wild Wheat Felt Hat"
+    },
+    "31022": {
+      "name": "Musketeer's Coarse Leather Gloves"
+    },
+    "31023": {
+      "name": "Musketeer's Wind-Hunting Shawl"
+    },
+    "31024": {
+      "name": "Musketeer's Rivets Riding Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.12
+      ]
+    },
+    "4": {
+      "desc": "The wearer's SPD increases by <unbreak>#1[i]%</unbreak> and DMG dealt by Basic ATK increases by <unbreak>#2[i]%</unbreak>.",
+      "param_list": [
+        0.06,
+        0.1
+      ]
+    }
+  }
+}

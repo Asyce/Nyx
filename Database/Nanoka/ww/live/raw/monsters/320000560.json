@@ -1,0 +1,883 @@
+{
+  "id": 320000560,
+  "name": "Sabercat Prowler",
+  "desc": "A machine capable of camouflage. It possesses heightened senses and uses the detector on its tail to track enemy movements.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Dark>Havoc DMG</color>.\n\nWhen Sabercat Prowler is in a state of Invisibility, its all All-Attribute RES is increased by 30%.\n\nHitting Sabercat Prowler with Tune Break forces it out of Invisibility.\n\nWhen Sabercat Prowler is under Tune Rupture - Shifting and hit by Tune Break, it takes additional DMG equal to 25% of its Max HP, triggered only once.\n\nA machine capable of camouflage, its parts are badly corrupted by Voidmatter, causing severe degradation to its vision and hearing. Yet this also heightens its other sensory perceptions. It tracks enemy movements by using the detector on its tail to sense changes in frequency.",
+  "rarity": 2,
+  "element": 6,
+  "element_array": [
+    6
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32056_UI.T_IconMonsterHead_32056_UI",
+  "echo": 6000186,
+  "base_stats": {
+    "damage_resistance_phys": 1000,
+    "damage_resistance_element1": 1000,
+    "damage_resistance_element2": 1000,
+    "damage_resistance_element3": 1000,
+    "damage_resistance_element4": 1000,
+    "damage_resistance_element5": 1000,
+    "damage_resistance_element6": 4000,
+    "rage_change": 0,
+    "tough_change": 10000,
+    "hardness_change": 0,
+    "rage_recover": 0,
+    "tough_recover": 2000,
+    "hardness_recover": 2049,
+    "rage_reduce": 10000,
+    "tough_reduce": 10000,
+    "hardness_reduce": 10000,
+    "element_property_type": 6,
+    "energy_max": 10000,
+    "weak_time": 100,
+    "mass": 150,
+    "paralysis_time_max": 5000,
+    "weakness_build_up": 0,
+    "weakness_build_up_max": 10000,
+    "weakness_total_bonus": 0,
+    "break_weakness_ratio": 10000,
+    "weakness_mastery": 0
+  },
+  "stats": {
+    "1": {
+      "life": 259,
+      "atk": 75,
+      "def": 800,
+      "hardness_max": 30745,
+      "rage_max": 24150
+    },
+    "2": {
+      "life": 274.1774,
+      "atk": 82.14,
+      "def": 808,
+      "hardness_max": 32546.657,
+      "rage_max": 25565.19
+    },
+    "3": {
+      "life": 289.5102,
+      "atk": 89.43,
+      "def": 816,
+      "hardness_max": 34366.761,
+      "rage_max": 26994.87
+    },
+    "4": {
+      "life": 290.9865,
+      "atk": 96.84,
+      "def": 824,
+      "hardness_max": 34542.0075,
+      "rage_max": 27132.525
+    },
+    "5": {
+      "life": 292.4369,
+      "atk": 104.37,
+      "def": 832,
+      "hardness_max": 34714.1795,
+      "rage_max": 27267.765
+    },
+    "6": {
+      "life": 308.0805,
+      "atk": 112.035,
+      "def": 840,
+      "hardness_max": 36571.1775,
+      "rage_max": 28726.425
+    },
+    "7": {
+      "life": 323.8795,
+      "atk": 119.82,
+      "def": 848,
+      "hardness_max": 38446.6225,
+      "rage_max": 30199.575
+    },
+    "8": {
+      "life": 339.808,
+      "atk": 127.74,
+      "def": 856,
+      "hardness_max": 40337.44,
+      "rage_max": 31684.8
+    },
+    "9": {
+      "life": 355.8919,
+      "atk": 135.78,
+      "def": 864,
+      "hardness_max": 42246.7045,
+      "rage_max": 33184.515
+    },
+    "10": {
+      "life": 372.1312,
+      "atk": 143.955,
+      "def": 872,
+      "hardness_max": 44174.416,
+      "rage_max": 34698.72
+    },
+    "11": {
+      "life": 407.925,
+      "atk": 152.25,
+      "def": 880,
+      "hardness_max": 48423.375,
+      "rage_max": 38036.25
+    },
+    "12": {
+      "life": 425.3039,
+      "atk": 160.68,
+      "def": 888,
+      "hardness_max": 50486.3645,
+      "rage_max": 39656.715
+    },
+    "13": {
+      "life": 443.9001,
+      "atk": 169.245,
+      "def": 896,
+      "hardness_max": 52693.8555,
+      "rage_max": 41390.685
+    },
+    "14": {
+      "life": 462.6776,
+      "atk": 177.93,
+      "def": 904,
+      "hardness_max": 54922.868,
+      "rage_max": 43141.56
+    },
+    "15": {
+      "life": 482.6983,
+      "atk": 186.735,
+      "def": 912,
+      "hardness_max": 57299.4565,
+      "rage_max": 45008.355
+    },
+    "16": {
+      "life": 505.05,
+      "atk": 195.675,
+      "def": 920,
+      "hardness_max": 59952.75,
+      "rage_max": 47092.5
+    },
+    "17": {
+      "life": 528.7226,
+      "atk": 204.75,
+      "def": 928,
+      "hardness_max": 62762.843,
+      "rage_max": 49299.81
+    },
+    "18": {
+      "life": 552.5765,
+      "atk": 213.96,
+      "def": 936,
+      "hardness_max": 65594.4575,
+      "rage_max": 51524.025
+    },
+    "19": {
+      "life": 578.865,
+      "atk": 223.29,
+      "def": 944,
+      "hardness_max": 68715.075,
+      "rage_max": 53975.25
+    },
+    "20": {
+      "life": 691.9185,
+      "atk": 232.77,
+      "def": 952,
+      "hardness_max": 82135.2675,
+      "rage_max": 64516.725
+    },
+    "21": {
+      "life": 821.1595,
+      "atk": 315.48,
+      "def": 960,
+      "hardness_max": 97477.0225,
+      "rage_max": 76567.575
+    },
+    "22": {
+      "life": 878.1913,
+      "atk": 326.73,
+      "def": 968,
+      "hardness_max": 104247.0715,
+      "rage_max": 81885.405
+    },
+    "23": {
+      "life": 926.2099,
+      "atk": 338.1,
+      "def": 976,
+      "hardness_max": 109947.1945,
+      "rage_max": 86362.815
+    },
+    "24": {
+      "life": 968.2974,
+      "atk": 349.635,
+      "def": 984,
+      "hardness_max": 114943.257,
+      "rage_max": 90287.19
+    },
+    "25": {
+      "life": 1093.239,
+      "atk": 362.28,
+      "def": 992,
+      "hardness_max": 129774.645,
+      "rage_max": 101937.15
+    },
+    "26": {
+      "life": 1139.1338,
+      "atk": 375.105,
+      "def": 1000,
+      "hardness_max": 135222.659,
+      "rage_max": 106216.53
+    },
+    "27": {
+      "life": 1306.137,
+      "atk": 388.095,
+      "def": 1008,
+      "hardness_max": 155047.035,
+      "rage_max": 121788.45
+    },
+    "28": {
+      "life": 1486.0643,
+      "atk": 401.25,
+      "def": 1016,
+      "hardness_max": 176405.5865,
+      "rage_max": 138565.455
+    },
+    "29": {
+      "life": 1584.8469,
+      "atk": 415.425,
+      "def": 1024,
+      "hardness_max": 188131.7295,
+      "rage_max": 147776.265
+    },
+    "30": {
+      "life": 1745.7636,
+      "atk": 429.765,
+      "def": 1032,
+      "hardness_max": 207233.598,
+      "rage_max": 162780.66
+    },
+    "31": {
+      "life": 1910.384,
+      "atk": 443.475,
+      "def": 1040,
+      "hardness_max": 226775.12,
+      "rage_max": 178130.4
+    },
+    "32": {
+      "life": 2065.0847,
+      "atk": 458.22,
+      "def": 1048,
+      "hardness_max": 245139.1085,
+      "rage_max": 192555.195
+    },
+    "33": {
+      "life": 2223.2042,
+      "atk": 473.13,
+      "def": 1056,
+      "hardness_max": 263908.931,
+      "rage_max": 207298.77
+    },
+    "34": {
+      "life": 2390.2074,
+      "atk": 489.135,
+      "def": 1064,
+      "hardness_max": 283733.307,
+      "rage_max": 222870.69
+    },
+    "35": {
+      "life": 2561.2251,
+      "atk": 504.855,
+      "def": 1072,
+      "hardness_max": 304034.2305,
+      "rage_max": 238816.935
+    },
+    "36": {
+      "life": 2725.6383,
+      "atk": 520.815,
+      "def": 1080,
+      "hardness_max": 323551.1565,
+      "rage_max": 254147.355
+    },
+    "37": {
+      "life": 2896.6301,
+      "atk": 537.885,
+      "def": 1088,
+      "hardness_max": 343849.0055,
+      "rage_max": 270091.185
+    },
+    "38": {
+      "life": 3071.2997,
+      "atk": 555.195,
+      "def": 1096,
+      "hardness_max": 364583.4335,
+      "rage_max": 286377.945
+    },
+    "39": {
+      "life": 3249.673,
+      "atk": 571.86,
+      "def": 1104,
+      "hardness_max": 385757.515,
+      "rage_max": 303010.05
+    },
+    "40": {
+      "life": 3435.4019,
+      "atk": 589.65,
+      "def": 1112,
+      "hardness_max": 407804.7545,
+      "rage_max": 320328.015
+    },
+    "41": {
+      "life": 3475.4174,
+      "atk": 735.945,
+      "def": 1120,
+      "hardness_max": 412554.857,
+      "rage_max": 324059.19
+    },
+    "42": {
+      "life": 3736.8261,
+      "atk": 757.995,
+      "def": 1128,
+      "hardness_max": 443585.7855,
+      "rage_max": 348433.785
+    },
+    "43": {
+      "life": 3992.6145,
+      "atk": 781.98,
+      "def": 1136,
+      "hardness_max": 473949.5475,
+      "rage_max": 372284.325
+    },
+    "44": {
+      "life": 4255.2923,
+      "atk": 804.795,
+      "def": 1144,
+      "hardness_max": 505131.1265,
+      "rage_max": 396777.255
+    },
+    "45": {
+      "life": 4519.5759,
+      "atk": 827.985,
+      "def": 1152,
+      "hardness_max": 536503.3245,
+      "rage_max": 421419.915
+    },
+    "46": {
+      "life": 4798.8556,
+      "atk": 851.565,
+      "def": 1160,
+      "hardness_max": 569655.658,
+      "rage_max": 447460.86
+    },
+    "47": {
+      "life": 5199.8653,
+      "atk": 875.535,
+      "def": 1168,
+      "hardness_max": 617258.1415,
+      "rage_max": 484852.305
+    },
+    "48": {
+      "life": 5608.0752,
+      "atk": 899.91,
+      "def": 1176,
+      "hardness_max": 665715.336,
+      "rage_max": 522915.12
+    },
+    "49": {
+      "life": 6026.5933,
+      "atk": 924.66,
+      "def": 1184,
+      "hardness_max": 715396.1815,
+      "rage_max": 561939.105
+    },
+    "50": {
+      "life": 6666.8672,
+      "atk": 1017.12,
+      "def": 1192,
+      "hardness_max": 791400.896,
+      "rage_max": 621640.32
+    },
+    "51": {
+      "life": 7469.5082,
+      "atk": 1162.785,
+      "def": 1200,
+      "hardness_max": 886679.651,
+      "rage_max": 696481.17
+    },
+    "52": {
+      "life": 8166.9693,
+      "atk": 1192.485,
+      "def": 1208,
+      "hardness_max": 969472.8615,
+      "rage_max": 761514.705
+    },
+    "53": {
+      "life": 8879.2711,
+      "atk": 1220.085,
+      "def": 1216,
+      "hardness_max": 1054027.7605,
+      "rage_max": 827932.035
+    },
+    "54": {
+      "life": 9655.6236,
+      "atk": 1250.655,
+      "def": 1224,
+      "hardness_max": 1146185.898,
+      "rage_max": 900321.66
+    },
+    "55": {
+      "life": 10308.9511,
+      "atk": 1281.705,
+      "def": 1232,
+      "hardness_max": 1223740.1605,
+      "rage_max": 961240.035
+    },
+    "56": {
+      "life": 10888.1269,
+      "atk": 1313.235,
+      "def": 1240,
+      "hardness_max": 1292492.1295,
+      "rage_max": 1015244.265
+    },
+    "57": {
+      "life": 11536.7924,
+      "atk": 1342.59,
+      "def": 1248,
+      "hardness_max": 1369492.982,
+      "rage_max": 1075727.94
+    },
+    "58": {
+      "life": 12436.7915,
+      "atk": 1372.365,
+      "def": 1256,
+      "hardness_max": 1476328.7825,
+      "rage_max": 1159646.775
+    },
+    "59": {
+      "life": 13421.8462,
+      "atk": 1405.305,
+      "def": 1264,
+      "hardness_max": 1593261.241,
+      "rage_max": 1251496.47
+    },
+    "60": {
+      "life": 14042.9023,
+      "atk": 1444.02,
+      "def": 1272,
+      "hardness_max": 1666984.6765,
+      "rage_max": 1309405.755
+    },
+    "61": {
+      "life": 14936.1156,
+      "atk": 1894.17,
+      "def": 1280,
+      "hardness_max": 1773014.958,
+      "rage_max": 1392691.86
+    },
+    "62": {
+      "life": 16240.2065,
+      "atk": 2010.39,
+      "def": 1288,
+      "hardness_max": 1927819.1075,
+      "rage_max": 1514289.525
+    },
+    "63": {
+      "life": 17482.8108,
+      "atk": 2133.315,
+      "def": 1296,
+      "hardness_max": 2075324.394,
+      "rage_max": 1630153.98
+    },
+    "64": {
+      "life": 18889.2326,
+      "atk": 2263.455,
+      "def": 1304,
+      "hardness_max": 2242275.893,
+      "rage_max": 1761293.31
+    },
+    "65": {
+      "life": 20975.5294,
+      "atk": 2371.86,
+      "def": 1312,
+      "hardness_max": 2489933.017,
+      "rage_max": 1955826.39
+    },
+    "66": {
+      "life": 22672.2643,
+      "atk": 2452.14,
+      "def": 1320,
+      "hardness_max": 2691346.5865,
+      "rage_max": 2114035.455
+    },
+    "67": {
+      "life": 24249.5484,
+      "atk": 2535.915,
+      "def": 1328,
+      "hardness_max": 2878580.562,
+      "rage_max": 2261106.54
+    },
+    "68": {
+      "life": 26180.497,
+      "atk": 2629.215,
+      "def": 1336,
+      "hardness_max": 3107796.835,
+      "rage_max": 2441154.45
+    },
+    "69": {
+      "life": 28011.3421,
+      "atk": 2720.805,
+      "def": 1344,
+      "hardness_max": 3325130.1655,
+      "rage_max": 2611868.385
+    },
+    "70": {
+      "life": 29822.7363,
+      "atk": 2816.61,
+      "def": 1352,
+      "hardness_max": 3540154.5465,
+      "rage_max": 2780768.655
+    },
+    "71": {
+      "life": 32368.0329,
+      "atk": 3166.2,
+      "def": 1360,
+      "hardness_max": 3842297.9595,
+      "rage_max": 3018100.365
+    },
+    "72": {
+      "life": 35684.6833,
+      "atk": 3273.645,
+      "def": 1368,
+      "hardness_max": 4236006.1315,
+      "rage_max": 3327355.605
+    },
+    "73": {
+      "life": 39231.9214,
+      "atk": 3372.015,
+      "def": 1376,
+      "hardness_max": 4657086.577,
+      "rage_max": 3658111.59
+    },
+    "74": {
+      "life": 42860.3301,
+      "atk": 3474.21,
+      "def": 1384,
+      "hardness_max": 5087802.5055,
+      "rage_max": 3996436.185
+    },
+    "75": {
+      "life": 47073.6385,
+      "atk": 3580.47,
+      "def": 1392,
+      "hardness_max": 5587949.8675,
+      "rage_max": 4389298.725
+    },
+    "76": {
+      "life": 50943.4611,
+      "atk": 3691.08,
+      "def": 1400,
+      "hardness_max": 6047323.2105,
+      "rage_max": 4750133.535
+    },
+    "77": {
+      "life": 54196.0867,
+      "atk": 3806.28,
+      "def": 1408,
+      "hardness_max": 6433431.2185,
+      "rage_max": 5053418.895
+    },
+    "78": {
+      "life": 57589.6342,
+      "atk": 3970.47,
+      "def": 1416,
+      "hardness_max": 6836267.581,
+      "rage_max": 5369844.27
+    },
+    "79": {
+      "life": 61130.0347,
+      "atk": 4081.695,
+      "def": 1424,
+      "hardness_max": 7256536.3585,
+      "rage_max": 5699962.695
+    },
+    "80": {
+      "life": 64396.1024,
+      "atk": 4197.81,
+      "def": 1432,
+      "hardness_max": 7644240.032,
+      "rage_max": 6004501.44
+    },
+    "81": {
+      "life": 67928.7847,
+      "atk": 4549.68,
+      "def": 1440,
+      "hardness_max": 8063592.6085,
+      "rage_max": 6333900.195
+    },
+    "82": {
+      "life": 72589.3084,
+      "atk": 4615.575,
+      "def": 1448,
+      "hardness_max": 8616827.362,
+      "rage_max": 6768462.54
+    },
+    "83": {
+      "life": 78104.0918,
+      "atk": 4642.065,
+      "def": 1456,
+      "hardness_max": 9271468.349,
+      "rage_max": 7282678.83
+    },
+    "84": {
+      "life": 84239.0766,
+      "atk": 4708.02,
+      "def": 1464,
+      "hardness_max": 9999731.313,
+      "rage_max": 7854724.71
+    },
+    "85": {
+      "life": 90848.8602,
+      "atk": 4774.05,
+      "def": 1472,
+      "hardness_max": 10784356.011,
+      "rage_max": 8471042.37
+    },
+    "86": {
+      "life": 97712.3343,
+      "atk": 4800.57,
+      "def": 1480,
+      "hardness_max": 11599095.4365,
+      "rage_max": 9111014.955
+    },
+    "87": {
+      "life": 103092.0233,
+      "atk": 4866.645,
+      "def": 1488,
+      "hardness_max": 12237699.8315,
+      "rage_max": 9612634.605
+    },
+    "88": {
+      "life": 108799.4768,
+      "atk": 4932.795,
+      "def": 1496,
+      "hardness_max": 12915212.024,
+      "rage_max": 10144816.08
+    },
+    "89": {
+      "life": 114698.8752,
+      "atk": 4959.345,
+      "def": 1504,
+      "hardness_max": 13615509.336,
+      "rage_max": 10694895.12
+    },
+    "90": {
+      "life": 121066.5974,
+      "atk": 5025.585,
+      "def": 1512,
+      "hardness_max": 14371399.757,
+      "rage_max": 11288642.19
+    },
+    "91": {
+      "life": 127219.1683,
+      "atk": 5025.585,
+      "def": 1520,
+      "hardness_max": 15101750.3065,
+      "rage_max": 11862327.855
+    },
+    "92": {
+      "life": 133629.9881,
+      "atk": 5025.585,
+      "def": 1528,
+      "hardness_max": 15862756.6955,
+      "rage_max": 12460093.485
+    },
+    "93": {
+      "life": 139122.7565,
+      "atk": 5025.585,
+      "def": 1536,
+      "hardness_max": 16514784.3575,
+      "rage_max": 12972257.025
+    },
+    "94": {
+      "life": 143752.3297,
+      "atk": 5025.585,
+      "def": 1544,
+      "hardness_max": 17064345.0835,
+      "rage_max": 13403933.445
+    },
+    "95": {
+      "life": 147291.2021,
+      "atk": 5025.585,
+      "def": 1552,
+      "hardness_max": 17484432.4655,
+      "rage_max": 13733909.385
+    },
+    "96": {
+      "life": 152585.6024,
+      "atk": 5025.585,
+      "def": 1560,
+      "hardness_max": 18112912.532,
+      "rage_max": 14227576.44
+    },
+    "97": {
+      "life": 156897.5639,
+      "atk": 5025.585,
+      "def": 1568,
+      "hardness_max": 18624770.6645,
+      "rage_max": 14629637.715
+    },
+    "98": {
+      "life": 160682.305,
+      "atk": 5025.585,
+      "def": 1576,
+      "hardness_max": 19074044.275,
+      "rage_max": 14982539.25
+    },
+    "99": {
+      "life": 164470.0505,
+      "atk": 5025.585,
+      "def": 1584,
+      "hardness_max": 19523674.5275,
+      "rage_max": 15335720.925
+    },
+    "100": {
+      "life": 168018.4282,
+      "atk": 5025.585,
+      "def": 1592,
+      "hardness_max": 19944890.251,
+      "rage_max": 15666583.17
+    },
+    "101": {
+      "life": 177427.1989,
+      "atk": 5025.585,
+      "def": 1600,
+      "hardness_max": 21061773.0895,
+      "rage_max": 16543887.465
+    },
+    "102": {
+      "life": 178575.2423,
+      "atk": 5025.585,
+      "def": 1608,
+      "hardness_max": 21198053.3765,
+      "rage_max": 16650934.755
+    },
+    "103": {
+      "life": 179723.2598,
+      "atk": 5025.585,
+      "def": 1616,
+      "hardness_max": 21334330.589,
+      "rage_max": 16757979.63
+    },
+    "104": {
+      "life": 180871.3032,
+      "atk": 5025.585,
+      "def": 1624,
+      "hardness_max": 21470610.876,
+      "rage_max": 16865026.92
+    },
+    "105": {
+      "life": 182019.3207,
+      "atk": 5025.585,
+      "def": 1632,
+      "hardness_max": 21606888.0885,
+      "rage_max": 16972071.795
+    },
+    "106": {
+      "life": 183167.3641,
+      "atk": 5025.585,
+      "def": 1640,
+      "hardness_max": 21743168.3755,
+      "rage_max": 17079119.085
+    },
+    "107": {
+      "life": 184315.3816,
+      "atk": 5025.585,
+      "def": 1648,
+      "hardness_max": 21879445.588,
+      "rage_max": 17186163.96
+    },
+    "108": {
+      "life": 185463.425,
+      "atk": 5025.585,
+      "def": 1656,
+      "hardness_max": 22015725.875,
+      "rage_max": 17293211.25
+    },
+    "109": {
+      "life": 186611.4684,
+      "atk": 5025.585,
+      "def": 1664,
+      "hardness_max": 22152006.162,
+      "rage_max": 17400258.54
+    },
+    "110": {
+      "life": 187759.4859,
+      "atk": 5025.585,
+      "def": 1672,
+      "hardness_max": 22288283.3745,
+      "rage_max": 17507303.415
+    },
+    "111": {
+      "life": 188907.5293,
+      "atk": 5025.585,
+      "def": 1680,
+      "hardness_max": 22424563.6615,
+      "rage_max": 17614350.705
+    },
+    "112": {
+      "life": 190055.5468,
+      "atk": 5025.585,
+      "def": 1688,
+      "hardness_max": 22560840.874,
+      "rage_max": 17721395.58
+    },
+    "113": {
+      "life": 191203.5902,
+      "atk": 5025.585,
+      "def": 1696,
+      "hardness_max": 22697121.161,
+      "rage_max": 17828442.87
+    },
+    "114": {
+      "life": 192351.6077,
+      "atk": 5025.585,
+      "def": 1704,
+      "hardness_max": 22833398.3735,
+      "rage_max": 17935487.745
+    },
+    "115": {
+      "life": 193499.6511,
+      "atk": 5025.585,
+      "def": 1712,
+      "hardness_max": 22969678.6605,
+      "rage_max": 18042535.035
+    },
+    "116": {
+      "life": 194647.6945,
+      "atk": 5025.585,
+      "def": 1720,
+      "hardness_max": 23105958.9475,
+      "rage_max": 18149582.325
+    },
+    "117": {
+      "life": 195795.712,
+      "atk": 5025.585,
+      "def": 1728,
+      "hardness_max": 23242236.16,
+      "rage_max": 18256627.2
+    },
+    "118": {
+      "life": 196943.7554,
+      "atk": 5025.585,
+      "def": 1736,
+      "hardness_max": 23378516.447,
+      "rage_max": 18363674.49
+    },
+    "119": {
+      "life": 198091.7729,
+      "atk": 5025.585,
+      "def": 1744,
+      "hardness_max": 23514793.6595,
+      "rage_max": 18470719.365
+    },
+    "120": {
+      "life": 199239.8163,
+      "atk": 5025.585,
+      "def": 1752,
+      "hardness_max": 23651073.9465,
+      "rage_max": 18577766.655
+    }
+  }
+}

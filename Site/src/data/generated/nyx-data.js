@@ -4,14 +4,14 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-06-22T03:36:19.111Z",
+  "generatedAt": "2026-06-22T10:46:09.335Z",
   "providers": {
     "Prydwen": "2026-06-10T22:44:44.684Z",
     "Nanoka": {
       "gi": "6.6",
       "hsr": "4.3",
       "ww": "3.4",
-      "zzz": "2.8"
+      "zzz": "3.0"
     },
     "EndfieldWiki": "2026-06-10T22:17:50.094Z"
   },
@@ -484,9 +484,9 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Velina",
-              "icon": null,
-              "art": null,
-              "rarity": null
+              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+              "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+              "rarity": "S"
             }
           ],
           "subBanners": []
@@ -513,9 +513,9 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Norma",
-                "icon": null,
-                "art": null,
-                "rarity": null
+                "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+                "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+                "rarity": "S"
               }
             ],
             "subBanners": []
@@ -10874,7 +10874,7 @@ var NYX_DB = {
     "zzz": {
       "name": "Zenless Zone Zero",
       "icon": "../assets/icon/zzzicon.png",
-      "rosterCount": 50,
+      "rosterCount": 53,
       "collections": [
         {
           "key": "w-engines",
@@ -12572,7 +12572,7 @@ var NYX_DB = {
           "key": "bangboos",
           "title": "Bangboo",
           "source": "Nanoka",
-          "count": 39,
+          "count": 40,
           "items": [
             {
               "id": "zzz-bb-53001",
@@ -13002,6 +13002,17 @@ var NYX_DB = {
                 "codeName": "Sprout"
               },
               "text": "Don't underestimate our bond!"
+            },
+            {
+              "id": "zzz-bb-54022",
+              "name": "Ultra Jake",
+              "kind": "bangboo",
+              "art": "../../Database/Nanoka/zzz/assets/bangboos/BangbooGarageRole47.webp",
+              "fields": {
+                "rarity": 4,
+                "codeName": "Ultra Jake"
+              },
+              "text": "A super-spec En-Nah tech crystal."
             }
           ]
         }
@@ -13102,9 +13113,9 @@ var NYX_DB = {
           "characters": [
             {
               "name": "Velina",
-              "icon": null,
-              "art": null,
-              "rarity": null
+              "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+              "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+              "rarity": "S"
             }
           ],
           "subBanners": []
@@ -13131,9 +13142,9 @@ var NYX_DB = {
             "characters": [
               {
                 "name": "Norma",
-                "icon": null,
-                "art": null,
-                "rarity": null
+                "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+                "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+                "rarity": "S"
               }
             ],
             "subBanners": []
@@ -13155,6 +13166,28 @@ var NYX_DB = {
         ]
       },
       "roster": [
+        {
+          "id": "zzz-norma",
+          "name": "Norma",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Fire",
+          "role": "Stun",
+          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+          "forms": []
+        },
+        {
+          "id": "zzz-velina",
+          "name": "Velina",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Wind",
+          "role": "Anomaly",
+          "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+          "forms": []
+        },
         {
           "id": "zzz-promeia",
           "name": "Promeia",
@@ -13753,6 +13786,16 @@ var NYX_DB = {
           "role": "Support",
           "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle17.webp",
           "art": "../../Database/Prydwen/zzz/assets/characters/soukaku-023ed4ea14e8.webp",
+          "forms": []
+        },
+        {
+          "id": "zzz-pyrois",
+          "name": "Pyrois",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole63.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
           "forms": []
         }
       ]

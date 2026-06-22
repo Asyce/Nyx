@@ -33,7 +33,9 @@
         "Fire",
         "Ice",
         "Electric",
-        "Ether"
+        "Ether",
+        "Unknown",
+        "Wind"
       ]
     },
     {
@@ -45,7 +47,8 @@
         "Anomaly",
         "Support",
         "Rupture",
-        "Defence"
+        "Defence",
+        "Unknown"
       ]
     },
     {
@@ -64,6 +67,330 @@
     }
   ],
   "roster": [
+    {
+      "id": "zzz-norma",
+      "n": "Norma",
+      "slug": "norma",
+      "updated": 1780783200000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle65.webp",
+      "iconZoom": 1.24,
+      "art": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/norma-37b562dcffd6.webp",
+      "status": "beta",
+      "labels": [
+        "3.0"
+      ],
+      "r": "S",
+      "el": "Fire",
+      "spec": "Stun",
+      "tag": "External Strategy Department",
+      "req": {
+        "ascension": [
+          {
+            "id": "100212",
+            "name": "Basic Stun Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100222",
+            "name": "Advanced Stun Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100232",
+            "name": "Buster Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankStun03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100111",
+            "name": "Basic Burn Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100121",
+            "name": "Advanced Burn Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillFire02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100131",
+            "name": "Specialized Burn Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
+    {
+      "id": "zzz-velina",
+      "n": "Velina",
+      "slug": "velina",
+      "updated": 1780783200000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/partner-icons/IconRoleCircle64.webp",
+      "iconZoom": 1.24,
+      "art": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/velina-4d32c038d75f.webp",
+      "status": "beta",
+      "labels": [
+        "3.0"
+      ],
+      "r": "S",
+      "el": "Wind",
+      "spec": "Anomaly",
+      "tag": "External Strategy Department",
+      "req": {
+        "ascension": [
+          {
+            "id": "100213",
+            "name": "Basic Anomaly Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100223",
+            "name": "Advanced Anomaly Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100233",
+            "name": "Controller Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankBuff03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100116",
+            "name": "Basic Windbite Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100126",
+            "name": "Advanced Windbite Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100136",
+            "name": "Specialized Windbite Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
+    },
     {
       "id": "zzz-promeia",
       "n": "Promeia",
@@ -222,8 +549,7 @@
         "talentCost": 2905000,
         "currency": 3705000
       },
-      "recent": 1,
-      "recentFallback": 1
+      "recent": 1
     },
     {
       "id": "zzz-alice",
@@ -382,9 +708,7 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-aria",
@@ -542,9 +866,7 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-astra-yao",
@@ -703,9 +1025,7 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-banyue",
@@ -852,8 +1172,8 @@
             "source": "Avarus / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "Miasma Ravager - Avarus",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Avarus.webp"
+                "name": "Metamorphosed - Avarus",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_WingedAvarus.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -864,9 +1184,7 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-burnice",
@@ -1025,9 +1343,7 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-caesar",
@@ -1186,9 +1502,7 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-cissia",
@@ -1347,9 +1661,7 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-dialyn",
@@ -1508,9 +1820,7 @@
         "ascCost": 800000,
         "talentCost": 2905000,
         "currency": 3705000
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "zzz-ellen",
@@ -2452,8 +2762,8 @@
             "source": "Avarus / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "Miasma Ravager - Avarus",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Avarus.webp"
+                "name": "Metamorphosed - Avarus",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_WingedAvarus.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -3724,8 +4034,8 @@
             "source": "Avarus / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "Miasma Ravager - Avarus",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Avarus.webp"
+                "name": "Metamorphosed - Avarus",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_WingedAvarus.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -5471,8 +5781,8 @@
             "source": "Avarus / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "Miasma Ravager - Avarus",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Avarus.webp"
+                "name": "Metamorphosed - Avarus",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_WingedAvarus.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -7378,8 +7688,8 @@
             "source": "Avarus / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "Miasma Ravager - Avarus",
-                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Avarus.webp"
+                "name": "Metamorphosed - Avarus",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_WingedAvarus.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -8027,6 +8337,166 @@
         "talentCost": 2905000,
         "currency": 3705000
       }
+    },
+    {
+      "id": "zzz-pyrois",
+      "n": "Pyrois",
+      "slug": "pyrois",
+      "updated": 1778536800000,
+      "sourceOrder": 0,
+      "icon": "../../Database/Nanoka/zzz/assets/agents/icons/IconRole63.webp",
+      "art": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/pyrois-4b8909998042.webp",
+      "status": "beta",
+      "labels": [
+        "3.x"
+      ],
+      "el": "Unknown",
+      "spec": "Unknown",
+      "tag": "Unknown",
+      "req": {
+        "ascension": [
+          {
+            "id": "100211",
+            "name": "Basic Attack Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100221",
+            "name": "Advanced Attack Certification Seal",
+            "qty": 32,
+            "rar": 2,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100231",
+            "name": "Pioneer's Certification Seal",
+            "qty": 30,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarRankDamage03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100115",
+            "name": "Basic Ether Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100125",
+            "name": "Advanced Ether Chip",
+            "qty": 75,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillEther02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100135",
+            "name": "Specialized Ether Chip",
+            "qty": 250,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpEther01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 4,
+            "kind": "crown",
+            "icon": "../../Database/Nanoka/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110010",
+            "name": "Timeworn Husk",
+            "qty": 9,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+            "source": "Girtablullu",
+            "sourceDetails": [
+              {
+                "name": "Girtablullu",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+              }
+            ]
+          },
+          {
+            "id": "110515",
+            "name": "Higher Dimensional Data: Deep Erosion Circuit",
+            "qty": 60,
+            "rar": 3,
+            "kind": "boss",
+            "icon": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "sprite": "../../Database/Nanoka/zzz/assets/items/ExSmallBoss015.webp",
+            "source": "the Airspace Sentinel / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Airspace Sentinel",
+                "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Sentinel.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 3705000
+      },
+      "recent": 1
     }
   ],
   "midGroups": [
@@ -8086,6 +8556,7 @@
         "Lighter",
         "Lucy",
         "Manato",
+        "Norma",
         "Orphie & Magus",
         "Soldier 11"
       ]
@@ -8142,6 +8613,7 @@
         "Lucia",
         "Nangong Yu",
         "Nicole",
+        "Pyrois",
         "Vivian",
         "Yixuan",
         "Zhu Yuan"
@@ -8324,11 +8796,61 @@
         "Trigger",
         "Yanagi"
       ]
+    },
+    {
+      "region": "Windbite Chips",
+      "mats": [
+        {
+          "id": "100116",
+          "name": "Basic Windbite Chip",
+          "qty": 25,
+          "rar": 1,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind01.webp",
+          "source": "Combat Simulation - Agent Skills",
+          "sourceDetails": [
+            {
+              "name": "Combat Simulation - Agent Skills"
+            }
+          ]
+        },
+        {
+          "id": "100126",
+          "name": "Advanced Windbite Chip",
+          "qty": 75,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/zzz/assets/items/AvatarSkillWind02.webp",
+          "source": "Combat Simulation - Agent Skills",
+          "sourceDetails": [
+            {
+              "name": "Combat Simulation - Agent Skills"
+            }
+          ]
+        },
+        {
+          "id": "100136",
+          "name": "Specialized Windbite Chip",
+          "qty": 250,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/Nanoka/zzz/assets/items/RoleSkillExpWind01.webp",
+          "source": "Combat Simulation - Agent Skills",
+          "sourceDetails": [
+            {
+              "name": "Combat Simulation - Agent Skills"
+            }
+          ]
+        }
+      ],
+      "chars": [
+        "Velina"
+      ]
     }
   ],
   "boss": {
     "title": "Notorious Hunt",
-    "count": 50
+    "count": 53
   },
   "bossGroups": [
     {
@@ -8470,6 +8992,37 @@
         "Sunna",
         "Ye Shunguang",
         "Zhao"
+      ]
+    },
+    {
+      "title": "Girtablullu",
+      "mats": [
+        {
+          "id": "110010",
+          "name": "Timeworn Husk",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+          "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+          "source": "Girtablullu",
+          "sourceDetails": [
+            {
+              "name": "Girtablullu",
+              "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+            }
+          ],
+          "chars": [
+            "Norma",
+            "Pyrois",
+            "Velina"
+          ]
+        }
+      ],
+      "chars": [
+        "Norma",
+        "Pyrois",
+        "Velina"
       ]
     },
     {
@@ -8765,6 +9318,32 @@
             "Sunna",
             "Ye Shunguang",
             "Zhao"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Girtablullu",
+      "drops": [
+        {
+          "id": "110010",
+          "name": "Timeworn Husk",
+          "qty": 9,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+          "sprite": "../../Database/Nanoka/zzz/assets/items/ExBigBoss010.webp",
+          "source": "Girtablullu",
+          "sourceDetails": [
+            {
+              "name": "Girtablullu",
+              "icon": "../../Database/Nanoka/zzz/assets/monsters/Monster_Girtablu.webp"
+            }
+          ],
+          "chars": [
+            "Norma",
+            "Pyrois",
+            "Velina"
           ]
         }
       ]

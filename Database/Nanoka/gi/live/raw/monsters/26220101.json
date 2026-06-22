@@ -1,0 +1,75 @@
+{
+  "name": "Yumkasaur Whelp",
+  "desc": "A young Yumkasaurus with the ability to spit Flamegranate pectin hidden in their cheek pouches out, wrapping around distant objects.\\nTheir hold on pectin-coated objects isn't strong enough, nor is their sense of balance good enough to allow them to move freely through the air. Sometimes, they'll even fall over to one side just sitting on their tails. However, one day, they will grow into the form that can swing freely between the trees without a care.",
+  "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Small",
+  "codex": "BEAST",
+  "title": "Yumkasaur Whelp",
+  "special_names": [
+    "Ranging Saurians of Natlan"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112103,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    {
+      "id": 112102,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    {
+      "id": 112101,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    }
+  ],
+  "child": {
+    "26220101": {
+      "monster_name": "Monster_Natsaurus_Hookwalker_Small_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010013,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 13.584,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Lord of Eroded Primal Fire",
+  "desc": "A fell dragon, congealed from the power of pitch-black darkness.",
+  "icon": "UI_MonsterIcon_TheAbyssXiuhcoatl",
+  "codex": "BOSS",
+  "title": "Lord of Eroded Primal Fire",
+  "special_names": [
+    "The Slain Dragon Molded"
+  ],
+  "reward": [],
+  "child": {
+    "29110101": {
+      "monster_name": "Monster_TheAbyssXiuhcoatl_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 1290.48,
+        "atk": 150.72,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29110102": {
+      "monster_name": "Monster_TheAbyssXiuhcoatl_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 4564.224,
+        "atk": 70.336,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

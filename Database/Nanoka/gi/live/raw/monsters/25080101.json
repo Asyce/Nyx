@@ -1,0 +1,188 @@
+{
+  "name": "Nobushi: Jintouban",
+  "desc": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization.\\nHaving pursued the path of a martial artist for a long time, they possess highly advanced sword skills but no longer use them for good.\\nSometimes, they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive.",
+  "icon": "UI_MonsterIcon_Samurai_Ronin_01",
+  "codex": "HUMAN",
+  "title": "Nobushi: Jintouban",
+  "special_names": [
+    "\"Shady Samanosuke\"",
+    "\"Firefly Cutter Toudou\"",
+    "\"Stormchaser Ushiuemon\"",
+    "\"Bald Viper\"",
+    "\"Tiger of Higi\"",
+    "\"Indomitable Youji\"",
+    "\"Niimura Kiyokuwa\"",
+    "\"Undying Heibei\"",
+    "\"Captain Ikki\"",
+    "\"Takatsukasa the Terrible\"",
+    "\"Ichimonji Shun\"",
+    "\"Sakon the Hound\"",
+    "\"Flowery Soubei\"",
+    "\"Prodigal Jiroumasaichi\"",
+    "\"Amanojaku Ietoshi\"",
+    "\"Iesada the Frog\"",
+    "\"Eyes-Behind-His-Back Saizou\"",
+    "\"Harutada of Jinren Island\"",
+    "\"Hidemitsu of Jinren Island\"",
+    "\"Red-Eyes Hori\"",
+    "\"Wild Dog Watanabe\"",
+    "\"Kamakirisuke\"",
+    "\"Bladedancer Fuminosuke\""
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112046,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112046"
+    },
+    {
+      "id": 112045,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112045"
+    },
+    {
+      "id": 112044,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112044"
+    }
+  ],
+  "child": {
+    "25080101": {
+      "monster_name": "Samurai_Ronin_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25080102": {
+      "monster_name": "Samurai_Ronin_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25080181": {
+      "monster_name": "Samurai_Ronin_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

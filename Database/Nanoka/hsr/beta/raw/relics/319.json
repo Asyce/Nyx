@@ -1,0 +1,22 @@
+{
+  "name": "Bone Collection's Serene Demesne",
+  "icon": "SpriteOutput/ItemIcon/71042.png",
+  "parts": {
+    "33195": {
+      "name": "Aidonia's Deceased Gravestones"
+    },
+    "33196": {
+      "name": "Aidonia's Deathward Bone Chains"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the wearer's Max HP by <unbreak>#1[i]%</unbreak>. When the wearer's Max HP is <unbreak>#2[i]</unbreak> or higher, increases the wearer's and their memosprite's CRIT DMG by <unbreak>#3[i]%</unbreak>.",
+      "param_list": [
+        0.12,
+        5000,
+        0.28
+      ]
+    }
+  }
+}

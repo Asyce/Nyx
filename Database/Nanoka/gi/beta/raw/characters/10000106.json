@@ -1,0 +1,4295 @@
+{
+  "name": "Mavuika",
+  "desc": "The leader of Natlan who inherited the Ancient Name of \"Kiongozi.\" She made a vow to illuminate the future of the nation of war with the Sacred Flame.",
+  "chara_info": {
+    "release_date": "2024-12-31 00:00:00",
+    "birth": [
+      8,
+      28
+    ],
+    "vision": "Pyro",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Sol Invictus",
+    "region": "ASSOC_TYPE_NATLAN",
+    "title": "Night-Igniting Flame",
+    "native": "Huitztlan",
+    "detail": "The leader of Natlan who inherited the Ancient Name of \"Kiongozi.\" She made a vow to illuminate the future of the nation of war with the Sacred Flame.",
+    "va": {
+      "chinese": "李晔",
+      "japanese": "小松未可子",
+      "english": "Katiana Sarkissian",
+      "korean": "Kim Na-yul"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "When the name \"Mavuika\" is mentioned, the citizens of Natlan will not be stingy with their praise, for she has proven herself well-qualified and worthy of respect, be it as a leader or Archon.\\nShe is the pinnacle of strength in Natlan, and she has the bearing to match. Even newly-arrived travelers need only hear her speak at the Stadium of the Sacred Flame to know that she merits being known as the sun.\\nShe is exceedingly awe-inspiring, but is no unsmiling ruler whose ways may as well be set in stone. In informal situations, she is an enthusiastic and friendly big-sister figure, always ready to chat, and ever open to reasonable suggestions.\\nOn the eve of the Pilgrimage of the Return of the Sacred Flame, the Weary Inn is often packed with passionate revelers, and Mavuika can often be found there, playing cards or singing songs with everyone, and even if some drunk person splashes their drink onto her, she doesn't mind at all.\\nAfter all, for someone who can ignite their hair to dry off said drink, such incidents are small beans. When such levity is hard to come by, why let something so minor spoil the mood?\\nBut should the person intend to start a drinking contest, it is Mavuika's desire to win that will be kindled. As the \"battle\" has begun, there can be no room for retreat or surrender. The victor will be determined, one way or the other.\\nSince becoming Archon, her habits have remained utterly unchanged, and this has allowed her to make many friends across the tribes.\\nHowever, not everyone possesses the subtle sense of proper propriety for such a relationship. Indeed, she can be too down-to-earth, and with her lack of airs, some misjudge the situation and get the false impression that they can use their friendship with an Archon to their own benefit.\\nStrangely enough, though people of this sort are a dime a dozen, they have never caused any major trouble, for Mavuika has never responded to such ridiculous requests — a solemn, icy stare is all she needs to send the other party scampering away.\\nThe sight of those ever-burning eyes casting such a frigid gaze wakes those confused fools up in an instant to the fact that Mavuika is still the leader of a nation, a supreme deity.\\nA Speaker's Chamber staff member once suggested that she should subject those who so harass her to at least token punishment, lest there be an endless stream of incidents to come, but she refused.\\n\"Archonhood is status, authority, and a spiritual symbol. But it is not who 'I' am.\"",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Theoretically, anyone in Natlan can become the Pyro Archon, so long as they prove that they are the mightiest warrior of their era during a Pilgrimage.\\nTherefore, the rulers of the nation have varied wildly in personality and style. Some worshipped power and strength, valuing results. To them, any price was acceptable so long as the ends could be achieved.\\nMavuika is just the opposite. In the eyes of others, she is undoubtedly your typical \"perfectionist\" — not only must things be done well, but also beautifully.\\nTo pursue quality and completeness is only human, but doing so often requires extra time. And whenever anyone tells her that such an approach isn't efficient enough, Mavuika has a set of arguments at the ready.\\nFirst, there are no standalone events in this world. Tracing events backward reveals causes, while moving forward reveals outcomes. Humans are incapable of analyzing the whole chain of events. All they can do is handle each one as best they can, and avoid leaving hidden pitfalls.\\nSecond, all past events become valuable experiences. Successes serve as references, and failures as lessons. But if matters were dealt with carelessly, all they will leave are warnings to not repeat the same mistakes.\\nBut apart from these two ideas, Mavuika also has a very important reason for her approach that she rarely ever mentions — and that is \"fun.\"\\nShe has a broad range of hobbies, and has unparalleled skill in the various sports and games popular across the tribes, but one sentence can sum up all of these interests — she loves getting better at things.\\nFor example, when she first learned how to rock climb, she would commit every movement her coach made to memory and ask in detail about every last maneuver.\\nHer next step was to train — and train a lot, making her body remember the trick behind each movement, gradually executing them faster and faster. She even requested someone to record the entire process with a Kamera, all the better to later study any failures or areas where she wasn't fluid enough.\\nShe would also talk with her coach and use various tools and equipment in order to solve problems she encountered, enumerating lists of solutions, and trying out each one in turn before choosing the best.\\nIn this way, Mavuika honed her climbing skills to perfection most quickly indeed, and her questions grew ever harder for her coach to answer, eventually shifting their relationship from that of teacher and student to that of fellow lovers of climbing, delving into their craft together.\\nIn other fields, there were even more exaggerated cases. In some cases, Mavuika would come to surpass \"masters\" with three to four decades of experience after just a single year of study.\\nThe reason behind this was actually quite simple: Building up skills is easy, but maintaining progress is hard. Once memories have sunk into one's body, it becomes easy for one to grow self-satisfied and complacent, and thus cease to actively think.\\nAs such, one thing Mavuika detests is repetition: If a deed done before must be done again, then it must be done differently in some way, whether by trying something new, or else through reflection and optimization.\\nBut it is difficult for most to see all the effort that she puts into this, and thus, her swift progress is often put down to talent. To this, she can only wryly smile, for who in this world was born with such a surfeit of talent?\\n\"If you want to improve, all you have to do is master the 'skill' of improvement and then just put in the work.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Mavuika gives the impression of being a most avid outdoorswoman. When not at work or training, she can be seen in all sorts of places, throwing herself at various extreme challenges.\\nBut what people often fail to realize is that she actually can also sit still for long periods of time, staying focused as she reads books and woven scrolls, as she possesses ample patience.\\nHer other great indoor hobby is solving puzzles, whether these involve logical reasoning or pattern recognition, and regardless if their contents are images, numbers, or even stories. All quickly suck her into a world of her own.\\nAfter enjoying time well-spent making deductions and decisions, she even scores these puzzles based on their quality, difficulty, and reasonability, so that her fellow puzzle hobbyists have a reliable standard to refer to.\\nYet this hobby of hers came to pose a problem: Puzzle games are usually one-time sources of enjoyment and lack replayability, and Mavuika tends to solve them all too quickly, faster even than the ability of puzzle creators to develop new ones.\\nAs such, while keeping an eye on any new puzzles that come to market, Mavuika also dusts off already-solved puzzles and adds various restrictions and limitations to increase the difficulty or complexity.\\nFor example, while doing a puzzle, she might allow herself to select pieces normally, but flip the pieces when placing them, thus only being able to see if she has the puzzle right after placing every piece and flipping the whole thing back over.\\nOr perhaps, if the puzzle requires separating multiple connected pieces of metal, she will affix one piece to the table, thus restricting the number of directions in which she can conveniently pull the pieces apart, requiring her to consider alternatives — a restriction that can also be applied to knot puzzles.\\nOver time, she has compiled the various gameplay challenges she has come up with and puzzle ratings she has given, creating a most valuable curated catalog of puzzles.\\nAt first, she published it at the Speaker's Chamber, hoping that she could help her fellow hobbyists, and also promote this relatively niche hobby while she was at it, but the quickest to seize upon the utility of the resource she created were, in fact, the sellers of puzzles.\\nThey used the recommendation of the Pyro Archon herself to shamelessly peddle their puzzles, but this quickly led to numerous disputes — approval though it be, Mavuika's catalog only indicated her personal preference, while the full scope of human taste in puzzles is vast indeed.\\nFollowing that incident, Mavuika no longer publicly discloses her catalog, but if one truly considers oneself a puzzle enthusiast, one can still go to the Speaker's Chamber and request to view it.\\n...With the caveat that you must first prove yourself an expert by solving a random puzzle selected from Mavuika's collection by the Chamber staff, of course.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Mavuika was born to a very ordinary family of the Scions of the Canopy. Her mother was bold and passionate but lacked caution, while her father was knowledgeable but taciturn, and the two would constantly clash from the moment they were married.\\nThe birth of their child changed everything — Mavuika was like a small, pure, burning sun, constantly casting rays of warmth in all directions, the streaming light scattering and burning away the barriers and gloom that lay between them.\\nYoung Mavuika was curious about everything and anything, and whenever her father would answer her questions, he always drew a worshipful gaze and warm, genuine smile from her, a process that gradually taught him the joys of communicating with others and sharing his thoughts.\\nWhile she gained knowledge from her father, Mavuika would pester her mother to bring her out on adventures every day, and on these, the brave young girl would always charge ahead, scaring her mother half to death. As this repeated time and again, her mother came to realize how her own reckless behavior must have seemed inappropriate in the eyes of others.\\nMavuika matured faster than any other child her age, and very quickly, the knowledge she had gleaned from her father allowed her to point out her mother's rashness, and the experiences she had with her mother allowed her to identify her father's overly idealistic thinking.\\nLike a bridge, she stood between two people who could not at first communicate easily with one another, slowly dissolving the many contradictions and misunderstandings that had accumulated over time. When her father taught her martial arts, her mother would give pointers from the side, and when her mother took her to train Saurians, her father would also come along.\\nBut the thing that really pushed Mavuika to take another step forward was the birth of another angel into the house — her sister, Hine.\\nPerhaps it was because Mavuika had already taken on responsibilities important to the family's relationships that she quickly got used to the role of an older sister, and step by step, she passed on all that she had learned from her parents to Hine.\\nHine was by no means easy to handle. She was naughty at times, quiet at others, and rarely obedient, which often resulted in the other three household members seated at the table simultaneously facepalming with a sigh. But even these were moments filled with warmth.\\nOnce, when Mavuika and her father were teaching her, Hine asked a question:\\n\"If all the Pyro Archons are just humans, how can we be sure that every person who becomes one will be willing to protect us?\"\\n\"It's precisely because we are all ordinary people that we don't need such guarantees.\"\\n\"Daddy, I don't get it! You're talking in riddles again.\"\\n\"Ask your sister, then. I'm certain she's figured this one out already — a long while ago, in fact.\"\\nMavuika simply smiled and hugged her sister, patting her on her head, and said nothing more on the matter.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Five hundred years ago, when Mavuika's plan to save Natlan was revealed to the chiefs and elite warriors, there were stark divisions of opinion.\\nSome believed that the loss of a leader and warrior as important as Mavuika was unacceptable, for there could be no future to speak of if the present era could not be defended.\\nIn the end, however, the vast majority were persuaded by Mavuika or by the various tribal chiefs, for hers was the only plan that provided any hope of victory, even though to those at the time, it seemed incredibly risky, and had slim odds of success anyway.\\nGuided by an unspoken understanding, the warriors visited her Speaker's Chamber as one, offering their most important belongings to be used as \"fuel\" in case of any future emergencies.\\nThese brave people were proud of this necessary sacrifice and did not hesitate in the least, but Mavuika called out to each of them before they could leave, offered them a hot drink, and listened to them speak of the story behind those objects.\\nShe was willing to, and indeed, had to carry these stories with her into the future, for memories can surpass time where human lifespans may fail. And though these objects might not endure into the future, so long as someone still sang their stories, they could welcome the victorious dawn alongside the people of the future.\\nThus did they all, old friends of Mavuika and relative strangers both, speak freely in the Speaker's Chamber, at times boasting of heroic achievements, and at others shedding silent tears for the passing of close kin and friends.\\nEach item was well-kept and maintained, and their numbers have only increased over the last five hundred years, up until now.\\nHowever, only a very few would finish the last of their drink after telling their story, pause for a moment, and then ask Mavuika if she had similar stories she wanted to share.\\nAnd with a smile on her face, she would speak of her parents, of Hine, and of their two mischievous Yumkasaurs, the things she held most dear in the time she was about to lose.\\n\"All of this stuff is pretty important, isn't it...\"\\n\"No. All of it ceased to be important the moment we decided on this plan — even me.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5",
+          "Complete \"Black Stone Under a White Stone\""
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "Mavuika always imagined her plan to fight against the Abyss as a lengthy journey, and herself as an adventurer carrying a full pack and marching toward her predetermined goal. Memory and love were the supplies she brought, and they would help see her through confusion and solitude.\\nWithin a world created through meditation, she would manifest this path. A high tower would appear in the distance, the Sacred Flame burning at its summit, lighting her way and showing her the path.\\nNone knew how to get there, nor how far the journey would take her, but as her luggage grew ever lighter, the road stretched ever farther on with each step she took.\\nFarewell, Atea said to her, and Tenoch, and her mother and sister.\\nFarewell, Sundjatta told her, and Burkina and Wanjiru also.\\nThe existence of the path to victory was not something to be taken for granted. Rather, it was forged by countless heroes, past and present. Rather than a \"Savior,\" then, Mavuika preferred to be known as an \"agent.\"\\nBut this alone was not enough. Her journey was no penance that required only willpower, but rather, decisiveness and wisdom also.\\nShe could never have foreseen such marked variables as the Traveler or The Captain five hundred years prior, but upon learning of them, she only needed a moment's consideration before deciding to incorporate them into the plan.\\nIn addition to any other considerations she might have had based on the realities of the situation, another factor played into her judgment — that both the Traveler and The Captain exhibited traits that mirrored her own.\\nWere it not for their respective positions, she would have liked nothing more than for the three of them to sit and speak of their travels over grilled meat and drinks. After all, those who travel along the same road, never having a fixed residence, can best resonate with and understand one another.\\nBut she also had a deep understanding of the obstacles therein — having traveled so far, it was only natural to not wish to show the fatigue or weakness in one's heart, and even she was no exception.\\nShe could easily tell stories about her comrades or family with a smile, but rarely could she speak of the sadness sown in the river of time by those happy moments, nor could she take out her long-emptied haversack, point at it, and speak of how it reflected the current state of her heart.\\nShe could not, she would not, and she did not need to.\\nSo, in the end, she kept a suitable distance, just as she always has. Everyone needed the ringing cheers and flowing wine of victory feasts, just as they needed the solitary quiet once the revelry faded.\\nIn this era, perhaps only one person would ever inappropriately knock on her door in those peaceful moments, and that was Citlali.\\nPerhaps it was her fondness for drink? Or maybe they just made suitable drinking buddies.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "Flamestrider",
+        "text": "In emergencies, speed is the difference between life and death. Being well aware of this, Mavuika had long had the idea of constructing a multifunctional powerhouse of a vehicle.\\nIt needed to be both fast and sturdy, such that it would not be damaged while moving at high-speeds, no matter the circumstances.\\nIt needed to be able to traverse a wide variety of terrain, from cliffs to the water's surface, or even the skies. After all, in critical situations, the quickest path is always a straight line.\\nIt also needed sufficient explosive power, such that it could serve as a weapon when necessary. After all, in the event of an Abyssal attack, time spent tangling with monsters was time wasted.\\nThen, it had to be sufficiently compatible with Pyro, such that she could summon it with a mere flick of her wrist.\\n\"These are my requirements. Well within your capabilities, right, Xilonen?\"\\n\"Wha...?\"\\nEven by themselves, each of her criteria was difficult to fulfill. Put together, the task was truly outrageous. Even an artisan skilled as Xilonen thought Mavuika off her rocker, and understandably so.\\nBut Mavuika had come with much more than just a request. She brought also ideas with which to solve the problems involved — long had she been scouring Natlan for all manner of strangely-shaped Source Mechanisms as yet uncorrupted by the Abyss, along with various design blueprints of unknown provenance.\\nIn the distant past, the ancient dragons too had tried to fight against the Abyss. Their methods were exceptionally brutal, and as a result, they had built many a mighty device that relied on raw power to achieve victory. As for the blueprints, those Mavuika had copied by hand and brought with her.\\nIf the secrets behind the schematics could be unlocked, and the pre-existing devices reverse-engineered, and the useful parts disassembled before being recombined...\\nHaving considered things up to this point, Xilonen looked up at Mavuika's smiling face, and knew she no longer had any reason to refuse, nor did she want to — what artisan would willingly miss out on making such a creation?\\nThus the two of them joined forces to delve into the secrets behind the Source Mechanisms. In the process, they discovered that their original assumptions were too simplistic. It was impossible to get all the key components they needed from existing material.\\nThe solution, then, was to use modern smithing techniques to create said parts independently and combine the two elements — a process that involved lots of overheating and explosions en route to solving the Pyro compatibility issue that Source Mechanisms had.\\nAfter a long period of development, the prototype Flamestrider was at last complete. No one had ever seen such a beastly creation with such powerful capabilities before, and people lined up to see and applaud it.\\nThus did the leader who protects Natlan gain yet another guaranteed source of strength.\\nAlso worth mentioning is the fact that Xilonen declined to take part in the vehicle testing phase that followed, claiming that she had \"forgotten to make a second helmet.\" After all, sitting on the back of that thing while Mavuika is driving is a great way to end up feeling queasy.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "When Mavuika was still very young, she had yet to develop a complete concept of life and death. It was at this time that her father achieved victory in the Pilgrimage, and was soon to embark on a glorious journey.\\nIn the culture and traditions of Natlan, to obtain this privilege is to become a hero, and Mavuika was immensely proud of her father for having done so. Thus, when her father came to say his farewells, she couldn't really understand the disquiet on her mother's face.\\nIt was very uncommon for a team fighting in the Night Warden Wars to be completely wiped out, and even should some fall, their lives' flames would be rekindled by the Ode of Resurrection so long as the unit dispatched achieved victory.\\nAt last, news of victory came to the Stadium. It had been three days and nights of vicious battle, and had cost three out of seven warriors, Mavuika's father being among them.\\nThough she was somewhat worried, Mavuika knew the Rite of Rekindling to be akin to a victory feast. Her father would return to them from the Sacred Flame, just as she remembered, and their family would be reunited.\\nBut, contrary to her expectations, her father was covered in wounds from head to toe, so much so that he could not even stand on his own two feet.\\nThe Ode of Resurrection could rekindle life, but only the fatal wound could be reversed. The wounds that had slowly accumulated as the battle raged on or pre-existing ailments would not be cured. And it was precisely the length of the battle that had brought her father low.\\nThis was the first time Mavuika had seen her father in such a weak state, and the first time she felt the gaze of \"death\" fixed on her. It was still a thing to be respected and feared, even with the Ode at hand.\\nHaving rarely cried in her life, Mavuika held her tears back this time, too. She simply lowered her head in silence, gripping her father's hand as he lay in his sickbed, her heart filled, in truth, more with regret than sadness.\\nPerceiving her thoughts, her father told her that this was the truth of \"war,\" that all fear death, but that some would always step forth to fight, because they had something they wished to protect.\\nBut the world of children is not yet governed by so many expectations, and she did not understand why her father, and indeed, all the grown-ups, were willing to shoulder the duty of war.\\n\"Since we're forced to fight this war, then I wish to put an end to it.\"\\nMavuika's eyes flashed like flames as she spoke, and her parents looked at one another, some certainty dawning. They did not rush to deny that notion on account of their daughter's \"naivete.\" Instead, they nodded.\\nHer parents' acknowledgment steeled her initial resolve, and thus did the gaze of the gods come to rest upon her. And though she would later learn many secrets and know more about the crisis that Natlan faced, she would never doubt the trust she once saw in their eyes.\\nShe believed that this was something that only she could do — not only because she was \"Kiongozi\" Mavuika, but also because she was her parents' daughter, their pride and joy. She was a daughter of the Scions of the Canopy — a daughter of Natlan.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "With the flames to guide us across time, we took a land shrouded in darkness, and used our own blood and tears to forge it into a home. Now, our journey continues, and a new chapter awaits. As the current Pyro Archon, allow me, Mavuika, to light your way forward.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Adventures",
+        "text": "Exploration and trials... Heh, adventuring is right up my alley.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Experience",
+        "text": "Instead of confining themselves to the heavens, gods should broaden their horizons in the world below.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Light",
+        "text": "Many insects have a compulsion to follow the light, and humans are the same — except we call that light, \"hope.\"",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "Ah, nice and cool. Natlan doesn't have places like this.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "Weather like this is perfect for enjoying the outdoors. Wanna go for a spin? Here, hop on.",
+        "unlocked": []
+      },
+      {
+        "title": "After the Rain",
+        "text": "Ah, you're dripping wet. That must be uncomfortable... Let's take a break. I'll use my fire to dry you off.",
+        "unlocked": []
+      },
+      {
+        "title": "In the Desert",
+        "text": "Sand is the natural enemy of fire and civilization. In the desert, ruins are all that remain to tell the story of the past.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "After waking up, I always go over the plan for the day in my head... Unfortunately, sleeping in is never on the agenda.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Have you had lunch? The Collective of Plenty sent over some fresh fruit — the perfect thing to round out a meal. Here, try some.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Hm, so this is the proposal and approximate budget to rebuild the roads in the Children of Echoes... Oh, good evening. Is it that late already?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "Good Night! I'm going to take it easy and wrap up some work. Oh, don't worry — I see keeping busy as a great way to relax.",
+        "unlocked": []
+      },
+      {
+        "title": "About Mavuika: Hair",
+        "text": "Oh, my hair? Don't worry, these are friendly flames — they won't burn you or incinerate anything. Although, I think our enemies will find that it's a bad idea to play with fire, if you know what I mean.",
+        "unlocked": []
+      },
+      {
+        "title": "About Mavuika: Message",
+        "text": "Every Pyro Archon throughout Natlan's history has left behind important knowledge and memories within the Sacred Flame, for the benefit of future successors. When inherited, the sheer amount of information can impact your sense of self. So, I chose to leave behind this phrase, \"Before you become one with flame, be proud of who you are now.\"",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Black Stone Under a White Stone\""
+        ]
+      },
+      {
+        "title": "About Us: Fighting Side By Side",
+        "text": "A plan is a reliable guide, but it's not an unchangeable or divine decree. Five hundred years ago, I could never have anticipated your arrival. But, after meeting you, I knew factoring you into my plan would be worth it. Judging from the outcome, choosing to fight by your side was unequivocally the right choice.",
+        "unlocked": [
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "About Us: Ancient Names",
+        "text": "You may not have realized this, but your ancient name, Tumaini, will have a significant impact on Natlan for years to come. When future generations speak this name, they will think about this battle and the efforts of all our heroes. Our names — Tumaini and Kiongozi — are now linked and will live on in perpetuity.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "For humans, Visions and Ancient Names are both gifts from the gods, where the former bestows Elemental power and the latter spiritual inspiration. However, I have always believed that no external factor is a condition for greatness — heroism comes from within.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "When I was little, my father told me that a barrel can only hold as much water as the shortest plank. If you want to reach your full potential, you need to be willing to become the weakest link, to acknowledge your shortcomings and learn from others. That doesn't make you a failure, it pushes you to succeed.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "Baby Yumkasaurs are incredibly cute, and my Saurian companion, Hitata, was especially clingy. He used to jump into my arms the minute he saw me, even from quite a distance. My sister, Hine, would get so jealous — whenever she saw Hitata run towards me, she would do the same. Before I knew it, I would have an armful of baby Saurian and baby sister at the same time, haha.",
+        "unlocked": []
+      },
+      {
+        "title": "About Xilonen",
+        "text": "Xilonen is one of the best craftsmen in Natlan. She has the ability to forge Ancient Names and is well-versed in Secret Source technology. Not to mention, she never backs away from a challenge, even when it's completely uncharted territory. The process isn't without twists and turns — like design changes and other modifications — but the results speak for themselves.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Citlali",
+        "text": "Many people find her strange or difficult to get along with. But, this is how I see it — Citlali doesn't concern herself with trivial matters, but she's always there when it counts. I'm sure you've seen that for yourself. She's someone who can easily tunnel vision and get herself embroiled in trouble, so I try to keep certain things from her. But, she can see right through me... She's too sharp.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"The Rainbow Destined to Burn\""
+        ]
+      },
+      {
+        "title": "About Chasca",
+        "text": "Being able to survive under the influence of Abyssal corrosion was already a miracle, but thanks to the people and Saurians of this land, she even found a reason not just to survive, but to live. I have every faith in her fortitude, but I will still do what I can to make this land a \"gentler\" place — even the strongest among us need a break sometimes.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "About Ororon",
+        "text": "In my opinion, Ororon's true personality is very different from what he projects on the outside — like lava covered in ice. His tribe and his friends bring him peace, but his drive to protect them and his need to become a hero leave him restless. It's inadvisable to act on impulse, but these are precious qualities all the same.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"The Rainbow Destined to Burn\""
+        ]
+      },
+      {
+        "title": "About Iansan: Being Targeted",
+        "text": "A lot of people underestimated Iansan during her first few Pilgrimages after receiving her Ancient Name, and singled her out during the team stage as an easy target. Even though she never lost, the constant challengers drained her stamina and affected her ranking, which only made people more likely to target her...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Iansan: Proving Yourself",
+        "text": "My advice to her was this — people are less likely to mess with someone whose strength is undeniable, so all she needed to do was to prove it. Well, she decided to do just that... by challenging me in the arena, hahaha. Yeah, I definitely didn't see that coming! In the end, she put up quite the fight, and no one underestimated her again.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Mualani",
+        "text": "In terms of personality, Mualani and Tupac are completely different, and yet both inherited the name, Umoja. Unity lies not in a particular action, but in a state of mind — a willingness to give your all for your nation, family and friends. But, I doubt Mualani was thinking about any of that back then. She knew one thing to be true — that Kachina's life was worth any risk to her own.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Black Stone Under a White Stone\""
+        ]
+      },
+      {
+        "title": "About Kinich",
+        "text": "In addition to the Turnfire, Malipo has another meaning, \"cost\" or \"price.\" It may seem less overtly heroic compared to the other Ancient Names, but in truth, Malipo teaches us to be calm and analytical — to ask the questions people may not want to hear. Without people who possess these qualities, it's just too easy for the rest of us to act on impulse and emotion, and make decisions we'll come to regret.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Black Stone Under a White Stone\""
+        ]
+      },
+      {
+        "title": "About Kachina",
+        "text": "After you rescued Kachina from the Night Kingdom, I visited her family with Chief Pacal, and brought a few gifts to once again apologize for what happened. Kachina's time in the Night Kingdom left her with many scars she will have to carry into the future — scars she should never have had to bear... And for that, the fault is mine.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Black Stone Under a White Stone\""
+        ]
+      },
+      {
+        "title": "About Varesa",
+        "text": "During the Pilgrimage, I cover all the expenses at the Weary Inn, and without fail, there's always an order for a party tray for eighty. I used to assume it was someone ordering for a large group of friends, but as it turns out... Varesa ordered it all for herself.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Ifa",
+        "text": "The truly great doctors often possess vast medical knowledge as well as great communication skills. And, when the patient and the doctor do not speak the same language, observation and empathy become even more important. That's why Ifa can make friends with just about anyone.\\nSuffice it to say, if someone is on bad terms with Ifa — human or saurian — I doubt the problem lies with him, haha.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About The Captain",
+        "text": "For him, I suspect the past five hundred years felt endless. When someone is deprived of death, life becomes a journey with no end, and the human spirit easily grows weary. And yet, he managed to seize the only chance of victory to arrive at the end he sought all along. I have great respect for warriors like him.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "About The Seven",
+        "text": "To be quite honest, you likely know them better than me. However, their nations continue to survive and thrive to this day, and that would be impossible without strong leadership. Once this chapter of Natlan's history comes to a close, I plan on strengthening our relationship with other nations so that Natlan can continue to grow.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "More About Mavuika: I",
+        "text": "Oh, you want to know more about me? Sure, I'm actually quite fond of telling stories. Still, I think this will be a lot more fun over a few drinks.",
+        "unlocked": []
+      },
+      {
+        "title": "More about Mavuika: II",
+        "text": "Riding the flamestrider isn't complicated, it just takes some practice. If I want to go fast, though, I would need to install some safety components. What was that? I'm already going quite fast? Well, when I asked, this is what Xilonen told me — \"It's safe enough — not like you're made of glass.\"",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More about Mavuika: III",
+        "text": "Of course, I also have many regrets. Thanks to my knowledge and strength, I'm an effective problem-solver, but most of the time, all people really need is companionship... I've disappointed many people in that regard, but duty stops for no one. Questioning my path will only bring more pain — I owe it to myself to stick to my convictions.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Black Stone Under a White Stone\""
+        ]
+      },
+      {
+        "title": "More about Mavuika: IV",
+        "text": "Unleashing the power of the divine throne bound my soul to the Ley Lines. As I rose up into the air, I could feel the passion of our warriors, the determination of our people, and the pain of our fallen... It's a scene I've witnessed once before. But, with the help of our heroes, this time it had a very different ending. That is how we know this struggle was not in vain.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5",
+          "Complete \"The Rainbow Destined to Burn\""
+        ]
+      },
+      {
+        "title": "More about Mavuika: V",
+        "text": "With our triumph over the Abyss, my most important duty as Pyro Archon came to an end. Five hundred years ago, I chose to fight for a future that likely wouldn't include me — so I was prepared for that result. So, when that future actually arrived, I was at a loss... But, you've inspired me. Exploration, curiosity, and dedication to others — that's the path forward.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      },
+      {
+        "title": "Mavuika's Hobbies",
+        "text": "Getting stronger. Completing a difficult challenge, solving a complicated puzzle, defeating a powerful enemy... I don't have a singular hobby — the sense of accomplishment is what I enjoy the most.",
+        "unlocked": []
+      },
+      {
+        "title": "Mavuika's Troubles",
+        "text": "\"Due to lack of popularity, all future expansions and additions to 'The Saurian Sleuth' have been suspended...\" That was my favorite tabletop puzzle game. It can't be because it was too hard or the rules were too complicated, right? That doesn't make it bad... *sigh* If it comes down to sales, there's not much I can do. I hope the creator will come out with a new game. Maybe I'll write an anonymous letter to support him...",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "Even when it comes to the simplest home-cooked meals, every family has their own recipe, and the flavor can change a lot. I've tried a bunch of different stews around the Stadium, each unique and delicious in its own way. But, if I'm cooking for myself, I still prefer my family recipe.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "I like most ingredients, but I don't really appreciate dishes that are more form than substance, like a full course dinner that will take three whole hours to get through... I respect culinary innovation, of course, but I prefer to spend my time on something more productive.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Just what I like, thank you. Do you have the recipe? I'd love to learn.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Not bad overall, but there's still room for improvement.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Oh, it's surprisingly edible. Definitely not as bad as it looks.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "#Starting from today, you should write down all your accomplishments on a piece of paper. Then, when you take it out on your next birthday, you'll have a gift from yourself! That way, you'll never forget how amazing you are. Happy Birthday, {NICKNAME}.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "Perfect! I feel nice and loose.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "I can feel myself getting stronger. But, my power doesn't stop here.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "My fire grows hotter, and my body and spirit more aligned. This power shall allow me to fulfill all my duties as a leader.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "Ever since we met, my power has grown by leaps and bounds. Though different missions drive us forward, a shared sense of duty and justice binds us together. Your help to Natlan is immeasurable, and I am more grateful than words can say.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Light it up.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Burn it down!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Rise with the sun.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: IV",
+        "text": "Rev the engines!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: V",
+        "text": "Full throttle!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: VI",
+        "text": "Try and stop me.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Light of the blazing sun!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Wrath from the skies!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Pyroclastic surge!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "The rewards of an adventure worth remembering.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Ah, something to add to my collection.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Hey, not a bad haul.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "No more mistakes.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Switching gears.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Time to buckle down.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Leave the fighting to me.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Take a breather.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "The flame... burns on...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "The end... of our legacy...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "Is this... our fate?",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Not bad.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Archon reporting for battle.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Any time, any place.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Ready to ride.",
+        "unlocked": []
+      },
+      {
+        "title": "About Yumemizuki Mizuki",
+        "text": "Ah, she left a very positive impression. When she first arrived in Natlan, I heard that she had a great deal of interest in our hot springs and spent quite some time studying their properties. But, it wasn't for profit. She was interested in their role in improving mental health. Such a pure cause deserved our support and respect.\\nSpeaking of which... Is it true that the current Archon of Inazuma enjoys hot springs as well? If that's the case, I believe I've found a good starting point for our next conversation.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      }
+    ],
+    "special_food": {
+      "id": 108787,
+      "recipe": 3510,
+      "name": "Hymn of Gathered Flame",
+      "icon": "UI_ItemIcon_108787",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210226,
+      "name": "Mavuika: Sun-Crowned",
+      "desc": "Namecard style.\\nNo Pyro Archon has ever intended to contest the sun. But as ordinary people see it, this \"solar ring\" is the crown of leaders as radiant as the sun.",
+      "icon": "UI_NameCardPic_Mavuika_P"
+    },
+    "costume": [
+      {
+        "id": 210600,
+        "name": "Undying Sun",
+        "desc": "Mavuika's outfit. She is the sun that walks among us, the beacon that shines through every night, and the spark by which all kindling is ignited, bestowing courage upon us all. Such is her radiance that it shall never fade away.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CLAYMORE",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Pyro",
+  "icon": "UI_AvatarIcon_Mavuika",
+  "stamina_recovery": 25,
+  "base_hp": 977.153,
+  "base_atk": 27.93,
+  "base_def": 61.6249,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 837.8203,
+        "fight_prop_base_defense": 52.839,
+        "fight_prop_base_attack": 23.9457,
+        "fight_prop_critical_hurt": 0
+      },
+      {
+        "fight_prop_base_hp": 1433.1138,
+        "fight_prop_base_defense": 90.3825,
+        "fight_prop_base_attack": 40.95975,
+        "fight_prop_critical_hurt": 0.096
+      },
+      {
+        "fight_prop_base_hp": 2226.8384,
+        "fight_prop_base_defense": 140.4405,
+        "fight_prop_base_attack": 63.64515,
+        "fight_prop_critical_hurt": 0.192
+      },
+      {
+        "fight_prop_base_hp": 2822.1316,
+        "fight_prop_base_defense": 177.984,
+        "fight_prop_base_attack": 80.6592,
+        "fight_prop_critical_hurt": 0.192
+      },
+      {
+        "fight_prop_base_hp": 3417.425,
+        "fight_prop_base_defense": 215.5275,
+        "fight_prop_base_attack": 97.67325,
+        "fight_prop_critical_hurt": 0.288
+      },
+      {
+        "fight_prop_base_hp": 4012.7185,
+        "fight_prop_base_defense": 253.071,
+        "fight_prop_base_attack": 114.6873,
+        "fight_prop_critical_hurt": 0.384
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 11061,
+      "name": "Flames Weave Life",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive claymore strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to perform an especially powerful Severing Splendor strike toward the front.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.80035,
+            0.364799,
+            0.332232,
+            1.161929,
+            1.93844,
+            50,
+            0.745878,
+            1.49144,
+            1.862889,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.865495,
+            0.394492,
+            0.359274,
+            1.256504,
+            2.09622,
+            50,
+            0.806589,
+            1.612836,
+            2.01452,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.93064,
+            0.424185,
+            0.386317,
+            1.35108,
+            2.254,
+            50,
+            0.8673,
+            1.734233,
+            2.16615,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.023704,
+            0.466604,
+            0.424948,
+            1.486188,
+            2.4794,
+            50,
+            0.95403,
+            1.907656,
+            2.382765,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.088849,
+            0.496296,
+            0.45199,
+            1.580764,
+            2.63718,
+            50,
+            1.014741,
+            2.029052,
+            2.534396,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1633,
+            0.530231,
+            0.482896,
+            1.68885,
+            2.8175,
+            50,
+            1.084125,
+            2.167791,
+            2.707688,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.26567,
+            0.576892,
+            0.525391,
+            1.837469,
+            3.06544,
+            50,
+            1.179528,
+            2.358556,
+            2.945964,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.368041,
+            0.623552,
+            0.567885,
+            1.986088,
+            3.31338,
+            50,
+            1.274931,
+            2.549322,
+            3.184241,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.470411,
+            0.670212,
+            0.61038,
+            2.134706,
+            3.56132,
+            50,
+            1.370334,
+            2.740087,
+            3.422517,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.582088,
+            0.721114,
+            0.656738,
+            2.296836,
+            3.8318,
+            50,
+            1.47441,
+            2.948195,
+            3.682455,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.693765,
+            0.772017,
+            0.703096,
+            2.458966,
+            4.10228,
+            50,
+            1.578486,
+            3.156303,
+            3.942393,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.805442,
+            0.822919,
+            0.749454,
+            2.621095,
+            4.37276,
+            50,
+            1.682562,
+            3.364411,
+            4.202331,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.917118,
+            0.873821,
+            0.795812,
+            2.783225,
+            4.64324,
+            50,
+            1.786638,
+            3.572519,
+            4.462269,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.028795,
+            0.924723,
+            0.84217,
+            2.945354,
+            4.91372,
+            50,
+            1.890714,
+            3.780627,
+            4.722207,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}×2",
+            "3-Hit DMG|{param3:F1P}×3",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.140472,
+            0.975625,
+            0.888528,
+            3.107484,
+            5.1842,
+            50,
+            1.99479,
+            3.988735,
+            4.982145,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11062,
+      "name": "The Named Moment",
+      "desc": "Calling upon her authority over \"conflict,\" Mavuika summons the All-Fire Armaments passed down through the line of human Archons, dealing Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color>.\\nAfter using this, Mavuika's Nightsoul points are restored to max value, and she enters the Nightsoul's Blessing state.\\n\\n<color=#FFD780FF>All-Fire Armaments</color>\\nHas different forms when Tapped or Held.\\n\\n<color=#FFD780FF>Tap</color>\\n\"Divine Name Unleashed\": The All-Fire Armaments manifest as a Ring of Searing Radiance. The Ring follows the current active character and attacks nearby opponents at intervals, dealing Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\n\"Ancient Name Unbound\": The All-Fire Armaments manifest as a Flamestrider. In this state, Mavuika can ride the Flamestrider at high speed, or activate its hidden backup propulsion module to temporarily cross various terrain types and glide in mid-air. Mavuika's Normal, Charged, and Plunging Attacks will also be converted to deal Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color> which cannot be overridden. When sprinting, she also deals Nightsoul-aligned <color=#FF9999FF>Pyro DMG</color> to opponents along her path.\\n\\nWhile in the Nightsoul's Blessing state, Tapping the Elemental Skill can switch the All-Fire Armaments' form. The Armaments will disappear once Mavuika's Nightsoul's Blessing state ends.\\n\\n<color=#FFD780FF>Nightsoul's Blessing: Mavuika</color>\\nContinuously consumes Nightsoul points according to the All-Fire Armaments' form. Mavuika's Nightsoul's Blessing state ends once her Nightsoul points are exhausted.\\n\\n<i>If you told Mavuika that in another world vehicles like the Flamestrider required license plates for identification, that would make her happy too:\\n\"Well, mine's the only one that exists here. Guess that means I get to pick whatever plate number I want, huh?\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.744,
+            1.28,
+            2,
+            0.572648,
+            0.591327,
+            0.699868,
+            0.697047,
+            0.910035,
+            0.8084,
+            0.989,
+            1.376,
+            1.5996,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7998,
+            1.376,
+            2,
+            0.619259,
+            0.639459,
+            0.756834,
+            0.753784,
+            0.984107,
+            0.8742,
+            1.0695,
+            1.488,
+            1.7298,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.8556,
+            1.472,
+            2,
+            0.66587,
+            0.68759,
+            0.8138,
+            0.81052,
+            1.05818,
+            0.94,
+            1.15,
+            1.6,
+            1.86,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.93,
+            1.6,
+            2,
+            0.732457,
+            0.756349,
+            0.89518,
+            0.891572,
+            1.163998,
+            1.034,
+            1.265,
+            1.76,
+            2.046,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9858,
+            1.696,
+            2,
+            0.779068,
+            0.80448,
+            0.952146,
+            0.948308,
+            1.238071,
+            1.0998,
+            1.3455,
+            1.872,
+            2.1762,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0416,
+            1.792,
+            2,
+            0.832337,
+            0.859488,
+            1.01725,
+            1.01315,
+            1.322725,
+            1.175,
+            1.4375,
+            2,
+            2.325,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.116,
+            1.92,
+            2,
+            0.905583,
+            0.935122,
+            1.106768,
+            1.102307,
+            1.439125,
+            1.2784,
+            1.564,
+            2.176,
+            2.5296,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1904,
+            2.048,
+            2,
+            0.978829,
+            1.010757,
+            1.196286,
+            1.191464,
+            1.555525,
+            1.3818,
+            1.6905,
+            2.352,
+            2.7342,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2648,
+            2.176,
+            2,
+            1.052075,
+            1.086392,
+            1.285804,
+            1.280622,
+            1.671924,
+            1.4852,
+            1.817,
+            2.528,
+            2.9388,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3392,
+            2.304,
+            2,
+            1.131979,
+            1.168903,
+            1.38346,
+            1.377884,
+            1.798906,
+            1.598,
+            1.955,
+            2.72,
+            3.162,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.4136,
+            2.432,
+            2,
+            1.211883,
+            1.251414,
+            1.481116,
+            1.475146,
+            1.925888,
+            1.7108,
+            2.093,
+            2.912,
+            3.3852,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.488,
+            2.56,
+            2,
+            1.291788,
+            1.333925,
+            1.578772,
+            1.572409,
+            2.052869,
+            1.8236,
+            2.231,
+            3.104,
+            3.6084,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.581,
+            2.72,
+            2,
+            1.371692,
+            1.416435,
+            1.676428,
+            1.669671,
+            2.179851,
+            1.9364,
+            2.369,
+            3.296,
+            3.8316,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.674,
+            2.88,
+            2,
+            1.451597,
+            1.498946,
+            1.774084,
+            1.766934,
+            2.306832,
+            2.0492,
+            2.507,
+            3.488,
+            4.0548,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Ring of Searing Radiance DMG|{param2:F1P}",
+            "Ring of Searing Radiance Attack Interval|{param3:F1}s",
+            "Flamestrider Normal Attack 1-Hit DMG|{param4:F1P}",
+            "Flamestrider Normal Attack 2-Hit DMG|{param5:F1P}",
+            "Flamestrider Normal Attack 3-Hit DMG|{param6:F1P}",
+            "Flamestrider Normal Attack 4-Hit DMG|{param7:F1P}",
+            "Flamestrider Normal Attack 5-Hit DMG|{param8:F1P}",
+            "Flamestrider Sprint DMG|{param9:F1P}",
+            "Flamestrider Charged Attack Cyclic DMG|{param10:F1P}",
+            "Flamestrider Charged Attack Final DMG|{param11:F1P}",
+            "Flamestrider Plunge DMG|{param12:F1P}",
+            "Nightsoul Point Limit|{param13:I}",
+            "CD|{param14:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.767,
+            3.04,
+            2,
+            1.531501,
+            1.581457,
+            1.87174,
+            1.864196,
+            2.433814,
+            2.162,
+            2.645,
+            3.68,
+            4.278,
+            80,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11065,
+      "name": "Hour of Burning Skies",
+      "desc": "Let the people's inner voices reach the divine throne in the heavens.\\n<color=#FFD780FF>Mavuika's Elemental Burst is not reliant on Energy, but instead, on \"Fighting Spirit.\"</color>\\n\\n<color=#FFD780FF>Fighting Spirit</color>\\nWhen Mavuika has at least 50% Fighting Spirit, she can consume it all to unleash her Elemental Burst.\\nMavuika can obtain Fighting Spirit via the following methods:\\n· When in combat, Nightsoul points consumed by nearby party members are converted to Fighting Spirit.\\n· When nearby party members' Normal Attacks hit opponents, Mavuika gains 1.5 Fighting Spirit. This can trigger once every 0.1s.\\n\\nAfter using this, Mavuika gains 10 Nightsoul points and enters the Nightsoul's Blessing state. Riding her Flamestrider high in the air, she uses a powerful Sunfell Slice against opponents on the ground, dealing Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color> and entering the \"Crucible of Death and Life\" state.\\n\\n<color=#FFD780FF>Crucible of Death and Life</color>\\nDuring this time, Mavuika's various actions will no longer consume Nightsoul points, and her interruption resistance is increased. Also, the DMG dealt by Sunfell Slice and \"Ancient Name Unbound\"'s Normal and Charged Attacks is increased based on the amount of Fighting Spirit she has when using the Elemental Burst.\\nCrucible of Death and Life will be canceled when Mavuika leaves the field.\\n\\n<i>\"—But this time, I want to break the cycle and free us from this fate for good.\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.448,
+            7,
+            0.016,
+            0.00258,
+            0.00516,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.7816,
+            7,
+            0.0172,
+            0.00279,
+            0.00558,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.1152,
+            7,
+            0.0184,
+            0.003,
+            0.006,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.56,
+            7,
+            0.02,
+            0.0033,
+            0.0066,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.8936,
+            7,
+            0.0212,
+            0.00351,
+            0.00702,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            6.2272,
+            7,
+            0.0224,
+            0.00375,
+            0.0075,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            6.672,
+            7,
+            0.024,
+            0.00408,
+            0.00816,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            7.1168,
+            7,
+            0.0256,
+            0.00441,
+            0.00882,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            7.5616,
+            7,
+            0.0272,
+            0.00474,
+            0.00948,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8.0064,
+            7,
+            0.0288,
+            0.0051,
+            0.0102,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8.4512,
+            7,
+            0.0304,
+            0.00546,
+            0.01092,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            8.896,
+            7,
+            0.032,
+            0.00582,
+            0.01164,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            9.452,
+            7,
+            0.034,
+            0.00618,
+            0.01236,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            10.008,
+            7,
+            0.036,
+            0.00654,
+            0.01308,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Mavuika_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Crucible of Death and Life Duration|{param2:F1}s",
+            "Sunfell Slice DMG Bonus|{param3:F1P} ATK per Fighting Spirit",
+            "Flamestrider Normal Attack DMG Bonus|{param4:F2P} ATK per Fighting Spirit",
+            "Flamestrider Charged Attack DMG Bonus|{param5:F2P} ATK per Fighting Spirit",
+            "CD|{param8:F1}s",
+            "Fighting Spirit Limit|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            10.564,
+            7,
+            0.038,
+            0.0069,
+            0.0138,
+            1,
+            1.5,
+            18,
+            200,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 1062101,
+      "name": "Gift of Flaming Flowers",
+      "desc": "When a nearby party member triggers a Nightsoul Burst, Mavuika's ATK increases by 30% for 10s.",
+      "icon": "UI_Talent_S_Mavuika_05",
+      "unlock": 1,
+      "param_list": [
+        0.3,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1062201,
+      "name": "\"Kiongozi\"",
+      "desc": "After using her Elemental Burst, <color=#FFD780FF>Hour of Burning Skies</color>, every point of Fighting Spirit present when it is used increases the DMG that the current active party member deals by 0.2%. The maximum increase obtainable this way is 40%, and this effect lasts 20s, decaying over this duration until it reaches 0.",
+      "icon": "UI_Talent_S_Mavuika_06",
+      "unlock": 4,
+      "param_list": [
+        0.0001,
+        20,
+        200,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1062301,
+      "name": "Night Realm's Gift: Exhaust Mode",
+      "desc": "After Nightsoul points have been fully depleted, Mavuika will switch to using Phlogiston to maintain the All-Fire Armaments' Flamestrider form.\\nWhile in an area with Phlogiston Mechanics within Natlan, Nightsoul Transmission: Mavuika can be used. When the current active character is sprinting, climbing, swimming, in movement modes caused by certain Talents, or at a certain height in the air, switching to Mavuika will trigger the following: Mavuika enters the Nightsoul's Blessing state and obtains 50% of her maximum Nightsoul points. Nightsoul Transmission can be triggered once every 10s by your own party.",
+      "icon": "UI_Talent_S_Mavuika_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1062501,
+      "name": "Night-Shattering Radiance",
+      "desc": "The party's Nightsoul Transmission CD is decreased by 20%.",
+      "icon": "UI_Talent_S_Citlali_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 1061,
+      "name": "The Night-Lord's Explication",
+      "desc": "Mavuika's maximum Nightsoul points are increased to 120, and she gains Fighting Spirit 25% more efficiently.\\nAdditionally, she gains 40% ATK for 8s after gaining Fighting Spirit.",
+      "icon": "UI_Talent_S_Mavuika_01",
+      "param_list": [
+        40,
+        0.25,
+        0.4,
+        8,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1062,
+      "name": "The Ashen Price",
+      "desc": "When in the Nightsoul's Blessing State, Mavuika's Base ATK is increased by 200, and she obtains the following effects based on All-Fire Armaments' form:\\n· Ring of Searing Radiance: Nearby opponents' DEF is decreased by 20%.\\n· Flamestrider: Mavuika's Normal Attacks, Charged Attacks, and her Sunfell Slice from the Elemental Burst <color=#FFD780FF>Hour of Burning Skies</color> deal 60%, 90%, and 120% of her ATK as increased DMG respectively.",
+      "icon": "UI_Talent_S_Mavuika_02",
+      "param_list": [
+        200,
+        0.2,
+        0.6,
+        0.9,
+        1.2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1063,
+      "name": "The Burning Sun",
+      "desc": "Increases the Level of <color=#FFD780FF>Hour of Burning Skies</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Mavuika_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1064,
+      "name": "The Leader's Resolve",
+      "desc": "Enhances the effects of the Ascension Talent \"Kiongozi\":\\nThe DMG increase gained after using the Elemental Burst <color=#FFD780FF>Hour of Burning Skies</color> will not decay over time, and an additional 10% DMG Bonus will be gained.\\nYou must first unlock the Ascension Talent \"Kiongozi.\"",
+      "icon": "UI_Talent_S_Mavuika_03",
+      "param_list": [
+        0.1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1065,
+      "name": "The Meaning of Truth",
+      "desc": "Increases the Level of <color=#FFD780FF>The Named Moment</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Mavuika_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1066,
+      "name": "\"Humanity's Name\" Unfettered",
+      "desc": "The All-Fire Armaments from the Elemental Skill <color=#FFD780FF>The Named Moment</color> receive all-round improvements:\\n· Ring of Searing Radiance: When the Ring's attacks hit opponents, a Flamestrider will crash into the struck opponent, dealing 200% of ATK as Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color>.\\n· Flamestrider: When Mavuika is riding the Flamestrider, she will also summon a Scorching Ring of Searing Radiance to follow her, which will decrease nearby opponents' DEF by 20% and deal 500% of ATK as Nightsoul-aligned <color=#FF9999FF>AoE Pyro DMG</color> to nearby opponents once every 3s. Mavuika's terrain-crossing abilities will also be further improved.\\n\\nAdditionally, when Mavuika is riding her Flamestrider and is not in combat, when her Nightsoul points drop to 5, she will gain 80 Nightsoul points. This effect can trigger once every 15s.",
+      "icon": "UI_Talent_S_Mavuika_04",
+      "param_list": [
+        2,
+        5,
+        3,
+        80,
+        15,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Sliver",
+            "id": 104111,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Withering Purpurbloom",
+            "id": 101253,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Sentry's Wooden Whistle",
+            "id": 112104,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Fragment",
+            "id": 104112,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Withering Purpurbloom",
+            "id": 101253,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Sentry's Wooden Whistle",
+            "id": 112104,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Fragment",
+            "id": 104112,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Withering Purpurbloom",
+            "id": 101253,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Warrior's Metal Whistle",
+            "id": 112105,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Chunk",
+            "id": 104113,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Withering Purpurbloom",
+            "id": 101253,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Warrior's Metal Whistle",
+            "id": 112105,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Chunk",
+            "id": 104113,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Withering Purpurbloom",
+            "id": 101253,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Saurian-Crowned Warrior's Golden Whistle",
+            "id": 112106,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Gemstone",
+            "id": 104114,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Withering Purpurbloom",
+            "id": 101253,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Saurian-Crowned Warrior's Golden Whistle",
+            "id": 112106,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Contention",
+              "id": 104347,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Sentry's Wooden Whistle",
+              "id": 112104,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Contention",
+              "id": 104347,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Sentry's Wooden Whistle",
+              "id": 112104,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Contention",
+              "id": 104347,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Sentry's Wooden Whistle",
+              "id": 112104,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Contention",
+              "id": 104348,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Warrior's Metal Whistle",
+              "id": 112105,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Contention",
+              "id": 104349,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Saurian-Crowned Warrior's Golden Whistle",
+              "id": 112106,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Horn",
+              "id": 113068,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "Motorcycle_ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "MotorExtraAttack_Final_DamagePercentage"
+    },
+    {
+      "name": "Motorcycle_ExtraAttack",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "MotorExtraAttack_Final_DamagePercentage"
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Click_Start_DamagePercentage"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 150
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "ElemenetalBurst_DamagePercentage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Motor_FallingAttack_Damage"
+    },
+    {
+      "name": "Constellation_6",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV7",
+        "value": 75
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": "WeaponState_DamageRatio"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2017
+    }
+  ]
+}

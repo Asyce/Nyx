@@ -1,0 +1,4325 @@
+{
+  "name": "Lyney",
+  "desc": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
+  "chara_info": {
+    "release_date": "2023-08-15 00:00:00",
+    "birth": [
+      2,
+      2
+    ],
+    "vision": "Pyro",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Felis Fuscus",
+    "region": "ASSOC_TYPE_FONTAINE",
+    "title": "Spectacle of Phantasmagoria",
+    "native": "Hotel Bouffes d'ete",
+    "detail": "A famed Fontainian magician who possesses great stage presence as well as gift of the gab. Audiences are enthralled by his exquisite skills, and they hang on to his every clever word.",
+    "va": {
+      "chinese": "锦鲤",
+      "japanese": "下野紘",
+      "english": "Daman Mills",
+      "korean": "Park Seong-yeong"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "The people of Fontaine love their tales of mystery. The intricate case setups and unexpected twists and turns are captivating for all.\\nMagic recreates this experience under the converging spotlights. For the price of a ticket and some of your free time, you can embark on a wondrous journey amidst thunderous applause and astounded cries.\\nIf you were to ask around as to which of Fontaine's \"guides\" is best at setting up such fantastical tours, most fans will tell you that it is Lyney.\\nSuave, romantic, and talented, he performs miracle after miracle with a casual air.\\nIn this industry, one needs only a stable of staple tricks to ensure a renowned reputation and comfortable life.\\nHowever, Lyney's shows always feature some new trick. Some say that he was born into poverty, and the resultant burning hunger for fame and fortune drives his boundless desire to create.\\nIn truth, he simply pursues novelty in his capacity as a performer — indeed, he feels that if he cannot put his whole heart into the show, his deep desire to perform cannot be fully satiated.\\nThis is why, despite the applause rising to a fever pitch and beyond, he will rarely satisfy the crowd's calls for a reprise of his most well-known tricks. Some devoted fans consider this to be a bit of a shame...\\n...And for them, such regret will only continue to increase each time they purchase a ticket and go in to watch his show.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "While Lyney first began his journey in magic to fill his stomach, he has continued to perfect his art even after becoming a person of some renown in Fontaine.\\nMagic, after all, has been his benefactor. Not only has it allowed him and his sister to survive, but it has also allowed them to gain the \"acknowledgment\" that most children, growing up in a loving home, would have received from their parents.\\nEven from an early age, performance was something closely tied to Lyney's life. Each time he would go on stage, Lyney would have the audience whooping and clapping. And yet, he did not lose himself in their adulation — if anything, it often troubled him.\\nIf audiences were simply drawn to the spectacle of magic, then who was to say that they wouldn't abandon Lyney's stage as soon as they caught wind of a more enthralling show in town?\\nIn other words, just as an audience would be attracted by petals and cards, they would also be pulled away by grander fireworks and crackling gun salutes. What else did magicians have up their sleeves to capture the hearts of their audience, beyond enticing them with ever more grandiose impressions of shock and awe?\\nIn all of Lyney's performances afterward, audiences would begin to notice a change — Lyney would add many segments between performances in which he would interact with them.\\nIndeed, this magician seemed without any airs, sharing various fascinating anecdotes about his life, not even minding if the audience should try to guess at the secret behind his tricks.\\nOf course, the sharper wits amongst them would notice that Lyney's tales were not truth, but instead a way to build up the atmosphere, a bedding laid for a greater magic trick to land upon.\\nYet no one would quibble about these white lies. After all, truth and falsehoods were already inextricable in many parts of the performance — why, even the magician himself could be said to have become a part of the magic.\\nThus does Lyney sometimes appear near and dear, and other times just out of the reach of his audience, balancing human affinity and magical mystery perfectly in the palm of his hand, his smile leaving the audiences' imaginations free to run wild.\\nNo matter how rich or poor, sad or glad the audience member, imagination is the great equalizer, carrying the charm of magic to all.\\nThus did the mystery and elegance of this magician spread far and wide, with people even opining that his skill at creating an atmosphere is itself as exquisite as magic.\\n\"Is that so? Well, I'm just trying to invite everyone to take a brief break from reality, that's all.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Lyney's new home was the Hotel Bouffes d'ete, located in a corner of the Court of Fontaine.\\nThe place was home to many orphans who shared similar experiences with him and his sister. The people here helped each other like a family would, greeting the fallout and consequences of those tragic years together.\\nBut the siblings, even with a recommendation from the manager of the Hotel, did not find it all that easy to fit in, nor was it easy for the children there to immediately accept these new \"outsiders.\"\\nAnd in this environment, oppressive in its gloom, the water pumping equipment broke while Lynette was using it, right before everyone's eyes, deepening the distrust to the extreme.\\nLyney could only step up and take responsibility, agreeing to fix the equipment so as not to affect everyone's daily lives.\\nIn truth, he did not know all that much about repair work, but given Lynette's propensity for damaging various small devices, he had long gotten used to following his intuition to do some fixes here and there.\\nUnfortunately, he underestimated the complexity of the pumping equipment and difficulty of fixing it. While he succeeded in restoring it to normal operations, he remained at a complete loss as to whether he had solved the root problem or not, he could not tell.\\nBut just as he was at his wit's end, a seemingly reticent young fellow stepped forth, examined, and restored the facilities, even expressing his apologies.\\nAs it turned out, he was the one in charge of maintenance at the Hotel, and as he saw it, Lynette had been the unfortunate victim of his failure to detect and replace the aging components in the system in a timely manner.\\nLyney, for his part, was far more impressed by the young fellow's skills than any talk of responsibility. He wanted to learn from the youth — if nothing else, this would make helping Lynette all the easier.\\nThe youth was, for his part, no good at refusing, and thus did Lyney become his assistant in the Hotel's small workroom — and over time, he and this Freminet would become friends.\\nLyney would prove unselfish in spending time on other Hotel residents, whether it be Freminet or others, but he would keep them company in comforting silence rather than ask them about their experiences.\\nIn this he was guided by Lynette's succinct life advice: \"No one needs self-satisfied concern.\"\\nIn time, the residents became more willing to share some of their pasts with him, and Lyney would thus become better able to help them with their issues.\\nFreminet was somewhat perplexed by this, believing that Lyney, who was slowly becoming the core around which the Hotel spun, did not need to go this far.\\nLyney joked that he had helped Freminet when they first met because he knew that his sister would cause further machine-related troubles down the line, and he was uncomfortable with that.\\nBut at this point, there was no fooling Freminet with such words. Under his attentive gaze, Lyney could only tell him the truth.\\n\"Because Lynette's my one and only family, I've learned from her how one should treat all members of their family.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "On the Hotel Bouffes d'ete's Founding Day, all the children were abustle, draping festive colors all over the place.\\nTo the residents, outside festivals and events were cold and emotionless things, foreign elements in their lives, and only this dwelling could bring them true warmth.\\nEveryone worked in concert to execute Lyney's plan. Lynette had purchased large amounts of festive ornaments, and together with the other children, she strung up colored streamers and hung handwritten festive greetings.\\nFreminet was ensuring that the magical props would operate properly — Lyney had faith in his craftsmanship, so much so that Freminet was completely entrusted with all the magic props this time.\\nLyney himself was the busiest of all — not only did he have to ascertain everyone's progress, but he was also laying the final groundwork for a grand, unique magic trick in secret.\\nAnd thus was the banquet successfully held with everyone's support. The children danced to the joyous music playing from the grand hall's phonograph and enjoyed delicious food — this was the birthday of no one in particular, but this was the day they all felt they had gained new lives.\\nThe finale, of course, was Lyney, Lynette, and Freminet's Founding Day magic show. The magic box was at the center of the room, and all waited with bated breath.\\nTo preserve the secret behind the magic trick, even Lynette and Freminet knew not what was within. But as the room darkened and all eyes turned to Lyney, standing as he was in front of the box, even the highly-experienced magician showed some rare signs of trepidation.\\n\"Now, you might consider the following words an exaggeration, but the \"present\" I am about to present to you all is, without doubt, the most important one we have received in our lives.\"\\nThe paper firecrackers burst, and the once-empty box suddenly opened by itself. The crowd cheered, amazed — then fell suddenly into stunned silence.\\nWhat stood onstage was no present — nay, this was the Hotel's manager, its owner, and their \"Father.\"\\nHer image was one of unsmiling dignity, and thus, though she did not come by often, no one dared to horse around whenever she was around.\\nSurely, Lyney had gone completely mad to have her make her appearance in such a frivolous way.\\nYet, upon seeing the crowd's reaction, \"Father\" did not snap at anyone, opining merely that Lyney had kept this secret perfectly, just as a magic show should, declaring it worthy of praise.\\nThat night, the children and their \"Father\" delighted in the various desserts together, and she personally sliced a serving of cake for each of them, which she herself enjoyed some of as well.\\nPerhaps the most amazing aspect of Lyney's Founding Day magic show was its ability to have even \"Father\" lay down her heavy burden and enjoy a brief moment of familial love.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Magic and secrets piled up at Lyney's feet, growing ever taller like a tower. Gazing down from the top at the people as they passed by in the world below, Lyney knew there was no going back.\\nBoth the dazzling sleights of hand and the missions he would come to receive from Hotel Bouffes d'ete had made a habitual liar out of him.\\nAnd while lies could sometimes be useful for seizing an advantage, they were more often employed to keep more people from being dragged into trouble.\\nLyney knew very well that once trust had collapsed, the scales of judgment would no longer remain impartial, and even noble goals would become twisted and thought of as evil.\\nAs such, not revealing more than was absolutely necessary was prudent when working with others. More often than not, this makes things go more smoothly, with everyone getting the results they want.\\nBut lies will not simply scatter on the wind, and Lyney must maintain this illusion with utmost care, all the while keeping his distance from those affected.\\nAs so the tower extended towards the skies, until there would be no one to take his hand if he reached out, and even their visages blurred in his eyes.\\nFalsehood was Lyney's constant and only companion on the path that he walked, and this road was long and lonely — this he was always clear-minded about.\\nEveryone knew the brilliant \"Great Magician Lyney,\" but they loved only the mystery, the romance, the unattainable nature. They knew no love for the heart that lay deeper within.\\nHe felt he had no right to pour out his mind to others, and yet he must carry on with gritted teeth, for the price of a fall from such heights was more than he could bear.\\nHaving played too many parts, even Lyney would sometimes find himself questioning who \"he\" really was.\\nHis dreams often took him back to the tower, where his resting place at the pinnacle vantage would grow smaller and smaller, and with the fog of death they called \"betrayal\" extending all around, there was nowhere for him to go.\\nBut just before he could plummet, a hand grabbed onto him — and from it, he felt a familiar warmth that drew his soul back into his body, steadying \"him\" within himself once more.\\n\"Thank you, Lynette...\"\\nThe awakening youth mumbled to himself.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5",
+          "Complete \"As Light Rain Falls Without Reason\""
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "While Hotel Bouffes d'ete's operations in Fontaine work toward a just cause, its methods can often be radical. Only the influence of \"Father\" and her control over the inner workings of the Court of Fontaine prevent any serious incidents from occurring.\\nThere was once an official funded by Lyney who served in the Maison Gardiennage. This person provided both intel in support of the Hotel's operations and scrubbed clean the effects of some of the Hotel's clandestine actions.\\nThese were actions that came with no small risk, but the official always performed them well, for he believed that the Fontaine of the present day needed someone like \"Father\" who could bypass the many layers of laws and regulations and take direct action.\\nLyney once joked to him: \"I'll be there if you ever need help, and if you're in danger, I'll come to rescue you... Well, don't expect too much of that last bit. Just stay on guard, alright?\"\\nThe official knew that this was Lyney's way of expressing concern, of course. Yet even words spoken in jest could prove prophetic later, and so they did — this official's deeds were eventually discovered, and on the brink of capture, he used an emergency communication device to send a message to Lyney.\\nUpon discovering the device, the Gardes who arrived at the scene mocked the official's naivete, claiming that the signal sent merely informed his compatriots to save themselves — no one would be stupid enough to try to save him.\\nThe official's reply was also quite simple — even such an ending would have been fine for him, for he did not believe that his prior cooperation was the wrong decision.\\nBut just as the Gardes were about to arrest the official, thick smoke began billowing forth from dispensers pre-planted nearby, and the official caught sight of a brilliant blaze—\\nThe next moment, he was in the drink in the Fleuve Cendre, and was rescued by Freminet.\\nIt was said that the Gardes spent a great deal of time chasing after the skyborne flame-trail, believing that the criminal must have used some flying machine to flee the scene, only to discover later naught but wood dressed in clothes, affixed to a glider.\\nIn truth, Lyney had earlier used this device to draw the Gardes' attention away before getting the official out of his predicament.\\nThe official admitted that he had not had high hopes when pressing the device. Magicians were untrustworthy, after all — but still, he had chosen to gamble on that tiny chance.\\n\"Haha. Well, it is indeed a gamble to place your trust in others.\"\\n\"But don't worry. Magicians might be full of hot air, but we will never betray the expectations of our audience.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"As Light Rain Falls Without Reason\""
+        ]
+      },
+      {
+        "title": "Rosseland",
+        "text": "There is a special entity amongst the cats adopted by Lyney and Lynette, and its name is \"Rosseland.\"\\nEvery cat in the Hotel has its own territory, but Rosseland has a special affinity for Lyney's hat.\\nA hat is a magician's most important prop, and each time Lyney must use it, he must first chase Rosseland out — a difficult affair when its displeased meows in response are so heartrending, especially to siblings like Lyney and Lynette, who themselves once struggled to find a home.\\nThus the siblings began their search for a replacement, only to be met by refusal each time, no matter how lovely the new home — indeed, Rosseland would not even give them a second glance.\\nLyney even specially commissioned an identical hat, thinking that this might put an end to the cat's choosiness, only for Rosseland to lay claim that new hat also, becoming aggrieved no matter which was whisked away.\\nBut this was no feline tyranny. Indeed, Rosseland's requests were not terribly excessive. After much thought, Lyney eventually came up with a solution — to incorporate the cat into his magic shows.\\nHe and Lynette constructed a little puppet inside the hat that would normally serve as Rosseland's cushion. During performances, Rosseland would burrow inside the puppet, causing it to jink this way and that in a mischievous and adorable manner.\\nAnd as it turned out, Rosseland was not at all shy — indeed, it greatly enjoyed its new job. Perhaps the spotlight brought it much enjoyment indeed, for it would never prove quite so predisposed to exclusive ownership again, even when it had to temporarily leave its nest when off-stage.\\nDuring one of his shows, Lyney once made a rare error, having left a card he needed to produce on-stage backstage.\\nWith all eyes on him, he had mere seconds to think of a way to save the situation while maintaining his easy-going demeanor.\\nBut to his surprise, there was an unexpected weight in his hovering hat — it should have been empty, but Rosseland had somehow found its way inside.\\nOut came the puppet, and out with it came the card Lyney had needed, to the instantaneous applause of all. Lyney heaved a sigh of relief, but he was also quite shocked, in truth.\\nSome thought was put into this matter — but Lyney could only conclude that Rosseland had, influenced by the twins as it was, also mastered the art of the magical performance somehow.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "After Lynette gained the favor of the gods, the missions she had to undertake grew more dangerous and difficult.\\nOnly Vision-wielders like Lynette could fulfill the most dangerous missions while remaining completely anonymous, and the twins began to operate separately more often as a result.\\nLyney found himself unable to adapt to this. Not only had the siblings been together since childhood, but he knew that he was not the only one who felt disturbed by this split.\\nHe still desired to be beside her, lending her all the help he could — this was his non-negotiable desire.\\nKnowing his desire for power was no longer pure, Lyney concluded that he had become undeserving of divine favor. Yet he still desired a means to bridge the vast gulf in strength between him and his sister, which he did not possess. Unless...\\nTo this end, he solemnly sought out \"Father,\" expressing his belief that he needed the mysterious and perilous might of a Delusion to operate alongside his sister.\\n\"Father\" was silent for a long while, till at last two slanted crosses pinned him in place with a wrath rarely shown to the children of the Hotel, her gaze seeming to pierce his very soul.\\n\"And would Lynette want you to do this?\"\\nHer simple yet powerful question cut through the strings that bound his heart, and in a daze, his sister's words once more reverberated in his ears.\\n\"No one needs self-satisfied concern.\"\\nLyney did not need to ask his sister to know that she would never accept his desire to stay by her side with the use of a Delusion. It was only then that he realized the absurdity of his wish.\\n\"Father\" stood up and left, but not before reminding him that this was not the first time he had lacked power, but that he had found an answer before.\\nLyney would lock himself in his room, trying to digest the reasoning behind the words \"Father\" had left him with. When he and his sister had been out on the streets, the answer he had found then had been \"magic.\" What, then, would the answer be now?\\nLyney found the dossiers for all the missions Lynette had taken up during this period, carefully analyzing the process of each one and modeling his sister's every action.\\nWas it really necessary to pass through this dangerous valley to get close to a target?\\nWas it really a must to leap into such a swift river to flee the scene?\\nNo, this was just the Vision's light covering her.\\nThus did Lyney start to make comprehensive plans for his sister's missions, using his understanding of her to design the most suitable routes, make the most practical tools, and choose the best rendezvous points.\\nThe trust between them did not change. The look in Lynette's eyes when she left was no longer so strained, and they often embraced heartily and happily when meeting at the rendezvous point.\\nThe pure desire to protect one's family would not be moved, gods' favor or no.\\nBut even the best laid plans of mice and men may go awry. After conducting dozens of successful missions, the children of the Hotel were caught up in a betrayal, and as a result, Lynette's movements were exposed.\\nBefore the siblings was a towering cliff, just like the night when Lynette had gained her Vision — but this time, it was Lyney's turn to reverse their fortunes in a moment of crisis.\\nHe opened his emergency paraglider, and grabbing her, threw himself off the edge. But their pursuers followed, raining gunfire down on them.\\nLyney twisted this way and that, avoiding many a shot, but still the glider was punctured in several spots. Unable to maintain balance, they began to plummet downward towards the embrace of the ground below.\\nStill, Lyney grit his teeth and refused to despair — should fate itself conspire to refute the answer he had come up with to protect his family, he would defy it to the end.\\nTheir pursuers began to snicker, knowing that a fall at such speeds would be fatal — only to have a flame light up the skies, pushing the stricken glider toward a fast-flowing river nearby.\\nThe power of Pyro changed the direction of their fall, while Anemo defended them from harm — and thus did the twin lights intertwine and spread under the moonlight, fading slowly like the applause that fills the stage during a curtain call.\\nLyney did not guess at the meaning of the shining Vision he saw in his hand. The answer was, after all, no longer important.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"As Light Rain Falls Without Reason\""
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "This is no mere illusion, tis I, Lyney! The greatest magician in all Teyvat! How are we feeling today? Excited? Surprised? Oh, you're curious how I appeared in front of you like this? Well... Hmm, your eyes are like topaz, precious, pure, and lovely. I like them! I've decided — I'm going to put on a show just for you. Watch carefully now. Blink, and you might miss it!",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Distraction",
+        "text": "This is no time for distractions! Seriously, you have a great magician standing right here... You don't want to miss the best part, do you!?",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Sister",
+        "text": "I wonder what my dear sister Lynette is doing right now? Missing me to death, I'm sure!",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Seeing is Believing",
+        "text": "So long as the audience thinks that \"seeing is believing,\" there's no limit to the number of tricks I can pull off!",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "There's no way we'll be able to see the stars tonight in this weather. Unless... I try making the stars appear anyway!",
+        "unlocked": []
+      },
+      {
+        "title": "After the Rain",
+        "text": "Great, the weather's clearing up! I wonder if there's someone up there performing magic too...",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "Achoo! Phew... I've heard some say that when you sneeze, it means that someone's thinking about you. Is it Lynette, I wonder? Or... is it you?",
+        "unlocked": []
+      },
+      {
+        "title": "When It's Windy",
+        "text": "Whoa, that was close! If this wind blows my hat off, all the props I keep inside it would come tumbling down onto my head.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "The wind is really picking up... Ah, all my magic cards! Wait! No, no, not that way, come back! Come to Lyney!!!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "...C'mon, just five more minutes... Huh? Oh! It's you! I thought it was the radiance of the sunlight on my skin that I felt — turns out it was your radiance all along!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "I'm going to check out some products used for magic tricks later this afternoon. Perhaps they'll spark some inspiration for some new tricks. Want to come along? Come on, don't be shy, you know you want to! You can feed some of my animal assistants I use in my shows — I'm sure you'll get along great!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Good evening. The Great Magician Lyney will be performing later tonight... but I'm sure you didn't need me to tell you that!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "Good night. If you have trouble falling asleep, I have a few little props used for hypnosis that might help... Or maybe not. Either way, sweet dreams!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Lyney: Sweet Talker",
+        "text": "I should probably emphasize again that I'm rarely so open with anyone — I guess it's because you're not just anyone.",
+        "unlocked": []
+      },
+      {
+        "title": "About Lyney: Partnership",
+        "text": "*sigh* I'm afraid I'd find myself going into standby mode without Lynette by my side. I mean, I can handle my own business just fine, but it takes some getting used to. I'm sure you can understand. You also have... I mean... always have Paimon with you, after all.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Withholding the Truth",
+        "text": "Wow, you're not beating around the bush! ...Let me put it this way — delicious berries must often grow in areas thick with thorns, otherwise they would be devoured by greedy foxes. This is what we call self-defense! I mean, sure, I don't mind telling some small lies to others at times, but between the two of us, I've never done anything worse than omitting a minor detail here and there, right?",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Principles",
+        "text": "Magicians generally do not reveal the core secrets behind their tricks, but if you don't mind becoming my apprentice and calling me \"Master Lyney,\" then that would be different. I'm curious how much of it you'd understand, and how long you'd last, hehe.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "If a magician were to go onstage with their Vision in hand, people might suspect the authenticity of their tricks, so I habitually take it off before performing. But since you're interested, why don't you help me hold on to it while I perform? Just be sure to keep an eye on it, though — or it might just sneak its way back to me!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "Magic isn't just a performance art, it's also a way of thinking. Many things in this world seem simple at first glance but play host to all sorts of secrets if you look deeper.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "Cats can use their ears to express their feelings. If they flatten them backwards, it indicates fear or caution, and if their ears are perked up and occasionally face forward, that usually means they're happy. Constant swiveling indicates that they are vigilantly assessing their surroundings... How do I know this? Experience and observation!",
+        "unlocked": []
+      },
+      {
+        "title": "About \"Father\": Family",
+        "text": "\"Father\" gave us a family, raised us, and told each of us what we should work towards. In turn, what I can do is very simple... Remain loyal, and protect our home.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About \"Father\": King",
+        "text": "Ours is a kingdom consisting only of children, and \"Father\" is our king. No king rules forever, of course, and I know that one day I will be chosen as \"Father's\" successor... But that also terrifies me... Please don't mention this to anyone, especially my sister and Freminet.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"As Light Rain Falls Without Reason\""
+        ]
+      },
+      {
+        "title": "About Lynette: Modes",
+        "text": "You think my sister doesn't talk much? Oh, she's probably just not in the right mode. Next time, start by saying \"Activate Chat Mode\" to her. If you're lucky, she might have a great deal of things to say to you. Hmm, and if you're not lucky...? Well, she'll just stare for a while, but hey, at least you'll get to see a different side of her!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Lynette: Twins",
+        "text": "My sister and I have always been inseparable. There's no hardship we can't overcome as long as we're together, and similarly, we share all our joys with each other. There's nothing in the world I treasure more than my family, so I know what it must be like for you... And if I find out anything at all that might help you, I'll be sure to let you know.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Freminet",
+        "text": "My naive little brother still believes in fairy tales. I envy him, really. Uh, just to be clear though, he didn't actually tell me that. I just happened to see what he keeps in his secret drawer once... Really, it was an accident! So please don't tell him, or he'll get mad at me for sure.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Neuvillette",
+        "text": "Monsieur Neuvillette rarely appears in public, almost as if he's intentionally trying to put some distance between himself and the people. At first, I thought it might be just me, but my ever-observant sister noticed it too, so I suppose that must really be the case.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Furina",
+        "text": "The Hydro Archon, Lady Furina, is very unpredictable, and her manner of speech can be quite provocative, almost as if she sees talking itself like some sort of performance. The people of Fontaine have a particular soft spot for excitement and drama, which is why many hold her in high esteem.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Chiori",
+        "text": "Flattery won't get you anywhere with her. She'll only give those who can truly appreciate her art a second look. How does she see me, you ask? Come on now, that hurts! Not only am I a connoisseur of the arts, but honest about it too, as I am in all my dealings!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Navia",
+        "text": "I didn't think that she'd be willing to help strangers like us. If it hadn't been for all of you, Lynette and I wouldn't have been acquitted... Thank you so much. I'll have to wait for a lovely, sunny day to invite everyone to Café Lutece for the most wonderful afternoon tea!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"As Light Rain Falls Without Reason\""
+        ]
+      },
+      {
+        "title": "About Charlotte",
+        "text": "Charlotte has been trying to get me to agree to an interview ever since we met... Ugh, it feels like she's already asked twenty times now. She has a good nose for finding news, and she's the persistent type, too. But to be honest, I have no desire to find myself in the spotlight of one of her breaking news stories, and so I've found all sorts of reasons to decline each time.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"As Light Rain Falls Without Reason\""
+        ]
+      },
+      {
+        "title": "About Clorinde",
+        "text": "Clorinde's quite famous as a Champion Duelist. But from what I've read in the papers, she seems to have gotten into a bit of a pickle. The media's been all over her story, and she's... Well, she's the type that definitely doesn't enjoy that kind of attention.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Emilie",
+        "text": "Have you ever gotten a whiff of the perfumes she makes? I quite liked them and was thinking to buy myself a bottle... But Lynette's tail indicated that she didn't share my opinion, so that was the end of that!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Lyney: I",
+        "text": "It seems we're both keenly interested in each other. Well, know that the honor is mine! Haha, relax. I couldn't ever tell lies to your mesmerizing eyes — not even if I tried!",
+        "unlocked": []
+      },
+      {
+        "title": "More About Lyney: II",
+        "text": "Of course, there's no way to ensure that you'll never slip up when performing magic tricks. The way I see it, the point is not to perform perfectly, but to stay calm at all times and adapt as needed. Even if some small flaws occur, you just need to make the audience believe that it's all part of the show, and you'll still deliver an entertaining and unforgettable performance!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Lyney: III",
+        "text": "As orphans without parents to shelter us, Lynette and I were forced to roam the streets since childhood, so we've been through a lot. But those experiences have also made us who we are today. We're doing alright these days. I have a hat full of hopes and dreams... Heh, and a family, and audience, hoping that I don't let them down!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Lyney: IV",
+        "text": "Haha, so even now you still don't completely trust me, huh? You're a vigilant one — not that that's a bad thing. I'll never need to worry about you getting duped by someone else. But on the other hand, since you've taken it upon yourself to watch my every move, you'd better be careful when you blink... Who knows, I might just tell a huge, terrible lie while you're not paying attention! You'd be in a real pickle then, wouldn't you?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Lyney: V",
+        "text": "Actually, the real me is nowhere near as outgoing or chatty as I appear. More often than not, I only work my verbal \"magic\" as a means of getting closer to people. Sometimes I think people would feel sorry for the real me. Do you? *sigh* Or do you find my little games absurd?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Lyney's Hobbies",
+        "text": "Hey, what do we have here? Ah, a cute, little white rabbit — you like it? Curious about when it got here? You should be! Hehe, the look of amazement on our audience's face is what we magicians love the most.",
+        "unlocked": []
+      },
+      {
+        "title": "Lyney's Troubles: It's All a Disguise",
+        "text": "Ah, what to do, what to do? The thing that troubles me is... the fact that you can even think of troubling things when you have such a great magician like myself standing right in front of you.",
+        "unlocked": []
+      },
+      {
+        "title": "Lyney's Troubles: Doves",
+        "text": "In the past, I would let the doves I raised fly freely, and they would always return to me. But there was once when a few didn't return, and by the time we tracked them down, they'd been turned into dove pie. Even now I still don't know how to give them both freedom and safety.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Favorite Food",
+        "text": "See this fishbowl? Come, put your hand inside it. Filled with just ordinary water, right? Are you sure? Then let's begin! See this cloth? I'm going to cover the bowl with it and... Well, what do you know? There's a fish in there now! How was that? Maybe this fun little performance could earn me one of your very own fish dishes?",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "Our performances require that Lynette and I have matching physiques, so we have to avoid eating any oily food. Now, that's not a huge problem for me, but it can be tough for my sister — the fried fish they sell on the streets smells amazing, after all...",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "It's quite an honor to enjoy such wonderful food made by you.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "My, this is delicious! You're quite the cook. Thanks for the treat.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Would you like to see a magic trick? Now, let me place this ordinary cloth on top of the dish. Count down with me — three, two, one! Tada! Where'd the food go?",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "I have a feather here, just an ordinary feather... Go ahead, you can hold it and see for yourself. Ready? And... boom! It was a party popper all along. Happy Birthday! See this? I caught one of the paper streamers floating down. Now, make a wish and picture a birthday gift in your mind's eye as I light it. Three... two... one... Great! Verrry good, I know exactly what you were thinking now. The last step, put your hand inside my hat... Well? Is it the gift you wanted?",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "Oho, and here I thought you'd ask me to perform some magic with these materials!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Would you be more shocked if nothing changed about me at all?",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Nothing could make me happier than having your trust.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "Doing all this for me... Are you trying to steal this magician's heart, by any chance? Well, in that case, congratulations, my dear apprentice — or should I say, \"companion.\" For you have succeeded!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Step right up!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "And... voila!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Now, disappear!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Here comes the finale!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Let's get this show on the road!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "A round of applause!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "And now I'll make it all disappear... Hehe, just kidding~",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Guess this'll go into my magic pocket!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "I wonder if this chest is some kind of trick...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "Magic can't cheat death, you know!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Clever trick...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "It'll be alright.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Why don't you let me take the stage!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Your timing's off!",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "Lynette...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "My show... mustn't fail...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "Quick... drop the curtains...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "I'm fine.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Stay calm, stay calm...",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Ah, we'll be a traveling magic troupe.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Prepare to be amazed.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "It's an honor to be here.",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108564,
+      "recipe": 3408,
+      "name": "Cubic Tricks",
+      "icon": "UI_ItemIcon_108564",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210165,
+      "name": "Lyney: Pretense",
+      "desc": "Namecard style.\\nOne major type of magic revolves around making things \"vanish.\" Lyney has an arsenal of tricks up his sleeve. As his accomplice, as long as you are willing to turn a blind eye, all your problems may vanish as well.",
+      "icon": "UI_NameCardPic_Liney_P"
+    },
+    "costume": [
+      {
+        "id": 208400,
+        "name": "Fantasticat",
+        "desc": "Lyney's outfit. Cats only stretch in front of those they trust completely. Otherwise, they merely hide their claws behind a smile — intimate yet reserved, just like the sweet words of this magician.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_BOW",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Pyro",
+  "icon": "UI_AvatarIcon_Liney",
+  "stamina_recovery": 25,
+  "base_hp": 857.988,
+  "base_atk": 24.7646,
+  "base_def": 41.881,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 735.64716,
+        "fight_prop_base_defense": 35.91,
+        "fight_prop_base_attack": 21.231853,
+        "fight_prop_critical": 0
+      },
+      {
+        "fight_prop_base_hp": 1258.3438,
+        "fight_prop_base_defense": 61.425,
+        "fight_prop_base_attack": 36.317646,
+        "fight_prop_critical": 0.048
+      },
+      {
+        "fight_prop_base_hp": 1955.2726,
+        "fight_prop_base_defense": 95.445,
+        "fight_prop_base_attack": 56.432034,
+        "fight_prop_critical": 0.096
+      },
+      {
+        "fight_prop_base_hp": 2477.9692,
+        "fight_prop_base_defense": 120.96,
+        "fight_prop_base_attack": 71.51782,
+        "fight_prop_critical": 0.096
+      },
+      {
+        "fight_prop_base_hp": 3000.666,
+        "fight_prop_base_defense": 146.475,
+        "fight_prop_base_attack": 86.603615,
+        "fight_prop_critical": 0.144
+      },
+      {
+        "fight_prop_base_hp": 3523.3625,
+        "fight_prop_base_defense": 171.99,
+        "fight_prop_base_attack": 101.68941,
+        "fight_prop_critical": 0.192
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10841,
+      "name": "Card Force Translocation",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flames will run across the arrowhead before being fired. Different effects will occur based on the time spent charging.\\n·Charge Level 1: Fires off a Pyro-infused arrow, dealing <color=#FF9999FF>Pyro DMG</color>.\\n·Charge Level 2: Fires off a Prop Arrow that deals <color=#FF9999FF>Pyro DMG</color>, and upon hit, it will summon a Grin-Malkin Hat.\\nWhen firing the Prop Arrow, and when Lyney has more than 60% HP, he will consume a portion of his HP to obtain 1 Prop Surplus stack. Max 5 stacks. The effect will be removed after the character spends 30s out of combat.\\nThe lowest Lyney can drop to through this method is 60% of his Max HP.\\n\\n<color=#FFD780FF>Grin-Malkin Hat</color>\\n·Can taunt nearby opponents and attract their attacks. Each opponent can only be taunted by the Hat once every 5s.\\n·The Hat will inherit a percentage of Lyney's Max HP.\\n·If destroyed, or if its duration expires, it will fire off a <color=#FFD780FF>Pyrotechnic Strike</color> at 1 nearby opponent, dealing <color=#FF9999FF>Pyro DMG</color>.\\nOnly 1 Hat can exist at any given time.\\n\\n<color=#FFD780FF>Arkhe: Pneuma</color>\\nAt certain intervals, the Prop Arrow will cause a Spiritbreath Thorn to descend upon its hit location, dealing Pneuma-aligned <color=#FF9999FF>Pyro DMG</color>.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.38786,
+            0.38012,
+            0.27262,
+            0.27262,
+            0.56932,
+            0.568288,
+            1.136335,
+            1.419344,
+            0.4386,
+            1.24,
+            1.728,
+            0.2,
+            0.64,
+            4,
+            2.12,
+            0.27552,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.41943,
+            0.41106,
+            0.29481,
+            0.29481,
+            0.61566,
+            0.614544,
+            1.228828,
+            1.534872,
+            0.4743,
+            1.333,
+            1.8576,
+            0.2,
+            0.688,
+            4,
+            2.279,
+            0.296184,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.451,
+            0.442,
+            0.317,
+            0.317,
+            0.662,
+            0.6608,
+            1.32132,
+            1.6504,
+            0.51,
+            1.426,
+            1.9872,
+            0.2,
+            0.736,
+            4,
+            2.438,
+            0.316848,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4961,
+            0.4862,
+            0.3487,
+            0.3487,
+            0.7282,
+            0.72688,
+            1.453452,
+            1.81544,
+            0.561,
+            1.55,
+            2.16,
+            0.2,
+            0.8,
+            4,
+            2.65,
+            0.3444,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.52767,
+            0.51714,
+            0.37089,
+            0.37089,
+            0.77454,
+            0.773136,
+            1.545944,
+            1.930968,
+            0.5967,
+            1.643,
+            2.2896,
+            0.2,
+            0.848,
+            4,
+            2.809,
+            0.365064,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.56375,
+            0.5525,
+            0.39625,
+            0.39625,
+            0.8275,
+            0.826,
+            1.65165,
+            2.063,
+            0.6375,
+            1.736,
+            2.4192,
+            0.2,
+            0.896,
+            4,
+            2.968,
+            0.385728,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.61336,
+            0.60112,
+            0.43112,
+            0.43112,
+            0.90032,
+            0.898688,
+            1.796995,
+            2.244544,
+            0.6936,
+            1.86,
+            2.592,
+            0.2,
+            0.96,
+            4,
+            3.18,
+            0.41328,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.66297,
+            0.64974,
+            0.46599,
+            0.46599,
+            0.97314,
+            0.971376,
+            1.94234,
+            2.426088,
+            0.7497,
+            1.984,
+            2.7648,
+            0.2,
+            1.024,
+            4,
+            3.392,
+            0.440832,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.71258,
+            0.69836,
+            0.50086,
+            0.50086,
+            1.04596,
+            1.044064,
+            2.087686,
+            2.607632,
+            0.8058,
+            2.108,
+            2.9376,
+            0.2,
+            1.088,
+            4,
+            3.604,
+            0.468384,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7667,
+            0.7514,
+            0.5389,
+            0.5389,
+            1.1254,
+            1.12336,
+            2.246244,
+            2.80568,
+            0.867,
+            2.232,
+            3.1104,
+            0.2,
+            1.152,
+            4,
+            3.816,
+            0.495936,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.82082,
+            0.80444,
+            0.57694,
+            0.57694,
+            1.20484,
+            1.202656,
+            2.404802,
+            3.003728,
+            0.9282,
+            2.356,
+            3.2832,
+            0.2,
+            1.216,
+            4,
+            4.028,
+            0.523488,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.87494,
+            0.85748,
+            0.61498,
+            0.61498,
+            1.28428,
+            1.281952,
+            2.563361,
+            3.201776,
+            0.9894,
+            2.48,
+            3.456,
+            0.2,
+            1.28,
+            4,
+            4.24,
+            0.55104,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.92906,
+            0.91052,
+            0.65302,
+            0.65302,
+            1.36372,
+            1.361248,
+            2.721919,
+            3.399824,
+            1.0506,
+            2.635,
+            3.672,
+            0.2,
+            1.36,
+            4,
+            4.505,
+            0.58548,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.98318,
+            0.96356,
+            0.69106,
+            0.69106,
+            1.44316,
+            1.440544,
+            2.880478,
+            3.597872,
+            1.1118,
+            2.79,
+            3.888,
+            0.2,
+            1.44,
+            4,
+            4.77,
+            0.61992,
+            6,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Plunge DMG|{param6:F1P}",
+            "Low/High Plunge DMG|{param7:F1P}/{param8:F1P}",
+            "Aimed Shot|{param9:F1P}",
+            "Aimed Shot Charge Level 1|{param10:F1P}",
+            "Prop Arrow DMG|{param11:F1P}",
+            "HP Cost|{param12:P} Max HP",
+            "Grin-Malkin Hat Inherited HP|{param13:P}",
+            "Grin-Malkin Hat Duration|{param14:F1}s",
+            "Pyrotechnic Strike DMG|{param15:F1P}",
+            "Spiritbreath Thorn DMG|{param16:F1P}",
+            "Spiritbreath Thorn Interval|{param17:F1}s",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0373,
+            1.0166,
+            0.7291,
+            0.7291,
+            1.5226,
+            1.51984,
+            3.039036,
+            3.79592,
+            1.173,
+            2.945,
+            4.104,
+            0.2,
+            1.52,
+            4,
+            5.035,
+            0.65436,
+            6,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10842,
+      "name": "Bewildering Lights",
+      "desc": "Lyney does a flourish with his hat, unleashing a firework surprise!\\nWhen used, he will clear all current Prop Surplus stacks and deal <color=#FF9999FF>AoE Pyro DMG</color> to opponents in front of him. DMG will be increased according to the stacks cleared, and this will also regenerate Lyney's HP based on his Max HP.\\n\\nWhen a Grin-Malkin Hat created by Lyney is on the field, the fireworks will cause it to explode, dealing <color=#FF9999FF>AoE Pyro DMG</color> equal to that of a Pyrotechnic Strike.\\nThe DMG dealt through the Grin-Malkin Hat in this way is considered Charged Attack DMG.\\n\\n<i>\"Everyone knows that magicians will intentionally misdirect the audience... Ah, yes, while you were looking my way, the hat and assistant over there have both disappeared... Fascinating, is it not?\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.672,
+            0.532,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7974,
+            0.5719,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9228,
+            0.6118,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.09,
+            0.665,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.2154,
+            0.7049,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.3408,
+            0.7448,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.508,
+            0.798,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.6752,
+            0.8512,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.8424,
+            0.9044,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.0096,
+            0.9576,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.1768,
+            1.0108,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.344,
+            1.064,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.553,
+            1.1305,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.762,
+            1.197,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Skill DMG Bonus|{param2:F1P} ATK/Stack",
+            "HP Regeneration|{param3:P}/Stack",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.971,
+            1.2635,
+            0.2,
+            0,
+            15,
+            0.6,
+            5,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10845,
+      "name": "Wondrous Trick: Miracle Parade",
+      "desc": "Unleashing his magic, Lyney turns himself into a Grin-Malkin Cat that can move around quickly. (Not to be mistaken for the Grin-Malkin Hat. They're two different props!)\\nWhen the Grin-Malkin Cat gets close to opponents, it will send flames falling down on them, dealing at most 1 instance of <color=#FF9999FF>Pyro DMG</color> to each opponent. When the duration ends, he will dismiss the Grin-Malkin Cat and ignite fireworks that deal <color=#FF9999FF>AoE Pyro DMG</color>, summon 1 Grin-Malkin Hat, and grant himself 1 Prop Surplus stack.\\n\\nGrin-Malkin Cat can be actively canceled.\\n\\n<i>\"Watch closely now. This is a time for miracles, and it belongs to just the two of us!\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.54,
+            4.14,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6555,
+            4.4505,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.771,
+            4.761,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.925,
+            5.175,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.0405,
+            5.4855,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.156,
+            5.796,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.31,
+            6.21,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.464,
+            6.624,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.618,
+            7.038,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.772,
+            7.452,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.926,
+            7.866,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.08,
+            8.28,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.2725,
+            8.7975,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.465,
+            9.315,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Liney_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}",
+            "Explosive Firework DMG|{param2:F1P}",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.6575,
+            9.8325,
+            3,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 842101,
+      "name": "Perilous Performance",
+      "desc": "If Lyney consumes HP when firing off a <color=#FFD780FF>Prop Arrow</color>, the Grin-Malkin hat summoned by the arrow will, upon hitting an opponent, restore 3 Energy to Lyney and increase DMG dealt by 80% of his ATK.",
+      "icon": "UI_Talent_S_Liney_05",
+      "unlock": 1,
+      "param_list": [
+        3,
+        0.8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 842201,
+      "name": "Conclusive Ovation",
+      "desc": "The DMG Lyney deals to opponents affected by <color=#FF9999FF>Pyro</color> will receive the following buffs:\\n·Increases the DMG dealt by 60%.\\n·Each <color=#FF9999FF>Pyro</color> party member other than Lyney will cause the DMG dealt to increase by an additional 20%.\\nLyney can deal up to 100% increased DMG to opponents affected by <color=#FF9999FF>Pyro</color> in this way.",
+      "icon": "UI_Talent_S_Liney_06",
+      "unlock": 4,
+      "param_list": [
+        0.6,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 842301,
+      "name": "Trivial Observations",
+      "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Fontaine</color> on the mini-map.",
+      "icon": "UI_Talent_S_Liney_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 841,
+      "name": "Whimsical Wonders",
+      "desc": "Lyney can have 2 <color=#FFD780FF>Grin-Malkin Hats</color> present at once.\\nAdditionally, Prop Arrows will summon 2 Grin-Malkin Hats and grant Lyney 1 extra stack of Prop Surplus. This effect can occur once every 15s.",
+      "icon": "UI_Talent_S_Liney_01",
+      "param_list": [
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 842,
+      "name": "Loquacious Cajoling",
+      "desc": "When Lyney is on the field, he will gain a stack of Crisp Focus every 2s. Each stack will increase his CRIT DMG by 20%. Max 3 stacks. This effect will be canceled when Lyney leaves the field.",
+      "icon": "UI_Talent_S_Liney_03",
+      "param_list": [
+        0.2,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 843,
+      "name": "Prestidigitation",
+      "desc": "Increases the Level of <color=#FFD780FF>Normal Attack: Card Force Translocation</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Liney_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 844,
+      "name": "Well-Versed, Well-Rehearsed",
+      "desc": "After an opponent is hit by Lyney's <color=#FF9999FF>Pyro</color> Charged Attack, this opponent's <color=#FF9999FF>Pyro RES</color> will be decreased by 20% for 6s.",
+      "icon": "UI_Talent_S_Liney_02",
+      "param_list": [
+        0.2,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 845,
+      "name": "To Pierce Enigmas",
+      "desc": "Increases the Level of <color=#FFD780FF>Wondrous Trick: Miracle Parade</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Liney_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 846,
+      "name": "Guarded Smile",
+      "desc": "When Lyney fires a <color=#FFD780FF>Prop Arrow</color>, he will fire a Pyrotechnic Strike: Reprised that will deal 80% of a Pyrotechnic Strike's DMG. This DMG is considered Charged Attack DMG.",
+      "icon": "UI_Talent_S_Liney_04",
+      "param_list": [
+        0.8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Sliver",
+            "id": 104111,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Rainbow Rose",
+            "id": 101236,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Recruit's Insignia",
+            "id": 112032,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Fragment",
+            "id": 104112,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Emperor's Resolution",
+            "id": 113051,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Rainbow Rose",
+            "id": 101236,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Recruit's Insignia",
+            "id": 112032,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Fragment",
+            "id": 104112,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Emperor's Resolution",
+            "id": 113051,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Rainbow Rose",
+            "id": 101236,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Sergeant's Insignia",
+            "id": 112033,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Chunk",
+            "id": 104113,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Emperor's Resolution",
+            "id": 113051,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Rainbow Rose",
+            "id": 101236,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Sergeant's Insignia",
+            "id": 112033,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Chunk",
+            "id": 104113,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Emperor's Resolution",
+            "id": 113051,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Rainbow Rose",
+            "id": 101236,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Lieutenant's Insignia",
+            "id": 112034,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Agnidus Agate Gemstone",
+            "id": 104114,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Emperor's Resolution",
+            "id": 113051,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Rainbow Rose",
+            "id": 101236,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Lieutenant's Insignia",
+            "id": 112034,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Equity",
+              "id": 104338,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Equity",
+              "id": 104338,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Equity",
+              "id": 104338,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Equity",
+              "id": 104339,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Equity",
+              "id": 104340,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Primordial Greenbloom",
+              "id": 113047,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ShootArrow_Enchanted_WithoutFire",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutFire"
+    },
+    {
+      "name": "Bullet_Liney_ShootArrow_WithFire",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithFire"
+    },
+    {
+      "name": "Bullet_Liney_ShootArrow_WithFire_BeforeFission",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithFire_BeforeFission"
+    },
+    {
+      "name": "Bullet_Liney_ShootArrow_WithFire_BeforeFission",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithFire_BeforeFission"
+    },
+    {
+      "name": "SkillObj_Liney_ShootArrow_OusiaAgent",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithFire_Ousia"
+    },
+    {
+      "name": "Bullet_Liney_FissionAgent_EndBoom",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Liney_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "DamageWithFire_AfterFission",
+        "AfterFission_PermanentSkill_1_HurtUp",
+        "ADD"
+      ]
+    },
+    {
+      "name": "Bullet_Liney_FissionAgent_EndBoom_Constellation_6",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Liney_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "DamageWithFire_AfterFission",
+        "EndBoom_Constellation_6_DMGRatio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "SkillObj_Liney_FissionAgent_EndBoom_Enhanced",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Liney_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 90
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "DamageWithFire_AfterFission_Enhanced",
+        "AfterFission_PermanentSkill_1_HurtUp",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 60
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "ElementalArt",
+        "LoseHp_Count",
+        "LoseHp_ElementalArtDamage_CountRatio",
+        "MUL",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 120
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "MagicMove_EndAttack"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "DropBall_Base",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Pyro",
+      "per_drop": 1,
+      "lifetime": 15,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2017
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Ever-Glorious Magical Girl",
+  "icon": "SpriteOutput/ItemIcon/71052.png",
+  "parts": {
+    "31291": {
+      "name": "Magical Girl's Shining Medal"
+    },
+    "31292": {
+      "name": "Magical Girl's Protective Gloves"
+    },
+    "31293": {
+      "name": "Magical Girl's Everdance Battle Skirt"
+    },
+    "31294": {
+      "name": "Magical Girl's Contract Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.16
+      ]
+    },
+    "4": {
+      "desc": "The Elation DMG dealt by the wearer and their memosprites ignores <unbreak>#1[i]%</unbreak> of targets' DEF. For every <unbreak>#2[i]</unbreak> accumulated Punchline allies gain, the Elation DMG dealt additionally ignores <unbreak>#3[i]%</unbreak> of targets' DEF, stacking up to <unbreak>#4[i]</unbreak> time(s).",
+      "param_list": [
+        0.1,
+        5,
+        0.01,
+        10
+      ]
+    }
+  }
+}

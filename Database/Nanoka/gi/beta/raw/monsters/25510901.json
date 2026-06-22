@@ -1,0 +1,168 @@
+{
+  "name": "Iktomisaurus Warrior: Icy Tidebearer",
+  "desc": "A powerful warrior from the Night-Wind, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\\nTribal warriors from the Masters of the Night-Wind do not typically excel when it comes to conventional strength. Their ability to manipulate weapons with ease comes instead from years of mental training. Thus, compared to combat prowess in itself, warriors from the Masters of the Night-Wind place greater value on the gift of \"Spiritspeaking.\" Drawing upon the power of special graffiti and willpower alone, it is said that the most exceptional of Spiritspeakers can lift boulders as tall as people.",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Shamansaurus",
+  "codex": "HUMAN",
+  "title": "Iktomisaurus Warrior: Icy Tidebearer",
+  "special_names": [
+    "Bravery Saurian-Crowned"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112106,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    {
+      "id": 112105,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    {
+      "id": 112104,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    }
+  ],
+  "child": {
+    "25510901": {
+      "monster_name": "Tribalwarrior_Male_Standard_Chainsword_Shamansaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510902": {
+      "monster_name": "Tribalwarrior_Male_Standard_Chainsword_Shamansaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510990": {
+      "monster_name": "Tribalwarrior_Male_Standard_Chainsword_Shamansaurus_01_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 33.527378,
+        "atk": 44.88,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

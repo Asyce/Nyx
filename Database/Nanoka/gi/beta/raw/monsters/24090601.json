@@ -1,0 +1,119 @@
+{
+  "name": "Precursor's Secret Source Matrix of Overseer Network",
+  "desc": "An ancient machine trapped amongst the lunar ruins. Even the sturdiest and most reliable machines will be conquered by the passing of long years, losing the purpose bestowed upon them by their creators. Now, this entity only attacks and eliminates anything that dares set foot on the ground it defends.\\nIn the records of a long-lost ancient civilization, these out-of-control machines were once called \"Ur-Namrasit-Tilimtu-Babbar,\" or \"the one who brings light to the darkness.\" With a yearning for the boundless sea of stars, the leaders of the \"pioneers\" engraved their most earnest words in golden sigils, hoping that their successors, with the help of these assistants, would be able to keep the light that illuminates the universe shining bright.\\nAlas, the light did not arise for anyone, and the machine that was given the title of \"overseer\" did not manage to wait for the one it should have served. Now, stranded in these ruins, it is but the last, out-of-control remnant of a long-lost ideal.",
+  "icon": "UI_MonsterIcon_Monitor_01",
+  "codex": "AUTOMATRON",
+  "title": "The Solitary Bringer of Light",
+  "special_names": [
+    "Precursor's Secret Source Matrix of Overseer Network"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112145,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112145"
+    },
+    {
+      "id": 112144,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112144"
+    },
+    {
+      "id": 112143,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112143"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "24090601": {
+      "monster_name": "Monitor_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 114.1056,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

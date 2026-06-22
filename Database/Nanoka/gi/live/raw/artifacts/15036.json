@@ -1,0 +1,145 @@
+{
+  "id": 15036,
+  "icon": "UI_RelicIcon_15036_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150360,
+      "id": 215036,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Unfinished Reverie",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150361,
+      "id": 215036,
+      "level": 1,
+      "open_config": "Relic_CheckBuringDamageUp",
+      "param_list": [
+        5,
+        0.1,
+        6,
+        1,
+        1,
+        3,
+        0,
+        0
+      ],
+      "name": "Unfinished Reverie",
+      "desc": "After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15036_1",
+      "name": "The Wine-Flask Over Which the Plan Was Hatched",
+      "desc": "A three-legged cup. Once, many heroes were gathered around the bonfire, raising their cups high in toast and drinking their fill while discussing their wishes and ambitions.",
+      "story": {
+        "285361": {
+          "zh": "ART/UI/Readable/CHS/Relic15036_1",
+          "en": "ART/UI/Readable/EN/Relic15036_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15036_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15036_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15036_2",
+      "name": "Faded Emerald Tail",
+      "desc": "A tail feather ornament whose luster has long faded. The patterns on it are said to have been etched by the hand of a skilled artisan from long ago.",
+      "story": {
+        "285362": {
+          "zh": "ART/UI/Readable/CHS/Relic15036_2",
+          "en": "ART/UI/Readable/EN/Relic15036_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15036_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15036_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15036_3",
+      "name": "Crownless Crown",
+      "desc": "A golden crown decorated with turquoise and emerald feathers, it has never been used in a coronation, living alone atop a velvet cushion.",
+      "story": {
+        "285363": {
+          "zh": "ART/UI/Readable/CHS/Relic15036_3",
+          "en": "ART/UI/Readable/EN/Relic15036_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15036_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15036_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15036_4",
+      "name": "Dark Fruit of Bright Flowers",
+      "desc": "A flower carved from grey stone covered with gold foil. Legends say that during a war, it was used to differentiate friend from foe.",
+      "story": {
+        "285364": {
+          "zh": "ART/UI/Readable/CHS/Relic15036_4",
+          "en": "ART/UI/Readable/EN/Relic15036_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15036_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15036_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15036_5",
+      "name": "Moment of Attainment",
+      "desc": "A sundial used by an ancient kingdom to tell time. Tiny marks have been left at a certain scale that can only be seen through careful observation.",
+      "story": {
+        "285365": {
+          "zh": "ART/UI/Readable/CHS/Relic15036_5",
+          "en": "ART/UI/Readable/EN/Relic15036_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15036_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15036_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "name": "Eremite Axe Vanguard",
+  "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\\nThese ax-wielding ladies often wade into the slaughter without fear, creating openings for their comrades to capitalize on.\\nThey will sometimes sit by the fireside in their sand-swept homeland and play songs that were lost in that golden sea.",
+  "icon": "UI_MonsterIcon_Eremite_Female_Hatchet",
+  "codex": "HUMAN",
+  "title": "Eremite Axe Vanguard",
+  "special_names": [
+    "Martial Desert Descendant"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112067,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    {
+      "id": 112066,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    {
+      "id": 112065,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    }
+  ],
+  "child": {
+    "25210101": {
+      "monster_name": "Eremite_Female_Hatchet_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210102": {
+      "monster_name": "Eremite_Female_Hatchet_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210103": {
+      "monster_name": "Eremite_Female_Hatchet_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210104": {
+      "monster_name": "EremiteElite_Female_Hatchet_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210105": {
+      "monster_name": "EremiteElite_Female_Hatchet_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210106": {
+      "monster_name": "EremiteElite_Female_Hatchet_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210107": {
+      "monster_name": "Eremite_Female_Hatchet_04",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210108": {
+      "monster_name": "Eremite_Female_Hatchet_05",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210109": {
+      "monster_name": "NPC_Quest_Female_Standard_Nailan_20933",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25210181": {
+      "monster_name": "Eremite_Female_Hatchet_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

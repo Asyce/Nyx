@@ -1,0 +1,146 @@
+{
+  "id": 15015,
+  "icon": "UI_RelicIcon_15015_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_SHIELD_COST_MINUS_RATIO",
+          "value": 0.35
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150150,
+      "id": 215015,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Retracing Bolide",
+      "desc": "Increases Shield Strength by 35%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150151,
+      "id": 215015,
+      "level": 1,
+      "open_config": "Relic_ShieldEnhanceAtk",
+      "param_list": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Retracing Bolide",
+      "desc": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15015_1",
+      "name": "Summer Night's Waterballoon",
+      "desc": "",
+      "story": {
+        "285151": {
+          "zh": "ART/UI/Readable/CHS/Relic15015_1",
+          "en": "ART/UI/Readable/EN/Relic15015_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15015_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15015_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15015_2",
+      "name": "Summer Night's Finale",
+      "desc": "",
+      "story": {
+        "285152": {
+          "zh": "ART/UI/Readable/CHS/Relic15015_2",
+          "en": "ART/UI/Readable/EN/Relic15015_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15015_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15015_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15015_3",
+      "name": "Summer Night's Mask",
+      "desc": "",
+      "story": {
+        "285153": {
+          "zh": "ART/UI/Readable/CHS/Relic15015_3",
+          "en": "ART/UI/Readable/EN/Relic15015_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15015_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15015_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15015_4",
+      "name": "Summer Night's Bloom",
+      "desc": "",
+      "story": {
+        "285154": {
+          "zh": "ART/UI/Readable/CHS/Relic15015_4",
+          "en": "ART/UI/Readable/EN/Relic15015_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15015_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15015_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15015_5",
+      "name": "Summer Night's Moment",
+      "desc": "",
+      "story": {
+        "285155": {
+          "zh": "ART/UI/Readable/CHS/Relic15015_5",
+          "en": "ART/UI/Readable/EN/Relic15015_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15015_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15015_5_KR"
+        }
+      }
+    }
+  }
+}

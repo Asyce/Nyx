@@ -1,0 +1,139 @@
+{
+  "id": 15018,
+  "icon": "UI_RelicIcon_15018_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0.25
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150180,
+      "id": 215018,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Pale Flame",
+      "desc": "Physical DMG is increased by 25%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150181,
+      "id": 215018,
+      "level": 1,
+      "open_config": "Relic_AttackUpWhenNormalAtkAndExtraAtkHit",
+      "param_list": [
+        0.09,
+        7,
+        0.3,
+        0.25,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Pale Flame",
+      "desc": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15018_1",
+      "name": "Surpassing Cup",
+      "desc": "",
+      "story": {
+        "285181": {
+          "zh": "ART/UI/Readable/CHS/Relic15018_1",
+          "en": "ART/UI/Readable/EN/Relic15018_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15018_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15018_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15018_2",
+      "name": "Wise Doctor's Pinion",
+      "desc": "",
+      "story": {
+        "285182": {
+          "zh": "ART/UI/Readable/CHS/Relic15018_2",
+          "en": "ART/UI/Readable/EN/Relic15018_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15018_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15018_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15018_3",
+      "name": "Mocking Mask",
+      "desc": "",
+      "story": {
+        "285183": {
+          "zh": "ART/UI/Readable/CHS/Relic15018_3",
+          "en": "ART/UI/Readable/EN/Relic15018_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15018_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15018_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15018_4",
+      "name": "Stainless Bloom",
+      "desc": "",
+      "story": {
+        "285184": {
+          "zh": "ART/UI/Readable/CHS/Relic15018_4",
+          "en": "ART/UI/Readable/EN/Relic15018_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15018_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15018_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15018_5",
+      "name": "Moment of Cessation",
+      "desc": "",
+      "story": {
+        "285185": {
+          "zh": "ART/UI/Readable/CHS/Relic15018_5",
+          "en": "ART/UI/Readable/EN/Relic15018_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15018_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15018_5_KR"
+        }
+      }
+    }
+  }
+}

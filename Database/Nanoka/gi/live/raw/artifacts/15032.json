@@ -1,0 +1,145 @@
+{
+  "id": 15032,
+  "icon": "UI_RelicIcon_15032_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150320,
+      "id": 215032,
+      "level": 0,
+      "open_config": "Relic_ArtSkillDamageUp",
+      "param_list": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Golden Troupe",
+      "desc": "Increases Elemental Skill DMG by 20%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150321,
+      "id": 215032,
+      "level": 1,
+      "open_config": "Relic_OffStageArtDamageUp",
+      "param_list": [
+        0.25,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Golden Troupe",
+      "desc": "Increases Elemental Skill DMG by 25%. Additionally, when not on the field, Elemental Skill DMG will be further increased by 25%. This effect will be cleared 2s after taking the field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15032_1",
+      "name": "Golden Night's Bustle",
+      "desc": "An ancient silver urn that was once filled with fine wine as red as rubies. Now, it contains nothing but bitter seawater.",
+      "story": {
+        "285321": {
+          "zh": "ART/UI/Readable/CHS/Relic15032_1",
+          "en": "ART/UI/Readable/EN/Relic15032_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15032_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15032_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15032_2",
+      "name": "Golden Bird's Shedding",
+      "desc": "A gold feather made using silver and gold filigree. A crystal-clear sapphire is mounted atop it.",
+      "story": {
+        "285322": {
+          "zh": "ART/UI/Readable/CHS/Relic15032_2",
+          "en": "ART/UI/Readable/EN/Relic15032_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15032_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15032_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15032_3",
+      "name": "Golden Troupe's Reward",
+      "desc": "An ancient crown that resembles a stage prop more than it does some suzerain's headgear.",
+      "story": {
+        "285323": {
+          "zh": "ART/UI/Readable/CHS/Relic15032_3",
+          "en": "ART/UI/Readable/EN/Relic15032_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15032_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15032_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15032_4",
+      "name": "Golden Song's Variation",
+      "desc": "A flower constructed out of clam, mother-of-pearl, and gold leaf. It blooms proudly.",
+      "story": {
+        "285324": {
+          "zh": "ART/UI/Readable/CHS/Relic15032_4",
+          "en": "ART/UI/Readable/EN/Relic15032_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15032_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15032_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15032_5",
+      "name": "Golden Era's Prelude",
+      "desc": "This lovely sundial is inlaid with silver and gold. It seems that time has stopped flowing atop its dial plate.",
+      "story": {
+        "285325": {
+          "zh": "ART/UI/Readable/CHS/Relic15032_5",
+          "en": "ART/UI/Readable/EN/Relic15032_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15032_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15032_5_KR"
+        }
+      }
+    }
+  }
+}

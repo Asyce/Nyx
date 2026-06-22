@@ -1,0 +1,60 @@
+{
+  "name": "Consecrated Fanged Beast",
+  "desc": "A predator that has mutated after feeding from greater lifeforms.\\nSurvival of the fittest is written in the law of nature. But pets and Consecrated Beasts are exceptions. Human beings' baits and the remains of immortal beings are essentially deliberate or unintentional traps. The price of coveting the gift of the strongest is much more painful than being locked in a cage.",
+  "icon": "UI_MonsterIcon_Panther_Sacred_Grass",
+  "codex": "BEAST",
+  "title": "Tangled Overgrowth: Consecrated Fanged Beast",
+  "special_names": [
+    "The Lush One, Devourer of the Mighty"
+  ],
+  "reward": [],
+  "child": {
+    "26100201": {
+      "monster_name": "Panther_Sacred_Grass_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010023,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010023,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010023,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

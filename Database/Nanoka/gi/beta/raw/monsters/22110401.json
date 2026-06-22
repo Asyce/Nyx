@@ -1,0 +1,101 @@
+{
+  "name": "Overgrown Breacher Primus",
+  "desc": "A strange life form that mostly appears in Elynas.\\nIn Fontaine, the earliest recorded observations of a Breacher Primus appeared shortly after the cataclysm. Records from the time show instances of Breacher Primuses both attacking and protecting humans.",
+  "icon": "UI_MonsterIcon_Ovacua_Chaos_02",
+  "codex": "ABYSS",
+  "title": "Overgrown Breacher Primus",
+  "special_names": [
+    "Otherworldly Agglomerated Organism"
+  ],
+  "reward": [],
+  "child": {
+    "22110402": {
+      "monster_name": "Ovacua_Chaos_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010013,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010013,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 32.656,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22110403": {
+      "monster_name": "Ovacua_Chaos_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010013,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010013,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.3,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 32.656,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

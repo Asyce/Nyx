@@ -1,0 +1,93 @@
+{
+  "name": "All-Devouring Narwhal",
+  "desc": "A mysterious and gargantuan creature from another world.",
+  "icon": "UI_MonsterIcon_Ptahur_Devourer",
+  "codex": "BOSS",
+  "title": "All-Devouring Narwhal",
+  "special_names": [
+    "Visitor From the Far Side of the Sea of Stars"
+  ],
+  "reward": [],
+  "child": {
+    "29090101": {
+      "monster_name": "Monster_Ptahur_Devourer",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.7,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 543.36,
+        "atk": 125.6,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29090102": {
+      "monster_name": "Monster_Ptahur_Devourer",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.7,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 543.36,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

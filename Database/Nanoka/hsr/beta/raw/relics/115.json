@@ -1,0 +1,34 @@
+{
+  "name": "The Ashblazing Grand Duke",
+  "icon": "SpriteOutput/ItemIcon/71024.png",
+  "parts": {
+    "31151": {
+      "name": "Grand Duke's Crown of Netherflame"
+    },
+    "31152": {
+      "name": "Grand Duke's Gloves of Fieryfur"
+    },
+    "31153": {
+      "name": "Grand Duke's Robe of Grace"
+    },
+    "31154": {
+      "name": "Grand Duke's Ceremonial Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the DMG dealt by Follow-Up ATK by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.2
+      ]
+    },
+    "4": {
+      "desc": "When the wearer uses a Follow-Up ATK, increases the wearer's ATK by <unbreak>#1[i]%</unbreak> for every time the Follow-Up ATK deals DMG. This effect can stack up to <unbreak>#2[i]</unbreak> time(s) and lasts for <unbreak>#3[i]</unbreak> turn(s). This effect is removed the next time the wearer uses a Follow-Up ATK.",
+      "param_list": [
+        0.06,
+        8,
+        3
+      ]
+    }
+  }
+}

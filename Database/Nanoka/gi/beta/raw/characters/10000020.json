@@ -1,0 +1,4260 @@
+{
+  "name": "Razor",
+  "desc": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+  "chara_info": {
+    "release_date": "2020-09-15 04:00:00",
+    "birth": [
+      9,
+      9
+    ],
+    "vision": "Electro",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Lupus Minor",
+    "region": "ASSOC_TYPE_MONDSTADT",
+    "title": "Wolf Boy",
+    "native": "Wolvendom",
+    "detail": "A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.",
+    "va": {
+      "chinese": "周帅",
+      "japanese": "内山昂輝",
+      "english": "Todd Haberkorn",
+      "korean": "Kim Seo-young"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Razor is a boy whose identity is shrouded in mystery. He lives in Wolvendom and is rarely spotted by the citizens of Mondstadt.\\nAccording to a handful of eyewitness accounts, Razor has keen senses and is highly agile, traversing the forest at breakneck speed. He is often seen in the company of his wolf pack, while generally avoiding contact with humans.\\nSome speculate that he was an orphan raised by the wolves, while others say he is a wolf spirit that has taken on a human form.\\nSuch rumors only add to the mystery of the \"Wolf Boy,\" as the denizens of Mondstadt call him.\\nMeanwhile, Razor the Wolf Boy stands all the while on the hilltops with his head held high, basking in the warm sunlight.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Razor lives among the wolves night and day.\\nAll of them are as close with Razor as they could possibly be. Which wolf has the loudest howl, which wolf runs the fastest, which wolf is the best at ambushing — there isn't a wolf Razor doesn't know.\\nHe can sense the mood of the wind, smell a scent from miles away, and knows many practical applications for plants of all kinds. The one thing he can't bring to mind is the faces of his parents.\\nWhat kind of people were they? No matter how hard he tries, he cannot remember.\\nHis memory starts after his life with the wolves had already begun. The wolves took him in as part of their \"Lupical\" — a word he was taught by someone else, which means family.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Tiny singing things are flying in the sky.\\nThe clouds are long and fluffy, like a wolf's tail.\\nRazor's world is a simple one.\\nOn a sunny day, you run around hunting or try and beat your prey to the ripe fruits. On a rainy day, you hide out in a hollow tree and fall asleep hugging a furry lupine friend, with some grass and leaves for a pillow.\\nEat as much as you can and drink plenty of water. Cool off in the lake when you're hot, and go find some juicy berries when you're thirsty.\\nRazor looks at his body and then at the bodies of his kin.\\nHe knows he is different from them.\\nBut there's nothing wrong with that, as far as Razor is concerned.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "One day, a tall man came to the mountains and disrupted Razor's peaceful life.\\nRazor did not know who the man was, only that he was a human. Seeing the confused look on Razor's face, the man gave him a friendly smile.\\n\"Hey buddy! Why don't you come back down to Mondstadt with me?\"\\nThe man offered his hand to Razor as he spoke.\\nBut neither Razor nor the wolves understood the gesture. Feeling protective, the wolves placed themselves between Razor and the man to keep him away.\\nRazor ducked down beneath the wolves' furry tails. He looked at his body, and then peered out through the gaps in the wolf fur to get a look at the man's.\\nRazor knew he wasn't the most intelligent of beings, and was at a loss to answer the question that has been in his mind ever since that day.\\n\"Am I a human, or a wolf?\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "It was that man who gave Razor his name.\\nThe simple Wolf Boy could not understand the intricacies of human language, but he knew from the look on the man's face when he produced this sound that the man was giving him a name.\\n\"Rae-zer.\"\\nThe shadows cast by the trees of Wolvendom grew short, and then grew long again.\\nThe man taught Razor how to swing a sword. Unwieldy though this steel claw may be, thought Razor, it was at least sharp enough to cut through tree branches.\\n\"Now you can protect your friends.\"\\n\"Fr-ren-dzz...\"\\nRazor imitated the sounds the man made, without understanding what they meant.\\nSimilarly, he did not understand why the names of things were all that important in the first place. After all, he never learned the name of that man before he left.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "\"Master, what is... 'friends'?\"\\nRazor once asked of his new mentor, working at the limits of his vocabulary.\\nHis purple-clothed mentor seemed to know it all, from how to make hash browns from potatoes in the ground, to the name of the brightest star in the summer night sky.\\nHowever, Lisa simply smiled and yawned without answering him.\\nRazor thought about it when the wind blew, when the rain fell — even when Wolfhook berries got stuck in his fur. He just couldn't figure it out.\\nUntil one day, Razor met a bright-red, 'burny' girl.\\nThey stood in the wind together, got soaked in the rain together — she even rolled around in Wolfhook bushes with him.\\nHer name was Klee. When Razor played with her, it was like being a wolf pup again.\\n\"Friends... is... Lupical.\"\\nRazor may not understand the complexity of human relationships, but he has an honest, primal loyalty to him.\\n\"So... protect friends... Lupical... with life.\"\\nThe wolf pack howls in the distance, summoning him home.\\nRazor still does not know if he is a human or a wolf.\\nBut he is happy either way.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Razor's Crude Wooden Crate",
+        "text": "In a box so crudely made that one has to be extra careful when opening it lies Razor's greatest treasures.\\nThe broken-off hilt of a greatsword, a children's storybook called The Wolf and the Windwheel Aster, and a dry, withered four-leaf clover.\\nThough he understands neither the intricacies of human relations nor the ways of the world, Razor knows that these are gifts from the ones known as 'friends' — and that is what makes them his most treasured possessions of all.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "The story of how Razor got his Vision is one of the few memories that he wishes he could forget.\\nOne day, during a lightning storm, an Abyss Mage ambushed Razor from behind and dragged him away. The wolf pack ran to his aid and put up a fearless fight, but every last one of them was defeated by the Abyss Mage.\\nAs he looked on helplessly at his dear companions being harmed, Razor let out an almighty roar like that of a cornered animal.\\n\"Lupical!\"\\nFueled by his almighty fury, a lightning-like power grew inside, and suddenly an overload of elemental energy was flowing within him.\\nHe was ready to protect. He was ready to avenge.\\nHe threw off his shackles and raised his weapon.\\nThe Abyss Mage was overwhelmed and defeated by a wild, unfettered frenzy of Electro energy, but this time it was too late to save Razor's wolven companions.\\n...\\nThough he had obtained a Vision, Razor was still unable to manipulate Electro energy with finesse. One day many moons later, when he met the Witch of Purple Rose, Lisa, he began to study human knowledge.\\n\"Friends, hurt... Never again! I will... protect them.\"\\nWith each day, Razor grew more skilled in the use of his Vision. He made a silent promise to himself: \"I will become stronger. I will become the strongest of them all.\"\\nBecause the day may come when his Lupical faces another threat, and this time, he will protect them.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "You smell... *sniff* nice! Let's hunt.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Scent",
+        "text": "*sniff* I smell rabbit.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Hunger",
+        "text": "I'm hungry. Let's hunt.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Wind-gazing",
+        "text": "I keep watch. You leave, you call me.",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes: Warning",
+        "text": "If you're scared of lightning, hide now.",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes: Guidance",
+        "text": "Avoid the trees. Follow me.",
+        "unlocked": []
+      },
+      {
+        "title": "When It's Windy",
+        "text": "Wind... I like the wind.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "The wind... bites hard.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "The sun is up. Time to hunt.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "I had a big lunch. Lots of meat. Mm, I'm happy.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Go to sleep. I watch the moon.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "You sleep now. I keep watch.",
+        "unlocked": []
+      },
+      {
+        "title": "About Razor",
+        "text": "I have no human family. I am a wolf.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Friends",
+        "text": "You are my friend. We can hunt. Together!",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Weapons",
+        "text": "I have iron claws and teeth of thunder. I protect you.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "Vision helps Razor... fight with lightning tooth! Protect Lupical!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "I like the stars at night. So many stars. In the sky, in the lake. And in the city.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "The wolves are my Lupical. My family.",
+        "unlocked": []
+      },
+      {
+        "title": "About Lisa",
+        "text": "Lisa lightning makes the sky black. She is strong. She is scary.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"The Meaning of Lupical\""
+        ]
+      },
+      {
+        "title": "About Barbara",
+        "text": "Shining Barbara is a good child. Very good child.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Diluc",
+        "text": "Diluc is red and black. Hot and cold.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Venti",
+        "text": "Razor doesn't know poems, but... Lupical likes them.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Bennett",
+        "text": "Bennett... Much talking. Eat with him, never full.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Klee",
+        "text": "Klee, friend! Friend, but... big hassle.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"The Meaning of Lupical\""
+        ]
+      },
+      {
+        "title": "About Varka: Stranger",
+        "text": "Varka? Razor doesn't know...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Varka: Memory",
+        "text": "Oh, Varka is... a name. That man big. Big steelclaw, Razor's name — Varka gave him. Oh... want to see him.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "More About Razor: I",
+        "text": "*sniff* Hmm... You smell kind. Do you like meat?",
+        "unlocked": []
+      },
+      {
+        "title": "More About Razor: II",
+        "text": "You are strong. Like a wolf. I like to hunt with you. We catch a lot.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Razor: III",
+        "text": "Lupical means wolf home— no, Lupical means wolf family. My Lupical lives in the woods. They say I am their Lupical.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Razor: IV",
+        "text": "My Lupical is my only family. But I don't have four legs, not like them. Because I'm not a real wolf. Sometimes, this makes me sad.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Razor: V",
+        "text": "When I run with you, when I hunt with you, I am happy. With you, I am not a wolf, I am not a boy, I am just me. I am Razor. Because you are my friend. You are my Lupical. I hope you feel happy, too!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Razor's Hobbies",
+        "text": "I like Lupical. I like the woods. I like my friend. I like to run!",
+        "unlocked": []
+      },
+      {
+        "title": "Razor's Troubles",
+        "text": "Talking makes me tired. Talking is... hard. But... I have to try.",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "I like meat, and... I like potatoes.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "Greens are bad. Animal eats green things. Then I eat animal!",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Today is your day. You were born on this day, many moons ago. I want to make you happy today. Can we eat meat together?",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "Arms... bigger!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Grr! Sharpen claws. Sharpen teeth. Become stronger!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Run... Hunt... No. No! Must... become stronger!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "Teeth. Claws. Legs. All bigger. All stronger! To protect you.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Get back!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Ah!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Heyah!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: IV",
+        "text": "Keep back!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Raaaarrr!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "*howls*",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "*roars*",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: IV",
+        "text": "Rar!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "These things... useful?",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Empty chest... good for storage.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Smell of treasure... strange.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "Argh!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "*grunt* A-a-awoooo!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "I kill you!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "No!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Wake up!",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "Can't... breathe...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "Take me back...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "Lupical... my Lupical...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "I taste blood...",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "I'll scout ahead.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "We're going to hunt!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "I'll watch your back.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Smells good, also tastes good, I like it.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Eating this gives me energy, makes me happy.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Eating it, bad. Not eating it, also bad. I'm a bit sad.",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108048,
+      "recipe": 3007,
+      "name": "Puppy-Paw Hash Brown",
+      "icon": "UI_ItemIcon_108048",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210006,
+      "name": "Razor: Wolvensprint",
+      "desc": "Namecard style.\\nIt's quite a sight to behold Razor and the wolves prepare their dinner, but they won't let Klee or the Traveler see the slightly gruesome affair.",
+      "icon": "UI_NameCardPic_Razor_P"
+    },
+    "costume": [
+      {
+        "id": 202000,
+        "name": "Wild Sprint",
+        "desc": "Razor's outfit. Rough and ready clothes suited for running out in the wilderness.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CLAYMORE",
+  "rarity": "QUALITY_PURPLE",
+  "element": "Electro",
+  "icon": "UI_AvatarIcon_Razor",
+  "stamina_recovery": 25,
+  "base_hp": 1002.9701,
+  "base_atk": 19.5888,
+  "base_def": 62.9475,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.653,
+      "92": 8.957,
+      "93": 9.262,
+      "94": 9.566,
+      "95": 9.87,
+      "96": 10.174,
+      "97": 10.479,
+      "98": 10.783,
+      "99": 11.087,
+      "100": 11.392
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 749.27,
+        "fight_prop_base_defense": 47.025,
+        "fight_prop_base_attack": 14.63418,
+        "fight_prop_physical_add_hurt": 0
+      },
+      {
+        "fight_prop_base_hp": 1281.6461,
+        "fight_prop_base_defense": 80.4375,
+        "fight_prop_base_attack": 25.03215,
+        "fight_prop_physical_add_hurt": 0.075
+      },
+      {
+        "fight_prop_base_hp": 1991.4808,
+        "fight_prop_base_defense": 124.9875,
+        "fight_prop_base_attack": 38.89611,
+        "fight_prop_physical_add_hurt": 0.15
+      },
+      {
+        "fight_prop_base_hp": 2523.857,
+        "fight_prop_base_defense": 158.4,
+        "fight_prop_base_attack": 49.29408,
+        "fight_prop_physical_add_hurt": 0.15
+      },
+      {
+        "fight_prop_base_hp": 3056.233,
+        "fight_prop_base_defense": 191.8125,
+        "fight_prop_base_attack": 59.69205,
+        "fight_prop_physical_add_hurt": 0.225
+      },
+      {
+        "fight_prop_base_hp": 3588.6091,
+        "fight_prop_base_defense": 225.225,
+        "fight_prop_base_attack": 70.09002,
+        "fight_prop_physical_add_hurt": 0.3
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S4",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10201,
+      "name": "Steel Fang",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9592,
+            0.82632,
+            1.03312,
+            1.36048,
+            0.625392,
+            1.1309,
+            40,
+            5,
+            0.820466,
+            1.640584,
+            2.049178,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0246,
+            0.88266,
+            1.10356,
+            1.45324,
+            0.676296,
+            1.22295,
+            40,
+            5,
+            0.887248,
+            1.77412,
+            2.215971,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.09,
+            0.939,
+            1.174,
+            1.546,
+            0.7272,
+            1.315,
+            40,
+            5,
+            0.95403,
+            1.907656,
+            2.382765,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1772,
+            1.01412,
+            1.26792,
+            1.66968,
+            0.79992,
+            1.4465,
+            40,
+            5,
+            1.049433,
+            2.098421,
+            2.621042,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2426,
+            1.07046,
+            1.33836,
+            1.76244,
+            0.850824,
+            1.53855,
+            40,
+            5,
+            1.116215,
+            2.231957,
+            2.787835,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3189,
+            1.13619,
+            1.42054,
+            1.87066,
+            0.909,
+            1.64375,
+            40,
+            5,
+            1.192538,
+            2.38457,
+            2.978456,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.417,
+            1.2207,
+            1.5262,
+            2.0098,
+            0.988992,
+            1.7884,
+            40,
+            5,
+            1.297481,
+            2.594412,
+            3.24056,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.5151,
+            1.30521,
+            1.63186,
+            2.14894,
+            1.068984,
+            1.93305,
+            40,
+            5,
+            1.402424,
+            2.804254,
+            3.502665,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6132,
+            1.38972,
+            1.73752,
+            2.28808,
+            1.148976,
+            2.0777,
+            40,
+            5,
+            1.507367,
+            3.014096,
+            3.764769,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7113,
+            1.47423,
+            1.84318,
+            2.42722,
+            1.23624,
+            2.2355,
+            40,
+            5,
+            1.621851,
+            3.243015,
+            4.050701,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8094,
+            1.55874,
+            1.94884,
+            2.56636,
+            1.323504,
+            2.3933,
+            40,
+            5,
+            1.736335,
+            3.471933,
+            4.336632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9075,
+            1.64325,
+            2.0545,
+            2.7055,
+            1.410768,
+            2.5511,
+            40,
+            5,
+            1.850818,
+            3.700852,
+            4.622564,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.0056,
+            1.72776,
+            2.16016,
+            2.84464,
+            1.498032,
+            2.7089,
+            40,
+            5,
+            1.965302,
+            3.929771,
+            4.908496,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.1037,
+            1.81227,
+            2.26582,
+            2.98378,
+            1.585296,
+            2.8667,
+            40,
+            5,
+            2.079785,
+            4.15869,
+            5.194428,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.2018,
+            1.89678,
+            2.37148,
+            3.12292,
+            1.67256,
+            3.0245,
+            40,
+            5,
+            2.194269,
+            4.387608,
+            5.48036,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10202,
+      "name": "Claw and Thunder",
+      "desc": "#Hunts his prey using the techniques taught to him by his master and his lupical.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nSwings the Thunder Wolf Claw, dealing <color=#FFACFFFF>Electro DMG</color> to opponents in front of Razor.\\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\\n\\n<color=#FFD780FF>Hold</color>\\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive <color=#FFACFFFF>Electro DMG</color>, and clears all of Razor's Electro Sigils.\\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.\\n\\n<i>In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.992,
+            2.952,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.1414,
+            3.1734,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.2908,
+            3.3948,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.49,
+            3.69,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.6394,
+            3.9114,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.7888,
+            4.1328,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.988,
+            4.428,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.1872,
+            4.7232,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.3864,
+            5.0184,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.5856,
+            5.3136,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.7848,
+            5.6088,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.984,
+            5.904,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.233,
+            6.273,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.482,
+            6.642,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Razor_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Skill DMG|{param1:P}",
+            "Hold Skill DMG|{param2:P}",
+            "Energy Recharge Bonus|{param3:P} per Electro Sigil",
+            "Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+            "Electro Sigil duration|{param5:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param6:F1}s",
+            "Hold CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.731,
+            7.011,
+            0.2,
+            5,
+            18,
+            6,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10203,
+      "name": "Lightning Fang",
+      "desc": "Summons the Wolf Within, which deals <color=#FFACFFFF>Electro DMG</color> to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\\nThe Wolf Within will fight alongside Razor for the skill's duration.\\n\\n<color=#FFD780FF>The Wolf Within</color>\\n·Strikes alongside Razor's normal attacks, dealing <color=#FFACFFFF>Electro DMG</color>.\\n·Raises Razor's ATK SPD and <color=#FFACFFFF>Electro RES</color>.\\n·Causes Razor to be immune to DMG inflicted by the <color=#FFACFFFF>Electro-Charged</color> status.\\n·Disables Razor's Charged Attacks.\\n·Increases Razor's resistance to interruption.\\n\\nThese effects end when Razor leaves the battlefield.\\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.\\n\\n<i>The wolf has awoken. The hunt is on.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6,
+            0.24,
+            0.26,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.72,
+            0.258,
+            0.28,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.84,
+            0.276,
+            0.3,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2,
+            0.3,
+            0.32,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.12,
+            0.318,
+            0.34,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.24,
+            0.336,
+            0.36,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.4,
+            0.36,
+            0.37,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.56,
+            0.384,
+            0.38,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.72,
+            0.408,
+            0.39,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.88,
+            0.432,
+            0.4,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.04,
+            0.456,
+            0.4,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.2,
+            0.48,
+            0.4,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.4,
+            0.51,
+            0.4,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.6,
+            0.54,
+            0.4,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Razor_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+            "Normal ATK SPD Bonus|{param3:P}",
+            "Electro RES Bonus|{param4:P}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.8,
+            0.57,
+            0.4,
+            0.8,
+            15,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 202101,
+      "name": "Awakening",
+      "desc": "Decreases <color=#FFD780FF>Claw and Thunder</color>'s CD by 18%.\\nUsing <color=#FFD780FF>Lightning Fang</color> resets the CD of <color=#FFD780FF>Claw and Thunder</color>.",
+      "icon": "UI_Talent_S_Razor_05",
+      "unlock": 1,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 202201,
+      "name": "Hunger",
+      "desc": "When Razor's Energy is below 50%, increases Energy Recharge by 30%.",
+      "icon": "UI_Talent_S_Razor_06",
+      "unlock": 4,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 202301,
+      "name": "Wolvensprint",
+      "desc": "Decreases sprinting Stamina consumption for your own party members by 20%.\\nNot stackable with Passive Talents that provide the exact same effects.",
+      "icon": "UI_Talent_Explosion_Sprint",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 205101,
+      "name": "Witch's Eve Rite: Surge of Lightning",
+      "desc": "After completing <color=#FFD780FF>Witch's Homework: Of the Little Wolf Pack</color>, Razor will become a <color=#FFD780FF>Hexerei</color> character. When the party includes at least 2 Hexerei characters, you will gain the <color=#FFD780FF>Hexerei: Secret Rite</color> effect, which enhances Hexerei characters.\\nAdditionally, Razor's Elemental Burst <color=#FFD780FF>Lightning Fang</color> is enhanced: <color=#FFD780FF>The Wolf Within</color>'s DMG dealt is increased by 70% of Razor's ATK.\\n\\n<color=#FFD780FF>Hexerei: Secret Rite</color>\\nWhile the Wolf Within summoned by Razor's Elemental Burst <color=#FFD780FF>Lightning Fang</color> is active, if the Electro Sigils from Razor's Elemental Skill <color=#FFD780FF>Claw and Thunder</color> overflow, the Wolf Within will call down a lightning strike on nearby enemies, dealing AoE Electro DMG equal to 150% of Razor's ATK and restoring 7 Energy to Razor. This effect can be triggered once every 1s.",
+      "icon": "UI_Talent_S_Razor_07",
+      "param_list": [
+        0.7,
+        1.5,
+        7,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unlock": [
+        1000806
+      ],
+      "special": true,
+      "special_passive": true,
+      "special_desc": ""
+    }
+  ],
+  "constellations": [
+    {
+      "id": 201,
+      "name": "Wolf's Instinct",
+      "desc": "Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.",
+      "icon": "UI_Talent_S_Razor_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 202,
+      "name": "Suppression",
+      "desc": "Increases CRIT Rate against opponents with less than 30% HP by 10%.",
+      "icon": "UI_Talent_S_Razor_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Soul Companion",
+      "desc": "Increases the Level of <color=#FFD780FF>Lightning Fang</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Razor_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Bite",
+      "desc": "#When casting <color=#FFD780FF>Claw and Thunder</color> ({LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}), opponents hit will have their DEF decreased by 15% for 7s.",
+      "icon": "UI_Talent_S_Razor_03",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Sharpened Claws",
+      "desc": "Increases the Level of <color=#FFD780FF>Claw and Thunder</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Razor_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 206,
+      "name": "Lupus Fulguris",
+      "desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, a lightning strike on an opponent will grant Razor an Electro Sigil for <color=#FFD780FF>Claw and Thunder</color>.",
+      "icon": "UI_Talent_S_Razor_04",
+      "param_list": [
+        0.1,
+        0.5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "special": true,
+      "special_desc": "Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as <color=#FFACFFFF>Electro DMG</color>.\\nWhen Razor is not using <color=#FFD780FF>Lightning Fang</color>, lightning strikes on an opponent will grant 3 Electro Sigils for his Elemental Skill <color=#FFD780FF>Claw and Thunder</color>.\\nAdditionally, when Razor gains Electro Sigils through his Elemental Skill <color=#FFD780FF>Claw and Thunder</color>, he will gain 3 Sigils instead.\\nFor 15s after consuming Electro Sigils, Razor's CRIT Rate is increased by 10% and CRIT DMG by 50%."
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Sliver",
+            "id": 104141,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Wolfhook",
+            "id": 100021,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Damaged Mask",
+            "id": 112005,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Fragment",
+            "id": 104142,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Lightning Prism",
+            "id": 113002,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Wolfhook",
+            "id": 100021,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Damaged Mask",
+            "id": 112005,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Fragment",
+            "id": 104142,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Lightning Prism",
+            "id": 113002,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Wolfhook",
+            "id": 100021,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Stained Mask",
+            "id": 112006,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Chunk",
+            "id": 104143,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Lightning Prism",
+            "id": 113002,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Wolfhook",
+            "id": 100021,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Stained Mask",
+            "id": 112006,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Chunk",
+            "id": 104143,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Lightning Prism",
+            "id": 113002,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Wolfhook",
+            "id": 100021,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Ominous Mask",
+            "id": 112007,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Gemstone",
+            "id": 104144,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Lightning Prism",
+            "id": 113002,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Wolfhook",
+            "id": 100021,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Ominous Mask",
+            "id": 112007,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Damaged Mask",
+              "id": 112005,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Damaged Mask",
+              "id": 112005,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Damaged Mask",
+              "id": 112005,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ClawMark_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 140
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "ClawMark_Damage"
+    },
+    {
+      "name": "ClawMark_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 140
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "ClawMark_Damage"
+    },
+    {
+      "name": "ClawMark_Burst",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 300
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExplodeDamage"
+    },
+    {
+      "name": "ClawMark_Burst",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 300
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "ExplodeDamage"
+    },
+    {
+      "name": "LycanMode",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 51.75
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "LycanMode_BlastDamage"
+    },
+    {
+      "name": "Talent_ChargedBlade",
+      "icd": {
+        "tag": "ChargedBlade",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 69
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "None",
+      "damage_param": "ChargedBlade_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "HexenzirkelSkill",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ThunderfallDamage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ClawMark_Click_DropBall_Base",
+      "skill": "ClawMark_SetMark",
+      "kind": "Other",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "ClawMark_Burst_DropBall_Base",
+      "skill": "ClawMark_Burst",
+      "kind": "ElementalBurst",
+      "element": "Electro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 1,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ],
+  "special": true
+}

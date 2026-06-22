@@ -1,0 +1,190 @@
+{
+  "name": "Golden Wolflord",
+  "desc": "Hailing from a dark world, this ruler of the black wolves has the power to call upon its followers, its hidden claws, to dissolve space itself and forge a rift through which it may enter.\\nThe Wolflord has no name, for it was but one of \"Gold\"'s unintentional creations, and that is precisely why it is obsessed with invading worlds that do not belong to it and making a name for itself.\\nThat said, the wolf pack is far from unintelligent. After suffering a defeat in its previous invasion, a deserted island where no humans or protectors dwell has been selected for them to prepare for their lord's descent.",
+  "icon": "UI_MonsterIcon_Hound_Planelurker",
+  "codex": "ABYSS",
+  "title": "Golden Wolflord",
+  "special_names": [
+    "Nameless King of the Rift"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113030,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113030"
+    },
+    {
+      "id": 104174,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104174"
+    },
+    {
+      "id": 104173,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104173"
+    },
+    {
+      "id": 104172,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104172"
+    },
+    {
+      "id": 104171,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104171"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "22060101": {
+      "monster_name": "Monster_Hound_Planelurker_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010040,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010040,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010040,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010040,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.25,
+        "grass": 0.25,
+        "water": 0.25,
+        "elec": 0.25,
+        "wind": 0.25,
+        "ice": 0.25,
+        "rock": 0.25,
+        "physical": 0.25
+      },
+      "base": {
+        "hp": 163.008,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22060102": {
+      "monster_name": "Monster_Hound_Planelurker_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.25,
+        "grass": 0.25,
+        "water": 0.25,
+        "elec": 0.25,
+        "wind": 0.25,
+        "ice": 0.25,
+        "rock": 0.25,
+        "physical": 0.25
+      },
+      "base": {
+        "hp": 326.016,
+        "atk": 70.336,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

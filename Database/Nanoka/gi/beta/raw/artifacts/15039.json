@@ -1,0 +1,138 @@
+{
+  "id": 15039,
+  "icon": "UI_RelicIcon_15039_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150390,
+      "id": 215039,
+      "open_config": "Relic_FallingAttack_2",
+      "param_list": [
+        0.25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Long Night's Oath",
+      "desc": "Plunging Attack DMG increased by 25%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150391,
+      "id": 215039,
+      "level": 1,
+      "open_config": "Relic_FallingAttack_4",
+      "param_list": [
+        1,
+        2,
+        2,
+        0.15,
+        6,
+        1,
+        5,
+        0
+      ],
+      "name": "Long Night's Oath",
+      "desc": "After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of \"Radiance Everlasting.\" Plunging Attacks, Charged Attacks, or Elemental Skills can each trigger this effect once every 1s. Radiance Everlasting: Plunging Attacks deal 15% increased DMG for 6s. Max 5 stacks. Each stack's duration is counted independently."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15039_1",
+      "name": "A Horn Unwinded",
+      "desc": "A horn that was once used to summon those who had sworn oaths. It has long since lost its purpose.",
+      "story": {
+        "285391": {
+          "zh": "ART/UI/Readable/CHS/Relic15039_1",
+          "en": "ART/UI/Readable/EN/Relic15039_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15039_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15039_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15039_2",
+      "name": "Nightingale's Tail Feather",
+      "desc": "A hat ornament intricately crafted from the feathers of a nightingale. They say that its form was first conceived by the original Torchforger.",
+      "story": {
+        "285392": {
+          "zh": "ART/UI/Readable/CHS/Relic15039_2",
+          "en": "ART/UI/Readable/EN/Relic15039_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15039_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15039_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15039_3",
+      "name": "Dyed Tassel",
+      "desc": "An ancient heavy helmet. It is an heirloom that bears the mark of a venerable lineage of northern warriors.",
+      "story": {
+        "285393": {
+          "zh": "ART/UI/Readable/CHS/Relic15039_3",
+          "en": "ART/UI/Readable/EN/Relic15039_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15039_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15039_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15039_4",
+      "name": "Lightkeeper's Pledge",
+      "desc": "A metal flower that was worn by the Ratniki. It symbolizes the oath of eternal vigilance taken by its original owner.",
+      "story": {
+        "285394": {
+          "zh": "ART/UI/Readable/CHS/Relic15039_4",
+          "en": "ART/UI/Readable/EN/Relic15039_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15039_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15039_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15039_5",
+      "name": "Undying One's Mourning Bell",
+      "desc": "A bronze bell that was carried by a warrior who walked through the dark abyss. Its peal can be heard on pitch-black nights.",
+      "story": {
+        "285395": {
+          "zh": "ART/UI/Readable/CHS/Relic15039_5",
+          "en": "ART/UI/Readable/EN/Relic15039_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15039_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15039_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Primal Construct: Reshaper",
+  "desc": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord.\\nThe lord of the blazing sun who once ruled this desert once promised his people a utopia on the other side of existence, though it ultimately turned out to be a mirage made of folly.\\nToday, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines.",
+  "icon": "UI_MonsterIcon_Monolith_Ordinator",
+  "codex": "AUTOMATRON",
+  "title": "Primal Construct: Reshaper",
+  "special_names": [
+    "Architect of the Desert Palace"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112073,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112073"
+    },
+    {
+      "id": 112072,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112072"
+    },
+    {
+      "id": 112071,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112071"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "24040201": {
+      "monster_name": "Monolith_Ordinator_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 46.1856,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24040281": {
+      "monster_name": "Monolith_Ordinator_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 46.1856,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

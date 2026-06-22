@@ -1,0 +1,169 @@
+{
+  "name": "Koholasaurus",
+  "desc": "A Saurian with thick, strong flippers and a long tail that can swim in water and liquid phlogiston.\\nAccording to legend, more ancient dragons were even more able to adapt to their environments, and when the largest dragon in the ocean of the age floated on the surface, it could even be mistaken for an island. It is said that today's Koholasaurus are the descendants of that great sea dragon, and in their broad backs the colossal forms of those ancient sea beasts may yet be glimpsed.",
+  "icon": "UI_MonsterIcon_Natsaurus_Mosasaurus_Normal",
+  "codex": "BEAST",
+  "title": "Koholasaurus",
+  "special_names": [
+    "Ranging Saurians of Natlan"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112103,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    {
+      "id": 112102,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    {
+      "id": 112101,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    }
+  ],
+  "child": {
+    "26210201": {
+      "monster_name": "Monster_Natsaurus_Mosasaurus_Normal_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010012,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010012,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.5,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 36.6768,
+        "atk": 33.912,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26210202": {
+      "monster_name": "Monster_Natsaurus_Mosasaurus_Normal_01_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010012,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010012,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.5,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 36.6768,
+        "atk": 33.912,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26210290": {
+      "monster_name": "Monster_Natsaurus_Mosasaurus_Normal_02_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 43.63152,
+        "atk": 38.28,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

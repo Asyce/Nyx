@@ -1,0 +1,235 @@
+{
+  "name": "Echoes of the Coffin",
+  "desc": "Under the watch of the white irises, he knocks on the coffin.\\n<i>\"Sometimes I feel I underestimated you by proposing this deal.\"</i>\\nHe receives no response other than a thorny branch piercing through his palm.\\nYet he smiles, and tightly grasps the thorn.\\n\\n<i>\"Indeed. This is how it is. We wanted to use each other, and both ended up underestimating the other.\"</i>",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Priest",
+  "refinements": {
+    "name": "Thorns",
+    "desc": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates <color=#f29e38ff><unbreak>#3[f1]</unbreak></color> Energy. Each attack can regenerate Energy up to <unbreak>#4[i]</unbreak> time(s) this way. After the wearer uses their Ultimate, all allies gain <color=#f29e38ff><unbreak>#2[i]</unbreak></color> SPD for 1 turn.",
+    "level": {
+      "1": {
+        "param_list": [
+          0.24,
+          12,
+          3,
+          3
+        ]
+      },
+      "2": {
+        "param_list": [
+          0.28,
+          14,
+          3.5,
+          3
+        ]
+      },
+      "3": {
+        "param_list": [
+          0.32,
+          16,
+          4,
+          3
+        ]
+      },
+      "4": {
+        "param_list": [
+          0.36,
+          18,
+          4.5,
+          3
+        ]
+      },
+      "5": {
+        "param_list": [
+          0.4,
+          20,
+          5,
+          3
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23008,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 113011,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 52.8,
+      "base_hp_add": 7.92,
+      "base_attack": 26.4,
+      "base_attack_add": 3.96,
+      "base_defence": 18,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23008,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110171,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 113011,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 116.16,
+      "base_hp_add": 7.92,
+      "base_attack": 58.08,
+      "base_attack_add": 3.96,
+      "base_defence": 39.6,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23008,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110172,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 113012,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 200.64,
+      "base_hp_add": 7.92,
+      "base_attack": 100.32,
+      "base_attack_add": 3.96,
+      "base_defence": 68.4,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23008,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110172,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 113012,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 285.12,
+      "base_hp_add": 7.92,
+      "base_attack": 142.56,
+      "base_attack_add": 3.96,
+      "base_defence": 97.2,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23008,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110173,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 113013,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 369.6,
+      "base_hp_add": 7.92,
+      "base_attack": 184.8,
+      "base_attack_add": 3.96,
+      "base_defence": 126,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23008,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110173,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 113013,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 454.08,
+      "base_hp_add": 7.92,
+      "base_attack": 227.04,
+      "base_attack_add": 3.96,
+      "base_defence": 154.8,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23008,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 538.56,
+      "base_hp_add": 7.92,
+      "base_attack": 269.28,
+      "base_attack_add": 3.96,
+      "base_defence": 183.6,
+      "base_defence_add": 2.7
+    }
+  ]
+}

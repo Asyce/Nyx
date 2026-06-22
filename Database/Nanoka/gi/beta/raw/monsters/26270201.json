@@ -1,0 +1,203 @@
+{
+  "name": "Eroding Avatar of Lava",
+  "desc": "A strange monster that must continually absorb heat to stay in an active state.\\nThe ancient civilization used many different types of golden designs to drive the flow of phlogiston, allowing massive constructs and magnificent cities to operate under the wisdom of the golden patterns. It is said that in addition to machines with fixed structures, the creatures known as Avatars of Lava are actually badly damaged lifeforms that were once created in the same way. However, after the flames of the sacred mountain were extinguished, most of them lost their sense of purpose and direction.",
+  "icon": "UI_MonsterIcon_Lava_Solid",
+  "codex": "BEAST",
+  "title": "Eroding Avatar of Lava",
+  "special_names": [
+    "Stoneheart Burning Bright"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112112,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112112"
+    },
+    {
+      "id": 112111,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112111"
+    },
+    {
+      "id": 112110,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112110"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "26270201": {
+      "monster_name": "Monster_Lava_Solid_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 116.8224,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26270202": {
+      "monster_name": "Monster_Lava_Solid_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 140.18687,
+        "atk": 43.96,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26270290": {
+      "monster_name": "Monster_Lava_Solid_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 755.6422,
+        "atk": 60.315,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

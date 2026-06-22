@@ -1,0 +1,286 @@
+{
+  "name": "Geovishap Hatchling",
+  "desc": "A young vishap with a hard Geo exoskeleton.\\nVishaps are exceptionally agile creatures that one would be wise not to underestimate in battle. Experts from Sumeru Akademiya believe that they become dragons when fully grown. By avoiding predators and natural disasters, perhaps they can even live long enough to become formidable beasts that reign over entire mountains.",
+  "icon": "UI_MonsterIcon_Wyrm_Rock",
+  "codex": "BEAST",
+  "title": "Geovishap Hatchling",
+  "special_names": [
+    "A Hatchling Dreaming of Dragonhood"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112043,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112043"
+    },
+    {
+      "id": 112042,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112042"
+    },
+    {
+      "id": 112041,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112041"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "26030101": {
+      "monster_name": "Wyrm_Rock",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010037,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 54.2592,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26030181": {
+      "monster_name": "Wyrm_Rock",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010037,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 54.2592,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26030190": {
+      "monster_name": "Wyrm_Rock_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 10.8672,
+        "atk": 31.3,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26030191": {
+      "monster_name": "Wyrm_Rock_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 80.325,
+        "atk": 42.075,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26030192": {
+      "monster_name": "Wyrm_Rock_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 60.85307,
+        "atk": 24.505005,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

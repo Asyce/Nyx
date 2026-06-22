@@ -1,0 +1,147 @@
+{
+  "name": "Qucusaurus Warrior: Blazing Sky",
+  "desc": "A powerful warrior from the clifftops, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\\nAmong the many varieties of Saurians, the Qucusaurs stand particularly proud, and this is a trait that is shared by the Qucusaurus Warriors who are able to obtain their recognition. It is said that in the past, tribal warriors would watch these crimson Saurians amuse themselves by tossing flaming stones from great heights; and that it was this that first inspired them to set off projectiles to cause explosive chain reactions. This concept, gradually refined over time, is said to have been the origin of many of the Flower-Feather Clan's firearms.",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Slingshot_Flamingo",
+  "codex": "HUMAN",
+  "title": "Qucusaurus Warrior: Blazing Sky",
+  "special_names": [
+    "Bravery Saurian-Crowned"
+  ],
+  "reward": [],
+  "child": {
+    "25510801": {
+      "monster_name": "Tribalwarrior_Female_Slim_Slingshot_Flamingo_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010021,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510802": {
+      "monster_name": "Tribalwarrior_Female_Slim_Slingshot_Flamingo_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010021,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510890": {
+      "monster_name": "Tribalwarrior_Female_Slim_Slingshot_Flamingo_01_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 32.60882,
+        "atk": 56.1,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

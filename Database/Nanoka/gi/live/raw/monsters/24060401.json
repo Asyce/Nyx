@@ -1,0 +1,141 @@
+{
+  "name": "Geological Survey Mek",
+  "desc": "A clockwork meka designed for surveying underground resources and certain minerals.\\nDue to the fact that the desired metal type can be set, this device has proven very popular among Treasure Hoarders and Adventurers alike.",
+  "icon": "UI_MonsterIcon_MachinaIustitia_Probe",
+  "codex": "AUTOMATRON",
+  "title": "Geological Survey Mek",
+  "special_names": [
+    "Ser.472030",
+    "Ser.301014",
+    "Ser.735311",
+    "Ser.652190",
+    "Ser.158439",
+    "Ser.359360",
+    "Ser.174326",
+    "Ser.361617",
+    "Ser.208594",
+    "Ser.295062",
+    "Ser.775577",
+    "Ser.391908",
+    "Ser.918722",
+    "Ser.208739",
+    "Ser.422440",
+    "Ser.574902",
+    "Ser.665997",
+    "Ser.358002",
+    "Ser.776950",
+    "Ser.438412"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112085,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112085"
+    },
+    {
+      "id": 112084,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112084"
+    },
+    {
+      "id": 112083,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112083"
+    }
+  ],
+  "child": {
+    "24060401": {
+      "monster_name": "MachinaIustitia_Probe_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24060402": {
+      "monster_name": "MachinaIustitia_Probe_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

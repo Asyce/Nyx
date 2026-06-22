@@ -1,0 +1,163 @@
+{
+  "name": "Secret Source Automaton: Hunter-Seeker",
+  "desc": "An ancient ruin automaton used in object collection.\\nLegend has it that these ancient ruin machines were designed for specialized work functions, primarily conducting experimental work such as capturing and collecting samples, and had only basic combat functionality.\\nAccording to rumor, these were not built by humans, but are instead creations of a yet more ancient civilization. Today, that civilization has been lost, and all that remains are these strange machines that roam the land.",
+  "icon": "UI_MonsterIcon_ToothTrap",
+  "codex": "AUTOMATRON",
+  "title": "Secret Source Automaton: Hunter-Seeker",
+  "special_names": [
+    "Ancient Ruins Collector"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112115,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112115"
+    },
+    {
+      "id": 112114,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112114"
+    },
+    {
+      "id": 112113,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112113"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "24090101": {
+      "monster_name": "ToothTrap_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24090102": {
+      "monster_name": "ToothTrap_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

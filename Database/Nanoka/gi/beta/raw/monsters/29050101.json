@@ -1,0 +1,173 @@
+{
+  "name": "La Signora",
+  "desc": "Signora, the Eighth of the Fatui Harbingers.\\nUnlike other Fatui who use the authority granted by Delusions, her Delusion is meant to shackle a flame that will devour everything. As opposed to a weapon used to kill, it might be more fitting to consider this a tool of imprisonment.\\nAnd it was the embers of that flame, which had accumulated over many long years, that would break through the frosty seal of the Delusion and apply a warped rouge upon her.\\n\\nThe crimson dawn was reflected in her pupils, and at last, she unfolded her flaming wings and flew towards the light.\\n<i>\"But that light is not the dawn, dear Rosalyne. That is a sea of flame that will consume everything.\"</i>\\nA voice spoke to her amidst the light.\\n\\nYet it mattered not, for she knew in her heart that the flames had devoured her long ago.",
+  "icon": "UI_MonsterIcon_LaSignora",
+  "codex": "BOSS",
+  "title": "Eighth of the Fatui Harbingers",
+  "special_names": [
+    "La Signora"
+  ],
+  "reward": [],
+  "child": {
+    "29050101": {
+      "monster_name": "Monster_LaSignora",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 60.288,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29050102": {
+      "monster_name": "Monster_LaSignora_Harbinger",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 190.176,
+        "atk": 60.288,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29050103": {
+      "monster_name": "Monster_LaSignora",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 135.84,
+        "atk": 60.288,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29050104": {
+      "monster_name": "Monster_LaSignora_Harbinger",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 271.68,
+        "atk": 60.288,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

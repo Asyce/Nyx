@@ -70,7 +70,7 @@ await copyFile(
 
 await copyFile(path.resolve(generatedDataDir, 'cm-data.js'), path.resolve(distDir, 'cm-data.js'));
 for (const entry of await fs.readdir(generatedDataDir)) {
-  if (/^cm-data-[a-z]+\.js$/.test(entry)) {
+  if (/^cm-data-[a-z]+(?:-beta)?\.js$/.test(entry)) {
     await copyFile(path.resolve(generatedDataDir, entry), path.resolve(distDir, entry));
   }
 }

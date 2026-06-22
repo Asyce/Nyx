@@ -1,0 +1,141 @@
+{
+  "id": 10003,
+  "icon": "UI_RelicIcon_10003_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_DEFENSE_PERCENT",
+          "value": 0.3
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100030,
+      "id": 210003,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Defender's Will",
+      "desc": "DEF +30%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100031,
+      "id": 210003,
+      "level": 1,
+      "open_config": "Relic_AbsorbTeamElemResist",
+      "param_list": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Defender's Will",
+      "desc": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10003_1",
+      "name": "Guardian's Vessel",
+      "desc": "A metal vessel that can be filled with a drink to dispel the loneliness of the long watch.",
+      "story": {
+        "280031": {
+          "zh": "ART/UI/Readable/CHS/Relic10003_1",
+          "en": "ART/UI/Readable/EN/Relic10003_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10003_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10003_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10003_2",
+      "name": "Guardian's Sigil",
+      "desc": "A feather-shaped brooch that symbolizes someone's yearning to defend others like a shield.",
+      "story": {
+        "280032": {
+          "zh": "ART/UI/Readable/CHS/Relic10003_2",
+          "en": "ART/UI/Readable/EN/Relic10003_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10003_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10003_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10003_3",
+      "name": "Guardian's Band",
+      "desc": "A fabric band dyed indigo by the darkness of night. Can also double as a bandage in the event of an emergency.",
+      "story": {
+        "280033": {
+          "zh": "ART/UI/Readable/CHS/Relic10003_3",
+          "en": "ART/UI/Readable/EN/Relic10003_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10003_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10003_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10003_4",
+      "name": "Guardian's Flower",
+      "desc": "An iris that was cherished by the guardian. Unfortunately, the chance never came for it to be given to whom the guardian loved.",
+      "story": {
+        "280034": {
+          "zh": "ART/UI/Readable/CHS/Relic10003_4",
+          "en": "ART/UI/Readable/EN/Relic10003_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10003_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10003_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10003_5",
+      "name": "Guardian's Clock",
+      "desc": "A small timekeeping gadget. On moonless nights, it was the only way its former owner could know the time.",
+      "story": {
+        "280035": {
+          "zh": "ART/UI/Readable/CHS/Relic10003_5",
+          "en": "ART/UI/Readable/EN/Relic10003_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10003_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10003_5_KR"
+        }
+      }
+    }
+  }
+}

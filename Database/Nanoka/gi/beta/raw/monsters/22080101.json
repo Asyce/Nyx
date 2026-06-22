@@ -1,0 +1,109 @@
+{
+  "name": "Black Serpent Knight: Windcutter",
+  "desc": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\\nThe Twilight Sword was once one of their number. That realm's glory has been extinguished, never again to be reclaimed.",
+  "icon": "UI_MonsterIcon_Darkwraith_Strong_Wind",
+  "codex": "ABYSS",
+  "title": "\"Once Upon a Gentle Wind...\"",
+  "special_names": [
+    "Adalgsio",
+    "Adelbert",
+    "Erhard",
+    "Roderigo",
+    "Gunther",
+    "Sieger",
+    "Faramund",
+    "Filibert",
+    "Athalsteinn",
+    "Aldric"
+  ],
+  "reward": [],
+  "child": {
+    "22080101": {
+      "monster_name": "Darkwraith_Strong_Wind_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010025,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010025,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010025,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22080102": {
+      "monster_name": "Darkwraith_Strong_Wind_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 142.632,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

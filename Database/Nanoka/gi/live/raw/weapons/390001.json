@@ -1,0 +1,9 @@
+{
+  "name": "Unbreakable: Durandarte",
+  "desc": "A glorious, illusory sword that emerged from the depths of the Ley Lines. It is said that in the past, it was wielded by the white knight under the name Durandarte.\\nIts name, in ancient tongues, means \"the blade that is never destroyed.\" Just like the sword he bore, the path the knight believed in has never wavered — no matter how the once-pure steel has since been darkened.",
+  "weapon_type": "WEAPON_CLAYMORE",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_Claymore_VarkaTunkeldegen",
+  "tag": "TAG_TYPE_NONE",
+  "skin": true
+}

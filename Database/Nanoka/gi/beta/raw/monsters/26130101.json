@@ -1,0 +1,149 @@
+{
+  "name": "Setekh Wenut",
+  "desc": "An eyeless predator that dwells within the depths of the desert and uses sound and vibrations to seek out its prey.\\nLegend has it that in the ancient past before even the concept of time was created, these creatures thrived with their progenitors and offspring in a land of verdant grass and colossal trees, traversing through slick soil like fishes diving through the wet.\\nWith the passage of eons, the gifts of heaven have long reduced the soils to sand, rendering a great many creatures extinct. This branch of their genus was able to survive by adapting more toward earth-based living, and became known as the \"Wenut.\"\\nSome desert folk still mistakenly believe that Wenut is the final point of a quicksand eel's life cycle, likely due to superficial similarities between the species' behaviors.",
+  "icon": "UI_MonsterIcon_Sandworm",
+  "codex": "BEAST",
+  "title": "Setekh Wenut",
+  "special_names": [
+    "The Last Prince of the Sands"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113044,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113044"
+    },
+    {
+      "id": 104154,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104154"
+    },
+    {
+      "id": 104153,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104153"
+    },
+    {
+      "id": 104152,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104152"
+    },
+    {
+      "id": 104151,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104151"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400052,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10011_4"
+    }
+  ],
+  "child": {
+    "26130101": {
+      "monster_name": "Sandworm",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010035,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010035,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010035,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010035,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.25,
+        "grass": 0.25,
+        "water": 0.25,
+        "elec": 0.25,
+        "wind": 0.6,
+        "ice": 0.25,
+        "rock": 0.25,
+        "physical": 0.25
+      },
+      "base": {
+        "hp": 190.176,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

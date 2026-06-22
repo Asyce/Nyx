@@ -1,0 +1,100 @@
+{
+  "name": "Tatankasaurus Warrior: Skybreaker",
+  "desc": "A powerful warrior from a land of plenty, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\\nIt is said that the warriors of the Collective of Plenty like to deal powerful strikes while dashing at their foes — a lesson learned from the Tatankasaurs who share their lands. This is especially true for those warriors who wield heavy weapons, and claim the secret to a successful blow is to swing from the hips.",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Bisonsaurus",
+  "codex": "HUMAN",
+  "title": "Tatankasaurus Warrior: Skybreaker",
+  "special_names": [
+    "Bravery Saurian-Crowned"
+  ],
+  "reward": [],
+  "child": {
+    "25511101": {
+      "monster_name": "Tribalwarrior_Male_Strong_Powermaul_Bisonsaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010024,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25511190": {
+      "monster_name": "Tribalwarrior_Male_Strong_Powermaul_Bisonsaurus_01_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 39.038727,
+        "atk": 44.55,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

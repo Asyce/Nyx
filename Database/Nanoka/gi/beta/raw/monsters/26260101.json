@@ -1,0 +1,157 @@
+{
+  "name": "Rock-Cavernous Wayob Manifestation",
+  "desc": "The Children of Echoes believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\\nThe people of Natlan believe that the Wayob dwell in the kingdom of the Lord of the Night, and have no fixed form, instead attaching themselves to anything in order to provide guidance to lost tribespeople. Wayob manifestations are particularly special, and the figure revealed through the totems often has an important purpose.\\nThe Children of Echoes believe that their Wayob has the power to shape mountains and valleys, and can control the echoes created when rock meets stone.",
+  "icon": "UI_MonsterIcon_Wayob_Drillhead",
+  "codex": "BEAST",
+  "title": "Flow-Inverted Wayob Manifestation",
+  "special_names": [
+    "Envoy of Night and Wandering Spirits"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112109,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112109"
+    },
+    {
+      "id": 112108,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112108"
+    },
+    {
+      "id": 112107,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112107"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "26260101": {
+      "monster_name": "Wayob_Drillhead_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26260103": {
+      "monster_name": "Wayob_Drillhead_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

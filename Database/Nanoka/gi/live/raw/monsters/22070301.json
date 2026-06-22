@@ -1,0 +1,169 @@
+{
+  "name": "Shadowy Husk: Defender",
+  "desc": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it is now nothing but a husk that only bears memories of battle.\\nAll shall decay in the end, and this is all that is left of the Black Serpent Knights amidst the merciless march of their sins, curses, and time itself.",
+  "icon": "UI_MonsterIcon_ForlornVessel_Strong_Chargebow_Ice",
+  "codex": "ABYSS",
+  "title": "The Black Serpent Knights' End",
+  "special_names": [
+    "Shadowy Husk: Defender"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112019,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112019"
+    },
+    {
+      "id": 112018,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112018"
+    },
+    {
+      "id": 112017,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112017"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "22070301": {
+      "monster_name": "ForlornVessel_Strong_Chargebow_Ice_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22070302": {
+      "monster_name": "ForlornVessel_Strong_Chargebow_Ice_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

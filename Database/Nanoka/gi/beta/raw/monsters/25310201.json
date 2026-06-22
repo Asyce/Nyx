@@ -1,0 +1,314 @@
+{
+  "name": "Eremite Sunfrost",
+  "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\\nA professional mercenary who cares about nothing outside of work and the mission at hand. To such people, their only game plan is to complete the mission, and their high asking prices on the market match that committment.\\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
+  "icon": "UI_MonsterIcon_Eremite_Male_Standard_Glaive",
+  "codex": "HUMAN",
+  "title": "Eremite Sunfrost",
+  "special_names": [
+    "Frosty Mercenary"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112067,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    {
+      "id": 112066,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    {
+      "id": 112065,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    }
+  ],
+  "child": {
+    "25310201": {
+      "monster_name": "Eremite_Male_Standard_Glaive_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 48.9024,
+        "atk": 40.192,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25310202": {
+      "monster_name": "Eremite_Male_Standard_Glaive_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 48.9024,
+        "atk": 40.192,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25310281": {
+      "monster_name": "Eremite_Male_Standard_Glaive_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 48.9024,
+        "atk": 40.192,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25310282": {
+      "monster_name": "Eremite_Male_Standard_Glaive_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 48.9024,
+        "atk": 40.192,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25310290": {
+      "monster_name": "Eremite_Male_Standard_Glaive_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 11.5464,
+        "atk": 66.9,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25310291": {
+      "monster_name": "Eremite_Male_Standard_Glaive_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 75.225,
+        "atk": 65.025,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

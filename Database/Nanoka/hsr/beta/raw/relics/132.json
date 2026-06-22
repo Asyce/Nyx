@@ -1,0 +1,34 @@
+{
+  "name": "Divine-Querying Master Smith",
+  "icon": "SpriteOutput/ItemIcon/71057.png",
+  "parts": {
+    "31321": {
+      "name": "Smith's Fire Beast Mask"
+    },
+    "31322": {
+      "name": "Smith's Damascus Steel Gauntlets"
+    },
+    "31323": {
+      "name": "Smith's Fireproof Garment"
+    },
+    "31324": {
+      "name": "Smith's Unbridled Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases Max HP by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.12
+      ]
+    },
+    "4": {
+      "desc": "Increases the wearer's CRIT DMG dealt to enemy targets in the DEF reduction state by <unbreak>#1[i]%</unbreak>. After the wearer inflicts the DEF reduction state on an enemy target, all allies gain \"Comburent\" for <unbreak>#2[i]</unbreak> turn(s). This effect cannot be stacked. The DMG dealt by ally targets with \"Comburent\" increases by <unbreak>#3[i]%</unbreak>. This effect can be triggered again after the wearer uses an attack.",
+      "param_list": [
+        0.28,
+        2,
+        0.15
+      ]
+    }
+  }
+}

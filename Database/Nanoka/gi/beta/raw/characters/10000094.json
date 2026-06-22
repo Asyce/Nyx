@@ -1,0 +1,4295 @@
+{
+  "name": "Chiori",
+  "desc": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
+  "chara_info": {
+    "release_date": "2024-03-12 00:00:00",
+    "birth": [
+      8,
+      17
+    ],
+    "vision": "Geo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Cisoria",
+    "region": "ASSOC_TYPE_INAZUMA",
+    "title": "The Thundering Seamstress",
+    "native": "Court of Fontaine",
+    "detail": "The owner of Chioriya Boutique. A tailor renowned throughout Fontaine.",
+    "va": {
+      "chinese": "陈阳",
+      "japanese": "竹達彩奈",
+      "english": "Brittany Lauda",
+      "korean": "Lee Da-eun"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "You push open the doors to the boutique. Situated on one of Fontaine's busiest thoroughfares, it is named for its designer.\\nThe crisp ringing of a bell chimes from above as if wishing luck to all customers who step through the door. If the rumors swirling about have even a grain of truth to them, then perhaps such blessings will come in handy.\\n\"Welcome to the Chioriya Boutique, how may I help you?\" The greeting that reaches your ears, while perhaps lacking somewhat in enthusiasm, is filled with assurance.\\nThe owner of the voice shoots you a glance from behind the counter. A striking foreigner with captivating eyes — just like they said.\\n\"A personalized, custom job? Or something off the shelf?\" Her second question. The tone fills you with a certain feeling — as though the second someone steps through the door, even the highest-ranking aristocrat becomes merely a guest in her kingdom, while she sits high upon her throne, allowing supplicants to choose from among the blessings she offers.\\n\"I'd like tailor-made formal attire.\" You say. Her expression softens a little. It appears that in this kingdom, customizing the cut of the cloth to the customer and designing a personalized outfit in the Kingdom's name is something worth a smile.\\nPerhaps this is the best possible outcome, you muse to yourself. After all, those who recommended the shop to you not only all praised the exquisite handiwork of this designer, but some nearly couldn't stop themselves from opening wide their wardrobes to show off the dazzling contents within, as though they wished nothing more than to shove you inside to bask in the clothes' glory for a day. They even say that the owner of the shop is rarely found within, and if she is on the premises, that means she is in a good mood.\\nBut you quietly swallow all the same, for you know when fortune does not hold you in her fickle favor, then all manner of unimaginable and outrageous things may occur when the owner is in, such as...\\nBefore you can even get a handle on your thoughts and feelings, the bell above the door screams a metallic protest. The boutique's door has been kicked wide open by a man swaying and rocking, foul breath reeking of alcohol and language yet more foul spilling out of his mouth.\\n\"I—I won! I won the bet, the Boss is in toda—\" Though you could not clearly see just what happened, before he even finished speaking, he suddenly flew out the window, drawing an elegant arc through the air.\\nChiori brushes her hands and closes the window, before saying to you, as if nothing had happened, \"Apologies, the weather has been somewhat inclement of late. All kinds of trash have come blowing into my shop. It's been taken care of, so pay it no heed.\"\\nIt appears this kingdom does not welcome all unconditionally.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "\"Ms. Chiori, what past experiences did you have that forged the success you now enjoy?\" — A reporter once asked her this question.\\nChiori had hesitated as she searched for an appropriate response in her memories, but simply could not find a good answer. After all, in her own estimation, there was nothing special at all about her past.\\nChiori was born into a family of merchants. Though not well-off by any means, she had lacked for nothing in her childhood. Busy with their business, her parents had not been overly strict with her. This, her parents joked, is what had created her carefree and unbridled nature.\\nAt the age when many young girls began to study the art of tea or of flowers, Chiori was climbing trees and catching fish with other children... It wasn't that her parents never tried to get her to learn. But making Chiori sit quietly in front of a tea table for an entire day? Why, that would be the death of her (and of her teacher).\\n—Alright, then let's just have her study the art of the sword, said her father.\\nBefore long, Chiori was carrying two swords with her to class. \"Two is obviously better,\" she declared, boldly and confidently, dual blades in hand.\\nHer teacher had never seen a student with — his words to her father were tactfully chosen — such personality. And thus a seething Chiori was sent back home.\\nSimilar scenes played out many times, yet Chiori's parents were never too harsh with her, only believing \"That's just how she is.\"\\nUntil one day, Chiori's mother came home to discover her sitting quietly before the table, staring entranced at a bolt of high-quality fabric. The Chiori that was normally bouncing off the walls was nowhere to be found.\\n\"Do you like it?\" Asked her mother. \"It feels so smooth,\" came little Chiori's blunt answer, \"And it's so pretty, how was it made?\"\\nAnd thus, in the days that followed, Chiori sent tailoring teacher after teacher storming off in frustration, just as before. But at the same time, she also learned many tailoring techniques.\\nAlso, in all fairness, it should be mentioned that Chiori was already far more well-behaved with the tailors than she had been with all those other teachers.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "When the news of Inazuma's Sakoku policy reached Fontaine, the topics of tea-table discussions centered around the \"Raiden Shogun\" over there, that \"Vision Hunt Decree,\" and those ceaseless thunderstorms on the islands, as though discussing some sort of fantastical anecdotes.\\nAfter all, even the loudest thunderclap cannot be heard across the vastness of the sea to the dome of the sky above their heads.\\nBut the people of Fontaine could never have imagined that a storm that would imminently engulf Fontaine had at that time already left the shores of Inazuma, and was quietly heading for them. And the name of that storm was \"Chiori.\"\\nThe storm took shape on the journey out of Inazuma. From the very beginning, it had decided to let loose its thunder upon the streets of Fontaine — the capital of fashion and the City of the Arts.\\nAt first, it was only a few rumblings from the diverse firmament of the fashion world that nobody paid much heed to.\\n\"It's just a fad, that's all,\" \"It'll be forgotten in a few days\"... That's what they all said at first, as though they were discussing nothing more than a cat of unusual coloration that had appeared on the streets.\\nYet after this storm named \"Chiori\" struck that year's Fontaine Fashion Week, nearly all could hear the echoes of its thunderous fury reverberating throughout Fontaine.\\nIn a flash, the headlines of Fontaine's papers were completely occupied with a foreign name.\\nSome critics have opined that quality clothes are not just for looking at, but can also be \"heard.\" In this aspect, Chiori had succeeded. Every stitch and thread of her clothes told a story: the echoes of waves, the breathing of a forest, a sweet spring gushing forth in the desert...\\nNaturally, the \"old guard\" of the fashion world could not tolerate this foreign interloper encroaching upon their territory, and thus raised their banners and declared war upon this \"invader,\" using various methods.\\nYet everyone can see how it ended. Not only did they taste the bitterness of defeat, but some of them — for the first time in their lives — tasted the feeling of falling butt-first into the gutter.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "It is unclear when the Chioriya Boutique gained the nickname of \"intelligence boutique.\" Even Chiori herself is at a bit of a loss as to how this occurred. It's almost as if all she needs to do is share some of the information she has overheard in her shop with her friends, and it will have a tremendous impact on certain matters.\\nLater, she came to understand that rather than the Chioriya Boutique being the source of reams of intelligence, it was better to say that rivers of intelligence flowed of their own accord through her doors.\\nThose impeccably dressed merchants and government dignitaries were a kaleidoscopic flock of butterflies, each scattering the pollen known as \"intelligence\" from their fluttering wings onto that gorgeous flower called the Chioriya Boutique. Their actual intention was not to pollinate this flower, but rather to flaunt just how much pollen they had to the other butterflies. They consider the amount of information one had on them to be far more worthy of taking pride in than the quantity of gems sewn into one's garments.\\n—Have you heard? So-and-so has yet another new flame!\\n—Oh, and that one, they seem to have sealed a huge deal with the one from the Maison Gardiennage!\\n—You mean the one in charge of transportation? Now I've heard that what he's really transporting is...\\n—Shh! You can't say that out loud!\\n...\\nIf she really had to choose, Chiori would rather not listen to all this. She feels allergic to this sort of pollen, with the primary symptom being difficulty in quietly and wholeheartedly focusing on clothing. Thus, when designing new styles and products, she generally does not show up in her shop.\\nBut after realizing the value of such intelligence, she began to take a certain amount of notice on behalf of others. Should the interests of friends or the safety of Fontaine be involved, she would kindly send a letter to give a friendly reminder, or do so to their face. For her, this is no different from tailoring clothes — sewing each element into its proper place.\\nIn accordance with a businessperson's principles, Chiori naturally collects some small tokens of \"repayment.\" After all, as she is wont to say: It's only business if there's an exchange.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "If you truly wish to understand Chiori's designs, then you must witness Chiori fashioning clothes with your own eyes.\\nThe first time people see said designs, it's as if they cannot comprehend what is before them. Does this designer not know what \"rules\" are? How can women's clothes be tailored like men's? How can men's formalwear use women's fabrics?\\nYet there is some quality within that attracts them, and halts them in their tracks. It's as if all of this rejection and resistance to the \"rules\" is so eminently reasonable that it is plainly saying: You are the ones who are wrong.\\nIt is the same for Chiori as she tailors the clothes. From the way she treats the fabric, it is as if she has never seen the material before. Her cuts come from unexpected angles, ignoring the direction of the thread, and sometimes suddenly seizing upon adding a completely new structure halfway through, before upending her own work once again...\\nSometimes, she will even draw her sword and swiftly cut the first-rate fabric before her with a clean slash, as though she were not making clothes, but rather dueling — as though she were fighting with the fabric in her hands, vying for authority, with her emerging as the ultimate victor.\\nNo one makes clothes as she does, much less converses so with the fabric. Her workstation becomes an operating table, and she knows just what the perfect form of the fabric is, with each stroke of her blade excising lesions and sores from her patient...\\nAn employee once complained to Chiori that it was too difficult to cut the style she requested.\\n—\"Why? Are your scissors not sharp enough?\"\\n—\"No, that's not it... It's just...\"\\n—\"Then you can cut it.\"\\nShe will make you feel that if you cannot cut and trim clothes exactly as you please, then that is because you're simply too foolish to do so. Yet when you see the clothes she tailors, you will feel that if you cannot live exactly as you please, then that is yet more foolish still.\\n\"Ms. Chiori, I would like to ask, just how do you design your clothes?\" —Came the reporter's question.\\n—\"However I want.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "Dreams. Such an ephemeral word, far flimsier than even the thinnest silks Chiori has laid hands on. Yet when worn, they can be heavier and more suffocating than the thickest fabric.\\nShe chased her dream all the way to Fontaine, and yet when she finally managed to catch up to it, she discovered that it had once more run even farther away of its own accord.\\nSo, what next? Take up the burden of her dream and forge ahead, or just be content with what she had?\\n—No. Chiori firmly told herself. I choose neither.\\nShe enjoyed the sweet aftertaste dreams left, the satisfaction that filled her. Yet she hated using dreams of the future to urge herself onward. That was itself a kind of shackle.\\nShe chooses to live in the present.\\nShe will work tirelessly day and night on a piece of clothing, just so that it might grace the stage of Fashion Week. She will also disappear for weeks on a whim, enjoying every sight along the way, the starry sky overhead every night, until finally setting off on the road back home once tired. It all depends on her mood.\\nNone can dictate any aspect of her life to her, no one can tell her what she \"should\" do; not even her own dreams. It is almost as if she would toss life itself out the window without a moment's hesitation, should it prove an obstacle to her.\\n\"Never give up\" is Chiori's true brand. She has said so herself.\\nStrangely, it's as though it is in fact her \"dream\" that has begun actively trying to draw close to her out of fright. As opposed to her chasing it, her dream is attempting to curry favor with her, like a once-wild tamed beast attempting to cozy up to its new master's side.\\n—Ms. Chiori, you've said that you want your brand to become fashionable across Teyvat. May I ask when you expect to achieve this goal?\\n—Hard to say. Perhaps when I feel like it.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Chiori's Drafts",
+        "text": "When a Snow-Winged Goose chasing the reflection of the moon leapt into the lake, Chiori awoke. She blinked and yawned, gazing at the black evening dress glittering like the star-studded heavens. The shadows of her dream were melting in her mind, leaving inky traces of sadness.\\n\"Scissors, please.\" She pushed herself into a sitting position as her loyal assistant appeared by her side, handing Chiori the tool in her hand.\\n\"And a pencil.\" She added, and \"Tamoto\" pulled out a pencil that seemed to have seen quite some use from who knows where.\\nWhen seeking inspiration, Chiori prefers solitude to company, and often sets off on her own with little more than the clothes on her back, disliking burdening herself with this and that.\\nA notebook is something that nags at her, as though begging her to write something down. A map is too confining, as though seeking to draw lines and boundaries through her empire of fashion without her say-so.\\nHer drafts are harder to understand than those of any other designer in the business, for they are often drawn on menus, leaves, or even her own clothing...\\nYet her finished products are also more breathtaking than those of any other designer, as they are the distillation of the scenery she has seen, the characters she has met, and even those melted remnants of dreams...\\n\"Done.\" She looked at the newspaper before her — or more precisely, the tattered remnants thereof — and nodded in satisfaction. She didn't even remember how she had picked it up today, but that was irrelevant.\\nHer drafts are born with such spontaneity, and completed with the same free and easy spirit: They are brought back to the Chioriya Boutique, copied out onto the toile, and then turned into tea-stained taiyaki wrapping paper before finally being laid to rest in the garbage.\\nAnd as for the essence of the drafts... They are for customers to admire and acclaim, and for being enshrined on the front page of fashion magazines.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "No way forward. Nothing left to do.\\nChiori lay prone before the table, eyebrows knitting at her first work. \"Tamoto\" said nothing, as though sleeping — or perhaps it was that she had simply never awoken. Chiori's habit was to use a small amount of cloth to try out her designs on Tamoto before making an outfit. Should the result prove satisfactory, she would then copy the design onto a full-size model. Yet none of her designs had been able to gain the approval of her teacher.\\nNot long before, yet another teacher had expelled her. She had gradually come to understand that sometimes, it wasn't that her teachers disliked her designs, but that they simply didn't dare to be the first to adopt such designs. The judgmental gaze of others were threads far harder to snip than the stitches of any clothes.\\n\"And what do you think?\" She asked the puppet in front of her. \"Tamoto\" had never complained about her designs, and would happily try on any clothes without protest. But if she could open her mouth, would she say those three words, \"I like it\"?\\nNot long before, Ogura Textiles & Kimonos had extended an invitation to Chiori, asking her to work in the shop. Chiori appreciated Ogura Mio's intentions, for among the children studying tailoring, she was one who seemed to admire Chiori's designs.\\nBut no. Chiori shook her head, rejecting the idea.\\nWhen all was said and done, that was someone's else shop, someone else's name. She didn't like the feeling of dwelling within the home of another.\\n\"Fontaine...\" She whispered softly. The word had been bubbling to the surface of her mind of late, as a hummed tune overheard may linger forever in the ear, unforgettable.\\nThe books said that was the capital of fashion, a city of the arts. The merchants said it was a place that revered entertainment, and that anything interesting would be liked by everyone there.\\nThen, Chiori had thought it too far away. It would take months of travel just to get there. Now, she felt that Inazuma was too far away. Her designs would reach few here.\\n\"Fontaine... Fontaine...\" She murmured the name several more times, as though doing so could pull that faraway country closer to her.\\nAs she thought of \"Ogura Textiles & Kimonos,\" she found herself speaking another name — \"Chioriya Boutique.\"\\n—It was as though her heartstrings had suddenly been plucked and were now humming. The sounds of \"Fontaine\" and \"Chioriya Boutique\" were two notes that seemed to form a perfect harmonious chord.\\n\"Fontaine's 'Chioriya Boutique'...\" She closed her eyes and imagined a sign emblazoned with her name appearing on Fontaine's vibrant avenues, and how the people there would sound speaking the strange name. It suddenly all seemed so real to her, as though, at that moment, the real her was already in Fontaine, and the \"her\" left here was merely a shadow she had carelessly left behind in Inazuma.\\nShe swiftly sat up and left the house without so much as a word to her parents. They were shocked, and looked at each other in dismay, guessing that perhaps she was going out for a walk to unwind. Yet when she next returned, she had already said her goodbyes to some, and left a few others with no doubt as to what she really thought of them. Either way, the name \"Chiori\" would certainly return to Inazuma's shores long before she did. That was the oath she swore.\\n\"I'm leaving tomorrow,\" She said to her parents. That melody humming internally was urging her forward, and she had to go chase the her that was in Fontaine.\\nHer mother looked at her father reproachfully, as if to say \"Of all the traits she inherited, it had to have been your personality.\"\\nNaturally, her parents didn't try to stop her, as they knew very well that once this child said something, it was already set in stone.\\nAs Chiori returned to her room to pack her things, the items on her table suddenly shifted, startling her.\\n\"Tamoto\" slowly turned in circles, as though showing off the clothes Chiori had made for her, before happily floating over to Chiori— and in the puppet's outstretched hands was a brilliant Vision.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "I am Chiori, the owner of Chioriya Boutique. Feel free to find me if you'd like to commission any tailor-made outfits. As for any other requests, it all depends on whether you have enough to offer in exchange. Just the rules of the \"business\" — you scratch my back, and I'll scratch yours. Also, smoking, drinking, and causing a ruckus are all strictly prohibited within the Boutique. That whole \"the customer is king\" concept doesn't fly here... And even when royalty does come into the shop, if they don't adhere to the rules, they'll find themselves being tossed out and kissing the pavement just like anyone else.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Criticism",
+        "text": "It's up to me to decide who I want to be and to cut my own path. No one can tell me what to do.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Tailor's Cutters",
+        "text": "Who says you have to use scissors to cut clothes? Leave those rigid rules behind. I much prefer using my own cutting tools.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Modeling",
+        "text": "If you really like standing around like this, then why don't you just model for me? I'll design some wonderful clothes for you.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "It's not so much the rain that bothers me, but the mud. It's always such a pain to wash it out of my clothes.",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "...This reminds me of home.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "The way it comes floating from on high makes you want to reach out for it... But the moment it lands on your hand, its beauty dissipates... Hmm, I suppose there are more similarities between snowflakes and fashion than I thought...",
+        "unlocked": []
+      },
+      {
+        "title": "In the Desert",
+        "text": "Hmm, just how can I market high fashion here...",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Morning. Don't expect me to make breakfast for you. But if you're going to the café, be a darling and bring me a cup of coffee. Black. No cream, no sugar.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Is it lunch time already? I'm not even hungry yet... I don't plan on taking a break now. You go ahead.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "It's so noisy out there. Has everyone in the entire Court of Fontaine decided to go out this evening?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "I'm going to go relax by taking a nice, long bath. Well, I'll see you tomorrow.",
+        "unlocked": []
+      },
+      {
+        "title": "About Chiori: Directness",
+        "text": "Many have expressed displeasure both publicly and privately about my personality, and have complained that my words can be hurtful. But, if you ask me, all those showy pleasantries, greetings, and compliments are far more of a waste of everyone's time. If simply stating the facts seems hurtful, then perhaps they are too insecure.",
+        "unlocked": []
+      },
+      {
+        "title": "About Chiori: Brand Vision",
+        "text": "When I first started conceptualizing the idea of my brand, I reflected on many of my past experiences, and came up with a lot of phrases for the brand's slogan. It's difficult to pick only one phrase for the brand, especially when you realize that every word reflects on a deeply treasured part of yourself... but you can only choose that which best represents you.\\n\"Never admit defeat.\" That's me. That's my brand.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Fitting",
+        "text": "Take it from me — this one looks good on you. Hmm? You've never seen a style like this before? Aw, that's because you've never met a designer with taste before.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Exchange",
+        "text": "I know you probably already know this, but I always just say what's on my mind. Maybe you've already grown accustomed to it, but that's just how I express myself, and I'm not going to change. You should also always act like yourself around me — there's no need to hide anything. I promise I'll never criticize you for who you are. Hmm? Don't believe me? After all this time together, have you ever seen me not keep my word?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "Because I was born in Inazuma, the people of Fontaine have dubbed me \"The Thundering Seamstress.\" If that's what they want to call me, then that's what they can call me. I have no lingering affection for my homeland. After all, everything, including my Vision, only came to me after I decided to leave Inazuma.\\nOh, but that's not to say that I actively dislike those islands where fabric never fully dries. It's just that I haven't found any reason to go back.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "When I was a kid, my parents would send me to a variety of activities to help expend my energy. One such activity was learning the art of the sword. But after some time, I suddenly felt that a dual wielding technique was really strong and impressive. It wasn't long before the instructor approached me and told me to stop practicing using that technique. When I asked him why, all he said was that it wasn't the standard sword technique, and that it was \"improper.\" After that, I never attended his class again. Now that I think about it, it's fortunate that I insisted on following the way I preferred. Perhaps I'm just the sort who needs to keep both my hands busy.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "Tamoto is my first masterpiece. At the time, I was just thinking to stitch together a puppet girl who looked like me to be my model and assistant. Huh? What about a companion? No, I have no need for that.",
+        "unlocked": []
+      },
+      {
+        "title": "About Navia",
+        "text": "She used to beg me to help her design all kinds of strange things. For example, little crowns for every handle on a ship's helm... I couldn't help but roll my eyes at her request, and tell her that the most I would do is design her hat like a boat.\\nThose who say I'm ahead of my time have clearly never spoken to her.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Lyney",
+        "text": "I can't make a hat that could hide secrets, but it seems Lyney can enchant his hat to do just that... I'm a little curious about how it feels to wear a hat full of so many tricks and secrets like his. As for me, I don't need the burden of all that, it's easiest to just say what's on my mind.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Lynette",
+        "text": "The magician's assistant sure doesn't say much, but I know she trusts me. You know, I sure get a lot of love from cats...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Charlotte",
+        "text": "One time, Charlotte came into the shop, hoping to do an interview with me. I told her there was no point, because there was nothing new to talk about. But just as she was leaving, a drunkard came stumbling into the shop and started causing trouble. She recorded the whole thing... What a fiasco. I've heard of journalists chasing leads, but now it seems news chases the journalists.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Chevreuse",
+        "text": "Working with Chevreuse and talking with her are a cinch. So easy, in fact, that whenever I say goodbye to her and return to tending to my customers again, it takes me a moment to shift gears mentally.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Emilie",
+        "text": "Emilie's perfumes are very popular. We have a business agreement where I ask her to deliver small quantities of perfume she's working on to Chioriya Boutique. I let Eloffe secretly spray the perfume in the fitting room, and then I'll let her know any feedback I get from the customers. Even after all this time, I've never once had a customer ever say that my fitting room smelled strange. In fact, they usually come one after another to ask where they can buy the fragrance. Out of curiosity, I always buy a bottle when she brings them to sell in her shop. I have to say that such fragrances which can always bring a sense of refreshment are truly works of art.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Wriothesley",
+        "text": "Yes. Some of my friends and partners have mentioned him to me before. I admire his skills at management and diplomacy, but I certainly have no intention of changing my way of doing things.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kirara",
+        "text": "While I was still in Inazuma, there was a cat with green eyes that always liked to follow me whenever I went out into the wild in search of inspiration. The kitty seemed to be very interested in the colors and patterns of the fabric I was carrying. She would even come up and rub her head against my legs when she was in a good mood.\\nLater, I recognized those green eyes again, but on a girl with two tails. The way she gazed at new and intriguing things still had not changed after so many years.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kamisato Ayaka",
+        "text": "If I wasn't always slipping away to go play when I was a child, I probably would never have had the chance to meet the young lady of the Kamisato Clan. There was one time when I climbed my way into the Kamisato Clan's courtyard, and her Temari just happened to roll over towards the wall. I could tell that she was both surprised and happy to see me. We played together and chatted for quite some time, but I was discovered in the end. And so, our brief friendship came to an end as I was kicked off the premises.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More about Chiori: I",
+        "text": "I don't think my temper is as bad as people make it out to be. I just don't like wasting my time on trivial matters, that's all. But for some reason, it's always those trivial things that come back to haunt me. So, over time, I've ended up with a bad reputation. I would say that's completely unjust!",
+        "unlocked": []
+      },
+      {
+        "title": "More about Chiori: II",
+        "text": "Ever since I was a kid, I've always had a problem with authority. There was a period when I hated the rules, and would always insist on going against the grain. Thanks to this headstrong character of mine, I've had to go through a lot of suffering. But eventually, I came to understand that rules aren't completely a bad thing. What I really can't stand is the feeling that I can't make decisions based on what I truly think.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More about Chiori: III",
+        "text": "When I was little, I used to always look forward to the summer festival in my hometown. Every year, people would take out the most vibrant and beautiful clothes, and carefully put them on before joining the crowd...\\nEvery time the festival came around, there'd be all of these brightly colored spheres hanging from people's belts, goldfish that you couldn't scoop up from the bowl no matter how hard you tried, apple candy so sweet that even the children couldn't finish them all, and fireworks so beautiful that they could have only come from the Naganohara house... I always had a lot of fun at such festivals, but even then, I would always feel like something was \"missing\" when I went home at the end of the night. It was only after I got much older that I realized I must have wanted to become more than just a spectator at such a wonderful event.\\n...It's just like how people will always associate the house of \"Naganohara\" with fireworks. I hope that one day, people will also associate festivals with Chioriya clothes.\\nHehe, just thinking about the prospect of that gets me really fired up. Alright, time to go back to the shop and churn out a few more designs.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More about Chiori: IV",
+        "text": "Although I can get quite immersed in my work, I also enjoy living in the moment. When I have some free time, I would often pack some food and find a lovely place in nature to take a cozy midday nap, before returning home, relaxing some more, and then finally falling asleep to my favorite music. Oh, and other times, I like to go out for food with my friends, talk about everything that's happening in the world, and party until everyone's completely hammered. Honestly, it all just depends on what I feel like doing in the moment. Just as fashion only exists in the moment, I also love living in the moment. So, what do you think? Want to go out with me tonight and enjoy a whole night of fun?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More about Chiori: V",
+        "text": "I love Inazuma's petite desserts, as well as all culinary dishes subtle and light. Similarly, I also like the feel of my homeland's fabrics, as well as the practice of taking a bath after a long working day. But on the flip side, I also adore the soft waves of Fontaine's seas, as well as the beautiful scenery underneath the waters.\\nSometimes, I wonder if everything is in fact predestined, and if I'm still living in the shadow of my past. But then, another question always follows — would the answer to that really change anything? In any case, I'm still me, living in my present. Even if I'm only the way I am due to what has happened in my past, my future is still in my own hands, and no one in this world can really change that.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Chiori's Hobbies",
+        "text": "I'm pursuing my dream through my work, and exploring the meaning of freedom through my art. What's the point of spending years and years of your life over something that's not near and dear to your heart?",
+        "unlocked": []
+      },
+      {
+        "title": "Chiori's Troubles",
+        "text": "Sometimes, I worry that I haven't made as much progress as I'd hoped, and thus, it'd be hard to know when I would actually realize my dream of making Chioriya renowned throughout the world. Still, that's no reason to question or abandon the dream. Rather than worrying or doubting myself, my time would be better spent creating a few more designs.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Favorite Food",
+        "text": "I can never forget the Inazuman desserts I used to indulge in as a child. But rather than the joy of tasting them, I've always been more interested in the process of making them. Had I been less drawn to the fascinating world of fabrics and color, the world would have gained another dessert chef.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "I can't handle food with particularly strong flavors, like Haggis, for example. The experience of eating it is kind of like... suddenly getting hit with a faceful of Geo Specter out of nowhere. Does that make sense to you?",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Mm, I do love this dish. Why don't you bring me some more next time. Don't worry, I'll also bring a gift for you in return.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Not bad. I think this would be most enjoyable after a hard day's work in the shop.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Ugh, I'm not fond of this flavor. Bring me something lighter on the palette next time.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Yeah, yeah... Happy birthday, or whatever. Just tell me if there's a gift you like — I can't be bothered to try and guess what you want. Hm? Too direct? Alright then, why don't you grab Navia, Kirara, and the others, and maybe a few of your friends as well. We can have a party tonight at my place. I'll take some notes on the gifts that the others have prepared for you, and make you an accessory right then and there. Ten thousand mora that you'd like it. Haha, call it the confidence of the owner of Chioriya Boutique.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "...No good. Still feels too ordinary.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "...Not bad, but it's still lacking the \"wow\" factor that makes it really stand out.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Oho... That's more like it. I think I've got it.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "Of course, as a master of my craft, my hands will never shake while cutting fabric, but I'll admit, the excitement and anticipation has my heart really beating right now. Thank you for staying with me the whole time I worked on this piece. It is extremely important to me. I now have far more confidence in myself as I embark on the next step of my journey.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Let's go, Tamoto!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Next customer!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Lend me a hand.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "I am the cutting edge of fashion.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Delicate as silk.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Scraps of color, scatter!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "The handiwork is alright... though I've made much better myself.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Ah, so this is what you like?",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Hmm... Let me take note of this.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "My clothes are ruined...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Are you done?",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Time to teach you a lesson.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Hey, who're you trying to impress?",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "I don't make burial shrouds, you know.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "I wasn't cut out... for this...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "I'll never... accept defeat...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "But what about... my brand...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "Is that all?",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "How tacky...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "You've picked the wrong fight.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Welcome to Chioriya Boutique.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Let me guess... Need something tailor-made?",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Let's get out and find some inspiration.",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108668,
+      "recipe": 3214,
+      "name": "\"Fashion Show\"",
+      "icon": "UI_ItemIcon_108668",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210193,
+      "name": "Chiori: Spectacular Sleeves",
+      "desc": "Namecard style.\\nThe doll known as \"Tamoto-chan\" was one of Chiori's earliest works, and is also the model that requires the least fabric and tailoring.",
+      "icon": "UI_NameCardPic_Chiori_P"
+    },
+    "costume": [
+      {
+        "id": 209400,
+        "name": "Plucked Yamabuki Splendor",
+        "desc": "Chiori's outfit. An elegant dress ensemble personally designed by Chiori herself, the exquisite craftsmanship has a distinctive Inazuman flair. She once wore this outfit when she graced the front page of a Fontainian fashion review magazine, and her unique aesthetics immediately catapulted her to the forefront of Fontaine's fashion world.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_SWORD_ONE_HAND",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Geo",
+  "icon": "UI_AvatarIcon_Chiori",
+  "stamina_recovery": 25,
+  "base_hp": 890.4009,
+  "base_atk": 25.137,
+  "base_def": 74.1892,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 763.43823,
+        "fight_prop_base_defense": 63.612,
+        "fight_prop_base_attack": 21.55113,
+        "fight_prop_critical": 0
+      },
+      {
+        "fight_prop_base_hp": 1305.8812,
+        "fight_prop_base_defense": 108.81,
+        "fight_prop_base_attack": 36.863773,
+        "fight_prop_critical": 0.048
+      },
+      {
+        "fight_prop_base_hp": 2029.1385,
+        "fight_prop_base_defense": 169.074,
+        "fight_prop_base_attack": 57.280636,
+        "fight_prop_critical": 0.096
+      },
+      {
+        "fight_prop_base_hp": 2571.5815,
+        "fight_prop_base_defense": 214.272,
+        "fight_prop_base_attack": 72.59328,
+        "fight_prop_critical": 0.096
+      },
+      {
+        "fight_prop_base_hp": 3114.0244,
+        "fight_prop_base_defense": 259.47,
+        "fight_prop_base_attack": 87.90592,
+        "fight_prop_critical": 0.144
+      },
+      {
+        "fight_prop_base_hp": 3656.4673,
+        "fight_prop_base_defense": 304.668,
+        "fight_prop_base_attack": 103.21857,
+        "fight_prop_critical": 0.192
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10941,
+      "name": "Weaving Blade",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 rapid strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.494104,
+            0.468339,
+            0.304165,
+            0.304165,
+            0.751227,
+            0.54309,
+            0.54309,
+            20,
+            0.639324,
+            1.278377,
+            1.596762,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.534322,
+            0.506459,
+            0.328922,
+            0.328922,
+            0.812374,
+            0.587295,
+            0.587295,
+            20,
+            0.691362,
+            1.382431,
+            1.726731,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.57454,
+            0.54458,
+            0.35368,
+            0.35368,
+            0.87352,
+            0.6315,
+            0.6315,
+            20,
+            0.7434,
+            1.486485,
+            1.8567,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.631994,
+            0.599038,
+            0.389048,
+            0.389048,
+            0.960872,
+            0.69465,
+            0.69465,
+            20,
+            0.81774,
+            1.635134,
+            2.04237,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.672212,
+            0.637159,
+            0.413806,
+            0.413806,
+            1.022018,
+            0.738855,
+            0.738855,
+            20,
+            0.869778,
+            1.739187,
+            2.172339,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.718175,
+            0.680725,
+            0.4421,
+            0.4421,
+            1.0919,
+            0.789375,
+            0.789375,
+            20,
+            0.92925,
+            1.858106,
+            2.320875,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.781374,
+            0.740629,
+            0.481005,
+            0.481005,
+            1.187987,
+            0.85884,
+            0.85884,
+            20,
+            1.011024,
+            2.02162,
+            2.525112,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.844574,
+            0.800533,
+            0.51991,
+            0.51991,
+            1.284074,
+            0.928305,
+            0.928305,
+            20,
+            1.092798,
+            2.185133,
+            2.729349,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.907773,
+            0.860436,
+            0.558814,
+            0.558814,
+            1.380162,
+            0.99777,
+            0.99777,
+            20,
+            1.174572,
+            2.348646,
+            2.933586,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.976718,
+            0.925786,
+            0.601256,
+            0.601256,
+            1.484984,
+            1.07355,
+            1.07355,
+            20,
+            1.26378,
+            2.527025,
+            3.15639,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.045663,
+            0.991136,
+            0.643698,
+            0.643698,
+            1.589806,
+            1.14933,
+            1.14933,
+            20,
+            1.352988,
+            2.705403,
+            3.379194,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.114608,
+            1.056485,
+            0.686139,
+            0.686139,
+            1.694629,
+            1.22511,
+            1.22511,
+            20,
+            1.442196,
+            2.883781,
+            3.601998,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.183552,
+            1.121835,
+            0.728581,
+            0.728581,
+            1.799451,
+            1.30089,
+            1.30089,
+            20,
+            1.531404,
+            3.062159,
+            3.824802,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.252497,
+            1.187184,
+            0.771022,
+            0.771022,
+            1.904274,
+            1.37667,
+            1.37667,
+            20,
+            1.620612,
+            3.240537,
+            4.047606,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_01",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.321442,
+            1.252534,
+            0.813464,
+            0.813464,
+            2.009096,
+            1.45245,
+            1.45245,
+            20,
+            1.70982,
+            3.418915,
+            4.27041,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10942,
+      "name": "Fluttering Hasode",
+      "desc": "Dashes nimbly forward with silken steps. Once this dash ends, Chiori will summon the automaton doll \"Tamoto\" beside her and sweep her blade upward, dealing <color=#FFE699FF>AoE Geo DMG</color> to nearby opponents based on her ATK and DEF.\\nHolding the Skill will cause it to behave differently.\\n\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode to adjust the dash direction.\\n\\n<color=#FFD780FF>Tamoto</color>\\n· Will slash at nearby opponents at intervals, dealing <color=#FFE699FF>AoE Geo DMG</color> based on Chiori's ATK and DEF.\\n· While active, if there are nearby <color=#FFE699FF>Geo Construct(s)</color> or <color=#FFE699FF>Geo Construct(s)</color> are created nearby, an additional Tamoto will be summoned next to your active character. Only 1 additional Tamoto can be summoned in this manner, and its duration is independently counted.\\n\\n<i>\"Sakura red dyes the brocade, the fragrance suffuses the sleeves, the orioles intoxicated.\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.8208,
+            1.026,
+            17,
+            3.6,
+            1.4928,
+            1.866,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.88236,
+            1.10295,
+            17,
+            3.6,
+            1.60476,
+            2.00595,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.94392,
+            1.1799,
+            17,
+            3.6,
+            1.71672,
+            2.1459,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.026,
+            1.2825,
+            17,
+            3.6,
+            1.866,
+            2.3325,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.08756,
+            1.35945,
+            17,
+            3.6,
+            1.97796,
+            2.47245,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.14912,
+            1.4364,
+            17,
+            3.6,
+            2.08992,
+            2.6124,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2312,
+            1.539,
+            17,
+            3.6,
+            2.2392,
+            2.799,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.31328,
+            1.6416,
+            17,
+            3.6,
+            2.38848,
+            2.9856,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.39536,
+            1.7442,
+            17,
+            3.6,
+            2.53776,
+            3.1722,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.47744,
+            1.8468,
+            17,
+            3.6,
+            2.68704,
+            3.3588,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.55952,
+            1.9494,
+            17,
+            3.6,
+            2.83632,
+            3.5454,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6416,
+            2.052,
+            17,
+            3.6,
+            2.9856,
+            3.732,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7442,
+            2.18025,
+            17,
+            3.6,
+            3.1722,
+            3.96525,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8468,
+            2.3085,
+            17,
+            3.6,
+            3.3588,
+            4.1985,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Chiori_01",
+          "desc": [
+            "Tamoto DMG|{param1:P} ATK+{param2:P} DEF",
+            "Tamoto Duration|{param3:F1}s",
+            "Tamoto Attack Interval|{param4:F1}s",
+            "Upward Sweep Attack DMG|{param5:P} ATK+{param6:P} DEF",
+            "CD|{param7:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9494,
+            2.43675,
+            17,
+            3.6,
+            3.5454,
+            4.43175,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10945,
+      "name": "Hiyoku: Twin Blades",
+      "desc": "Twin blades leave their sheaths as Chiori slices with the clean cuts of a master tailor, dealing <color=#FFE699FF>AoE Geo DMG</color> based on her ATK and DEF.\\n\\n<i>\"Master one principle, and the path to all others shall open to you.\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.5632,
+            3.204,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.75544,
+            3.4443,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.94768,
+            3.6846,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.204,
+            4.005,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.39624,
+            4.2453,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.58848,
+            4.4856,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.8448,
+            4.806,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.10112,
+            5.1264,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.35744,
+            5.4468,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.61376,
+            5.7672,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.87008,
+            6.0876,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.1264,
+            6.408,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.4468,
+            6.8085,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.7672,
+            7.209,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Chiori_01",
+          "desc": [
+            "Skill DMG|{param1:P} ATK+{param2:P} DEF",
+            "CD|{param3:F1}s",
+            "Energy Cost|{param4:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            6.0876,
+            7.6095,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 942101,
+      "name": "Tailor-Made",
+      "desc": "#Gain different effects depending on the next action you take within a short duration after using <color=#FFD780FF>Fluttering Hasode</color>'s upward sweep. If you {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} the Elemental Skill, you will trigger the Tapestry effect. If you {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} your Normal Attack, the Tailoring effect will be triggered instead.\\n\\n<color=#FFD780FF>Tapestry</color>\\n· Switches to the next character in your roster.\\n· Grants all your party members \"Seize the Moment\": When your active party member's Normal Attacks, Charged Attacks, and Plunging Attacks hit a nearby opponent, \"Tamoto\" will execute a coordinated attack, dealing 100% of Fluttering Hasode's upward sweep DMG as <color=#FFE699FF>AoE Geo DMG</color> at the opponent's location. DMG dealt this way is considered Elemental Skill DMG.\\n· \"Seize the Moment\" lasts 8s, and 1 of \"Tamoto\"'s coordinated attack can be unleashed every 2s. 2 such coordinated attacks can occur per \"Seize the Moment\" effect duration.\\n\\n<color=#FFD780FF>Tailoring</color>\\n· Chiori gains <color=#FFE699FF>Geo infusion</color> for 5s.\\n\\nWhen on the field, if Chiori does not either {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} her Elemental Skill or use a Normal Attack within a short time after using Fluttering Hasode's upward sweep, the Tailoring effect will be triggered by default.",
+      "icon": "UI_Talent_S_Chiori_05",
+      "unlock": 1,
+      "param_list": [
+        1,
+        8,
+        2,
+        2,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 942201,
+      "name": "The Finishing Touch",
+      "desc": "When a nearby party member creates a <color=#FFE699FF>Geo Construct</color>, Chiori will gain 20% <color=#FFE699FF>Geo DMG Bonus</color> for 20s.",
+      "icon": "UI_Talent_S_Chiori_06",
+      "unlock": 4,
+      "param_list": [
+        0.2,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 942301,
+      "name": "Brocaded Collar's Beauteous Silhouette",
+      "desc": "When any party member is wearing an outfit apart from their default outfit, or is wearing a wind glider other than the Wings of First Flight, your party members will obtain the Swift Stride effect: Movement SPD is increased by 10%.\\nThis effect does not take effect in Domains, Trounce Domains, and the Spiral Abyss. Swift Stride does not stack.",
+      "icon": "UI_Talent_S_Chiori_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 941,
+      "name": "Six Paths of Sage Silkcraft",
+      "desc": "The AoE of the automaton doll \"Tamoto\" summoned by <color=#FFD780FF>Fluttering Hasode</color> is increased by 50%.\\nAdditionally, if there is a <color=#FFE699FF>Geo</color> party member other than Chiori, Fluttering Hasode will trigger the following after the dash is completed:\\n· Summon an additional Tamoto. Only one additional Tamoto can exist at the same time, whether summoned by Chiori this way or through the presence of a Geo Construct.\\n· Triggers the Ascension Talent \"The Finishing Touch.\" You must first unlock the Ascension Talent \"The Finishing Touch.\"",
+      "icon": "UI_Talent_S_Chiori_01",
+      "param_list": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 942,
+      "name": "In Five Colors Dyed",
+      "desc": "For 10s after using <color=#FFD780FF>Hiyoku: Twin Blades</color>, a simplified automaton doll, \"Kinu,\" will be summoned next to your active character every 3s. Kinu will attack nearby opponents, dealing <color=#FFE699FF>AoE Geo DMG</color> equivalent to 170% of Tamoto's DMG. DMG dealt this way is considered Elemental Skill DMG.\\nKinu will leave the field after 1 attack or after lasting 3s.",
+      "icon": "UI_Talent_S_Chiori_03",
+      "param_list": [
+        3,
+        10,
+        1.7,
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 943,
+      "name": "Four Brocade Embellishments",
+      "desc": "Increases the Level of <color=#FFD780FF>Fluttering Hasode</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Chiori_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 944,
+      "name": "A Tailor's Three Courtesies",
+      "desc": "For 8s after triggering either follow-up effect of the Ascension Talent \"Tailor-Made,\" when your current active character's Normal, Charged, or Plunging Attacks hit a nearby opponent, a simplified automaton doll, \"Kinu,\" will be summoned near this opponent. You can summon 1 Kinu every 1s in this way, and up to 3 Kinu may be summoned this way during each instance of \"Tailor-Made\"'s Seize the Moment or Tailoring effect. The above effect can be triggered up to once every 15s.\\nYou must first unlock the Ascension Talent \"Tailor-Made.\"",
+      "icon": "UI_Talent_S_Chiori_02",
+      "param_list": [
+        8,
+        1,
+        3,
+        15,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 945,
+      "name": "Two Silken Plumules",
+      "desc": "Increases the Level of <color=#FFD780FF>Hiyoku: Twin Blades</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Chiori_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 946,
+      "name": "Sole Principle Pursuit",
+      "desc": "After triggering a follow-up effect of the Ascension Talent \"Tailor-Made,\" Chiori's own <color=#FFD780FF>Fluttering Hasode</color>'s CD is decreased by 12s. You must first unlock the Ascension Talent \"Tailor-Made.\".\\nIn addition, the DMG dealt by Chiori's own Normal Attacks is increased by an amount equal to 235% of her own DEF.",
+      "icon": "UI_Talent_S_Chiori_04",
+      "param_list": [
+        12,
+        2.35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Sliver",
+            "id": 104171,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Dendrobium",
+            "id": 101204,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Spectral Husk",
+            "id": 112053,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Fragment",
+            "id": 104172,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Artificed Spare Clockwork Component — Coppelia",
+            "id": 113049,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Dendrobium",
+            "id": 101204,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Spectral Husk",
+            "id": 112053,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Fragment",
+            "id": 104172,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Artificed Spare Clockwork Component — Coppelia",
+            "id": 113049,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Dendrobium",
+            "id": 101204,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Spectral Heart",
+            "id": 112054,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Chunk",
+            "id": 104173,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Artificed Spare Clockwork Component — Coppelia",
+            "id": 113049,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Dendrobium",
+            "id": 101204,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Spectral Heart",
+            "id": 112054,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Chunk",
+            "id": 104173,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Artificed Spare Clockwork Component — Coppelia",
+            "id": 113049,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Dendrobium",
+            "id": 101204,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Spectral Nucleus",
+            "id": 112055,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Gemstone",
+            "id": 104174,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Artificed Spare Clockwork Component — Coppelia",
+            "id": 113049,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Dendrobium",
+            "id": 101204,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Spectral Nucleus",
+            "id": 112055,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Spectral Husk",
+              "id": 112053,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Spectral Husk",
+              "id": 112053,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Spectral Husk",
+              "id": 112053,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Spectral Heart",
+              "id": 112054,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Spectral Nucleus",
+              "id": 112055,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Lightless Silk String",
+              "id": 113054,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "NormalAttack_04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 78.6
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "NormalAttack_04_DamagePercentage"
+    },
+    {
+      "name": "SkillObj_Chiori_ElementalArt_Turret",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_Turret_Self"
+    },
+    {
+      "name": "SkillObj_Chiori_ElementalArt_Turret",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_Turret_Self"
+    },
+    {
+      "name": "SkillObj_Chiori_ElementalArt_RockGadget_Turret",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_Turret_Stick"
+    },
+    {
+      "name": "SkillObj_Chiori_ElementalArt_RockGadget_Turret",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Default",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_Turret_Stick"
+    },
+    {
+      "name": "ElementalArt_Blink",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "Damage_Art_EndBlink"
+    },
+    {
+      "name": "ElementalArt_JumpSwitch",
+      "icd": {
+        "tag": "Elemental_Art_Hold",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Slash",
+      "damage_param": [
+        "Damage_Art_EndBlinkDam",
+        "AfterChangeAvatar_Attack_Factor",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "value": 400
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 25
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "SkillObj_Chiori_Turret_Constellation",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Damage_Art_Turret",
+        "Turret_Constellation_Ratio",
+        "MUL"
+      ]
+    },
+    {
+      "name": "SkillObj_Chiori_Turret_Constellation",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Chiori_ElementArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 30
+      },
+      "element": "Rock",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": [
+        "Damage_Art_Turret",
+        "Turret_Constellation_Ratio",
+        "MUL"
+      ]
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt_PutTurret",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 80,
+      "cd": 3,
+      "applications": 1,
+      "drop_id": 2023
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt_PutTurret",
+      "kind": "ElementalArt",
+      "element": "Geo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 19.999999999999996,
+      "cd": 3,
+      "applications": 1,
+      "drop_id": 2023
+    }
+  ]
+}

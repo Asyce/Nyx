@@ -1,0 +1,163 @@
+{
+  "name": "Radiant Antelope",
+  "desc": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\\nStrange lightning once fell upon the land blessed by moonlight, causing once ordinary antelopes to gain the power to wield lightning. They say that some have seen a truly strange sight — antelopes standing on cliffs at the convergence of a storm, attracting bolts of lightning to temper their bodies.",
+  "icon": "UI_MonsterIcon_Magbeast_Argali",
+  "codex": "BEAST",
+  "title": "Radiant Beast",
+  "special_names": [
+    "Antelope"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112133,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112133"
+    },
+    {
+      "id": 112132,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112132"
+    },
+    {
+      "id": 112131,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112131"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "26300101": {
+      "monster_name": "Monster_Magbeast_Argali_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010024,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010024,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010024,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.5,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 149.424,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26300102": {
+      "monster_name": "Monster_Magbeast_Argali_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010024,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010024,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010024,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.5,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 149.424,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

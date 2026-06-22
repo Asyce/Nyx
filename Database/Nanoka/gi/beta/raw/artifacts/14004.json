@@ -1,0 +1,139 @@
+{
+  "id": 14004,
+  "icon": "UI_RelicIcon_14004_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2140040,
+      "id": 214004,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Maiden Beloved",
+      "desc": "Character Healing Effectiveness +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2140041,
+      "id": 214004,
+      "level": 1,
+      "open_config": "Relic_SkillEnhanceCured",
+      "param_list": [
+        0.2,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Maiden Beloved",
+      "desc": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_14004_1",
+      "name": "Maiden's Fleeting Leisure",
+      "desc": "",
+      "story": {
+        "284041": {
+          "zh": "ART/UI/Readable/CHS/Relic14004_1",
+          "en": "ART/UI/Readable/EN/Relic14004_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic14004_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic14004_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_14004_2",
+      "name": "Maiden's Heart-Stricken Infatuation",
+      "desc": "",
+      "story": {
+        "284042": {
+          "zh": "ART/UI/Readable/CHS/Relic14004_2",
+          "en": "ART/UI/Readable/EN/Relic14004_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic14004_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic14004_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_14004_3",
+      "name": "Maiden's Fading Beauty",
+      "desc": "",
+      "story": {
+        "284043": {
+          "zh": "ART/UI/Readable/CHS/Relic14004_3",
+          "en": "ART/UI/Readable/EN/Relic14004_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic14004_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic14004_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_14004_4",
+      "name": "Maiden's Distant Love",
+      "desc": "",
+      "story": {
+        "284044": {
+          "zh": "ART/UI/Readable/CHS/Relic14004_4",
+          "en": "ART/UI/Readable/EN/Relic14004_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic14004_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic14004_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_14004_5",
+      "name": "Maiden's Passing Youth",
+      "desc": "",
+      "story": {
+        "284045": {
+          "zh": "ART/UI/Readable/CHS/Relic14004_5",
+          "en": "ART/UI/Readable/EN/Relic14004_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic14004_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic14004_5_KR"
+        }
+      }
+    }
+  }
+}

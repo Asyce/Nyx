@@ -1,0 +1,250 @@
+{
+  "name": "Yet Hope Is Priceless",
+  "desc": "<i>\"Lady Bonajade, if it weren't for your continuous supply of goods and donations, the orphanage would probably...\"</i>\\nShe gently stroked the children's heads, cutting off the director's words.\\n<i>\"As long as I'm here, there's no need to worry about the days ahead... And there's no need to say these things to the children, it only adds to their worries.\"</i>\\n\\nThe children looked up, chattering with her about recent happenings, their worries, and their dreams.\\n<i>\"Lady Bonajade, when are you gonna come visit us again?\"</i>\\n<i>\"Don't work too hard, and make sure you get lotsa sleep...\"</i>\\n<i>\"Lady Bonajade, when I grow up, I want to be someone like you!\"</i>\\nShe looked at the children's clear eyes and paused for a moment.\\n<i>\"Someone like me...\"</i>\\nThe child handed her an apple, <i>\"Yes! Someone who brings light and hope to others!\"</i>\\n\\nPoverty, demerits, sorrow, suffering... She walked among the galaxies, taking others' pledges and giving equivalent returns.\\nLife exists for desire, runs on it, and dies from it — this is an irrefutable law, as well as an inevitability of life itself.\\nA philanthropist with a hidden agenda, a villainous merchant who mortgages souls... She was labeled by the world in many such ways, yet only she understood the true morals behind these actions.",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Mage",
+  "refinements": {
+    "name": "Promise",
+    "desc": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. While the wearer is in battle, for every <unbreak>#3[i]%</unbreak> CRIT DMG that exceeds <unbreak>#2[i]%</unbreak>, the DMG dealt by Follow-Up ATK increases by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. This effect can stack up to <unbreak>#5[i]</unbreak> time(s). When the battle starts or after the wearer uses their Basic ATK, enables the DMG dealt by Ultimate or Follow-Up ATK to ignore <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> of the target's DEF, lasting for <unbreak>#7[i]</unbreak> turn(s).",
+    "level": {
+      "1": {
+        "param_list": [
+          0.16,
+          1.2,
+          0.2,
+          0.12,
+          4,
+          0.2,
+          2
+        ]
+      },
+      "2": {
+        "param_list": [
+          0.19,
+          1.2,
+          0.2,
+          0.14,
+          4,
+          0.24,
+          2
+        ]
+      },
+      "3": {
+        "param_list": [
+          0.22,
+          1.2,
+          0.2,
+          0.16,
+          4,
+          0.28,
+          2
+        ]
+      },
+      "4": {
+        "param_list": [
+          0.25,
+          1.2,
+          0.2,
+          0.18,
+          4,
+          0.32,
+          2
+        ]
+      },
+      "5": {
+        "param_list": [
+          0.28,
+          1.2,
+          0.2,
+          0.2,
+          4,
+          0.36,
+          2
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23028,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114001,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 43.2,
+      "base_hp_add": 6.48,
+      "base_attack": 26.4,
+      "base_attack_add": 3.96,
+      "base_defence": 24,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23028,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110201,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 114001,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 95.04,
+      "base_hp_add": 6.48,
+      "base_attack": 58.08,
+      "base_attack_add": 3.96,
+      "base_defence": 52.8,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23028,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110202,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114002,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 164.16,
+      "base_hp_add": 6.48,
+      "base_attack": 100.32,
+      "base_attack_add": 3.96,
+      "base_defence": 91.2,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23028,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110202,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114002,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 233.28,
+      "base_hp_add": 6.48,
+      "base_attack": 142.56,
+      "base_attack_add": 3.96,
+      "base_defence": 129.6,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23028,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110203,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 114003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 302.4,
+      "base_hp_add": 6.48,
+      "base_attack": 184.8,
+      "base_attack_add": 3.96,
+      "base_defence": 168,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23028,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110203,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 114003,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 371.52,
+      "base_hp_add": 6.48,
+      "base_attack": 227.04,
+      "base_attack_add": 3.96,
+      "base_defence": 206.4,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23028,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 440.64,
+      "base_hp_add": 6.48,
+      "base_attack": 269.28,
+      "base_attack_add": 3.96,
+      "base_defence": 244.8,
+      "base_defence_add": 3.6
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "name": "This Love, Forever",
+  "desc": "The azure sky reflects a brilliant tomorrow.\\nOne step, two steps... the maiden's path has been so long, but fortunately those cherished stories haven't been forgotten by the cycles of time.\\nNow, written together by everyone, the epic has been completed, welcoming its finale.\\n\\nStars, flowers, birds, and a beautiful new world.\\nGauze, wreaths, long dresses, and the wind that carries blessings.\\nThe quest of thirty million lifetimes transformed into a single moment of happiness, enough to outweigh an eternity of words.\\n\\n<i>\"Hee, it's a promise...\"</i>\\nThe girl turns around to give a gentle smile.\\n<i>\"One of us stays in the past, and the other walks toward the future... but our hearts have never been apart ♪\"</i>\\n\\nShe rises onto her toes and steps into the past.\\nAnd memory, transforming into ripples of past reverie, drifts toward tomorrow.",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Memory",
+  "refinements": {
+    "name": "A Promise",
+    "desc": "Increases the wearer's SPD by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer's memosprite uses Memosprite Skill on one ally, gains \"Blank,\" which increases DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. When the wearer's memosprite uses Memosprite Skill on an enemy, gains \"Verse,\" which increases CRIT DMG of all allies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. When the wearer's memosprite has both \"Blank\" and \"Verse,\" increases the effects of both \"Blank\" and \"Verse\" by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.",
+    "level": {
+      "1": {
+        "param_list": [
+          0.18,
+          0.16,
+          0.1,
+          0.6
+        ]
+      },
+      "2": {
+        "param_list": [
+          0.21,
+          0.19,
+          0.12,
+          0.65
+        ]
+      },
+      "3": {
+        "param_list": [
+          0.24,
+          0.22,
+          0.14,
+          0.7
+        ]
+      },
+      "4": {
+        "param_list": [
+          0.27,
+          0.25,
+          0.16,
+          0.75
+        ]
+      },
+      "5": {
+        "param_list": [
+          0.3,
+          0.28,
+          0.18,
+          0.8
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23052,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115001,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 57.6,
+      "base_hp_add": 8.64,
+      "base_attack": 21.6,
+      "base_attack_add": 3.24,
+      "base_defence": 21,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23052,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110251,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 115001,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 126.72,
+      "base_hp_add": 8.64,
+      "base_attack": 47.52,
+      "base_attack_add": 3.24,
+      "base_defence": 46.2,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23052,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110252,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115002,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 218.88,
+      "base_hp_add": 8.64,
+      "base_attack": 82.08,
+      "base_attack_add": 3.24,
+      "base_defence": 79.8,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23052,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110252,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115002,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 311.04,
+      "base_hp_add": 8.64,
+      "base_attack": 116.64,
+      "base_attack_add": 3.24,
+      "base_defence": 113.4,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23052,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110253,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 115003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 403.2,
+      "base_hp_add": 8.64,
+      "base_attack": 151.2,
+      "base_attack_add": 3.24,
+      "base_defence": 147,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23052,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110253,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 115003,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 495.36,
+      "base_hp_add": 8.64,
+      "base_attack": 185.76,
+      "base_attack_add": 3.24,
+      "base_defence": 180.6,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23052,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 587.52,
+      "base_hp_add": 8.64,
+      "base_attack": 220.32,
+      "base_attack_add": 3.24,
+      "base_defence": 214.2,
+      "base_defence_add": 3.15
+    }
+  ]
+}

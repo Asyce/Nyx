@@ -1,0 +1,145 @@
+{
+  "id": 15022,
+  "icon": "UI_RelicIcon_15022_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_HEAL_ADD",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150220,
+      "id": 215022,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0.15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Ocean-Hued Clam",
+      "desc": "Healing Bonus +15%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150221,
+      "id": 215022,
+      "level": 1,
+      "open_config": "Relic_HealAndHolyNova",
+      "param_list": [
+        3,
+        0.9,
+        0,
+        3.5,
+        30000,
+        0,
+        0,
+        0
+      ],
+      "name": "Ocean-Hued Clam",
+      "desc": "When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15022_1",
+      "name": "Pearl Cage",
+      "desc": "The shining pearls that the shrine maidens of Watatsumi Island offer up shine eternally and never dim.",
+      "story": {
+        "285221": {
+          "zh": "ART/UI/Readable/CHS/Relic15022_1",
+          "en": "ART/UI/Readable/EN/Relic15022_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15022_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15022_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15022_2",
+      "name": "Deep Palace's Plume",
+      "desc": "A down feather with the same hue as coral, said to come from a shrine maiden's ceremonial garment.",
+      "story": {
+        "285222": {
+          "zh": "ART/UI/Readable/CHS/Relic15022_2",
+          "en": "ART/UI/Readable/EN/Relic15022_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15022_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15022_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15022_3",
+      "name": "Crown of Watatsumi",
+      "desc": "An ancient, intricate crown that was once used by a forgotten clergy member. Today, this relic has been enshrined with great ceremony by the people of Watatsumi.",
+      "story": {
+        "285223": {
+          "zh": "ART/UI/Readable/CHS/Relic15022_3",
+          "en": "ART/UI/Readable/EN/Relic15022_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15022_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15022_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15022_4",
+      "name": "Sea-Dyed Blossom",
+      "desc": "A soft flower that has taken on the many shades of the capricious ocean. It shines with wondrous colors under the moon's silver light.",
+      "story": {
+        "285224": {
+          "zh": "ART/UI/Readable/CHS/Relic15022_4",
+          "en": "ART/UI/Readable/EN/Relic15022_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15022_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15022_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15022_5",
+      "name": "Cowry of Parting",
+      "desc": "A clean, flawless seashell that comes from the bottomless ocean.",
+      "story": {
+        "285225": {
+          "zh": "ART/UI/Readable/CHS/Relic15022_5",
+          "en": "ART/UI/Readable/EN/Relic15022_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15022_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15022_5_KR"
+        }
+      }
+    }
+  }
+}

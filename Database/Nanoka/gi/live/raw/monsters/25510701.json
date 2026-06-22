@@ -1,0 +1,122 @@
+{
+  "name": "Qucusaurus Warrior: Heartstar Hammer",
+  "desc": "A powerful warrior from the clifftops, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\\nEven in Natlan, the Nation of Pyro, members of the Flower-Feather Clan have a unique approach when it comes to wielding fire and flames. For these tribal warriors, armed as they are with heavy hammers, flames are something that burst forth from violent collisions, symbols of intense passion. When they do battle, the fight usually ends within an instant— and they are always the ones who stand victorious.",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Powermaul_Flamingo",
+  "codex": "HUMAN",
+  "title": "Qucusaurus Warrior: Heartstar Hammer",
+  "special_names": [
+    "Bravery Saurian-Crowned"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112106,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    {
+      "id": 112105,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    {
+      "id": 112104,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    }
+  ],
+  "child": {
+    "25510701": {
+      "monster_name": "Tribalwarrior_Male_Strong_Powermaul_Flamingo_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010021,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510702": {
+      "monster_name": "Tribalwarrior_Male_Strong_Powermaul_Flamingo_01_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 97.8048,
+        "atk": 60.288,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,4376 @@
+{
+  "name": "Sayu",
+  "desc": "A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.",
+  "chara_info": {
+    "release_date": "2021-08-10 18:00:00",
+    "birth": [
+      10,
+      19
+    ],
+    "vision": "Anemo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Nyctereutes Minor",
+    "region": "ASSOC_TYPE_INAZUMA",
+    "title": "Mujina Ninja",
+    "native": "Shuumatsuban",
+    "detail": "A pint-sized ninja attached to the Shuumatsuban, who always seems to be lacking sleep.",
+    "va": {
+      "chinese": "Sakula小舞",
+      "japanese": "洲崎綾",
+      "english": "Lilypichu (Lily Ki)",
+      "korean": "Lee Ji-hyeon"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Most Inazumans are unaware of the existence of the Shuumatsuban. In fact, the Shuumatsuban is a secret organization under the Yashiro Commission.\\nThere is also a little ninja who goes by the name of Sayu in the Shuumatsuban, and this fact is even less known.\\nSayu is a special existence in the Shuumatsuban. She has been raised in the Shuumatsuban since she was a child, and is extremely loyal to the organization.\\nThat said, her most prominent trait is not \"loyalty,\" but \"laziness.\"\\nLazing around is what Sayu does best. She has long mastered the various arts of ninjutsu, particularly those that help her to slack off or shirk her duties, such as escape techniques and aura concealment.\\nPeople who don't know about her habits will have to make a lot of effort to find her.\\nHowever, if you ask Sayu about her slacking, she will shrug and reply, \"It's not that I'm lazy, I just want to spend my time on more meaningful things.\"",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Sayu is petite and can even be described as delicate.\\nThis is also something that bothers her —\\nOne by one, her peers are growing taller, but she still has the stature of a child, as her height has not changed at all.\\nSayu is really anxious about this matter.\\nDay by day, the world seems to be sprouting skyward, and only she remains small as ever.\\nGrowing taller has gradually become an obsession in Sayu's mind.\\n\"As long as I sleep long enough, I can definitely grow taller!\"\\nShe came to believe this ever so firmly, seizing every opportunity to sleep as much as possible, creating every opportunity and circumstance, even when there were none.\\nPeople around little Sayu often let her be, as they don't have the heart to disturb her sleep.\\nSo now, the situation has progressed such that Sayu is able to fall asleep, even whilst standing.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "The ninjutsu that Sayu has learned is not very powerful in combat, but it is quite useful in the matter of slacking off.\\nShe is extremely skilled at hiding and covering her tracks, and is an expert in this area. Therefore, if she has the intention to hide, ordinary people absolutely cannot find her.\\nHowever, even the most ingenious puzzles have answers, and even the most elusive treasures have clues for people to find them. This also holds true for Sayu.\\nAfter spending enough time with Sayu, one will understand her habits and preferences. Trying to find her doesn't seem so difficult anymore.\\nFor example, if you go to Sayu's room early in the morning and lift the covers, the odds are that you will find her in bed.\\nAt noon, you can check out the trees near the shrine and who knows, you may find something unexpected.\\nIt will be more challenging to find Sayu at night, but it's a good idea to go to her house and wait for her to emerge.\\nHowever, please remember not to disturb Sayu, who is busy growing taller, unless it is absolutely necessary.\\nEven gentle rabbits bite when provoked, let alone Sayu...",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "That said, finding Sayu doesn't mean that she can be put to work quietly.\\nMoreover, Sayu's work at the Shuumatsuban is not that of a fixed daily routine, but missions that pop up if and as needed.\\nAnd so, this happens:\\nWhen new missions are assigned, you won't see hide or tail of her.\\nBy the time she has been found (and with much effort), a more suitable person has been assigned for the mission.\\nAnd in case there is no other suitable candidate other than Sayu, all the more she will try to slip away, so as not to be overwhelmed by the mission.\\nIt's just that... If Sayu used her ninjutsu to work hard, she would have had great accomplishments in the Shuumatsuban.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Sayu is the last successor to the Ninjutsu Art — Yoohoo Art.\\nIn this school of ninjutsu, which is known for teasing its enemies, Sayu has learned only ninjutsu such as escape and clone techniques.\\nThese ninjutsu are of little use in actual combat, but have an undeniable aesthetic flair.\\nAmongst falling leaves, a silhouette vanishes in a flash, a gentle breeze blows, and a kite suddenly appears on the ground... The incredible scene is comparable to an artistic performance.\\nThus, whenever there is a festival, Sayu will be invited by various parties to perform her mysterious ninjutsu.\\nIf it's Yoimiya who's searching for her, Sayu can still find ways to hide.\\nBut if the person in question is Lady Guuji Yae, resistance is futile for Sayu.\\nClone techniques do nothing to fool the Lady Guuji's sharp eyes, and aura concealment doesn't help Sayu at all in escaping from the Lady Guuji's grasp.\\nRunning for the hills is even less feasible, and might even risk angering the Lady Guuji...\\nFortunately, there are very few circumstances that require Lady Guuji Yae to make a personal appearance.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "For as long as Sayu can remember, she has been studying ninjutsu with her sensei in the Shuumatsuban.\\nAlthough the Shuumatsuban is a clandestine organization, the elders are very kind and have taken good care of young Sayu.\\n\"Being overly reliant on others is never a good thing for a ninja.\"\\nAfter Sayu had reached a bottleneck in learning ninjutsu, her sensei observed her situation and thought thusly.\\nAs the years passed, Sayu grew steadily. Once she was capable enough to defend herself, her sensei chose to leave quietly.\\nA young animal that leaves the protection of its parents will grow up rapidly. The same is true of the sensei's expectations for Sayu.\\nThe young ninja did not disappoint her sensei. Soon after, Sayu obtained a Vision.\\nAnd then, she started working diligently in the Shuumatsuban... diligently shirking her duties.\\nSayu is always busy sleeping and hiding from people, so in that sense, she also has a lot to do.\\nOccasionally, when Sayu is free and alone to enjoy the moonlight, she feels lost deep inside.\\nThe people who have always been with you will one day leave...is this how life is meant to be?\\nBut perhaps someday in the future, I will also meet the person who will always be with me.\\nPondering the matter, the little ninja fell asleep again...",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Mini Mujina",
+        "text": "Sayu's outfit is said to be a gift from her sensei.\\nThe style references the form of a small animal — the \"mujina,\" and Sayu's favorite colors were also specially chosen for it.\\nIt is light and flexible, thus making it suitable for a ninja.\\nSayu is especially fond of the huge hood, as it brings about a sense of security.\\nThe long tail is designed for Sayu to maintain balance on the branches.\\nAs for the only drawback... this outfit probably looks too much like a tanuki, and Sayu often gets misunderstood because of it.\\nInitially, she would seriously explain to the other party that:\\n\"I'm not a tanuki, I'm Sayu.\"\\nHowever, over time, similar incidents have occurred too many times, and Sayu now bears a grudge against tanuki.\\nNowadays, if such a situation happens again, Sayu will pout in anger.\\nSo, in order to get along well with Sayu, please memorize the following:\\nSayu is not a tanuki, but Sayu.\\nHer outfit is also not that of a tanuki's, but a mini mujina.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "This is the story of Sayu when she just started being on her own.\\nFragile beings walking alone in this world inevitably find themselves in scary situations. The only way to understand what it's like is to have experienced it.\\nThis is exactly what happened to Sayu. Adept at observation and evasion, she has always understood that she is not suitable for combat.\\nHer overly petite stature gives her no advantage in terms of strength to speak of, and her ninjutsu will not be of much use in actual combat.\\nYet missions do not wait for ninjas to grow fully before descending upon them. In an era of turmoil, Sayu would also find herself in trouble because of not-so-important work.\\nSurrounded by strong foes, she had to do her best and barely managed to escape. It cost her almost everything to bring the information back safely.\\nExhausted and wounded, Sayu was about to faint, but only one thing lingered in her mind:\\n\"It's not only strong brute force that can overpower everything, the weak have their own way of surviving. It's because you're weak that you can notice those unseen moments that change your fate... The chances of escaping from here are slim, but that's what my ninjutsu is for.\"\\nThe moment the leaves fell, she disappeared. All her pursuers were incredulous. The tiny ninja disappeared as if she were dust in the wind.\\nThe next morning, Sayu struggled to get up, and found that the ninja pack strapped to her leg had long since disappeared.\\nHowever, a surprising object appeared in the same place instead — a Vision gleaming in the sunrise.\\nNow, with the power of the Vision, Sayu can wield a claymore taller than herself. She no longer has to fear the omnipresent strife of a chaotic world.\\nUnfortunately, Sayu's most immediate worries have not yet been resolved.\\nRegarding her growing taller, it seems that even a Vision is unable to do anything about it.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "About Yumemizuki Mizuki",
+        "text": "That strange, purple youkai... Every time she looks at me, I get this feeling like she could devour me whole... Eek! I can't afford to get on her bad side, so I'm just gonna stay out of her way!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Bye!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Gotta dash~!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Poof!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: IV",
+        "text": "I'm outta here.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: V",
+        "text": "Can't catch me~!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: VI",
+        "text": "And away I go.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Twinjutsu!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Come on out!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Hah! ...Phew...",
+        "unlocked": []
+      },
+      {
+        "title": "Sprint Start: I",
+        "text": "Make my escape.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "Looks kinda cozy in here... Nap time!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Mission accomplished! Can I go back and sleep now?",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Ooh, what's in here? Maybe a growth serum?",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "What was that escape method again...?",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "I feel kinda woozy.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Whew, so tired.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "I'll protect you.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Take 5. Or maybe 10.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "Almost. Got. Away...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "Uh, sw—sweet dreams...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "My fault for being so lazy...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "Ow.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Almost dodged that.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "I'm about to pass out over here.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "So sleepy.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Can I go catch up on my sleep?",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Drat, you caught me.",
+        "unlocked": []
+      },
+      {
+        "title": "Hello",
+        "text": "Sayu, Shuumatsuban, at your disposal! Whew, but if you don't need me right now, I'm gonna grab some sleep. Nope, no need to tuck me in — I need the extra room to grow into.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Asleep",
+        "text": "*yawns* *snoring*",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Work",
+        "text": "Seems like I should have just stayed in bed today.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Height",
+        "text": "Surely I should be due a growth spurt by now?",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Eek, let's find shelter, quick! Watering works on plants, but not people...",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Phew, this weather is wild! Best thing to do is dive under the covers where it's dark and snug and warm and nyam nyam nyam~ *sleeps*",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "It's really easy to hide in weather like this. There's this ninjutsu technique called Cloak of Snow where you can pretty much make yourself invisible — all other people see when they look at you is the snowflakes dancing in the air. Wait, it's confidential though! Don't tell any of this to the shrine maiden...",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "Loooove it when the weather's like this, just makes you wanna... *yawn* doze off for a while.",
+        "unlocked": []
+      },
+      {
+        "title": "When It's Windy",
+        "text": "A windy day is a good day for a getaway.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "I always know it's time to get some shut-eye when the wind's so strong that I can't open my eyes anyway.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "...Morning? Already? Okay, I'm just gonna snooze for, like, 10 more minutes... Please, just 10 minutes... No? Okay, 5 minutes then? *snores*",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Is it noon yet? Finally, I'm so ready for my nap.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Recon confirms, no sign of the shrine maiden within a 3-mile radius. Moving to the next phase: sleepy time!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "At long last... bed time... G'night...",
+        "unlocked": []
+      },
+      {
+        "title": "About Sayu: Shuumatsuban",
+        "text": "Yeah, I'm in the Shuumatsuban, but they only ever get me to do stuff like... *yawn* information gathering and stealing. So, y'know... it's not really a big deal if the work doesn't get done.",
+        "unlocked": []
+      },
+      {
+        "title": "About Sayu: Skiving",
+        "text": "So I don't do any important work at the Shuumatsuban, and anything that gets put off for long enough ends up getting done by someone who's more suited to it anyway. Sleep, on the other hand — that is of the utmost importance. Because I need to get enough sleep to make sure I get my growth spurt.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Favor",
+        "text": "Hey, will you do me a favor and let me know if you see the shrine maiden coming? I'm just gonna, um... rest my eyes for a moment.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Headpats",
+        "text": "I'm not a pet, y'know! Hmm, but since it's you... Okay, you can pat my head and I promise not to bite your hand. Just a little, though! If you pat someone's head too much, it stunts their growth.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "My sword is crazy heavy, even with my ninjutsu training there's no way I could lift it without the help of my Vision. So yeah, having a Vision is a huge help for me.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "Sensei says I'll be the last ninja ever in our line. I guess it can't be helped, because this style of ninjutsu wouldn't be much help in a fight anyway — all I've been taught is how to escape and how to cover your tracks.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "Do you know the mujina? It looks similar to a tanuki, but it's way cuter. I'll take you to see one next time!",
+        "unlocked": []
+      },
+      {
+        "title": "About Kamisato Ayaka",
+        "text": "As the eldest daughter of the Kamisato Clan, she always looks very graceful and elegant. But she got one of the shrine maidens to keep tabs on me and make sure I don't slack off... Why would she do that?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kamisato Ayato",
+        "text": "Sometimes, when I'm taking a rest up in a tree, I overhear the shrine maidens talking about him. Sounds like he's pretty important and super busy most of the time. I don't get it, though — it's only work, or whatever, so why doesn't he just... not do it?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Thoma",
+        "text": "He's got a Vision, and yet for some reason he pesters me about learning ninjutsu every time I run into him. I don't know what his deal is. It's not like I'd have the time to teach him anyway, I barely get enough sleep as it is.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yoimiya",
+        "text": "Every time she sees me she says, \"Hey, little tanuki! Let's go hang out at the festival.\" Firstly, I'm not a tanuki. Secondly, I don't wanna go to a festival. Thirdly, she says she wants to hang out — but really, she just wants me to do a ninjutsu performance during the fireworks show. That's not even related to my work for the Shuumatsuban!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About the Raiden Shogun",
+        "text": "Her Excellency? Definitely not someone I'd ever get to meet. If you've got questions, maybe Miss Ayaka's the person to ask.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yae Miko",
+        "text": "She's always patting me on the head... I've never bitten her, though, or even said anything, because I'm frightened of how she'd react if I stood up to her. But what am I gonna do? Because if she keeps on patting my head, I'm gonna get stuck at this height forever!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Arataki Itto",
+        "text": "Why does he have to make such a racket? And how did he get so tall!?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kuki Shinobu",
+        "text": "Doesn't ring a bell, umm... What? Arataki Itto's little sidekick? Ugh, well she's definitely gotta be a sleep disturbance then. Birds of a feather flock together...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Sayu: I",
+        "text": "Zzzz...",
+        "unlocked": []
+      },
+      {
+        "title": "More About Sayu: II",
+        "text": "Huh? You wanna know the name of my style of ninjutsu? Uhh... Y'know what, I can't think straight right now, I'm still half asleep here. Lemme snooze a while longer, maybe my mind'll be clearer when I wake up.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Sayu: III",
+        "text": "Alright, fine... I'll tell you. But you'd better not laugh, or I'm never talking to you again. Uh so, my style of ninjutsu is called... um... Yoohoo Art.\\nThe reason is supposedly that our style focuses on making fun of the enemy, but still... I mean... *sigh*",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Sayu: IV",
+        "text": "Do you know how to climb trees? I'm an expert, I can teach you. There's this tree down at the shrine — it's the perfect place, you could just literally sleep there all day if you wanted and no one would ever find you... Uh, I just mean, it's a great place for a power nap. Next time you wanna take a nap, let me know, I'll take you there.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Sayu: V",
+        "text": "It was actually Sensei who gave me this outfit. They said it was modeled after the mujina, and it could help with escapes, or something... and then Sensei said that I was all grown up and ready to go it alone, but that I should still be careful to protect myself... then they left me. Am I really ready to go it alone, at my height?\\nUm... Hmm? Y—You'll keep my company? Really? Promise you won't leave me?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Sayu's Hobbies",
+        "text": "When I put my hood on, I can snooze away to my heart's content without having to worry about the shrine maiden finding me. *sigh* I think it must be one of the best feelings in the whole world.",
+        "unlocked": []
+      },
+      {
+        "title": "Sayu's Troubles: Misunderstanding",
+        "text": "For some reason, when people meet me for the first time, they always call me tanuki, or teddy-bear, or kitty-cat... But Sayu is just Sayu — and definitely not a tanuki.",
+        "unlocked": []
+      },
+      {
+        "title": "Sayu's Troubles: Height",
+        "text": "When is my growth spurt gonna come? Everyone my age practically twice my height, and I'm still... Ugh, enough, I need sleep, sleep is the answer. Good night!",
+        "unlocked": []
+      },
+      {
+        "title": "Sayu's Troubles: Feedback Loop",
+        "text": "Recently someone told me that if you get annoyed too easily, that'll stunt your growth, too! ...Gah! I dunno what I can do about that...",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "High-carb foods that give you instant energy, like rice balls. If you eat one the moment you wake up, it stops you feeling so groggy and bleary-eyed. Then, you can just relax and get straight back to sleep.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "Can't be picky about food when you've still got growing to do! ...That said, I haven't gained any height recently — maybe I'm not eating enough vegetables? But salad isn't filling enough and sometimes it can be really bitter... *sigh*",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Wanna learn some ninja skills? I can teach you! Well, only the skills I know, of course. Hmm? Why aren't I asleep? ...Uhh, because I'm not sleepy... and also because today is a special day! I had to stay awake today so I'd have the chance to say it to you in person: Happy Birthday.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "Is it just me, or did I get a little taller!?",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Awesome, now I can slip away faster than ever. Hee-hee, they can't catch me now.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Hey, thanks for going and gathering all those materials for me. I would've gone myself, but... I probably would've got about halfway before falling asleep.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "I think I'm finally ready to go it alone now, just like Sensei said I should. And... maybe it's not such a big deal now if I can't grow any taller. Because what really matters... is that I have you to keep me company.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "I'm soooo full, time for a nap...",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "If you eat enough of this... it makes you really sleepy.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Uh oh... Need an escape plan.",
+        "unlocked": []
+      },
+      {
+        "title": "About Kirara",
+        "text": "One time, when I woke up from an afternoon nap, I felt something warm against my back. I turned around and saw a cat curled up fast asleep. You wouldn't believe this — it had not only one, but two fluffy tails! I almost fell from the tree in surprise. I—Is this some form of ninjutsu too?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Prune",
+        "text": "She gave me this big, thick book called \"An Introduction to Nutrition\" and told me that if I wanna grow taller, I also need to eat well — apparently, just sleeping all the time isn't enough. Kinda weird, though... Despite everything she knows, we're still pretty much the same height. I dunno, maybe she actually doesn't wanna grow taller?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      }
+    ],
+    "special_food": {
+      "id": 108303,
+      "recipe": 2202,
+      "name": "Dizziness-Be-Gone no Jutsu Version 2.0",
+      "icon": "UI_ItemIcon_108303",
+      "rank": 2
+    },
+    "namecard": {
+      "id": 210083,
+      "name": "Sayu: Muji-Muji Daruma",
+      "desc": "Namecard style.\\nIt is even smaller than Sayu, sure, but it can help her do the things she doesn't want to do.",
+      "icon": "UI_NameCardPic_Sayu_P"
+    },
+    "costume": [
+      {
+        "id": 205300,
+        "name": "Mini Mujina",
+        "desc": "Sayu's outfit. Marvelous attire designed after the mysterious animal known as the Mujina.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CLAYMORE",
+  "rarity": "QUALITY_PURPLE",
+  "element": "Anemo",
+  "icon": "UI_AvatarIcon_Sayu",
+  "stamina_recovery": 25,
+  "base_hp": 993.8522,
+  "base_atk": 20.4792,
+  "base_def": 62.432476,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.653,
+      "92": 8.957,
+      "93": 9.262,
+      "94": 9.566,
+      "95": 9.87,
+      "96": 10.174,
+      "97": 10.479,
+      "98": 10.783,
+      "99": 11.087,
+      "100": 11.392
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 742.4585,
+        "fight_prop_base_defense": 46.64025,
+        "fight_prop_base_attack": 15.29937,
+        "fight_prop_element_mastery": 0
+      },
+      {
+        "fight_prop_base_hp": 1269.9948,
+        "fight_prop_base_defense": 79.77937,
+        "fight_prop_base_attack": 26.169975,
+        "fight_prop_element_mastery": 24
+      },
+      {
+        "fight_prop_base_hp": 1973.3765,
+        "fight_prop_base_defense": 123.964874,
+        "fight_prop_base_attack": 40.664116,
+        "fight_prop_element_mastery": 48
+      },
+      {
+        "fight_prop_base_hp": 2500.9128,
+        "fight_prop_base_defense": 157.104,
+        "fight_prop_base_attack": 51.53472,
+        "fight_prop_element_mastery": 48
+      },
+      {
+        "fight_prop_base_hp": 3028.449,
+        "fight_prop_base_defense": 190.24312,
+        "fight_prop_base_attack": 62.405327,
+        "fight_prop_element_mastery": 72
+      },
+      {
+        "fight_prop_base_hp": 3555.9854,
+        "fight_prop_base_defense": 223.38225,
+        "fight_prop_base_attack": 73.27593,
+        "fight_prop_element_mastery": 96
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S4",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10531,
+      "name": "Shuumatsuban Ninja Blade",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7224,
+            0.7138,
+            0.4343,
+            0.4343,
+            0.98126,
+            0.625455,
+            1.1309,
+            40,
+            5,
+            0.745878,
+            1.49144,
+            1.862889,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7812,
+            0.7719,
+            0.46965,
+            0.46965,
+            1.06113,
+            0.676364,
+            1.22295,
+            40,
+            5,
+            0.806589,
+            1.612836,
+            2.01452,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.84,
+            0.83,
+            0.505,
+            0.505,
+            1.141,
+            0.727273,
+            1.315,
+            40,
+            5,
+            0.8673,
+            1.734233,
+            2.16615,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.924,
+            0.913,
+            0.5555,
+            0.5555,
+            1.2551,
+            0.8,
+            1.4465,
+            40,
+            5,
+            0.95403,
+            1.907656,
+            2.382765,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9828,
+            0.9711,
+            0.59085,
+            0.59085,
+            1.33497,
+            0.850909,
+            1.53855,
+            40,
+            5,
+            1.014741,
+            2.029052,
+            2.534396,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.05,
+            1.0375,
+            0.63125,
+            0.63125,
+            1.42625,
+            0.909091,
+            1.64375,
+            40,
+            5,
+            1.084125,
+            2.167791,
+            2.707688,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1424,
+            1.1288,
+            0.6868,
+            0.6868,
+            1.55176,
+            0.989091,
+            1.7884,
+            40,
+            5,
+            1.179528,
+            2.358556,
+            2.945964,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2348,
+            1.2201,
+            0.74235,
+            0.74235,
+            1.67727,
+            1.069091,
+            1.93305,
+            40,
+            5,
+            1.274931,
+            2.549322,
+            3.184241,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3272,
+            1.3114,
+            0.7979,
+            0.7979,
+            1.80278,
+            1.149091,
+            2.0777,
+            40,
+            5,
+            1.370334,
+            2.740087,
+            3.422517,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.428,
+            1.411,
+            0.8585,
+            0.8585,
+            1.9397,
+            1.236364,
+            2.2355,
+            40,
+            5,
+            1.47441,
+            2.948195,
+            3.682455,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.5435,
+            1.525125,
+            0.927937,
+            0.927937,
+            2.096588,
+            1.336364,
+            2.416313,
+            40,
+            5,
+            1.578486,
+            3.156303,
+            3.942393,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.679328,
+            1.659336,
+            1.009596,
+            1.009596,
+            2.281087,
+            1.453964,
+            2.628948,
+            40,
+            5,
+            1.682562,
+            3.364411,
+            4.202331,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.815156,
+            1.793547,
+            1.091255,
+            1.091255,
+            2.465587,
+            1.571564,
+            2.841584,
+            40,
+            5,
+            1.786638,
+            3.572519,
+            4.462269,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.950984,
+            1.927758,
+            1.172913,
+            1.172913,
+            2.650087,
+            1.689164,
+            3.054219,
+            40,
+            5,
+            1.890714,
+            3.780627,
+            4.722207,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}+{param4:F1P}",
+            "4-Hit DMG|{param5:F1P}",
+            "Charged Attack Spinning DMG|{param6:F1P}",
+            "Charged Attack Final DMG|{param7:P}",
+            "Charged Attack Stamina Cost|{param8:F1}/s",
+            "Max Duration|{param9:F1}s",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.09916,
+            2.07417,
+            1.261995,
+            1.261995,
+            2.851359,
+            1.817455,
+            3.286185,
+            40,
+            5,
+            1.99479,
+            3.988735,
+            4.982145,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10532,
+      "name": "Yoohoo Art: Fuuin Dash",
+      "desc": "#The special technique of the Yoohoo Ninja Arts!\\nSayu curls up into a rolling Fuufuu Windwheel and smashes into opponents at high speed, dealing <color=#80FFD7FF>Anemo DMG</color>. When the duration ends, she unleashes a Fuufuu Whirlwind Kick, dealing <color=#80FFD7FF>AoE Anemo DMG</color>.\\n\\n<color=#FFD780FF>{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press}</color>\\nEnters the Fuufuu Windwheel state, rolling forward a short distance before using the Fuufuu Whirlwind Kick.\\n\\n<color=#FFD780FF>Hold</color>\\nRolls about continuously in the Fuufuu Windwheel state, increasing Sayu's resistance to interruption while within that state.\\nDuring this time, Sayu can control the direction of her roll, and can use the skill again to end her Windwheel state early and unleash a stronger version of the Fuufuu Whirlwind Kick.\\nThe Hold version of this skill can trigger Elemental Absorption.\\n\\nThis skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her Windwheel state, the longer the CD.\\n\\n<color=#FFD780FF>Elemental Absorption</color>\\nIf Sayu comes into contact with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color> while in her Windwheel state, she will deal additional elemental DMG of that type.\\nElemental Absorption may only occur once per use of this skill.\\n\\n<i>Sayu can pull this skill off with her eyes closed. This technique was originally created for escaping, but now that she's got a Vision, might as well make her foes eat dirt while she's at it.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.36,
+            0.168,
+            1.584,
+            2.176,
+            0.7616,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.387,
+            0.1806,
+            1.7028,
+            2.3392,
+            0.81872,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.414,
+            0.1932,
+            1.8216,
+            2.5024,
+            0.87584,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.45,
+            0.21,
+            1.98,
+            2.72,
+            0.952,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.477,
+            0.2226,
+            2.0988,
+            2.8832,
+            1.00912,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.504,
+            0.2352,
+            2.2176,
+            3.0464,
+            1.06624,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.54,
+            0.252,
+            2.376,
+            3.264,
+            1.1424,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.576,
+            0.2688,
+            2.5344,
+            3.4816,
+            1.21856,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.612,
+            0.2856,
+            2.6928,
+            3.6992,
+            1.29472,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.648,
+            0.3024,
+            2.8512,
+            3.9168,
+            1.37088,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.684,
+            0.3192,
+            3.0096,
+            4.1344,
+            1.44704,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.72,
+            0.336,
+            3.168,
+            4.352,
+            1.5232,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.765,
+            0.357,
+            3.366,
+            4.624,
+            1.6184,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.81,
+            0.378,
+            3.564,
+            4.896,
+            1.7136,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Sayu_01",
+          "desc": [
+            "Fuufuu Windwheel DMG|{param1:F1P}",
+            "#Fuufuu Whirlwind Kick {LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param3:F1P}",
+            "Fuufuu Whirlwind Kick Hold DMG|{param4:F1P}",
+            "Fuufuu Windwheel Elemental DMG|{param2:F1P}",
+            "Fuufuu Whirlwind Kick Elemental DMG|{param5:F1P}",
+            "Max Duration (Hold)|{param6:F1}s",
+            "CD|{param7:F1} to {param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.855,
+            0.399,
+            3.762,
+            5.168,
+            1.8088,
+            10,
+            6,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10535,
+      "name": "Yoohoo Art: Mujina Flurry",
+      "desc": "The other super special technique of the Yoohoo Ninja Arts! It summons a pair of helping hands for Sayu.\\nDeals <color=#80FFD7FF>Anemo DMG</color> to nearby opponents and heals all nearby party members. The amount of HP restored is based on Sayu's ATK. This skill then summons a Muji-Muji Daruma.\\n\\n<color=#FFD780FF>Muji-Muji Daruma</color>\\nAt specific intervals, the Daruma will take one of several actions based on the situation around it:\\n·If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n·If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.\\n\\n<i>People who don't know the first thing about ninjutsu love to watch Sayu show off this skill, and some have tried to learn it from her. But Sayu just wants to sleep and not be disturbed.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.168,
+            577.3388,
+            0.9216,
+            0.52,
+            500.3603,
+            0.79872,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2556,
+            635.0807,
+            0.99072,
+            0.559,
+            550.40326,
+            0.858624,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3432,
+            697.63446,
+            1.05984,
+            0.598,
+            604.6165,
+            0.918528,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.46,
+            765,
+            1.152,
+            0.65,
+            663,
+            0.9984,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.5476,
+            837.17737,
+            1.22112,
+            0.689,
+            725.5537,
+            1.058304,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6352,
+            914.16656,
+            1.29024,
+            0.728,
+            792.2777,
+            1.118208,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.752,
+            995.96765,
+            1.3824,
+            0.78,
+            863.17194,
+            1.19808,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8688,
+            1082.5804,
+            1.47456,
+            0.832,
+            938.2364,
+            1.277952,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9856,
+            1174.0051,
+            1.56672,
+            0.884,
+            1017.4711,
+            1.357824,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.1024,
+            1270.2417,
+            1.65888,
+            0.936,
+            1100.8761,
+            1.437696,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.2192,
+            1371.29,
+            1.75104,
+            0.988,
+            1188.4513,
+            1.517568,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.336,
+            1477.1501,
+            1.8432,
+            1.04,
+            1280.1968,
+            1.59744,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.482,
+            1587.8221,
+            1.9584,
+            1.105,
+            1376.1125,
+            1.69728,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.628,
+            1703.3059,
+            2.0736,
+            1.17,
+            1476.1985,
+            1.79712,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Sayu_01",
+          "desc": [
+            "Skill Activation DMG|{param1:P}",
+            "Skill Activation Healing|{param3:F1P} ATK+{param2:I}",
+            "Muji-Muji Daruma DMG|{param4:P}",
+            "Muji-Muji Daruma Healing|{param6:F1P} ATK+{param5:I}",
+            "Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.774,
+            1823.6016,
+            2.1888,
+            1.235,
+            1580.4547,
+            1.89696,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 532101,
+      "name": "Someone More Capable",
+      "desc": "When Sayu triggers a Swirl reaction while active, she heals all your characters and nearby allies for 300 HP. She will also heal an additional 1.2 HP for every point of Elemental Mastery she has.\\nThis effect can be triggered once every 2s.",
+      "icon": "UI_Talent_S_Sayu_05",
+      "unlock": 1,
+      "param_list": [
+        300,
+        1.2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 532201,
+      "name": "No Work Today!",
+      "desc": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> gains the following effects:\\n·When healing a character, it will also heal characters near that healed character for 20% the amount of HP.\\n·Increases the AoE of its attack against opponents.",
+      "icon": "UI_Talent_S_Sayu_06",
+      "unlock": 4,
+      "param_list": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 532301,
+      "name": "Yoohoo Art: Silencer's Secret",
+      "desc": "When Sayu is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+      "icon": "UI_Talent_S_Sayu_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 531,
+      "name": "Multi-Task no Jutsu",
+      "desc": "The Muji-Muji Daruma created by <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will ignore HP limits and can simultaneously attack nearby opponents and heal characters.",
+      "icon": "UI_Talent_S_Sayu_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 532,
+      "name": "Egress Prep",
+      "desc": "#<color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> gains the following effects:\\n·DMG of Fuufuu Whirlwind Kick in {LAYOUT_MOBILE#Tapping}{LAYOUT_PC#Press}{LAYOUT_PS#Press} Mode increased by 3.3%.\\n·Every 0.5s in the Fuufuu Windwheel state will increase the DMG of this Fuufuu Whirlwind Kick by 3.3%. The maximum DMG increase possible through this method is 66%.",
+      "icon": "UI_Talent_S_Sayu_02",
+      "param_list": [
+        0.033,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 533,
+      "name": "Eh, the Bunshin Can Handle It",
+      "desc": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Sayu_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 534,
+      "name": "Skiving: New and Improved",
+      "desc": "Sayu recovers 1.2 Energy when she triggers a Swirl reaction.\\nThis effect occurs once every 2s.",
+      "icon": "UI_Talent_S_Sayu_03",
+      "param_list": [
+        1.2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 535,
+      "name": "Speed Comes First",
+      "desc": "Increases the Level of <color=#FFD780FF>Yoohoo Art: Fuuin Dash</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Sayu_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 536,
+      "name": "Sleep O'Clock",
+      "desc": "The Muji-Muji Daruma created by Sayu's <color=#FFD780FF>Yoohoo Art: Mujina Flurry</color> will now also benefit from her Elemental Mastery. Each point of Sayu's Elemental Mastery will produce the following effects:\\n·Increases the damage dealt by the Muji-Muji Daruma's attacks by 0.2% ATK. A maximum DMG increase of 400% ATK can be gained via this method.\\n·Increases the HP restored by the Muji-Muji Daruma by 3. A maximum of 6,000 additional HP can be restored in this manner.",
+      "icon": "UI_Talent_S_Sayu_04",
+      "param_list": [
+        0.002,
+        4,
+        3,
+        6000,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Sliver",
+            "id": 104151,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Crystal Marrow",
+            "id": 101203,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Whopperflower Nectar",
+            "id": 112038,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Fragment",
+            "id": 104152,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Marionette Core",
+            "id": 113022,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Crystal Marrow",
+            "id": 101203,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Whopperflower Nectar",
+            "id": 112038,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Fragment",
+            "id": 104152,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Marionette Core",
+            "id": 113022,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Crystal Marrow",
+            "id": 101203,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Shimmering Nectar",
+            "id": 112039,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Chunk",
+            "id": 104153,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Marionette Core",
+            "id": 113022,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Crystal Marrow",
+            "id": 101203,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Shimmering Nectar",
+            "id": 112039,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Chunk",
+            "id": 104153,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Marionette Core",
+            "id": 113022,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Crystal Marrow",
+            "id": 101203,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Energy Nectar",
+            "id": 112040,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Gemstone",
+            "id": 104154,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Marionette Core",
+            "id": 113022,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Crystal Marrow",
+            "id": 101203,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Energy Nectar",
+            "id": 112040,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Light",
+              "id": 104326,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Light",
+              "id": 104327,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Light",
+              "id": 104328,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ElementalArt_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 120
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Click_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Wind",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3"
+      },
+      "element": "Fire",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_Mix_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3"
+      },
+      "element": "Water",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_Mix_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3"
+      },
+      "element": "Electric",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_Mix_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3"
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "Hold_Mix_StrikeDamage"
+    },
+    {
+      "name": "ElementalArt_Roll_Mix",
+      "icd": {
+        "tag": "Sayu_ElementalArt_Mix_Detect",
+        "group": "default"
+      },
+      "gauge": 0.04,
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "ElementalArt_Roll_Mix",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Ice",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Roll_Mix",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Roll_Mix",
+      "icd": {
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Fire",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 200
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Damage_Ratio"
+    },
+    {
+      "name": "ElementalBurst_Phantom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Damage_Ratio",
+        "Constellation_6_Damage",
+        "ADD"
+      ]
+    },
+    {
+      "name": "ElementalBurst_Phantom",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": [
+        "Damage_Ratio",
+        "Constellation_6_Damage",
+        "ADD"
+      ]
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Strike_DropBall",
+      "skill": "ElementalArt_Check",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 100,
+      "cd": 0.5,
+      "applications": 1,
+      "drop_id": 2021
+    },
+    {
+      "name": "Roll_DropBall",
+      "skill": "ElementalArt_Check",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 3,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
+}

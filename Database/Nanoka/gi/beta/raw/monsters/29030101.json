@@ -1,0 +1,253 @@
+{
+  "name": "Childe",
+  "desc": "\"Childe\" Tartaglia, Eleventh of the Fatui Harbingers.\\nHe draws power from the ominous Delusion he possesses and fights using martial arts that he learned in a land of darkness.\\n\\nHe is a pure warrior with an insatiable lust for battle.\\nEach bloody conflict, each life-and-death struggle is a delightful trial to him.\\nPeople say that the young Childe is famed throughout the land for his battle prowess.\\nBut he has never taken big talk of this kind to heart.\\n\\nAfter all...\\n<i>\"You shall ever be the eye of the storm,</i>\\n<i>\"And the clashing of steel shall ever accompany you.</i>\\n<i>\"The pitch-black memory of stepping into uttermost darkness,</i>\\n<i>\"Shall, at last, become the strength by which you will overturn this world.\"</i>",
+  "icon": "UI_MonsterIcon_Tartaglia",
+  "codex": "BOSS",
+  "title": "Eleventh of the Fatui Harbingers",
+  "special_names": [
+    "Childe"
+  ],
+  "reward": [],
+  "child": {
+    "29030101": {
+      "monster_name": "Monster_Tartaglia",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0.5,
+        "elec": 0,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29030102": {
+      "monster_name": "Monster_Tartaglia_EvilEye",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0,
+        "elec": 0.5,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29030103": {
+      "monster_name": "Monster_Tartaglia_Harbinger",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0.7,
+        "elec": 0.7,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 135.84,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29030104": {
+      "monster_name": "Monster_Tartaglia",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0.5,
+        "elec": 0,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 125.6,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29030105": {
+      "monster_name": "Monster_Tartaglia_EvilEye",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0,
+        "elec": 0.5,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 125.6,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29030106": {
+      "monster_name": "Monster_Tartaglia_Harbinger",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0.7,
+        "elec": 0.7,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 135.84,
+        "atk": 175.84,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

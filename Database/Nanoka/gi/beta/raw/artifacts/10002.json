@@ -1,0 +1,141 @@
+{
+  "id": 10002,
+  "icon": "UI_RelicIcon_10002_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100020,
+      "id": 210002,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Brave Heart",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100021,
+      "id": 210002,
+      "level": 1,
+      "open_config": "Relic_GiantKiller",
+      "param_list": [
+        0.3,
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Brave Heart",
+      "desc": "Increases DMG by 30% against opponents with more than 50% HP."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10002_1",
+      "name": "Outset of the Brave",
+      "desc": "A crude wooden vessel filled only with memories.",
+      "story": {
+        "280021": {
+          "zh": "ART/UI/Readable/CHS/Relic10002_1",
+          "en": "ART/UI/Readable/EN/Relic10002_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10002_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10002_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10002_2",
+      "name": "Prospect of the Brave",
+      "desc": "A shimmering feather from a songbird that brings a nudge of courage to its wearer.",
+      "story": {
+        "280022": {
+          "zh": "ART/UI/Readable/CHS/Relic10002_2",
+          "en": "ART/UI/Readable/EN/Relic10002_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10002_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10002_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10002_3",
+      "name": "Crown of the Brave",
+      "desc": "A rough-and-ready laurel wreath that seems as precious as a king's golden crown.",
+      "story": {
+        "280023": {
+          "zh": "ART/UI/Readable/CHS/Relic10002_3",
+          "en": "ART/UI/Readable/EN/Relic10002_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10002_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10002_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10002_4",
+      "name": "Medal of the Brave",
+      "desc": "A simple flower brooch that is a keepsake from someone's first adventure.",
+      "story": {
+        "280024": {
+          "zh": "ART/UI/Readable/CHS/Relic10002_4",
+          "en": "ART/UI/Readable/EN/Relic10002_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10002_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10002_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10002_5",
+      "name": "Fortitude of the Brave",
+      "desc": "A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself.",
+      "story": {
+        "280025": {
+          "zh": "ART/UI/Readable/CHS/Relic10002_5",
+          "en": "ART/UI/Readable/EN/Relic10002_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10002_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10002_5_KR"
+        }
+      }
+    }
+  }
+}

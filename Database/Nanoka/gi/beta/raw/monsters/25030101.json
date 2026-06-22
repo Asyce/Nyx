@@ -1,0 +1,154 @@
+{
+  "name": "Treasure Hoarders: Carmen",
+  "desc": "",
+  "icon": "UI_MonsterIcon_Thoarder_Male_Shovel_01",
+  "codex": "HUMAN",
+  "title": "Treasure Hoarders: Carmen",
+  "special_names": [
+    "Nothing a Shovel Can't Fix!"
+  ],
+  "reward": [],
+  "child": {
+    "25030101": {
+      "monster_name": "Thoarder_Male_Shovel_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010020,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010020,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25030102": {
+      "monster_name": "Thoarder_Male_Fat_Shovel_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010020,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010020,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25030103": {
+      "monster_name": "Thoarder_Male_Fat_Shovel_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010020,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010020,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

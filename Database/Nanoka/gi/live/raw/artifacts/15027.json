@@ -1,0 +1,145 @@
+{
+  "id": 15027,
+  "icon": "UI_RelicIcon_15027_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150270,
+      "id": 215027,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0.15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Desert Pavilion Chronicle",
+      "desc": "Anemo DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150271,
+      "id": 215027,
+      "level": 1,
+      "open_config": "Relic_ExtraAttackCauseSpeedAndDamage",
+      "param_list": [
+        0.1,
+        0.4,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Desert Pavilion Chronicle",
+      "desc": "When Charged Attacks hit opponents, the equipping character's Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15027_1",
+      "name": "Defender of the Enchanting Dream",
+      "desc": "An ancient golden cup that is both marvelously and luxuriously wrought. Murmurings can be heard within its empty innards.",
+      "story": {
+        "285271": {
+          "zh": "ART/UI/Readable/CHS/Relic15027_1",
+          "en": "ART/UI/Readable/EN/Relic15027_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15027_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15027_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15027_2",
+      "name": "End of the Golden Realm",
+      "desc": "A crystal-clear artificial feather that is one of the legacies of an ancient human realm. The cries of soaring eagles are also sealed within.",
+      "story": {
+        "285272": {
+          "zh": "ART/UI/Readable/CHS/Relic15027_2",
+          "en": "ART/UI/Readable/EN/Relic15027_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15027_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15027_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15027_3",
+      "name": "Legacy of the Desert High-Born",
+      "desc": "Earrings made from amber gold that shines with a strange light.",
+      "story": {
+        "285273": {
+          "zh": "ART/UI/Readable/CHS/Relic15027_3",
+          "en": "ART/UI/Readable/EN/Relic15027_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15027_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15027_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15027_4",
+      "name": "The First Days of the City of Kings",
+      "desc": "An artificial flower that shimmers with a strange light. If you incline your ear to it, you can vaguely hear charming laughter issuing from within.",
+      "story": {
+        "285274": {
+          "zh": "ART/UI/Readable/CHS/Relic15027_4",
+          "en": "ART/UI/Readable/EN/Relic15027_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15027_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15027_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15027_5",
+      "name": "Timepiece of the Lost Path",
+      "desc": "An ancient mechanical clock. The Jinni fragments continue to emit light at its center and vibrate ever so slightly, as if to say something...",
+      "story": {
+        "285275": {
+          "zh": "ART/UI/Readable/CHS/Relic15027_5",
+          "en": "ART/UI/Readable/EN/Relic15027_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15027_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15027_5_KR"
+        }
+      }
+    }
+  }
+}

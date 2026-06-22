@@ -1,0 +1,166 @@
+{
+  "name": "Forged Sand Shieldbreaker",
+  "desc": "A valiant warrior of the canyon, and a tribal guardian that patrols the crystal mountains and rivers.\\nTribal warriors wielding massive warhammers with both hands, they are the vanguard that is the first to breach the enemy's defensive lines. For the Children of Echoes, who delight in gemstones and all manner of crafted ornaments, hammers are often the first tool to be touched by the tribe's warriors as children.",
+  "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Drillhead",
+  "codex": "HUMAN",
+  "title": "Forged Sand Shieldbreaker",
+  "special_names": [
+    "Tribe's Loyal Guard"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112106,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    {
+      "id": 112105,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    {
+      "id": 112104,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    }
+  ],
+  "child": {
+    "25504101": {
+      "monster_name": "Human_MuscleMan_Claymore_Drillhead_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25504102": {
+      "monster_name": "Human_MuscleMan_Claymore_Drillhead_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25504103": {
+      "monster_name": "Human_MuscleMan_Claymore_Drillhead_Ghost_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

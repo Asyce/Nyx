@@ -1,0 +1,146 @@
+{
+  "id": 15008,
+  "icon": "UI_RelicIcon_15008_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_PHYSICAL_ADD_HURT",
+          "value": 0.25
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150080,
+      "id": 215008,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Bloodstained Chivalry",
+      "desc": "Physical DMG +25%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150081,
+      "id": 215008,
+      "level": 1,
+      "open_config": "Relic_KillEnhanceExtraAtk",
+      "param_list": [
+        10,
+        0.5,
+        -5,
+        0.1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Bloodstained Chivalry",
+      "desc": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15008_1",
+      "name": "Bloodstained Chevalier's Goblet",
+      "desc": "",
+      "story": {
+        "285081": {
+          "zh": "ART/UI/Readable/CHS/Relic15008_1",
+          "en": "ART/UI/Readable/EN/Relic15008_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15008_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15008_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15008_2",
+      "name": "Bloodstained Black Plume",
+      "desc": "",
+      "story": {
+        "285082": {
+          "zh": "ART/UI/Readable/CHS/Relic15008_2",
+          "en": "ART/UI/Readable/EN/Relic15008_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15008_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15008_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15008_3",
+      "name": "Bloodstained Iron Mask",
+      "desc": "",
+      "story": {
+        "285083": {
+          "zh": "ART/UI/Readable/CHS/Relic15008_3",
+          "en": "ART/UI/Readable/EN/Relic15008_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15008_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15008_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15008_4",
+      "name": "Bloodstained Flower of Iron",
+      "desc": "",
+      "story": {
+        "285084": {
+          "zh": "ART/UI/Readable/CHS/Relic15008_4",
+          "en": "ART/UI/Readable/EN/Relic15008_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15008_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15008_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15008_5",
+      "name": "Bloodstained Final Hour",
+      "desc": "",
+      "story": {
+        "285085": {
+          "zh": "ART/UI/Readable/CHS/Relic15008_5",
+          "en": "ART/UI/Readable/EN/Relic15008_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15008_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15008_5_KR"
+        }
+      }
+    }
+  }
+}

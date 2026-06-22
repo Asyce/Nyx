@@ -1,0 +1,138 @@
+{
+  "id": 15020,
+  "icon": "UI_RelicIcon_15020_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150200,
+      "id": 215020,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Emblem of Severed Fate",
+      "desc": "Energy Recharge +20%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150201,
+      "id": 215020,
+      "level": 1,
+      "open_config": "Relic_ElementalBurstUpByChargeEfficiency",
+      "param_list": [
+        0.25,
+        0.75,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Emblem of Severed Fate",
+      "desc": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15020_1",
+      "name": "Scarlet Vessel",
+      "desc": "",
+      "story": {
+        "285201": {
+          "zh": "ART/UI/Readable/CHS/Relic15020_1",
+          "en": "ART/UI/Readable/EN/Relic15020_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15020_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15020_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15020_2",
+      "name": "Sundered Feather",
+      "desc": "",
+      "story": {
+        "285202": {
+          "zh": "ART/UI/Readable/CHS/Relic15020_2",
+          "en": "ART/UI/Readable/EN/Relic15020_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15020_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15020_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15020_3",
+      "name": "Ornate Kabuto",
+      "desc": "",
+      "story": {
+        "285203": {
+          "zh": "ART/UI/Readable/CHS/Relic15020_3",
+          "en": "ART/UI/Readable/EN/Relic15020_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15020_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15020_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15020_4",
+      "name": "Magnificent Tsuba",
+      "desc": "",
+      "story": {
+        "285204": {
+          "zh": "ART/UI/Readable/CHS/Relic15020_4",
+          "en": "ART/UI/Readable/EN/Relic15020_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15020_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15020_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15020_5",
+      "name": "Storm Cage",
+      "desc": "",
+      "story": {
+        "285205": {
+          "zh": "ART/UI/Readable/CHS/Relic15020_5",
+          "en": "ART/UI/Readable/EN/Relic15020_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15020_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15020_5_KR"
+        }
+      }
+    }
+  }
+}

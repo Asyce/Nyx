@@ -1,0 +1,4280 @@
+{
+  "name": "Nahida",
+  "desc": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
+  "chara_info": {
+    "release_date": "2022-11-01 00:00:00",
+    "birth": [
+      10,
+      27
+    ],
+    "vision": "Dendro",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Sapientia Oromasdis",
+    "region": "ASSOC_TYPE_SUMERU",
+    "title": "Physic of Purity",
+    "native": "Sumeru City",
+    "detail": "A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.",
+    "va": {
+      "chinese": "花玲",
+      "japanese": "田村ゆかり",
+      "english": "Kimberley Anne Campbell",
+      "korean": "Park Shi-yoon"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Greater Lord Rukkhadevata created Sumeru's rainforest and bestowed wisdom upon the people of Sumeru through the Akademiya. Despite her departure long ago, her name is still praised in the stories told in every household in Sumeru.\\nOn the other hand, Lesser Lord Kusanali, who was whisked back by the sages to the Sanctuary of Surasthana following the former's fall, has been more of a symbol — one that signifies that the protection of divinity never ceased to exist on this land.\\nBut the answers to who she is, how she descended, and what powers she has, are rarely known.\\nFrom the highest sage's vague response and evasive attitude toward people's inquiry about Lesser Lord Kusanali, the people in Sumeru deduced that they should no longer expect merciful wisdom to descend from on high as before.\\nThe Akasha, the sublime legacy left by Greater Lord Rukkhadevata, is just as handy and helpful as it has always been. What people are not aware of is that the Akasha today has become the ears and eyes of the newborn deity.\\nThrough the Akasha, she has observed every bit of human emotions and attitudes. She is aware of their devotion to the old goddess, their disillusionment with their new deity, and the many comments that \"The God of Wisdom will never come back.\"\\nShe knows in her heart that she must keep learning and grow up as quickly as she can to stand up and face the threats from the most abysmal corners of the world. This is her inevitable duty.\\nThus, whether she is misunderstood or underappreciated, Nahida makes no argument against it.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "The process of learning and growth is joyful, and knowledge concerning this world always satisfies Nahida's exuberant curiosity.\\nGradually, Nahida came to grasp the principles of nature and the elements, understanding the ecology of the sky and the sea. She could even compose what she learned into fascinating dreams that are logical, yet beyond imagination.\\nSuch dreams are, in essence, the same as Nahida's marvelous metaphors — they all lead to a dawning understanding of the similarities between two otherwise unrelated things.\\nBut there are times when she meditates on things yet struggles to figure them out, and such incidents usually concern events related to people or society.\\nFor example, when honesty and truth could exempt a person from punishment, some people might turn silent and deceitful; and when with their beloved ones, some people would hurt others with brutal words.\\nIt feels as if the contradictions of the entire world are focused through and manifested by human beings, whose fickle emotions are perplexing to Nahida.\\nIn such moments, her metaphors would not work. Nor could she find any system in this world as a reference for such chaos.\\nShe could only explain it by the fact that the difference between every person's uniqueness creates diverse reactions when they undergo similar emotions.\\nBut this was not a satisfactory answer to Nahida. To better know human beings, plain knowledge and dogma alone would never suffice.\\nPerhaps it was from that moment on that Nahida came to understand why \"she\" had to stand firmly by human beings' side and even made tremendous sacrifices for their sake.\\nFor each and every one of \"them\" is a unique existence in this world.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Nahida's life might be uniform, but she owns the most fantastic and lively dream in all of Sumeru.\\nThe knowledge she learns through the Akasha during the day is presented vividly in her dreams at night. As she learns more knowledge, her dreams become even more intricate and full of life.\\nThe dreams not only relax her mind, but also give her chances to examine her new knowledge to see if it goes against common sense or if she is missing any details.\\nWhen Dusk Birds first appeared in Nahida's dream, those birds soared through the sky in a standing posture with their wings folded.\\nIt looked abnormal and caught Nahida's attention immediately. Nahida thus learned how wings worked, after which the Dusk Birds could fly freely in her dreams.\\nNext, she adopted similar methods to fix Shroomboars that slept underwater, Radishes that grew on apple trees, and crystalflies with mismatched wing colors.\\nKnowledge shall not be a mere approach to justify things in this world, it could also be used to satisfy her need for pure innocent fun.\\nTechnically, Shroomboars can only walk on the ground. Now that she understood how wings work, wouldn't Shroomboars with wings fly all the same?\\nAnd where there are flying Shroomboars, it is only natural to have crocodiles that walk on their hind legs and Harra Fruits who speak human languages...\\nThe way Nahida develops her knowledge system has subsequently created a little amusement park for her, free of disturbance. In her dreams, she is in the embrace of boundless happiness.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Children have yet to be well-informed and are easily swayed by emotions, but it does not mean that they can be disrespected or mocked.\\nFrustration and disappointments do indeed grant them a taste of reality — but at the cost of robbing them of innocent thoughts and exuberant emotions.\\nThe children who unluckily run across such negativity would always hear a gentle, warm voice on some ordinary night.\\nShe listens attentively to the children, uses her wonderful metaphors to clarify principles to them, plays with them, and talks about their favorite games and snacks... until dawn.\\nThough the night is short, such company would let the children believe that there is still someone in this world who understands them.\\nHatred and frustration are thus melted away by the warmth in their hearts, and the children would gain an opportunity to make a change in their lives such that they can grow in confidence and gladness.\\nHowever, none of them could recognize to whom the gentle, warm voice belonged. Everyone knows, after all, that Greater Lord Rukkhadevata had departed a long time ago.\\nA group of children gathered in secret and discussed this mystical phenomenon. Suddenly, a child who seemed to know a lot more than their peers mentioned a somewhat unusual name, \"Lesser Lord Kusanali.\"\\nThey soon accepted that theory. And, of course, none of their parents believed them.\\nBut what did that matter? Lesser Lord Kusanali was already their friend.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "The greenery-planning personnel in Sumeru City once received a mysterious letter. The sender was, apparently, \"An Enthusiastic and Perfectly Leisurely Citizen of Sumeru City.\"\\nThe letter contained detailed suggestions and thoughtful planning that took both the weather and practicality into consideration.\\nJudging by the professionalism of the letter's contents, it was natural to assume that the letter was from a well-known Amurta researcher who would prefer to stay anonymous.\\nDespite the writer's anonymity, the greenery-planning personnel carried out their work in the city exactly as stated in the letter, as if they were implementing orders from their superior.\\nThe outcome reaped high praise. Later one day, Nahida borrowed Katheryne's body and took a walk on the streets in the city. To her great joy, she found out that the arrangement of plants was exactly the same as she had expected.\\nThe letter was from Nahida, of course. She had written it because she thought that though knowledge is important, practice is also essential.\\nBut with the exceedingly strict control the sages exercised, Nahida had to persuade them with great effort before they agreed to let her send this seemingly useless letter anonymously.\\nBut so encouraged was Nahida by the great success of her first attempt at putting knowledge into practice that in the following days, even when she walked, she was ever so full of elated confidence.\\nBut then she rounded a corner and noticed unexpectedly that several flowers of completely mismatched colors had been planted together.\\nAfter careful examination, she found out that it was because she had not considered the possibility that one of the flower species might change colors, nor had she specified the cultivation environment for the flowers very strictly in her plans.\\nThen it occurred to her that this bunch of flowers could have been here for dozens of days, during which everyone might have witnessed her \"complete lack of aesthetic sense\"...\\nThat day, many claimed that they saw Ms. Katheryne, who usually stood behind the reception desk with a confident smile, crouching next to a pot of flowers, her hands covering her blushing face.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "How might one eradicate the threat that forbidden knowledge poses to Irminsul?\\nNahida used to believe that she was the one who had the answer, but never did she realize that she was also the answer herself.\\nOne who takes action will certainly leave one's traces behind. When one wishes to eradicate oneself, a paradox would thus occur.\\nThat is why it is inevitable that one must depend on others to accomplish this goal.\\nBy the time Nahida had figured this out, time was running out, leaving her no room for further consideration. The knowledge accumulated through the years could not even help her find a solution to the pressing dilemma before her.\\nBut just as ████ said, as one with wisdom, one should feel joy upon the discovery of the answer.\\nShe was not born just to accomplish such cruel deeds. Only after eradicating forbidden knowledge could she focus on Sumeru's future and plan for the prosperity and happiness that her nation could call its own.\\nWill a nation walking into the future still remember a name that no longer exists? It does not matter.\\n\"Does it really not matter?\"\\nNahida would have definitely proposed otherwise. Shame, then, that their time was too short. In that blink of an eye, ████ did not even leave her a chance to retort.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "Nahida's \"Toy Box\"",
+        "text": "Though it looks no different from a regular box, this container has a variety of experimental replicas within it.\\nNahida has a strong interest in popular games of all sorts. Their rules are simple, but they are also fun and profound. Be it puzzles or battle games, the fascination they inspire can be long-lasting.\\nGames are simple but not simplistic, exemplifying the wisdom of their designers. Deconstructing and reshaping things also make for valuable opportunities to learn.\\nHowever, the Akademiya researchers never supported her novel ideas, nor would they satisfy her wish for more toys. So, she compromised and asked for only wood and some tools.\\nFollowing the instructions offered by the Akasha and applying her imagination, she managed to create various toys, such as chessboards, cards, puzzle pieces, and three-dimensional locks...\\nThe sense of achievement from finishing making toys brought Nahida brief satisfaction, but she soon found this out:\\nShe could not find an opponent for any battle-type games, and as the maker, she knew the solutions to all her puzzle games.\\n\"If only there were someone else around to try these out.\"\\nSo she has always hoped. But before that suitable person shows up, these toys shall stay in their box for now.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Gnosis",
+        "text": "The existence of the Akasha is the means, not an end in itself. The moment when the forbidden knowledge was eradicated was the moment when the Akasha had accomplished its mission.\\nThe one who had coveted the power of the Gnosis had written the entire drama from the start, and would show themselves as the curtains fell.\\nNahida, using the Gnosis of a foreign land as leverage, deprived the cunning foe of his \"segments\" as insurance.\\nBut the enemy immediately requested for a bargain as well, offering up critical knowledge of the world's \"truth.\"\\nHis knowledge of the values rooted in this land was without peer, and thus had he intended to take advantage of Nahida's curiosity and sense of responsibility from the very beginning. Indeed, the way he saw it, there could be no bargaining chip more suitable than knowledge.\\nWith one Gnosis still in her hands, Nahida could not help but hesitate. She barely knew more about the Gnoses than she knew the \"truth\" of the world.\\nThe Gnosis, to her, was but a core that gathers a mass of elemental power at her discretion. But if there is nothing more to a Gnosis, why was a god so eager to gather all of them together?\\nShaking hands in bargain means an equal compromise for both sides, a far cry from any victory. On the other hand, turning down the bargain indicates a certain type of \"ignorance,\" which, obviously, would more easily invite a loss of control.\\nThus did the \"God of Wisdom\" instantly find her answer...",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "Nice to meet you! Hehe, I've actually been watching you for a long time already. My name's Nahida. I might look like a child, but don't be fooled: I understand this world much better than any grown-up. So... can we trade knowledge? I want to hear all about your travel stories. So, what would you like to know in return?",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Invitation",
+        "text": "If you're not sure what to do next, how about I take you on a walk?",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Concerns",
+        "text": "Something on your mind again? Let's work through it together. Two heads are better than one.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Feelings",
+        "text": "What they say is true: You have to see the world for yourself to appreciate how beautiful it is.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Quick, let's find shelter, or mushrooms will start growing on our heads.",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Did you know that the sound of thunder is the prelude to new life? *sigh* Soon, this land will be brimming with vitality.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "Can you hear that? The heavens are whispering to all living things, \"It's time for bed now.\"",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "Ah, the weather is lovely and warm. Things are about to start getting lively again.",
+        "unlocked": []
+      },
+      {
+        "title": "When It's Windy",
+        "text": "The wind never blows in the Sanctuary of Surasthana... Oh, sorry. That's probably obvious to you.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Good morning. We should get going right away. There are too many things in this world that you'll miss if you don't get there on time.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Ah, time for a break. I'd really like a Berry & Mint Burst... If you get one for me, I'll tell you a couple of stories about the sun. Okay?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "The sun's setting. It's time to wave goodbye and let the creatures of the night take center stage.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Good Night",
+        "text": "You should go to sleep now. Don't worry, I've made sure there's a sweet dream waiting for you.",
+        "unlocked": []
+      },
+      {
+        "title": "About Nahida: Knowledge",
+        "text": "Oh, the Mare Jivari? A place without anything at all, completely empty — just like a Shroomboar's brain. Of course I know it. ...Hmm? I, uh... It's true, I've never seen it with my own eyes. It's one of the many places beyond my reach.",
+        "unlocked": []
+      },
+      {
+        "title": "About Nahida: Obsession",
+        "text": "The gods gave humans barely enough knowledge for them to fill their stomachs. Yet, they used it to craft tools, write books, and build cities, and now they've set their sights on the stars and the abyss... With every moment that goes by, they're creating brand-new knowledge, so I never want to take my eyes off them.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Story Time",
+        "text": "The things you've experienced on your journey are so much more exciting than anything I've ever learned. And now, I get to ask you about all of it any time I want, so I can understand each and every little detail... I couldn't ask for more. Alright, let's not waste any more time. Now where were we...?",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Journey",
+        "text": "Being a listener has never been enough for me. I've always dreamed of going out and seeing things for myself. You're such an experienced adventurer... Can you be my guide? I want to experience all your future tales first-hand.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "The heavens grew eyes to behold the true beauty of the world below, but humans already have eyes to begin with. So, what is it they see when they look at the world not with their eyes, but their vision? You're very smart. Can you figure out what the answer is?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "Very often, only once we get hurt badly are we finally forced to face our own laziness, ignorance, recklessness, or arrogance. There's nothing to regret, though. We have no way of seeing all the possibilities that lie ahead in the future, so we have to rely on clumsy trial-and-error to gain knowledge. Just think of pain as the tuition you have to pay.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things: A Flower Yet to Blossom",
+        "text": "Sumeru's desert looks more desolate than the rainforest, but it's also home to an ancient civilization, and supports its own stable ecosystem. One day, when it finally stops arguing with the rainforest, I'm sure that flowers will blossom there, the likes of which I've never seen before.",
+        "unlocked": []
+      },
+      {
+        "title": "About Cyno: Jokes",
+        "text": "His jokes are like buried treasure: gems hidden beneath the surface. They're a lot of fun. Hmm? Well, which part didn't you get? Okay, I can explain it for you.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Cyno: Duty",
+        "text": "Not every General Mahamatra would take such a clear-cut and decisive stance when faced with a conflict between order and justice. He must know only too well that compromise is a path that leads to a dead end, so it's extremely fortunate for all of Sumeru that he's now been able to return to his rightful post.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "About Tighnari",
+        "text": "The Forest Watchers played an essential role in helping the rainforest to withstand the Withering and continue to flourish, and Tighnari is the best of them all. Still... I do hope he learns to be a little gentler with people. Otherwise, it's gonna be difficult for the Forest Rangers to attract new top talent.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Collei",
+        "text": "When I heard her story for the first time, her tenacity shone through like a dazzling gemstone. She's been through so much... I hope that just as the rainforest supports all kinds of life, Sumeru will always provide a safe and nurturing environment for her, so that she can grow up healthy and strong.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Alhaitham",
+        "text": "He holds a body of knowledge more advanced than most could imagine, and his mind is constantly thinking, so maybe nothing in this world could ever fool him. But is the wise man truly wise to view the mediocre majority as defective? Because without them, there is no us.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Nilou",
+        "text": "I once borrowed someone else's body to ask her if she'd mind allowing Lesser Lord Kusanali to watch her dance... Actually, I had already watched her lots of times before in secret, but I wanted to attend her dance at the Sabzeruz Festival properly, in person, as a sign of respect. Anyway, it turned out that she gently declined the offer... I was a little sad about that.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Dori",
+        "text": "The first thing she said when she saw me was \"Nice palace. How much?\" Of course, I couldn't possibly sell her the Sanctuary of Surasthana. But still, her question had me stumped. I thought about it long and hard, but I still can't figure out how much Mora it's worth...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "About Kaveh",
+        "text": "He has an almost-perfect grasp of what it truly means for Sumeru to be a Nation of Wisdom. Sadly, the truth as he understands it will never be accepted as the mainstream. Hmm? He's roommates with Alhaitham? Wow... the world really is full of surprises...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Faruzan",
+        "text": "She is suffering from exposure to remnants of King Deshret's power. It's as if the great tortoise of time accidentally threw her off its back and left her suspended in the past. If you're interested, you should be able to catch a glimpse of Sumeru from a bygone age through her.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "About The Seven: Introduction",
+        "text": "I'm led to believe that long, long ago, the Seven Archons used to stay in regular contact with each other. I'm a bit of a special case though, so I don't have any memory of that time... Now that things have settled down in Sumeru, I think it's about time I made contact with them again. You're on familiar terms with some of them, right? Would you mind introducing me?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "About The Seven: Games",
+        "text": "I hear that playing games is a good way to quickly bring people closer together. I'm sure it must work for gods, too. How about once everyone meets up, I suggest we play hopscotch together? ...Hmm, on second thought, maybe not. If I draw the squares, it would look like I made them really small on purpose just so I could win. That wouldn't be fair on the others.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "About The Balladeer",
+        "text": "When he finally achieved the ambition he thought he'd been pursuing all along, was he content at last, or only emptier still? We only yearn for the skies because we cannot fly... Hmm, perhaps he should reflect on this once he has held the sheer emptiness of the skies in his grasp.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "More About Nahida: I",
+        "text": "My past is quite monotonous. I could tell you about it, but it wouldn't be long before you let out a great, big yawn, like a Pufferfish taking in a big gulp of water. But curiosity is worth its weight in gold, and I wouldn't want yours to go to waste... I know — let me tell you about all the dreams I've had.",
+        "unlocked": []
+      },
+      {
+        "title": "More About Nahida: II",
+        "text": "In my dreams, there's often a flower pot. Every time I water it and add fresh fertilizer, the same flower grows. Can you still enjoy the process of growing flowers when you already know the exact outcome in advance? Hehe, well, for me, I'm glad that at least after the flower has blossomed, it attracts different colored butterflies each time, and sometimes even bees.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Nahida: III",
+        "text": "In my dreams, there's often an hourglass. I like to add a few drops of water. Then, I shake it up, and time how long it takes to settle, and see if there's any difference from the last time. There's no reasoning behind it and nothing to gain out of it, but somehow it seems to relieve the exhaustion in my brain. I think that the fact that it's for nothing is what makes it fun for me.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Nahida: IV",
+        "text": "In my dreams, there's often an empty space. No matter how the scenery changes around it, the emptiness always occupies the most important place. Strange, isn't it? I think there used to be something there, but for all the power I have over dreams, I still can't find the answer as to what it was. Ugh, seems like even in my dreams, there are things that I can't control...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "More About Nahida: V",
+        "text": "In my dreams, there can be anything — anything except people coming and going. But since meeting you, it's gradually started to get more lively here... Maybe you're a guide, adding a human touch to my dreams and leading me out from my cage. Hehe, c'mon, let's go. The journey's only just beginning, and I'd like you to carry on leading the way.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Akasha Pulses, the Kalpa Flame Rises\""
+        ]
+      },
+      {
+        "title": "Nahida's Hobbies",
+        "text": "Umm... does watching you count as a hobby? Because everything you do fascinates me. You're traveling the whole world... Where did you come from, and where will you go next? Who will you meet, and what challenges will you have to overcome? I want to know the answers to all these questions and more. So please don't mind me, I just wanna keep on watching you, all the time.",
+        "unlocked": []
+      },
+      {
+        "title": "Nahida's Troubles",
+        "text": "I think I'm good at asking the right questions and giving good answers, but I've come to realize that a lot of people just convince themselves they don't understand. The answers to their problems don't help them. It seems to me that as people grow older, they lose the courage to question things and accept the truth...",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "Definitely Candied Ajilenakh Nuts. I just need one little bite and my brain starts chugging away at top speed, and suddenly there's no problem too difficult for me to solve. The only thing you need to watch out for is: Don't put the jar somewhere that's too easy to reach.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "Sea creatures are born into infinite darkness and live their lives in the depths of the ocean. It's a complete unknown to me. Eating them is like swallowing an icky storm cloud.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Mm, may the world never forget this beautiful flavor. Thank you.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Hehe, I really appreciate this. It tastes lovely.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "...How should I put this? I guess... you wouldn't feed Shroomboars to a Sumpter Beast, would you?",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "I was thinking, your birthday celebration needs to be at least as grand as the Sabzeruz Festival, so... Hmm? Too much? But everyone's already done preparing for it. C'mon, c'mon, let's go! Just this once — I'll make sure you love it!",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "I'm getting smarter!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "My mind is growing even bigger. It feels like you could fit the entire sky and ocean inside it.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "I feel like a Nilotpala Lotus that's been reunited with its leaves, or a Sango Pearl that's found its shell.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "Thank you for allowing me to be your companion, and for teaching me so many new things. As the God of Wisdom, I grant to you my blessing: From here onward, may your journey be free from confusion that clouds your mind and obstacles that block your path.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Committed to memory.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Grow, grow, grow.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "This might hurt a little.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: IV",
+        "text": "Hey!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: V",
+        "text": "Everyone hold hands~",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: VI",
+        "text": "I see everything.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Make yourselves at home~",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Share in my knowledge.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "The Temple of Wisdom.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "Curiosity deserves a reward.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "I wonder who this gift could be from.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Find anything you like?",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "Let's change tactics.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Stop fighting!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "This was unwise...",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Let me put my mind to it.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Don't bite off more than you can chew.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "No life... lasts forever...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "I'm... withering...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "I don't... understand...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "That really hurt...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "I'm seeing stars...",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "I've been waiting for you for ages.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "There are still so many places for us to explore.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Time to broaden our horizons again.",
+        "unlocked": []
+      },
+      {
+        "title": "About Furina",
+        "text": "People often say that wisdom isn't about what you know, but knowing what you can change. It is beyond question that the \"prophecy\" was carved into Irminsul long ago... and while it may look like nothing has changed, it also seems like everything has. I think we both know her to be smart enough to turn the fate of the world around.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Masquerade of the Guilty\""
+        ]
+      },
+      {
+        "title": "About Haborym",
+        "text": "The Abyss manifests its power in a manner that is most devastating to the place in question. In Sumeru, it was forbidden knowledge. In Natlan, it was monstrous creatures. Our experience combatting the Abyss is inapplicable to Natlan for that very reason, but I still regret that I was unable to offer aid. Thankfully, the crisis has now been resolved, and Mavuika said many Natlanese are planning to visit Sumeru. I plan to welcome them with open arms!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Incandescent Ode of Resurrection\""
+        ]
+      }
+    ],
+    "special_food": {
+      "id": 108474,
+      "recipe": 3308,
+      "name": "Halvamazd",
+      "icon": "UI_ItemIcon_108474",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210140,
+      "name": "Nahida: Crescent",
+      "desc": "Namecard style.\\nThe rising moon admires the sun, because her light can shine all over the earth. On the other hand, the setting sun is envious of the moon, for she can be accompanied by the sweetest of dreams.",
+      "icon": "UI_NameCardPic_Nahida_P"
+    },
+    "costume": [
+      {
+        "id": 207300,
+        "name": "For All Knowledge, a Verse",
+        "desc": "Nahida's outfit. Only the oracles that interpret knowledge may robe the God of Wisdom, and so even the smallest ornament is viewed by believers as holy writ.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": [
+      {
+        "id": 215015,
+        "name": "Echo: Physic of Purity",
+        "desc": "Nahida's Envisaged Echo. \"Share in my knowledge.\"",
+        "icon": "UI_TraceEffectIcon_Nahida"
+      }
+    ]
+  },
+  "weapon": "WEAPON_CATALYST",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Dendro",
+  "icon": "UI_AvatarIcon_Nahida",
+  "stamina_recovery": 25,
+  "base_hp": 806.5087,
+  "base_atk": 23.275,
+  "base_def": 49.0606,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 691.5083,
+        "fight_prop_base_defense": 42.066,
+        "fight_prop_base_attack": 19.95475,
+        "fight_prop_element_mastery": 0
+      },
+      {
+        "fight_prop_base_hp": 1182.8431,
+        "fight_prop_base_defense": 71.955,
+        "fight_prop_base_attack": 34.133125,
+        "fight_prop_element_mastery": 28.8
+      },
+      {
+        "fight_prop_base_hp": 1837.9563,
+        "fight_prop_base_defense": 111.807,
+        "fight_prop_base_attack": 53.037624,
+        "fight_prop_element_mastery": 57.6
+      },
+      {
+        "fight_prop_base_hp": 2329.291,
+        "fight_prop_base_defense": 141.696,
+        "fight_prop_base_attack": 67.216,
+        "fight_prop_element_mastery": 57.6
+      },
+      {
+        "fight_prop_base_hp": 2820.626,
+        "fight_prop_base_defense": 171.585,
+        "fight_prop_base_attack": 81.39438,
+        "fight_prop_element_mastery": 86.4
+      },
+      {
+        "fight_prop_base_hp": 3311.961,
+        "fight_prop_base_defense": 201.474,
+        "fight_prop_base_attack": 95.57275,
+        "fight_prop_element_mastery": 115.2
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10731,
+      "name": "Akara",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 attacks that deal <color=#99FF88FF>Dendro DMG</color> to opponents in front of her.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to deal <color=#99FF88FF>AoE Dendro DMG</color> to opponents in front of her after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nCalling upon the might of Dendro, Nahida plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#99FF88FF>AoE Dendro DMG</color> upon impact with the ground.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.403048,
+            0.369744,
+            0.458744,
+            0.584064,
+            1.32,
+            50,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.433277,
+            0.397475,
+            0.49315,
+            0.627869,
+            1.419,
+            50,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.463505,
+            0.425206,
+            0.527556,
+            0.671674,
+            1.518,
+            50,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.50381,
+            0.46218,
+            0.57343,
+            0.73008,
+            1.65,
+            50,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.534039,
+            0.489911,
+            0.607836,
+            0.773885,
+            1.749,
+            50,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.564267,
+            0.517642,
+            0.642242,
+            0.81769,
+            1.848,
+            50,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.604572,
+            0.554616,
+            0.688116,
+            0.876096,
+            1.98,
+            50,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.644877,
+            0.59159,
+            0.73399,
+            0.934502,
+            2.112,
+            50,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.685182,
+            0.628565,
+            0.779865,
+            0.992909,
+            2.244,
+            50,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.725486,
+            0.665539,
+            0.825739,
+            1.051315,
+            2.376,
+            50,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.765791,
+            0.702514,
+            0.871614,
+            1.109722,
+            2.508,
+            50,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.806096,
+            0.739488,
+            0.917488,
+            1.168128,
+            2.64,
+            50,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.856477,
+            0.785706,
+            0.974831,
+            1.241136,
+            2.805,
+            50,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.906858,
+            0.831924,
+            1.032174,
+            1.314144,
+            2.97,
+            50,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}",
+            "Charged Attack DMG|{param5:F1P}",
+            "Charged Attack Stamina Cost|{param6:F1}",
+            "Plunge DMG|{param7:F1P}",
+            "Low/High Plunge DMG|{param8:P}/{param9:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.957239,
+            0.878142,
+            1.089517,
+            1.387152,
+            3.135,
+            50,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10732,
+      "name": "All Schemes to Know",
+      "desc": "Sends forth karmic bonds of wood and tree from her side, dealing <color=#99FF88FF>AoE Dendro DMG</color> and marking up to 8 opponents hit with the Seed of Skandha.\\nWhen held, this skill will trigger differently.\\n\\n<color=#FFD780FF>Hold</color>\\nEnters Aiming Mode, which will allow you to select a limited number of opponents within a limited area. During this time, Nahida's resistance to interruption will be increased.\\nWhen released, this skill deals <color=#99FF88FF>Dendro DMG</color> to these opponents and marks them with the Seed of Skandha.\\nAiming Mode will last up to 5s and can select a maximum of 8 opponents.\\n\\n<color=#FFD780FF>Seed of Skandha</color>\\nOpponents who have been marked by the Seed of Skandha will be linked to one another up till a certain distance.\\nAfter you trigger Elemental Reactions on opponents who are affected by the Seeds of Skandha or when they take DMG from Dendro Cores (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on the opponents and all connected opponents, dealing <color=#99FF88FF>Dendro DMG</color> based on her ATK and Elemental Mastery.\\nYou can trigger at most 1 Tri-Karma Purification within a short period of time.\\n\\n<i>Lo, the god of grass and trees shines her ultimate truth into the void, illuminating the origin and destruction of the three karmas.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.984,
+            1.304,
+            1.032,
+            2.064,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0578,
+            1.4018,
+            1.1094,
+            2.2188,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1316,
+            1.4996,
+            1.1868,
+            2.3736,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.23,
+            1.63,
+            1.29,
+            2.58,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3038,
+            1.7278,
+            1.3674,
+            2.7348,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3776,
+            1.8256,
+            1.4448,
+            2.8896,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.476,
+            1.956,
+            1.548,
+            3.096,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.5744,
+            2.0864,
+            1.6512,
+            3.3024,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6728,
+            2.2168,
+            1.7544,
+            3.5088,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7712,
+            2.3472,
+            1.8576,
+            3.7152,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8696,
+            2.4776,
+            1.9608,
+            3.9216,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.968,
+            2.608,
+            2.064,
+            4.128,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.091,
+            2.771,
+            2.193,
+            4.386,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.214,
+            2.934,
+            2.322,
+            4.644,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Nahida_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "Hold DMG|{param2:F1P}",
+            "Tri-Karma Purification DMG|{param3:F1P} ATK+{param4:F1P} Elemental Mastery",
+            "Tri-Karma Purification Trigger Interval|{param5:F1}s",
+            "Seed of Skandha Duration|{param6:F1}s",
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} CD|{param7:F1}s",
+            "Hold CD|{param8:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.337,
+            3.097,
+            2.451,
+            4.902,
+            2.5,
+            25,
+            5,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10735,
+      "name": "Illusory Heart",
+      "desc": "Manifests the Court of Dreams and expands the Shrine of Maya.\\n\\nWhen the Shrine of Maya field is unleashed, the following effects will be separately unleashed based on the Elemental Types present within the party.\\n·<color=#FF9999FF>Pyro</color>: While Nahida remains within the Shrine of Maya, the DMG dealt by Tri-Karma Purification from \"All Schemes to Know\" is increased.\\n·<color=#FFACFFFF>Electro</color>: While Nahida remains within the Shrine of Maya, the interval between each Tri-Karma Purification from \"All Schemes to Know\" is decreased.\\n·<color=#80C0FFFF>Hydro</color>: The Shrine of Maya's duration is increased.\\n\\nIf there are at least 2 party members of the aforementioned Elemental Types present when the field is deployed, the aforementioned effects will be increased further.\\n\\nEven if Nahida is not on the field, these bonuses will still take effect so long as party members are within the Shrine of Maya.\\n\\n<i>Perhaps all that dwell under the bowers of trees are naught but a fleeting upside-down dream in the eyes of the God of Wisdom.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.1488,
+            0.2232,
+            0.248,
+            0.372,
+            3.344,
+            5.016,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.15996,
+            0.23994,
+            0.2666,
+            0.3999,
+            3.5948,
+            5.3922,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.17112,
+            0.25668,
+            0.2852,
+            0.4278,
+            3.8456,
+            5.7684,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.186,
+            0.279,
+            0.31,
+            0.465,
+            4.18,
+            6.27,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.19716,
+            0.29574,
+            0.3286,
+            0.4929,
+            4.4308,
+            6.6462,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.20832,
+            0.31248,
+            0.3472,
+            0.5208,
+            4.6816,
+            7.0224,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.2232,
+            0.3348,
+            0.372,
+            0.558,
+            5.016,
+            7.524,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.23808,
+            0.35712,
+            0.3968,
+            0.5952,
+            5.3504,
+            8.0256,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.25296,
+            0.37944,
+            0.4216,
+            0.6324,
+            5.6848,
+            8.5272,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.26784,
+            0.40176,
+            0.4464,
+            0.6696,
+            6.0192,
+            9.0288,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.28272,
+            0.42408,
+            0.4712,
+            0.7068,
+            6.3536,
+            9.5304,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.2976,
+            0.4464,
+            0.496,
+            0.744,
+            6.688,
+            10.032,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.3162,
+            0.4743,
+            0.527,
+            0.7905,
+            7.106,
+            10.659,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.3348,
+            0.5022,
+            0.558,
+            0.837,
+            7.524,
+            11.286,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Nahida_01",
+          "desc": [
+            "Pyro: DMG Bonus|1 Character {param1:F1P}",
+            "Pyro: DMG Bonus|2 Characters {param2:F1P}",
+            "Electro: Trigger Interval Decrease|1 Character {param3:F2}s",
+            "Electro: Trigger Interval Decrease|2 Characters {param4:F2}s",
+            "Hydro: Duration Extension|1 Character {param5:F2}s",
+            "Hydro: Duration Extension|2 Characters {param6:F2}s",
+            "Base Duration|{param7:F1}s",
+            "CD|{param8:F1}s",
+            "Energy Cost|{param9:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.3534,
+            0.5301,
+            0.589,
+            0.8835,
+            7.942,
+            11.913,
+            15,
+            13.5,
+            50,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 732101,
+      "name": "Compassion Illuminated",
+      "desc": "When unleashing <color=#FFD780FF>Illusory Heart</color>, the Shrine of Maya will gain the following effects:\\nThe Elemental Mastery of the active character within the field will be increased by 25% of the Elemental Mastery of the party member with the highest Elemental Mastery.\\nYou can gain a maximum of 250 Elemental Mastery in this manner.",
+      "icon": "UI_Talent_S_Nahida_05",
+      "unlock": 1,
+      "param_list": [
+        0.25,
+        250,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 732201,
+      "name": "Awakening Elucidated",
+      "desc": "Each point of Nahida's Elemental Mastery beyond 200 will grant 0.1% Bonus DMG and 0.03% CRIT Rate to Tri-Karma Purification from <color=#FFD780FF>All Schemes to Know</color>.\\nA maximum of 80% Bonus DMG and 24% CRIT Rate can be granted to Tri-Karma Purification in this manner.",
+      "icon": "UI_Talent_S_Nahida_06",
+      "unlock": 4,
+      "param_list": [
+        200,
+        800,
+        0.001,
+        0.0003,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 732301,
+      "name": "On All Things Meditated",
+      "desc": "Nahida can use <color=#FFD780FF>All Schemes to Know</color> to interact with some harvestable items within a fixed AoE.\\nThis skill may even have some other effects...",
+      "icon": "UI_Talent_S_Nahida_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 731,
+      "name": "The Seed of Stored Knowledge",
+      "desc": "When the <color=#FFD780FF>Shrine of Maya</color> is unleashed and the Elemental Types of the party members are being tabulated, the count will add 1 to the number of Pyro, Electro, and Hydro characters respectively.",
+      "icon": "UI_Talent_S_Nahida_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 732,
+      "name": "The Root of All Fullness",
+      "desc": "Opponents that are marked by <color=#FFD780FF>Seeds of Skandha</color> applied by Nahida herself will be affected by the following effects:\\n· Burning, Bloom, Hyperbloom, and Burgeon Reaction DMG they receive can score CRIT Hits. CRIT Rate and CRIT DMG are fixed at 20% and 100% respectively. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.\\n· Within 8s of being affected by Quicken, Aggravate, or Spread, DEF is decreased by 30%.\\n· The CRIT Rate and CRIT DMG of Lunar-Bloom DMG received are increased by 10% and 20% respectively.",
+      "icon": "UI_Talent_S_Nahida_02",
+      "param_list": [
+        0.2,
+        0.3,
+        8,
+        0.1,
+        0.2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 733,
+      "name": "The Shoot of Conscious Attainment",
+      "desc": "Increases the Level of <color=#FFD780FF>All Schemes to Know</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Nahida_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 734,
+      "name": "The Stem of Manifest Inference",
+      "desc": "When 1/2/3/4 (or more) nearby opponents are affected by <color=#FFD780FF>All Schemes to Know</color>'s Seeds of Skandha, Nahida's Elemental Mastery will be increased by 100/120/140/160.",
+      "icon": "UI_Talent_S_Nahida_03",
+      "param_list": [
+        100,
+        120,
+        140,
+        160,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 735,
+      "name": "The Leaves of Enlightening Speech",
+      "desc": "Increases the Level of <color=#FFD780FF>Illusory Heart</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Nahida_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 736,
+      "name": "The Fruit of Reason's Culmination",
+      "desc": "When Nahida hits an opponent affected by <color=#FFD780FF>All Schemes to Know</color>'s Seeds of Skandha with Normal or Charged Attacks after unleashing <color=#FFD780FF>Illusory Heart</color>, she will use Tri-Karma Purification: Karmic Oblivion on this opponent and all connected opponents, dealing <color=#99FF88FF>Dendro DMG</color> based on 200% of Nahida's ATK and 400% of her Elemental Mastery.\\nDMG dealt by Tri-Karma Purification: Karmic Oblivion is considered Elemental Skill DMG and can be triggered once every 0.2s.\\nThis effect can last up to 10s and will be removed after Nahida has unleashed 6 instances of Tri-Karma Purification: Karmic Oblivion.",
+      "icon": "UI_Talent_S_Nahida_04",
+      "param_list": [
+        2,
+        4,
+        6,
+        10,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Sliver",
+            "id": 104131,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Fungal Spores",
+            "id": 112059,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Fragment",
+            "id": 104132,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Quelled Creeper",
+            "id": 113040,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Fungal Spores",
+            "id": 112059,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Fragment",
+            "id": 104132,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Quelled Creeper",
+            "id": 113040,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Luminescent Pollen",
+            "id": 112060,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Chunk",
+            "id": 104133,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Quelled Creeper",
+            "id": 113040,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Luminescent Pollen",
+            "id": 112060,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Chunk",
+            "id": 104133,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Quelled Creeper",
+            "id": 113040,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Crystalline Cyst Dust",
+            "id": 112061,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Gemstone",
+            "id": 104134,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Quelled Creeper",
+            "id": 113040,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Crystalline Cyst Dust",
+            "id": 112061,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Ingenuity",
+              "id": 104332,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Fungal Spores",
+              "id": 112059,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Ingenuity",
+              "id": 104332,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Fungal Spores",
+              "id": 112059,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Ingenuity",
+              "id": 104332,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Fungal Spores",
+              "id": 112059,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Luminescent Pollen",
+              "id": 112060,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Crystalline Cyst Dust",
+              "id": 112061,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Puppet Strings",
+              "id": 113041,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Gadget",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 80
+      },
+      "element": "Grass",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 7.557
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 6.933
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 8.601
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "Attack04",
+      "icd": {
+        "tag": "NormalAttack_04",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 10.951
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_04_Damage"
+    },
+    {
+      "name": "ElementalArt_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 75
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Click_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "ElementalArt",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 7,
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
+}

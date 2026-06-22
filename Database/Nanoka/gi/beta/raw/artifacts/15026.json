@@ -1,0 +1,138 @@
+{
+  "id": 15026,
+  "icon": "UI_RelicIcon_15026_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 80
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150260,
+      "id": 215026,
+      "param_list": [
+        80,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Gilded Dreams",
+      "desc": "Increases Elemental Mastery by 80."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150261,
+      "id": 215026,
+      "level": 1,
+      "open_config": "Relic_ElemMasteryGathering",
+      "param_list": [
+        0.14,
+        50,
+        8,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Gilded Dreams",
+      "desc": "Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15026_1",
+      "name": "Honeyed Final Feast",
+      "desc": "A wine cup that was once used at a grand and ancient feast. It has now lost much of that luster.",
+      "story": {
+        "285261": {
+          "zh": "ART/UI/Readable/CHS/Relic15026_1",
+          "en": "ART/UI/Readable/EN/Relic15026_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15026_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15026_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15026_2",
+      "name": "Feather of Judgment",
+      "desc": "This special feather was once used to weigh the hearts of the guilty, but it has since lost its original function.",
+      "story": {
+        "285262": {
+          "zh": "ART/UI/Readable/CHS/Relic15026_2",
+          "en": "ART/UI/Readable/EN/Relic15026_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15026_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15026_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15026_3",
+      "name": "Shadow of the Sand King",
+      "desc": "This gold-inlaid headband was once used by desert priests in the days of old. They were made in imitation of one worn by a legendary ruler of the desert peoples.",
+      "story": {
+        "285263": {
+          "zh": "ART/UI/Readable/CHS/Relic15026_3",
+          "en": "ART/UI/Readable/EN/Relic15026_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15026_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15026_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15026_4",
+      "name": "Dreaming Steelbloom",
+      "desc": "A flower bud made of hammered dark gold. Its crimson core is wrapped by petals that shall never open.",
+      "story": {
+        "285264": {
+          "zh": "ART/UI/Readable/CHS/Relic15026_4",
+          "en": "ART/UI/Readable/EN/Relic15026_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15026_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15026_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15026_5",
+      "name": "The Sunken Years",
+      "desc": "This dark-golden sundial seems to tell the ancient tale of the desert.",
+      "story": {
+        "285265": {
+          "zh": "ART/UI/Readable/CHS/Relic15026_5",
+          "en": "ART/UI/Readable/EN/Relic15026_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15026_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15026_5_KR"
+        }
+      }
+    }
+  }
+}

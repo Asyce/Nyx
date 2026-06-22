@@ -1,0 +1,206 @@
+{
+  "name": "Cryo Hypostasis",
+  "desc": "Code name: Daleth. A high-purity Cryo entity.\\nResearch suggests that there are subtle differences between elemental hypostases and other elemental life forms in terms of their physical composition. Perhaps these differences can account for their high level of homeostasis and their almost mechanical movements.",
+  "icon": "UI_MonsterIcon_Effigy_Ice",
+  "codex": "ELEMENTAL",
+  "title": "Cryo Hypostasis",
+  "special_names": [
+    "Daleth"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113020,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113020"
+    },
+    {
+      "id": 104164,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    {
+      "id": 104163,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    {
+      "id": 104162,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    {
+      "id": 104161,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400148,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15013_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400147,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15013_3"
+    },
+    {
+      "id": 400052,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10011_4"
+    }
+  ],
+  "child": {
+    "20040501": {
+      "monster_name": "Effigy_Ice_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010036,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20040502": {
+      "monster_name": "Effigy_Ice_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010036,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010036,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 122.256,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

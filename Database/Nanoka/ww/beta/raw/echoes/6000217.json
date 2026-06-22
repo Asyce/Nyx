@@ -1,0 +1,121 @@
+{
+  "id": 6000217,
+  "code": "T01-",
+  "name": "Stay tuned",
+  "type": "",
+  "intensity": "",
+  "place": "",
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34030_UI.T_IconMonsterHead_34030_UI",
+  "skill": {
+    "desc": "",
+    "simple_desc": "",
+    "param": [
+      [
+        "2.30%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "2.76%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "3.22%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "3.68%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ],
+      [
+        "4.14%",
+        "12.00%",
+        "12.00%",
+        "20"
+      ]
+    ],
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "damage": {
+      "28004201": {
+        "element": 2,
+        "related_property": "HP",
+        "type": 5,
+        "rate_lv": [
+          230,
+          276,
+          322,
+          368,
+          414
+        ],
+        "energy": 126,
+        "element_power": 0,
+        "hardness_lv": 10000,
+        "tough_lv": 230,
+        "weakness_lvl": 0
+      }
+    }
+  },
+  "group": {
+    "34": {
+      "id": 34,
+      "name": "Heart of Evil's Purge",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriQingxiao.T_IconElementAttriQingxiao",
+      "color": "FFFFFF00",
+      "set": {
+        "2": {
+          "desc": "Aero DMG + {0}",
+          "param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "desc": "Inflicting Tune Strain - Shifting increases Crit. DMG by {0} and Aero DMG Bonus {1} for {2}s.",
+          "param": [
+            "20%",
+            "30%",
+            "15"
+          ]
+        }
+      }
+    },
+    "35": {
+      "id": 35,
+      "name": "Lamp of Nether Road",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriJingran.T_IconElementAttriJingran",
+      "color": "FFFFFF00",
+      "set": {
+        "2": {
+          "desc": "HP + {0}",
+          "param": [
+            "10%"
+          ]
+        },
+        "5": {
+          "desc": "Upon gaining a Shield, gain {0} increase in Crit. Rate for {2}, max {1} stacks. This effect can be triggered every {3}s. At max stacks, gain {4} Fusion DMG Bonus.",
+          "param": [
+            "5%",
+            "4",
+            "5",
+            "0.5",
+            "15%"
+          ]
+        }
+      }
+    }
+  },
+  "rarity": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "intensity_code": 2,
+  "monster_info": 340000300
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Iktomisaurus",
+  "desc": "Able to use their plumage for leaping, Iktomisaurs are also the only type of Saurian to have grasped how to enter the \"Spiritspeaker\" state.\\nAccording to legend, their ancestors did not have a physical form, and instead could drift like spirits between reality and the spiritual realm, manifesting themselves through the darkness of night. Some also say that the first Iktomisaur to emerge from the Night Kingdom was not actually a true Saurian, but rather a unique race distinct from ordinary Saurians.",
+  "icon": "UI_MonsterIcon_Natsaurus_Shamansaurus_Normal",
+  "codex": "BEAST",
+  "title": "Iktomisaurus",
+  "special_names": [
+    "Ranging Saurians of Natlan"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112103,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    {
+      "id": 112102,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    {
+      "id": 112101,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    }
+  ],
+  "child": {
+    "26240201": {
+      "monster_name": "Monster_Natsaurus_Shamansaurus_Normal_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 36.6768,
+        "atk": 33.912,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26240202": {
+      "monster_name": "Monster_Natsaurus_Shamansaurus_Normal_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 36.6768,
+        "atk": 33.912,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26240290": {
+      "monster_name": "Monster_Natsaurus_Shamansaurus_Normal_04_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 42.712963,
+        "atk": 49.17,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

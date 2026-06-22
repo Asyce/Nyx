@@ -1,0 +1,140 @@
+{
+  "id": 10008,
+  "icon": "UI_RelicIcon_10008_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100080,
+      "id": 210008,
+      "open_config": "Relic_SkillDamageUp",
+      "param_list": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Gambler",
+      "desc": "Increases Elemental Skill DMG by 20%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100081,
+      "id": 210008,
+      "level": 1,
+      "open_config": "Relic_KillingRefreshSkill",
+      "param_list": [
+        15,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Gambler",
+      "desc": "Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10008_1",
+      "name": "Gambler's Dice Cup",
+      "desc": "This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it.",
+      "story": {
+        "280081": {
+          "zh": "ART/UI/Readable/CHS/Relic10008_1",
+          "en": "ART/UI/Readable/EN/Relic10008_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10008_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10008_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10008_2",
+      "name": "Gambler's Feather Accessory",
+      "desc": "The tail feather of a large bird. Perfect for discretely concealing a trump card.",
+      "story": {
+        "280082": {
+          "zh": "ART/UI/Readable/CHS/Relic10008_2",
+          "en": "ART/UI/Readable/EN/Relic10008_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10008_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10008_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10008_3",
+      "name": "Gambler's Earrings",
+      "desc": "A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks.",
+      "story": {
+        "280083": {
+          "zh": "ART/UI/Readable/CHS/Relic10008_3",
+          "en": "ART/UI/Readable/EN/Relic10008_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10008_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10008_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10008_4",
+      "name": "Gambler's Brooch",
+      "desc": "A big, luxurious flower that can hide loaded dice.",
+      "story": {
+        "280084": {
+          "zh": "ART/UI/Readable/CHS/Relic10008_4",
+          "en": "ART/UI/Readable/EN/Relic10008_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10008_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10008_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10008_5",
+      "name": "Gambler's Pocket Watch",
+      "desc": "A shattered pocket watch that once took a lethal hit for its owner.",
+      "story": {
+        "280085": {
+          "zh": "ART/UI/Readable/CHS/Relic10008_5",
+          "en": "ART/UI/Readable/EN/Relic10008_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10008_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10008_5_KR"
+        }
+      }
+    }
+  }
+}

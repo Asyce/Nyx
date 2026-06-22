@@ -1,0 +1,33 @@
+{
+  "name": "Genius of Brilliant Stars",
+  "icon": "SpriteOutput/ItemIcon/71007.png",
+  "parts": {
+    "31081": {
+      "name": "Genius's Ultraremote Sensing Visor"
+    },
+    "31082": {
+      "name": "Genius's Frequency Catcher"
+    },
+    "31083": {
+      "name": "Genius's Metafield Suit"
+    },
+    "31084": {
+      "name": "Genius's Gravity Walker"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases Quantum DMG by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.1
+      ]
+    },
+    "4": {
+      "desc": "When the wearer deals DMG to the target enemy, ignores <unbreak>#1[i]%</unbreak> DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores <unbreak>#2[i]%</unbreak> DEF.",
+      "param_list": [
+        0.1,
+        0.1
+      ]
+    }
+  }
+}

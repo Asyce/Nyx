@@ -1,0 +1,219 @@
+{
+  "name": "Radiant Moonfly",
+  "desc": "The moon's ancient power has seeped into these illusory wings, and the butterfly-shaped monster now dances lightly in the moonlight.\\nThe principles of evolution state that after the wild yet primeval power was tamed by the heavenly ruler, such a monster should not be able to maintain its shape, becoming smaller and weaker over time. However, the moon's blessing has allowed it to glide through this world while remaining in its prime, displaying the remnants of an older world, when the ancient moon once illuminated the land.",
+  "icon": "UI_MonsterIcon_Magbeast_Pergesa",
+  "codex": "BEAST",
+  "title": "Shifting Shadow Beneath the Moon",
+  "special_names": [
+    "Radiant Moonfly"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113078,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113078"
+    },
+    {
+      "id": 104134,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104134"
+    },
+    {
+      "id": 104133,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104133"
+    },
+    {
+      "id": 104132,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104132"
+    },
+    {
+      "id": 104131,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104131"
+    },
+    {
+      "id": 104114,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    {
+      "id": 104113,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    {
+      "id": 104112,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    {
+      "id": 104111,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400047,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10010_4"
+    }
+  ],
+  "child": {
+    "26301101": {
+      "monster_name": "Monster_Magbeast_Pergesa_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.7,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 217.344,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26301102": {
+      "monster_name": "Monster_Magbeast_Pergesa_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.7,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 217.344,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

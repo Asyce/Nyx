@@ -1,0 +1,168 @@
+{
+  "name": "Tepetlisaurus",
+  "desc": "A Saurian with a drill-like horn and strong claws that can tunnel through rocks and solid phlogiston.\\nAccording to legend, the ancestor of all Tepetlisaurs was a massive drake as large as a mountain, with an exceptionally long lifespan. When it slept, mountains would form along its back, and when it woke, it would shake off the dirt and rocks, leaving behind gems and jade shining amongst its scales. The huge, drill-shaped objects in the Children of Echoes are said to be the remains of that great drake's large drill-horn.",
+  "icon": "UI_MonsterIcon_Natsaurus_Drillhead_Normal",
+  "codex": "BEAST",
+  "title": "Tepetlisaurus",
+  "special_names": [
+    "Ranging Saurians of Natlan"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112103,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112103"
+    },
+    {
+      "id": 112102,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112102"
+    },
+    {
+      "id": 112101,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112101"
+    }
+  ],
+  "child": {
+    "26200201": {
+      "monster_name": "Monster_Natsaurus_Drillhead_Normal_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26200202": {
+      "monster_name": "Monster_Natsaurus_Drillhead_Normal_01_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26200290": {
+      "monster_name": "Monster_Natsaurus_Drillhead_Normal_02_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 48.22431,
+        "atk": 44.22,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

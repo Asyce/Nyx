@@ -1,0 +1,178 @@
+{
+  "name": "Stormterror",
+  "desc": "One of The Four Winds of Mondstadt: Dvalin, the Dragon of the East.\\nWith the passage of long years and amid boundless darkness, even the purest gem will become dulled by dust, and even the noble dragon might be corrupted and cankered by hatred.\\nBut never forget that dust can be wiped away, and the power of doubt and poison can be shattered.\\n\\n<i>\"Fly freely in the sky.</i>\\n<i>\"Just like you did in those days when we met, when I walked upon this land and sang the songs of the wind,</i>\\n<i>\"And you soared on high, looking down on the world from above.</i>\\n<i>\"Today, the sky is no longer swept by wind and snow. The green grass grows all over the earth, and it is beautiful.</i>\\n<i>\"If you too could walk the earth and listen to the songs of shepherds and the scattered sound of wind chimes in the distance, if you could have tasted wine as sweet as honey, you would understand.</i>\\n<i>\"How wonderful it would have been if you were as I, witnessing your noble, beautiful form as you soared through the blue sky.</i>\\n<i>\"Then you would know that this sky and this earth are both things worth fighting for.\"</i>",
+  "icon": "UI_MonsterIcon_Dvalin",
+  "codex": "BOSS",
+  "title": "Howling Hurricane of Mondstadt",
+  "special_names": [
+    "Stormterror",
+    "Stormterror Dvalin"
+  ],
+  "reward": [],
+  "child": {
+    "29010101": {
+      "monster_name": "Monster_Dragon_Dvalin_S01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_NONE",
+          "type": "FIGHT_PROP_NONE"
+        },
+        {
+          "grow_curve": "GROW_CURVE_NONE",
+          "type": "FIGHT_PROP_NONE"
+        },
+        {
+          "grow_curve": "GROW_CURVE_NONE",
+          "type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0,
+        "elec": 0,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 150,
+        "atk": 100,
+        "def": 0,
+        "em": 0
+      }
+    },
+    "29010102": {
+      "monster_name": "Monster_Dragon_Dvalin_S04",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 42.704,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29010103": {
+      "monster_name": "Monster_Dragon_Dvalin_S00",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_NONE",
+          "type": "FIGHT_PROP_NONE"
+        },
+        {
+          "grow_curve": "GROW_CURVE_NONE",
+          "type": "FIGHT_PROP_NONE"
+        },
+        {
+          "grow_curve": "GROW_CURVE_NONE",
+          "type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0,
+        "grass": 0,
+        "water": 0,
+        "elec": 0,
+        "wind": 0,
+        "ice": 0,
+        "rock": 0,
+        "physical": 0
+      },
+      "base": {
+        "hp": 200,
+        "atk": 100,
+        "def": 0,
+        "em": 0
+      }
+    },
+    "29010104": {
+      "monster_name": "Monster_Dragon_Dvalin_S04",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 122.256,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": 350000180,
+  "name": "Phantom: Capitaneus",
+  "desc": "It holds the authority to command other Echoes of the Order, carrying out the Order's will to eliminate any transgressors.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Light>Spectro DMG</color>.\n\nIt holds the authority to command other Echoes of the Order, carrying out the Order's will to eliminate any transgressors.\n\nJust as the Order's authority is inviolable, so too is the power of the Echo.",
+  "rarity": 2,
+  "element": 5,
+  "element_array": [
+    5
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32033_1_UI.T_IconMonsterHead_32033_1_UI",
+  "echo": 6010104,
+  "base_stats": {},
+  "stats": {}
+}

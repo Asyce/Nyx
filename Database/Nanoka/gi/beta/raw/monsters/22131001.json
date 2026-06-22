@@ -1,0 +1,250 @@
+{
+  "name": "Wilderness Hunter",
+  "desc": "A ghoul that stalks the frozen wilderness when the pitch-dark mist rolls in. Their emergence presages worse calamities to come.\\nMany great champions of a lost ancient kingdom lie buried beneath the frozen northlands. Though the remnants of the past have been long wiped clean, these noble spirits yet defend their golden homeland. Awakened by Abyssal taint, these warriors now see all who trespass as prey.",
+  "icon": "UI_MonsterIcon_WildHunt_Elite",
+  "codex": "ABYSS",
+  "title": "Shadow of the Wild Hunt",
+  "special_names": [
+    "Wilderness Hunter"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112136,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112136"
+    },
+    {
+      "id": 112135,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112135"
+    },
+    {
+      "id": 112134,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112134"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "22131001": {
+      "monster_name": "Monster_WildHunt_Elite_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 141.2736,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22131002": {
+      "monster_name": "Monster_WildHunt_Elite_01_Quest",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 141.2736,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22131003": {
+      "monster_name": "Monster_WildHunt_Elite_01_AbyssCity",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 141.2736,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22131090": {
+      "monster_name": "Monster_WildHunt_Elite_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 338.5277,
+        "atk": 60.315,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

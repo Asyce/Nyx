@@ -1,0 +1,456 @@
+{
+  "name": "Kairagi: Dancing Thunder",
+  "desc": "Samurai who have fallen into banditry.\\nThey possess highly advanced martial art skills but found no use for them for various reasons. Out of desperation, they have fallen onto the path of evil. They use paper seals, created from a Kamuna art that has been lost for centuries, to infuse their blades with the power of lightning.",
+  "icon": "UI_MonsterIcon_Samurai_Kairagi_01",
+  "codex": "HUMAN",
+  "title": "Kairagi: Dancing Thunder",
+  "special_names": [
+    "\"Shady Samanosuke\"",
+    "\"Firefly Cutter Toudou\"",
+    "\"Stormchaser Ushiuemon\"",
+    "\"Bald Viper\"",
+    "\"Tiger of Higi\"",
+    "\"Indomitable Youji\"",
+    "\"Niimura Kiyokuwa\"",
+    "\"Undying Heibei\"",
+    "\"Captain Ikki\"",
+    "\"Takatsukasa the Terrible\"",
+    "\"Ichimonji Shun\"",
+    "\"Sakon the Hound\"",
+    "\"Flowery Soubei\"",
+    "\"Prodigal Jiroumasaichi\"",
+    "\"Amanojaku Ietoshi\"",
+    "\"Iesada the Frog\"",
+    "\"Eyes-Behind-His-Back Saizou\"",
+    "\"Harutada of Jinren Island\"",
+    "\"Hidemitsu of Jinren Island\"",
+    "\"Red-Eyes Hori\"",
+    "\"Wild Dog Watanabe\"",
+    "\"Kamakirisuke\"",
+    "\"Bladedancer Fuminosuke\""
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112046,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112046"
+    },
+    {
+      "id": 112045,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112045"
+    },
+    {
+      "id": 112044,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112044"
+    }
+  ],
+  "child": {
+    "25100101": {
+      "monster_name": "Samurai_Kairagi_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 65.2032,
+        "atk": 94.2,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25100102": {
+      "monster_name": "Samurai_Kairagi_05",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 103.2384,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25100103": {
+      "monster_name": "Samurai_Kairagi_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25100181": {
+      "monster_name": "Samurai_Kairagi_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 65.2032,
+        "atk": 94.2,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25100182": {
+      "monster_name": "Samurai_Kairagi_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 65.2032,
+        "atk": 94.2,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25100183": {
+      "monster_name": "Samurai_Kairagi_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 65.2032,
+        "atk": 94.2,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25100190": {
+      "monster_name": "Samurai_Kairagi_07",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 16.3008,
+        "atk": 100.4,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25100191": {
+      "monster_name": "Samurai_Kairagi_01_MvM",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 88.23,
+        "atk": 94.35,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25100192": {
+      "monster_name": "Samurai_Kairagi_01_MvM",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 41.256317,
+        "atk": 33.005054,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "name": "Secret Source Automaton: Overseer Device",
+  "desc": "A domination mechanism from the ancient ruins.\\nIn ancient times, to oversee the operation of their mega-cities, a mighty race vested part of their power into a form of phlogiston-engineered intelligence. Driven by their mission, and by means of various other mechanisms, the machines upon which it was bestowed once controlled the functioning of myriad cities across the land. Now, long after their ancient civilization's fall through wars with an emerging race, these once-wise contraptions retain only the most basic of commands.",
+  "icon": "UI_MonsterIcon_DragonCollar",
+  "codex": "AUTOMATRON",
+  "title": "Secret Source Automaton: Overseer Device",
+  "special_names": [
+    "Ancient Ruins Master Terminal"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113076,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113076"
+    },
+    {
+      "id": 104124,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104124"
+    },
+    {
+      "id": 104123,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104123"
+    },
+    {
+      "id": 104122,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104122"
+    },
+    {
+      "id": 104121,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104121"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400133,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15010_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400132,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15010_3"
+    },
+    {
+      "id": 400047,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10010_4"
+    }
+  ],
+  "child": {
+    "24090501": {
+      "monster_name": "DragonCollar",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 293.4144,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24090502": {
+      "monster_name": "DragonCollar",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 335.6541,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24090503": {
+      "monster_name": "DragonCollar",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 335.6541,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24090504": {
+      "monster_name": "DragonCollar",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 335.6541,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

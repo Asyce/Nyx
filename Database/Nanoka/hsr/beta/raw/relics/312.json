@@ -1,0 +1,21 @@
+{
+  "name": "Penacony, Land of the Dreams",
+  "icon": "SpriteOutput/ItemIcon/71027.png",
+  "parts": {
+    "33125": {
+      "name": "Penacony's Grand Hotel"
+    },
+    "33126": {
+      "name": "Penacony's Dream-Seeking Tracks"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases wearer's Energy Regeneration Rate by <unbreak>#1[i]%</unbreak>. Increases DMG by <unbreak>#2[i]%</unbreak> for all other allies that are of the same Type as the wearer.",
+      "param_list": [
+        0.05,
+        0.1
+      ]
+    }
+  }
+}

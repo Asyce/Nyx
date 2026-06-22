@@ -1,0 +1,199 @@
+{
+  "name": "Wayward Hermetic Spiritspeaker",
+  "desc": "A priestess of the Masters of the Night-Wind who has lived apart from her tribe, honing her abilities in utter solitude. It is said that her Spiritspeaking powers surpass those of ordinary priests and shamans, a result of having had the protection of the Masters of the Night-Wind's Wayob bestowed upon her. Both a blessing and a curse, these powers were at first beyond her ability to control, which was why she set out to master them in isolation from her tribe. Though she has since done so, to this day she still lives in seclusion, a habit that has earned her a reputation as a loner and a recluse. Rumor has it, however, that she is more than willing to teach those who seek her guidance — though always on her own terms...",
+  "icon": "UI_MonsterIcon_TribalWarrior_Udugan",
+  "codex": "HUMAN",
+  "title": "Wayward Hermetic Spiritspeaker",
+  "special_names": [
+    "Sequestered Priestess"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113071,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113071"
+    },
+    {
+      "id": 104164,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    {
+      "id": 104163,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    {
+      "id": 104162,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    {
+      "id": 104161,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400148,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15013_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400147,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15013_3"
+    },
+    {
+      "id": 400052,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10011_4"
+    }
+  ],
+  "child": {
+    "25520101": {
+      "monster_name": "TribalWarrior_Udugan",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010036,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.7,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 230.928,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25520102": {
+      "monster_name": "TribalWarrior_Udugan",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.7,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 2.7168,
+        "atk": 113.04,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

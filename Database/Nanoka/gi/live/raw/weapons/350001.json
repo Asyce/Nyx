@@ -1,0 +1,9 @@
+{
+  "name": "Starpiercer",
+  "desc": "A glorious, illusory bow that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a foul sinner in an ancient land.",
+  "weapon_type": "WEAPON_BOW",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_Bow_MorphChrod_{0}",
+  "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+  "skin": true
+}

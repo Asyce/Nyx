@@ -1,0 +1,101 @@
+{
+  "name": "Tatankasaurus",
+  "desc": "A saurian with a hard, bony crest and a powerful body suited to dashing around volcanic landscapes.\\nAccording to legend, the Tatankasaurus's ancestors were so large they could use their horns to move mountains, but they lacked the agility of their smaller, modern relatives. Perhaps the great power that Tatankasaurs still possess is a gift passed down through their bloodline.",
+  "icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Normal",
+  "codex": "BEAST",
+  "title": "Tatankasaurus",
+  "special_names": [
+    "Ranging Saurians of Natlan"
+  ],
+  "reward": [],
+  "child": {
+    "26250201": {
+      "monster_name": "Monster_Natsaurus_Bisonsaurus_Normal_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010014,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.5,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 43.4688,
+        "atk": 45.216,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26250290": {
+      "monster_name": "Monster_Natsaurus_Bisonsaurus_Normal_02_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 45.009357,
+        "atk": 50.49,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

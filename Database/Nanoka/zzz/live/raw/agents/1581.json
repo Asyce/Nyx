@@ -1,0 +1,333 @@
+{
+  "id": 1581,
+  "icon": "",
+  "name": "Avatar_Female_Size02_Remielle",
+  "code_name": "Avatar_Female_Size02_Remielle_En",
+  "rarity": 4,
+  "weapon_type": {
+    "5": "Defense"
+  },
+  "element_type": {
+    "200": "Physical"
+  },
+  "special_element_type": {},
+  "hit_type": {
+    "101": "Slash"
+  },
+  "camp": {
+    "11": "Spook Shack"
+  },
+  "gender": 2,
+  "partner_info": {},
+  "skin": {
+    "3115811": {
+      "name": "AvatarSkin_RemielleOrigin_Name_001",
+      "desc": "AvatarSkin_RemielleOrigin_Desc_001",
+      "image": "IconRole57_01_Form2"
+    }
+  },
+  "stats": {
+    "armor": 0,
+    "armor_growth": 0,
+    "attack": 110,
+    "attack_growth": 65027,
+    "avatar_piece_id": 5581,
+    "break_stun": 93,
+    "crit": 500,
+    "crit_damage": 5000,
+    "crit_dmg_res": 0,
+    "crit_res": 0,
+    "defence": 56,
+    "defence_growth": 76592,
+    "element_abnormal_power": 93,
+    "element_mystery": 96,
+    "endurance": 0,
+    "hp_growth": 994816,
+    "hp_max": 733,
+    "pen_delta": 0,
+    "pen_rate": 0,
+    "rbl": 1,
+    "rbl_correction_factor": 10000,
+    "rbl_probability": 0,
+    "shield": 0,
+    "shield_growth": 0,
+    "sp_bar_point": 120,
+    "sp_recover": 120,
+    "stun": 0,
+    "tags": [
+      "Remielle",
+      "Cut",
+      "Ether",
+      "Female",
+      "Camp13",
+      "Size2",
+      "AidTypeParry",
+      "Remielle",
+      "EtherEyesSize2"
+    ],
+    "rp_max": 0,
+    "rp_recover": 0
+  },
+  "level": {
+    "1": {
+      "hp_max": 0,
+      "attack": 0,
+      "defence": 0,
+      "level_max": 10,
+      "level_min": 0,
+      "materials": {
+        "10": 24000,
+        "100215": 4
+      }
+    },
+    "2": {
+      "hp_max": 503,
+      "attack": 39,
+      "defence": 39,
+      "level_max": 20,
+      "level_min": 10,
+      "materials": {
+        "10": 56000,
+        "100225": 12
+      }
+    },
+    "3": {
+      "hp_max": 1006,
+      "attack": 79,
+      "defence": 77,
+      "level_max": 30,
+      "level_min": 20,
+      "materials": {
+        "10": 120000,
+        "100225": 20
+      }
+    },
+    "4": {
+      "hp_max": 1509,
+      "attack": 118,
+      "defence": 116,
+      "level_max": 40,
+      "level_min": 30,
+      "materials": {
+        "10": 200000,
+        "100235": 10
+      }
+    },
+    "5": {
+      "hp_max": 2012,
+      "attack": 157,
+      "defence": 155,
+      "level_max": 50,
+      "level_min": 40,
+      "materials": {
+        "10": 400000,
+        "100235": 20
+      }
+    },
+    "6": {
+      "hp_max": 2515,
+      "attack": 197,
+      "defence": 194,
+      "level_max": 60,
+      "level_min": 50,
+      "materials": {}
+    }
+  },
+  "extra_level": {
+    "1": {
+      "max_level": 15,
+      "extra": {
+        "11102": {
+          "prop": 11102,
+          "name": "HP",
+          "format": "{0:0.#%}",
+          "value": 600
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 0
+        }
+      }
+    },
+    "2": {
+      "max_level": 25,
+      "extra": {
+        "11102": {
+          "prop": 11102,
+          "name": "HP",
+          "format": "{0:0.#%}",
+          "value": 600
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 25
+        }
+      }
+    },
+    "3": {
+      "max_level": 35,
+      "extra": {
+        "11102": {
+          "prop": 11102,
+          "name": "HP",
+          "format": "{0:0.#%}",
+          "value": 1200
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 25
+        }
+      }
+    },
+    "4": {
+      "max_level": 45,
+      "extra": {
+        "11102": {
+          "prop": 11102,
+          "name": "HP",
+          "format": "{0:0.#%}",
+          "value": 1200
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 50
+        }
+      }
+    },
+    "5": {
+      "max_level": 55,
+      "extra": {
+        "11102": {
+          "prop": 11102,
+          "name": "HP",
+          "format": "{0:0.#%}",
+          "value": 1800
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 50
+        }
+      }
+    },
+    "6": {
+      "max_level": 60,
+      "extra": {
+        "11102": {
+          "prop": 11102,
+          "name": "HP",
+          "format": "{0:0.#%}",
+          "value": 1800
+        },
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 75
+        }
+      }
+    }
+  },
+  "level_exp": [
+    50,
+    150,
+    250,
+    400,
+    600,
+    800,
+    1000,
+    1250,
+    1500,
+    1800,
+    1935,
+    2065,
+    2200,
+    2335,
+    2465,
+    2600,
+    2735,
+    2865,
+    3000,
+    4680,
+    4975,
+    5265,
+    5560,
+    5855,
+    6145,
+    6440,
+    6735,
+    7025,
+    7320,
+    10800,
+    11400,
+    12000,
+    12600,
+    13200,
+    13800,
+    14400,
+    15000,
+    15600,
+    16200,
+    17100,
+    18300,
+    19500,
+    20700,
+    21900,
+    23100,
+    24300,
+    25500,
+    26700,
+    27900,
+    34200,
+    36600,
+    39000,
+    41400,
+    43800,
+    46200,
+    48600,
+    51000,
+    53400,
+    55800,
+    0
+  ],
+  "skill": {
+    "basic": {
+      "description": [],
+      "material": {}
+    },
+    "dodge": {
+      "description": [],
+      "material": {}
+    },
+    "special": {
+      "description": [],
+      "material": {}
+    },
+    "chain": {
+      "description": [],
+      "material": {}
+    },
+    "assist": {
+      "description": [],
+      "material": {}
+    }
+  },
+  "skill_list": {},
+  "passive": {
+    "level": {}
+  },
+  "talent": {},
+  "fairy_recommend": {},
+  "strategy": {},
+  "potential": [],
+  "potential_detail": {}
+}

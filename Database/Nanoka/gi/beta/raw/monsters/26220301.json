@@ -1,0 +1,240 @@
+{
+  "name": "Gluttonous Yumkasaur Mountain King",
+  "desc": "A powerful Yumkasaur that has survived both the ravages of time and countless battles, surviving until the present day.\\nThis \"Mountain King,\" who once joined forces with the great heroes against the Black Tide, holds a special place in the hearts of the Scions of the Canopy. Some tribe members believe that it has its current body shape because it has a unique physique, like the Qucusaurus \"Tyrant\"... Though in fact, this is simply because it's lived for so long, and eaten way, WAY too much.",
+  "icon": "UI_MonsterIcon_Natsaurus_Hookwalker_Primo",
+  "codex": "BEAST",
+  "title": "Gluttonous Yumkasaur Mountain King",
+  "special_names": [
+    "Lord of the Mountain"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113065,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113065"
+    },
+    {
+      "id": 104134,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104134"
+    },
+    {
+      "id": 104133,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104133"
+    },
+    {
+      "id": 104132,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104132"
+    },
+    {
+      "id": 104131,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104131"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400047,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10010_4"
+    }
+  ],
+  "child": {
+    "26220301": {
+      "monster_name": "Monster_Natsaurus_Hookwalker_Primo_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010033,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010033,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010033,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.7,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 366.768,
+        "atk": 105.504,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26220302": {
+      "monster_name": "Monster_Natsaurus_Hookwalker_Primo_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010033,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010033,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010033,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.7,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 326.016,
+        "atk": 67.824,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26220303": {
+      "monster_name": "Monster_Natsaurus_Hookwalker_Primo_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010033,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010033,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010033,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.7,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 366.768,
+        "atk": 105.504,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

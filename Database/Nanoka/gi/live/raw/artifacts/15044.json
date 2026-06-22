@@ -1,0 +1,145 @@
+{
+  "id": 15044,
+  "icon": "UI_RelicIcon_15044_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150440,
+      "id": 215044,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "A Day Carved From Rising Winds",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150441,
+      "id": 215044,
+      "level": 1,
+      "open_config": "Relic_6.3_MajoKai",
+      "param_list": [
+        6,
+        0.25,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "A Day Carved From Rising Winds",
+      "desc": "After a Normal Attack, Charged Attack, Elemental Skill, or Elemental Burst hits an opponent, gain the Blessing of Pastoral Winds effect for 6s: ATK is increased by 25%. If the equipping character has completed Witch's Homework, Blessing of Pastoral Winds will be upgraded to Resolve of Pastoral Winds, which additionally increases the CRIT Rate of the equipping character by 20%. This effect can be triggered even when the character is off-field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15044_1",
+      "name": "Heldenepos's Unspoken Tale",
+      "desc": "An ancient goblet, its azure surface weathered by time. It is rumored to have belonged to an unnamed bard in ages past.",
+      "story": {
+        "285441": {
+          "zh": "ART/UI/Readable/CHS/Relic15044_1",
+          "en": "ART/UI/Readable/EN/Relic15044_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15044_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15044_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15044_2",
+      "name": "Dawn's Brilliant Oath",
+      "desc": "A feather accessory of azure, clear as the dawn, said to have once belonged to a guard who cast aside his name in ages past.",
+      "story": {
+        "285442": {
+          "zh": "ART/UI/Readable/CHS/Relic15044_2",
+          "en": "ART/UI/Readable/EN/Relic15044_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15044_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15044_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15044_3",
+      "name": "Minnesang of Love and Lament",
+      "desc": "A luxurious hair accessory adorned with jade and azure crystals, said to have once been a token bestowed by the Lord of Storm upon a favored recipient in ages past.",
+      "story": {
+        "285443": {
+          "zh": "ART/UI/Readable/CHS/Relic15044_3",
+          "en": "ART/UI/Readable/EN/Relic15044_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15044_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15044_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15044_4",
+      "name": "Windborne Flower's Spruchdichtung",
+      "desc": "An azure crystal bloom that never withers, said to have once belonged, in ages past, to a wandering girl who invoked the thousand winds and countless flowers.",
+      "story": {
+        "285444": {
+          "zh": "ART/UI/Readable/CHS/Relic15044_4",
+          "en": "ART/UI/Readable/EN/Relic15044_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15044_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15044_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15044_5",
+      "name": "A Note in Spring's Leich",
+      "desc": "An hourglass filled with azure sand. For reasons unknown, no matter how it is turned, the grains within it refuse to stir.",
+      "story": {
+        "285445": {
+          "zh": "ART/UI/Readable/CHS/Relic15044_5",
+          "en": "ART/UI/Readable/EN/Relic15044_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15044_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15044_5_KR"
+        }
+      }
+    }
+  }
+}

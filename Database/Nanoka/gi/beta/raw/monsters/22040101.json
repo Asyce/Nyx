@@ -1,0 +1,201 @@
+{
+  "name": "Rockfond Rifthound Whelp",
+  "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\\nThey follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world.",
+  "icon": "UI_MonsterIcon_Hound_Kanis_Rock",
+  "codex": "ABYSS",
+  "title": "Rifthound Whelp",
+  "special_names": [
+    "Gap-Infiltrating Aliens"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112058,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112058"
+    },
+    {
+      "id": 112057,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112057"
+    },
+    {
+      "id": 112056,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112056"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "22040101": {
+      "monster_name": "Hound_Kanis_Rock_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.2,
+        "grass": 0.2,
+        "water": 0.2,
+        "elec": 0.2,
+        "wind": 0.2,
+        "ice": 0.2,
+        "rock": 0.2,
+        "physical": 0.2
+      },
+      "base": {
+        "hp": 32.6016,
+        "atk": 15.072,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22040102": {
+      "monster_name": "Hound_Kanis_Rock_01_Crystallization",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.2,
+        "grass": 0.2,
+        "water": 0.2,
+        "elec": 0.2,
+        "wind": 0.2,
+        "ice": 0.2,
+        "rock": 0.2,
+        "physical": 0.2
+      },
+      "base": {
+        "hp": 32.6016,
+        "atk": 15.072,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22040103": {
+      "monster_name": "Hound_Kanis_Rock_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.2,
+        "grass": 0.2,
+        "water": 0.2,
+        "elec": 0.2,
+        "wind": 0.2,
+        "ice": 0.2,
+        "rock": 0.2,
+        "physical": 0.2
+      },
+      "base": {
+        "hp": 32.6016,
+        "atk": 15.072,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

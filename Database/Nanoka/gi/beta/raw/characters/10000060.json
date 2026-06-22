@@ -1,0 +1,4282 @@
+{
+  "name": "Yelan",
+  "desc": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
+  "chara_info": {
+    "release_date": "2022-05-31 00:00:00",
+    "birth": [
+      4,
+      20
+    ],
+    "vision": "Hydro",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Umbrabilis Orchis",
+    "region": "ASSOC_TYPE_LIYUE",
+    "title": "Valley Orchid",
+    "native": "Yanshang Teahouse",
+    "detail": "A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs' list.",
+    "va": {
+      "chinese": "徐慧",
+      "japanese": "遠藤綾",
+      "english": "Laura Post",
+      "korean": "Min Ah"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Liyue's Ministry of Civil Affairs is an organization marked by transparency — from ordinary staff members of the Eight Trades to prominent officials of Yujing Terrace, every employee has their basic information documented in the Ministry's lists.\\nYelan, despite claiming to work for the Ministry, is the sole exception. Most of her colleagues have never heard of her, nor is her name anywhere to be found on any rosters.\\nThis does say something about her character — elusive, enigmatic, and erratic.\\nShe is a ghost who walks in the middle of many crises under various names. But before the storms can come to an end, she has already disappeared without a trace.\\nSometimes, she will pick a side in some conflict to offer her help, but those who receive her aid would be fools to celebrate prematurely, for they soon find that the same help has been extended to their opponents.\\nHaving stepped into her trap, many have vowed to take revenge, yet none are able to tell what she is planning, let alone know where she stands.\\nMany believe that she is a spy who works for some mysterious organization, and that her forte is stirring things up in the dark, which she then relies on to attain what she wants.\\nSome even go as far as saying that she is a frenetic follower of disorder who neither serves any organization nor holds any meaningful purposes.\\nEven if she does, all she wants is to add fuel to the already spreading flame and drag everyone down into a world of madness created by her.\\nWith so many theories and guesses circulating, she has become a mystery. As for the truth, you could only hope to get an answer from Yelan herself.\\nBut unfortunately, this is no easy task either — for it is always she who finds you when she wishes to, not the other way around.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Pharmacies in Liyue Harbor occasionally receive curious patients.\\nOn some days, it might be a Sumeru mercenary, on other days, a Fontaine adventurer, and there might even be some Mondstadt fisher who accidentally fell into water and bumped her head against a rock...\\nThese people are of different ages, statuses, and origins, but there is something equally peculiar to them, that is, they all share a slight addiction to pain.\\nThey like the stinging sensation when pharmacists apply herbal remedies to their wounds and enjoy the dull pain caused by pressure on their bruises.\\nThey even seem to care little if anesthetic is used or not when they are put through painful therapies.\\nSurprised by their extraordinary endurance, novice pharmacists are sufficiently distracted, such that they fail to notice that all their patients are actually the same person.\\nThey are, all of them, Yelan in disguise. A master in this art, she always manages to avoid attention.\\nAs for the wounds on her person, these are the inevitable result of her constant exposure to danger from mission to mission.\\nDespite the curious job, Yelan herself is not very curious about the world.\\nShe eats, sleeps, and lives just like everyone else, but few things can really pique her interest.\\nShe is well-read, but she is no avid reader. She always knows what to say to achieve the best result, yet she takes no pleasure in playing mind games.\\nShe travels far and roams the lands, yet the traveling and roaming are bland to her.\\nIn Yelan's eyes, these things are not hobbies, but a means to an end.\\nShe even prefers to roll the dice to decide how she will pass the time.\\nJust as someone who is so used to spicy food might lose the ability to enjoy ordinary dishes, Yelan finds that only spicy cuisine can bring her satisfaction.\\n\"Blandness is synonymous with blindness, while thrills afford clarity.\"\\nActing upon said philosophy, she chooses an acute style of life, venturing into many places while hiding in the shadows.\\nShe dances with danger, secrets, and a strong sense of achievement — these are the vivid proof of her existence.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Shorn of her masks, Yelan is a special intelligence officer who reports directly to the Tianquan Ningguang.\\nThe title itself is not entirely accurate, for it only covers the scope of her work but not her relationship with the Tianquan.\\nDeep in her heart, Yelan does not think of herself as anyone's subordinate. The way she sees it, she is not so much working for Ningguang as making good on her end of the deal, or rather... she is honoring a certain pact.\\nShe plucks the fruits of intelligence from the tree of danger for Ningguang, and in return, all she asks for is danger itself and the sense of achievement.\\nNone know when their collaboration began.\\nThe only thing certain is that Yelan has long made her presence felt in lands outside Liyue.\\nFrom other nations in Teyvat to even the perilous Abyss...\\nEvery secret and perilous demesne shall become a garden where orchids bloom.\\nStealthily she roams the night, stars shining upon her in the skies.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Yelan spends much of her time patrolling and roaming The Chasm, where she often stares into the darkness deep below.\\nHer family's history dates far back into an ancient age, and her ancestors once fought in The Chasm against a great cataclysm.\\nWanton death was dealt during that battle, and even a yaksha met their end there. Only a few survived the grueling bloodshed.\\nOne of her ancestors died, while the other went insane, constituting a huge blow to her family.\\nYelan has always wanted to find out what happened back then. Despite her better judgment, she can't help feeling attracted to The Chasm.\\nIt almost feels like something that runs in her blood — something inexplicably ominous — has been summoning her to The Chasm.\\nPerhaps she will plunge into that darkness one day, and the ill fate that once befell her ancestors shall find her too.\\nThe ominous calling that runs in the family shuts down her fear and turns on her craving for danger. This may be the reason for the peculiarities in her character, Yelan presumed.\\nShe had never doubted it until she came of age, until the seal on The Chasm was lifted.\\nWith the help of her companions, she unveiled the hidden past of her ancestors.\\nThat moment marked a new chapter in her life:\\nIn the past, she was a wild beast driven by pure instinct. Drawn to danger, she walked into darkness.\\nFrom that moment on, she has found the true meaning of her instinct.\\nThat which hides inside her, that constant calling, is not only a source of worry but also a light of guidance.\\nIt is the blood of heroes which has been howling for 500 years.\\nShe has no fear, for the courage within her makes her strong. She craves danger, for the heir of heroes is meant for a great adventure.\\nSome day, she will embark on the path her ancestors once took.\\nShe is the descendant of heroes, and she shall become the hero for many who will come after her.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Perilous Trail\""
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "The Ministry of Civil Affairs has a Special Attention List.\\nThe list isn't long, but everyone on it is truly extraordinary:\\nFor instance, the unbound and forthright leader of the armed fleet and the capable outland traveler with a broad range of skills.\\nThe list even includes some reclusive adepti in Liyue whose names still bear great weight today...\\nThese people could easily bring storms upon Liyue, their intentions notwithstanding.\\nAs such, the Ministry of Civil Affairs, ever on guard against risk, still watches them closely.\\nOn top of that, there is also a more classified Secret Intelligence List.\\nThose on it are the real threats to Liyue.\\nSo who are they exactly?\\nThe Fatui Harbingers? Figures from the Abyss Order?\\nOr perhaps, are even the names of gods listed there?\\nOther than the Qixing, Yelan is likely to be the only one who can answer these questions, for she is the very person who compiled the two lists.\\nThe results of such work please her greatly, and day after day, she perfects the lists, as crows embellishing their nests with shining trinkets.\\nThat said, while both are equally obsessed with collecting, Yelan must sweat and even bleed to secure what she is after, while crows need only flap their wings to achieve their aim.\\nFortunately, this does not bother her at all, for she believes that the intelligence is worth whatever cost she is going to pay.\\nOne day, the information will come in handy — Liyue will never plunge into disaster without any clue of the danger like it once did 500 years ago.\\nShe will see to it that Liyue is not caught unprepared.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5",
+          "Complete \"Perilous Trail\""
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "Don't play dice at Yanshang Teahouse.\\nIf you can't help yourself, play with someone you know.\\nIf a lady whom you've never seen before invites you to a game, just ignore her.\\nHeed this earnest advice from veteran gamblers.\\nDo not try your luck with that terrifying woman unless you want to have a gloomy day.\\nThe invincible lady of Yanshang Teahouse is none other than Yelan herself, and one of her guises is that of the owner of this teahouse.\\nA while ago when she came back from abroad, Liyue had just weathered the Osial crisis, and the Fatui who had occupied Yanshang Teahouse were now largely out of the game.\\nYelan seized the opportunity to take it over, turning the teahouse into a secret base.\\nOn the one hand, with people from all walks of life to be found here, the teahouse serves as an ideal source of intel. On the other hand, as Yelan has no issue with occasionally giving herself a break, she will pretend to be a regular customer, drinking some tea and playing a few rounds of some game.\\nEvery round of finger-guessing is a tiny adventure, and every roll of dice sends sporadic thrills down her spine. Even the smallest challenge is something she can never get enough of.\\nAs an intelligence operative, Yelan takes pride in her skills — she is confident that she can read her opponents' eyes and roll the dice such that they fall outside the rules but well within her designs.\\nIf there is a draw, that could only mean one thing: Her opponents are cheating too.\\nDon't try to reason with her. The very concept of \"reasoning\" is simply foreign to the Yanshang Teahouse, nor does it exist in Yelan's vocabulary.\\nBe good and choose between the pain of losing and the disgrace of cheating.\\nYou want to have neither, huh? Then why don't you turn the clock back to the very beginning? \\nDon't play dice at Yanshang Teahouse!",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Perilous Trail\""
+        ]
+      },
+      {
+        "title": "The Fascinating Bracelet and the Whitesilk Mantle",
+        "text": "Throughout Yelan's intelligence career so far, there has been one memorable operation that fuses both failure and success together.\\nOne could say that it was a failure because she lost a family heirloom named the \"Fascinating Bracelet\" during that operation.\\nThe inside of the jade bracelet is engraved with a spell passed through her line that turns the heirloom into a simple communication device. However, the spell requires a pair of such vessels to work. Now that only one bracelet is left, it is no more than a mere accessory.\\nHowever, the operation also proved a success for Yelan because her enemy did not get the upper hand, either. And this enemy of hers was no ordinary character — it was none other than \"Regrator,\" Ninth of the Fatui Harbingers.\\nYelan infiltrated a secret trade route that was run by Regrator behind the scenes, intercepting the goods and picking the most precious one of them as compensation for her bracelet.\\nNow, there once existed a strange mystical beast in times of old. A robe made from its fur would be worth a fortune, and due to its rarity, such a robe is exceptionally hard to procure.\\nIn fact, the beast is so powerful that although it died centuries ago, its body remains intact today, and its fur still emits a mysterious fragrance.\\nRegrator had intended it as an offer to the Tsaritsa, yet Yelan unexpectedly intercepted it.\\nNot only that, she also rejected the style that Snezhnayans had chosen for their Tsaritsa — she yanked the fur off, combined it with Liyue's Ramie yarn, and made a rather fashionable sleeved mantle for herself.\\nThis series of happenings could be seen as significant or insignificant — depending on one's perspective. Ultimately, it all boils down to three words: gains and losses.\\nThe cycle of gaining and losing is a rather accurate summary of Yelan's life.\\nNone of that really bothers her though. Instead, she takes immense pleasure from it.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Perilous Trail\""
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "Yelan wasn't always on her own. Many years ago, she once had a team who watched each others' backs.\\nThere were a small group of people who for various reasons chose to tread a path in the dark with her.\\nBut back then, Yelan had not yet realized that her clever tricks and ingenious traps, the skills that she took pride in, could not solve everything for her.\\nEnemies with a strong sense of self-control would not bite her bait, opponents with cunning and calculating minds would not fall for her schemes, and those with overwhelming power would simply strong-arm their way out of her traps.\\nTherefore, Yelan and her team paid the price — one by one, they perished along the way, though they had long foreseen and prepared themselves for such a fate...\\nStill, after a mission to investigate the Abyss, Yelan eventually found herself left alone. For the first time in her life, she stopped, for a long, long time.\\nThis state of affairs persisted until one day, when Ningguang visited her in her wood hut personally.\\n\"You haven't been back to Liyue Harbor for a while. Something must've happened. I can understand if you want to quit.\"\\nNingguang stood outside the door, with a serious look on her face but her voice still casual and relaxed.\\n\"But it's alright. I work with those I trust, and I trust those I work with. I'm willing to believe that you're here trying to find a way out. All postures, aggressive or defensive, are all means to an end, anyway.\"\\nThere was no response, but only a suffocating silence. A long time passed before Ningguang finally heard an answer from behind her:\\n\"We both made a mistake: We shouldn't have involved ordinary folk in what we do.\"\\n\"Ordinary folk?\"\\nEven as Ningguang was formulating thoughts, a flash of blue shot towards her, stopping as it passed her by.\\nIn a display of great control from the archer, the arrow quickly shattered into pearls of water and broke into glistening shards of light before touching the ground.\\nNingguang turned around and saw Yelan walking up, a bow in hand, blood dripping down from her fingertips.\\nOne could only imagine the days and nights of grueling training in archery Yelan had gone through for all her fingers to bleed.\\nKnowing Yelan well, Ningguang also understood that she must have been through an uncommonly tough situation. Only that could explain Yelan's uncommon determination to lock herself up for this grueling re-training.\\nYelan aimed at the mountain in the distance, a gesture that was also an answer to Ningguang.\\nShe released the arrow. Like lightning it shot into the skies, piercing through clouds with might that could shatter the dome of heaven itself. As if responding to the call of an unknown power, waters in the mountains growled and howled, then swirled their way upward in the form of countless arrows.\\nWhen they met halfway in the sky, they exploded into a curtain of water, bringing down a squalling shower like those that adorned summer nights.\\nAs the sky cleared, there was no rainbow, no butterflies to be seen, only a faint pillar of light that fell into Yelan's palm.\\nAccording to Ningguang, the Vision carries a message: \"From today onward, leave all matters to the extraordinary Yelan.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "Hello, Traveler. Call me Yelan. I think you may need my help, and I just so happen to be interested in some information you have. In other words — you scratch my back, I'll scratch yours.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Tip-Off",
+        "text": "I got a new letter from an informant. Looks like the situation has changed again.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Truancy",
+        "text": "Good roll... Alright, maybe I'll take one more day off, and knock out the rest of the work once I'm feeling up to it.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Identity",
+        "text": "Navigating the world is a whole lot easier with a few different identities to choose from. Need me to come up with some for you?",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "It's raining again? Oh, this isn't good... If the rain washes away the traces, it's gonna set us back a long way...",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Only innocent children and timid adults are scared of thunder. But you're not either of those... are you?",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "It's getting a little cold... Time to bundle up.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "This blinding sunlight is such a pain... No way I can get a nap in this weather.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "There's a restlessness in the wind... Hmm...",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Mmm~ So early... I usually get up at noon if I don't have any urgent work.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Ah, I'm getting sleepy. Think I'll take a nap... Don't wake me. I'll wake up naturally when it's time to work.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Good evening. Have you had dinner? What did you have, how was it? Oh... Just making conversation. Don't think anything of it.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "Come on now, drink your milk and go to sleep. What? You're not a kid? Hehe... Alright, well, I'll just leave it right here, it's yours if you want it. I usually fall asleep well after midnight. Full disclosure — if you're a sleep talker, I can't promise I won't take notes, kay?",
+        "unlocked": []
+      },
+      {
+        "title": "About Yelan: Duties",
+        "text": "The Qixing know Liyue like the back of their hands. But there's certain information out there that can only be obtained using more specialized methods. That's my area of expertise, so I generally take care of all those assignments myself.",
+        "unlocked": []
+      },
+      {
+        "title": "About Yelan: Rumors",
+        "text": "Some say the boss of Yanshang Teahouse is a young entrepreneur who got rich overnight; some say there's a sickly and frail senior employee of the Ministry of Civil Affairs living as a hermit outside the city; others say you should stay away from restricted areas, or you'll get haunted by a blue ghost... Obviously, most civilians have never heard the name Yelan before. So you can safely laugh off all these rumors.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Relationship",
+        "text": "Huh? What's that look on your face for? You don't have to be on guard around me. I never scheme against people who have my stamp of approval.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Deception",
+        "text": "Don't be too ready to believe people when they cross their heart and hope to die. Sweet talkers only say what you want to hear. And think twice before meeting someone else's gaze — your eyes speak volumes about what you're thinking. When it comes down to it, we're friends, and if somebody ever conned you, I'd feel like I'd been cheated, too.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "Wherever there's important information to be found, the stakes involved in extracting it are often fatal. It doesn't matter how big or reliable the team under you may be, you can never completely rule out the risk. The bottom line is, have enough force at your fingertips to control the situation. I got lucky — I got my Vision just a few days after realizing that. Otherwise... you'd probably be talking to a very disheveled-looking ghost right now.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Anything to Share: Blocking Out Noise",
+        "text": "If you grind Loach Pearls down to size, they make excellent earplugs. They're very sound-proof — you can sleep away blissfully even when there's someone screaming right in your ear... Of course, I hope for your sake that you don't ever need them for that kind of reason.",
+        "unlocked": []
+      },
+      {
+        "title": "Anything to Share: Fascinating Bracelet",
+        "text": "The bracelet on my right hand? I suppose there's no harm in telling you... It contains a kind of magic used by our clan, and it can send simple messages. The meaning of those messages is buried in the blue light, and only I can decipher them.",
+        "unlocked": []
+      },
+      {
+        "title": "Anything to Share: Pursuing the Target",
+        "text": "When I'm tracking a target, I like to put psychological pressure on them. In the process of trying to shake me off, they will start to panic, bring in reinforcements, alter their plan... they keep going like this until eventually, they've exposed everything I need to know. Heh...",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "Do you know much about Weasel Thieves? They're not especially intelligent creatures, but once you tame them, they can be trained to steal things and even pick locks. Pretty clear-cut case, isn't it — if even animals can be used as pawns with the right methods, the same has to be all the more true of people, who are constantly plotting and scheming against one another to begin with.",
+        "unlocked": []
+      },
+      {
+        "title": "About Ningguang: Relationship",
+        "text": "I got to know Ningguang a long time ago, before she was a Qixing, and we worked together for a while. Maybe I'm partly to thank for the fact that she became a Qixing so quickly. Hehe, who can say? Anyway, she was the one who recommended this job to me. It was a good choice, I'm very well-suited to it.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Ningguang: Expectations",
+        "text": "Ningguang is good to work with. But I have to be mindful of our identities when I'm out in public. When I meet a Qixing as an employee of the Ministry of Civil Affairs, they're \"Sir\" or \"Lady\" to me.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Ganyu",
+        "text": "Ah, the secretary... I could never work non-stop like she does, certainly not at that level of efficiency. I guess being half-adeptus must have its perks. Imagine not needing sleep to regain your energy levels...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Keqing",
+        "text": "I don't really like people who cram their schedules full, because it doesn't leave any room for negotiation. If something happens that they didn't anticipate, it throws their plans into oblivion, impacting not just themselves but their coworkers, too. But the Yuheng is different. She works in a very methodical way. I always enjoy working with her.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Yanfei",
+        "text": "I like Yanfei a lot. And I'm not talking about our friendship — as a high-profile legal consultant, important intel in Liyue Harbor is constantly flowing in her direction. Whenever I help her out, I always get some invaluable leads in return. I gotta say though, sometimes I think she respects me a little too much.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xiao",
+        "text": "The elders in my clan once said that we must always show the utmost respect to the Vigilant Yaksha. Apparently, the only time that our ancestor would gain some temporary relief from his insanity was when passing by the Wangshu Inn. It must have been the comforting effect of his presence that wards off evil spirits. That said, if I ever have the honor of fighting side by side with the Conqueror of Demons, I will focus only on the mission. I cannot let myself be distracted by concerns about his status.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xiangling",
+        "text": "Ah, Xiangling, the lovely little chef. Her ingredients are always top quality, easily as good as Liuli Pavilion and Xinyue Kiosk. Sometimes I go to her for dried Jueyun Chilis... She doesn't seem to understand why I eat them in the way that I do, and I don't feel like trying to explain it to her, either. It's just a family tradition.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xingqiu",
+        "text": "Of course I remember him — the young master of the Feiyun Commerce Guild. I have dealings with his family all the time. Who knows... maybe one day, he'll be outsmarting everyone around him, too.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Tartaglia",
+        "text": "The Fatui harbinger? He helped me out once — unwittingly. I was planning a deep-reaching investigation into the former owner of the Yanshang Teahouse, but our harbinger friend got to him first. He showed up demanding payment of his debt, and also exposed his accounting fraud, which got him thrown in jail. That made it very easy for me to take over Yanshang Teahouse myself, and it's proven to be a very useful base.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Yelan: I",
+        "text": "The reason I'm willing to bet on you is because of your special status. I think it'll bring me a lot of leads that can get me closer to the truth... Heh, so, got any news for me today?",
+        "unlocked": []
+      },
+      {
+        "title": "More About Yelan: II",
+        "text": "Exchanging information has to be a two-way thing, so I guess I can tell you something about my past. Thanks to my family's connections, I learned some useful skills from the Millelith scouts very early on. Although there are things working against you every step of the way when you're gathering intelligence, as long as I keep myself alive, I'll always emerge as the winner in the end...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Yelan: III",
+        "text": "Clues are links in a chain. You have to trace them all the way back to where everything began before there can be a resolution. To that end, I need to keep my eyes and ears on every part of society, and often, that means having to be more than one person. People sometimes describe me as \"one person, many faces\" and so on... I take it as a compliment.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Yelan: IV",
+        "text": "Someone once warned me to be careful about digging up certain things from the past. Dig too deep and you might find yourself standing in your own grave, they say... Well, I'm not about to stop, least of all because of anything anyone else has to say. Sure, I can't change the facts, but if it's a choice between the cold, hard truth and blissful unawareness, I'll take the former. What about you? Which would you choose?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Yelan: V",
+        "text": "Tell me something. If I'm gonna stay around, what kind of person do you want me to be to you? Someone you work with? A competitor, who challenges you to sharpen your game? Just another name on your long list of acquaintances, or... somebody more important than that? Depending on what you're hoping for, I can either play that part or become that person.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Yelan's Hobbies",
+        "text": "In my free time, I live life completely at random. It's quite simple: I make a list of things to do, then I roll the dice to decide which one I'm going to do next. It's a surprisingly fun game, and it's really broadened my mind... in that sense, it's been quite helpful where my job is concerned.",
+        "unlocked": []
+      },
+      {
+        "title": "Yelan's Troubles",
+        "text": "My physical fitness isn't actually that great compared with some trained martial artists. It's a hereditary thing that runs in my family. So before getting into really important work, I adjust my schedule to make sure I get enough rest, wait till I have built up enough energy, then strive to finish everything that needs doing in one go. Outside of work, I try my best to live life at a calm and carefree pace. So I'll always decline to take on any strenuous physical labor.",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "I like to grind dried Jueyun Chilis and Violetgrass stamens into powder, mix them in with some Yunlai White Tea leaves, and then brew a strong pot of tea. It has the most powerful fragrance that makes you instantly fall in love with it. I prefer drinks like this with a long-lasting aftertaste to things like coffee and spirits.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "You have to be very careful with sweets. That powerful sense of satisfaction... it weakens your willpower and makes you relaxed. It only takes a few bites to get addicted, and with long-term consumption, you'll slowly but surely lose your edge.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "If I was to tell you that maybe you shouldn't celebrate too hard today, because you'll let your guard down, and someone out there might just be waiting for that moment to make their move on you... it probably wouldn't go down very well. So, relax and take it easy today. Oh, and you should stop by the Yanshang Teahouse — I whipped up some treats especially for you. Not sweet ones, of course. Just the tiniest little hint of chili.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "In my line of work, combat skills are essential.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Sometimes, you have to strike hard and fast at just the right moment to expose the lies while avoiding any unwanted interference.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Finding the truth might sound simple, but it takes perseverance to stick to the trail of clues and it takes strength to follow them deep into dangerous territory.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "I have long regarded you as my most important informant. Naturally, I need to be fully prepared to face whatever risks come with the final answer when you bring it to me. Come on, let's go get it!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Busted.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Gotcha.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Quietly now.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Game's up, fun's over!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Here comes the catch.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Things are about to get dicey.",
+        "unlocked": []
+      },
+      {
+        "title": "Sprint Start: I",
+        "text": "Take it easy.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "Easy money.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Treasure... one way to draw your target out of hiding.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "A chest full of valuables... and a trove of potential clues.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "What a drag...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Winging it wasn't the best idea...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "I didn't factor this in...",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Get back, I'll finish this job.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "You're running cold, allow me.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "What are... the odds?",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "How was I... so wrong...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "But the truth... is still unknown...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "Gutsy.",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "No...",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Who's our target this time?",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "It's time to pull the trigger.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Let's go get ourselves some answers.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Hm, not bad. Almost good enough to bribe me with.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Once you get accustomed to spicy food, everything else tastes bland. That's just the way it is.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Shall we roll some dice? Whoever gets the lowest number... gets to eat it.",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108389,
+      "recipe": 3114,
+      "name": "Dew-Dipped Shrimp",
+      "icon": "UI_ItemIcon_108389",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210119,
+      "name": "Yelan: Throw",
+      "desc": "Namecard style.\\n\"Dice are always quite hard to make 'fair.' That goes double for dice with shoddier workmanship. The weighting on each numbered side will almost certainly be unbalanced.\"",
+      "icon": "UI_NameCardPic_Yelan_P"
+    },
+    "costume": [
+      {
+        "id": 206001,
+        "name": "Tranquil Banquet",
+        "desc": "The outfit Yelan has prepared for her holiday. Elegant yet neat, it conveys a sense of leisure while somehow still carrying a hint of concealed aggression...",
+        "icon": "UI_AvatarIcon_YelanCostumeSummer",
+        "quality": 4
+      },
+      {
+        "id": 206000,
+        "name": "The Waning Point",
+        "desc": "Yelan's outfit. It has lurked alongside its wearer in the shadows over many a year, to the point where the outfit almost has a mysterious temper of its own, like an orchid blooming at midnight.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": [
+      {
+        "id": 215014,
+        "name": "Echo: Valley Orchid",
+        "desc": "Yelan's Envisaged Echo. \"Stealthily she roams the night, stars shining upon her in the skies.\"",
+        "icon": "UI_TraceEffectIcon_Yelan"
+      }
+    ]
+  },
+  "weapon": "WEAPON_BOW",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Hydro",
+  "icon": "UI_AvatarIcon_Yelan",
+  "stamina_recovery": 25,
+  "base_hp": 1124.9176,
+  "base_atk": 18.9924,
+  "base_def": 42.65879,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 964.51514,
+        "fight_prop_base_defense": 36.5769,
+        "fight_prop_base_attack": 16.283075,
+        "fight_prop_critical": 0
+      },
+      {
+        "fight_prop_base_hp": 1649.8285,
+        "fight_prop_base_defense": 62.56575,
+        "fight_prop_base_attack": 27.85263,
+        "fight_prop_critical": 0.048
+      },
+      {
+        "fight_prop_base_hp": 2563.5796,
+        "fight_prop_base_defense": 97.21755,
+        "fight_prop_base_attack": 43.2787,
+        "fight_prop_critical": 0.096
+      },
+      {
+        "fight_prop_base_hp": 3248.893,
+        "fight_prop_base_defense": 123.2064,
+        "fight_prop_base_attack": 54.848255,
+        "fight_prop_critical": 0.096
+      },
+      {
+        "fight_prop_base_hp": 3934.2065,
+        "fight_prop_base_defense": 149.19525,
+        "fight_prop_base_attack": 66.41781,
+        "fight_prop_critical": 0.144
+      },
+      {
+        "fight_prop_base_hp": 4619.52,
+        "fight_prop_base_defense": 175.1841,
+        "fight_prop_base_attack": 77.987366,
+        "fight_prop_critical": 0.192
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10606,
+      "name": "Stealthy Bowshot",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive shots with a bow.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nPerforms a more precise <color=#FFD780FF>Aimed Shot</color> with increased DMG.\\nWhile aiming, flowing water will accumulate on the arrowhead. A fully charged torrential arrow will deal <color=#80C0FFFF>Hydro DMG</color>.\\n\\n<color=#FFD780FF>Breakthrough</color>\\nYelan will enter a \"Breakthrough\" state after spending 5s out of combat, which will cause her next Charged Aimed Shot to have 80% decreased charge time, and once charged, she can fire a \"Breakthrough Barb\" that will deal <color=#80C0FFFF>AoE Hydro DMG</color> based on Yelan's Max HP.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.40678,
+            0.39044,
+            0.516,
+            0.32508,
+            0.4386,
+            1.24,
+            0.11576,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.43989,
+            0.42222,
+            0.558,
+            0.35154,
+            0.4743,
+            1.333,
+            0.124442,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.473,
+            0.454,
+            0.6,
+            0.378,
+            0.51,
+            1.426,
+            0.133124,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.5203,
+            0.4994,
+            0.66,
+            0.4158,
+            0.561,
+            1.55,
+            0.1447,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.55341,
+            0.53118,
+            0.702,
+            0.44226,
+            0.5967,
+            1.643,
+            0.153382,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.59125,
+            0.5675,
+            0.75,
+            0.4725,
+            0.6375,
+            1.736,
+            0.162064,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.64328,
+            0.61744,
+            0.816,
+            0.51408,
+            0.6936,
+            1.86,
+            0.17364,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.69531,
+            0.66738,
+            0.882,
+            0.55566,
+            0.7497,
+            1.984,
+            0.185216,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.74734,
+            0.71732,
+            0.948,
+            0.59724,
+            0.8058,
+            2.108,
+            0.196792,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.8041,
+            0.7718,
+            1.02,
+            0.6426,
+            0.867,
+            2.232,
+            0.208368,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.86086,
+            0.82628,
+            1.092,
+            0.68796,
+            0.9282,
+            2.356,
+            0.219944,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.91762,
+            0.88076,
+            1.164,
+            0.73332,
+            0.9894,
+            2.48,
+            0.23152,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.97438,
+            0.93524,
+            1.236,
+            0.77868,
+            1.0506,
+            2.635,
+            0.24599,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.03114,
+            0.98972,
+            1.308,
+            0.82404,
+            1.1118,
+            2.79,
+            0.26046,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_02",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:F1P}+{param4:F1P}",
+            "Aimed Shot|{param5:F1P}",
+            "Fully-Charged Aimed Shot|{param6:P}",
+            "Breakthrough Barb DMG|{param7:F2P} Max HP",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0879,
+            1.0442,
+            1.38,
+            0.8694,
+            1.173,
+            2.945,
+            0.27493,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10607,
+      "name": "Lingering Lifeline",
+      "desc": "Fires off a Lifeline that allows her to move rapidly, entangling and marking opponents along its path.\\nWhen this rapid movement ends, the Lifeline will explode, dealing <color=#80C0FFFF>Hydro DMG</color> to the marked opponents based on Yelan's Max HP.\\n\\n<color=#FFD780FF>Tap</color>\\nMoves a certain distance forward swiftly.\\n\\n<color=#FFD780FF>Hold</color>\\nEngages in continuous, swift movement, during which Yelan's resistance to interruption is increased.\\nDuring this time, Yelan can control this rapid movement and end it by using this Skill again.\\n\\nAdditionally, each opponent marked by the Lifeline when it explodes grants Yelan a 34% chance to reset her Breakthrough state.\\n\\n<i>Not until she begins to tug on the strings do evildoers, crooks, and scheming villains alike know that there is no escape.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.226136,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.243096,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.260056,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.28267,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.29963,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.31659,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.339204,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.361818,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.384431,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.407045,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.429658,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.452272,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.480539,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.508806,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P} Max HP",
+            "Max Duration (Hold)|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.537073,
+            0.34,
+            3,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10610,
+      "name": "Depth-Clarion Dice",
+      "desc": "Deals <color=#80C0FFFF>AoE Hydro DMG</color> and creates an \"Exquisite Throw,\" which aids her in battle.\\n\\n<color=#FFD780FF>Exquisite Throw</color>\\nFollows the character around and will initiate a coordinated attack under the following circumstances, dealing <color=#80C0FFFF>Hydro DMG</color> based on Yelan's Max HP:\\n·Can occur once every second when your active character uses a Normal Attack.\\n·Will occur each time Yelan's Lifeline explodes and hits opponents.\\n\\n<i>\"A gambling addiction is going to do you no good. I mean, let me just do the math for you as the dealer. What do you think your odds of beating me are, when I have seven dice and you, only one?\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.07308,
+            0.04872,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.078561,
+            0.052374,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.084042,
+            0.056028,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.09135,
+            0.0609,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.096831,
+            0.064554,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.102312,
+            0.068208,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.10962,
+            0.07308,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.116928,
+            0.077952,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.124236,
+            0.082824,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.131544,
+            0.087696,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.138852,
+            0.092568,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.14616,
+            0.09744,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.155295,
+            0.10353,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.16443,
+            0.10962,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Yelan_01",
+          "desc": [
+            "Skill DMG|{param1:F2P} Max HP",
+            "Exquisite Throw DMG|{param2:F2P} Max HP ×3",
+            "Duration|{param3:F1}s",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.173565,
+            0.11571,
+            15,
+            18,
+            70,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 602101,
+      "name": "Turn Control",
+      "desc": "When the party has 1/2/3/4 Elemental Types, Yelan's Max HP is increased by 6%/12%/18%/30%.",
+      "icon": "UI_Talent_S_Yelan_05",
+      "unlock": 1,
+      "param_list": [
+        0.06,
+        0.12,
+        0.18,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 602201,
+      "name": "Adapt With Ease",
+      "desc": "So long as an <color=#FFD780FF>Exquisite Throw</color> is in play, your own active character deals 1% more DMG. This increases by a further 3.5% DMG every second. The maximum increase to DMG dealt is 50%.\\nThe pre-existing effect will be dispelled if Depth-Clarion Dice is recast during its duration.",
+      "icon": "UI_Talent_S_Yelan_06",
+      "unlock": 4,
+      "param_list": [
+        0.01,
+        0.035,
+        1,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 602301,
+      "name": "Necessary Calculation",
+      "desc": "Gains 25% more rewards when dispatched on a Liyue Expedition for 20 hours.",
+      "icon": "UI_Talent_Expedition_Liyue",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 601,
+      "name": "Enter the Plotters",
+      "desc": "<color=#FFD780FF>Lingering Lifeline</color> gains 1 additional charge.",
+      "icon": "UI_Talent_S_Yelan_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 602,
+      "name": "Taking All Comers",
+      "desc": "When <color=#FFD780FF>Exquisite Throw</color> conducts a coordinated attack, it will fire an additional water arrow that will deal 14% of Yelan's Max HP as Hydro DMG.\\nThis effect can trigger once every 1.8s.",
+      "icon": "UI_Talent_S_Yelan_02",
+      "param_list": [
+        0.14,
+        1.8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 603,
+      "name": "Beware the Trickster's Dice",
+      "desc": "Increases the Level of <color=#FFD780FF>Depth-Clarion Dice</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Yelan_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 604,
+      "name": "Bait-and-Switch",
+      "desc": "Increases all party members' Max HP by 10% for 25s for every opponent marked by <color=#FFD780FF>Lifeline</color> when the Lifeline explodes. A maximum increase of 40% Max HP can be attained in this manner.",
+      "icon": "UI_Talent_S_Yelan_03",
+      "param_list": [
+        0.1,
+        25,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 605,
+      "name": "Dealer's Sleight",
+      "desc": "Increases the Level of <color=#FFD780FF>Lingering Lifeline</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Yelan_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 606,
+      "name": "Winner Takes All",
+      "desc": "After using <color=#FFD780FF>Depth-Clarion Dice</color>, Yelan will enter the Mastermind state.\\nIn this state, all of Yelan's Normal Attacks will be special Breakthrough Barbs. These Breakthrough Barbs will have similar abilities to normal ones and the DMG dealt will be considered Charged Attack DMG, dealing 156% of a normal Breakthrough Barb's DMG.\\n\\nThe Mastermind state lasts 20s and will be cleared after Yelan fires 5 arrows.",
+      "icon": "UI_Talent_S_Yelan_04",
+      "param_list": [
+        5,
+        20,
+        1.56,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Sliver",
+            "id": 104121,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Starconch",
+            "id": 100033,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Recruit's Insignia",
+            "id": 112032,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Fragment",
+            "id": 104122,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Runic Fang",
+            "id": 113035,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Starconch",
+            "id": 100033,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Recruit's Insignia",
+            "id": 112032,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Fragment",
+            "id": 104122,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Runic Fang",
+            "id": 113035,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Starconch",
+            "id": 100033,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Sergeant's Insignia",
+            "id": 112033,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Chunk",
+            "id": 104123,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Runic Fang",
+            "id": 113035,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Starconch",
+            "id": 100033,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Sergeant's Insignia",
+            "id": 112033,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Chunk",
+            "id": 104123,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Runic Fang",
+            "id": 113035,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Starconch",
+            "id": 100033,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Lieutenant's Insignia",
+            "id": 112034,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Varunada Lazurite Gemstone",
+            "id": 104124,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Runic Fang",
+            "id": 113035,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Starconch",
+            "id": 100033,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Lieutenant's Insignia",
+            "id": 112034,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Prosperity",
+              "id": 104310,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Recruit's Insignia",
+              "id": 112032,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Prosperity",
+              "id": 104311,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Sergeant's Insignia",
+              "id": 112033,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Prosperity",
+              "id": 104312,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Lieutenant's Insignia",
+              "id": 112034,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Gilded Scale",
+              "id": 113019,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ShootArrow_Enchanted_WithOutWater",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 4,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithoutWater"
+    },
+    {
+      "name": "ShootArrow_Enchanted_WithWater",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 20
+      },
+      "element": "Water",
+      "attack_type": "Default",
+      "strike_type": "Pierce",
+      "damage_param": "DamageWithWater"
+    },
+    {
+      "name": "SneakArrow",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Yelan_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "SneakArrow",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Yelan_ExtraAttack"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "ElementalBurst_Dice",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV5",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst_Dice_Bullet_01",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Yelan_ElementalBurst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 50
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Pierce",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "ElementalBurst_Dice_Bullet_Extra",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "SneakArrow_Extra_Before",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Pierce"
+    },
+    {
+      "name": "SneakArrow_Extra_After",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 100
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Pierce"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Strike_DropBall",
+      "skill": "ElementalArt_Check",
+      "kind": "ElementalArt",
+      "element": "Hydro",
+      "per_drop": 1,
+      "lifetime": 12,
+      "chance": 100,
+      "cd": 0.3,
+      "applications": 1,
+      "drop_id": 2018
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Hero of Triumphant Song",
+  "icon": "SpriteOutput/ItemIcon/71040.png",
+  "parts": {
+    "31231": {
+      "name": "Hero's Wreath of Championship"
+    },
+    "31232": {
+      "name": "Hero's Gilded Bracers"
+    },
+    "31233": {
+      "name": "Hero's Gallant Golden Armor"
+    },
+    "31234": {
+      "name": "Hero's Firechasing Shinguard"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.12
+      ]
+    },
+    "4": {
+      "desc": "While the wearer's memosprite is on the field, increases the wearer's SPD by <unbreak>#1[i]%</unbreak>. When the wearer's memosprite attacks, increases the wearer's and memosprite's CRIT DMG by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+      "param_list": [
+        0.06,
+        0.3,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "name": "Tainted Water-Splitting Phantasm",
+  "desc": "Today, with the Oceanids extirpated from Fontaine, strange elemental life forms have appeared in the waters.\\nThe elemental spirits that appeared after the calamity lack the elegance and beauty of the Oceanids, and thus have been called \"tainted.\" Though the toxins dissolved in the water have long since been diluted and cleansed, unless there are still containers of pure water somewhere, Fontaine's waters will never again naturally birth Oceanids.",
+  "icon": "UI_MonsterIcon_Necalevia_Normal",
+  "codex": "ELEMENTAL",
+  "title": "Tainted Water-Splitting Phantasm",
+  "special_names": [
+    "Water Without Source"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112088,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112088"
+    },
+    {
+      "id": 112087,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112087"
+    },
+    {
+      "id": 112086,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112086"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "20051001": {
+      "monster_name": "Monster_Necalevia_Normal_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010012,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20051002": {
+      "monster_name": "Monster_Necalevia_Normal_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010012,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010012,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010042,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": true,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 991.632,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20051003": {
+      "monster_name": "Monster_Necalevia_Normal_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010012,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010012,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010042,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 198.3264,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

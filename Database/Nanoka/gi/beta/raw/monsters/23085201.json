@@ -1,0 +1,128 @@
+{
+  "name": "Cutting Edge All-Purpose Scout Landcruiser",
+  "desc": "Balancing cutting-edge tech, production costs, and sortie rates, these elite Landcruisers confer immense penetrative power upon any order of battle, and are the key fulcrum of the frontline.\\nThe all-purpose scout combat package is designed for both long- and short-range combat, and not only leads scout Landcruiser squads, but also provides close support for All-Purpose Storm Landcruisers during high-intensity battles, such as crossing specialized anti-Landcruiser trenches, or destroying enemy strongpoints. This Landcruiser type can also keep up with the tip of the spear as it breaks through in depth, before swinging out to the wings and swiftly attacking key targets in the enemy's rear lines.",
+  "icon": "UI_MonsterIcon_Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water",
+  "codex": "FATUI",
+  "title": "Landcruiser",
+  "special_names": [
+    "Cutting Edge All-Purpose Scout"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112124,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112124"
+    },
+    {
+      "id": 112123,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112123"
+    },
+    {
+      "id": 112122,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112122"
+    }
+  ],
+  "child": {
+    "23085201": {
+      "monster_name": "Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23085202": {
+      "monster_name": "Fatuimecha_CoreC_MoveC_AttackD_AttackC_AttackB_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

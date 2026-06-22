@@ -1,0 +1,240 @@
+{
+  "name": "Reforged in Hellfire",
+  "desc": "One moment, a rushing tide. The body sinks, plunging into the deepest reaches of the azure abyss.\\nOne moment, a desolate isle. Echoes of the past resonate through the mist, drifting further and further away.\\nOne moment, a field of crimson blooms of the farshore. Broken blades are scorched and reshaped in the raging inferno, finally becoming one.\\n\\n<i>\"Since my time has not yet come, I shall forge myself anew.\"</i>\\nWith despair as the furnace and this body as the catalyst, he has lost count of how many times he has endured such agony.\\n\\n<i>\"I shall take death as my hammer, and I will... sever this fate!!\"</i>\\nAt the instant of rebirth, the flames scatter and surge toward the heavens, burning all the way to the edge of the farshore.\\nIn that moment, all karmic debts are settled. The new body, tempered through a thousand trials, has finally been forged.",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Warlock",
+  "refinements": {
+    "name": "Tempering",
+    "desc": "Increases the wearer's Max HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. At the start of the wearer's turn, regenerates a fixed amount of <unbreak>#2[i]</unbreak> Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for <unbreak>#3[i]</unbreak> turn(s). While in the \"Purgatory\" state, the target receives <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> increased CRIT DMG and <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> additionally increased CRIT DMG from the wearer.",
+    "level": {
+      "1": {
+        "param_list": [
+          0.3,
+          20,
+          2,
+          0.3,
+          0.3
+        ]
+      },
+      "2": {
+        "param_list": [
+          0.375,
+          20,
+          2,
+          0.375,
+          0.375
+        ]
+      },
+      "3": {
+        "param_list": [
+          0.45,
+          20,
+          2,
+          0.45,
+          0.45
+        ]
+      },
+      "4": {
+        "param_list": [
+          0.525,
+          20,
+          2,
+          0.525,
+          0.525
+        ]
+      },
+      "5": {
+        "param_list": [
+          0.6,
+          20,
+          2,
+          0.6,
+          0.6
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23059,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 62.4,
+      "base_hp_add": 9.36,
+      "base_attack": 19.2,
+      "base_attack_add": 2.88,
+      "base_defence": 21,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23059,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110311,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 137.28,
+      "base_hp_add": 9.36,
+      "base_attack": 42.24,
+      "base_attack_add": 2.88,
+      "base_defence": 46.2,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23059,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110312,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 237.12,
+      "base_hp_add": 9.36,
+      "base_attack": 72.96,
+      "base_attack_add": 2.88,
+      "base_defence": 79.8,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23059,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110312,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 336.96,
+      "base_hp_add": 9.36,
+      "base_attack": 103.68,
+      "base_attack_add": 2.88,
+      "base_defence": 113.4,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23059,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110313,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 436.8,
+      "base_hp_add": 9.36,
+      "base_attack": 134.4,
+      "base_attack_add": 2.88,
+      "base_defence": 147,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23059,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110313,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 536.64,
+      "base_hp_add": 9.36,
+      "base_attack": 165.12,
+      "base_attack_add": 2.88,
+      "base_defence": 180.6,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23059,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 636.48,
+      "base_hp_add": 9.36,
+      "base_attack": 195.84,
+      "base_attack_add": 2.88,
+      "base_defence": 214.2,
+      "base_defence_add": 3.15
+    }
+  ]
+}

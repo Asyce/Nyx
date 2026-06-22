@@ -1,0 +1,399 @@
+{
+  "name": "Radiant Moongecko",
+  "desc": "An ancient monster drawn to moonlight, this gecko dwells deep within layers of rock.\\nThe gradual accumulation of kuuvahki has crystallized its body into segments as precise as mechanical components. These parts can harden and form stone spikes used to repel intruders.\\nSome scholars believe this unusual lizard's ancestors once roamed the surface. Over the ages, sweeping changes in the world drove them underground, where they have since lived in darkness for countless generations. Though their memory of true moonlight has faded, instinct remains. On nights of the full moon, they are compelled to gnaw on rock and soil suffused with lunar radiance to preserve their bloodline.",
+  "icon": "UI_MonsterIcon_Magbeast_Gecko",
+  "codex": "BEAST",
+  "title": "Moonseeker Drake",
+  "special_names": [
+    "Radiant Moongecko"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113085,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113085"
+    },
+    {
+      "id": 104174,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104174"
+    },
+    {
+      "id": 104173,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104173"
+    },
+    {
+      "id": 104172,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104172"
+    },
+    {
+      "id": 104171,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104171"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "26302101": {
+      "monster_name": "Monster_Magbeast_Gecko_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010037,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 285.264,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26302102": {
+      "monster_name": "Monster_Magbeast_Gecko_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010037,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 285.264,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26302103": {
+      "monster_name": "Monster_Magbeast_Gecko_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010037,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 285.264,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26302104": {
+      "monster_name": "Monster_Magbeast_Gecko_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010037,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 361.97992,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26302105": {
+      "monster_name": "Monster_Magbeast_Gecko_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010037,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 361.97992,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26302106": {
+      "monster_name": "Monster_Magbeast_Gecko_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010037,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010037,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 361.97992,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

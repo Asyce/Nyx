@@ -1,0 +1,138 @@
+{
+  "id": 15040,
+  "icon": "UI_RelicIcon_15040_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150400,
+      "id": 215040,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Finale of the Deep Galleries",
+      "desc": "Cryo DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150401,
+      "id": 215040,
+      "level": 1,
+      "open_config": "Relic_SpiralAbyss",
+      "param_list": [
+        0.6,
+        0.6,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Finale of the Deep Galleries",
+      "desc": "When the equipping character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%. After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s. After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s. This effect can trigger even if the equipping character is off the field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15040_1",
+      "name": "Deep Gallery's Bestowed Banquet",
+      "desc": "A cup fashioned from northland jade. They say that the people of an ancient civilization once used it as a ceremonial vessel to make offerings to the heavens.",
+      "story": {
+        "285401": {
+          "zh": "ART/UI/Readable/CHS/Relic15040_1",
+          "en": "ART/UI/Readable/EN/Relic15040_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15040_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15040_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15040_2",
+      "name": "Deep Gallery's Distant Pact",
+      "desc": "A feathered accessory fashioned from northland jade that shimmers with an otherworldly glow.",
+      "story": {
+        "285402": {
+          "zh": "ART/UI/Readable/CHS/Relic15040_2",
+          "en": "ART/UI/Readable/EN/Relic15040_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15040_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15040_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15040_3",
+      "name": "Deep Gallery's Lost Crown",
+      "desc": "A helmet steeped in obsession, just like the mind of its previous owner. Its jade ornamentation seems to come from an age more ancient still.",
+      "story": {
+        "285403": {
+          "zh": "ART/UI/Readable/CHS/Relic15040_3",
+          "en": "ART/UI/Readable/EN/Relic15040_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15040_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15040_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15040_4",
+      "name": "Deep Gallery's Echoing Song",
+      "desc": "An icy flower fashioned from northland jade. Over the course of its long life, its petals have crumbled to dust.",
+      "story": {
+        "285404": {
+          "zh": "ART/UI/Readable/CHS/Relic15040_4",
+          "en": "ART/UI/Readable/EN/Relic15040_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15040_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15040_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15040_5",
+      "name": "Deep Gallery's Moment of Oblivion",
+      "desc": "A pocket watch fashioned from northland jade. Its hands are forever frozen in the moment of its destruction.",
+      "story": {
+        "285405": {
+          "zh": "ART/UI/Readable/CHS/Relic15040_5",
+          "en": "ART/UI/Readable/EN/Relic15040_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15040_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15040_5_KR"
+        }
+      }
+    }
+  }
+}

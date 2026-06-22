@@ -819,14 +819,40 @@ function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden }){
     >
       <CMAvatar ch={ch} />
       <span className="cn">{ch.n}</span>
+      {ch.__beta && <span className="cm-beta-tag" title="Beta (latest) data">Beta</span>}
       {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
     </button>
   );
 }
 
+// ----- Beta / Live channel (user-approved opt-in toggle, defaults to Live) -----
+function cmHasBeta(gk){
+  return !!(typeof window !== 'undefined' && window.CM_BETA_FILES && window.CM_BETA_FILES[gk]);
+}
+function cmLoadChannel(gk){
+  try { return localStorage.getItem('nyx:cm-channel:' + gk) === 'beta' ? 'beta' : 'live'; }
+  catch (e) { return 'live'; }
+}
+function cmSaveChannel(gk, ch){
+  try { localStorage.setItem('nyx:cm-channel:' + gk, ch); } catch (e) {}
+}
+// Merge the shipped beta delta over the live roster: changed characters are replaced by id,
+// brand-new beta characters are appended and surfaced in the recent strip.
+function cmMergeBetaCfg(liveCfg, betaPack){
+  if (!liveCfg) return liveCfg;
+  if (!betaPack || !Array.isArray(betaPack.roster) || !betaPack.roster.length) return liveCfg;
+  const byId = new Map(betaPack.roster.map((ch) => [ch.id, { ...ch, __beta:true, __betaNew: ch.betaStatus === 'new' }]));
+  const liveIds = new Set(liveCfg.roster.map((ch) => ch.id));
+  const merged = liveCfg.roster.map((ch) => byId.get(ch.id) || ch);
+  for (const ch of betaPack.roster){
+    if (!liveIds.has(ch.id)) merged.push({ ...ch, __beta:true, __betaNew:true, recent:true });
+  }
+  return { ...liveCfg, roster: merged, __betaActive:true };
+}
+
 function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly }){
   const [gk, setGk] = React.useState(game || 'gi');
-  const cfg = CM_CFG[gk] || null;
+  const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
   const [tab, setTab] = React.useState(() => {
     try {
@@ -859,6 +885,18 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
   const [weaponSearch, setWeaponSearch] = React.useState('');
   const [totalIncludeByChar, setTotalIncludeByChar] = React.useState(cmLoadTotalIncludePrefs);
 
+  const betaAvailable = cmHasBeta(gk);
+  const liveCfg = CM_CFG[gk] || null;
+  const betaPack = (typeof window !== 'undefined' && window.CM_CFG_BETA) ? window.CM_CFG_BETA[gk] : null;
+  const useBeta = channel === 'beta' && betaAvailable;
+  const cfg = (useBeta && betaPack) ? cmMergeBetaCfg(liveCfg, betaPack) : liveCfg;
+
+  const switchChannel = React.useCallback((ch) => {
+    setChannel(ch);
+    cmSaveChannel(gk, ch);
+    setSel(null);
+  }, [gk]);
+
   const openCharacter = React.useCallback((ch) => {
     if (!ch) return;
     const key = cmHiddenKey(ch);
@@ -888,8 +926,19 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
     };
   }, [gk, open, inline, modalOnly]);
 
+  React.useEffect(() => {
+    if (channel !== 'beta' || !betaAvailable) return undefined;
+    let live = true;
+    const onBeta = (event) => { if (!event.detail || event.detail.key === gk) setDataTick((v) => v + 1); };
+    window.addEventListener('nyx:cm-beta-loaded', onBeta);
+    if (window.CM_CFG_BETA && !window.CM_CFG_BETA[gk] && window.loadNyxCmBeta) {
+      window.loadNyxCmBeta(gk).then(() => { if (live) setDataTick((v) => v + 1); }).catch(() => {});
+    }
+    return () => { live = false; window.removeEventListener('nyx:cm-beta-loaded', onBeta); };
+  }, [gk, channel, betaAvailable]);
+
   React.useEffect(() => { if (open || inline) { setGk(game || 'gi'); if (!selectedName) setSel(null); } }, [open, inline, game, selectedName]);
-  React.useEffect(() => { setSel(null); setQ(''); setFilt({}); setShowFilt(false); setHideMenu(false); }, [gk]);
+  React.useEffect(() => { setSel(null); setQ(''); setFilt({}); setShowFilt(false); setHideMenu(false); setChannel(cmLoadChannel(gk)); }, [gk]);
   React.useEffect(() => {
     if (!sel) {
       setActiveVariant(null);
@@ -1243,6 +1292,13 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
               <button type="button" key={t.k} className={curTab === t.k ? 'on' : ''} onClick={() => { setTab(t.k); setSel(null); }}>{t.label}</button>
             ))}
           </div>
+          {betaAvailable && (
+            <div className={'cm-chan' + (channel === 'beta' ? ' beta' : '')} role="group" aria-label="Data channel">
+              <span className="cm-chan-lbl">Data</span>
+              <button type="button" className={channel === 'live' ? 'on' : ''} onClick={() => switchChannel('live')} title="Released, live-server data">Live</button>
+              <button type="button" className={channel === 'beta' ? 'on' : ''} onClick={() => switchChannel('beta')} title="Beta (latest) data — upcoming, subject to change">Beta</button>
+            </div>
+          )}
         </div>
 
         {/* day selector (Genshin Talents only) */}
@@ -1401,6 +1457,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, modalOnly })
                       <span className="cm-pop-name-wrap">
                         {(view.icon || view.circle) && <img className="cm-name-circle" src={view.icon || view.circle} alt="" draggable="false" />}
                         <span className="cm-pop-name">{sel.n}</span>
+                        {sel.__beta && <span className="cm-beta-tag pop" title="Beta (latest) data — upcoming and subject to change">Beta</span>}
                       </span>
                       {metaChips.length > 0 && (
                         <span className="cm-pop-meta-inline">

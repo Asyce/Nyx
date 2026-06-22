@@ -1,0 +1,4249 @@
+{
+  "name": "Sandrone",
+  "desc": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+  "chara_info": {
+    "release_date": "1970-01-01 00:00:00",
+    "birth": [
+      1,
+      13
+    ],
+    "vision": "Cryo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Narcissorolegium",
+    "region": "ASSOC_TYPE_SNEZHNAYA_STAR",
+    "title": "Mirrored Analysis",
+    "native": "Fatui",
+    "detail": "The Seventh of the Fatui Harbingers, \"Marionette.\" Interprets all phenomena through the prism of mathematics, and is an elegant lady who is never absent from a tea party.",
+    "va": {
+      "chinese": "",
+      "japanese": "",
+      "english": "",
+      "korean": ""
+    },
+    "stories": [
+      {
+        "title": "???",
+        "text": "???",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlock": []
+      }
+    ],
+    "quotes": [
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      },
+      {
+        "title": "???",
+        "text": "???",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108976,
+      "recipe": 3405,
+      "name": "???",
+      "icon": "UI_ItemIcon_108880",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210284,
+      "name": "???",
+      "desc": "???",
+      "icon": "UI_NameCardPic_MarionetteNew_P"
+    },
+    "costume": [
+      {
+        "id": 213300,
+        "name": "Default Outfit",
+        "desc": "",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CLAYMORE",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Cryo",
+  "icon": "UI_AvatarIcon_MarionetteNew",
+  "stamina_recovery": 25,
+  "base_hp": 1029.5856,
+  "base_atk": 26.6266,
+  "base_def": 58.57357,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 882.77655,
+        "fight_prop_base_defense": 50.2227,
+        "fight_prop_base_attack": 22.828234,
+        "fight_prop_critical": 0
+      },
+      {
+        "fight_prop_base_hp": 1510.0126,
+        "fight_prop_base_defense": 85.90725,
+        "fight_prop_base_attack": 39.048294,
+        "fight_prop_critical": 0.048
+      },
+      {
+        "fight_prop_base_hp": 2346.3271,
+        "fight_prop_base_defense": 133.48665,
+        "fight_prop_base_attack": 60.67504,
+        "fight_prop_critical": 0.096
+      },
+      {
+        "fight_prop_base_hp": 2973.5632,
+        "fight_prop_base_defense": 169.1712,
+        "fight_prop_base_attack": 76.8951,
+        "fight_prop_critical": 0.096
+      },
+      {
+        "fight_prop_base_hp": 3600.799,
+        "fight_prop_base_defense": 204.85574,
+        "fight_prop_base_attack": 93.115166,
+        "fight_prop_critical": 0.144
+      },
+      {
+        "fight_prop_base_hp": 4228.035,
+        "fight_prop_base_defense": 240.5403,
+        "fight_prop_base_attack": 109.33523,
+        "fight_prop_critical": 0.192
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 11331,
+      "name": "Formule Phenomenale: Self-Evident Proposition",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nGenerates threads that control her weapon using formulae, performing up to 3 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nSummons the Facilitatrice Automatisee Generaliste Interactive et Omnitache, or \"<color=#FFD780FF>Fagio</color>,\" and switches it to <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> mode: Unleashes a sweeping fire attack on enemies in front, as well as periodically fires condensed beams, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The condensed beams will instead deal <color=#99FFFFFF>AoE Cryo DMG</color> that is considered Stellar-Conduct DMG.\\nWhile in <color=#FFD780FF>Decoding</color> mode, Fagio's <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> will continuously increase. Firing condensed beams will also further increase its Decoding Power.\\nWhen Fagio's Decoding Power reaches the maximum of 100 points, it switches to <color=#FFD780FF>Power Overdrive</color> mode, in which it fires at opponents with longer intervals, dealing <color=#99FFFFFF>Cryo DMG</color>. It will be unable to switch to Decoding mode at this time.\\nWhen not in <color=#FFD780FF>Decoding</color> mode, Fagio's <color=#FFD780FF>Decoding Power</color> gradually decreases. When Sandrone is off-field, she will focus on maintaining Fagio, causing its Decoding Power to decrease at 300% the original rate.\\nFagio exits <color=#FFD780FF>Power Overdrive</color> mode when its <color=#FFD780FF>Decoding Power</color> has decreased to under 50.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from midair to strike the ground below, dealing DMG to opponents along their path and causing AoE DMG on landing.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.762863,
+            0.67197,
+            1.028035,
+            0.43,
+            1.2255,
+            0.817,
+            0.43,
+            0.745878,
+            1.49144,
+            1.862889,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.824957,
+            0.726665,
+            1.111713,
+            0.465,
+            1.32525,
+            0.8835,
+            0.465,
+            0.806589,
+            1.612836,
+            2.01452,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.88705,
+            0.78136,
+            1.19539,
+            0.5,
+            1.425,
+            0.95,
+            0.5,
+            0.8673,
+            1.734233,
+            2.16615,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.975755,
+            0.859496,
+            1.314929,
+            0.55,
+            1.5675,
+            1.045,
+            0.55,
+            0.95403,
+            1.907656,
+            2.382765,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.037848,
+            0.914191,
+            1.398606,
+            0.585,
+            1.66725,
+            1.1115,
+            0.585,
+            1.014741,
+            2.029052,
+            2.534396,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.108812,
+            0.9767,
+            1.494237,
+            0.625,
+            1.78125,
+            1.1875,
+            0.625,
+            1.084125,
+            2.167791,
+            2.707688,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.206388,
+            1.06265,
+            1.62573,
+            0.68,
+            1.938,
+            1.292,
+            0.68,
+            1.179528,
+            2.358556,
+            2.945964,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.303964,
+            1.148599,
+            1.757223,
+            0.735,
+            2.09475,
+            1.3965,
+            0.735,
+            1.274931,
+            2.549322,
+            3.184241,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.401539,
+            1.234549,
+            1.888716,
+            0.79,
+            2.2515,
+            1.501,
+            0.79,
+            1.370334,
+            2.740087,
+            3.422517,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.507985,
+            1.328312,
+            2.032163,
+            0.85,
+            2.4225,
+            1.615,
+            0.85,
+            1.47441,
+            2.948195,
+            3.682455,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.614431,
+            1.422075,
+            2.17561,
+            0.91,
+            2.5935,
+            1.729,
+            0.91,
+            1.578486,
+            3.156303,
+            3.942393,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.720877,
+            1.515838,
+            2.319057,
+            0.97,
+            2.7645,
+            1.843,
+            0.97,
+            1.682562,
+            3.364411,
+            4.202331,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.827323,
+            1.609602,
+            2.462503,
+            1.03,
+            2.9355,
+            1.957,
+            1.03,
+            1.786638,
+            3.572519,
+            4.462269,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.933769,
+            1.703365,
+            2.60595,
+            1.09,
+            3.1065,
+            2.071,
+            1.09,
+            1.890714,
+            3.780627,
+            4.722207,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Charged Attack Sweeping Fire DMG|{param4:F1P}",
+            "Charged Attack Condensed Beam DMG|{param5:F1P}",
+            "Charged Attack Condensed Beam Stellar-Conduct DMG|{param6:F1P}",
+            "DMG When in Power Overdrive|{param7:F1P}",
+            "Plunge DMG|{param8:F1P}",
+            "Low/High Plunge DMG|{param9:P}/{param10:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.040215,
+            1.797128,
+            2.749397,
+            1.15,
+            3.2775,
+            2.185,
+            1.15,
+            1.99479,
+            3.988735,
+            4.982145,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11332,
+      "name": "Formule Phenomenale: Differential Analysis",
+      "desc": "With her impeccable, ladylike poise, Sandrone boards the <color=#FFD780FF>Tea Party Tactical Assault Hovermech</color> and hovers forward for 6s. During this time, Sandrone can control the travel direction of the craft. Pressing Sprint consumes 10 Stamina and launches her into an elegant high-speed hover mode, in which she will move even faster at the cost of 15 Stamina per second.\\n\\nWhen Sandrone starts hovering, if there are opponents nearby, she will also summon a Prismatic Resonance Cannon and fire 2 Prism Shots at any opponents who have yet to cool down, dealing <color=#99FFFFFF>Cryo DMG</color>.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The second Prism Shot will instead deal <color=#99FFFFFF>Cryo DMG</color> that is considered Stellar-Conduct DMG.\\n\\nWhen on the Tea Party Tactical Assault Hovermech, Sandrone will also elegantly and quietly repair Fagio, causing <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> to swiftly decrease.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.324,
+            0.216,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.3483,
+            0.2322,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.3726,
+            0.2484,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.405,
+            0.27,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4293,
+            0.2862,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4536,
+            0.3024,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.486,
+            0.324,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.5184,
+            0.3456,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.5508,
+            0.3672,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.5832,
+            0.3888,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.6156,
+            0.4104,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.648,
+            0.432,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.6885,
+            0.459,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.729,
+            0.486,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_MarionetteNew_01",
+          "desc": [
+            "Prism Shot DMG|{param1:F1P}",
+            "Prism Shot Stellar-Conduct DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7695,
+            0.513,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11335,
+      "name": "Formule Phenomenale: Q.E.D.",
+      "desc": "In line with established ladylike behavior, Sandrone summons a large number of Prismatic Resonance Cannons for a frontal bombardment before firing on her foes with a Convective Inhibition Ray, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The Convective Inhibition Ray instead deals <color=#99FFFFFF>AoE Cryo DMG</color> that is considered Stellar-Conduct DMG.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.88216,
+            3.308,
+            2.205333,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.948322,
+            3.5561,
+            2.370733,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.014484,
+            3.8042,
+            2.536133,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1027,
+            4.135,
+            2.756667,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.168862,
+            4.3831,
+            2.922067,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.235024,
+            4.6312,
+            3.087467,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.32324,
+            4.962,
+            3.308,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.411456,
+            5.2928,
+            3.528533,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.499672,
+            5.6236,
+            3.749067,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.587888,
+            5.9544,
+            3.9696,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.676104,
+            6.2852,
+            4.190133,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.76432,
+            6.616,
+            4.410667,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.87459,
+            7.0295,
+            4.686333,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.98486,
+            7.443,
+            4.962,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_MarionetteNew_01",
+          "desc": [
+            "Bombardment DMG|{param1:F1P} ×3",
+            "Convective Inhibition Ray DMG|{param2:F1P}",
+            "Convective Inhibition Ray Stellar-Conduct DMG|{param3:F1P}",
+            "CD|{param4:F1}s",
+            "Energy Cost|{param5:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.09513,
+            7.8565,
+            5.237667,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 1332101,
+      "name": "Archaic Calculation Engine",
+      "desc": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: When using the Elemental Skill {LINK#S11332}<color=#FFD780FF>Formule Phenomenale: Differential Analysis</color>{/LINK}, if Fagio's <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> is greater than 50, the second Prism Shot fired by Fagio at nearby opponents will deal 400% of its original DMG as Fagio's Decoding Power is decreased.\\nAdditionally, for every 10 points of <color=#FFD780FF>Decoding Power</color> Fagio loses, it gains 1 stack of <color=#FFD780FF>Refined Tactics</color> for 60s (max 10 stacks). When Sandrone uses the Elemental Burst {LINK#S11335}<color=#FFD780FF>Formule Phenomenale: Q.E.D.</color>{/LINK} while in the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state, all stacks of Refined Tactics are cleared, causing the Convective Inhibition Ray to deal 100% + (number of stacks cleared) × 10% of its original DMG.",
+      "icon": "UI_Talent_S_MarionetteNew_05",
+      "unlock": 1,
+      "param_list": [
+        3,
+        0.1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1332201,
+      "name": "A Lady's Code of Conduct",
+      "desc": "Increases Sandrone's Elemental Mastery based on her ATK. Every 100 ATK will increase her Elemental Mastery by 8. The maximum increase she can gain this way is 160.",
+      "icon": "UI_Talent_S_MarionetteNew_06",
+      "unlock": 4,
+      "param_list": [
+        0.08,
+        160,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1332301,
+      "name": "Light of Rationalisme",
+      "desc": "When your party members trigger Superconduct, it will be changed to Stellar-Conduct, and your party members' Base Stellar-Conduct DMG will be increased based on Sandrone's ATK: Every 100 ATK she has increases the Base Stellar-Conduct DMG by 0.7%. The maximum increase that can be gained this way is 14%.\\nAdditionally, when Sandrone is within a {LINK#N11330003}<color=#FFD780FF>Polestar Field</color>{/LINK}, she will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state.",
+      "icon": "UI_Talent_S_MarionetteNew_07",
+      "unlock": 0,
+      "param_list": [
+        0.007,
+        0.14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1332501,
+      "name": "A Caucus Prelude and a Long Tale",
+      "desc": "When Sandrone is in the party, you will gain additional snack rewards after turning in your Daily Commissions with Katheryne.",
+      "icon": "UI_Talent_S_MarionetteNew_08",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 1331,
+      "name": "Morrow After the Golden Dusk",
+      "desc": "When in <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> mode, Fagio's <color=#FFD780FF>{LINK#N11330002}Decoding Power{/LINK}</color> increases at a 50% lower rate, and all party members deal 30% increased Stellar-Conduct DMG.",
+      "icon": "UI_Talent_S_MarionetteNew_01",
+      "param_list": [
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1332,
+      "name": "An Heiress Gazed Into the Looking-Glass",
+      "desc": "<color=#FFD780FF>Radiance: Stellar-Conduct</color>: Increases CRIT DMG from Charged Attack condensed beams by 40%. Also, each time a beam is fired, CRIT DMG dealt by all condensed beams fired during this <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> mode period will be further increased by 20%. Max 3 stacks.",
+      "icon": "UI_Talent_S_MarionetteNew_02",
+      "param_list": [
+        0.4,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1333,
+      "name": "Refuse the Wake of Dusk, the Moonlit Yoke",
+      "desc": "Increases the Level of {LINK#S11331}<color=#FFD780FF>Formule Phenomenale: Self-Evident Proposition</color>{/LINK} by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_MarionetteNew_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1334,
+      "name": "In Knowledge Lies the World's True Ground",
+      "desc": "When Sandrone deals Stellar-Conduct DMG to an opponent, she will also summon an extra Prismatic Resonance Cannon to fire off a coordinated attack which deals <color=#99FFFFFF>Cryo DMG</color> at 125% of her ATK. This DMG is considered Stellar-Conduct DMG, and the effect can occur once every 4s.",
+      "icon": "UI_Talent_S_MarionetteNew_03",
+      "param_list": [
+        1.25,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1335,
+      "name": "Of All Beside, She Takes No Part",
+      "desc": "Increases the Level of {LINK#S11335}<color=#FFD780FF>Formule Phenomenale: Q.E.D.</color>{/LINK} by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_MarionetteNew_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1336,
+      "name": "Narcissus Wakes, Her Eyes Upon the Dawn",
+      "desc": "When Fagio fires a condensed beam for the third time while in <color=#FFD780FF>{LINK#N11330001}Decoding{/LINK}</color> mode, the beam becomes a more powerful <color=#FFD780FF>Condensed Cluster Beam</color> that fires continuously. This beam will deal up to 4 additional instances of <color=#99FFFFFF>AoE Cryo DMG</color> at 100% of Sandrone's ATK on top of any subsequent original beam fired.\\n<color=#FFD780FF>Radiance: Stellar-Conduct</color>: The <color=#FFD780FF>Condensed Cluster Beam</color> will instead deal 4 additional instances of <color=#99FFFFFF>AoE Cryo DMG</color> at 80% of Sandrone's ATK. This DMG is considered Stellar-Conduct DMG.\\nAdditionally, all Stellar-Conduct DMG dealt by Sandrone is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 20%.",
+      "icon": "UI_Talent_S_MarionetteNew_04",
+      "param_list": [
+        1,
+        0.8,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Sliver",
+            "id": 104161,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Subdetection Unit",
+            "id": 101239,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Broken Drive Shaft",
+            "id": 112122,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Fragment",
+            "id": 104162,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Plume of the Fallen Watcher",
+            "id": 113086,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Subdetection Unit",
+            "id": 101239,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Broken Drive Shaft",
+            "id": 112122,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Fragment",
+            "id": 104162,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Plume of the Fallen Watcher",
+            "id": 113086,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Subdetection Unit",
+            "id": 101239,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Reinforced Drive Shaft",
+            "id": 112123,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Chunk",
+            "id": 104163,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Plume of the Fallen Watcher",
+            "id": 113086,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Subdetection Unit",
+            "id": 101239,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Reinforced Drive Shaft",
+            "id": 112123,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Chunk",
+            "id": 104163,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Plume of the Fallen Watcher",
+            "id": 113086,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Subdetection Unit",
+            "id": 101239,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Precision Drive Shaft",
+            "id": 112124,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Shivada Jade Gemstone",
+            "id": 104164,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Plume of the Fallen Watcher",
+            "id": 113086,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Subdetection Unit",
+            "id": 101239,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Precision Drive Shaft",
+            "id": 112124,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Vagrancy",
+              "id": 104362,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Broken Drive Shaft",
+              "id": 112122,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Vagrancy",
+              "id": 104362,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Broken Drive Shaft",
+              "id": 112122,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Vagrancy",
+              "id": 104362,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Broken Drive Shaft",
+              "id": 112122,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Vagrancy",
+              "id": 104363,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Reinforced Drive Shaft",
+              "id": 112123,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Vagrancy",
+              "id": 104364,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Precision Drive Shaft",
+              "id": 112124,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Madman's Restraint",
+              "id": 113082,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ExtraAttackBullet_02",
+      "icd": {
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 2
+      },
+      "element": "None",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ExtraAttackBullet_04",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "Avatar_Marionette_MachineGun"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Default",
+      "damage_param": "DamageRatio"
+    },
+    {
+      "name": "ElementalArtBullet_01",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 75
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Blunt",
+      "damage_param": 2
+    },
+    {
+      "name": "BurstAttacker",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "BurstRatio"
+    },
+    {
+      "name": "BurstAttacker",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "BurstRatio"
+    },
+    {
+      "name": "BurstAttacker",
+      "icd": {
+        "tag": "StarSuperconductorIceDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "BurstAttacker",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 70
+      },
+      "element": "Ice",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "BurstLaserRatio"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Elemball_Proc",
+      "skill": "Elemball",
+      "kind": "Other",
+      "element": "Cryo",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 2.5,
+      "applications": 1,
+      "drop_id": 2022
+    }
+  ]
+}

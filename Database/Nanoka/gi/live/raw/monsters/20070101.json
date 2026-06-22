@@ -1,0 +1,209 @@
+{
+  "name": "Thunder Manifestation",
+  "desc": "An abnormal Electro elemental life form. Although it might appear similar to an Oceanid, it does not possess her intelligence or memories.\\nThat which drives the Thunder Manifestation is a much more primal fury.\\nIt is said that these life forms will only descend like lightning upon places that play host to great lingering resentment, such as the fragmented Amakumo Peak, where the storm clouds ever roil. As long as the grudges of the land do not fade, so will the roaring thunder persist.",
+  "icon": "UI_MonsterIcon_Raijin",
+  "codex": "ELEMENTAL",
+  "title": "Thunder Manifestation",
+  "special_names": [
+    "Stormy Resentment"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113029,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113029"
+    },
+    {
+      "id": 104144,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104144"
+    },
+    {
+      "id": 104143,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104143"
+    },
+    {
+      "id": 104142,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104142"
+    },
+    {
+      "id": 104141,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104141"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400138,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15011_3"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400137,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15011_3"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "20070101": {
+      "monster_name": "Monster_Raijin_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010034,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010034,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010034,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010024,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 190.176,
+        "atk": 90.432,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20070102": {
+      "monster_name": "Monster_Raijin_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010034,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010034,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010034,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010024,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 244.512,
+        "atk": 90.432,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

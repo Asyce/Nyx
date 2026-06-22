@@ -1,0 +1,270 @@
+{
+  "name": "Perpetual Mechanical Array",
+  "desc": "A strange, alien machine.\\nThey say that it is a war machine left behind by a nation that has already been destroyed. Composed of several different parts, it can adapt to its combat environment and employ a variety of attacks.\\nThis machine, comprised of cubic shapes, is on some level very much like the elemental hypostases.",
+  "icon": "UI_MonsterIcon_Apparatus_Perpetual",
+  "codex": "AUTOMATRON",
+  "title": "Perpetual Mechanical Array",
+  "special_names": [
+    "Perpetual Resonance SI/Ald"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113023,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113023"
+    },
+    {
+      "id": 104164,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    {
+      "id": 104163,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    {
+      "id": 104162,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    {
+      "id": 104161,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    {
+      "id": 104174,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104174"
+    },
+    {
+      "id": 104173,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104173"
+    },
+    {
+      "id": 104172,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104172"
+    },
+    {
+      "id": 104171,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104171"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400148,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15013_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400147,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15013_3"
+    },
+    {
+      "id": 400052,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10011_4"
+    }
+  ],
+  "child": {
+    "24021101": {
+      "monster_name": "Apparatus_Perpetual",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.7
+      },
+      "base": {
+        "hp": 217.344,
+        "atk": 90.432,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24021102": {
+      "monster_name": "Apparatus_Perpetual",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.7
+      },
+      "base": {
+        "hp": 217.344,
+        "atk": 90.432,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24021181": {
+      "monster_name": "Apparatus_Perpetual",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.7
+      },
+      "base": {
+        "hp": 217.344,
+        "atk": 90.432,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

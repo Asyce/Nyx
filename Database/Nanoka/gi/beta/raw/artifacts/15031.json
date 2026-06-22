@@ -1,0 +1,138 @@
+{
+  "id": 15031,
+  "icon": "UI_RelicIcon_15031_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150310,
+      "id": 215031,
+      "open_config": "Relic_NorAndExtraAtkUp",
+      "param_list": [
+        0.15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Marechaussee Hunter",
+      "desc": "Normal and Charged Attack DMG +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150311,
+      "id": 215031,
+      "level": 1,
+      "open_config": "Relic_BuffWhenHPUpAndDown",
+      "param_list": [
+        0.12,
+        5,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Marechaussee Hunter",
+      "desc": "When current HP increases or decreases, CRIT Rate will be increased by 12% for 5s. Max 3 stacks."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15031_1",
+      "name": "Forgotten Vessel",
+      "desc": "A portable metal vessel containing strong wine. Can be stuffed into the pocket of an outer coat for ease of access and use.",
+      "story": {
+        "285311": {
+          "zh": "ART/UI/Readable/CHS/Relic15031_1",
+          "en": "ART/UI/Readable/EN/Relic15031_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15031_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15031_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15031_2",
+      "name": "Masterpiece's Overture",
+      "desc": "A portable tool used to adjust the torque on some old-school clockwork machine. It has since lost its practical value.",
+      "story": {
+        "285312": {
+          "zh": "ART/UI/Readable/CHS/Relic15031_2",
+          "en": "ART/UI/Readable/EN/Relic15031_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15031_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15031_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15031_3",
+      "name": "Veteran's Visage",
+      "desc": "An old mask that can, to some extent, stand in for a face marred by wounds. Its design can vary based on the wounded areas and the user's gender.",
+      "story": {
+        "285313": {
+          "zh": "ART/UI/Readable/CHS/Relic15031_3",
+          "en": "ART/UI/Readable/EN/Relic15031_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15031_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15031_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15031_4",
+      "name": "Hunter's Brooch",
+      "desc": "An ancient emblem that was once awarded to those who had made exceptional contributions in battle.",
+      "story": {
+        "285314": {
+          "zh": "ART/UI/Readable/CHS/Relic15031_4",
+          "en": "ART/UI/Readable/EN/Relic15031_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15031_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15031_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15031_5",
+      "name": "Moment of Judgment",
+      "desc": "A standard pocket watch. Its accuracy is not particularly high.",
+      "story": {
+        "285315": {
+          "zh": "ART/UI/Readable/CHS/Relic15031_5",
+          "en": "ART/UI/Readable/EN/Relic15031_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15031_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15031_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Eremite Floral Ring-Dancer",
+  "desc": "A person hailing from the loosely-organized mercenary bands of the desert. They will work for anyone as long as the pay is good.\\nThe children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings. Many tales of the sands feature dancers who murdered kings relaxed in their beds or standing atop high towers. Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins.\\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
+  "icon": "UI_MonsterIcon_Eremite_Female_Standard_Dancer",
+  "codex": "HUMAN",
+  "title": "Eremite Floral Ring-Dancer",
+  "special_names": [
+    "Ring-Bladed Snake-Dancer"
+  ],
+  "reward": [],
+  "child": {
+    "25410401": {
+      "monster_name": "Eremite_Female_Standard_Dancer_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010013,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010013,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010013,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010013,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410481": {
+      "monster_name": "Eremite_Female_Standard_Dancer_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010013,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010013,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010013,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010013,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

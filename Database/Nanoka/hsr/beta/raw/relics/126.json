@@ -1,0 +1,34 @@
+{
+  "name": "Wavestrider Captain",
+  "icon": "SpriteOutput/ItemIcon/71045.png",
+  "parts": {
+    "31261": {
+      "name": "Captain's Navigator Hat"
+    },
+    "31262": {
+      "name": "Captain's Lightcatcher Astrolabe"
+    },
+    "31263": {
+      "name": "Captain's Wind Mantle"
+    },
+    "31264": {
+      "name": "Captain's Tidal Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.16
+      ]
+    },
+    "4": {
+      "desc": "When the wearer becomes the target of another ally target's ability, gains 1 stack of \"Help,\" stacking up to <unbreak>#1[i]</unbreak> time(s). If there are <unbreak>#1[i]</unbreak> stack(s) of \"Help\" when the wearer uses their Ultimate, consumes all \"Help\" to increase the wearer's ATK by <unbreak>#2[i]%</unbreak> for <unbreak>#3[i]</unbreak> turn(s).",
+      "param_list": [
+        2,
+        0.48,
+        1
+      ]
+    }
+  }
+}

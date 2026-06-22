@@ -1,0 +1,33 @@
+{
+  "name": "Band of Sizzling Thunder",
+  "icon": "SpriteOutput/ItemIcon/71008.png",
+  "parts": {
+    "31091": {
+      "name": "Band's Polarized Sunglasses"
+    },
+    "31092": {
+      "name": "Band's Touring Bracelet"
+    },
+    "31093": {
+      "name": "Band's Leather Jacket With Studs"
+    },
+    "31094": {
+      "name": "Band's Ankle Boots With Rivets"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases Lightning DMG by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.1
+      ]
+    },
+    "4": {
+      "desc": "When the wearer uses their Skill, increases the wearer's ATK by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "param_list": [
+        0.2,
+        1
+      ]
+    }
+  }
+}

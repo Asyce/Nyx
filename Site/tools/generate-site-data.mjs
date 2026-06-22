@@ -16,6 +16,15 @@ const dbDir = path.resolve(root, 'Database');
 
 const readJson = (rel) => JSON.parse(fs.readFileSync(path.resolve(dbDir, rel), 'utf8'));
 const exists = (rel) => fs.existsSync(path.resolve(dbDir, rel));
+
+// Active Nanoka channel for character/material reads. 'live' by default; flipped to
+// 'beta' while building the beta delta. Item/avatar caches are keyed by channel so the
+// two passes never cross-contaminate. Assets live in a shared (channel-less) dir.
+const NANOKA_CHANNELS = ['gi', 'hsr', 'zzz', 'wuwa', 'ww'];
+let NANOKA_CHANNEL = 'live';
+const nch = () => NANOKA_CHANNEL;
+// Beta is only meaningful when the channel dir actually exists on disk.
+const betaChannelAvailable = (game) => exists(`Nanoka/${game === 'wuwa' ? 'ww' : game}/beta`);
 function dbAsset(p) {
   if (!p) return null;
   const norm = String(p).replace(/\\/g, '/');
@@ -713,32 +722,33 @@ function normalizeForJs(source) {
   });
 }
 
-let giItemLookupCache = null;
+const giItemLookupCache = new Map();
 
 function giItemLookup() {
-  if (giItemLookupCache) return giItemLookupCache;
+  if (giItemLookupCache.has(nch())) return giItemLookupCache.get(nch());
   const byKey = new Map();
-  if (!exists('Nanoka/gi/live/items.json')) {
-    giItemLookupCache = byKey;
+  if (!exists(`Nanoka/gi/${nch()}/items.json`)) {
+    giItemLookupCache.set(nch(), byKey);
     return byKey;
   }
-  for (const item of readJson('Nanoka/gi/live/items.json')) {
+  for (const item of readJson(`Nanoka/gi/${nch()}/items.json`)) {
     if (!item) continue;
     if (item.id !== undefined && item.id !== null) byKey.set(String(item.id), item);
     if (item.name) byKey.set(String(item.name).toLowerCase(), item);
   }
-  giItemLookupCache = byKey;
+  giItemLookupCache.set(nch(), byKey);
   return byKey;
 }
 
 const nanokaItemLookupCache = new Map();
 
 function nanokaItemLookup(game) {
-  if (nanokaItemLookupCache.has(game)) return nanokaItemLookupCache.get(game);
+  const cacheKey = `${game}:${nch()}`;
+  if (nanokaItemLookupCache.has(cacheKey)) return nanokaItemLookupCache.get(cacheKey);
   const byKey = new Map();
-  const rel = `Nanoka/${game}/live/items.json`;
+  const rel = `Nanoka/${game}/${nch()}/items.json`;
   if (!exists(rel)) {
-    nanokaItemLookupCache.set(game, byKey);
+    nanokaItemLookupCache.set(cacheKey, byKey);
     return byKey;
   }
   for (const item of readJson(rel)) {
@@ -746,7 +756,7 @@ function nanokaItemLookup(game) {
     if (item.id !== undefined && item.id !== null) byKey.set(String(item.id), item);
     if (item.name) byKey.set(String(item.name).toLowerCase(), item);
   }
-  nanokaItemLookupCache.set(game, byKey);
+  nanokaItemLookupCache.set(cacheKey, byKey);
   return byKey;
 }
 
@@ -754,11 +764,12 @@ const localAvatarOverlayCache = new Map();
 
 function localAvatarOverlay(game) {
   const key = game === 'ww' ? 'wuwa' : game;
-  if (localAvatarOverlayCache.has(key)) return localAvatarOverlayCache.get(key);
+  const cacheKey = `${key}:${nch()}`;
+  if (localAvatarOverlayCache.has(cacheKey)) return localAvatarOverlayCache.get(cacheKey);
   const byName = new Map();
 
-  if (key === 'hsr' && exists('Nanoka/hsr/live/characters.json')) {
-    for (const ch of readJson('Nanoka/hsr/live/characters.json')) {
+  if (key === 'hsr' && exists(`Nanoka/hsr/${nch()}/characters.json`)) {
+    for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
       if (!ch?.name) continue;
       byName.set(normKey(ch.name), {
         icon: dbAsset(ch.assets?.roundIcon || ch.assets?.avatar),
@@ -768,8 +779,8 @@ function localAvatarOverlay(game) {
     }
   }
 
-  if (key === 'zzz' && exists('Nanoka/zzz/live/agents.json')) {
-    for (const ch of readJson('Nanoka/zzz/live/agents.json')) {
+  if (key === 'zzz' && exists(`Nanoka/zzz/${nch()}/agents.json`)) {
+    for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
       if (!ch?.name) continue;
       byName.set(normKey(ch.name), {
         icon: dbAsset(ch.assets?.partnerIcon || ch.assets?.icon),
@@ -779,8 +790,8 @@ function localAvatarOverlay(game) {
     }
   }
 
-  if (key === 'wuwa' && exists('Nanoka/ww/live/characters.json')) {
-    for (const ch of readJson('Nanoka/ww/live/characters.json')) {
+  if (key === 'wuwa' && exists(`Nanoka/ww/${nch()}/characters.json`)) {
+    for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
       if (!ch?.name) continue;
       byName.set(normKey(ch.name), {
         icon: dbAsset(ch.assets?.icon),
@@ -1111,10 +1122,10 @@ function kindRank(kind) {
 
 function buildGiRoster() {
   const signatures = loadGiSignatureMap();
-  const chars = readJson('Nanoka/gi/live/characters.json')
+  const chars = readJson(`Nanoka/gi/${nch()}/characters.json`)
     .filter((ch) => ch.name && (ch.rarity === 4 || ch.rarity === 5))
     .map((ch) => {
-      const rawRel = `Nanoka/gi/live/raw/characters/${ch.id}.json`;
+      const rawRel = `Nanoka/gi/${nch()}/raw/characters/${ch.id}.json`;
       const raw = exists(rawRel) ? readJson(rawRel) : null;
       const book = giBookFamily(raw);
       const circleIcon = dbAsset(ch.assets?.circle);
@@ -1321,12 +1332,13 @@ function hsrSignatureForCharacter(name, pathName) {
 
 function buildHsrReqMap() {
   const out = new Map();
-  if (!exists('Nanoka/hsr/live/characters.json')) return out;
-  for (const ch of readJson('Nanoka/hsr/live/characters.json')) {
-    const rawRel = `Nanoka/hsr/live/raw/characters/${ch.id}.json`;
+  if (!exists(`Nanoka/hsr/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`Nanoka/hsr/${nch()}/characters.json`)) {
+    const rawRel = `Nanoka/hsr/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     const req = hsrRequirements(readJson(rawRel));
-    if (req) out.set(String(ch.name).toLowerCase(), req);
+    // Dual-key by lowercase + normKey so Prydwen "Himeko Nova" matches Nanoka "Himeko • Nova".
+    setReqMapEntry(out, ch.name, req);
   }
   return out;
 }
@@ -1446,9 +1458,9 @@ function zzzRequirements(raw) {
 
 function buildZzzReqMap() {
   const out = new Map();
-  if (!exists('Nanoka/zzz/live/agents.json')) return out;
-  for (const ch of readJson('Nanoka/zzz/live/agents.json')) {
-    const rawRel = `Nanoka/zzz/live/raw/agents/${ch.id}.json`;
+  if (!exists(`Nanoka/zzz/${nch()}/agents.json`)) return out;
+  for (const ch of readJson(`Nanoka/zzz/${nch()}/agents.json`)) {
+    const rawRel = `Nanoka/zzz/${nch()}/raw/agents/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     setReqMapEntry(out, ch.name, zzzRequirements(readJson(rawRel)));
   }
@@ -1529,9 +1541,9 @@ function wuwaRequirements(raw) {
 
 function buildWuwaReqMap() {
   const out = new Map();
-  if (!exists('Nanoka/ww/live/characters.json')) return out;
-  for (const ch of readJson('Nanoka/ww/live/characters.json')) {
-    const rawRel = `Nanoka/ww/live/raw/characters/${ch.id}.json`;
+  if (!exists(`Nanoka/ww/${nch()}/characters.json`)) return out;
+  for (const ch of readJson(`Nanoka/ww/${nch()}/characters.json`)) {
+    const rawRel = `Nanoka/ww/${nch()}/raw/characters/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     setReqMapEntry(out, ch.name, wuwaRequirements(readJson(rawRel)));
   }
@@ -2671,22 +2683,31 @@ function collectEndfieldIconGaps(roster) {
   };
 }
 
-const hsrReqByName = buildHsrReqMap();
 const hsrLightConeReqByName = buildHsrLightConeReqMap();
-const zzzReqByName = buildZzzReqMap();
-const wuwaReqByName = buildWuwaReqMap();
 
-const rawRosters = {
-  gi: buildGiRoster(),
-  hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), hsrReqByName),
-  zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), zzzReqByName),
-  wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), wuwaReqByName),
-  ae: buildEndfieldRoster(),
-};
+// Build the full roster set for a given Nanoka channel ('live' or 'beta'). The req-map
+// builders and Nanoka item/avatar reads honour NANOKA_CHANNEL, so flipping it here yields
+// the channel-specific character materials. Signature light cones stay on the live scrape.
+function buildRostersForChannel(channel) {
+  const prev = NANOKA_CHANNEL;
+  NANOKA_CHANNEL = channel;
+  try {
+    const rawRosters = {
+      gi: buildGiRoster(),
+      hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap()),
+      zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap()),
+      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap()),
+      ae: buildEndfieldRoster(),
+    };
+    return Object.fromEntries(
+      Object.entries(rawRosters).map(([key, roster]) => [key, mergeProtagonistForms(key, roster)])
+    );
+  } finally {
+    NANOKA_CHANNEL = prev;
+  }
+}
 
-const rosters = Object.fromEntries(
-  Object.entries(rawRosters).map(([key, roster]) => [key, mergeProtagonistForms(key, roster)])
-);
+const rosters = buildRostersForChannel('live');
 
 const genshinTcgOverviewArt = applyGenshinTcgOverviewArt(rosters.gi);
 
@@ -2715,6 +2736,41 @@ fs.writeFileSync(
 );
 
 const cmCfg = buildCmCfg(rosters);
+
+// ----- Beta channel delta (user-approved opt-in toggle, defaults to Live) -----
+// Build a second roster set off the Nanoka beta channel and ship only the per-character
+// difference (new beta characters + characters whose upgrade materials changed). The
+// client merges this delta over the live roster when the visitor flips to Beta.
+const CM_BETA_GAMES = ['gi', 'hsr', 'zzz', 'wuwa'];
+const cmBetaDeltas = (() => {
+  const anyBeta = CM_BETA_GAMES.some((key) => betaChannelAvailable(key));
+  if (!anyBeta) return {};
+  const betaRosters = buildRostersForChannel('beta');
+  applyGenshinTcgOverviewArt(betaRosters.gi);
+  const betaCfg = buildCmCfg(betaRosters);
+  const nanokaManifest = exists('Nanoka/manifest.json') ? readJson('Nanoka/manifest.json') : {};
+  const reqSig = (ch) => JSON.stringify(ch?.req ?? null);
+  const out = {};
+  for (const key of CM_BETA_GAMES) {
+    if (!betaChannelAvailable(key)) continue;
+    const liveById = new Map((cmCfg[key]?.roster || []).map((ch) => [ch.id, ch]));
+    const delta = (betaCfg[key]?.roster || [])
+      .filter((bc) => { const lc = liveById.get(bc.id); return !lc || reqSig(bc) !== reqSig(lc); })
+      .map((bc) => ({ ...bc, betaStatus: liveById.has(bc.id) ? 'changed' : 'new' }));
+    if (!delta.length) continue;
+    const manifestKey = key === 'wuwa' ? 'ww' : key;
+    out[key] = {
+      version: nanokaManifest[manifestKey]?.latest || null,
+      liveVersion: nanokaManifest[manifestKey]?.live || null,
+      newCount: delta.filter((ch) => ch.betaStatus === 'new').length,
+      changedCount: delta.filter((ch) => ch.betaStatus === 'changed').length,
+      roster: delta,
+    };
+  }
+  return out;
+})();
+console.log(`Beta deltas: ${Object.entries(cmBetaDeltas).map(([k, v]) => `${k}=${v.roster.length}(+${v.newCount}/~${v.changedCount})`).join(', ') || 'none'}`);
+
 fs.writeFileSync(
   path.resolve(reportsDir, 'material-source-gaps.json'),
   JSON.stringify(collectMaterialSourceGaps(cmCfg), null, 2),
@@ -2738,7 +2794,7 @@ const cmPalettes = `const CM_RAR = {\n  6:{ a:'#ef8a5e', b:'#d05a3a', ring:'#ffb
 
 fs.writeFileSync(
   path.resolve(generatedDataDir, 'cm-data.js'),
-  cmHeader + cmPalettes + `const CM_CFG = window.CM_CFG || {};\nconst CM_GAME_FILES = ${normalizeForJs(Object.fromEntries(Object.keys(cmCfg).map((key) => [key, `../dist/cm-data-${key}.js`])))};\nconst CM_GAME_LABELS = ${normalizeForJs(Object.fromEntries(Object.keys(cmCfg).map((key) => [key, cmCfg[key].name])))};\nconst CM_LOADS = window.__NYX_CM_LOADS || {};\n\nfunction loadNyxCmGame(key) {\n  if (!key || key === 'nyx') return Promise.resolve(null);\n  window.CM_CFG = window.CM_CFG || CM_CFG;\n  if (window.CM_CFG[key]) return Promise.resolve(window.CM_CFG[key]);\n  if (CM_LOADS[key]) return CM_LOADS[key];\n  const src = CM_GAME_FILES[key];\n  if (!src) return Promise.reject(new Error('Unknown character-material game: ' + key));\n  CM_LOADS[key] = new Promise((resolve, reject) => {\n    const existing = document.querySelector('script[data-cm-game=\"' + key + '\"]');\n    if (existing) {\n      existing.addEventListener('load', () => resolve(window.CM_CFG[key] || null), { once:true });\n      existing.addEventListener('error', () => reject(new Error('Failed to load ' + src)), { once:true });\n      return;\n    }\n    const script = document.createElement('script');\n    script.src = src;\n    script.async = true;\n    script.dataset.cmGame = key;\n    script.onload = () => resolve(window.CM_CFG[key] || null);\n    script.onerror = () => reject(new Error('Failed to load ' + src));\n    document.head.appendChild(script);\n  });\n  return CM_LOADS[key];\n}\n\nfunction ensureNyxCmGames(keys) {\n  return Promise.all((keys || []).map((key) => loadNyxCmGame(key)));\n}\n\nObject.assign(window, { CM_CFG, CM_RAR, CM_ELEM, CM_GAME_FILES, CM_GAME_LABELS, loadNyxCmGame, ensureNyxCmGames, __NYX_CM_LOADS: CM_LOADS });\n`,
+  cmHeader + cmPalettes + `const CM_CFG = window.CM_CFG || {};\nconst CM_GAME_FILES = ${normalizeForJs(Object.fromEntries(Object.keys(cmCfg).map((key) => [key, `../dist/cm-data-${key}.js`])))};\nconst CM_GAME_LABELS = ${normalizeForJs(Object.fromEntries(Object.keys(cmCfg).map((key) => [key, cmCfg[key].name])))};\nconst CM_BETA_FILES = ${normalizeForJs(Object.fromEntries(Object.keys(cmBetaDeltas).map((key) => [key, `../dist/cm-data-${key}-beta.js`])))};\nconst CM_BETA_META = ${normalizeForJs(Object.fromEntries(Object.entries(cmBetaDeltas).map(([key, pack]) => [key, { version: pack.version, liveVersion: pack.liveVersion, newCount: pack.newCount, changedCount: pack.changedCount }])))};\nconst CM_LOADS = window.__NYX_CM_LOADS || {};\nconst CM_BETA_LOADS = window.__NYX_CM_BETA_LOADS || {};\nwindow.CM_CFG_BETA = window.CM_CFG_BETA || {};\n\nfunction loadNyxCmBeta(key) {\n  if (!key || !CM_BETA_FILES[key]) return Promise.resolve(null);\n  window.CM_CFG_BETA = window.CM_CFG_BETA || {};\n  if (window.CM_CFG_BETA[key]) return Promise.resolve(window.CM_CFG_BETA[key]);\n  if (CM_BETA_LOADS[key]) return CM_BETA_LOADS[key];\n  const src = CM_BETA_FILES[key];\n  CM_BETA_LOADS[key] = new Promise((resolve, reject) => {\n    const existing = document.querySelector('script[data-cm-beta=\"' + key + '\"]');\n    if (existing) {\n      existing.addEventListener('load', () => resolve(window.CM_CFG_BETA[key] || null), { once:true });\n      existing.addEventListener('error', () => reject(new Error('Failed to load ' + src)), { once:true });\n      return;\n    }\n    const script = document.createElement('script');\n    script.src = src;\n    script.async = true;\n    script.dataset.cmBeta = key;\n    script.onload = () => resolve(window.CM_CFG_BETA[key] || null);\n    script.onerror = () => reject(new Error('Failed to load ' + src));\n    document.head.appendChild(script);\n  });\n  return CM_BETA_LOADS[key];\n}\n\nfunction loadNyxCmGame(key) {\n  if (!key || key === 'nyx') return Promise.resolve(null);\n  window.CM_CFG = window.CM_CFG || CM_CFG;\n  if (window.CM_CFG[key]) return Promise.resolve(window.CM_CFG[key]);\n  if (CM_LOADS[key]) return CM_LOADS[key];\n  const src = CM_GAME_FILES[key];\n  if (!src) return Promise.reject(new Error('Unknown character-material game: ' + key));\n  CM_LOADS[key] = new Promise((resolve, reject) => {\n    const existing = document.querySelector('script[data-cm-game=\"' + key + '\"]');\n    if (existing) {\n      existing.addEventListener('load', () => resolve(window.CM_CFG[key] || null), { once:true });\n      existing.addEventListener('error', () => reject(new Error('Failed to load ' + src)), { once:true });\n      return;\n    }\n    const script = document.createElement('script');\n    script.src = src;\n    script.async = true;\n    script.dataset.cmGame = key;\n    script.onload = () => resolve(window.CM_CFG[key] || null);\n    script.onerror = () => reject(new Error('Failed to load ' + src));\n    document.head.appendChild(script);\n  });\n  return CM_LOADS[key];\n}\n\nfunction ensureNyxCmGames(keys) {\n  return Promise.all((keys || []).map((key) => loadNyxCmGame(key)));\n}\n\nObject.assign(window, { CM_CFG, CM_RAR, CM_ELEM, CM_GAME_FILES, CM_GAME_LABELS, CM_BETA_FILES, CM_BETA_META, loadNyxCmGame, loadNyxCmBeta, ensureNyxCmGames, __NYX_CM_LOADS: CM_LOADS, __NYX_CM_BETA_LOADS: CM_BETA_LOADS });\n`,
   'utf8',
 );
 
@@ -2750,6 +2806,19 @@ for (const [key, cfg] of Object.entries(cmCfg)) {
       + `  window.CM_CFG = window.CM_CFG || {};\n`
       + `  window.CM_CFG[${JSON.stringify(key)}] = ${normalizeForJs(cfg)};\n`
       + `  window.dispatchEvent(new CustomEvent('nyx:cm-game-loaded', { detail:{ key:${JSON.stringify(key)} } }));\n`
+      + `})();\n`,
+    'utf8',
+  );
+}
+
+for (const [key, pack] of Object.entries(cmBetaDeltas)) {
+  fs.writeFileSync(
+    path.resolve(generatedDataDir, `cm-data-${key}-beta.js`),
+    cmHeader
+      + `(function(){\n`
+      + `  window.CM_CFG_BETA = window.CM_CFG_BETA || {};\n`
+      + `  window.CM_CFG_BETA[${JSON.stringify(key)}] = ${normalizeForJs(pack)};\n`
+      + `  window.dispatchEvent(new CustomEvent('nyx:cm-beta-loaded', { detail:{ key:${JSON.stringify(key)} } }));\n`
       + `})();\n`,
     'utf8',
   );

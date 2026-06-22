@@ -1,0 +1,34 @@
+{
+  "name": "Warrior Goddess of Sun and Thunder",
+  "icon": "SpriteOutput/ItemIcon/71044.png",
+  "parts": {
+    "31251": {
+      "name": "Warrior Goddess's Winged Helm"
+    },
+    "31252": {
+      "name": "Warrior Goddess's Cavalry Gauntlets"
+    },
+    "31253": {
+      "name": "Warrior Goddess's Dawn Cape"
+    },
+    "31254": {
+      "name": "Warrior Goddess's Honor Spurs"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases SPD by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.06
+      ]
+    },
+    "4": {
+      "desc": "When the wearer or their memosprite provides healing to ally targets other than themselves, the wearer gains \"Gentle Rain,\" which lasts for <unbreak>#3[i]</unbreak> turn(s) and can only trigger once per turn. While the wearer has \"Gentle Rain,\" SPD increases by <unbreak>#1[i]%</unbreak> and all allies' CRIT DMG increases by <unbreak>#2[i]%</unbreak>. This effect cannot stack.",
+      "param_list": [
+        0.06,
+        0.15,
+        2
+      ]
+    }
+  }
+}

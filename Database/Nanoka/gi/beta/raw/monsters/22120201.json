@@ -1,0 +1,101 @@
+{
+  "name": "Tenebrous Mimiflora",
+  "desc": "Abyssal monsters that have descended to this world from the deep, dark depths of a twisted and alien world, they possess a plant-like appearance.\\nIt is said that where the corrosive waves of the dark tide lap, such plant-like dark monsters will grow. But they only bear a superficial resemblance to plants, for it is a form they only adopted to get closer to the tree-like world, that they might extract the necessary concepts from it, and analyze and imitate them.\\nSome raving lunatics who have lost their minds say that those things that extend out like leaves are actually the beginnings of gates to other worlds.",
+  "icon": "UI_MonsterIcon_TheAbyss_Rhizome",
+  "codex": "ABYSS",
+  "title": "Tenebrous Mimiflora",
+  "special_names": [
+    "Void Obliterator Bubble"
+  ],
+  "reward": [],
+  "child": {
+    "22120201": {
+      "monster_name": "TheAbyss_Rhizome_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 46.1856,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22120202": {
+      "monster_name": "TheAbyss_Rhizome_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 46.1856,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Sacerdos' Relived Ordeal",
+  "icon": "SpriteOutput/ItemIcon/71038.png",
+  "parts": {
+    "31211": {
+      "name": "Sacerdos' Melodic Earrings"
+    },
+    "31212": {
+      "name": "Sacerdos' Welcoming Gloves"
+    },
+    "31213": {
+      "name": "Sacerdos' Ceremonial Garb"
+    },
+    "31214": {
+      "name": "Sacerdos' Arduous Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases SPD by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.06
+      ]
+    },
+    "4": {
+      "desc": "When using Skill or Ultimate on one ally target, increases the ability target's CRIT DMG by <unbreak>#1[i]%</unbreak>, lasting for <unbreak>#2[i]</unbreak> turn(s). This effect can stack up to <unbreak>#3[i]</unbreak> time(s).",
+      "param_list": [
+        0.18,
+        2,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": 15029,
+  "icon": "UI_RelicIcon_15029_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150290,
+      "id": 215029,
+      "param_list": [
+        0.15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Nymph's Dream",
+      "desc": "Hydro DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150291,
+      "id": 215029,
+      "level": 1,
+      "open_config": "Relic_Narcissus",
+      "param_list": [
+        8,
+        0.07,
+        0.16,
+        0.25,
+        0.04,
+        0.09,
+        0.15,
+        0
+      ],
+      "name": "Nymph's Dream",
+      "desc": "After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15029_1",
+      "name": "Heroes' Tea Party",
+      "desc": "A lovely teacup. Perhaps it was once used by people enjoying a leisurely afternoon together.",
+      "story": {
+        "285291": {
+          "zh": "ART/UI/Readable/CHS/Relic15029_1",
+          "en": "ART/UI/Readable/EN/Relic15029_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15029_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15029_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15029_2",
+      "name": "Wicked Mage's Plumule",
+      "desc": "This was once a decorative feather in someone's hat. Being dark green, it is quite eye-catching indeed.",
+      "story": {
+        "285292": {
+          "zh": "ART/UI/Readable/CHS/Relic15029_2",
+          "en": "ART/UI/Readable/EN/Relic15029_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15029_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15029_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15029_3",
+      "name": "Fell Dragon's Monocle",
+      "desc": "An exquisitely-made monocle. Ancient anecdotes say that one might be able to see the future through it.",
+      "story": {
+        "285293": {
+          "zh": "ART/UI/Readable/CHS/Relic15029_3",
+          "en": "ART/UI/Readable/EN/Relic15029_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15029_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15029_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15029_4",
+      "name": "Odyssean Flower",
+      "desc": "The story must end, and even fresh flowers will wither. But the flower within one's dreams will always remain in full and fragrant bloom.",
+      "story": {
+        "285294": {
+          "zh": "ART/UI/Readable/CHS/Relic15029_4",
+          "en": "ART/UI/Readable/EN/Relic15029_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15029_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15029_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15029_5",
+      "name": "Nymph's Constancy",
+      "desc": "A pocket watch that has long stopped working. It seems to have borne witness to many a passing year as its hands spun in vain.",
+      "story": {
+        "285295": {
+          "zh": "ART/UI/Readable/CHS/Relic15029_5",
+          "en": "ART/UI/Readable/EN/Relic15029_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15029_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15029_5_KR"
+        }
+      }
+    }
+  }
+}

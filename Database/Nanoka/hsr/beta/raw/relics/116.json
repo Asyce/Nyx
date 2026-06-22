@@ -1,0 +1,33 @@
+{
+  "name": "Prisoner in Deep Confinement",
+  "icon": "SpriteOutput/ItemIcon/71025.png",
+  "parts": {
+    "31161": {
+      "name": "Prisoner's Sealed Muzzle"
+    },
+    "31162": {
+      "name": "Prisoner's Leadstone Shackles"
+    },
+    "31163": {
+      "name": "Prisoner's Repressive Straitjacket"
+    },
+    "31164": {
+      "name": "Prisoner's Restrictive Fetters"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.12
+      ]
+    },
+    "4": {
+      "desc": "For every DoT the enemy target is afflicted with, the wearer will ignore <unbreak>#1[i]%</unbreak> of its DEF when dealing DMG to it. This effect is valid for a max of <unbreak>#2[i]</unbreak> DoTs.",
+      "param_list": [
+        0.06,
+        3
+      ]
+    }
+  }
+}

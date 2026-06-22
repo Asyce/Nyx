@@ -1,0 +1,4237 @@
+{
+  "name": "Dori",
+  "desc": "An elusive merchant who has a fondness for glittering Mora.",
+  "chara_info": {
+    "release_date": "2022-09-09 18:00:00",
+    "birth": [
+      12,
+      21
+    ],
+    "vision": "Electro",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Magicae Lucerna",
+    "region": "ASSOC_TYPE_SUMERU",
+    "title": "Treasure of Dream Garden",
+    "native": "The Palace of Alcazarzaray",
+    "detail": "An elusive merchant who has a fondness for glittering Mora.",
+    "va": {
+      "chinese": "王晓彤",
+      "japanese": "金田朋子",
+      "english": "Anjali Kunapaneni",
+      "korean": "Lee Myeong-ho"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "\"Dori Sangemah Bay, owner of the Palace of Alcazarzaray, super-duper merchant who sells everything you need!\"\\nWhen one holds Dori's name card, this impressive title instantly comes into view.\\nDori is, however, indeed the most special Sumeru merchant of all.\\nShe already possesses vast wealth, but is still fervently passionate about earning Mora;\\nShe already owns multiple well-renowned merchant caravans, yet she always travels across Sumeru to sell her marvelous items in person.\\nSpeaking of which, her wares are just as curious as her style: special travel kit, outdoor dryer machines, automatic snowball launchers... You can probably buy anything you can think of from Dori. The only question is: Do you have enough Mora to do so?",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "\"Oh wow, are you headed for the desert? I have some good stuff you'll need there.\"\\n\"The rainforest is terribly infested with poisonous snakes, ferocious monsters, and a terminal case of humidity — it's no place for the less-than-thoroughly prepared, no sir! Now then, why don't you try bringing this for your trip? Buy it now and enjoy a 20 percent discount!\"\\n\"Hold your horses, hotshot. You're not taking that route, are you? There's a huge pack of monsters lying in wait ahead that-a-ways. But see, I have some weapons here that you won't regret purchasing — you know, for self defense!\"\\n\"Going to the Akhtamun Ruins? You've got the right person. First things first, you'll need a complete set of water-drawing tools... Which, as it happens, I happen to have for sale!\"\\nThere is a tale among adventurers in Sumeru.\\nIt says that if you are about to embark on a journey into a dangerous place, you'll see a diminutive figure, seemingly having been waiting for you.\\nBe it in the treacherous mountains, arid deserts, grim rainforests, or desolate areas inhabited by monsters, you'll always see her smiling face.\\nWord has it that Dori carries all manner of marvelous items on her person all the time. Her items can help adventurers get through their pressing troubles.\\n—At a \"reasonable\" price, of course.\\nAdventurers who \"have just received Dori's help in their time of need\" at the cost of \"paying a large sum of Mora at once\" often develop conflicted feelings toward her — somewhere in between gratitude and a grudge.\\nFor Dori's part, she considerately ignores the conflicted look on their faces, putting the fresh Mora in her almost-bursting purse and bidding them adieu with a contented smile.\\n\"Thank you for your generous purchase. Hehe.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "From the perspective of others, Dori's business has always been on the up and up. However, only Dori herself knows how many unimaginable bottlenecks she's struggled through.\\nThere was a time when orders from all over Sumeru just kept flooding in and Dori couldn't deliver such a giant number of orders in a timely fashion.\\nUnfortunately, the capacity of the usual merchant routes was too limited for the delivery of commodities in such a gigantic quantity.\\nMany members of Dori's merchant caravans suggested rejecting certain orders to dial down the scale of delivery and maintain a decent, stable profit — one that already seemed set to make them immensely wealthy, given time.\\nBut Dori took a very bold step: She accepted all the orders while starting cooperation with the Kshahrewar to establish new trade routes in areas that were known to be dangerous.\\nShe opened the new routes up to nearby merchant caravans, took the opportunity to found a commerce guild and put the relevant resources to good use, and finally eliminated the bottleneck that her business was stuck in.\\nToday, Dori's new, built-from-scratch merchant routes are seen all across Sumeru, and the good reputation of \"Lord Sangemah Bay\" has spread far and wide.\\nThe words Dori said to her caravan members have also become common knowledge:\\n\"I'm not some stupid toadstool. I don't cancel or reject any orders.\"\\n\"Every Mora that can be earned, will be earned by me. Why? Well, because it's there, of course.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Dori used to suffer terribly from insomnia. Back then, she would often lose sleep for no reason. After such sleepless nights, she would show up to trade meetings with a pair of raccoon eyes.\\nEven the best doctors couldn't diagnose her properly. She burned one frankincense stick after another, and yet they did not lull her into sleep but into coughing fits instead.\\nIt was at that moment that a doctor passed by and told Dori this:\\n\"I've heard that some people place an hourglass by their bedside. The sound of the falling sand helps them sleep.\"\\nDori tried it for a few days and it didn't work. However, she was inspired by the failed attempt, ordering a large custom-made hourglass.\\nThat which was in this hourglass was not sand, but shiny Mora.\\nThat night, embraced by the music of jingling Mora, Dori slept soundly at last.\\nAfter that, Dori learned the trick to dealing with insomnia:\\n\"To sleep well, you must first secure peace of mind.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Maybe it's because of her deep love for Mora, Dori also takes interest in \"whoever or whatever might bring Mora in.\"\\nFor example, her merchant caravans use Sumpter Beasts to carry cargo, so Dori had an \"amusement park\" built for the Sumpter Beasts such that they might enjoy their downtime.\\nShe also handpicks Sumpter Beast food of the best quality to make sure that they have balanced nutrition and that they stay in good health.\\nAlso, as a shrewd merchant, she never misses a single business opportunity.\\nSumpter Beasts playing together in the amusement park make for a fun scene, so Dori took the chance to open the amusement park to tourists and sold tickets, food, and souvenirs to them. The cost of raising the Sumpter Beasts was covered by the amusement park's revenue in no time.\\nDori's love for Sumpter Beasts is genuine, and so is her intention to make Mora out of that love.\\nPerhaps the Jinni in Dori's lamp knows this better than everyone else. The spirit was tricked into entering Dori's lamp, but it has never left since.\\nDori will summon it into combat, but she will also grant its wishes afterwards.\\nSometimes the Jinni even thinks that the fairy tale might actually have gotten things reversed —\\nFor the one who dwells in the lamp is a powerful fighter, while the one holding the lamp is the one who grants wishes.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "No one knows how exactly Dori met Alice, but they are truly a pair of business partners that could make all merchants jealous.\\nAlice travels the world, so she does not stay for long every time she visits Sumeru. However, every once in a while, Alice will ask someone to send her new invention to Dori.\\nDori, for her part, will sell it and find a way to send the Mora to Alice.\\nSometimes, Alice sends the invention with an attached letter that tells Dori to keep the Mora for the time being because Alice is currently in a dangerous area.\\nHowever, Dori insists on getting someone to send the Mora to safe zones closest to Alice's position, making sure that Alice will receive the Mora at her earliest convenience.\\nThe labor, shipment, insurance... The various costs tend to amount to a fairly large expenditure, but Dori is never stingy in this regard. She even pays in advance.\\n\"I, Dori, never default on payment.\"\\n\"Also, Ms. Alice has expenses, too. I must make sure that she has Mora at hand whenever she needs it.\"\\nDori often repeats these words and, despite the trouble, repeatedly makes sure that Alice's payment is delivered.\\nThough Alice is no longer Dori's only supplier, Alice's payment is still a top priority for Dori.\\nPerhaps it's because Dori keeps a certain promise embedded in her heart — the promise she made to Alice the day they met.\\n\"You want limitless Mora? Sure. I can supply you with marvelous items of all kinds. But how much Mora you're going to make will depend on how good you are at sales.\"\\n\"Don't worry. I'll sell them for a good price, earn a large sum of Mora, and deliver your share as quickly as possible... I'll be your greatest business partner.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Mora Music Box",
+        "text": "To better enjoy the fascinating clinking of Mora, Dori ordered a custom-made \"Mora Music Box.\"\\nOn top of the music box is a slot precisely the size of a single Mora.\\nInsert a Mora through the slot into the box, and it will roll along the intricate tracks inside and make pleasant clinking sounds.\\nThese sounds compose beautiful music to which Dori twirls in the grand Palace of Alcazarzaray.\\n\"Mora, Mora, shining brightly.\"\\n\"Mora, Mora, toward infinity.\"\\n\"Beautiful Mora, Dori's Mora.\"\\n\"Everyone's Mora, come to Dori.\"\\nDori's sung this song countless times, yet she's never tired of it.\\nAt the end of her dance, Dori takes a deep bow to her imaginary audience.\\nIt is also the moment when the Mora falls to the bottom of the music box, making the final clink —\\nWith this finishing touch, an imaginary curtain descends upon Dori's delightful dance.\\nHowever, Dori is never quite finished — she always has another Mora to slot into her music box.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "Two girls of similar ages hummed a melody that was slightly out of tune. They spent their innocent childhood hand-in-hand as constant companions.\\nThey each picked flowers to decorate the other's hair in spring and walked across creeks barefoot in summer.\\nThey slid down the golden sand dunes in autumn and shared a book in the warmth of the winter sunlight.\\nIt seemed that such happy times would never come to an end.\\nThat is, until the elder sister started coughing blood for no reason. At this time, their home came to be ringed by a great many strange adults.\\nThe strangers explained the elder sister's situation in serious tones and with unfathomable jargon before sighing at the dingy little room.\\nThe younger sister had no idea what was happening, but she visited her sister every day, and her sister would always say this to her with a bright smile:\\n\"It's alright. I just need some rest.\"\\nSeeing that smile, the innocent younger sister's eyes filled with expectation. She even began looking forward to playing together like they used to.\\nBut one day, she saw her sister gripping her chest while telling a story.\\nThen, when her frail form collapsed onto the bed, the younger sister reached out to catch her, only to find that her body was so very light.\\n...It was almost as if her sister were a feather, a feather that might drift away to some place far, far away.\\nLater on, the younger sister found a crumpled note.\\nIt was a doctor's prescription, with a list of herbs that were desperately scarce — the collectors who had such herbs were few and far between.\\nTo purchase those herbs would cost more than tens of millions of Mora, an impossible price for a family that was already struggling to make the ends meet.\\nThe elder sister always shook her head with a smile to dismiss her family's insistence on following the prescription. Perhaps she herself could only find the courage to glance at that note in the deep hours of the night — and dare to dream that she might \"live.\"\\nUpon finding out about the note, the younger sister put it into her pocket silently and resolved to save her sister.\\n\"I must make a lot of Mora.\"\\n\"With enough Mora, my family will never have to smile at me while swallowing their pain, and I will never have to lose anything due to lacking Mora...\"\\nPerhaps it was at that moment that the gods looked upon her with mercy.\\nBut to an \"ambitious\" person like her, getting a Vision was just the start.\\nIn the countless days and nights that have followed, she has constantly kept herself calm and clear-headed, telling herself:\\n\"Conviction alone is not enough. I will work hard for what I desire until the end of my days.\"\\n\"There's nothing that Lord Sangemah Bay cannot achieve.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "Oh! Well if it isn't the renowned Traveler! I'm Dori Sangemah Bay, a traveling merchant. As an introductory gift, you can enjoy a 10% discount on all my wares and merchandise. Feel free to have a look. I'll even help package up your purchase, free of charge.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Mora",
+        "text": "♪ I love Mora, and Mora loves me! I make Mora, and it makes me happy! Lalala... ♪",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Win-Win",
+        "text": "First, I mark up the price by 30% and then I offer a 20% discount. More Mora for me, and the customers still feel like they're getting a bargain. Now that's what I call a win-win.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Money-Mad",
+        "text": "With enough Mora, you can afford to do anything — even take on the Akademiya.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Need to stay dry? I have just the thing! This specialty umbrella collects and purifies rain water, turning it into drinking water that is conveniently stored in this compact container — a real must-have for a traveler like yourself! And all that for only 500,000 Mora!",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "I bet even the caravans can't move under these conditions. I'm losing Mora here...",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "Oh oh oh! Check out my fully-automatic snowball maker! It's one of a kind! Wanna give it a try? I'll even throw in a 5% discount on the rental!",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "There's nothing more beautiful than shiny Mora, glittering in the sun! Hehe.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "You've gotta be kidding! Who would be crossing the desert on such a windy day? Silly toadstools... What's that? Oh, I can get them out of there of course... But I'll have to triple my usual price, hehehe.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Good morning! Last night I had a dream filled with lovely, round, shiny Mora. Seems like today I'm gonna make a fortune!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "You wanna take a nap? I can offer you a soft, fluffy cushion that will perfectly conform to the contour of your back. Of course, the level of comfort also depends on how much Mora you're willing to pay.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Traveling at night can be a real challenge, but for a seasoned merchant like me, it's a walk in the park!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "Trying to sleep? Hehe, alright. I'll be generous and let you try my Mora Hypnosis! Don't say I never gave you anything! It goes like this: 10,000 Mora in my coin purse, 20,000 Mora in my coin purse, 30,000 Mora in my coin purse, 40... 40,000 Mora hehe... Mora hehe... Zzz...",
+        "unlocked": []
+      },
+      {
+        "title": "About Dori: Peddling",
+        "text": "Welcome to Dori's Divine Bazaar! Everything you need with service you can rely on! You name it, we've got it! Questions or troubles? I'm here to personally assist you!",
+        "unlocked": []
+      },
+      {
+        "title": "About Dori: Kshahrewar",
+        "text": "I tend to avoid people from the Akademiya, all those rules and regulations of theirs make it nearly impossible to do good business. Although, those from the Kshahrewar tend to be a little more sensible... Ahem, between the two of us, they signed a private contract with me. I have the Mora, they have the technology and crafting techniques. This collaboration will practically roll in opportunities for my business. Hehe, a Dori deal is always a lucrative deal!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Promotion",
+        "text": "Planning to travel in Sumeru? The desert can be pretty dangerous, you know — but don't worry, Dori's always got your back! Ta-daaa! This is the Desert Survival Kit. Available to you for only 5 million Mora! Buy it now and I'll throw in an additional Rainforest Survival Kit, free of charge! This deal is available for a limited time only, so don't miss your chance!",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Mora Distribution",
+        "text": "My Mora is mine, and your Mora is mine too! Hehehe.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Actual Price",
+        "text": "Fine fine, I'll be honest with you... The desert and rainforest survival kits are worth two and a half million Mora each. But buy one get one free sure sounds like a good bargain, doesn't it?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "Wow, just look at it... My Vision is so shiny and beautiful, isn't it? Don't you think you should pay me a fee for the privilege of seeing such an exquisite beauty?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "Once, some stupid toadstools thought they could get away with not paying what they owed. Hmph, little did they know who they were messing with! ...Can you guess what happened to them?",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things: Common Language",
+        "text": "If Weasel Thieves could talk, I bet we'd have a lot in common. What they love most in all of Teyvat is, of course, shiny Mora! Sounds like they've got good heads on their shoulders if you ask me.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things: Sumpter Beast Park",
+        "text": "You'd like to see a Sumpter Beast? No problem! I've got more than you could ever dream of! I'd be happy to let you see them, for a fee... hehe.",
+        "unlocked": []
+      },
+      {
+        "title": "About Cyno",
+        "text": "You could say I know him. After all, I was the only merchant in all Sumeru who could acquire the full range of Genius Invokation TCG merch for him! Not bad, huh? I've gotta admit, it's pretty rare to see anyone from the Akademiya like him... independent and with a good head on his shoulders. Plus, he's never been one to haggle over prices.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Tighnari",
+        "text": "He loves learning as much as I love Mora. I heard he makes a lot of little interesting gadgets, but he refuses to partner with me to mass produce them. He always says he's too busy with work, but really it's just an excuse. *sigh* A shame, really... We could make an absolute fortune!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Alhaitham",
+        "text": "He once came nosing around, asking my minions some questions to see what he could find out. Like I said, those Akademiya people are just pig-headed and dishonest. Why should I take the risk of others prying into my business? Right, my young apprentice?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kaveh",
+        "text": "Ah yeah, he's one of the Kshahrewar people that I work with. Unlike the more closed-minded people at the Akademiya, he actually has his own dreams that he's fighting for. I, for one, really respect that. I secretly lent him some Mora — and I mean a LOT of Mora — to build my Palace of Alcazarzaray. One thing's for sure — without Dori the benevolent benefactor, Kaveh would not be where he is today, hehe.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Dehya",
+        "text": "I hire her to help escort my caravans from time to time. After all, she's got the muscle, and her price is reasonable. When it comes to cost-performance ratio, she's always the best pick.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Rex Lapis",
+        "text": "Before Rex Lapis parted from this world, I'd say a little prayer every morning: \"O great God of Wealth up above, please bless my day with more Mora to love.\" But uh, now, I guess I just pray to myself... \"O divine Dori right here and now, please bless my day with more Mora to count!\" Hehe.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"A New Star Approaches\""
+        ]
+      },
+      {
+        "title": "About Lesser Lord Kusanali",
+        "text": "In Sumeru, Lesser Lord Kusanali has very few believers. Hmm? Am I one? Heh, if she's willing to pay me, I'd be her loyal believer for all eternity.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Nilou",
+        "text": "She's a good dancer, but definitely not making the most of her time by staying in Sumeru... I mean, it's a complete waste of her talent. If I took her on tour across all Teyvat, do you have any idea how much Mora I'd rake in?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Alice",
+        "text": "Alice's range of eccentric novelties knows no end! Which makes her by far my best supplier, hehe. Ahem, now that I've told you my trade secret, I think you should catch up on your tuition fees, hmm? C'mon, pay up!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Dori: I",
+        "text": "You wanna hear some stories? Alright, it'll cost you a million Mora. Well... Okay, out of respect for our friendship, I guess I can give you a 1% discount. So that'll be 990,000 Mora. Pretty good deal if you ask me.",
+        "unlocked": []
+      },
+      {
+        "title": "More About Dori: II",
+        "text": "Hehe, you've got a good head on your shoulders. I'll tell you a story about a merchant.\\nA long, long time ago, a merchant lost her way while she was out on the road. It wasn't long before she encountered a Fog Div. Just as the Fog Div was about to eat her alive, she said in a panic, \"Wait, Mr. Fog Div! Don't eat me! I've got a story to tell you. Please, have a listen, and if you like what you hear, then perhaps you would spare me...\"",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Dori: III",
+        "text": "...The Fog Div agreed to listen, and the merchant began to tell her story. It was about herself, from a time when business was not doing so well. Just as she was beginning to feel helpless, she happened to find a magic lamp in her warehouse. She began to polish the lamp, when all of a sudden, a puff of red smoke came out. The smoke spoke to her and claimed to be The Genie of Beauty and Kindness. The merchant somehow reminded the genie of her own lovely daughter, so she kindly offered to grant the merchant a wish.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Dori: IV",
+        "text": "What could a merchant ever desire more than the prospect of more Mora? So the merchant wished that she could earn more Mora in the future than she could ever hope to count. The Genie of Beauty and Kindness agreed, and became the merchant's supplier, providing her with magical and fantastic goods. The merchant soon went on to make a fortune...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Dori: V",
+        "text": "Hearing the merchant's story, the Fog Div became very puzzled. The div and the genie were obviously of the same species, so how come the div couldn't perform any magic? The merchant praised the Fog Div's potential, saying that it, too, would surely gain the genie's great power if only it were to stay in the same magic lamp. The Fog Div agreed and entered the merchant's magic lamp... Huh? Is this a real story? Backstory details cost extra! Give me another 990,000 Mora and I'll tell you!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Dori's Hobbies",
+        "text": "Hobbies? Sure, I've got tons of hobbies. First there's earning Mora, then there's counting Mora... Oh, and then I like to look at Mora. Ah Mora, nothing in the world makes me happier!",
+        "unlocked": []
+      },
+      {
+        "title": "Dori's Troubles",
+        "text": "I always have people coming to me with business proposals that could yield only 30% profit. I'm a busy lady, you know. Please, anything under 100% profit, I don't even want to hear about it.",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "I hear there's a dish in Liyue called Mora Meat. With a name like that, I know it's gotta be delicious! Wh—What? You know how to make it!? Well ahem, you have been my apprentice for some time now, and you must've learned a lot from me. So uh, in exchange for all that you've learned, why don't you cook some Mora Meat for me? Well, what are you waiting for!?",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "I can't stand anything that's dark and burnt looking... you know, like Charcoal-Baked Ajilenakh Cakes. Ugh, I will never even touch them! Even if you paid me a million Mora, I... Uh, well if that were the case, maybe I'd consider it.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Mmm, yummy! What do you say we partner up, hmm? You could also be my personal chef!",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Oh, so my apprentice knows their way around the kitchen, huh? Alright, lemme order something...",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "You expect me to eat this? Hmph, you'd better compensate me for the mental trauma!",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Today I can grant you one wish! After all, I am the great and almighty Dori! Go on, tell me, what do you wish for? But lemme just tell you now that a lifetime supply of Mora is off the table.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "Does this mean you're investing in me? Hehe, I always knew you had a good head on your shoulders.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "The Mora, the merrier.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Wow! This is like having a bottomless coin pouch filled with endless power!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "Congratulations! You are now a VIP customer of the illustrious Lord Sangemah Bay! This entitles you to enjoy a 20% discount on all future purchases. You're also the first VIP customer ever, so make good use of it!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Watch this!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Your Mora is mine!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Magic lamp!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Here's the goods!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Let's sweeten the deal!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "We'll split it, fifty-fifty.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Show me the goods!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "I'll take it all!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "Hands off my Mora!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Help! I'm being robbed!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Protect the Mora.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "I'll help for a price!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "You can't spend Mora dead, numbskull!",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "Must earn... more Mora...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "Not... again...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "Guess there's some things... Mora can't buy...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "Mind the merchandise!",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: II",
+        "text": "No can do!",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "You big bully!",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "That's a deal-breaker!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "C'mon let's go! There's a fortune to be made!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Hurry up! Mora waits for no one.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "So, what's the deal?",
+        "unlocked": []
+      },
+      {
+        "title": "About Kirara",
+        "text": "She delivered several orders to me when I was stocking up on goods from outside of Sumeru. Her service is great, and her prices are low. Oh, I think she's into pretty accessories, and I happen to have some handmade Sumeru specialties on sale! Wanna buy some as a gift for her? I can give you a discount!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Sha~zam!",
+        "unlocked": []
+      },
+      {
+        "title": "About Varesa",
+        "text": "Ah, yes, I know who you're talking about. The sweet and innocent Fruit Lord... Her family's produce is the best of the best! And she's very easy to negotiate with. If I simply purse my lips and look deep in thought, she gets nervous and starts questioning the quality of her goods, then she starts offering discounts... Hehe, you gotta be a little tougher than that in business, or you'll lose all your Mora! And I hope it's only me that makes her squirm like that. She'd better not be giving the same discounts to everyone else!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      }
+    ],
+    "special_food": {
+      "id": 108438,
+      "recipe": 3301,
+      "name": "Show Me the Mora",
+      "icon": "UI_ItemIcon_108438",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210126,
+      "name": "Dori: Jinni",
+      "desc": "Namecard style.\\nIf you wipe the lamp she gave you and then scrub the Mora you gave her, no wish is unattainable... right?",
+      "icon": "UI_NameCardPic_Dori_P"
+    },
+    "costume": [
+      {
+        "id": 206800,
+        "name": "I Love Mora",
+        "desc": "Dori's outfit. This outfit almost begs to be further adorned with gems and precious metals, loudly announcing its wearer's love of wealth to the world. And they say that this is the merchant Dori's casual wear... So does this mean that she has clothes even more expensive than this one!?",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CLAYMORE",
+  "rarity": "QUALITY_PURPLE",
+  "element": "Electro",
+  "icon": "UI_AvatarIcon_Dori",
+  "stamina_recovery": 25,
+  "base_hp": 1039.4418,
+  "base_atk": 18.6984,
+  "base_def": 60.6585,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.653,
+      "92": 8.957,
+      "93": 9.262,
+      "94": 9.566,
+      "95": 9.87,
+      "96": 10.174,
+      "97": 10.479,
+      "98": 10.783,
+      "99": 11.087,
+      "100": 11.392
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 776.5162,
+        "fight_prop_base_defense": 45.315,
+        "fight_prop_base_attack": 13.96899,
+        "fight_prop_hp_percent": 0
+      },
+      {
+        "fight_prop_base_hp": 1328.2513,
+        "fight_prop_base_defense": 77.5125,
+        "fight_prop_base_attack": 23.894325,
+        "fight_prop_hp_percent": 0.06
+      },
+      {
+        "fight_prop_base_hp": 2063.8984,
+        "fight_prop_base_defense": 120.4425,
+        "fight_prop_base_attack": 37.128105,
+        "fight_prop_hp_percent": 0.12
+      },
+      {
+        "fight_prop_base_hp": 2615.6335,
+        "fight_prop_base_defense": 152.64,
+        "fight_prop_base_attack": 47.05344,
+        "fight_prop_hp_percent": 0.12
+      },
+      {
+        "fight_prop_base_hp": 3167.3687,
+        "fight_prop_base_defense": 184.8375,
+        "fight_prop_base_attack": 56.978775,
+        "fight_prop_hp_percent": 0.18
+      },
+      {
+        "fight_prop_base_hp": 3719.104,
+        "fight_prop_base_defense": 217.035,
+        "fight_prop_base_attack": 66.90411,
+        "fight_prop_hp_percent": 0.24
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S4",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10681,
+      "name": "Marvelous Sword-Dance (Modified)",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.90214,
+            0.410736,
+            0.431204,
+            1.28398,
+            0.625455,
+            1.1309,
+            40,
+            5,
+            0.745878,
+            1.49144,
+            1.862889,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.97557,
+            0.444168,
+            0.466302,
+            1.38849,
+            0.676364,
+            1.22295,
+            40,
+            5,
+            0.806589,
+            1.612836,
+            2.01452,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.049,
+            0.4776,
+            0.5014,
+            1.493,
+            0.727273,
+            1.315,
+            40,
+            5,
+            0.8673,
+            1.734233,
+            2.16615,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1539,
+            0.52536,
+            0.55154,
+            1.6423,
+            0.8,
+            1.4465,
+            40,
+            5,
+            0.95403,
+            1.907656,
+            2.382765,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.22733,
+            0.558792,
+            0.586638,
+            1.74681,
+            0.850909,
+            1.53855,
+            40,
+            5,
+            1.014741,
+            2.029052,
+            2.534396,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.31125,
+            0.597,
+            0.62675,
+            1.86625,
+            0.909091,
+            1.64375,
+            40,
+            5,
+            1.084125,
+            2.167791,
+            2.707688,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.42664,
+            0.649536,
+            0.681904,
+            2.03048,
+            0.989091,
+            1.7884,
+            40,
+            5,
+            1.179528,
+            2.358556,
+            2.945964,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.54203,
+            0.702072,
+            0.737058,
+            2.19471,
+            1.069091,
+            1.93305,
+            40,
+            5,
+            1.274931,
+            2.549322,
+            3.184241,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.65742,
+            0.754608,
+            0.792212,
+            2.35894,
+            1.149091,
+            2.0777,
+            40,
+            5,
+            1.370334,
+            2.740087,
+            3.422517,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7833,
+            0.81192,
+            0.85238,
+            2.5381,
+            1.236364,
+            2.2355,
+            40,
+            5,
+            1.47441,
+            2.948195,
+            3.682455,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.90918,
+            0.869232,
+            0.912548,
+            2.71726,
+            1.336364,
+            2.416313,
+            40,
+            5,
+            1.578486,
+            3.156303,
+            3.942393,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.03506,
+            0.926544,
+            0.972716,
+            2.89642,
+            1.453964,
+            2.628948,
+            40,
+            5,
+            1.682562,
+            3.364411,
+            4.202331,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.16094,
+            0.983856,
+            1.032884,
+            3.07558,
+            1.571564,
+            2.841584,
+            40,
+            5,
+            1.786638,
+            3.572519,
+            4.462269,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.28682,
+            1.041168,
+            1.093052,
+            3.25474,
+            1.689164,
+            3.054219,
+            40,
+            5,
+            1.890714,
+            3.780627,
+            4.722207,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}",
+            "Charged Attack Spinning DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.4127,
+            1.09848,
+            1.15322,
+            3.4339,
+            1.817455,
+            3.286185,
+            40,
+            5,
+            1.99479,
+            3.988735,
+            4.982145,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10682,
+      "name": "Spirit-Warding Lamp: Troubleshooter Cannon",
+      "desc": "Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing <color=#FFACFFFF>Electro DMG</color>.\\nAfter the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal <color=#FFACFFFF>Electro DMG</color>.\\n\\n<i>It is said that Dori can fix any problem for you... for the right price.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.4728,
+            0.3156,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.58326,
+            0.33927,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.69372,
+            0.36294,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.841,
+            0.3945,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.95146,
+            0.41817,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.06192,
+            0.44184,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.2092,
+            0.4734,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.35648,
+            0.50496,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.50376,
+            0.53652,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.65104,
+            0.56808,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.79832,
+            0.59964,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.9456,
+            0.6312,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.1297,
+            0.67065,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.3138,
+            0.7101,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Dori_01",
+          "desc": [
+            "Troubleshooter Shot DMG|{param1:F1P}",
+            "After-Sales Service Round DMG|{param2:F1P}",
+            "CD|{param3:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.4979,
+            0.74955,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10685,
+      "name": "Alcazarzaray's Exactitude",
+      "desc": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\\n\\n<color=#FFD780FF>Jinni</color>\\nConnects to a nearby character. The connected character will:\\n· Continuously restore HP based on Dori's Max HP.\\n· Continuously regenerate Energy.\\n· Be affected by <color=#FFACFFFF>Electro</color>.\\nWhen the connector between the Jinni and the character touches opponents, it will deal one instance of <color=#FFACFFFF>Electro DMG</color> to them every 0.4s.\\n\\nOnly one Jinni can exist at one time.\\n\\n<i>\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.158824,
+            0.0667,
+            641.97955,
+            1.6,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.170736,
+            0.071702,
+            706.18646,
+            1.7,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.182648,
+            0.076705,
+            775.7439,
+            1.8,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.19853,
+            0.083375,
+            850.6519,
+            1.9,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.210442,
+            0.088377,
+            930.9105,
+            2,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.222354,
+            0.09338,
+            1016.5197,
+            2.1,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.238236,
+            0.10005,
+            1107.4795,
+            2.2,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.254118,
+            0.10672,
+            1203.7898,
+            2.3,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.270001,
+            0.11339,
+            1305.4507,
+            2.4,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.285883,
+            0.12006,
+            1412.4622,
+            2.5,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.301766,
+            0.12673,
+            1524.8242,
+            2.5,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.317648,
+            0.1334,
+            1642.5369,
+            2.5,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.337501,
+            0.141737,
+            1765.6,
+            2.5,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.357354,
+            0.150075,
+            1894.0138,
+            2.5,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Dori_01",
+          "desc": [
+            "Connector DMG|{param1:P}",
+            "Continuous Healing|{param2:F1P} Max HP+{param3:I}",
+            "Energy Regeneration|{param4:F1}",
+            "Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.377207,
+            0.158412,
+            2027.7781,
+            2.5,
+            12,
+            20,
+            80,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 682101,
+      "name": "An Eye for Gold",
+      "desc": "After a character connected to the <color=#FFD780FF>Jinni</color> triggers an Electro-Charged, Lunar-Charged, Superconduct, Stellar-Conduct, Overloaded, Quicken, Aggravate, Hyperbloom, Electro Swirl, or Electro Crystallize reaction, the CD of <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> is decreased by 1s.\\nThis effect can be triggered once every 3s.",
+      "icon": "UI_Talent_S_Dori_05",
+      "unlock": 1,
+      "param_list": [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 682201,
+      "name": "Compound Interest",
+      "desc": "When the Troubleshooter Shots or After-Sales Service Rounds from <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.\\nPer Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way.",
+      "icon": "UI_Talent_S_Dori_06",
+      "unlock": 4,
+      "param_list": [
+        5,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 682301,
+      "name": "Unexpected Order",
+      "desc": "Has a 25% chance to recover some of the materials used when crafting Character and Weapon Materials.",
+      "icon": "UI_Talent_S_Dori_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 681,
+      "name": "Additional Investment",
+      "desc": "The number of After-Sales Service Rounds created by <color=#FFD780FF>Troubleshooter Shots</color> is increased by 1.",
+      "icon": "UI_Talent_S_Dori_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 682,
+      "name": "Special Franchise",
+      "desc": "When you are in combat and the <color=#FFD780FF>Jinni</color> heals the character it is connected to, it will fire a Jinni Toop from that character's position that deals 50% of Dori's ATK DMG.",
+      "icon": "UI_Talent_S_Dori_02",
+      "param_list": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 683,
+      "name": "Wonders Never Cease",
+      "desc": "Increases the Level of <color=#FFD780FF>Alcazarzaray's Exactitude</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Dori_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 684,
+      "name": "Discretionary Supplement",
+      "desc": "The character connected to the <color=#FFD780FF>Jinni</color> will obtain the following buffs based on their current HP and Energy:\\n·When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.\\n·When their Energy is less than 50%, they gain 30% Energy Recharge.",
+      "icon": "UI_Talent_S_Dori_03",
+      "param_list": [
+        0.5,
+        0.3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 685,
+      "name": "Value for Mora",
+      "desc": "Increases the Level of <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Dori_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 686,
+      "name": "Sprinkling Weight",
+      "desc": "Dori gains the following effects for 3s after using <color=#FFD780FF>Spirit-Warding Lamp: Troubleshooter Cannon</color>:\\n·<color=#FFACFFFF>Electro Infusion</color>.\\n·When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.",
+      "icon": "UI_Talent_S_Dori_04",
+      "param_list": [
+        3,
+        0.04,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Sliver",
+            "id": 104141,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Faded Red Satin",
+            "id": 112065,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Fragment",
+            "id": 104142,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Thunderclap Fruitcore",
+            "id": 113037,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Faded Red Satin",
+            "id": 112065,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Fragment",
+            "id": 104142,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Thunderclap Fruitcore",
+            "id": 113037,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Trimmed Red Silk",
+            "id": 112066,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Chunk",
+            "id": 104143,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Thunderclap Fruitcore",
+            "id": 113037,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Trimmed Red Silk",
+            "id": 112066,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Chunk",
+            "id": 104143,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Thunderclap Fruitcore",
+            "id": 113037,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Rich Red Brocade",
+            "id": 112067,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vajrada Amethyst Gemstone",
+            "id": 104144,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Thunderclap Fruitcore",
+            "id": 113037,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Kalpalata Lotus",
+            "id": 101217,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Rich Red Brocade",
+            "id": 112067,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Ingenuity",
+              "id": 104332,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Faded Red Satin",
+              "id": 112065,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Ingenuity",
+              "id": 104332,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Faded Red Satin",
+              "id": 112065,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Ingenuity",
+              "id": 104332,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Faded Red Satin",
+              "id": 112065,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Ingenuity",
+              "id": 104333,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Trimmed Red Silk",
+              "id": 112066,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Ingenuity",
+              "id": 104334,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Rich Red Brocade",
+              "id": 112067,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Bloodjade Branch",
+              "id": 113018,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ElementalArt_Bullet_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 30
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "ElementalArt_SubBullet_Material",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "ElementalArt_Constellation_Bullet_Material",
+      "icd": {
+        "tag": "Constellation_2",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 10
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ElementalArt_Bullet_Damage"
+    },
+    {
+      "name": "ChargingStation",
+      "icd": {
+        "tag": "Dori_ChargingStation",
+        "group": "Dori_Elemental_Burst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0"
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ChargingStation",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "Dori_Elemental_Burst"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV0",
+        "value": 8
+      },
+      "element": "Electric",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "Elemental_Burst_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "Ball",
+      "skill": "ElementalArt_Bullet_Material",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 2,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 1.5,
+      "applications": 1,
+      "drop_id": 2020
+    },
+    {
+      "name": "SubBullet_Ball",
+      "skill": "ElementalArt_SubBullet_Material",
+      "kind": "ElementalArt",
+      "element": "Electro",
+      "per_drop": 2,
+      "lifetime": 3,
+      "chance": 100,
+      "cd": 1.5,
+      "applications": 1,
+      "drop_id": 2020
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": 15007,
+  "icon": "UI_RelicIcon_15007_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150070,
+      "id": 215007,
+      "level": 0,
+      "open_config": "Relic_ElementalBurstUp",
+      "param_list": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Noblesse Oblige",
+      "desc": "Elemental Burst DMG +20%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150071,
+      "id": 215007,
+      "level": 1,
+      "open_config": "Relic_TeamAtkupAfterElementalBurst",
+      "param_list": [
+        0.2,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Noblesse Oblige",
+      "desc": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15007_1",
+      "name": "Royal Silver Urn",
+      "desc": "",
+      "story": {
+        "285071": {
+          "zh": "ART/UI/Readable/CHS/Relic15007_1",
+          "en": "ART/UI/Readable/EN/Relic15007_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15007_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15007_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15007_2",
+      "name": "Royal Plume",
+      "desc": "",
+      "story": {
+        "285072": {
+          "zh": "ART/UI/Readable/CHS/Relic15007_2",
+          "en": "ART/UI/Readable/EN/Relic15007_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15007_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15007_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15007_3",
+      "name": "Royal Masque",
+      "desc": "",
+      "story": {
+        "285073": {
+          "zh": "ART/UI/Readable/CHS/Relic15007_3",
+          "en": "ART/UI/Readable/EN/Relic15007_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15007_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15007_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15007_4",
+      "name": "Royal Flora",
+      "desc": "",
+      "story": {
+        "285074": {
+          "zh": "ART/UI/Readable/CHS/Relic15007_4",
+          "en": "ART/UI/Readable/EN/Relic15007_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15007_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15007_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15007_5",
+      "name": "Royal Pocket Watch",
+      "desc": "",
+      "story": {
+        "285075": {
+          "zh": "ART/UI/Readable/CHS/Relic15007_5",
+          "en": "ART/UI/Readable/EN/Relic15007_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15007_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15007_5_KR"
+        }
+      }
+    }
+  }
+}

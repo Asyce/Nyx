@@ -1,0 +1,139 @@
+{
+  "id": 14001,
+  "icon": "UI_RelicIcon_14001_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2140010,
+      "id": 214001,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Blizzard Strayer",
+      "desc": "Cryo DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2140011,
+      "id": 214001,
+      "level": 1,
+      "open_config": "Relic_CriticUpAgainstIceAndFrozen",
+      "param_list": [
+        0.2,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Blizzard Strayer",
+      "desc": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_14001_1",
+      "name": "Frost-Weaved Dignity",
+      "desc": "",
+      "story": {
+        "284011": {
+          "zh": "ART/UI/Readable/CHS/Relic14001_1",
+          "en": "ART/UI/Readable/EN/Relic14001_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic14001_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic14001_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_14001_2",
+      "name": "Icebreaker's Resolve",
+      "desc": "",
+      "story": {
+        "284012": {
+          "zh": "ART/UI/Readable/CHS/Relic14001_2",
+          "en": "ART/UI/Readable/EN/Relic14001_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic14001_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic14001_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_14001_3",
+      "name": "Broken Rime's Echo",
+      "desc": "",
+      "story": {
+        "284013": {
+          "zh": "ART/UI/Readable/CHS/Relic14001_3",
+          "en": "ART/UI/Readable/EN/Relic14001_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic14001_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic14001_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_14001_4",
+      "name": "Snowswept Memory",
+      "desc": "",
+      "story": {
+        "284014": {
+          "zh": "ART/UI/Readable/CHS/Relic14001_4",
+          "en": "ART/UI/Readable/EN/Relic14001_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic14001_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic14001_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_14001_5",
+      "name": "Frozen Homeland's Demise",
+      "desc": "",
+      "story": {
+        "284015": {
+          "zh": "ART/UI/Readable/CHS/Relic14001_5",
+          "en": "ART/UI/Readable/EN/Relic14001_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic14001_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic14001_5_KR"
+        }
+      }
+    }
+  }
+}

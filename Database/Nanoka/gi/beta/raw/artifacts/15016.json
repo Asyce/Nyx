@@ -1,0 +1,139 @@
+{
+  "id": 15016,
+  "icon": "UI_RelicIcon_15016_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_WATER_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150160,
+      "id": 215016,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Heart of Depth",
+      "desc": "Hydro DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150161,
+      "id": 215016,
+      "level": 1,
+      "open_config": "Relic_WaterSkillEnhanceNormalAtkAndExtraAtk",
+      "param_list": [
+        0.3,
+        1,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Heart of Depth",
+      "desc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15016_1",
+      "name": "Goblet of Thundering Deep",
+      "desc": "",
+      "story": {
+        "285161": {
+          "zh": "ART/UI/Readable/CHS/Relic15016_1",
+          "en": "ART/UI/Readable/EN/Relic15016_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15016_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15016_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15016_2",
+      "name": "Gust of Nostalgia",
+      "desc": "",
+      "story": {
+        "285162": {
+          "zh": "ART/UI/Readable/CHS/Relic15016_2",
+          "en": "ART/UI/Readable/EN/Relic15016_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15016_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15016_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15016_3",
+      "name": "Wine-Stained Tricorne",
+      "desc": "",
+      "story": {
+        "285163": {
+          "zh": "ART/UI/Readable/CHS/Relic15016_3",
+          "en": "ART/UI/Readable/EN/Relic15016_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15016_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15016_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15016_4",
+      "name": "Gilded Corsage",
+      "desc": "",
+      "story": {
+        "285164": {
+          "zh": "ART/UI/Readable/CHS/Relic15016_4",
+          "en": "ART/UI/Readable/EN/Relic15016_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15016_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15016_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15016_5",
+      "name": "Copper Compass",
+      "desc": "",
+      "story": {
+        "285165": {
+          "zh": "ART/UI/Readable/CHS/Relic15016_5",
+          "en": "ART/UI/Readable/EN/Relic15016_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15016_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15016_5_KR"
+        }
+      }
+    }
+  }
+}

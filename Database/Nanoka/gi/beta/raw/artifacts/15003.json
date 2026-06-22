@@ -1,0 +1,139 @@
+{
+  "id": 15003,
+  "icon": "UI_RelicIcon_15003_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 80
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150030,
+      "id": 215003,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Wanderer's Troupe",
+      "desc": "Increases Elemental Mastery by 80."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150031,
+      "id": 215003,
+      "level": 1,
+      "open_config": "Relci_RangerAttackUp",
+      "param_list": [
+        0.35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Wanderer's Troupe",
+      "desc": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15003_1",
+      "name": "Wanderer's String-Kettle",
+      "desc": "An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which play a wondrous tune as the water flows out.",
+      "story": {
+        "285031": {
+          "zh": "ART/UI/Readable/CHS/Relic15003_1",
+          "en": "ART/UI/Readable/EN/Relic15003_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15003_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15003_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15003_2",
+      "name": "Bard's Arrow Feather",
+      "desc": "An azure arrow fletching that has neither faded nor splintered with the passage of time. The sound of running water seems to linger around it.",
+      "story": {
+        "285032": {
+          "zh": "ART/UI/Readable/CHS/Relic15003_2",
+          "en": "ART/UI/Readable/EN/Relic15003_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15003_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15003_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15003_3",
+      "name": "Conductor's Top Hat",
+      "desc": "A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within.",
+      "story": {
+        "285033": {
+          "zh": "ART/UI/Readable/CHS/Relic15003_3",
+          "en": "ART/UI/Readable/EN/Relic15003_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15003_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15003_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15003_4",
+      "name": "Troupe's Dawnlight",
+      "desc": "A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing.",
+      "story": {
+        "285034": {
+          "zh": "ART/UI/Readable/CHS/Relic15003_4",
+          "en": "ART/UI/Readable/EN/Relic15003_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15003_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15003_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15003_5",
+      "name": "Concert's Final Hour",
+      "desc": "An hourglass used to keep time during a band performance. It once made a crisp sound, but their performance has since ended.",
+      "story": {
+        "285035": {
+          "zh": "ART/UI/Readable/CHS/Relic15003_5",
+          "en": "ART/UI/Readable/EN/Relic15003_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15003_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15003_5_KR"
+        }
+      }
+    }
+  }
+}

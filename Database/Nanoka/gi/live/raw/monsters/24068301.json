@@ -1,0 +1,73 @@
+{
+  "name": "Underwater Survey Mek",
+  "desc": "A clockwork meka designed for underwater surveying.\\nIn the absence of significant breakthroughs in dynamics research, kinematics research has had the most significant impact on clockwork meka design. For machines designed to perform specific tasks, biomimesis has sometimes provided the most convenient solutions.",
+  "icon": "UI_MonsterIcon_MachinaIustitia_Recon",
+  "codex": "AUTOMATRON",
+  "title": "Underwater Survey Mek",
+  "special_names": [
+    "Ser.472030",
+    "Ser.301014",
+    "Ser.735311",
+    "Ser.652190",
+    "Ser.158439",
+    "Ser.359360",
+    "Ser.174326",
+    "Ser.361617",
+    "Ser.208594",
+    "Ser.295062",
+    "Ser.775577",
+    "Ser.391908",
+    "Ser.918722",
+    "Ser.208739",
+    "Ser.422440",
+    "Ser.574902",
+    "Ser.665997",
+    "Ser.358002",
+    "Ser.776950",
+    "Ser.438412"
+  ],
+  "reward": [],
+  "child": {
+    "24068301": {
+      "monster_name": "MachinaIustitia_Recon_Codex",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 19.48134,
+        "atk": 45,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

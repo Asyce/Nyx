@@ -1,0 +1,4519 @@
+{
+  "name": "Lan Yan",
+  "desc": "A rattan weaver from Chenyu Vale. Clear-minded and well-tempered, she is as lively as a mountain spring.",
+  "chara_info": {
+    "release_date": "2025-01-21 18:00:00",
+    "birth": [
+      1,
+      6
+    ],
+    "vision": "Anemo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Hirundo Lazuli",
+    "region": "ASSOC_TYPE_LIYUE",
+    "title": "Spring Woven From Jade",
+    "native": "Chenyu Vale",
+    "detail": "A rattan weaver from Chenyu Vale. Clear-minded and well-tempered, she is as lively as a mountain spring.",
+    "va": {
+      "chinese": "刘十四",
+      "japanese": "若山詩音",
+      "english": "Anna Devlin",
+      "korean": "Kim Soon-mi"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "When it comes time for the residents of Chenyu Vale to spruce up their homes, there is more than just the usual panoply of intricately carved wooden beds and tables on offer. They also have a fine selection of wickerwork furnishings to choose from — delicately crafted by their own master rattan weaver.\\nThis latter option provides a distinctive, refreshing, and elegant style and is something the Vale's residents know they can always rely on as a safe choice.\\nWhile fine silk garments imported from Liyue Harbor have an undeniable allure, cloth dyed locally is both durable and functional, and exhibits patterns and colors that exude a familiar charm.\\nYet it is the crafting of silver and jade into objects of great beauty for which Chenyu Vale's artisans are perhaps best known, so much so that the owner of Mingxing Jewelry — a time-honored and respected establishment in Liyue Harbor — regularly dispatches representatives to come looking for wares.\\nSilver-smithing, jade-carving, cloth-dying, rattan-weaving, and countless other crafts — Chenyu Vale is famed as the home of the most outstanding and accomplished artisans in each field. Skilled, dextrous, and creative are but a few words that could be used to describe them.\\nLan Yan is a master rattan weaver and a Chenyu Vale Artisans Association member.\\nShould a wandering traveler get lost in the tranquil valley, betwixt sparkling mountain springs and gnarled and ancient tea trees, and there stumble upon a smiling young woman, adorned in silver ornaments, it might well be Lan Yan, out collecting rattan vines.\\nFeel free to ask her for directions, for she will kindly guide you through the swirling mountain mists of Chenyu Vale and set you on the path to the picturesque hamlet of Qiaoying Village, with its white brick walls and gray tiled roofs.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Chenyu Vale has long been praised as a cradle of artisans, with many a master craftsperson honing their skills in the picturesque surroundings of Qiaoying Village.\\nWith generations of artisans living and working together, the village tradespeople naturally chose to form a collective to protect their shared interests. Now, they proudly announce themselves as members of the Chenyu Vale Artisans Association, spreading prestige for their hometown and their skills everywhere they go.\\nMembers of the association not only look out for each other in crafting and trade, but they form a close-knit, neighborly group who are always there for each other in good times and in bad.\\nAsk any member of the association about rattan weaving, and one name above all you would hear — Lan Yan. Despite her youth, she excels at weaving all manner of rattan goods while also having a grasp on the arcane Qimen arts.\\nIt is said that \"skills honed to the highest pinnacle produce art that touches the divine realm.\" The venerable masters believe that anyone who reaches the apex of their craft will uncover abilities that cut through the spiritual divide. To them, Lan Yan — with her Vision and attunement to the Qimen arts — is a truly remarkable young woman.\\nAs for Lan Yan herself, well, she's having none of it. When others shower her with praise, this is her usual, slightly abashed retort: \"I'm really only interested in rattan weaving.\"\\nA merchant from Liyue Harbor once came bearing gifts of gold and words of praise. He humbly requested that \"Lan Yan the Master Rattan Weaver\" produce two pieces of furniture for his new home.\\nWhile waiting patiently in the association's halls, he had expected to be greeted by a serious, even taciturn face — one perhaps wizened by age. Yet when Lan Yan entered, he was shocked to discover a bright-eyed, fresh-faced young woman.\\nHer joy and exuberance were evident as she greeted all those present with glee. There was no hint of arrogance in her demeanor. When the merchant told her of his request, she simply nodded and said, \"Leave it to me!\" as though her craft was as simple as pouring a cup of tea. With that, she shouldered her basket and headed out into the hills to pick the necessary vines.\\nThe artisan tasked with greeting the association's guests patted the merchant on the shoulder. \"Lan Yan's a straightforward young craftswoman, there's no need to stand on ceremony with her. She agreed to your request, so, the way she sees it, why not get started? Come on, let's go and get something to snack on while you wait.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "To Lan Yan's mind, the process of weaving rattan goods is a simple one.\\nThe first step is to gather enough vines.\\nIn the verdant mountains, the first rays of the morning sun are the purest, and as the last birds to rise lend their voices to the dawn chorus, Lan Yan sets off towards the wooded slopes with her trusty bamboo basket and pruning knife in hand.\\nThe vines like to grow where the soil is moist, though whether they prefer to bask in the sunlight or take shelter in the shade appears to be a matter of temperament and personal preference.\\nDifferent vines are suited to the weaving of different objects. A folding screen, for example, requires a certain stubborn resilience. Lan Yan often looks for such vines in old-growth forests, with their ancient trees towering high overhead — to climb and cling on to such imposing trees requires a more rugged constitution.\\nIn contrast, a woven flower basket calls for vines of a more supple nature. These vines are often found by the water's edge, where the thirsty rattan palms send out myriad soft offshoots that cover the ground like a carpet. Such soft vines can be bent to form the shape of a basket without snapping.\\nOnce enough vines have been collected, it is time to return home and process them.\\nThe woody cores can be used to shape and weave a solid frame, while the skin, once peeled away, can be woven into a fabric-like material that helps give rattan goods their finished shape. Both of these materials must first be washed and dried.\\nLan Yan likes to sing while she soaks and stirs the rattan strips — and as she pulls them out of the water, one by one, to dry them in the courtyard. Sometimes her mother and father will join her, and they will talk and laugh while they lay the strips out in the sun.\\nOnce the cores and skins have been processed, then comes the most crucial part of the process — weaving.\\nRattan weaving requires significant concentration — warp and weft, along and across. From a pile of cores and strips of skin, a perfectly sculpted object begins to take shape.\\nLan Yan views the fruits of her labor not so much as products, but as living entities, lovingly birthed by her hands.\\nEven if two of her creations might appear indistinguishable to an outside observer, she can tell them apart by the subtle changes in touch and force applied, the order of her weaving, or the emotions she felt while she made them. Each of her rattan children has its unique feel.\\nWhile weaving, Lan Yan maintains a singular focus on her task. She is not easily distracted by idle chatter, nor the excited cries of her neighbors' cats and dogs, nor graceful swallows swooping beneath the eaves. There are times — perhaps to escape the noise — when she will take her work to a familiar mountainside to sit in silence and weave.\\nUnlike her family at home, the flowers, birds, fish, and insects that roam freely in the forested hills feel no need to leave a quiet space for Lan Yan to weave in.\\nThe most mischievous offenders are the little foxes, who, indulging their natural curiosity, come to watch Lan Yan as she works, nudging and sniffing at her jugs and jars, spilling her varnish and inadvertently waterproofing their paws.\\nThe panicked foxes then trample on the flower basket she has been weaving, leaving shiny paw prints in their wake. Thanks to this unique touch — the innocence of the wilderness — this basket will become one of Lan Yan's favorite creations.\\nThat is how rattan weaving is — simple yet never boring, and this experience is one of Lan Yan's most cherished and happiest moments in a life spent devoted to her craft.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Much like the exorcists who dwell on Mt. Tianheng, the Lan clan, with their affinity for the Qimen arts, have long made Chenyu Vale their home.\\nOne such art requires the use of rattan figures. As a result, such figures — and the skills to make them — are something the Lan clan values highly. What sets Lan Yan apart, is that unlike the rest of her family, who view rattan weaving as a means to an end, she views it as an art in itself, one whose importance far outstrips the arcane and esoteric purposes that fascinate her kin.\\nThough Lan Yan once studied the classic texts of the Qimen arts under the tutelage of her relatives, she did little more than scratch the surface, and her knowledge pales before experienced practitioners. Then again, she does not claim to be an expert, though that doesn't stop curious members of the association from asking her to perform rituals or ward off ill omens.\\nAfter receiving too many such requests, Lan Yan can only sigh.\\nBorn into a branch of the Lan clan, Lan Yan does not conform to the typical image of a geomancer that an outsider might have. The only visible sign of her heritage is her silver hair ornament, modeled after the \"Jade-Plumed Silverwing.\"\\nThis heirloom symbolizes the Lan clan's connections to the \"Eight Adepts\" — significant figures in Liyue's history.\\nThe term refers to eight great heroes who once fought against the god Tao Dou. Of these eight heroes, the Jade-Plumed Silverwing, Lone Butterfly of the Crimson Flame, and Gold-Eyed Celadon Mare are known as the Three Beasts of Tao Dou.\\nOf the remaining five, Wind Reader, the Wuwang Kid, and the Yunlai Angler were honored as the Three Hermits of Guizang. They and the Two Sages of Lianshan were all human.\\nThe Jade-Plumed Silverwing had a deep connection with Wind Reader, who was a truly remarkable individual. It was he who first taught the Lan clan the secrets of the Qimen arts.\\nThe silver ornament that Lan Yan now wears in her hair has been passed down from generation to generation so that the descendants of the Lan clan never forget where they came from.\\nLan Yan knows the story of the Eight Adepts well and regularly makes trips to watch Liyue opera performances that tell of their exploits. Despite this, their story never left a strong impression on her.\\nThroughout Liyue's long history, selfless acts for the benefit of future generations — or \"planting trees for the children of tomorrow,\" as the locals like to say — have been a recurring motif. Many such tales have already been lost to the winds of time, while others have entered the collective psyche and become part of Liyue's living folk memory.\\nAnd because such stories exist, carefree, exuberant young men and women like Lan Yan are free to roam the wild slopes of Chenyu Vale, smiling and laughing and singing folk songs amidst nature's beauty.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Whenever Lantern Rite rolls along, the Ministry of Civil Affairs in Liyue Harbor is especially busy organizing street fairs, performances, and all sorts of other festive activities.\\nMinistry officials — often rushed off their feet — can be seen dashing hither and thither, attempting to enlist the most capable members of Liyue society to contribute toward the most important festival of the year.\\nIn previous years, the Chenyu Vale Artisans Association has always been happy to send their representatives to help. This year, the Ministry of Civil Affairs asked specifically for Lan Yan.\\nFor Lan Yan, who grew up in the leafy confines of the vale, rarely venturing beyond its verdant slopes except to accompany her grandfather on his travels, this was her first real journey to the city.\\nLike so many customers who have traveled to Chenyu Vale to seek the services of the famed rattan weaving master, those at the Ministry of Civil Affairs were shocked to discover that the master artisan whose help they sought was a fresh-faced, unimposing young woman.\\nThe young artisan politely rejected the food and lodging the ministry offered, preferring to wander the city streets by herself, conversing with visitors and citizens alike — to use her own words, \"This is my first time coming as far as Liyue Harbor, I'd like to find my own way around.\"\\nShe ate her first meal in the Wanmin Restaurant, where she was taken unawares by the spicy boiled fish, and was left gulping down water to cool the fires on her tongue.\\nShe then spent much of her first evening wandering Chihu Rock, before Liyue Harbor's nighttime soundscape soothed her to sleep.\\nHer first conversation was with a soldier returning home from a posting to the Chasm. The soldier helped a lost Lan Yan find her bearings and, upon hearing she had come from Chenyu Vale, told her at length of the red mountains of the Chasm and played her a melodious tune.\\n\"The world truly is a large place,\" she thought.\\nLiyue itself is already home to many people and places, each unique in their own way. The waters of Chenyu Vale sport gentle beauty and natural charm, the clamorous streets of Liyue Harbor burst with bustling color, and the stark landscapes of the Chasm are vast and imposing. And outside Liyue... an even larger world awaits.\\nFor the first time in her life, Lan Yan desired to see more of the world, to use the rattan strands of her hometown to weave the scenes she might see there to become one with her own heart.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "It is rare to see Lan Yan without a smile on her face, and even her best friends would be hard-pressed to recall a time they've seen her cry.\\nOf course, she too has moments of unhappiness, though they are few and far between. Whenever she feels sad, all she needs to do is allow a mischievous lamb to butt its head against her leg or a fluffy puppy to nip her hand, and her worries melt away like morning snow.\\nAs far as Lan Yan is concerned, every second spent thinking unhappy thoughts is time that could be better devoted to playing happily with the beasts of the fields and forests.\\nMost of the time, an afternoon whiled away among the tea trees with her animal friends is enough to dispel unpleasant feelings.\\nHowever, there are times when more drastic action is required — such as letting her cares wash away while swimming in the wilds.\\nThere isn't a pool or waterway between Qiaoying Village and Mt. Lingmeng that Lan Yan hasn't swum in, nor a crisp mountain spring that hasn't filled her cupped hands or reflected her face.\\nShe reclines in the water, the gentle current keeping her afloat, as her black hair swirls on the surface and tiny fish nibble playfully at her feet. All the while, warm rays of sunlight cast dappled shadows on the streambed below.\\nHere she daydreams in viridian and emerald hues of a life much the same as hers.\\nShe wakes at dawn in such dreams, in a house with white brick walls and a gray tiled roof. There she drinks a cup of morning tea, before punting a bamboo raft down the stream outside, singing all the while. In her dream, too, she weaves rattan objects, as a tiny dog bounds over to her side and licks her hand. And with that, she awakens.\\nLike every son and daughter of Chenyu Vale, Lan Yan is as simple and pure as a clear mountain spring.\\nShe has everything she wants and so doesn't dwell on dreams.\\nThe bright lights and exotic sights of the world outside are no more attractive to her than a butterfly to a deer. Sure, a curious deer may leave its verdant slopes to gaze upon a passing butterfly, but it will soon return to whence it came to happily graze once more.\\nWherever Lan Yan's travels may take her, it is never long before she returns home to Chenyu Vale.\\nEven the most wonderful dreams cannot compare to the scent of freshly roasted tea leaves, just as even the most distant fantasies cannot compete with the beauty of the swirling mountain mists that wreath Mt. Xuanlian.\\nAfter wringing out her hair by the water's edge and getting back into her dry clothes, Lan Yan carefully dons each of her silver bracelets, earrings, and necklace. It is time for her to return home.\\nThe silver ornamentations that adorn her are gifts from her family, and they chime and jingle as she walks, playing a melodious mountain tune. Wherever she goes, she is accompanied by joyful music.\\nSwimming in the wilds is not without its dangers, and she has been reprimanded by her grandfather on more than one occasion. There would surely be more stern words if she were to be caught again today. Next time, she muses, it might be better to take a friend.\\nBut that's a matter for another day. Tonight, there is Tea-Smoked Squab on the menu.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Song of Swallows",
+        "text": "\"Swallows nest when skies are fair, but hide when storms are in the air.\"\\n\"When death is near and all hopes fade, the swallow comes, a life to trade.\"\\nThis is one of the many superstitions that Lan Yan has told you of. She warned you to treat swallows with care, for when our final moments approach, a swallow may well appear before the gates of Tao Dou to take your place in death. To hear her tell it, her grandfather also claimed that swallows could bring about an early demise if treated unkindly.\\nIt's easy to get on board with the message preaching kindness and the sanctity of life, but the part about dying if you're not quite nice enough seems a little extreme.\\nMany such old superstitions are as unfathomable to people today as rain that falls from a cloudless sky — ideas such as \"fingernails shouldn't be cut at night,\" \"chopsticks mustn't be laid horizontally on bowls,\" or \"a new season's first picking of tea cannot be drunk by children.\"\\nIn truth, even though kindness to swallows is a widely practiced folk tradition in Chenyu Vale, to most youths, the idea is nothing more than a nursery rhyme, sung to them as infants.\\nOnly the Lan family upholds this tradition with the rigor of an unwritten rule — any swallow that builds its nest beneath their eaves is welcome to stay for as long as it may please.\\n\"They can be bothersome at times, but once the swallows get to know me, they like to hop up on my shoulder and keep me company while I weave.\"\\nWhen she told you this, you were with her in Jademouth, riding Uncle Bosu's bamboo raft. The old man's singing was accompanied by a gentle breeze, while a pelican lay fast asleep in the back of the boat.\\nThe silver swallow in her hair glinted brightly in the sunlight, as warm and lustrous as her eyes.\\nGazing at that ornament, you couldn't help but wonder if the Lan family's tradition of caring for swallows might stem from their history with the Jade-Plumed Silverwing, and your thoughts turned to the stories of those ancient days.\\nSeeing the glazed expression in your eyes, Lan Yan leaned in and gently tweaked your nose.\\nAs though waking from a dream, you were greeted by her smiling face, and not far in the distance, the sights and sounds of the docks told you that your journey was almost at an end.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "Much like all handicrafts, rattan weaving is a skill that relies more on the body than the mind.\\nOnce a frame has been crafted and the overall shape of an object set, Lan Yan must use the utmost care to weave each warp and every weft. After years of practice, the skills and movements of her craft have not only been burned into her brain but become second nature and muscle memory.\\nOn a deeper level, this process has also gradually refined and clarified her spirit.\\nLan Yan is a master rattan weaver. She has never been given over to grandiose dreams of chasing the moon and the stars, nor of forsaking all that she has and living her life as a hermit on some distant mountain.\\nHer life is a simple one, natural and unadorned.\\nAs she weaves, her hands honor the memories of days past, retracing their steps to expertly craft delicate patterns and shapes.\\nAll the while, her heart does not lie idle, for she is thinking of the mountain mists, the vines that climb the cliffs and crags, and the sensation of freshly fallen leaves beneath her bare and carefree feet.\\nShe thinks of Chenyu Vale — of her family amidst the mountains and rivers — and the rattan in her hands becomes supple and pliable to her will.\\nShe dreams of weaving these beautiful things with her own two hands so that her memories can live forever in the objects she creates. Perhaps because her heart is filled with warmth and kindness, the objects that Lan Yan crafts exude a simple, gentle spirit.\\nPerhaps that's also why the cats, dogs, birds, and squirrels of Chenyu Vale are never scared to approach her.\\n\"Even the adepti come to watch Lan Yan weave.\" Her grandfather had once proudly claimed.\\nNo one could know for sure if the adepti had ever truly stopped in passing to watch Lan Yan perform her craft. Lan Yan herself believes that beings who would pour their power into protecting the waters and mountains of the vale, and all those who dwelt there, would surely have an appreciation for handicrafts so lovingly created and imbued with the spirit of their creator.\\nSo when she discovered a Vision glinting softly at the bottom of her rattan basket, she was not surprised. She simply picked it up and continued on her way, gathering rattan vines.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "Hello, I'm Lan Yan, from the Chenyu Vale Artisans Association! Can I interest you in any decorations or baskets? Or perhaps a vase or piece of furniture? Ah, I'm almost out of rattan. I should head back to the mountains to get more... Oh, you want to come with me? Hehe, that's so nice of you! I'll throw in a free rattan hat! How does that sound?",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Daily Planning",
+        "text": "Oh, my plan for the day? Hm... Doing whatever I feel like, I suppose! Same with tomorrow, and the day after that, hehe.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Family Heirloom",
+        "text": "The best rattan furniture is made from strands that are smooth, thin, and strong like silk. Furniture like that can be just as precious as a silver family heirloom... That's no exaggeration!",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Swallows",
+        "text": "Swallows nest when skies are fair, but hide when storms are in the air.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Well, since we're already caught in the rain, we might as well enjoy it! Saves us the energy of running for shelter, at least.",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Whoa! C—Can I hold your hand?",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "Look! Everything the sun touches is coated in gold!",
+        "unlocked": []
+      },
+      {
+        "title": "When It's Windy",
+        "text": "Hear that? Ding a ling... Ding a ling... My silver hairpiece is ringing like a bell! The wind is nice and gentle today.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Wind Is Blowing",
+        "text": "Ding a ling a ling a ling... Sounds like the wind is angry this time.",
+        "unlocked": []
+      },
+      {
+        "title": "In the Desert",
+        "text": "Need some water? Here, take a sip of mine. It's infused with mint leaves, so it's extra refreshing!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Oh, did the birds wake you up? Haha, let me have a quick talk with them. We'll see if it works — they don't always listen to me.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "I picked some fresh flowers! I was just about to head back and cook something for my mom... You should come, too! My family would love to see you!",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "The night market sells grilled insects! Wanna give them a try?",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "So sleepy... I'm gonna turn in for the night. I can't stay up any longer.",
+        "unlocked": []
+      },
+      {
+        "title": "About Lan Yan: Happiness",
+        "text": "To me, happiness is... savoring every bite of rice down to the very last grain, listening to the sound of the wind while taking a nap on the grass, and reading all ten volumes of a supernatural novel in a single sitting!",
+        "unlocked": []
+      },
+      {
+        "title": "About Lan Yan: Inheritors of Qimen Arts",
+        "text": "The legendary Wind Reader is indeed listed as an ancestor of the Lan clan, but my family split from the main branch a long time ago. The Qimen arts are complex and varied, and I've only learned a few tricks so far. Anything harder, and I need to ask my elders and cousins for help. Still, I'm really good at making rattan figures — even grandpa is no match for me! Hehe, I guess it's the one area where I really hold my own.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Let's Shake Hands?",
+        "text": "Sit. Friend. Handshake~\\nOh, no, I wasn't telling YOU to sit — I was talking to our animal friends! Ahh, I'm so sorry! Please, get up... I was trying to tell them, \"Look over here, everyone! We have a new friend with us today!\" Oh, that wasn't clear? Well... \"Sit\" can mean \"listen to me\" or \"stay where you are\" or even \"stop what you're doing.\" Hm? How are you supposed to know? You just need to come to the mountains more often. You'll pick it up in no time!",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Let's Shake Hands!",
+        "text": "Come on, shake my hand! Gimme a hug!\\nHuh...? Well go on, let's shake hands! ...Isn't this how friends encourage each other? ...Oh wait, haha, yes, you this time! Sorry, it's my fault for confusing you. No worries, though! The more we hang out, the more we'll understand each other!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "#Thanks to my Vision, I can toss my chakram into the air and catch it with ease... Ah, but don't try it at home, kids! The blade is actually really sharp! Although, you could probably give it a go, {NICKNAME}! Just stand still, keep your arm steady, and give a nice, swift throw. I'm sure you can do it!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "You can never be too careful when it comes to wild mushrooms. Many are completely inedible, and others have to be stir-fried and cooked fully to be safe. And, if you don't finish them in one sitting, you have to do the same to the leftovers before consuming them — a lot of people forget that step. So, if you eat a few bites, and your dog starts telling you to put away the laundry, or your chickens start ordering you around the house, seek medical attention right away!",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "Once, I was resting in a tree after finishing some weaving, and a squirrel stole the rattan pinecones I just made! Thankfully, I was able to get them back by trading for double the amount of real pinecones. Honestly, I didn't really care about losing my work, I was more worried about ruining the squirrel's entire day! Just imagine — you spend all day collecting pinecones only to get home and realize they're fake! All their squirrel friends would probably laugh at them...",
+        "unlocked": []
+      },
+      {
+        "title": "About Xiangling",
+        "text": "Everyone says first impressions are important, and the first time I ate at Wanmin Restaurant, I had so much regret... regret that it took me so long to visit Liyue Harbor! I could have met Xiangling way sooner... In any case, as soon as she heard me talk about all the rare ingredients in the mountains of my hometown, she started planning a trip to Chenyu Vale! I'll make sure she doesn't go home empty-handed!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Hu Tao",
+        "text": "Director Hu always seems so upbeat and cheerful. Even when the situation was desperate, she was always there with a joke to cheer me up. I haven't known her long, so I was wondering... Is she always like that? Hmm... In any case, starting from today, I hope all her smiles are out of genuine happiness, rather than an effort to reassure other people.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Keqing",
+        "text": "When will the Yuheng finally take a break? She was running all over the place during the Lantern Rite. I wanted to treat her to a meal to thank her for her kindness, but I never had the chance... I was also hoping she could do my hair into a pair of cat ears just like hers. But... maybe that's asking too much. Although, something tells me she wouldn't mind...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Xingqiu",
+        "text": "#I've run into master Xingqiu several times in the mountains. He wasn't accompanied by anyone from the Feiyun Commerce Guild, so it never seemed like official business. After those chance encounters, he often brought me copies of the newest supernatural novels, and I promised to never tell anyone. Except... I definitely just told you, didn't I? Please keep that secret for the both of us, {NICKNAME}!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Chongyun",
+        "text": "One time, I was out with grandpa on one of his house calls, when I saw Chongyun leave the house with a dejected look on his face. Given how helpless he looked, I assumed the situation must have been bad, but I didn't sense an ominous presence within the house. Grandpa's reading didn't predict any misfortune, either. Maybe he spent a lot of energy getting rid of the problem and was too tired to talk... Huh? You think it's possible he didn't do anything at all? That makes me even more confused...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Gaming",
+        "text": "I've known Gaming since we were kids! He was quite the neighborhood terror back then, haha. Hm? That doesn't sound like him? Well, he's matured a lot since then, just like I have. One thing hasn't changed, though — he still carries snacks with him wherever he goes. He always comes back from his travels with a ton of goodies to share with his friends. And, of course, he never leaves without stocking up on his hometown favorites...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Qiqi",
+        "text": "Qiqi likes finches, right? I'm thinking of making her one out of rattan! Do you know her favorite color?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Lan Yan: I",
+        "text": "Hold it! One moment... Almost there... Just need to finish this handle, and... Phew... Done! Hehe, sorry about that. I'm not the best multitasker — I can only focus on one thing at a time. Now, you have my undivided attention!",
+        "unlocked": []
+      },
+      {
+        "title": "More About Lan Yan: II",
+        "text": "Wanna spend some time in the mountains? We can try to dodge Fluff-Fleece Goats as they headbutt us. Or, we can pretend the Red-Beaked Pelicans are bandits and try to rescue Jade Heartfeather Bass from their beaks... Oh, you want to play Windtrace? You'll be the Hunter? Hehe, someone's confident. Alright, if you end up running in circles, I'll ring my silver bell to help you find me. If you manage to touch even the tip of my hair, I'll count that as your win! I'm pretty good at this game, too, you know.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Lan Yan: III",
+        "text": "My silver hairpiece is in the shape of a \"Jade-Plumed Silverwing,\" and it's a family heirloom. My silver hairpin, necklace, and brooch are all birthday presents from my parents. Oh, the bracelet is a Lantern Rite gift from my grandpa, and the earrings are from the last Moonchase Festival, I think... There are also others that were given to me when I mastered the wind glider, received my Vision, and managed to down three whole bowls of rice in one meal...\\nHehe, my family believes that silver accessories are auspicious and can ward off evil, so I'm constantly receiving new ones!\\nWearing them all at once is pretty heavy, but... I suppose that's the weight of a family's love!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Lan Yan: IV",
+        "text": "When I was little, rattan figures used to creep me out... How should I describe it? I mean, a bunch of misshapen black and gray dolls throughout the house... it's the stuff of nightmares for a kid! When grandpa used to send me to study with the head family of our clan, I thought he was possessed. I thought my cousin was teaching me the dark arts! So, one night, I worked up the courage to burn all the figures I could find. Luckily, their purpose was to absorb evil energy, so they were always meant to be destroyed.\\nBut, that got me thinking — if rattan figures looked cuter, maybe people wouldn't mistake them for some kind of evil sorcery...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Lan Yan: V",
+        "text": "Rattan weaving isn't hard, I swear! Even the most intricate figures are made one strand at a time. All you need is a little patience, and you'll get there in the end! Compared to the technique itself, precision is the hard part, and persistence can be even harder. If you ask me, though, the most important element is happiness. If you don't enjoy the process, you'll never do a good job — that's true for more than just weaving. Happiness is key! That goes for both of us!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Lan Yan's Hobbies",
+        "text": "According to folklore, spirits of drowned people exist in haunted bodies of water, so I tried to see if it was true by shoving a stick in a lake... And it actually got stuck! In all the seaweed, I mean. I can only imagine what would happen if you tried to go swimming. Not getting stuck would be more unusual...\\nOh, I also heard that you shouldn't eat sunsettias after sunset or peel an apple in front of a mirror at midnight... Huh, I wonder if there's truth to any of those folk legends...",
+        "unlocked": []
+      },
+      {
+        "title": "Lan Yan's Troubles",
+        "text": "I hate removing splinters. You have to squint so hard to see them, and I always end up hurting myself... I've cut all ten of my fingers that way... *whimper*",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "Fresh flowers not only look and smell amazing, but they also make delicious pastries! The flavor is refreshing, but not too sweet. Ah, and it goes so well with a pot of floral tea... Ooh, let's go flower-picking right now! No need to bring a basket — I'll just weave one once we're in the mountains!",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "As the saying goes, even sugar is only sweet when you're happy. Everything tastes worse when you're in a bad mood. Hehe, luckily, I rarely have that problem.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "This is delicious! Hold on, a dish like this calls for special utensils made of pure silver! Be right back!",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Ah, thank you! Here, try it with this dipping sauce! The flavor is even better!",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Wait, you ate some of this? Is your stomach okay? You're not seeing things, are you?",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "#In my family, we always give silver accessories as birthday gifts. So, here, these two figures are for you. The one with the silver swallow on the head is me, and {M#the one with the small silver sword is you}{F#the one with the silver flower is you}. Hehe, looks just like us, right?\\nI infused the rattan strands with incense, so hanging them on your knapsack should repel insects. Oh, and I designed the silver accessories, too. The silversmith polished them once, and I made sure to smooth out the edges a second time, so you don't have to worry about cutting yourself.\\nWell, happy birthday, {NICKNAME}! May luck always be on your side!",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "Wait, I barely got two strands in this project, and you already... Either you work super fast, or I'm slower than I thought...",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "If silver needs to be polished to shine, it only makes sense that we need to keep honing our skills to become as light and swift as a swallow.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Let's shake hands! Again! Again! Still remember? It's an expression of happiness and gratitude — a way to express joy at all the good things in life!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "\"The humble swallow builds with mud, and yet, is never without a nest.\" So, don't underestimate me! With how strong I've become, I should be more than capable of protecting you now. Hehe, it's all thanks to your help, of course! Thank you so much!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Flip and fly.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "Closing in.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Up and away.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Ills, be gone!",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "Swift as the swallow.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "Dancing in the wind~",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "Whoa, can I have some? Spread the luck around!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Score! Let's see what's inside!",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Just a moment, let's tally this up...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "Need some time...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Little help here~",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "This is tricky...",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Get back! I'll cover for you!",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "I've got this! I'm faster than them.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "Can't... fall now...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "The bell rings... no more...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "Grounded... for good...",
+        "unlocked": []
+      },
+      {
+        "title": "Light Hit Taken: I",
+        "text": "Stop!",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Something's off!",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "Nasty temper!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Doesn't matter where, I'll be there!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Let's hit the town!",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Coming!",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108788,
+      "recipe": 2117,
+      "name": "Jade-Cut Flowers",
+      "icon": "UI_ItemIcon_108788",
+      "rank": 2
+    },
+    "namecard": {
+      "id": 210228,
+      "name": "Lan Yan: Silver Swallow",
+      "desc": "Namecard style.\\nThe swallow's arrival shall bring forth cleansing rains, washing the worries of wizened winter away.",
+      "icon": "UI_NameCardPic_Lanyan_P"
+    },
+    "costume": [
+      {
+        "id": 210800,
+        "name": "Argent Chimes",
+        "desc": "Lan Yan's outfit. The Lans of Chenyu Vale traditionally wear silver, and every piece that Lan Yan carries is a gift from her family. As she rambles through the mountains adorned from head to toe, they jingle merrily away like the joyful songs of spring swallows.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CATALYST",
+  "rarity": "QUALITY_PURPLE",
+  "element": "Anemo",
+  "icon": "UI_AvatarIcon_Lanyan",
+  "stamina_recovery": 25,
+  "base_hp": 775.02234,
+  "base_atk": 21.01344,
+  "base_def": 48.64125,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.653,
+      "92": 8.957,
+      "93": 9.262,
+      "94": 9.566,
+      "95": 9.87,
+      "96": 10.174,
+      "97": 10.479,
+      "98": 10.783,
+      "99": 11.087,
+      "100": 11.392
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 578.9814,
+        "fight_prop_base_defense": 36.3375,
+        "fight_prop_base_attack": 15.698484,
+        "fight_prop_attack_percent": 0
+      },
+      {
+        "fight_prop_base_hp": 990.36285,
+        "fight_prop_base_defense": 62.15625,
+        "fight_prop_base_attack": 26.85267,
+        "fight_prop_attack_percent": 0.06
+      },
+      {
+        "fight_prop_base_hp": 1538.8716,
+        "fight_prop_base_defense": 96.58125,
+        "fight_prop_base_attack": 41.72492,
+        "fight_prop_attack_percent": 0.12
+      },
+      {
+        "fight_prop_base_hp": 1950.253,
+        "fight_prop_base_defense": 122.4,
+        "fight_prop_base_attack": 52.879105,
+        "fight_prop_attack_percent": 0.12
+      },
+      {
+        "fight_prop_base_hp": 2361.6345,
+        "fight_prop_base_defense": 148.21875,
+        "fight_prop_base_attack": 64.03329,
+        "fight_prop_attack_percent": 0.18
+      },
+      {
+        "fight_prop_base_hp": 2773.016,
+        "fight_prop_base_defense": 174.0375,
+        "fight_prop_base_attack": 75.18748,
+        "fight_prop_attack_percent": 0.24
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S4",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 11081,
+      "name": "Black Pheasant Strides on Water",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nWields her Feathermoon Rings to perform up to 4 attacks, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nConsumes a certain amount of Stamina to throw out a Feathermoon Ring, dealing <color=#80FFD7FF>Anemo DMG</color>.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nGathers the power of Anemo and plunges towards the ground from mid-air, damaging all opponents in her path. Deals <color=#80FFD7FF>AoE Anemo DMG</color> upon impact with the ground.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.4144,
+            0.20412,
+            0.24948,
+            0.2692,
+            0.2692,
+            0.6456,
+            0.3784,
+            50,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.44548,
+            0.219429,
+            0.268191,
+            0.28939,
+            0.28939,
+            0.69402,
+            0.40678,
+            50,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.47656,
+            0.234738,
+            0.286902,
+            0.30958,
+            0.30958,
+            0.74244,
+            0.43516,
+            50,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.518,
+            0.25515,
+            0.31185,
+            0.3365,
+            0.3365,
+            0.807,
+            0.473,
+            50,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.54908,
+            0.270459,
+            0.330561,
+            0.35669,
+            0.35669,
+            0.85542,
+            0.50138,
+            50,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.58016,
+            0.285768,
+            0.349272,
+            0.37688,
+            0.37688,
+            0.90384,
+            0.52976,
+            50,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.6216,
+            0.30618,
+            0.37422,
+            0.4038,
+            0.4038,
+            0.9684,
+            0.5676,
+            50,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.66304,
+            0.326592,
+            0.399168,
+            0.43072,
+            0.43072,
+            1.03296,
+            0.60544,
+            50,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.70448,
+            0.347004,
+            0.424116,
+            0.45764,
+            0.45764,
+            1.09752,
+            0.64328,
+            50,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.74592,
+            0.367416,
+            0.449064,
+            0.48456,
+            0.48456,
+            1.16208,
+            0.68112,
+            50,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.78736,
+            0.387828,
+            0.474012,
+            0.51148,
+            0.51148,
+            1.22664,
+            0.71896,
+            50,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.8288,
+            0.40824,
+            0.49896,
+            0.5384,
+            0.5384,
+            1.2912,
+            0.7568,
+            50,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.8806,
+            0.433755,
+            0.530145,
+            0.57205,
+            0.57205,
+            1.3719,
+            0.8041,
+            50,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9324,
+            0.45927,
+            0.56133,
+            0.6057,
+            0.6057,
+            1.4526,
+            0.8514,
+            50,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}+{param3:F1P}",
+            "3-Hit DMG|{param4:F1P}+{param5:F1P}",
+            "4-Hit DMG|{param6:F1P}",
+            "Charged Attack DMG|{param7:F1P}×3",
+            "Charged Attack Stamina Cost|{param8:F1}",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9842,
+            0.484785,
+            0.592515,
+            0.63935,
+            0.63935,
+            1.5333,
+            0.8987,
+            50,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11082,
+      "name": "Swallow-Wisp Pinion Dance",
+      "desc": "Summoning forth the Swallow-Wisp Shield, a secret art passed down across generations, Lan Yan dashes forward and, upon making contact with her target, will leap back into the air.\\nThe Swallow-Wisp Shield's DMG absorption scales based on her ATK, and has a 250% absorption efficiency against <color=#80FFD7FF>Anemo DMG</color>.\\nWhile in mid-air due to the effects of her Elemental Skill: Swallow-Wisp Pinion Dance, pressing her Elemental Skill again or pressing Normal Attack will cause Lan Yan to hurl her Feathermoon Rings at an opponent, and they will spin between nearby opponents twice upon hit, dealing <color=#80FFD7FF>Anemo DMG</color>.\\nHolding the Skill will cause it to behave differently.\\n\\n<color=#FFD780FF>Hold</color>\\nEnter Aiming Mode to adjust the dash direction.\\n\\n<i>\"The clouds cut the lunar light, like shadows silver gracing one's sight.\"</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.96256,
+            2.7648,
+            1155.5629,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.034752,
+            2.97216,
+            1271.1353,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.106944,
+            3.17952,
+            1396.3386,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2032,
+            3.456,
+            1531.173,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.275392,
+            3.66336,
+            1675.6384,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.347584,
+            3.87072,
+            1829.7349,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.44384,
+            4.1472,
+            1993.4624,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.540096,
+            4.42368,
+            2166.8208,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.636352,
+            4.70016,
+            2349.8105,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.732608,
+            4.97664,
+            2542.4312,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.828864,
+            5.25312,
+            2744.6826,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.92512,
+            5.5296,
+            2956.5652,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.04544,
+            5.8752,
+            3178.0789,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.16576,
+            6.2208,
+            3409.2236,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Lanyan_01",
+          "desc": [
+            "Feathermoon Ring DMG|{param1:F1P}",
+            "Shield DMG Absorption|{param2:F1P} ATK+{param3:I}",
+            "Shield Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.28608,
+            6.5664,
+            3649.9995,
+            12.5,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11085,
+      "name": "Lustrous Moonrise",
+      "desc": "Lan Yan creates a Feathermoon Swallow Array, pulling in nearby opponents and objects and dealing multiple instances of <color=#80FFD7FF>AoE Anemo DMG</color>.\\n\\n<i>Strictly speaking, with only Lan Yan herself present, it cannot properly be called an \"array.\" However, if her Rattan Figures are brought into the picture, she can sort of fulfill the requirements... Probably.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.41064,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.591438,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.772236,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.0133,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.194098,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.374896,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.61596,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.857024,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.098088,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.339152,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.580216,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            4.82128,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.12261,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.42394,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Lanyan_01",
+          "desc": [
+            "Skill DMG|{param1:F1P}×3",
+            "CD|{param2:F1}s",
+            "Energy Cost|{param3:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            5.72527,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 1082101,
+      "name": "Four Sealing Divination Charms",
+      "desc": "When the dash from the Elemental Skill <color=#FFD780FF>Swallow-Wisp Pinion Dance</color> hits a target, if it interacts with <color=#80C0FFFF>Hydro</color>/<color=#FF9999FF>Pyro</color>/<color=#99FFFFFF>Cryo</color>/<color=#FFACFFFF>Electro</color>, the Swallow-Wisp Shield will undergo Elemental Absorption, with the converted shield absorbing DMG from the corresponding element with 250% efficiency.\\nAdditionally, if this use of <color=#FFD780FF>Swallow-Wisp Pinion Dance</color> causes the Swallow-Wisp Shield to undergo Elemental Absorption, the Feathermoon Rings that Lan Yan throws at her foes additionally deal Elemental DMG equal to 50% of the original in the corresponding Elemental Type. This DMG is considered Elemental Skill DMG.",
+      "icon": "UI_Talent_S_Lanyan_05",
+      "unlock": 1,
+      "param_list": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1082201,
+      "name": "Skyfeather Evil-Subduing Charm",
+      "desc": "The Elemental Skill <color=#FFD780FF>Swallow-Wisp Pinion Dance</color> and the Elemental Burst <color=#FFD780FF>Lustrous Moonrise</color> deal increased DMG equal to 309% and 774% of Lan Yan's Elemental Mastery respectively.",
+      "icon": "UI_Talent_S_Lanyan_06",
+      "unlock": 4,
+      "param_list": [
+        3.09,
+        7.74,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1082301,
+      "name": "Thought and Intent, Like Silken Scent",
+      "desc": "When Lan Yan is in the party, your characters will not startle Crystalflies and certain other animals when getting near them.\\nCheck the \"Other\" sub-category of the \"Living Beings / Wildlife\" section in the Archive for creatures this skill works on.",
+      "icon": "UI_Talent_S_Sayu_07",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 1081,
+      "name": "\"As One Might Stride Betwixt the Clouds\"",
+      "desc": "After triggering the Elemental Absorption from the Ascension Talent \"Four Sealing Divination Charms,\" this instance of Lan Yan's Elemental Skill <color=#FFD780FF>Swallow-Wisp Pinion Dance</color> will produce another Feathermoon Ring when they are thrown at opponents.\\nYou must first unlock the Ascension Talent \"Four Sealing Divination Charms.\"",
+      "icon": "UI_Talent_S_Lanyan_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1082,
+      "name": "\"Dance Vestments Billow Like Rainbow Jade\"",
+      "desc": "While the <color=#FFD780FF>Swallow-Wisp Shield</color> is active, when your active party member's Normal Attacks deal DMG, 40% of the Shield's DMG absorption will be restored, up to its original maximum absorption. This effect can occur once every 2s.",
+      "icon": "UI_Talent_S_Lanyan_02",
+      "param_list": [
+        0.4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1083,
+      "name": "\"On White Wings Pierce Through Cloud and Fog\"",
+      "desc": "Increases the Level of <color=#FFD780FF>Swallow-Wisp Pinion Dance</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Lanyan_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1084,
+      "name": "\"With Drakefalcon's Blood-Pearls Adorned\"",
+      "desc": "After Lan Yan uses her Elemental Burst <color=#FFD780FF>Lustrous Moonrise</color>, the Elemental Mastery of all nearby party members increases by 60 for 12s.",
+      "icon": "UI_Talent_S_Lanyan_03",
+      "param_list": [
+        60,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1085,
+      "name": "\"Having Met You, My Heart is Gladdened\"",
+      "desc": "Increases the Level of <color=#FFD780FF>Lustrous Moonrise</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Lanyan_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1086,
+      "name": "\"Let Us Away on Sylphic Wing, the Silvered Ornaments to Ring\"",
+      "desc": "<color=#FFD780FF>Swallow-Wisp Pinion Dance</color> gains 1 additional charge.",
+      "icon": "UI_Talent_S_Lanyan_04",
+      "param_list": [
+        0.001,
+        0.5,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Sliver",
+            "id": 104151,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Clearwater Jade",
+            "id": 101241,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Whopperflower Nectar",
+            "id": 112038,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Fragment",
+            "id": 104152,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Clearwater Jade",
+            "id": 101241,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Whopperflower Nectar",
+            "id": 112038,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Fragment",
+            "id": 104152,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Clearwater Jade",
+            "id": 101241,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Shimmering Nectar",
+            "id": 112039,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Chunk",
+            "id": 104153,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Clearwater Jade",
+            "id": 101241,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Shimmering Nectar",
+            "id": 112039,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Chunk",
+            "id": 104153,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Clearwater Jade",
+            "id": 101241,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Energy Nectar",
+            "id": 112040,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Vayuda Turquoise Gemstone",
+            "id": 104154,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Gold-Inscribed Secret Source Core",
+            "id": 113066,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Clearwater Jade",
+            "id": 101241,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Energy Nectar",
+            "id": 112040,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Diligence",
+              "id": 104313,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Diligence",
+              "id": 104313,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Diligence",
+              "id": 104313,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Whopperflower Nectar",
+              "id": 112038,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Diligence",
+              "id": 104314,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Shimmering Nectar",
+              "id": 112039,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Diligence",
+              "id": 104315,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Energy Nectar",
+              "id": 112040,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Sunfire",
+              "id": 113069,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ExtraAttack_Bullet_2",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 40
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ExtraAttack_DamagePercentage"
+    },
+    {
+      "name": "ExtraAttack_Bullet_2",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 40
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ExtraAttack_DamagePercentage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Wind",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Fire",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Fire",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Fire_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Fire_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Fire",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Water",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Water",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Water_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Water_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Water",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Electric",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Electric",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Electric_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Electric_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Electric",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Ice",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Ice",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Bullet_Ice_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalArt_Base_Damage"
+    },
+    {
+      "name": "ElementalArt_Bullet_Ice_Extra",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "Lanyan_ElementalArt_Mix"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV5",
+        "value": 50
+      },
+      "element": "Ice",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": [
+        "Lanyan_ElementalArt_Base_Damage",
+        "Lanyan_ElementalArt_Ratio_Damage",
+        "MUL"
+      ]
+    },
+    {
+      "name": "ElementalArt_Jump",
+      "icd": {
+        "tag": "Elemental_Art_Detect",
+        "group": "default"
+      },
+      "gauge": 0.04,
+      "element": "AntiFire",
+      "attack_type": "Default",
+      "strike_type": "None"
+    },
+    {
+      "name": "ElementalBurst_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalBurst_Base_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV0",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalBurst_Base_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalBurst_Base_Damage"
+    },
+    {
+      "name": "ElementalBurst_Bullet_2",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV7",
+        "value": 70
+      },
+      "element": "Wind",
+      "attack_type": "Range",
+      "strike_type": "Default",
+      "damage_param": "Lanyan_ElementalBurst_Base_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Wind",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_ElementalBall",
+      "skill": "ElementalArt_Attack",
+      "kind": "ElementalArt",
+      "element": "Anemo",
+      "per_drop": 1,
+      "lifetime": 9,
+      "chance": 100,
+      "cd": 0.2,
+      "applications": 1,
+      "drop_id": 2021
+    }
+  ]
+}

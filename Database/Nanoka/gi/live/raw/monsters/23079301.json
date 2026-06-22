@@ -1,0 +1,210 @@
+{
+  "name": "Oprichniki Thunderblitz Gvardiya",
+  "desc": "An elite officer of the Fatui Oprichniki who specializes in using twin guns in combat.\\nUnlike their Skirmisher cousins, Oprichniki officers almost all hail from the Snezhnayan Royal Military Academy, whether due to the privilege of noble birth or the rare talent to escape a common background. After all, neither is truly different from the other within the Tsaritsa's beneficent, loving ideals. Traditionally, only fae could become elite Gvardiya, but today, this glorious role and title has been given to Oprichniki officers — a more equal division for the construction of a new world.",
+  "icon": "UI_MonsterIcon_Oprichnik_Female_Slim_MachineGun",
+  "codex": "FATUI",
+  "title": "Oprichniki",
+  "special_names": [
+    "Thunderblitz Gvardiya"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112127,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112127"
+    },
+    {
+      "id": 112126,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112126"
+    },
+    {
+      "id": 112125,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112125"
+    }
+  ],
+  "child": {
+    "23079301": {
+      "monster_name": "prichnik_Female_Slim_MachineGun_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010014,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23079302": {
+      "monster_name": "prichnik_Female_Slim_MachineGun_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010014,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23079304": {
+      "monster_name": "prichnik_Female_Slim_MachineGun_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 53.81259,
+        "atk": 36.50217,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23079390": {
+      "monster_name": "prichnik_Female_Slim_MachineGun_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

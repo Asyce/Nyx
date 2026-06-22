@@ -1,0 +1,15 @@
+{
+  "id": 350000040,
+  "name": "Phantom: Thundering Mephis",
+  "desc": "An Overlord Class Whisperin TD found in Desorock Highland. It demonstrates combat abilities similar to those of a human.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Thunder>Electro DMG</color>. \n\nA powerful TD based in Desorock Highland with the power of thunder. It is considered one of the vanguards in the Threnodian's army.",
+  "rarity": 3,
+  "element": 3,
+  "element_array": [
+    3
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1008_UI.T_IconMonsterHead_1008_UI",
+  "echo": 391080003,
+  "base_stats": {},
+  "stats": {}
+}

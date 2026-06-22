@@ -1,0 +1,1935 @@
+{
+  "id": 1581,
+  "icon": "IconRole67",
+  "name": "Avatar_Female_Size02_Remielle",
+  "code_name": "Avatar_Female_Size02_Remielle_En",
+  "rarity": 4,
+  "weapon_type": {
+    "3": "Anomaly"
+  },
+  "element_type": {
+    "300": "Lumiflux"
+  },
+  "special_element_type": {},
+  "hit_type": {
+    "101": "Slash"
+  },
+  "camp": {
+    "17": "Covenant of Dayat"
+  },
+  "gender": 2,
+  "partner_info": {
+    "birthday": "Partner_Birthday_1581",
+    "full_name": "Partner_Name_1581",
+    "gender": "Female",
+    "icon_path": "",
+    "impression_f": "Partner_Impression_f_1581",
+    "impression_m": "Partner_Impression_m_1581",
+    "profile_desc": "Partner_ProfileDesc_1581",
+    "role_icon": "",
+    "stature": "Partner_Stature_1581",
+    "unlock_condition": [
+      "Obtain Agent",
+      "Partner_Unlock_Condition_Chapter031",
+      "Complete the \"Anby's Problem\" commission"
+    ],
+    "trust_lv": {}
+  },
+  "skin": {
+    "3115810": {
+      "name": "AvatarSkin_RemielleOrigin_Name_000",
+      "desc": "AvatarSkin_RemielleOrigin_Desc_000",
+      "image": "IconRole67"
+    },
+    "3115811": {
+      "name": "AvatarSkin_RemielleOrigin_Name_001",
+      "desc": "AvatarSkin_RemielleOrigin_Desc_001",
+      "image": "IconRole67_01"
+    }
+  },
+  "stats": {
+    "armor": 0,
+    "armor_growth": 0,
+    "attack": 124,
+    "attack_growth": 74992,
+    "avatar_piece_id": 5581,
+    "break_stun": 83,
+    "crit": 500,
+    "crit_damage": 5000,
+    "crit_dmg_res": 0,
+    "crit_res": 0,
+    "defence": 48,
+    "defence_growth": 65524,
+    "element_abnormal_power": 115,
+    "element_mystery": 116,
+    "endurance": 0,
+    "hp_growth": 816391,
+    "hp_max": 602,
+    "pen_delta": 0,
+    "pen_rate": 0,
+    "rbl": 1,
+    "rbl_correction_factor": 10000,
+    "rbl_probability": 0,
+    "shield": 0,
+    "shield_growth": 0,
+    "sp_bar_point": 120,
+    "sp_recover": 120,
+    "stun": 0,
+    "tags": [
+      "Remielle",
+      "Cut",
+      "Lumen",
+      "Female",
+      "Camp17",
+      "Size2",
+      "AidTypeParry",
+      "Remielle",
+      "EtherEyesSize2"
+    ],
+    "rp_max": 0,
+    "rp_recover": 0
+  },
+  "level": {
+    "1": {
+      "hp_max": 0,
+      "attack": 0,
+      "defence": 0,
+      "level_max": 10,
+      "level_min": 0,
+      "materials": {
+        "10": 24000,
+        "100213": 4
+      }
+    },
+    "2": {
+      "hp_max": 413,
+      "attack": 44,
+      "defence": 33,
+      "level_max": 20,
+      "level_min": 10,
+      "materials": {
+        "10": 56000,
+        "100223": 12
+      }
+    },
+    "3": {
+      "hp_max": 826,
+      "attack": 89,
+      "defence": 66,
+      "level_max": 30,
+      "level_min": 20,
+      "materials": {
+        "10": 120000,
+        "100223": 20
+      }
+    },
+    "4": {
+      "hp_max": 1239,
+      "attack": 133,
+      "defence": 99,
+      "level_max": 40,
+      "level_min": 30,
+      "materials": {
+        "10": 200000,
+        "100233": 10
+      }
+    },
+    "5": {
+      "hp_max": 1651,
+      "attack": 177,
+      "defence": 133,
+      "level_max": 50,
+      "level_min": 40,
+      "materials": {
+        "10": 400000,
+        "100233": 20
+      }
+    },
+    "6": {
+      "hp_max": 2064,
+      "attack": 222,
+      "defence": 166,
+      "level_max": 60,
+      "level_min": 50,
+      "materials": {}
+    }
+  },
+  "extra_level": {
+    "1": {
+      "max_level": 15,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 0
+        },
+        "31201": {
+          "prop": 31201,
+          "name": "Anomaly Proficiency",
+          "format": "{0:0}",
+          "value": 18
+        }
+      }
+    },
+    "2": {
+      "max_level": 25,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 25
+        },
+        "31201": {
+          "prop": 31201,
+          "name": "Anomaly Proficiency",
+          "format": "{0:0}",
+          "value": 18
+        }
+      }
+    },
+    "3": {
+      "max_level": 35,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 25
+        },
+        "31201": {
+          "prop": 31201,
+          "name": "Anomaly Proficiency",
+          "format": "{0:0}",
+          "value": 36
+        }
+      }
+    },
+    "4": {
+      "max_level": 45,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 50
+        },
+        "31201": {
+          "prop": 31201,
+          "name": "Anomaly Proficiency",
+          "format": "{0:0}",
+          "value": 36
+        }
+      }
+    },
+    "5": {
+      "max_level": 55,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 50
+        },
+        "31201": {
+          "prop": 31201,
+          "name": "Anomaly Proficiency",
+          "format": "{0:0}",
+          "value": 54
+        }
+      }
+    },
+    "6": {
+      "max_level": 60,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 75
+        },
+        "31201": {
+          "prop": 31201,
+          "name": "Anomaly Proficiency",
+          "format": "{0:0}",
+          "value": 54
+        }
+      }
+    }
+  },
+  "level_exp": [
+    50,
+    150,
+    250,
+    400,
+    600,
+    800,
+    1000,
+    1250,
+    1500,
+    1800,
+    1935,
+    2065,
+    2200,
+    2335,
+    2465,
+    2600,
+    2735,
+    2865,
+    3000,
+    4680,
+    4975,
+    5265,
+    5560,
+    5855,
+    6145,
+    6440,
+    6735,
+    7025,
+    7320,
+    10800,
+    11400,
+    12000,
+    12600,
+    13200,
+    13800,
+    14400,
+    15000,
+    15600,
+    16200,
+    17100,
+    18300,
+    19500,
+    20700,
+    21900,
+    23100,
+    24300,
+    25500,
+    26700,
+    27900,
+    34200,
+    36600,
+    39000,
+    41400,
+    43800,
+    46200,
+    48600,
+    51000,
+    53400,
+    55800,
+    0
+  ],
+  "skill": {
+    "basic": {
+      "description": [
+        {
+          "name": "Basic Attack:",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nPerform up to 4 consecutive attacks forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf a Basic Attack hits a target, the Character recovers <color=#FFFFFF>[Flight Energy]</color> after the skill ends;\nThe 4th Basic Attack hit applies 1 <color=#FFA9DD>[Lumen Buildup Point]</color> to the target.",
+          "potential": []
+        },
+        {
+          "name": "Basic Attack: Hold",
+          "desc": "Hold <IconMap:Icon_Normal> to activate:\nPerform a wide-range Slash forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf a target is hit, restore <color=#FFFFFF>[Flight Energy]</color> for the Character after the skill ends.",
+          "potential": []
+        },
+        {
+          "name": "Maximum Firepower",
+          "desc": "When the Character has stored <color=#FFFFFF>[Anomaly Rounds]</color>, hold <IconMap:Icon_Normal> to activate:\nLaunch a powerful large area attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf the attack hits a target, the Character recovers a large amount of <color=#FFFFFF>[Flight Energy]</color> after the skill ends;\nAll stored <color=#FFFFFF>[Anomaly Rounds]</color> are consumed upon activation.",
+          "potential": []
+        },
+        {
+          "name": "True: Maximum Firepower",
+          "desc": "When the Character has stored <color=#FFFFFF>[Anomaly Rounds]</color> and is in the <color=#FFFFFF>[Rank Up]</color> state, hold <IconMap:Icon_Normal> to activate:\nLaunch a powerful large area attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>;\nIf the attack hits a target, the Character recovers a large amount of <color=#FFFFFF>[Flight Energy]</color> after the skill ends;\nActivating this skill will consume all stored <color=#FFFFFF>[Anomaly Rounds]</color>.",
+          "potential": []
+        },
+        {
+          "name": "Basic Attack:",
+          "param": [
+            {
+              "name": "1st-Hit DMG Multiplier",
+              "desc": "{Skill:1581002, Prop:1001}",
+              "param": {
+                "1581002": {
+                  "main": 3120,
+                  "growth": 290,
+                  "format": "%",
+                  "damage_percentage": 3120,
+                  "damage_percentage_growth": 290,
+                  "stun_ratio": 2130,
+                  "stun_ratio_growth": 100,
+                  "sp_recovery": 6980,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 53350,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 1937
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "2nd-Hit DMG Multiplier",
+              "desc": "{Skill:1581003, Prop:1001}",
+              "param": {
+                "1581003": {
+                  "main": 5450,
+                  "growth": 500,
+                  "format": "%",
+                  "damage_percentage": 5450,
+                  "damage_percentage_growth": 500,
+                  "stun_ratio": 3330,
+                  "stun_ratio_growth": 160,
+                  "sp_recovery": 10880,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 83325,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3023
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "3rd-Hit DMG Multiplier",
+              "desc": "{Skill:1581004, Prop:1001}",
+              "param": {
+                "1581004": {
+                  "main": 8430,
+                  "growth": 770,
+                  "format": "%",
+                  "damage_percentage": 8430,
+                  "damage_percentage_growth": 770,
+                  "stun_ratio": 4830,
+                  "stun_ratio_growth": 220,
+                  "sp_recovery": 15780,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 120725,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4384
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "4th-Hit DMG Multiplier",
+              "desc": "{Skill:1581005, Prop:1001}",
+              "param": {
+                "1581005": {
+                  "main": 25080,
+                  "growth": 2280,
+                  "format": "%",
+                  "damage_percentage": 25080,
+                  "damage_percentage_growth": 2280,
+                  "stun_ratio": 13010,
+                  "stun_ratio_growth": 600,
+                  "sp_recovery": 42580,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 325325,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 11826
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "1st-Hit Daze Multiplier",
+              "desc": "{Skill:1581002, Prop:1002}",
+              "param": {
+                "1581002": {
+                  "main": 2130,
+                  "growth": 100,
+                  "format": "%",
+                  "damage_percentage": 3120,
+                  "damage_percentage_growth": 290,
+                  "stun_ratio": 2130,
+                  "stun_ratio_growth": 100,
+                  "sp_recovery": 6980,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 53350,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 1937
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "2nd-Hit Daze Multiplier",
+              "desc": "{Skill:1581003, Prop:1002}",
+              "param": {
+                "1581003": {
+                  "main": 3330,
+                  "growth": 160,
+                  "format": "%",
+                  "damage_percentage": 5450,
+                  "damage_percentage_growth": 500,
+                  "stun_ratio": 3330,
+                  "stun_ratio_growth": 160,
+                  "sp_recovery": 10880,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 83325,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3023
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "3rd-Hit Daze Multiplier",
+              "desc": "{Skill:1581004, Prop:1002}",
+              "param": {
+                "1581004": {
+                  "main": 4830,
+                  "growth": 220,
+                  "format": "%",
+                  "damage_percentage": 8430,
+                  "damage_percentage_growth": 770,
+                  "stun_ratio": 4830,
+                  "stun_ratio_growth": 220,
+                  "sp_recovery": 15780,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 120725,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4384
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "4th-Hit Daze Multiplier",
+              "desc": "{Skill:1581005, Prop:1002}",
+              "param": {
+                "1581005": {
+                  "main": 13010,
+                  "growth": 600,
+                  "format": "%",
+                  "damage_percentage": 25080,
+                  "damage_percentage_growth": 2280,
+                  "stun_ratio": 13010,
+                  "stun_ratio_growth": 600,
+                  "sp_recovery": 42580,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 325325,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 11826
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Gain Flight Energy at Stage 1",
+              "desc": "5",
+              "potential": []
+            },
+            {
+              "name": "Gain Flight Energy at Stage 2",
+              "desc": "5",
+              "potential": []
+            },
+            {
+              "name": "Gain Flight Energy at Stage 3",
+              "desc": "15 Points",
+              "potential": []
+            },
+            {
+              "name": "Gain Flight Energy at Stage 4",
+              "desc": "35 pts",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Basic Attack: Hold",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581006, Prop:1001}",
+              "param": {
+                "1581006": {
+                  "main": 9650,
+                  "growth": 880,
+                  "format": "%",
+                  "damage_percentage": 9650,
+                  "damage_percentage_growth": 880,
+                  "stun_ratio": 8160,
+                  "stun_ratio_growth": 380,
+                  "sp_recovery": 26710,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 102025,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 7417
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581006, Prop:1002}",
+              "param": {
+                "1581006": {
+                  "main": 8160,
+                  "growth": 380,
+                  "format": "%",
+                  "damage_percentage": 9650,
+                  "damage_percentage_growth": 880,
+                  "stun_ratio": 8160,
+                  "stun_ratio_growth": 380,
+                  "sp_recovery": 26710,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 102025,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 7417
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Obtain Flight Energy",
+              "desc": "30",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Maximum Firepower",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581007, Prop:1001}",
+              "param": {
+                "1581007": {
+                  "main": 19500,
+                  "growth": 1780,
+                  "format": "%",
+                  "damage_percentage": 19500,
+                  "damage_percentage_growth": 1780,
+                  "stun_ratio": 16500,
+                  "stun_ratio_growth": 750,
+                  "sp_recovery": 53990,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 206250,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 14997
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581007, Prop:1002}",
+              "param": {
+                "1581007": {
+                  "main": 16500,
+                  "growth": 750,
+                  "format": "%",
+                  "damage_percentage": 19500,
+                  "damage_percentage_growth": 1780,
+                  "stun_ratio": 16500,
+                  "stun_ratio_growth": 750,
+                  "sp_recovery": 53990,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 206250,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 14997
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Obtain Flight Energy",
+              "desc": "120 Points",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "True: Maximum Firepower",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581008, Prop:1001}",
+              "param": {
+                "1581008": {
+                  "main": 58870,
+                  "growth": 5360,
+                  "format": "%",
+                  "damage_percentage": 58870,
+                  "damage_percentage_growth": 5360,
+                  "stun_ratio": 38320,
+                  "stun_ratio_growth": 1750,
+                  "sp_recovery": 125400,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 479050,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 34834
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581008, Prop:1002}",
+              "param": {
+                "1581008": {
+                  "main": 38320,
+                  "growth": 1750,
+                  "format": "%",
+                  "damage_percentage": 58870,
+                  "damage_percentage_growth": 5360,
+                  "stun_ratio": 38320,
+                  "stun_ratio_growth": 1750,
+                  "sp_recovery": 125400,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 479050,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 34834
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Obtain Flight Energy",
+              "desc": "120 Points",
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100117": 2
+        },
+        "2": {
+          "10": 3000,
+          "100117": 3
+        },
+        "3": {
+          "10": 6000,
+          "100127": 2
+        },
+        "4": {
+          "10": 9000,
+          "100127": 3
+        },
+        "5": {
+          "10": 12000,
+          "100127": 4
+        },
+        "6": {
+          "10": 18000,
+          "100127": 6
+        },
+        "7": {
+          "10": 45000,
+          "100137": 5
+        },
+        "8": {
+          "10": 67500,
+          "100137": 8
+        },
+        "9": {
+          "10": 90000,
+          "100137": 10
+        },
+        "10": {
+          "10": 112500,
+          "100137": 12
+        },
+        "11": {
+          "10": 135000,
+          "100137": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "dodge": {
+      "description": [
+        {
+          "name": "Dodge:",
+          "desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Dash Attack:",
+          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nDeliver a quick attack forward, dealing <color=#FFA9DD>Lumen DMG</color>.",
+          "potential": []
+        },
+        {
+          "name": "Dodge Counter:",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nExecutes a powerful slash on the target, dealing <color=#FFA9DD>Lumen DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Dash Attack:",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581012, Prop:1001}",
+              "param": {
+                "1581012": {
+                  "main": 3900,
+                  "growth": 360,
+                  "format": "%",
+                  "damage_percentage": 3900,
+                  "damage_percentage_growth": 360,
+                  "stun_ratio": 3300,
+                  "stun_ratio_growth": 150,
+                  "sp_recovery": 10800,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 41250,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3000
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581012, Prop:1002}",
+              "param": {
+                "1581012": {
+                  "main": 3300,
+                  "growth": 150,
+                  "format": "%",
+                  "damage_percentage": 3900,
+                  "damage_percentage_growth": 360,
+                  "stun_ratio": 3300,
+                  "stun_ratio_growth": 150,
+                  "sp_recovery": 10800,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 41250,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3000
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Dodge Counter:",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581013, Prop:1001}",
+              "param": {
+                "1581013": {
+                  "main": 21450,
+                  "growth": 1950,
+                  "format": "%",
+                  "damage_percentage": 21450,
+                  "damage_percentage_growth": 1950,
+                  "stun_ratio": 16500,
+                  "stun_ratio_growth": 750,
+                  "sp_recovery": 17990,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 68750,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 19997
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581013, Prop:1002}",
+              "param": {
+                "1581013": {
+                  "main": 16500,
+                  "growth": 750,
+                  "format": "%",
+                  "damage_percentage": 21450,
+                  "damage_percentage_growth": 1950,
+                  "stun_ratio": 16500,
+                  "stun_ratio_growth": 750,
+                  "sp_recovery": 17990,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 68750,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 19997
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100117": 2
+        },
+        "2": {
+          "10": 3000,
+          "100117": 3
+        },
+        "3": {
+          "10": 6000,
+          "100127": 2
+        },
+        "4": {
+          "10": 9000,
+          "100127": 3
+        },
+        "5": {
+          "10": 12000,
+          "100127": 4
+        },
+        "6": {
+          "10": 18000,
+          "100127": 6
+        },
+        "7": {
+          "10": 45000,
+          "100137": 5
+        },
+        "8": {
+          "10": 67500,
+          "100137": 8
+        },
+        "9": {
+          "10": 90000,
+          "100137": 10
+        },
+        "10": {
+          "10": 112500,
+          "100137": 12
+        },
+        "11": {
+          "10": 135000,
+          "100137": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "special": {
+      "description": [
+        {
+          "name": "Special Attack:",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nLaunch a ranged attack forward, dealing <color=#FFA9DD>Lumiflux Attribute DMG</color>.",
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack:",
+          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nAfter the skill ends, apply 2 <color=#FFA9DD>[Lumen Buildup Points]</color> to hit enemies;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Flight Stance",
+          "desc": "Hold <IconMap:Icon_Special> to activate:\nEnter <color=#FFFFFF>[Shift Stance]</color> after a <color=#FFFFFF>[Special Attack]</color> or <color=#FFFFFF>[EX Special Attack]</color>. While in <color=#FFFFFF>[Shift Stance]</color>, switching to a Character whose <color=#FFFFFF>[Flight Energy]</color> has reached its maximum of 120 will allow them to enter <color=#FFFFFF>[Flight Stance]</color>:\nWhile in <color=#FFFFFF>[Flight Stance]</color>, the Character acts autonomously to assist in combat, consuming <color=#FFFFFF>[Flight Energy]</color> over time. When <color=#FFFFFF>[Flight Energy]</color> is fully consumed, the Character exits <color=#FFFFFF>[Flight Stance]</color>. Before exiting <color=#FFFFFF>[Flight Stance]</color>, the Character cannot be switched in by any means other than a <color=#FFFFFF>[Chain Attack]</color>;\nIf the Character triggers 3 <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reactions while in <color=#FFFFFF>[Flight Stance]</color>, the Character activates their <color=#FFFFFF>[Entrance Ultimate]</color>. Once activated, Normal Switch-In is unlocked, and the Character will automatically use <color=#FFFFFF>[Ultimate: Entrance]</color> upon their next Normal Switch-In;\nUpon entering <color=#FFFFFF>[Flight Stance]</color>, the Character grants all squad members a DMG Bonus of 30% for 60s; repeated triggers reset the duration;\nIf no Character switch is made after entering <color=#FFFFFF>[Shift Stance]</color>, the Character performs a downward attack to return to the ground.",
+          "potential": []
+        },
+        {
+          "name": "Special Attack:",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581009, Prop:1001}",
+              "param": {
+                "1581009": {
+                  "main": 4990,
+                  "growth": 460,
+                  "format": "%",
+                  "damage_percentage": 4990,
+                  "damage_percentage_growth": 460,
+                  "stun_ratio": 4220,
+                  "stun_ratio_growth": 200,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 52800,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3834
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581009, Prop:1002}",
+              "param": {
+                "1581009": {
+                  "main": 4220,
+                  "growth": 200,
+                  "format": "%",
+                  "damage_percentage": 4990,
+                  "damage_percentage_growth": 460,
+                  "stun_ratio": 4220,
+                  "stun_ratio_growth": 200,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 52800,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3834
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Flight Stance",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581010, Prop:1001}",
+              "param": {
+                "1581010": {
+                  "main": 16470,
+                  "growth": 1500,
+                  "format": "%",
+                  "damage_percentage": 16470,
+                  "damage_percentage_growth": 1500,
+                  "stun_ratio": 6970,
+                  "stun_ratio_growth": 320,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 174350,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 12667
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581010, Prop:1002}",
+              "param": {
+                "1581010": {
+                  "main": 6970,
+                  "growth": 320,
+                  "format": "%",
+                  "damage_percentage": 16470,
+                  "damage_percentage_growth": 1500,
+                  "stun_ratio": 6970,
+                  "stun_ratio_growth": 320,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 174350,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 12667
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack:",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581011, Prop:1001}",
+              "param": {
+                "1581011": {
+                  "main": 72150,
+                  "growth": 6560,
+                  "format": "%",
+                  "damage_percentage": 72150,
+                  "damage_percentage_growth": 6560,
+                  "stun_ratio": 50140,
+                  "stun_ratio_growth": 2280,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 899525,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 15830
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581011, Prop:1002}",
+              "param": {
+                "1581011": {
+                  "main": 50140,
+                  "growth": 2280,
+                  "format": "%",
+                  "damage_percentage": 72150,
+                  "damage_percentage_growth": 6560,
+                  "stun_ratio": 50140,
+                  "stun_ratio_growth": 2280,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 899525,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 15830
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Energy Cost",
+              "desc": "60",
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100117": 2
+        },
+        "2": {
+          "10": 3000,
+          "100117": 3
+        },
+        "3": {
+          "10": 6000,
+          "100127": 2
+        },
+        "4": {
+          "10": 9000,
+          "100127": 3
+        },
+        "5": {
+          "10": 12000,
+          "100127": 4
+        },
+        "6": {
+          "10": 18000,
+          "100127": 6
+        },
+        "7": {
+          "10": 45000,
+          "100137": 5
+        },
+        "8": {
+          "10": 67500,
+          "100137": 8
+        },
+        "9": {
+          "10": 90000,
+          "100137": 10
+        },
+        "10": {
+          "10": 112500,
+          "100137": 12
+        },
+        "11": {
+          "10": 135000,
+          "100137": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "chain": {
+      "description": [
+        {
+          "name": "Chain Attack:",
+          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunches a multi-hit large area attack forward, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nUpon activation, enter <color=#FFFFFF>[Rank Up]</color> state, upgrading the next <color=#FFFFFF>[Maximum Firepower]</color> to <color=#FFFFFF>[True: Full-Barrage Launch]</color>;\nAfter the skill ends, applies 2 <color=#FFA9DD>[Lumen Buildup Points]</color> to hit enemies;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Ultimate: Entrance",
+          "desc": "Enter and unleash a large area bombardment, dealing <color=#FFA9DD>Lumen Attribute DMG</color>;\nConsumes 40 <color=#FFFFFF>[Flight Energy]</color> upon activation. If the remaining <color=#FFFFFF>[Flight Energy]</color> is below 90 when activated, this Entry Skill will no longer consume <color=#FFFFFF>[Flight Energy]</color>, and the character enters <color=#FFFFFF>[Rank Up]</color> status — the next <color=#FFFFFF>[Maximum Firepower]</color> will be upgraded to <color=#FFFFFF>[True: Full-Barrage Launch]</color>;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Ultimate: Finale",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes multiple attacks ahead, dealing <color=#FFA9DD>Lumen DMG</color>;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Chain Attack:",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581014, Prop:1001}",
+              "param": {
+                "1581014": {
+                  "main": 82850,
+                  "growth": 7540,
+                  "format": "%",
+                  "damage_percentage": 82850,
+                  "damage_percentage_growth": 7540,
+                  "stun_ratio": 26220,
+                  "stun_ratio_growth": 1200,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 2484075,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 23830
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581014, Prop:1002}",
+              "param": {
+                "1581014": {
+                  "main": 26220,
+                  "growth": 1200,
+                  "format": "%",
+                  "damage_percentage": 82850,
+                  "damage_percentage_growth": 7540,
+                  "stun_ratio": 26220,
+                  "stun_ratio_growth": 1200,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 2484075,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 23830
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Ultimate: Entrance",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581015, Prop:1001}",
+              "param": {
+                "1581015": {
+                  "main": 40010,
+                  "growth": 3640,
+                  "format": "%",
+                  "damage_percentage": 40010,
+                  "damage_percentage_growth": 3640,
+                  "stun_ratio": 26040,
+                  "stun_ratio_growth": 1190,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 325600,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 23671
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581015, Prop:1002}",
+              "param": {
+                "1581015": {
+                  "main": 26040,
+                  "growth": 1190,
+                  "format": "%",
+                  "damage_percentage": 40010,
+                  "damage_percentage_growth": 3640,
+                  "stun_ratio": 26040,
+                  "stun_ratio_growth": 1190,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 325600,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 23671
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Consume Flight Energy",
+              "desc": "40",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Ultimate: Finale",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581016, Prop:1001}",
+              "param": {
+                "1581016": {
+                  "main": 206100,
+                  "growth": 18740,
+                  "format": "%",
+                  "damage_percentage": 206100,
+                  "damage_percentage_growth": 18740,
+                  "stun_ratio": 29520,
+                  "stun_ratio_growth": 1350,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 76830
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581016, Prop:1002}",
+              "param": {
+                "1581016": {
+                  "main": 29520,
+                  "growth": 1350,
+                  "format": "%",
+                  "damage_percentage": 206100,
+                  "damage_percentage_growth": 18740,
+                  "stun_ratio": 29520,
+                  "stun_ratio_growth": 1350,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 76830
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100117": 2
+        },
+        "2": {
+          "10": 3000,
+          "100117": 3
+        },
+        "3": {
+          "10": 6000,
+          "100127": 2
+        },
+        "4": {
+          "10": 9000,
+          "100127": 3
+        },
+        "5": {
+          "10": 12000,
+          "100127": 4
+        },
+        "6": {
+          "10": 18000,
+          "100127": 6
+        },
+        "7": {
+          "10": 45000,
+          "100137": 5
+        },
+        "8": {
+          "10": 67500,
+          "100137": 8
+        },
+        "9": {
+          "10": 90000,
+          "100137": 10
+        },
+        "10": {
+          "10": 112500,
+          "100137": 12
+        },
+        "11": {
+          "10": 135000,
+          "100137": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "assist": {
+      "description": [
+        {
+          "name": "Quick Assist:",
+          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nSlash the target, dealing <color=#FFA9DD>Lumiflux DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Defensive Assist:",
+          "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Assist Follow-Up:",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nUnleash a series of slashes on the target, dealing <color=#FFA9DD>Lumen DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Quick Assist:",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581017, Prop:1001}",
+              "param": {
+                "1581017": {
+                  "main": 3250,
+                  "growth": 300,
+                  "format": "%",
+                  "damage_percentage": 3250,
+                  "damage_percentage_growth": 300,
+                  "stun_ratio": 2750,
+                  "stun_ratio_growth": 130,
+                  "sp_recovery": 9000,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 34375,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 2499
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581017, Prop:1002}",
+              "param": {
+                "1581017": {
+                  "main": 2750,
+                  "growth": 130,
+                  "format": "%",
+                  "damage_percentage": 3250,
+                  "damage_percentage_growth": 300,
+                  "stun_ratio": 2750,
+                  "stun_ratio_growth": 130,
+                  "sp_recovery": 9000,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 34375,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 2499
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Defensive Assist:",
+          "param": [
+            {
+              "name": "Light Defensive Daze Multiplier",
+              "desc": "{Skill:1581018, Prop:1002}",
+              "param": {
+                "1581018": {
+                  "main": 27130,
+                  "growth": 1240,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 27130,
+                  "stun_ratio_growth": 1240,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 36664
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Heavy Defensive Daze Multiplier",
+              "desc": "{Skill:1581019, Prop:1002}",
+              "param": {
+                "1581019": {
+                  "main": 34280,
+                  "growth": 1560,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 34280,
+                  "stun_ratio_growth": 1560,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 41664
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Chain Defensive Daze Multiplier",
+              "desc": "{Skill:1581020, Prop:1002}",
+              "param": {
+                "1581020": {
+                  "main": 16680,
+                  "growth": 760,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 16680,
+                  "stun_ratio_growth": 760,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 11664
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Assist Follow-Up:",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1581021, Prop:1001}",
+              "param": {
+                "1581021": {
+                  "main": 39330,
+                  "growth": 3580,
+                  "format": "%",
+                  "damage_percentage": 39330,
+                  "damage_percentage_growth": 3580,
+                  "stun_ratio": 28720,
+                  "stun_ratio_growth": 1310,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 473000,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 13671
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1581021, Prop:1002}",
+              "param": {
+                "1581021": {
+                  "main": 28720,
+                  "growth": 1310,
+                  "format": "%",
+                  "damage_percentage": 39330,
+                  "damage_percentage_growth": 3580,
+                  "stun_ratio": 28720,
+                  "stun_ratio_growth": 1310,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 473000,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 13671
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100117": 2
+        },
+        "2": {
+          "10": 3000,
+          "100117": 3
+        },
+        "3": {
+          "10": 6000,
+          "100127": 2
+        },
+        "4": {
+          "10": 9000,
+          "100127": 3
+        },
+        "5": {
+          "10": 12000,
+          "100127": 4
+        },
+        "6": {
+          "10": 18000,
+          "100127": 6
+        },
+        "7": {
+          "10": 45000,
+          "100137": 5
+        },
+        "8": {
+          "10": 67500,
+          "100137": 8
+        },
+        "9": {
+          "10": 90000,
+          "100137": 10
+        },
+        "10": {
+          "10": 112500,
+          "100137": 12
+        },
+        "11": {
+          "10": 135000,
+          "100137": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    }
+  },
+  "skill_list": {},
+  "passive": {
+    "level": {
+      "1581501": {
+        "level": 1,
+        "id": 1581501,
+        "name": [
+          "Core Passive:",
+          "Additional Ability:"
+        ],
+        "desc": [
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1581502": {
+        "level": 2,
+        "id": 1581502,
+        "name": [
+          "Core Passive:",
+          "Additional Ability:"
+        ],
+        "desc": [
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1581503": {
+        "level": 3,
+        "id": 1581503,
+        "name": [
+          "Core Passive:",
+          "Additional Ability:"
+        ],
+        "desc": [
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1581504": {
+        "level": 4,
+        "id": 1581504,
+        "name": [
+          "Core Passive:",
+          "Additional Ability:"
+        ],
+        "desc": [
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1581505": {
+        "level": 5,
+        "id": 1581505,
+        "name": [
+          "Core Passive:",
+          "Additional Ability:"
+        ],
+        "desc": [
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1581506": {
+        "level": 6,
+        "id": 1581506,
+        "name": [
+          "Core Passive:",
+          "Additional Ability:"
+        ],
+        "desc": [
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1581507": {
+        "level": 7,
+        "id": 1581507,
+        "name": [
+          "Core Passive:",
+          "Additional Ability:"
+        ],
+        "desc": [
+          "Remie's <color=#FFFFFF>[Mutation Coefficient]</color> is <color=#2BAD00>0.06%</color> of her own Anomaly Proficiency;\nWhen a teammate triggers the character's <color=#FFA9DD>Lumen Attribute</color> <color=#FFFFFF>[Mutation]</color> reaction, the character can store the Anomaly Pool after <color=#FFFFFF>[Mutation]</color> as <color=#FFFFFF>[Anomaly Rounds]</color>, storing up to 3 Anomaly Pools from the most recently triggered Anomaly States;\nActivating <color=#FFFFFF>[Ultimate: Entrance]</color>/<color=#FFFFFF>[Ultimate: Finale]</color>/<color=#FFFFFF>[Maximum Firepower]</color>/<color=#FFFFFF>[True: Full-Barrage Launch]</color> triggers the <color=#FFFFFF>[Luminize]</color> effect:\nDeals 50%/150%/20%/100% Attribute Anomaly DMG of all stored <color=#FFFFFF>[Anomaly Rounds]</color>, and increases this DMG Multiplier based on <color=#2BAD00>0.6%</color> of own Anomaly Proficiency;\nWhen the character enters <color=#FFFFFF>[Flight Stance]</color> or after activating <color=#FFFFFF>[Maximum Firepower]</color> or <color=#FFFFFF>[True: Full-Barrage Launch]</color>, all stored <color=#FFFFFF>[Anomaly Rounds]</color> are cleared.\n(Note: <color=#FFFFFF>[Mutation]</color> is a <color=#FFA9DD>Lumen Attribute</color> reaction. If the enemy has <color=#FFA9DD>[Lumen Buildup Points]</color>, When the Enemy Is About to Enter an Attribute Anomaly State, Then This Anomaly State will be <color=#FFFFFF>[Mutated]</color>. The Anomaly Pool of that Anomaly State will be amplified based on the <color=#FFFFFF>[Mutation Coefficient]</color> of the <color=#FFA9DD>[Lumen Buildup Point]</color> provider, increasing the total DMG this Anomaly State can deal.)",
+          "Triggers when another <color=#FFFFFF>[Anomaly]</color> Character or same-Faction Character is in your squad:\nWhen the number of <color=#FFFFFF>[Anomaly]</color> Characters in your squad is 1/2/3, entering the battlefield boosts all squad members' ATK by 40% of their initial ATK, with a cap of 300/600/1,600;\nAdditionally, when the Character applies <color=#FFA9DD>[Lumen Buildup Point]</color> to an enemy, it simultaneously inflicts the <color=#FFFFFF>[Fade]</color> effect on them: while under the <color=#FFFFFF>[Fade]</color> effect, Anomaly Buildup dealt to enemies by Attribute Anomaly DMG is increased by 15%. The <color=#FFFFFF>[Fade]</color> effect is removed when the enemy has no <color=#FFA9DD>[Lumen Buildup Point]</color>."
+        ],
+        "extra_property": {},
+        "potential": []
+      }
+    },
+    "materials": {
+      "1": {
+        "10": 5000
+      },
+      "2": {
+        "10": 12000,
+        "110515": 2
+      },
+      "3": {
+        "10": 28000,
+        "110515": 4
+      },
+      "4": {
+        "10": 60000,
+        "110010": 2,
+        "110515": 9
+      },
+      "5": {
+        "10": 100000,
+        "110010": 3,
+        "110515": 15
+      },
+      "6": {
+        "10": 200000,
+        "110010": 4,
+        "110515": 30
+      }
+    }
+  },
+  "talent": {
+    "1": {
+      "level": 1,
+      "name": "Mindscape 1",
+      "desc": "Upon entering the battlefield, if the user's Energy is below 60, restore it to 60; when a Character triggers the <color=#FFFFFF>[Luminize]</color> effect, ignore 25% of the target's DEF.",
+      "desc2": "Remielle_Talent_01_Desc_02"
+    },
+    "2": {
+      "level": 2,
+      "name": "Mindscape 02",
+      "desc": "The maximum number of <color=#FFFFFF>[Anomaly Rounds]</color> Remie can store is increased to 4, and <color=#FFFFFF>[Mutation]</color> Degree is increased to 2. When triggering a <color=#FFFFFF>[Mutation]</color> reaction, up to 2 <color=#FFFFFF>[Lumen Buildup Points]</color> will be consumed. When 2 <color=#FFFFFF>[Lumen Buildup Points]</color> are consumed, the <color=#FFFFFF>[Mutation Coefficient]</color> of this <color=#FFFFFF>[Mutation]</color> is increased by 25%;\nAt the same time, the frequency at which the character auto-activates Support Skills to apply <color=#FFFFFF>[Lumen Buildup Points]</color> to enemies while in <color=#FFFFFF>[Flight Stance]</color> is increased, and the number of <color=#FFFFFF>[Lumen Buildup Points]</color> applied per single skill use is also increased from 1 to 2.",
+      "desc2": "Remielle_Talent_02_Desc_02"
+    },
+    "3": {
+      "level": 3,
+      "name": "Mindscape 03",
+      "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
+      "desc2": "Remielle_Talent_03_Desc_02"
+    },
+    "4": {
+      "level": 4,
+      "name": "Mindscape 04",
+      "desc": "Enemies in the <color=#FFFFFF>[Fade]</color> state take Attribute Anomaly DMG with Anomaly Buildup Received increased to 35%.",
+      "desc2": "Remielle_Talent_04_Desc_02"
+    },
+    "5": {
+      "level": 5,
+      "name": "Mindscape 05",
+      "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
+      "desc2": "Remielle_Talent_05_Desc_02"
+    },
+    "6": {
+      "level": 6,
+      "name": "Mindscape 06",
+      "desc": "When Remie uses <color=#FFFFFF>[Maximum Firepower]</color> and <color=#FFFFFF>[True: Full-Barrage Launch]</color>, she triggers the <color=#FFFFFF>[Luminize]</color> effect 2 times. Additionally, when a Character uses an <color=#FFFFFF>[Entrance Ultimate]</color> to hit a Stunned enemy, the enemy's Stun duration is extended by 3s.",
+      "desc2": "Remielle_Talent_06_Desc_02"
+    }
+  },
+  "fairy_recommend": {},
+  "strategy": {},
+  "potential": [],
+  "potential_detail": {}
+}

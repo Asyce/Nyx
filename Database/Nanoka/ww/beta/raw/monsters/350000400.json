@@ -1,0 +1,15 @@
+{
+  "id": 350000400,
+  "name": "Phantom: Glommoth",
+  "desc": "Among the Exoswarm, none stand taller nor command greater reverence than these towering figures. They are seen as reliable guides in leading their kin back to the Exostrider.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Ice>Glacio DMG</color>.\nWhile in combat, Glommoth gains Frost Armor, which increases its All-Attribute RES.\nThe Frost Armor is removed when the Fusion Burst on it reaches 3 stacks.\n\nWeakness: Breaking Glommoth's left tusk causes it to lose part of its skill set.\n\nAmong the Exoswarm, none stand taller nor command greater reverence than these towering figures. Shaped in the likeness of the long-extinct mammoth, they are seen as reliable guides in leading their kin back to the Exostrider.\nGlommoth, the male, advances with ferocity, often carving paths through frozen earth with its long, jagged tusks.\nWhile Glommotha, the female, moves with care, guiding and healing the Exoswarm with its trunk as they return along the paths to the Exostrider.",
+  "rarity": 2,
+  "element": 1,
+  "element_array": [
+    1
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_32061_UI.T_IconMonsterHead_SG_32061_UI",
+  "echo": 6010195,
+  "base_stats": {},
+  "stats": {}
+}

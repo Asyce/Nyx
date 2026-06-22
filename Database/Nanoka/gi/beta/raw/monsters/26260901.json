@@ -1,0 +1,101 @@
+{
+  "name": "Burning-Aflame Wayob Manifestation",
+  "desc": "The Flower-Feather Clan believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\\nThey say that long ago, Wayob Manifestations looked very different from how they do today, taking on a rougher form that was more akin to that of an obsidian statue. But once their outline had been recorded in woven scrolls, there have been few changes in their appearance since.\\nThe people of the Flower-Feather Clan believe their Wayob has the power to control fire and burning flames, and can also control the flow of heat and blazing winds.",
+  "icon": "UI_MonsterIcon_Wayob_Flamingo",
+  "codex": "BEAST",
+  "title": "Burning-Aflame Wayob Manifestation",
+  "special_names": [
+    "Envoy of Night and Wandering Spirits"
+  ],
+  "reward": [],
+  "child": {
+    "26260901": {
+      "monster_name": "Wayob_Flamingo_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010021,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.5,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26260902": {
+      "monster_name": "Wayob_Flamingo_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010021,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.5,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

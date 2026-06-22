@@ -1,0 +1,224 @@
+{
+  "name": "Eremite Stone Enchanter",
+  "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.\\nIn ancient days, these heavily-equipped warriors were the domain of the personal, trusted guards of the Lord of the Blazing Sun. It is perhaps on this account that they gleam like the golden sun itself to this day.\\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
+  "icon": "UI_MonsterIcon_Eremite_Male_Strong_Katar",
+  "codex": "HUMAN",
+  "title": "Eremite Galehunter",
+  "special_names": [
+    "Retainer of the Wind Glede"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112067,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    {
+      "id": 112066,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    {
+      "id": 112065,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    }
+  ],
+  "child": {
+    "25410101": {
+      "monster_name": "Eremite_Male_Strong_Katar_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410102": {
+      "monster_name": "Eremite_Male_Strong_Katar_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 138.4,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410103": {
+      "monster_name": "Eremite_Male_Strong_Katar_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410181": {
+      "monster_name": "Eremite_Male_Strong_Katar_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010017,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

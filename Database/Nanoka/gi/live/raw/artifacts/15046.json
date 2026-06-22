@@ -1,0 +1,145 @@
+{
+  "id": 15046,
+  "icon": "UI_RelicIcon_15046_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150460,
+      "id": 215046,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Disenchantment in Deep Shadow",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150461,
+      "id": 215046,
+      "level": 1,
+      "open_config": "Relic_6.6_Superconductor",
+      "param_list": [
+        0.8,
+        0.16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Disenchantment in Deep Shadow",
+      "desc": "Increases Superconduct Reaction DMG by 80%. When the equipping character attacks opponents affected by Superconduct, this attack's CRIT Rate is increased by 16%. An all-new blessing may be obtained as you make your way toward Snezhnaya..."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15046_1",
+      "name": "Ovations That Ceased Upon Festivity",
+      "desc": "It was a goblet of wine she had accepted in celebration from the hands of a colleague.",
+      "story": {
+        "285461": {
+          "zh": "ART/UI/Readable/CHS/Relic15046_1",
+          "en": "ART/UI/Readable/EN/Relic15046_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15046_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15046_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15046_2",
+      "name": "Sharpness That Ceased Upon Wondrous Creation",
+      "desc": "It was a feathered quill given to her followers, once used to pen the most absurd of dreams.",
+      "story": {
+        "285462": {
+          "zh": "ART/UI/Readable/CHS/Relic15046_2",
+          "en": "ART/UI/Readable/EN/Relic15046_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15046_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15046_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15046_3",
+      "name": "Pendulum That Ceased Amidst a Great Fall",
+      "desc": "It was a delicate trinket awarded to her in praise by the hand of her only master.",
+      "story": {
+        "285463": {
+          "zh": "ART/UI/Readable/CHS/Relic15046_3",
+          "en": "ART/UI/Readable/EN/Relic15046_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15046_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15046_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15046_4",
+      "name": "Iridescence That Ceased Amidst Glory",
+      "desc": "It was a flower made of silk, gifted to her by a friend whose hands were as cold as ice.",
+      "story": {
+        "285464": {
+          "zh": "ART/UI/Readable/CHS/Relic15046_4",
+          "en": "ART/UI/Readable/EN/Relic15046_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15046_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15046_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15046_5",
+      "name": "Moment That Ceased Upon Waking From Grand Dreams",
+      "desc": "It was a fleeting moment she gave a certain silent alchemist to remind him of every item on his schedule.",
+      "story": {
+        "285465": {
+          "zh": "ART/UI/Readable/CHS/Relic15046_5",
+          "en": "ART/UI/Readable/EN/Relic15046_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15046_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15046_5_KR"
+        }
+      }
+    }
+  }
+}

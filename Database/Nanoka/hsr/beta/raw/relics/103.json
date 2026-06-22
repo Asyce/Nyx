@@ -1,0 +1,32 @@
+{
+  "name": "Knight of Purity Palace",
+  "icon": "SpriteOutput/ItemIcon/71002.png",
+  "parts": {
+    "31031": {
+      "name": "Knight's Forgiving Casque"
+    },
+    "31032": {
+      "name": "Knight's Silent Oath Ring"
+    },
+    "31033": {
+      "name": "Knight's Solemn Breastplate"
+    },
+    "31034": {
+      "name": "Knight's Iron Boots of Order"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases DEF by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.15
+      ]
+    },
+    "4": {
+      "desc": "Increases the max DMG that can be absorbed by the Shield created by the wearer by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.2
+      ]
+    }
+  }
+}

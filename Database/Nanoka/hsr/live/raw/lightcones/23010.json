@@ -1,0 +1,230 @@
+{
+  "name": "Before Dawn",
+  "desc": "<i>\"Do not make this decision lightly, general... Think about how you will be remembered in history...\"</i>\\nThe general of the Cloud Knights listens to his subordinates' words with eyes half-closed.\\n<i>\"History will make its own judgment, but I have no interest in my legacy.\"\\n\"If I succeed, history will state that I am currently supremely confident in my masterful strategy.\"\\n\"But if I fail, then history will state that I am currently neglecting my duties in wanton pleasure, preferring finches over my people.\"</i>\\n\\nA finch jumps down from his shoulder, and he extends his hand to catch the small creature.\\n<i>\"I have simply made my own decision.\"</i>",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Mage",
+  "refinements": {
+    "name": "Long Night",
+    "desc": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Increases DMG dealt by the wearer's Skill and Ultimate by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. After the wearer uses Skill or Ultimate, gains \"Somnus Corpus.\" Upon triggering a Follow-Up ATK, consumes \"Somnus Corpus,\" and increases DMG dealt by Follow-Up ATK by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+    "level": {
+      "1": {
+        "param_list": [
+          0.36,
+          0.18,
+          0.48
+        ]
+      },
+      "2": {
+        "param_list": [
+          0.42,
+          0.21,
+          0.56
+        ]
+      },
+      "3": {
+        "param_list": [
+          0.48,
+          0.24,
+          0.64
+        ]
+      },
+      "4": {
+        "param_list": [
+          0.54,
+          0.27,
+          0.72
+        ]
+      },
+      "5": {
+        "param_list": [
+          0.6,
+          0.3,
+          0.8
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23010,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 113001,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 48,
+      "base_hp_add": 7.2,
+      "base_attack": 26.4,
+      "base_attack_add": 3.96,
+      "base_defence": 21,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23010,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110131,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 113001,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 105.6,
+      "base_hp_add": 7.2,
+      "base_attack": 58.08,
+      "base_attack_add": 3.96,
+      "base_defence": 46.2,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23010,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110132,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 113002,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 182.4,
+      "base_hp_add": 7.2,
+      "base_attack": 100.32,
+      "base_attack_add": 3.96,
+      "base_defence": 79.8,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23010,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110132,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 113002,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 259.2,
+      "base_hp_add": 7.2,
+      "base_attack": 142.56,
+      "base_attack_add": 3.96,
+      "base_defence": 113.4,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23010,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110133,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 113003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 336,
+      "base_hp_add": 7.2,
+      "base_attack": 184.8,
+      "base_attack_add": 3.96,
+      "base_defence": 147,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23010,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110133,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 113003,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 412.8,
+      "base_hp_add": 7.2,
+      "base_attack": 227.04,
+      "base_attack_add": 3.96,
+      "base_defence": 180.6,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23010,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 489.6,
+      "base_hp_add": 7.2,
+      "base_attack": 269.28,
+      "base_attack_add": 3.96,
+      "base_defence": 214.2,
+      "base_defence_add": 3.15
+    }
+  ]
+}

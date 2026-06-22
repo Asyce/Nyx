@@ -1,0 +1,210 @@
+{
+  "name": "Anemo Hilichurl Rogue",
+  "desc": "Hilichurl wanderers who do not belong to any hilichurl tribe. It almost seems as if they are searching for the fated genesis of their kind, seeking to uncover some bygone splendor that once belonged to their people.\\nIf these monsters capable of only crude language and bereft of missing history could record their own epics and legends, the hilichurl wanderers would be the heroes in said tales.",
+  "icon": "UI_MonsterIcon_Hilistray_Wind",
+  "codex": "HILICHURL",
+  "title": "Anemo Hilichurl Rogue",
+  "special_names": [
+    "The Eternal Outsider"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112079,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112079"
+    },
+    {
+      "id": 112078,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112078"
+    },
+    {
+      "id": 112077,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112077"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "21040101": {
+      "monster_name": "Hilistray_Wind_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010015,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "21040181": {
+      "monster_name": "Hilistray_Wind_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010015,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "21040182": {
+      "monster_name": "Hilistray_Wind_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010015,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 67.92,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

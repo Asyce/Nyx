@@ -1,0 +1,155 @@
+{
+  "name": "Mirror Maiden",
+  "desc": "A Fatui mage who can command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god.\\nThe Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, nor what kind of obsession might be reflected in them...",
+  "icon": "UI_MonsterIcon_Fatuus_Maiden_Water",
+  "codex": "FATUI",
+  "title": "Snezhnayan Maiden: Mirror Envoy",
+  "special_names": [
+    "Anna",
+    "Olga",
+    "Natasha",
+    "Maria",
+    "Katya",
+    "Daria",
+    "Sofia",
+    "Yuliya",
+    "Antonova",
+    "Doronina",
+    "Svetlova",
+    "Irina",
+    "Rakhmanova",
+    "Semyonova",
+    "Tanya",
+    "Nina",
+    "Raisa",
+    "Borisova",
+    "Rusalka",
+    "Masha",
+    "Nadja",
+    "Snezhna",
+    "Valentina",
+    "Varya",
+    "Yevgeniya",
+    "Ayda",
+    "Chernovna",
+    "Mila",
+    "Vladimya",
+    "Sola",
+    "Miroslava",
+    "Branka",
+    "Veroschka",
+    "Elga",
+    "Zivanka",
+    "Treska",
+    "Danika",
+    "Leena",
+    "Verine",
+    "Aniya"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112052,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112052"
+    },
+    {
+      "id": 112051,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112051"
+    },
+    {
+      "id": 112050,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112050"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "23050101": {
+      "monster_name": "Fatuus_Maiden_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.5,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

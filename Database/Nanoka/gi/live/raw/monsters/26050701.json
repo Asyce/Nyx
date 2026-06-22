@@ -1,0 +1,323 @@
+{
+  "name": "Rimebiter Bathysmal Vishap",
+  "desc": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Cryo element.\\nThe coming of humans sparked a conflict and a resultant evolution within the Bathysmal Vishaps, just as ants might divide up labor and biological characteristics, thus appearing in different forms. These vishaps are stronger than their ordinary kin.",
+  "icon": "UI_MonsterIcon_Drake_Deepsea_Ice",
+  "codex": "BEAST",
+  "title": "Rimebiter Bathysmal Vishap",
+  "special_names": [
+    "Deep Sea-Dwelling Beast"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113031,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113031"
+    },
+    {
+      "id": 104164,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104164"
+    },
+    {
+      "id": 104163,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104163"
+    },
+    {
+      "id": 104162,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104162"
+    },
+    {
+      "id": 104161,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104161"
+    },
+    {
+      "id": 104144,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104144"
+    },
+    {
+      "id": 104143,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104143"
+    },
+    {
+      "id": 104142,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104142"
+    },
+    {
+      "id": 104141,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104141"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400148,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15013_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400147,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15013_3"
+    },
+    {
+      "id": 400052,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10011_4"
+    }
+  ],
+  "child": {
+    "26050701": {
+      "monster_name": "Drake_Deepsea_Ice_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010036,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 163.008,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26050702": {
+      "monster_name": "Drake_Deepsea_Ice_03",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010036,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 163.008,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26050703": {
+      "monster_name": "Drake_Deepsea_Ice_04",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010036,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.3,
+        "rock": 0.1,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 185.185,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26050781": {
+      "monster_name": "Drake_Deepsea_Ice_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.2,
+        "rock": 0.1,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

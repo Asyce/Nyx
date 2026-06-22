@@ -1,0 +1,239 @@
+{
+  "name": "Incessant Rain",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Warlock",
+  "refinements": {
+    "name": "Mirage of Reality",
+    "desc": "Increases the wearer's Effect Hit Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer deals DMG to an enemy that currently has <unbreak>#4[i]</unbreak> or more debuffs, increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a <unbreak>#2[i]%</unbreak> base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> increased DMG for 1 turn.",
+    "level": {
+      "1": {
+        "param_list": [
+          0.24,
+          1,
+          0.12,
+          3,
+          0.12
+        ]
+      },
+      "2": {
+        "param_list": [
+          0.28,
+          1,
+          0.14,
+          3,
+          0.14
+        ]
+      },
+      "3": {
+        "param_list": [
+          0.32,
+          1,
+          0.16,
+          3,
+          0.16
+        ]
+      },
+      "4": {
+        "param_list": [
+          0.36,
+          1,
+          0.18,
+          3,
+          0.18
+        ]
+      },
+      "5": {
+        "param_list": [
+          0.4,
+          1,
+          0.2,
+          3,
+          0.2
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23007,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 112011,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 48,
+      "base_hp_add": 7.2,
+      "base_attack": 26.4,
+      "base_attack_add": 3.96,
+      "base_defence": 21,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23007,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110151,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 112011,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 105.6,
+      "base_hp_add": 7.2,
+      "base_attack": 58.08,
+      "base_attack_add": 3.96,
+      "base_defence": 46.2,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23007,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110152,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 112012,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 182.4,
+      "base_hp_add": 7.2,
+      "base_attack": 100.32,
+      "base_attack_add": 3.96,
+      "base_defence": 79.8,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23007,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110152,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 112012,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 259.2,
+      "base_hp_add": 7.2,
+      "base_attack": 142.56,
+      "base_attack_add": 3.96,
+      "base_defence": 113.4,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23007,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110153,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 112013,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 336,
+      "base_hp_add": 7.2,
+      "base_attack": 184.8,
+      "base_attack_add": 3.96,
+      "base_defence": 147,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23007,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110153,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 112013,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 412.8,
+      "base_hp_add": 7.2,
+      "base_attack": 227.04,
+      "base_attack_add": 3.96,
+      "base_defence": 180.6,
+      "base_defence_add": 3.15
+    },
+    {
+      "equipment_id": 23007,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 489.6,
+      "base_hp_add": 7.2,
+      "base_attack": 269.28,
+      "base_attack_add": 3.96,
+      "base_defence": 214.2,
+      "base_defence_add": 3.15
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "name": "Eremite Daythunder",
+  "desc": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good.\\nA true scion of a warrior tribe, such warriors see battle as their ordained purpose, and unlike some barbarian who wields a large ax with ease, these tribespeople are also quite well-versed in the lore and songs of the desert ruins.\\nAn ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe.",
+  "icon": "UI_MonsterIcon_Eremite_Male_Standard_Polearm",
+  "codex": "HUMAN",
+  "title": "Eremite Daythunder",
+  "special_names": [
+    "Thunderclap Warrior"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112067,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112067"
+    },
+    {
+      "id": 112066,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112066"
+    },
+    {
+      "id": 112065,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112065"
+    }
+  ],
+  "child": {
+    "25310301": {
+      "monster_name": "Eremite_Male_Standard_Polearm_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010024,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25310381": {
+      "monster_name": "Eremite_Male_Standard_Polearm_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010024,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25310382": {
+      "monster_name": "Eremite_Male_Standard_Polearm_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010014,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010024,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 30.144,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25310391": {
+      "monster_name": "Eremite_Male_Standard_Polearm_01_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 101.04141,
+        "atk": 41.25,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

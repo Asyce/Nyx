@@ -1,0 +1,334 @@
+{
+  "name": "Experimental Field Generator",
+  "desc": "A large device designed by the late Edwin Eastinghouse. It has the ability to \"counteract\" the effects of gravity. According to the original design intentions, this was the first step in a plan to turn Fontaine into a city in the sky, so never again would the people have to worry about the waves that once swept over the land. Even if all seven nations were to be swallowed by the deeps, the elegant Court of Fontaine would float above it all, just like Celestia. Even the secrets of the universe would no longer seem so distant.\\nThe Arkhium in the device's core has the characteristics of \"splitting\" or \"precipitation,\" and can take matter, or certain things outside of matter, and separate them. It is said that this process can be reversed, but the Fontaine Research Institute is infatuated only with the physical effects it can produce.",
+  "icon": "UI_MonsterIcon_MachinaIustitia_Gravitas",
+  "codex": "AUTOMATRON",
+  "title": "Experimental Field Generator",
+  "special_names": [
+    "Prototype Cal. Breguet"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113052,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113052"
+    },
+    {
+      "id": 104174,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104174"
+    },
+    {
+      "id": 104173,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104173"
+    },
+    {
+      "id": 104172,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104172"
+    },
+    {
+      "id": 104171,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104171"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "24080101": {
+      "monster_name": "Monster_MachinaIustitia_Gravitas_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 213.2688,
+        "atk": 113.04,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24080102": {
+      "monster_name": "Monster_MachinaIustitia_Gravitas_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 213.2688,
+        "atk": 113.04,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24080103": {
+      "monster_name": "Monster_MachinaIustitia_Gravitas_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 295.02527,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24080104": {
+      "monster_name": "Monster_MachinaIustitia_Gravitas_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 295.02527,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24080105": {
+      "monster_name": "Monster_MachinaIustitia_Gravitas_03",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 295.02527,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

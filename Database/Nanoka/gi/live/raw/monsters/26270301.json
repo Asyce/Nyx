@@ -1,0 +1,353 @@
+{
+  "name": "Lava Dragon Statue",
+  "desc": "A monster that can continuously generate heat to sustain its activities.\\nLegends say these monsters with lava at their cores are the products of a distinct line of research to the Source Mechanisms that followed them — research into whether the primal flame could be used to create a new race based on humans. This research undoubtedly failed, for once the reaver arrived with their throne from beyond the skies, all that the primal flame could birth were hollow shells whose nominal lifeforce granted them no more consciousness than a stone.",
+  "icon": "UI_MonsterIcon_LavaTitan",
+  "codex": "BEAST",
+  "title": "Lava Dragon Statue",
+  "special_names": [
+    "Stone-Hearted Final Form of Flowing Flame"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113072,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113072"
+    },
+    {
+      "id": 104114,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    {
+      "id": 104113,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    {
+      "id": 104112,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    {
+      "id": 104111,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400128,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15009_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400127,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15009_3"
+    },
+    {
+      "id": 400047,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10010_4"
+    }
+  ],
+  "child": {
+    "26270301": {
+      "monster_name": "Monster_LavaTitan_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010031,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010031,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010021,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 366.768,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26270302": {
+      "monster_name": "Monster_LavaTitan_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010031,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010031,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010021,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 366.768,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26270303": {
+      "monster_name": "Monster_LavaTitan_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 273.95828,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26270304": {
+      "monster_name": "Monster_LavaTitan_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 273.95828,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26270305": {
+      "monster_name": "Monster_LavaTitan_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 273.95828,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

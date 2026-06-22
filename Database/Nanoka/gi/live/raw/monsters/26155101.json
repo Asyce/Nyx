@@ -1,0 +1,75 @@
+{
+  "name": "Bubbly Seahorse",
+  "desc": "An aquatic creature that hunts by firing watery projectiles.\\nAmong the (admittedly somewhat sparse) ranks of Fontemer Aberrant enthusiasts, Bubbly Seahorses have many fans. As with clockwork meka enthusiasts, a small minority of Fontemer Aberrant enthusiasts can be very standoffish when it comes to people whose opinions differ from their own.",
+  "icon": "UI_MonsterIcon_SeaHorse_Larva_01",
+  "codex": "BEAST",
+  "title": "Bubbly Seahorse",
+  "special_names": [
+    "Life Evolved by the Fontemer"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112082,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    {
+      "id": 112081,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    {
+      "id": 112080,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    }
+  ],
+  "child": {
+    "26155101": {
+      "monster_name": "SeaHorse_Larva_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 19.48134,
+        "atk": 45,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

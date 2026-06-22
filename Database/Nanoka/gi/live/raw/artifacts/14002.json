@@ -1,0 +1,146 @@
+{
+  "id": 14002,
+  "icon": "UI_RelicIcon_14002_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ELEC_SUB_HURT",
+          "value": 0.4
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2140020,
+      "id": 214002,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Thundersoother",
+      "desc": "Electro RES increased by 40%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2140021,
+      "id": 214002,
+      "level": 1,
+      "open_config": "Relic_DamageUpAgainstElectric",
+      "param_list": [
+        0.35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Thundersoother",
+      "desc": "Increases DMG against opponents affected by Electro by 35%."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_14002_1",
+      "name": "Thundersoother's Goblet",
+      "desc": "The wine goblet from which the Thundersoother, who defeated the Beast of Thunder, once drank violet lightning.",
+      "story": {
+        "284021": {
+          "zh": "ART/UI/Readable/CHS/Relic14002_1",
+          "en": "ART/UI/Readable/EN/Relic14002_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic14002_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic14002_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_14002_2",
+      "name": "Thundersoother's Plume",
+      "desc": "The feather of a predatory bird that soars through lightning storms. It was said to have been adopted as an insignia by the legendary hero who pacified thunder and lightning.",
+      "story": {
+        "284022": {
+          "zh": "ART/UI/Readable/CHS/Relic14002_2",
+          "en": "ART/UI/Readable/EN/Relic14002_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic14002_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic14002_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_14002_3",
+      "name": "Thundersoother's Diadem",
+      "desc": "The crown given to the Thundersoother for defeating the Beast of Thunder that had been wreaking havoc upon the land.",
+      "story": {
+        "284023": {
+          "zh": "ART/UI/Readable/CHS/Relic14002_3",
+          "en": "ART/UI/Readable/EN/Relic14002_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic14002_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic14002_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_14002_4",
+      "name": "Thundersoother's Heart",
+      "desc": "A flower that blooms even amidst ferocious thunder and lightning. To this day, it still grants courage to travelers in thunderstorms.",
+      "story": {
+        "284024": {
+          "zh": "ART/UI/Readable/CHS/Relic14002_4",
+          "en": "ART/UI/Readable/EN/Relic14002_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic14002_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic14002_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_14002_5",
+      "name": "Hour of Soothing Thunder",
+      "desc": "A timepiece kept by the hero who conquered thunder and lightning. The tiny shards of Electro crystal within flow back and forth with the passing of time.",
+      "story": {
+        "284025": {
+          "zh": "ART/UI/Readable/CHS/Relic14002_5",
+          "en": "ART/UI/Readable/EN/Relic14002_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic14002_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic14002_5_KR"
+        }
+      }
+    }
+  }
+}

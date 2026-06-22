@@ -1,0 +1,342 @@
+{
+  "name": "Treasure Hoarders: Raptor",
+  "desc": "",
+  "icon": "UI_MonsterIcon_Thoarder_Male_Crossbow_01",
+  "codex": "HUMAN",
+  "title": "Treasure Hoarders: Raptor",
+  "special_names": [
+    "Flying Thief on the Horizon"
+  ],
+  "reward": [],
+  "child": {
+    "25020101": {
+      "monster_name": "Thoarder_Male_Crossbow_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25020102": {
+      "monster_name": "Thoarder_Male_Crossbow_01_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25020103": {
+      "monster_name": "NPC_Quest_Male_Standard_Virgil_21027",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25020104": {
+      "monster_name": "NPC_Quest_Male_Standard_Truand_13335",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25020105": {
+      "monster_name": "Thoarder_Male_Crossbow_01_05",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25020106": {
+      "monster_name": "NPC_Fontaine_Male_Standard_RobberLeader_21417",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25020107": {
+      "monster_name": "NPC_Quest_Male_Standard_Lazare_14056",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

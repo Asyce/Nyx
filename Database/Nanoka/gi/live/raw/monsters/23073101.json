@@ -1,0 +1,116 @@
+{
+  "name": "Oprichniki Grenadier",
+  "desc": "A soldier of the Fatui Oprichniki, equipped with a man-portable grenade launcher that can perform close-range bombardment.\\nThough the Oprichniki has large-scale, fully-functional fire support attachments, the commanding staff still advocates for large numbers of grenadiers to be maintained. After all, no big gun can compare in surety at the very front lines of combat to a grenade launcher you can direct at will.",
+  "icon": "UI_MonsterIcon_NodKrai_Oprichnik_Female",
+  "codex": "FATUI",
+  "title": "Oprichniki",
+  "special_names": [
+    "Support Trooper"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112127,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112127"
+    },
+    {
+      "id": 112126,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112126"
+    },
+    {
+      "id": 112125,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112125"
+    }
+  ],
+  "child": {
+    "23073101": {
+      "monster_name": "Human_Female_Shoulder_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 13.584,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23073102": {
+      "monster_name": "Human_Female_Shoulder_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 13.584,
+        "atk": 20.096,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

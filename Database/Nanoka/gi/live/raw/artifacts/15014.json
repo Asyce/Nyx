@@ -1,0 +1,146 @@
+{
+  "id": 15014,
+  "icon": "UI_RelicIcon_15014_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ROCK_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150140,
+      "id": 215014,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Archaic Petra",
+      "desc": "Gain a 15% Geo DMG Bonus."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150141,
+      "id": 215014,
+      "level": 1,
+      "open_config": "Relic_ElementDmgUpAfterCrystalShield",
+      "param_list": [
+        0.35,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Archaic Petra",
+      "desc": "Upon obtaining an Elemental Shard created through Crystallize or triggering a Lunar-Crystallize reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15014_1",
+      "name": "Goblet of Chiseled Crag",
+      "desc": "A resplendent yet dignified wine goblet, once filled to the brim in an era long gone.",
+      "story": {
+        "285141": {
+          "zh": "ART/UI/Readable/CHS/Relic15014_1",
+          "en": "ART/UI/Readable/EN/Relic15014_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15014_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15014_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15014_2",
+      "name": "Feather of Jagged Peaks",
+      "desc": "A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew.",
+      "story": {
+        "285142": {
+          "zh": "ART/UI/Readable/CHS/Relic15014_2",
+          "en": "ART/UI/Readable/EN/Relic15014_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15014_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15014_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15014_3",
+      "name": "Mask of Solitude Basalt",
+      "desc": "",
+      "story": {
+        "285143": {
+          "zh": "ART/UI/Readable/CHS/Relic15014_3",
+          "en": "ART/UI/Readable/EN/Relic15014_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15014_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15014_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15014_4",
+      "name": "Flower of Creviced Cliff",
+      "desc": "",
+      "story": {
+        "285144": {
+          "zh": "ART/UI/Readable/CHS/Relic15014_4",
+          "en": "ART/UI/Readable/EN/Relic15014_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15014_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15014_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15014_5",
+      "name": "Sundial of Enduring Jade",
+      "desc": "",
+      "story": {
+        "285145": {
+          "zh": "ART/UI/Readable/CHS/Relic15014_5",
+          "en": "ART/UI/Readable/EN/Relic15014_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15014_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15014_5_KR"
+        }
+      }
+    }
+  }
+}

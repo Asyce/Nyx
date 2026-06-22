@@ -1,0 +1,147 @@
+{
+  "id": 10010,
+  "icon": "UI_RelicIcon_10010_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_HP",
+          "value": 1000
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2100100,
+      "id": 210010,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Adventurer",
+      "desc": "Max HP increased by 1,000."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2100101,
+      "id": 210010,
+      "level": 1,
+      "open_config": "Relic_ChestHealSelf",
+      "param_list": [
+        5,
+        1,
+        0.06,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Adventurer",
+      "desc": "Opening a chest regenerates 30% Max HP over 5s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10010_1",
+      "name": "Adventurer's Golden Goblet",
+      "desc": "The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find.",
+      "story": {
+        "280101": {
+          "zh": "ART/UI/Readable/CHS/Relic10010_1",
+          "en": "ART/UI/Readable/EN/Relic10010_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10010_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10010_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10010_2",
+      "name": "Adventurer's Tail Feather",
+      "desc": "The feather of an exotic bird rarely seen on this continent.",
+      "story": {
+        "280102": {
+          "zh": "ART/UI/Readable/CHS/Relic10010_2",
+          "en": "ART/UI/Readable/EN/Relic10010_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10010_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10010_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10010_3",
+      "name": "Adventurer's Bandana",
+      "desc": "A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride.",
+      "story": {
+        "280103": {
+          "zh": "ART/UI/Readable/CHS/Relic10010_3",
+          "en": "ART/UI/Readable/EN/Relic10010_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10010_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10010_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10010_4",
+      "name": "Adventurer's Flower",
+      "desc": "A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal.",
+      "story": {
+        "280104": {
+          "zh": "ART/UI/Readable/CHS/Relic10010_4",
+          "en": "ART/UI/Readable/EN/Relic10010_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10010_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10010_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10010_5",
+      "name": "Adventurer's Pocket Watch",
+      "desc": "It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city.",
+      "story": {
+        "280105": {
+          "zh": "ART/UI/Readable/CHS/Relic10010_5",
+          "en": "ART/UI/Readable/EN/Relic10010_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10010_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10010_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "name": "Cutting Edge Fire Support Ground Effect Landcruiser",
+  "desc": "Balancing cutting-edge tech, production costs, and sortie rates, these elite Landcruisers confer immense penetrative power upon any order of battle, and are the key fulcrum of the frontline.\\nAfter being equipped with high-efficiency jet engines, this Ground Effect Landcruiser has gained the ability to carry multiple armaments, allowing it to deliver this sizable firepower anywhere on the battlefield in a timely fashion. As such, the combat doctrine co-authored by the Fatui and the Royal Military Academy states that they are to be organized as a \"Quick Reaction Force\" in large-scale battles, meant to guard against enemy breakthroughs or counterattacks, and to press the advantage if the battle is going favorably. Of course, all such Landcruisers have the ability to operate independently, and on long tours of duty, they can form the core of a small squad and thus maximize the firepower of various Fatui unit types...",
+  "icon": "UI_MonsterIcon_Fatuimecha_CoreC_MoveF_AttackB_Fire",
+  "codex": "FATUI",
+  "title": "Landcruiser",
+  "special_names": [
+    "Cutting Edge Fire Support Ground Effect"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112124,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112124"
+    },
+    {
+      "id": 112123,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112123"
+    },
+    {
+      "id": 112122,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112122"
+    }
+  ],
+  "child": {
+    "23085301": {
+      "monster_name": "Fatuimecha_CoreC_MoveF_AttackB_Fire_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23085302": {
+      "monster_name": "Fatuimecha_CoreC_MoveF_AttackB_Fire_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23085303": {
+      "monster_name": "Fatuimecha_CoreC_MoveF_AttackB_Fire_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 163.008,
+        "atk": 105.504,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23085304": {
+      "monster_name": "ConfigMonster_Fatuimecha_CoreC_MoveF_AttackB_Fire_01_MagnetCanyon",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 81.504,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

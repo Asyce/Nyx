@@ -42,7 +42,58 @@ const CM_GAME_LABELS = {
   "wuwa": "Wuthering Waves",
   "ae": "Arknights: Endfield"
 };
+const CM_BETA_FILES = {
+  "gi": "../dist/cm-data-gi-beta.js",
+  "hsr": "../dist/cm-data-hsr-beta.js",
+  "wuwa": "../dist/cm-data-wuwa-beta.js"
+};
+const CM_BETA_META = {
+  "gi": {
+    "version": "6.6.54+45738258",
+    "liveVersion": "6.6",
+    "newCount": 1,
+    "changedCount": 0
+  },
+  "hsr": {
+    "version": "4.3.53",
+    "liveVersion": "4.3",
+    "newCount": 0,
+    "changedCount": 15
+  },
+  "wuwa": {
+    "version": "3.5.3",
+    "liveVersion": "3.4",
+    "newCount": 0,
+    "changedCount": 10
+  }
+};
 const CM_LOADS = window.__NYX_CM_LOADS || {};
+const CM_BETA_LOADS = window.__NYX_CM_BETA_LOADS || {};
+window.CM_CFG_BETA = window.CM_CFG_BETA || {};
+
+function loadNyxCmBeta(key) {
+  if (!key || !CM_BETA_FILES[key]) return Promise.resolve(null);
+  window.CM_CFG_BETA = window.CM_CFG_BETA || {};
+  if (window.CM_CFG_BETA[key]) return Promise.resolve(window.CM_CFG_BETA[key]);
+  if (CM_BETA_LOADS[key]) return CM_BETA_LOADS[key];
+  const src = CM_BETA_FILES[key];
+  CM_BETA_LOADS[key] = new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-cm-beta="' + key + '"]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(window.CM_CFG_BETA[key] || null), { once:true });
+      existing.addEventListener('error', () => reject(new Error('Failed to load ' + src)), { once:true });
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = src;
+    script.async = true;
+    script.dataset.cmBeta = key;
+    script.onload = () => resolve(window.CM_CFG_BETA[key] || null);
+    script.onerror = () => reject(new Error('Failed to load ' + src));
+    document.head.appendChild(script);
+  });
+  return CM_BETA_LOADS[key];
+}
 
 function loadNyxCmGame(key) {
   if (!key || key === 'nyx') return Promise.resolve(null);
@@ -73,4 +124,4 @@ function ensureNyxCmGames(keys) {
   return Promise.all((keys || []).map((key) => loadNyxCmGame(key)));
 }
 
-Object.assign(window, { CM_CFG, CM_RAR, CM_ELEM, CM_GAME_FILES, CM_GAME_LABELS, loadNyxCmGame, ensureNyxCmGames, __NYX_CM_LOADS: CM_LOADS });
+Object.assign(window, { CM_CFG, CM_RAR, CM_ELEM, CM_GAME_FILES, CM_GAME_LABELS, CM_BETA_FILES, CM_BETA_META, loadNyxCmGame, loadNyxCmBeta, ensureNyxCmGames, __NYX_CM_LOADS: CM_LOADS, __NYX_CM_BETA_LOADS: CM_BETA_LOADS });

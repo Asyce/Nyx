@@ -1,0 +1,1992 @@
+{
+  "id": 1591,
+  "icon": "IconRole66",
+  "name": "Avatar_Female_Size03_Sigrid",
+  "code_name": "Avatar_Female_Size03_Sigrid_En",
+  "rarity": 4,
+  "weapon_type": {
+    "1": "Attack"
+  },
+  "element_type": {
+    "202": "Ice"
+  },
+  "special_element_type": {},
+  "hit_type": {
+    "103": "Pierce"
+  },
+  "camp": {
+    "16": "Roscaelifer External Strategy Department"
+  },
+  "gender": 2,
+  "partner_info": {
+    "birthday": "Partner_Birthday_1591",
+    "full_name": "Partner_Name_1591",
+    "gender": "Female",
+    "icon_path": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle66.png",
+    "impression_f": "Partner_Impression_f_1591",
+    "impression_m": "Partner_Impression_m_1591",
+    "profile_desc": "Partner_ProfileDesc_1591",
+    "role_icon": "IconRole/UnPacker/IconRole66",
+    "stature": "Partner_Stature_1591",
+    "unlock_condition": [
+      "Obtain Agent",
+      "Partner_Unlock_Condition_Chapter031",
+      "Complete the \"Anby's Problem\" commission"
+    ],
+    "trust_lv": {
+      "1": "Partner_ProfileDesc_1591",
+      "2": "",
+      "3": "Partner_ProfileDesc_1591_1",
+      "4": ""
+    }
+  },
+  "skin": {
+    "3115910": {
+      "name": "AvatarSkin_Sigrid_Name_000",
+      "desc": "AvatarSkin_Sigrid_Desc_000",
+      "image": "IconRole66"
+    }
+  },
+  "stats": {
+    "armor": 0,
+    "armor_growth": 0,
+    "attack": 135,
+    "attack_growth": 82578,
+    "avatar_piece_id": 5591,
+    "break_stun": 93,
+    "crit": 500,
+    "crit_damage": 5000,
+    "crit_dmg_res": 0,
+    "crit_res": 0,
+    "defence": 49,
+    "defence_growth": 66203,
+    "element_abnormal_power": 92,
+    "element_mystery": 90,
+    "endurance": 0,
+    "hp_growth": 849779,
+    "hp_max": 626,
+    "pen_delta": 0,
+    "pen_rate": 0,
+    "rbl": 1,
+    "rbl_correction_factor": 10000,
+    "rbl_probability": 0,
+    "shield": 0,
+    "shield_growth": 0,
+    "sp_bar_point": 120,
+    "sp_recover": 120,
+    "stun": 0,
+    "tags": [
+      "Sigrid",
+      "Pierce",
+      "Ice",
+      "Female",
+      "Camp7",
+      "Size03",
+      "AidTypeParry",
+      "Sigrid",
+      "EtherEyesSize3"
+    ],
+    "rp_max": 0,
+    "rp_recover": 0
+  },
+  "level": {
+    "1": {
+      "hp_max": 0,
+      "attack": 0,
+      "defence": 0,
+      "level_max": 10,
+      "level_min": 0,
+      "materials": {
+        "10": 24000,
+        "100211": 4
+      }
+    },
+    "2": {
+      "hp_max": 430,
+      "attack": 48,
+      "defence": 33,
+      "level_max": 20,
+      "level_min": 10,
+      "materials": {
+        "10": 56000,
+        "100221": 12
+      }
+    },
+    "3": {
+      "hp_max": 859,
+      "attack": 96,
+      "defence": 67,
+      "level_max": 30,
+      "level_min": 20,
+      "materials": {
+        "10": 120000,
+        "100221": 20
+      }
+    },
+    "4": {
+      "hp_max": 1289,
+      "attack": 145,
+      "defence": 100,
+      "level_max": 40,
+      "level_min": 30,
+      "materials": {
+        "10": 200000,
+        "100231": 10
+      }
+    },
+    "5": {
+      "hp_max": 1719,
+      "attack": 193,
+      "defence": 134,
+      "level_max": 50,
+      "level_min": 40,
+      "materials": {
+        "10": 400000,
+        "100231": 20
+      }
+    },
+    "6": {
+      "hp_max": 2149,
+      "attack": 241,
+      "defence": 167,
+      "level_max": 60,
+      "level_min": 50,
+      "materials": {}
+    }
+  },
+  "extra_level": {
+    "1": {
+      "max_level": 15,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 0
+        },
+        "20101": {
+          "prop": 20101,
+          "name": "CRIT Rate",
+          "format": "{0:0.#%}",
+          "value": 480
+        }
+      }
+    },
+    "2": {
+      "max_level": 25,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 25
+        },
+        "20101": {
+          "prop": 20101,
+          "name": "CRIT Rate",
+          "format": "{0:0.#%}",
+          "value": 480
+        }
+      }
+    },
+    "3": {
+      "max_level": 35,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 25
+        },
+        "20101": {
+          "prop": 20101,
+          "name": "CRIT Rate",
+          "format": "{0:0.#%}",
+          "value": 960
+        }
+      }
+    },
+    "4": {
+      "max_level": 45,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 50
+        },
+        "20101": {
+          "prop": 20101,
+          "name": "CRIT Rate",
+          "format": "{0:0.#%}",
+          "value": 960
+        }
+      }
+    },
+    "5": {
+      "max_level": 55,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 50
+        },
+        "20101": {
+          "prop": 20101,
+          "name": "CRIT Rate",
+          "format": "{0:0.#%}",
+          "value": 1440
+        }
+      }
+    },
+    "6": {
+      "max_level": 60,
+      "extra": {
+        "12101": {
+          "prop": 12101,
+          "name": "Base ATK",
+          "format": "{0:0.#}",
+          "value": 75
+        },
+        "20101": {
+          "prop": 20101,
+          "name": "CRIT Rate",
+          "format": "{0:0.#%}",
+          "value": 1440
+        }
+      }
+    }
+  },
+  "level_exp": [
+    50,
+    150,
+    250,
+    400,
+    600,
+    800,
+    1000,
+    1250,
+    1500,
+    1800,
+    1935,
+    2065,
+    2200,
+    2335,
+    2465,
+    2600,
+    2735,
+    2865,
+    3000,
+    4680,
+    4975,
+    5265,
+    5560,
+    5855,
+    6145,
+    6440,
+    6735,
+    7025,
+    7320,
+    10800,
+    11400,
+    12000,
+    12600,
+    13200,
+    13800,
+    14400,
+    15000,
+    15600,
+    16200,
+    17100,
+    18300,
+    19500,
+    20700,
+    21900,
+    23100,
+    24300,
+    25500,
+    26700,
+    27900,
+    34200,
+    36600,
+    39000,
+    41400,
+    43800,
+    46200,
+    48600,
+    51000,
+    53400,
+    55800,
+    0
+  ],
+  "skill": {
+    "basic": {
+      "description": [
+        {
+          "name": "Basic Attack",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nLaunch up to 4 Slashes forward, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Basic Attack]</color> 4th hit is considered a <color=#FFFFFF>[Knight Skill]</color>;",
+          "potential": []
+        },
+        {
+          "name": "Alt Attack",
+          "desc": "While in <color=#FFFFFF>[Knight's Focus]</color> state with available <color=#FFFFFF>[Alt Attack]</color> counts, hold <IconMap:Icon_Normal> to activate:\nActivates the corresponding Alt Attack based on the current stage, dealing <color=#98EFF0>Ice DMG</color>;\n<color=#FFFFFF>[Alt Attack]</color> has 3 stages in total, and each use increases the stage count;\nUsing Alt Attack after a Basic Attack retains the Basic Attack stage count;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Basic Attack",
+          "param": [
+            {
+              "name": "1st-Hit DMG Multiplier",
+              "desc": "{Skill:1591001, Prop:1001}",
+              "param": {
+                "1591001": {
+                  "main": 7700,
+                  "growth": 700,
+                  "format": "%",
+                  "damage_percentage": 7700,
+                  "damage_percentage_growth": 700,
+                  "stun_ratio": 4540,
+                  "stun_ratio_growth": 210,
+                  "sp_recovery": 14850,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 113575,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4122,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4398
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "2nd-Hit DMG Multiplier",
+              "desc": "{Skill:1591002, Prop:1001}",
+              "param": {
+                "1591002": {
+                  "main": 14380,
+                  "growth": 1310,
+                  "format": "%",
+                  "damage_percentage": 14380,
+                  "damage_percentage_growth": 1310,
+                  "stun_ratio": 8870,
+                  "stun_ratio_growth": 410,
+                  "sp_recovery": 29010,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 221650,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 8057,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 7784
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Sigrid_Skill_Normal_02_Enhance_Desc_DamageRatio",
+              "desc": "{Skill:1591003, Prop:1001}",
+              "param": {
+                "1591003": {
+                  "main": 13860,
+                  "growth": 1260,
+                  "format": "%",
+                  "damage_percentage": 13860,
+                  "damage_percentage_growth": 1260,
+                  "stun_ratio": 2040,
+                  "stun_ratio_growth": 100,
+                  "sp_recovery": 23400,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 178750,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 6499,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 6225
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "3rd-Hit DMG Multiplier",
+              "desc": "{Skill:1591004, Prop:1001}",
+              "param": {
+                "1591004": {
+                  "main": 10140,
+                  "growth": 930,
+                  "format": "%",
+                  "damage_percentage": 10140,
+                  "damage_percentage_growth": 930,
+                  "stun_ratio": 5580,
+                  "stun_ratio_growth": 260,
+                  "sp_recovery": 21710,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 165825,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 6027,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 5070
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "4th-Hit DMG Multiplier",
+              "desc": "{Skill:1591005, Prop:1001}",
+              "param": {
+                "1591005": {
+                  "main": 25440,
+                  "growth": 2320,
+                  "format": "%",
+                  "damage_percentage": 25440,
+                  "damage_percentage_growth": 2320,
+                  "stun_ratio": 15860,
+                  "stun_ratio_growth": 730,
+                  "sp_recovery": 48450,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 370150,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 13458,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 14417
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "1st-Hit Daze Multiplier",
+              "desc": "{Skill:1591001, Prop:1002}",
+              "param": {
+                "1591001": {
+                  "main": 4540,
+                  "growth": 210,
+                  "format": "%",
+                  "damage_percentage": 7700,
+                  "damage_percentage_growth": 700,
+                  "stun_ratio": 4540,
+                  "stun_ratio_growth": 210,
+                  "sp_recovery": 14850,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 113575,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4122,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4398
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "2nd-Hit Daze Multiplier",
+              "desc": "{Skill:1591002, Prop:1002}",
+              "param": {
+                "1591002": {
+                  "main": 8870,
+                  "growth": 410,
+                  "format": "%",
+                  "damage_percentage": 14380,
+                  "damage_percentage_growth": 1310,
+                  "stun_ratio": 8870,
+                  "stun_ratio_growth": 410,
+                  "sp_recovery": 29010,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 221650,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 8057,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 7784
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Sigrid_Skill_Normal_02_Enhance_Desc_BreakStunRatio",
+              "desc": "{Skill:1591003, Prop:1002}",
+              "param": {
+                "1591003": {
+                  "main": 2040,
+                  "growth": 100,
+                  "format": "%",
+                  "damage_percentage": 13860,
+                  "damage_percentage_growth": 1260,
+                  "stun_ratio": 2040,
+                  "stun_ratio_growth": 100,
+                  "sp_recovery": 23400,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 178750,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 6499,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 6225
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "3rd-Hit Daze Multiplier",
+              "desc": "{Skill:1591004, Prop:1002}",
+              "param": {
+                "1591004": {
+                  "main": 5580,
+                  "growth": 260,
+                  "format": "%",
+                  "damage_percentage": 10140,
+                  "damage_percentage_growth": 930,
+                  "stun_ratio": 5580,
+                  "stun_ratio_growth": 260,
+                  "sp_recovery": 21710,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 165825,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 6027,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 5070
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "4th-Hit Daze Multiplier",
+              "desc": "{Skill:1591005, Prop:1002}",
+              "param": {
+                "1591005": {
+                  "main": 15860,
+                  "growth": 730,
+                  "format": "%",
+                  "damage_percentage": 25440,
+                  "damage_percentage_growth": 2320,
+                  "stun_ratio": 15860,
+                  "stun_ratio_growth": 730,
+                  "sp_recovery": 48450,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 370150,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 13458,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 14417
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Alt Attack: Stage 1",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591007, Prop:1001}",
+              "param": {
+                "1591007": {
+                  "main": 32220,
+                  "growth": 2930,
+                  "format": "%",
+                  "damage_percentage": 32220,
+                  "damage_percentage_growth": 2930,
+                  "stun_ratio": 6780,
+                  "stun_ratio_growth": 310,
+                  "sp_recovery": 22190,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 169675,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 6163,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 6164
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591007, Prop:1002}",
+              "param": {
+                "1591007": {
+                  "main": 6780,
+                  "growth": 310,
+                  "format": "%",
+                  "damage_percentage": 32220,
+                  "damage_percentage_growth": 2930,
+                  "stun_ratio": 6780,
+                  "stun_ratio_growth": 310,
+                  "sp_recovery": 22190,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 169675,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 6163,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 6164
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Alt Attack Stage 2",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591008, Prop:1001}",
+              "param": {
+                "1591008": {
+                  "main": 50620,
+                  "growth": 4610,
+                  "format": "%",
+                  "damage_percentage": 50620,
+                  "damage_percentage_growth": 4610,
+                  "stun_ratio": 11560,
+                  "stun_ratio_growth": 530,
+                  "sp_recovery": 37820,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 289025,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 10503,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 10504
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591008, Prop:1002}",
+              "param": {
+                "1591008": {
+                  "main": 11560,
+                  "growth": 530,
+                  "format": "%",
+                  "damage_percentage": 50620,
+                  "damage_percentage_growth": 4610,
+                  "stun_ratio": 11560,
+                  "stun_ratio_growth": 530,
+                  "sp_recovery": 37820,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 289025,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 10503,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 10504
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Alt Attack Stage 3",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591022, Prop:1001}",
+              "param": {
+                "1591022": {
+                  "main": 84060,
+                  "growth": 7650,
+                  "format": "%",
+                  "damage_percentage": 84060,
+                  "damage_percentage_growth": 7650,
+                  "stun_ratio": 19080,
+                  "stun_ratio_growth": 870,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 476850,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 17336,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 17337
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591022, Prop:1002}",
+              "param": {
+                "1591022": {
+                  "main": 19080,
+                  "growth": 870,
+                  "format": "%",
+                  "damage_percentage": 84060,
+                  "damage_percentage_growth": 7650,
+                  "stun_ratio": 19080,
+                  "stun_ratio_growth": 870,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 476850,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 17336,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 17337
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100112": 2
+        },
+        "2": {
+          "10": 3000,
+          "100112": 3
+        },
+        "3": {
+          "10": 6000,
+          "100122": 2
+        },
+        "4": {
+          "10": 9000,
+          "100122": 3
+        },
+        "5": {
+          "10": 12000,
+          "100122": 4
+        },
+        "6": {
+          "10": 18000,
+          "100122": 6
+        },
+        "7": {
+          "10": 45000,
+          "100132": 5
+        },
+        "8": {
+          "10": 67500,
+          "100132": 8
+        },
+        "9": {
+          "10": 90000,
+          "100132": 10
+        },
+        "10": {
+          "10": 112500,
+          "100132": 12
+        },
+        "11": {
+          "10": 135000,
+          "100132": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "dodge": {
+      "description": [
+        {
+          "name": "Dodge",
+          "desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Dash Attack",
+          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nPerform a forward slash, dealing <color=#F0D12B>Physical DMG</color>.",
+          "potential": []
+        },
+        {
+          "name": "Dodge Counter",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nCondenses ice at the gun barrel to deliver a powerful counter against enemies ahead, dealing <color=#98EFF0>Ice DMG</color>;\nTriggering a <color=#FFFFFF>Perfect Dodge</color> and performing a Dodge Counter during a Basic Attack preserves the current Basic Attack combo count;\nThis skill is considered a <color=#FFFFFF>Knight Skill</color>;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Dash Attack",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591013, Prop:1001}",
+              "param": {
+                "1591013": {
+                  "main": 11900,
+                  "growth": 1090,
+                  "format": "%",
+                  "damage_percentage": 11900,
+                  "damage_percentage_growth": 1090,
+                  "stun_ratio": 4680,
+                  "stun_ratio_growth": 220,
+                  "sp_recovery": 15300,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 116875,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4248,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4249
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591013, Prop:1002}",
+              "param": {
+                "1591013": {
+                  "main": 4680,
+                  "growth": 220,
+                  "format": "%",
+                  "damage_percentage": 11900,
+                  "damage_percentage_growth": 1090,
+                  "stun_ratio": 4680,
+                  "stun_ratio_growth": 220,
+                  "sp_recovery": 15300,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 116875,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 4248,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 4249
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Dodge Counter",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591014, Prop:1001}",
+              "param": {
+                "1591014": {
+                  "main": 24310,
+                  "growth": 2210,
+                  "format": "%",
+                  "damage_percentage": 24310,
+                  "damage_percentage_growth": 2210,
+                  "stun_ratio": 17230,
+                  "stun_ratio_growth": 790,
+                  "sp_recovery": 20390,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 155925,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 5663,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 20664
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591014, Prop:1002}",
+              "param": {
+                "1591014": {
+                  "main": 17230,
+                  "growth": 790,
+                  "format": "%",
+                  "damage_percentage": 24310,
+                  "damage_percentage_growth": 2210,
+                  "stun_ratio": 17230,
+                  "stun_ratio_growth": 790,
+                  "sp_recovery": 20390,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 155925,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 5663,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 20664
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100112": 2
+        },
+        "2": {
+          "10": 3000,
+          "100112": 3
+        },
+        "3": {
+          "10": 6000,
+          "100122": 2
+        },
+        "4": {
+          "10": 9000,
+          "100122": 3
+        },
+        "5": {
+          "10": 12000,
+          "100122": 4
+        },
+        "6": {
+          "10": 18000,
+          "100122": 6
+        },
+        "7": {
+          "10": 45000,
+          "100132": 5
+        },
+        "8": {
+          "10": 67500,
+          "100132": 8
+        },
+        "9": {
+          "10": 90000,
+          "100132": 10
+        },
+        "10": {
+          "10": 112500,
+          "100132": 12
+        },
+        "11": {
+          "10": 135000,
+          "100132": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "special": {
+      "description": [
+        {
+          "name": "Special Attack",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nLunge forward with three consecutive thrusts, dealing <color=#98EFF0>Ice DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack: Stage 1",
+          "desc": "When Energy is sufficient and not in <color=#FFFFFF>[Knight's Focus]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful rapid thrust forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered a <color=#FFFFFF>[Knight Skill]</color>;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack: Phase 2",
+          "desc": "When Energy is sufficient and in <color=#FFFFFF>[Knight's Focus]</color> state, press <IconMap:Icon_SpecialReady> to activate:\nLaunch a powerful series of charging thrusts forward, dealing massive <color=#98EFF0>Ice DMG</color>.\nThis skill is considered a <color=#FFFFFF>[Knight Skill]</color>;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Special Attack",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591010, Prop:1001}",
+              "param": {
+                "1591010": {
+                  "main": 5370,
+                  "growth": 490,
+                  "format": "%",
+                  "damage_percentage": 5370,
+                  "damage_percentage_growth": 490,
+                  "stun_ratio": 2750,
+                  "stun_ratio_growth": 130,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 210925,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 3831,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3832
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591010, Prop:1002}",
+              "param": {
+                "1591010": {
+                  "main": 2750,
+                  "growth": 130,
+                  "format": "%",
+                  "damage_percentage": 5370,
+                  "damage_percentage_growth": 490,
+                  "stun_ratio": 2750,
+                  "stun_ratio_growth": 130,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 210925,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 3831,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 3832
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack: Stage 1",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591011, Prop:1001}",
+              "param": {
+                "1591011": {
+                  "main": 43880,
+                  "growth": 3990,
+                  "format": "%",
+                  "damage_percentage": 43880,
+                  "damage_percentage_growth": 3990,
+                  "stun_ratio": 27430,
+                  "stun_ratio_growth": 1250,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1038125,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 40196,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 8170
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591011, Prop:1002}",
+              "param": {
+                "1591011": {
+                  "main": 27430,
+                  "growth": 1250,
+                  "format": "%",
+                  "damage_percentage": 43880,
+                  "damage_percentage_growth": 3990,
+                  "stun_ratio": 27430,
+                  "stun_ratio_growth": 1250,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1038125,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 40196,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 8170
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Energy Cost",
+              "desc": "60",
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "EX Special Attack: Phase 2",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591012, Prop:1001}",
+              "param": {
+                "1591012": {
+                  "main": 69780,
+                  "growth": 6350,
+                  "format": "%",
+                  "damage_percentage": 69780,
+                  "damage_percentage_growth": 6350,
+                  "stun_ratio": 36260,
+                  "stun_ratio_growth": 1650,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1339800,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 36901,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 9331
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591012, Prop:1002}",
+              "param": {
+                "1591012": {
+                  "main": 36260,
+                  "growth": 1650,
+                  "format": "%",
+                  "damage_percentage": 69780,
+                  "damage_percentage_growth": 6350,
+                  "stun_ratio": 36260,
+                  "stun_ratio_growth": 1650,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1339800,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 36901,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 9331
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Energy Cost",
+              "desc": "50",
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100112": 2
+        },
+        "2": {
+          "10": 3000,
+          "100112": 3
+        },
+        "3": {
+          "10": 6000,
+          "100122": 2
+        },
+        "4": {
+          "10": 9000,
+          "100122": 3
+        },
+        "5": {
+          "10": 12000,
+          "100122": 4
+        },
+        "6": {
+          "10": 18000,
+          "100122": 6
+        },
+        "7": {
+          "10": 45000,
+          "100132": 5
+        },
+        "8": {
+          "10": 67500,
+          "100132": 8
+        },
+        "9": {
+          "10": 90000,
+          "100132": 10
+        },
+        "10": {
+          "10": 112500,
+          "100132": 12
+        },
+        "11": {
+          "10": 135000,
+          "100132": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "chain": {
+      "description": [
+        {
+          "name": "Chain Attack",
+          "desc": "When a <color=#FFFFFF>[Chain Attack]</color> is triggered, select the character to activate:\nLaunch a powerful Pierce against enemies ahead, dealing massive <color=#98EFF0>Ice DMG</color>;\nGain 1 stack of <color=#FFFFFF>[Chain Buff]</color>. Each stack of <color=#FFFFFF>[Chain Buff]</color> increases DMG dealt by subsequent Alt Attacks by 15%, stacking up to 2 times. After the 3rd stage Alt Attack ends, remove <color=#FFFFFF>[All-Out Assault State]</color> and <color=#FFFFFF>[Chain Buff]</color>;\nWhen this skill hits a Dazed Elite or Boss-Rank enemy for the first time, it records the current <color=#FFFFFF>[Alt Attack]</color> stage and enters <color=#FFFFFF>[All-Out Assault State]</color>. This effect can trigger at most once per Daze;\nWhile in <color=#FFFFFF>[All-Out Assault State]</color>, <color=#FFFFFF>[Knight's Focus]</color> duration does not decrease, and holding <IconMap:Icon_Normal> allows continuous use of Alt Attack stages 1 through 3;\nAfter executing <color=#FFFFFF>[Alt Attack]</color> Stage 3, exit <color=#FFFFFF>[All-Out Assault State]</color> and restore the <color=#FFFFFF>[Alt Attack]</color> stage count;\nThis skill is considered a <color=#FFFFFF>[Knight Skill]</color>;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Ultimate",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nChannels the power of extreme cold to unleash a devastating series of charges forward, dealing massive <color=#98EFF0>Ice DMG</color>;\nThis skill is considered a <color=#FFFFFF>Knight Skill</color>;\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Chain Attack",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591015, Prop:1001}",
+              "param": {
+                "1591015": {
+                  "main": 83870,
+                  "growth": 7630,
+                  "format": "%",
+                  "damage_percentage": 83870,
+                  "damage_percentage_growth": 7630,
+                  "stun_ratio": 13760,
+                  "stun_ratio_growth": 630,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 2172775,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 32453,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 12504
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591015, Prop:1002}",
+              "param": {
+                "1591015": {
+                  "main": 13760,
+                  "growth": 630,
+                  "format": "%",
+                  "damage_percentage": 83870,
+                  "damage_percentage_growth": 7630,
+                  "stun_ratio": 13760,
+                  "stun_ratio_growth": 630,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 2172775,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 32453,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 12504
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Ultimate",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591016, Prop:1001}",
+              "param": {
+                "1591016": {
+                  "main": 266120,
+                  "growth": 24200,
+                  "format": "%",
+                  "damage_percentage": 266120,
+                  "damage_percentage_growth": 24200,
+                  "stun_ratio": 33920,
+                  "stun_ratio_growth": 1550,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 30833,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 80834
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591016, Prop:1002}",
+              "param": {
+                "1591016": {
+                  "main": 33920,
+                  "growth": 1550,
+                  "format": "%",
+                  "damage_percentage": 266120,
+                  "damage_percentage_growth": 24200,
+                  "stun_ratio": 33920,
+                  "stun_ratio_growth": 1550,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 30833,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 80834
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100112": 2
+        },
+        "2": {
+          "10": 3000,
+          "100112": 3
+        },
+        "3": {
+          "10": 6000,
+          "100122": 2
+        },
+        "4": {
+          "10": 9000,
+          "100122": 3
+        },
+        "5": {
+          "10": 12000,
+          "100122": 4
+        },
+        "6": {
+          "10": 18000,
+          "100122": 6
+        },
+        "7": {
+          "10": 45000,
+          "100132": 5
+        },
+        "8": {
+          "10": 67500,
+          "100132": 8
+        },
+        "9": {
+          "10": 90000,
+          "100132": 10
+        },
+        "10": {
+          "10": 112500,
+          "100132": 12
+        },
+        "11": {
+          "10": 135000,
+          "100132": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    },
+    "assist": {
+      "description": [
+        {
+          "name": "Quick Assist",
+          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDash forward with freezing force, dealing <color=#98EFF0>Ice DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Defensive Assist",
+          "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Assist Follow-Up",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nSwing the spear upward and follow up with a heavy downward smash, dealing massive <color=#98EFF0>Ice DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "potential": []
+        },
+        {
+          "name": "Quick Assist",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591017, Prop:1001}",
+              "param": {
+                "1591017": {
+                  "main": 3970,
+                  "growth": 370,
+                  "format": "%",
+                  "damage_percentage": 3970,
+                  "damage_percentage_growth": 370,
+                  "stun_ratio": 3120,
+                  "stun_ratio_growth": 150,
+                  "sp_recovery": 10200,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 78100,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 2831,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 2832
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591017, Prop:1002}",
+              "param": {
+                "1591017": {
+                  "main": 3120,
+                  "growth": 150,
+                  "format": "%",
+                  "damage_percentage": 3970,
+                  "damage_percentage_growth": 370,
+                  "stun_ratio": 3120,
+                  "stun_ratio_growth": 150,
+                  "sp_recovery": 10200,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 78100,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 2831,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 2832
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Defensive Assist",
+          "param": [
+            {
+              "name": "Light Defensive Daze Multiplier",
+              "desc": "{Skill:1591018, Prop:1002}",
+              "param": {
+                "1591018": {
+                  "main": 27130,
+                  "growth": 1240,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 27130,
+                  "stun_ratio_growth": 1240,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 36664
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Heavy Defensive Daze Multiplier",
+              "desc": "{Skill:1591019, Prop:1002}",
+              "param": {
+                "1591019": {
+                  "main": 34280,
+                  "growth": 1560,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 34280,
+                  "stun_ratio_growth": 1560,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 41664
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Chain Defensive Daze Multiplier",
+              "desc": "{Skill:1591020, Prop:1002}",
+              "param": {
+                "1591020": {
+                  "main": 16680,
+                  "growth": 760,
+                  "format": "%",
+                  "damage_percentage": 0,
+                  "damage_percentage_growth": 0,
+                  "stun_ratio": 16680,
+                  "stun_ratio_growth": 760,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 0,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 0,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 11664
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        },
+        {
+          "name": "Assist Follow-Up",
+          "param": [
+            {
+              "name": "DMG Multiplier",
+              "desc": "{Skill:1591021, Prop:1001}",
+              "param": {
+                "1591021": {
+                  "main": 51490,
+                  "growth": 4690,
+                  "format": "%",
+                  "damage_percentage": 51490,
+                  "damage_percentage_growth": 4690,
+                  "stun_ratio": 35380,
+                  "stun_ratio_growth": 1610,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1138225,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 34467,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 18330
+                }
+              },
+              "potential": []
+            },
+            {
+              "name": "Daze Multiplier",
+              "desc": "{Skill:1591021, Prop:1002}",
+              "param": {
+                "1591021": {
+                  "main": 35380,
+                  "growth": 1610,
+                  "format": "%",
+                  "damage_percentage": 51490,
+                  "damage_percentage_growth": 4690,
+                  "stun_ratio": 35380,
+                  "stun_ratio_growth": 1610,
+                  "sp_recovery": 0,
+                  "sp_recovery_growth": 0,
+                  "fever_recovery": 1138225,
+                  "fever_recovery_growth": 0,
+                  "attribute_infliction": 34467,
+                  "sp_consume": 0,
+                  "attack_data": [],
+                  "rp_recovery": 0,
+                  "rp_recovery_growth": 0,
+                  "ether_purify": 18330
+                }
+              },
+              "potential": []
+            }
+          ],
+          "potential": []
+        }
+      ],
+      "material": {
+        "1": {
+          "10": 2000,
+          "100112": 2
+        },
+        "2": {
+          "10": 3000,
+          "100112": 3
+        },
+        "3": {
+          "10": 6000,
+          "100122": 2
+        },
+        "4": {
+          "10": 9000,
+          "100122": 3
+        },
+        "5": {
+          "10": 12000,
+          "100122": 4
+        },
+        "6": {
+          "10": 18000,
+          "100122": 6
+        },
+        "7": {
+          "10": 45000,
+          "100132": 5
+        },
+        "8": {
+          "10": 67500,
+          "100132": 8
+        },
+        "9": {
+          "10": 90000,
+          "100132": 10
+        },
+        "10": {
+          "10": 112500,
+          "100132": 12
+        },
+        "11": {
+          "10": 135000,
+          "100132": 15,
+          "100941": 1
+        },
+        "12": {}
+      }
+    }
+  },
+  "skill_list": {
+    "1591001": {
+      "name": "Basic Attack:",
+      "desc": "<IconMap:Icon_Normal>",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591002": {
+      "name": "Basic Attack: Branching",
+      "desc": "<IconMap:Icon_Normal>([Points Owned]) (Hold)",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591003": {
+      "name": "Special Attack:",
+      "desc": "<IconMap:Icon_Special>",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591004": {
+      "name": "EX Special Attack:",
+      "desc": "<IconMap:Icon_SpecialReady>",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591005": {
+      "name": "Dash Attack:",
+      "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Normal>",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591006": {
+      "name": "Dodge Counter:",
+      "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Normal>",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591007": {
+      "name": "Chain Attack:",
+      "desc": "<IconMap:Icon_QTE>",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591008": {
+      "name": "Ultimate:",
+      "desc": "<IconMap:Icon_UltimateReady>",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591009": {
+      "name": "Sigrid_SkillList_9_Title",
+      "desc": "Sigrid_SkillList_9_Content",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591010": {
+      "name": "Defensive Assist:",
+      "desc": "<IconMap:Icon_Switch> (When Triggering Defensive Assist)",
+      "element_type": 0,
+      "hit_type": 0,
+      "potential": []
+    },
+    "1591011": {
+      "name": "Assist Follow-Up:",
+      "desc": "<IconMap:Icon_Normal> (After Defensive Assist)",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    },
+    "1591012": {
+      "name": "Quick Assist:",
+      "desc": "<IconMap:Icon_Switch>（Switch in when an ally uses [EX Special Attack]）",
+      "element_type": 202,
+      "hit_type": 103,
+      "potential": []
+    }
+  },
+  "passive": {
+    "level": {
+      "1591501": {
+        "level": 1,
+        "id": 1591501,
+        "name": [
+          "Core Passive",
+          "Additional Ability"
+        ],
+        "desc": [
+          "<color=#FFFFFF>[Basic Attack]</color> Stage 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if she is not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, if Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time; Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s stage increases by 1, up to a maximum of Stage 3; After using the Stage 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> stage immediately resets to Stage 1, and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> stage decreases by 1, down to a minimum of Stage 1;\nWhen activating or refreshing <color=#FFFFFF>[Knight's Focus]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1591502": {
+        "level": 2,
+        "id": 1591502,
+        "name": [
+          "Core Passive",
+          "Additional Ability"
+        ],
+        "desc": [
+          "<color=#FFFFFF>[Basic Attack]</color> Stage 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if she is not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, if Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time; Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s stage increases by 1, up to a maximum of Stage 3; After using the Stage 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> stage immediately resets to Stage 1, and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> stage decreases by 1, down to a minimum of Stage 1;\nWhen activating or refreshing <color=#FFFFFF>[Knight's Focus]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>29%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1591503": {
+        "level": 3,
+        "id": 1591503,
+        "name": [
+          "Core Passive",
+          "Additional Ability"
+        ],
+        "desc": [
+          "The 4th hit of <color=#FFFFFF>[Basic Attack]</color>, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, when Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1. Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s tier increases by 1, up to a maximum of 3. After the 3rd-tier <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> tier immediately resets to 1 and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> tier increases: at tiers 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> tier decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Knight's Focus]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>33%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1591504": {
+        "level": 4,
+        "id": 1591504,
+        "name": [
+          "Core Passive",
+          "Additional Ability"
+        ],
+        "desc": [
+          "<color=#FFFFFF>[Basic Attack]</color> Phase 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> to hit an enemy, if not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, when Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1. Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s phase count increases by 1, up to a maximum of Phase 3. After triggering Phase 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> phase count is immediately reset to Phase 1 and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> phase count increases: at Phase 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> phase count decreases by 1, down to a minimum of Phase 1;\nWhen <color=#FFFFFF>[Knight's Focus]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>38%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1591505": {
+        "level": 5,
+        "id": 1591505,
+        "name": [
+          "Core Passive",
+          "Additional Ability"
+        ],
+        "desc": [
+          "<color=#FFFFFF>[Basic Attack]</color> Stage 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if she is not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, if Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time; Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s stage increases by 1, up to a maximum of Stage 3; After using the Stage 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> stage immediately resets to Stage 1, and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> stage decreases by 1, down to a minimum of Stage 1;\nWhen activating or refreshing <color=#FFFFFF>[Knight's Focus]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>42%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1591506": {
+        "level": 6,
+        "id": 1591506,
+        "name": [
+          "Core Passive",
+          "Additional Ability"
+        ],
+        "desc": [
+          "The 4th hit of <color=#FFFFFF>[Basic Attack]</color>, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, when Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, up to a maximum of 1. Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s tier increases by 1, up to a maximum of 3. After the 3rd-tier <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> tier immediately resets to 1 and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> tier increases: at tiers 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> tier decreases by 1, down to a minimum of 1;\nWhen <color=#FFFFFF>[Knight's Focus]</color> is activated or refreshed, Sigrid's CRIT Rate increases by <color=#2BAD00>46%</color> for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+        ],
+        "extra_property": {},
+        "potential": []
+      },
+      "1591507": {
+        "level": 7,
+        "id": 1591507,
+        "name": [
+          "Core Passive",
+          "Additional Ability"
+        ],
+        "desc": [
+          "<color=#FFFFFF>[Basic Attack]</color> Stage 4, <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Chain Attack]</color>, <color=#FFFFFF>[Ultimate]</color>, and <color=#FFFFFF>[Dodge Counter]</color> are considered <color=#FFFFFF>[Knight Skills]</color>;\nWhen Sigrid hits an enemy with any <color=#FFFFFF>[Knight Skill]</color>, if she is not currently in <color=#FFFFFF>[Knight's Focus]</color>, she enters <color=#FFFFFF>[Knight's Focus]</color>, and the <color=#FFFFFF>[Knight Skill]</color> that landed the hit enters <color=#FFFFFF>[Inactive]</color> status. She also gains 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, if Sigrid uses any <color=#FFFFFF>[Knight Skill]</color> that is not in <color=#FFFFFF>[Inactive]</color> status, she can refresh <color=#FFFFFF>[Knight's Focus]</color> and gain 1 <color=#FFFFFF>[Alt Attack]</color> charge, which can be stored up to 1 time; Upon refreshing <color=#FFFFFF>[Knight's Focus]</color>, the <color=#FFFFFF>[Inactive]</color> status transfers to the newly used <color=#FFFFFF>[Knight Skill]</color>;\nWhen an <color=#FFFFFF>[Alt Attack]</color> hits an enemy, the <color=#FFFFFF>[Inactive]</color> status is removed, and the next <color=#FFFFFF>[Alt Attack]</color>'s stage increases by 1, up to a maximum of Stage 3; After using the Stage 3 <color=#FFFFFF>[Alt Attack]</color>, the <color=#FFFFFF>[Alt Attack]</color> stage immediately resets to Stage 1, and <color=#FFFFFF>[Knight's Focus]</color> ends;\nThe duration of <color=#FFFFFF>[Knight's Focus]</color> decreases as the <color=#FFFFFF>[Alt Attack]</color> stage increases: at Stage 1/2/3, the duration is <color=#FFFFFF>8</color>/<color=#FFFFFF>7</color>/<color=#FFFFFF>6</color>s respectively;\nWhen <color=#FFFFFF>[Knight's Focus]</color> ends, the <color=#FFFFFF>[Alt Attack]</color> stage decreases by 1, down to a minimum of Stage 1;\nWhen activating or refreshing <color=#FFFFFF>[Knight's Focus]</color>, Sigrid's CRIT Rate increases by <color=#2BAD00>50%</color> for <color=#FFFFFF>8</color>s; Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum duration of <color=#FFFFFF>40</color>s;\nWhile in <color=#FFFFFF>[Knight's Focus]</color>, the Energy Cost of <color=#FFFFFF>[EX Special Attack]</color> is reduced.",
+          "Triggers when your squad has a <color=#FFFFFF>[Support]</color> or <color=#FFFFFF>[Stun]</color> Character:\nUpon triggering, your DMG dealt increases by 40%;\nWhen a teammate triggers a Fire Anomaly, or you trigger Wind Contamination, gain 1 stack of <color=#FFFFFF>[Chain Buff]</color>;"
+        ],
+        "extra_property": {},
+        "potential": []
+      }
+    },
+    "materials": {
+      "1": {
+        "10": 5000
+      },
+      "2": {
+        "10": 12000,
+        "110512": 2
+      },
+      "3": {
+        "10": 28000,
+        "110512": 4
+      },
+      "4": {
+        "10": 60000,
+        "110007": 2,
+        "110512": 9
+      },
+      "5": {
+        "10": 100000,
+        "110007": 3,
+        "110512": 15
+      },
+      "6": {
+        "10": 200000,
+        "110007": 4,
+        "110512": 30
+      }
+    }
+  },
+  "talent": {
+    "1": {
+      "level": 1,
+      "name": "Mindscape Cinema I",
+      "desc": "After the 3rd hit of <color=#FFFFFF>[Alt Attack]</color>, enter <color=#FFFFFF>[Knight's Focus]</color>; while in <color=#FFFFFF>[Knight's Focus]</color>, using <color=#FFFFFF>[EX Special Attack]</color> or <color=#FFFFFF>[Alt Attack]</color> then pressing <IconMap:Icon_Normal> allows you to follow up with an enhanced version of <color=#FFFFFF>[Basic Attack]</color> 2nd hit; DMG dealt by the character is increased by <color=#FFFFFF>40%</color>.",
+      "desc2": ""
+    },
+    "2": {
+      "level": 2,
+      "name": "Mindscape Cinema II",
+      "desc": "<color=#FFFFFF>[Knight Skill]</color> deals <color=#98EFF0>Ice DMG</color> that ignores <color=#FFFFFF>24%</color> of the target's DEF; the duration of <color=#FFFFFF>[Knight Skill]</color> effects is extended; <color=#FFFFFF>[Assist Attack]</color> is treated as a <color=#FFFFFF>[Knight Skill]</color>.",
+      "desc2": ""
+    },
+    "3": {
+      "level": 3,
+      "name": "Mindscape Cinema III",
+      "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
+      "desc2": ""
+    },
+    "4": {
+      "level": 4,
+      "name": "Mindscape Cinema IV",
+      "desc": "Each time <color=#FFFFFF>[Knight's Focus]</color> is refreshed, gain a <color=#FFFFFF>20%</color> ATK bonus for <color=#FFFFFF>8</color>s. Repeated triggers can extend the duration by <color=#FFFFFF>8</color>s, up to a maximum of <color=#FFFFFF>40</color>s.",
+      "desc2": ""
+    },
+    "5": {
+      "level": 5,
+      "name": "Mindscape Cinema V",
+      "desc": "<color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge</color>, <color=#FFFFFF>Assist</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>Chain Attack</color> Lv. +2",
+      "desc2": ""
+    },
+    "6": {
+      "level": 6,
+      "name": "Mindscape Cinema VI",
+      "desc": "While in <color=#FFFFFF>[All-Out Assault State]</color>, holding <IconMap:Icon_Normal> directly triggers the 3rd Segment of <color=#FFFFFF>[Alt Attack]</color>; when the 3rd Segment of <color=#FFFFFF>[Alt Attack]</color> hits an enemy, it deals an additional <color=#FFFFFF>2,000%</color> DMG.",
+      "desc2": ""
+    }
+  },
+  "fairy_recommend": {
+    "slot4": 33300,
+    "slot2": 31000,
+    "slot_sub": 31400,
+    "part4": {
+      "prop": 21103,
+      "name": "CRIT DMG",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+    },
+    "part5": {
+      "prop": 31703,
+      "name": "Ice DMG Bonus",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png"
+    },
+    "part6": {
+      "prop": 20103,
+      "name": "CRIT Rate",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+    },
+    "part_sub": {
+      "prop": 12102,
+      "name": "ATK",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    }
+  },
+  "strategy": {},
+  "potential": [],
+  "potential_detail": {}
+}

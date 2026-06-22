@@ -1,0 +1,216 @@
+{
+  "name": "Tepetlisaurus Warrior: Rockbreaker Blade",
+  "desc": "A powerful warrior from the canyon, whose bravery has been acknowledged and for which they may wear the Saurian Crown.\\nA warrior who can strike with the power of a rockfall. Legend holds that the Sulfurous Veins were once a more complete and more beautiful mountain range, and it was only when the Black Tide came that the Saurian-Crowned warriors of the Children of Echoes carved the earth itself to guide the tide, giving the Veins their current appearance.",
+  "icon": "UI_MonsterIcon_Tribalwarrior_Chainsword_Drillhead",
+  "codex": "HUMAN",
+  "title": "Tepetlisaurus Warrior: Rockbreaker Blade",
+  "special_names": [
+    "Bravery Saurian-Crowned"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112106,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112106"
+    },
+    {
+      "id": 112105,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112105"
+    },
+    {
+      "id": 112104,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112104"
+    }
+  ],
+  "child": {
+    "25510201": {
+      "monster_name": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510202": {
+      "monster_name": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 107.58528,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510203": {
+      "monster_name": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_Ghost_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010017,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010017,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 77.70048,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25510290": {
+      "monster_name": "Tribalwarrior_Male_Strong_Chainsword_Drillhead_01_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 38.57945,
+        "atk": 48.51,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

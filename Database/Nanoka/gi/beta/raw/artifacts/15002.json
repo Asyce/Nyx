@@ -1,0 +1,139 @@
+{
+  "id": 15002,
+  "icon": "UI_RelicIcon_15002_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_WIND_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150020,
+      "id": 215002,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Viridescent Venerer",
+      "desc": "Anemo DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150021,
+      "id": 215002,
+      "level": 1,
+      "open_config": "Relic_ReactionWindEnhance",
+      "param_list": [
+        0.6,
+        0.4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Viridescent Venerer",
+      "desc": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15002_1",
+      "name": "Viridescent Venerer's Vessel",
+      "desc": "",
+      "story": {
+        "285021": {
+          "zh": "ART/UI/Readable/CHS/Relic15002_1",
+          "en": "ART/UI/Readable/EN/Relic15002_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15002_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15002_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15002_2",
+      "name": "Viridescent Arrow Feather",
+      "desc": "",
+      "story": {
+        "285022": {
+          "zh": "ART/UI/Readable/CHS/Relic15002_2",
+          "en": "ART/UI/Readable/EN/Relic15002_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15002_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15002_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15002_3",
+      "name": "Viridescent Venerer's Diadem",
+      "desc": "",
+      "story": {
+        "285023": {
+          "zh": "ART/UI/Readable/CHS/Relic15002_3",
+          "en": "ART/UI/Readable/EN/Relic15002_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15002_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15002_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15002_4",
+      "name": "In Remembrance of Viridescent Fields",
+      "desc": "",
+      "story": {
+        "285024": {
+          "zh": "ART/UI/Readable/CHS/Relic15002_4",
+          "en": "ART/UI/Readable/EN/Relic15002_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15002_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15002_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15002_5",
+      "name": "Viridescent Venerer's Determination",
+      "desc": "",
+      "story": {
+        "285025": {
+          "zh": "ART/UI/Readable/CHS/Relic15002_5",
+          "en": "ART/UI/Readable/EN/Relic15002_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15002_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15002_5_KR"
+        }
+      }
+    }
+  }
+}

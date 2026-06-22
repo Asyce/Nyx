@@ -1,0 +1,157 @@
+{
+  "name": "Flow-Inverted Wayob Manifestation",
+  "desc": "The People of the Springs believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\\nThe so-called \"Wayob\" is the belief that gradually formed primarily from the tribes and obsidian totems after the people of Natlan began communicating with the kingdom of the Lord of the Night. A \"Wayob\" is a consciousness of collective thought, and the home of the ancestors' souls.\\nThe People of the Springs believe their Wayob has the power to control the tides and waves, and can control the changes of flowing and still, dead waters alike.",
+  "icon": "UI_MonsterIcon_Wayob_Mosasaurus",
+  "codex": "BEAST",
+  "title": "Rock-Cavernous Wayob Manifestation",
+  "special_names": [
+    "Envoy of Night and Wandering Spirits"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112109,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112109"
+    },
+    {
+      "id": 112108,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112108"
+    },
+    {
+      "id": 112107,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112107"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "26260201": {
+      "monster_name": "Wayob_Mosasaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.5,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26260203": {
+      "monster_name": "Wayob_Mosasaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.5,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

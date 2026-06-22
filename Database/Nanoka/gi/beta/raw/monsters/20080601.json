@@ -1,0 +1,107 @@
+{
+  "name": "Veiled Cloudchaser: Frostnight Scion",
+  "desc": "An elegant elemental life form that possesses immense elemental affinity. The long years have exposed it to high concentrations of Anemo, resulting in its present form.\\nThe flowing wind has spun an extra pair of wings for it. As it almost never leaves footprints on the ground, it's also known as the one who walks with the wind.\\nIn still-extant prayers of the far north, it was born from the Frost Moon's blessings, symbolizing the pure source and the first radiance. Perhaps this is why it finds the tainting of its pale purity with the seven colors of heavenly light unbearable, thus rejecting all life that draws too close.",
+  "icon": "UI_MonsterIcon_Moonbeast_Wind",
+  "codex": "ELEMENTAL",
+  "title": "Frostnight Scion",
+  "special_names": [
+    "Veiled Cloudchaser"
+  ],
+  "reward": [],
+  "child": {
+    "20080601": {
+      "monster_name": "Monster_Moonbeast_Wind_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010025,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010025,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010025,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 138.5568,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20080602": {
+      "monster_name": "Monster_Moonbeast_Wind_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010025,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010025,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010025,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 138.5568,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

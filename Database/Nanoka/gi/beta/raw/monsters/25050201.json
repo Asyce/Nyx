@@ -1,0 +1,80 @@
+{
+  "name": "Millelith Sergeant",
+  "desc": "",
+  "icon": "UI_MonsterIcon_Millelith_Male_02",
+  "codex": "HUMAN",
+  "title": "Millelith Sergeant",
+  "special_names": [
+    "\"The Bull\"",
+    "\"The Tiger\"",
+    "\"Lun\"",
+    "\"Uncle Jin\"",
+    "\"Liangshao\"",
+    "\"Mao\"",
+    "\"Chen\"",
+    "\"Gen\"",
+    "\"The Leopard\"",
+    "\"Sharpy\"",
+    "\"Six\"",
+    "\"Zhong\"",
+    "\"Zhi\"",
+    "\"Blockhead\"",
+    "\"The Rooster\"",
+    "\"The Coach\"",
+    "\"The Rock\"",
+    "\"Hui\""
+  ],
+  "reward": [],
+  "child": {
+    "25050201": {
+      "monster_name": "Millelith_Male_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 32.6016,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

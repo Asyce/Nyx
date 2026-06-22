@@ -1,0 +1,145 @@
+{
+  "id": 15035,
+  "icon": "UI_RelicIcon_15035_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150350,
+      "id": 215035,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Fragment of Harmonic Whimsy",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150351,
+      "id": 215035,
+      "level": 1,
+      "open_config": "Relic_BuffWhenHPdebtsUpAndDown",
+      "param_list": [
+        0.18,
+        6,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Fragment of Harmonic Whimsy",
+      "desc": "When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s. Max 3 stacks."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15035_1",
+      "name": "Ichor Shower Rhapsody",
+      "desc": "A rhyton fired with copper as the base, that was once filled with fine wine from paradise.",
+      "story": {
+        "285351": {
+          "zh": "ART/UI/Readable/CHS/Relic15035_1",
+          "en": "ART/UI/Readable/EN/Relic15035_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15035_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15035_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15035_2",
+      "name": "Ancient Sea's Nocturnal Musing",
+      "desc": "A feather accessory carved in the shape of the wings of the golden bees of legend. They seem to flutter with the slightest breeze.",
+      "story": {
+        "285352": {
+          "zh": "ART/UI/Readable/CHS/Relic15035_2",
+          "en": "ART/UI/Readable/EN/Relic15035_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15035_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15035_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15035_3",
+      "name": "Whimsical Dance of the Withered",
+      "desc": "A mask once covered in gold leaf. Perhaps it is a relic from some ancient officer of the legions.",
+      "story": {
+        "285353": {
+          "zh": "ART/UI/Readable/CHS/Relic15035_3",
+          "en": "ART/UI/Readable/EN/Relic15035_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15035_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15035_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15035_4",
+      "name": "Harmonious Symphony Prelude",
+      "desc": "An honorary medal in the shape of a blooming flower. Adorned with blue stone and gold, it was once bestowed upon immortals.",
+      "story": {
+        "285354": {
+          "zh": "ART/UI/Readable/CHS/Relic15035_4",
+          "en": "ART/UI/Readable/EN/Relic15035_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15035_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15035_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15035_5",
+      "name": "The Grand Jape of the Turning of Fate",
+      "desc": "A timepiece made in imitation of the wheel of fate. It ceased turning long ago.",
+      "story": {
+        "285355": {
+          "zh": "ART/UI/Readable/CHS/Relic15035_5",
+          "en": "ART/UI/Readable/EN/Relic15035_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15035_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15035_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "name": "Jadeplume Terrorshroom",
+  "desc": "Over many long years, this large fungal beast has morphed into a unique form.\\nIts intelligence has already reached and perhaps has even surpassed real animals, and it will actively hunt prey to obtain sustenance. Its tail has a lovely jade plumage that seems very similar to that of the ancient sacred beast that the Spantamad school reveres. As far as the logic of mimesis is concerned, it seems quite likely that the two beings once walked the earth together.",
+  "icon": "UI_MonsterIcon_Fungus_Raptor",
+  "codex": "BEAST",
+  "title": "Jadeplume Terrorshroom",
+  "special_names": [
+    "The Beloved King of Fungi",
+    "Deepwood Shroomlord"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113036,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113036"
+    },
+    {
+      "id": 104134,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104134"
+    },
+    {
+      "id": 104133,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104133"
+    },
+    {
+      "id": 104132,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104132"
+    },
+    {
+      "id": 104131,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104131"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400047,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10010_4"
+    }
+  ],
+  "child": {
+    "26110101": {
+      "monster_name": "Fungus_Raptor",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010033,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010033,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010043,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.25,
+        "grass": 0.8,
+        "water": 0.25,
+        "elec": 0.25,
+        "wind": 0.25,
+        "ice": 0.25,
+        "rock": 0.25,
+        "physical": 0.25
+      },
+      "base": {
+        "hp": 190.176,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26110102": {
+      "monster_name": "Fungus_Raptor_BossEvent",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010033,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010033,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010043,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.3,
+        "grass": 0.8,
+        "water": 0.3,
+        "elec": 0.3,
+        "wind": 0.3,
+        "ice": 0.3,
+        "rock": 0.3,
+        "physical": 0.3
+      },
+      "base": {
+        "hp": 224.95103,
+        "atk": 175,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26110181": {
+      "monster_name": "Fungus_Raptor",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010033,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010033,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010043,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.25,
+        "grass": 0.8,
+        "water": 0.25,
+        "elec": 0.25,
+        "wind": 0.25,
+        "ice": 0.25,
+        "rock": 0.25,
+        "physical": 0.25
+      },
+      "base": {
+        "hp": 190.176,
+        "atk": 87.92,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

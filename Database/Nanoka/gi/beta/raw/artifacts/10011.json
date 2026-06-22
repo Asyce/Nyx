@@ -1,0 +1,140 @@
+{
+  "id": 10011,
+  "icon": "UI_RelicIcon_10011_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_DEFENSE",
+          "value": 100
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100110,
+      "id": 210011,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Lucky Dog",
+      "desc": "DEF increased by 100."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100111,
+      "id": 210011,
+      "level": 1,
+      "open_config": "Relic_CoinHealSelf",
+      "param_list": [
+        300,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Lucky Dog",
+      "desc": "Picking up Mora restores 300 HP."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10011_1",
+      "name": "Lucky Dog's Goblet",
+      "desc": "An exquisite metallic vessel that was once used to knock out a thief.",
+      "story": {
+        "280111": {
+          "zh": "ART/UI/Readable/CHS/Relic10011_1",
+          "en": "ART/UI/Readable/EN/Relic10011_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10011_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10011_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10011_2",
+      "name": "Lucky Dog's Eagle Feather",
+      "desc": "A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck.",
+      "story": {
+        "280112": {
+          "zh": "ART/UI/Readable/CHS/Relic10011_2",
+          "en": "ART/UI/Readable/EN/Relic10011_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10011_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10011_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10011_3",
+      "name": "Lucky Dog's Silver Circlet",
+      "desc": "Its former owner once fell into a cave and found the treasure trove of an exiled royal. This is a souvenir from that incident.",
+      "story": {
+        "280113": {
+          "zh": "ART/UI/Readable/CHS/Relic10011_3",
+          "en": "ART/UI/Readable/EN/Relic10011_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10011_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10011_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10011_4",
+      "name": "Lucky Dog's Clover",
+      "desc": "A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck.",
+      "story": {
+        "280114": {
+          "zh": "ART/UI/Readable/CHS/Relic10011_4",
+          "en": "ART/UI/Readable/EN/Relic10011_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10011_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10011_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10011_5",
+      "name": "Lucky Dog's Hourglass",
+      "desc": "A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world.",
+      "story": {
+        "280115": {
+          "zh": "ART/UI/Readable/CHS/Relic10011_5",
+          "en": "ART/UI/Readable/EN/Relic10011_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10011_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10011_5_KR"
+        }
+      }
+    }
+  }
+}

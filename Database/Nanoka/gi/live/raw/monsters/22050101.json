@@ -1,0 +1,204 @@
+{
+  "name": "Rockfond Rifthound",
+  "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold.\"\\nThey do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their \"next of kin,\" and dream of replacing them someday.",
+  "icon": "UI_MonsterIcon_Hound_Riftstalker_Rock",
+  "codex": "ABYSS",
+  "title": "Rifthound",
+  "special_names": [
+    "Gap-Infiltrating Aliens"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112058,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112058"
+    },
+    {
+      "id": 112057,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112057"
+    },
+    {
+      "id": 112056,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112056"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "22050101": {
+      "monster_name": "Hound_Riftstalker_Rock_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010027,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010027,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.25,
+        "grass": 0.25,
+        "water": 0.25,
+        "elec": 0.25,
+        "wind": 0.25,
+        "ice": 0.25,
+        "rock": 0.25,
+        "physical": 0.25
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 40.192,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22050102": {
+      "monster_name": "Hound_Riftstalker_Rock_01_Crystallization",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010027,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010027,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.25,
+        "grass": 0.25,
+        "water": 0.25,
+        "elec": 0.25,
+        "wind": 0.25,
+        "ice": 0.25,
+        "rock": 0.25,
+        "physical": 0.25
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 40.192,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22050103": {
+      "monster_name": "Hound_Riftstalker_Rock_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 114.819786,
+        "atk": 41.25,
+        "def": 200,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Grounded Hydroshroom",
+  "desc": "A mimetic life form made out of spores that has extreme adaptability.\\nThis creature may look like a bird, but it cannot fly. Due to the influence of Hydro energies, it is astoundingly agile compared to others of its kind. Some research has inferred that this creature is in fact an aggregation of countless tiny spores rather than a single entity.\\nThis creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match.",
+  "icon": "UI_MonsterIcon_Fungus_Amanita_Du_Anudatta_Water",
+  "codex": "BEAST",
+  "title": "Grounded Hydroshroom",
+  "special_names": [
+    "Shroom Sentinel",
+    "Spore Shepherd",
+    "The Shroom Surpassing"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112064,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112064"
+    },
+    {
+      "id": 112063,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112063"
+    },
+    {
+      "id": 112062,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112062"
+    },
+    {
+      "id": 112061,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112061"
+    },
+    {
+      "id": 112060,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112060"
+    },
+    {
+      "id": 112059,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112059"
+    }
+  ],
+  "child": {
+    "26120301": {
+      "monster_name": "Fungus_Amanita_Du_Anudatta_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010012,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.3,
+        "water": 0.3,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26120381": {
+      "monster_name": "Fungus_Amanita_Du_Anudatta_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010012,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.3,
+        "water": 0.3,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26120382": {
+      "monster_name": "Fungus_Amanita_Du_Anudatta_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010012,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010012,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.3,
+        "water": 0.3,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "name": "Ruin Drake: Earthguard",
+  "desc": "A horrifying dragon-shaped machine.\\nIt is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps.\\nFrom this ability, one can glimpse the scale of the ambition that the civilization that made these machines must have once held...",
+  "icon": "UI_MonsterIcon_Gargoyle",
+  "codex": "AUTOMATRON",
+  "title": "Ruin Drake: Earthguard",
+  "special_names": [
+    "Faf-96624",
+    "Faf-83100",
+    "Faf-11953",
+    "Faf-34863",
+    "Faf-82702",
+    "Faf-84107",
+    "Faf-11316",
+    "Faf-38558",
+    "Faf-85819",
+    "Faf-11673",
+    "Faf-30742",
+    "Faf-50889",
+    "Faf-44591",
+    "Faf-92161",
+    "Faf-54466",
+    "Faf-46308",
+    "Faf-40158",
+    "Faf-56551",
+    "Faf-61237",
+    "Faf-10227"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112070,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112070"
+    },
+    {
+      "id": 112069,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112069"
+    },
+    {
+      "id": 112068,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112068"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "24030201": {
+      "monster_name": "Gargoyle_Ground_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.5
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24030202": {
+      "monster_name": "Gargoyle_Ground_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.5
+      },
+      "base": {
+        "hp": 73.43625,
+        "atk": 29.172623,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "24030281": {
+      "monster_name": "Gargoyle_Ground_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010030,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010030,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010020,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.5
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

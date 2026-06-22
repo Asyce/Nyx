@@ -1,0 +1,33 @@
+{
+  "name": "Champion of Streetwise Boxing",
+  "icon": "SpriteOutput/ItemIcon/71004.png",
+  "parts": {
+    "31051": {
+      "name": "Champion's Headgear"
+    },
+    "31052": {
+      "name": "Champion's Heavy Gloves"
+    },
+    "31053": {
+      "name": "Champion's Chest Guard"
+    },
+    "31054": {
+      "name": "Champion's Fleetfoot Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases Physical DMG by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.1
+      ]
+    },
+    "4": {
+      "desc": "After the wearer attacks or is hit, their ATK increases by <unbreak>#1[i]%</unbreak> for the rest of the battle. This effect can stack up to <unbreak>#2[i]</unbreak> time(s).",
+      "param_list": [
+        0.05,
+        5
+      ]
+    }
+  }
+}

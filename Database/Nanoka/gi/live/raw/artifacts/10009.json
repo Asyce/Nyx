@@ -1,0 +1,148 @@
+{
+  "id": 10009,
+  "icon": "UI_RelicIcon_10009_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2100090,
+      "id": 210009,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "The Exile",
+      "desc": "Energy Recharge +20%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2100091,
+      "id": 210009,
+      "level": 1,
+      "open_config": "Relic_UltGainEnergyForTeam",
+      "param_list": [
+        2,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "The Exile",
+      "desc": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10009_1",
+      "name": "Exile's Goblet",
+      "desc": "A dull goblet made of a heavy metal. It was once inlaid with gemstones, but they have since been stripped off.",
+      "story": {
+        "280091": {
+          "zh": "ART/UI/Readable/CHS/Relic10009_1",
+          "en": "ART/UI/Readable/EN/Relic10009_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10009_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10009_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10009_2",
+      "name": "Exile's Feather",
+      "desc": "Not an actual accessory per se. Just a random bird feather that was found somewhere in the wilderness by the exile.",
+      "story": {
+        "280092": {
+          "zh": "ART/UI/Readable/CHS/Relic10009_2",
+          "en": "ART/UI/Readable/EN/Relic10009_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10009_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10009_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10009_3",
+      "name": "Exile's Circlet",
+      "desc": "A prestigious circlet. However, the royal insignia has been scratched out, and it is no longer the symbol of distinguished status that it once was.",
+      "story": {
+        "280093": {
+          "zh": "ART/UI/Readable/CHS/Relic10009_3",
+          "en": "ART/UI/Readable/EN/Relic10009_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10009_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10009_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10009_4",
+      "name": "Exile's Flower",
+      "desc": "A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something.",
+      "story": {
+        "280094": {
+          "zh": "ART/UI/Readable/CHS/Relic10009_4",
+          "en": "ART/UI/Readable/EN/Relic10009_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10009_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10009_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10009_5",
+      "name": "Exile's Pocket Watch",
+      "desc": "Even after the crystal watch face was shattered and the hands lost, its former owner kept it until the end.",
+      "story": {
+        "280095": {
+          "zh": "ART/UI/Readable/CHS/Relic10009_5",
+          "en": "ART/UI/Readable/EN/Relic10009_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10009_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10009_5_KR"
+        }
+      }
+    }
+  }
+}

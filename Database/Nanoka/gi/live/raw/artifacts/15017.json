@@ -1,0 +1,146 @@
+{
+  "id": 15017,
+  "icon": "UI_RelicIcon_15017_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.2
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150170,
+      "id": 215017,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Tenacity of the Millelith",
+      "desc": "HP +20%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150171,
+      "id": 215017,
+      "level": 1,
+      "open_config": "Relic_ShieldCostUpWhenElementalArtHit",
+      "param_list": [
+        0.2,
+        0.3,
+        3,
+        0.5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Tenacity of the Millelith",
+      "desc": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15017_1",
+      "name": "Noble's Pledging Vessel",
+      "desc": "",
+      "story": {
+        "285171": {
+          "zh": "ART/UI/Readable/CHS/Relic15017_1",
+          "en": "ART/UI/Readable/EN/Relic15017_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15017_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15017_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15017_2",
+      "name": "Ceremonial War-Plume",
+      "desc": "",
+      "story": {
+        "285172": {
+          "zh": "ART/UI/Readable/CHS/Relic15017_2",
+          "en": "ART/UI/Readable/EN/Relic15017_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15017_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15017_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15017_3",
+      "name": "General's Ancient Helm",
+      "desc": "",
+      "story": {
+        "285173": {
+          "zh": "ART/UI/Readable/CHS/Relic15017_3",
+          "en": "ART/UI/Readable/EN/Relic15017_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15017_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15017_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15017_4",
+      "name": "Flower of Accolades",
+      "desc": "",
+      "story": {
+        "285174": {
+          "zh": "ART/UI/Readable/CHS/Relic15017_4",
+          "en": "ART/UI/Readable/EN/Relic15017_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15017_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15017_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15017_5",
+      "name": "Orichalceous Time-Dial",
+      "desc": "",
+      "story": {
+        "285175": {
+          "zh": "ART/UI/Readable/CHS/Relic15017_5",
+          "en": "ART/UI/Readable/EN/Relic15017_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15017_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15017_5_KR"
+        }
+      }
+    }
+  }
+}

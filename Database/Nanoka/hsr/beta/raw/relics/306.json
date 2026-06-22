@@ -1,0 +1,22 @@
+{
+  "name": "Inert Salsotto",
+  "icon": "SpriteOutput/ItemIcon/71017.png",
+  "parts": {
+    "33065": {
+      "name": "Salsotto's Moving City"
+    },
+    "33066": {
+      "name": "Salsotto's Terminator Line"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the wearer's CRIT Rate by <unbreak>#1[i]%</unbreak>. When the wearer's current CRIT Rate reaches <unbreak>#2[i]%</unbreak> or higher, the DMG dealt by the wearer's Ultimate and Follow-Up ATK increases by <unbreak>#3[i]%</unbreak>.",
+      "param_list": [
+        0.08,
+        0.5,
+        0.15
+      ]
+    }
+  }
+}

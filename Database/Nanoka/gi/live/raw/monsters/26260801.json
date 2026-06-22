@@ -1,0 +1,142 @@
+{
+  "name": "Biting-Cold Wayob Manifestation",
+  "desc": "The Masters of the Night-Wind believe in and worship the Wayob, which manifests upon the land with the power of totems and Nightsouls.\\nThe Masters of the Night-Wind have tried using many mediums to communicate with the Night Kingdom. Eventually, they discovered that the medium that allowed them to establish the most stable connection with the Wayob was obsidian. This may explain why, over the ages, Wayob Manifestations have taken on a form that resembles a stone statue. The Masters of the Night-Wind believe their Wayob has the power to control the process of freezing and crystallization, and can also command both fixedness and mutability.",
+  "icon": "UI_MonsterIcon_Wayob_Shamansaurus",
+  "codex": "BEAST",
+  "title": "Biting-Cold Wayob Manifestation",
+  "special_names": [
+    "Envoy of Night and Wandering Spirits"
+  ],
+  "reward": [],
+  "child": {
+    "26260801": {
+      "monster_name": "Wayob_Shamansaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26260802": {
+      "monster_name": "Wayob_Shamansaurus_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 123.6144,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26260803": {
+      "monster_name": "Wayob_Shamansaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 57.776,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

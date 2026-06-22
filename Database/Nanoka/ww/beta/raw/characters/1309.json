@@ -1,0 +1,5951 @@
+{
+  "id": 1309,
+  "rarity": 5,
+  "weapon": 2,
+  "element": 3,
+  "tag": {
+    "3": {
+      "name": "Concerto Efficiency",
+      "desc": "Quick concerto energy regeneration",
+      "icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelA3.SP_RoleLabelA3",
+      "color": "ff4040"
+    },
+    "6": {
+      "name": "Resonance Skill DMG",
+      "desc": "Deals higher Resonance Skill DMG",
+      "icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelB3.SP_RoleLabelB3",
+      "color": "ffde73"
+    },
+    "25": {
+      "name": "Electro Flare",
+      "desc": "Utilizes Electro Flare for combat advantage",
+      "icon": "/Game/Aki/UI/UIResources/Common/Atlas/RoleLabel/SP_RoleLabelE6.SP_RoleLabelE6",
+      "color": "dd77ff"
+    }
+  },
+  "name": "",
+  "nick_name": "Rover: Aero",
+  "desc": "A mysterious Resonator with the power to absorb all sounds. Currently journeying to find their lost memories.",
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.T_IconRoleHead256_4_UI",
+  "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.T_IconRole_Pile_zhujuenan_UI",
+  "background_stand": "",
+  "chara_info": {
+    "birth": "Unknown",
+    "sex": "Male",
+    "country": "Unknown",
+    "influence": "Unknown",
+    "info": "A mysterious Resonator with the power to absorb all sounds. Currently journeying to find their lost memories.",
+    "talent_name": "Unknown",
+    "talent_doc": "Unknown",
+    "talent_certification": "Unknown",
+    "cv_name_cn": "Ma Yang",
+    "cv_name_jp": "Toshiki Masuda",
+    "cv_name_ko": "Kim Sin Woo",
+    "cv_name_en": "Chase Brown"
+  },
+  "stories": [],
+  "voices": [],
+  "goods": [],
+  "special_cook": 0,
+  "stats": {
+    "0": {
+      "1": {
+        "life": 862,
+        "atk": 35,
+        "def": 93
+      },
+      "2": {
+        "life": 934.5804,
+        "atk": 37.947,
+        "def": 100.6539
+      },
+      "3": {
+        "life": 1007.247,
+        "atk": 40.8975,
+        "def": 108.3171
+      },
+      "4": {
+        "life": 1079.9136,
+        "atk": 43.848,
+        "def": 115.9803
+      },
+      "5": {
+        "life": 1152.494,
+        "atk": 46.795,
+        "def": 123.6435
+      },
+      "6": {
+        "life": 1225.1606,
+        "atk": 49.7455,
+        "def": 131.3067
+      },
+      "7": {
+        "life": 1297.8272,
+        "atk": 52.696,
+        "def": 138.9699
+      },
+      "8": {
+        "life": 1370.4076,
+        "atk": 55.643,
+        "def": 146.6331
+      },
+      "9": {
+        "life": 1443.0742,
+        "atk": 58.5935,
+        "def": 154.2963
+      },
+      "10": {
+        "life": 1515.7408,
+        "atk": 61.544,
+        "def": 161.9595
+      },
+      "11": {
+        "life": 1588.3212,
+        "atk": 64.491,
+        "def": 169.6227
+      },
+      "12": {
+        "life": 1660.9878,
+        "atk": 67.4415,
+        "def": 177.2859
+      },
+      "13": {
+        "life": 1733.6544,
+        "atk": 70.392,
+        "def": 184.9491
+      },
+      "14": {
+        "life": 1806.321,
+        "atk": 73.3425,
+        "def": 192.6123
+      },
+      "15": {
+        "life": 1878.9014,
+        "atk": 76.2895,
+        "def": 200.2755
+      },
+      "16": {
+        "life": 1951.568,
+        "atk": 79.24,
+        "def": 207.9387
+      },
+      "17": {
+        "life": 2024.2346,
+        "atk": 82.1905,
+        "def": 215.6019
+      },
+      "18": {
+        "life": 2096.815,
+        "atk": 85.1375,
+        "def": 223.2651
+      },
+      "19": {
+        "life": 2169.4816,
+        "atk": 88.088,
+        "def": 230.9283
+      },
+      "20": {
+        "life": 2242.1482,
+        "atk": 91.0385,
+        "def": 238.5915
+      }
+    },
+    "1": {
+      "20": {
+        "life": 2816.7574,
+        "atk": 117.2885,
+        "def": 298.8648
+      },
+      "21": {
+        "life": 2889.424,
+        "atk": 120.2355,
+        "def": 306.528
+      },
+      "22": {
+        "life": 2962.0906,
+        "atk": 123.186,
+        "def": 314.1912
+      },
+      "23": {
+        "life": 3034.671,
+        "atk": 126.1365,
+        "def": 321.8544
+      },
+      "24": {
+        "life": 3107.3376,
+        "atk": 129.087,
+        "def": 329.5176
+      },
+      "25": {
+        "life": 3180.0042,
+        "atk": 132.034,
+        "def": 337.1808
+      },
+      "26": {
+        "life": 3252.6708,
+        "atk": 134.9845,
+        "def": 344.844
+      },
+      "27": {
+        "life": 3325.2512,
+        "atk": 137.935,
+        "def": 352.5072
+      },
+      "28": {
+        "life": 3397.9178,
+        "atk": 140.882,
+        "def": 360.1704
+      },
+      "29": {
+        "life": 3470.5844,
+        "atk": 143.8325,
+        "def": 367.8336
+      },
+      "30": {
+        "life": 3543.1648,
+        "atk": 146.783,
+        "def": 375.4968
+      },
+      "31": {
+        "life": 3615.8314,
+        "atk": 149.73,
+        "def": 383.16
+      },
+      "32": {
+        "life": 3688.498,
+        "atk": 152.6805,
+        "def": 390.8232
+      },
+      "33": {
+        "life": 3761.0784,
+        "atk": 155.631,
+        "def": 398.4864
+      },
+      "34": {
+        "life": 3833.745,
+        "atk": 158.578,
+        "def": 406.1496
+      },
+      "35": {
+        "life": 3906.4116,
+        "atk": 161.5285,
+        "def": 413.8128
+      },
+      "36": {
+        "life": 3979.0782,
+        "atk": 164.479,
+        "def": 421.476
+      },
+      "37": {
+        "life": 4051.6586,
+        "atk": 167.4295,
+        "def": 429.1392
+      },
+      "38": {
+        "life": 4124.3252,
+        "atk": 170.3765,
+        "def": 436.8024
+      },
+      "39": {
+        "life": 4196.9918,
+        "atk": 173.327,
+        "def": 444.4656
+      },
+      "40": {
+        "life": 4269.5722,
+        "atk": 176.2775,
+        "def": 452.1288
+      }
+    },
+    "2": {
+      "40": {
+        "life": 4844.2676,
+        "atk": 202.5275,
+        "def": 512.4021
+      },
+      "41": {
+        "life": 4916.9342,
+        "atk": 205.4745,
+        "def": 520.0653
+      },
+      "42": {
+        "life": 4989.5146,
+        "atk": 208.425,
+        "def": 527.7285
+      },
+      "43": {
+        "life": 5062.1812,
+        "atk": 211.3755,
+        "def": 535.3917
+      },
+      "44": {
+        "life": 5134.8478,
+        "atk": 214.3225,
+        "def": 543.0549
+      },
+      "45": {
+        "life": 5207.4282,
+        "atk": 217.273,
+        "def": 550.7181
+      },
+      "46": {
+        "life": 5280.0948,
+        "atk": 220.2235,
+        "def": 558.3813
+      },
+      "47": {
+        "life": 5352.7614,
+        "atk": 223.174,
+        "def": 566.0445
+      },
+      "48": {
+        "life": 5425.428,
+        "atk": 226.121,
+        "def": 573.7077
+      },
+      "49": {
+        "life": 5498.0084,
+        "atk": 229.0715,
+        "def": 581.3709
+      },
+      "50": {
+        "life": 5570.675,
+        "atk": 232.022,
+        "def": 589.0341
+      }
+    },
+    "3": {
+      "50": {
+        "life": 6145.3704,
+        "atk": 258.272,
+        "def": 649.3074
+      },
+      "51": {
+        "life": 6217.9508,
+        "atk": 261.219,
+        "def": 656.9706
+      },
+      "52": {
+        "life": 6290.6174,
+        "atk": 264.1695,
+        "def": 664.6338
+      },
+      "53": {
+        "life": 6363.284,
+        "atk": 267.12,
+        "def": 672.297
+      },
+      "54": {
+        "life": 6435.8644,
+        "atk": 270.067,
+        "def": 679.9602
+      },
+      "55": {
+        "life": 6508.531,
+        "atk": 273.0175,
+        "def": 687.6234
+      },
+      "56": {
+        "life": 6581.1976,
+        "atk": 275.968,
+        "def": 695.2866
+      },
+      "57": {
+        "life": 6653.8642,
+        "atk": 278.9185,
+        "def": 702.9498
+      },
+      "58": {
+        "life": 6726.4446,
+        "atk": 281.8655,
+        "def": 710.613
+      },
+      "59": {
+        "life": 6799.1112,
+        "atk": 284.816,
+        "def": 718.2762
+      },
+      "60": {
+        "life": 6871.7778,
+        "atk": 287.7665,
+        "def": 725.9394
+      }
+    },
+    "4": {
+      "60": {
+        "life": 7446.387,
+        "atk": 314.0165,
+        "def": 786.222
+      },
+      "61": {
+        "life": 7519.0536,
+        "atk": 316.9635,
+        "def": 793.8852
+      },
+      "62": {
+        "life": 7591.7202,
+        "atk": 319.914,
+        "def": 801.5484
+      },
+      "63": {
+        "life": 7664.3006,
+        "atk": 322.8645,
+        "def": 809.2116
+      },
+      "64": {
+        "life": 7736.9672,
+        "atk": 325.8115,
+        "def": 816.8748
+      },
+      "65": {
+        "life": 7809.6338,
+        "atk": 328.762,
+        "def": 824.538
+      },
+      "66": {
+        "life": 7882.2142,
+        "atk": 331.7125,
+        "def": 832.1919
+      },
+      "67": {
+        "life": 7954.8808,
+        "atk": 334.6595,
+        "def": 839.8551
+      },
+      "68": {
+        "life": 8027.5474,
+        "atk": 337.61,
+        "def": 847.5183
+      },
+      "69": {
+        "life": 8100.214,
+        "atk": 340.5605,
+        "def": 855.1815
+      },
+      "70": {
+        "life": 8172.7944,
+        "atk": 343.511,
+        "def": 862.8447
+      }
+    },
+    "5": {
+      "70": {
+        "life": 8747.4898,
+        "atk": 361.011,
+        "def": 923.1273
+      },
+      "71": {
+        "life": 8820.1564,
+        "atk": 363.958,
+        "def": 930.7905
+      },
+      "72": {
+        "life": 8892.7368,
+        "atk": 366.9085,
+        "def": 938.4537
+      },
+      "73": {
+        "life": 8965.4034,
+        "atk": 369.859,
+        "def": 946.1169
+      },
+      "74": {
+        "life": 9038.07,
+        "atk": 372.806,
+        "def": 953.7801
+      },
+      "75": {
+        "life": 9110.6504,
+        "atk": 375.7565,
+        "def": 961.4433
+      },
+      "76": {
+        "life": 9183.317,
+        "atk": 378.707,
+        "def": 969.1065
+      },
+      "77": {
+        "life": 9255.9836,
+        "atk": 381.654,
+        "def": 976.7697
+      },
+      "78": {
+        "life": 9328.564,
+        "atk": 384.6045,
+        "def": 984.4329
+      },
+      "79": {
+        "life": 9401.2306,
+        "atk": 387.555,
+        "def": 992.0961
+      },
+      "80": {
+        "life": 9473.8972,
+        "atk": 390.5055,
+        "def": 999.7593
+      }
+    },
+    "6": {
+      "80": {
+        "life": 10048.5926,
+        "atk": 408.0055,
+        "def": 1060.0326
+      },
+      "81": {
+        "life": 10121.173,
+        "atk": 410.9525,
+        "def": 1067.6958
+      },
+      "82": {
+        "life": 10193.8396,
+        "atk": 413.903,
+        "def": 1075.359
+      },
+      "83": {
+        "life": 10266.5062,
+        "atk": 416.8535,
+        "def": 1083.0222
+      },
+      "84": {
+        "life": 10339.0866,
+        "atk": 419.8005,
+        "def": 1090.6854
+      },
+      "85": {
+        "life": 10411.7532,
+        "atk": 422.751,
+        "def": 1098.3486
+      },
+      "86": {
+        "life": 10484.4198,
+        "atk": 425.7015,
+        "def": 1106.0118
+      },
+      "87": {
+        "life": 10557.0002,
+        "atk": 428.6485,
+        "def": 1113.675
+      },
+      "88": {
+        "life": 10629.6668,
+        "atk": 431.599,
+        "def": 1121.3382
+      },
+      "89": {
+        "life": 10702.3334,
+        "atk": 434.5495,
+        "def": 1129.0014
+      },
+      "90": {
+        "life": 10775,
+        "atk": 437.5,
+        "def": 1136.6646
+      }
+    }
+  },
+  "stats_weakness": {
+    "weakness_build_up": 0,
+    "weakness_build_up_max": 10000,
+    "weakness_total_bonus": 0,
+    "break_weakness_ratio": 10000,
+    "weakness_mastery": 0
+  },
+  "level_exp": [
+    0,
+    400,
+    400,
+    500,
+    600,
+    700,
+    900,
+    1000,
+    1200,
+    1300,
+    1500,
+    1700,
+    2000,
+    2200,
+    2400,
+    2700,
+    3000,
+    3300,
+    3600,
+    3900,
+    4300,
+    4600,
+    5000,
+    5400,
+    5800,
+    6300,
+    6700,
+    7200,
+    7700,
+    8200,
+    8700,
+    9300,
+    9800,
+    10400,
+    11000,
+    11700,
+    12300,
+    13000,
+    13700,
+    14400,
+    15100,
+    15900,
+    16700,
+    17500,
+    18300,
+    19200,
+    20000,
+    20900,
+    21900,
+    22800,
+    23800,
+    24800,
+    25800,
+    26900,
+    28000,
+    29100,
+    30300,
+    31400,
+    32600,
+    33900,
+    35100,
+    36400,
+    37700,
+    39100,
+    40500,
+    41900,
+    43300,
+    44800,
+    46300,
+    47900,
+    49500,
+    51100,
+    52800,
+    54500,
+    56200,
+    58000,
+    59800,
+    61600,
+    63500,
+    65400,
+    67400,
+    69400,
+    71400,
+    73500,
+    75600,
+    77800,
+    80000,
+    82300,
+    84600,
+    86900,
+    105600,
+    107400,
+    110000,
+    113600,
+    118600,
+    125500,
+    134900,
+    147300,
+    163600,
+    184500
+  ],
+  "skill_trees": {
+    "1": {
+      "parent_nodes": [],
+      "node_type": 2,
+      "coordinate": 1,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Deterrence",
+        "desc": "<size=40><color=Title>Basic Attack</color></size>\nPerform up to {0} consecutive attacks, dealing <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Parry Stance</color></size>\nHold <color=Highlight>Normal Attack</color> to enter <color=Highlight>Parry Stance</color>,\nduring which STA is consumed continuously over time and DMG taken is reduced by {1}%. Release <color=Highlight>Normal Attack</color> to end the <color=Highlight>Parry Stance</color> and deliver the <color=Highlight>Riposte Strike</color>, dealing <SapTag=2>{2}</SapTag> {Cus:Sap,S=instance P=instances SapTag=2} of <color=Thunder>Electro DMG</color>. If <color=Highlight>Riposte Strike</color> is unleashed right when the target’s attack hits, Stagnate the target and cast <color=Highlight>Riposte Strike: Crumble</color>. During <color=Highlight>Parry Stance</color>, consume STA and dash to <color=Highlight>flash</color> towards the directional input, during which successful Dodge can be triggered when hit.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack</color></size>\nConsume STA to perform a Plunging Attack in the air, dealing <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter</color></size>\n{Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> right after a successful <color=Highlight>Dodge</color> to cast <color=Highlight>Basic Attack Stage {3}</color>, dealing <color=Thunder>Electro DMG</color>.",
+        "param": [
+          "4",
+          "60",
+          "1",
+          "2"
+        ],
+        "simple_desc": "<size=40><color=Title>Basic Attack</color></size>\nDeal <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Parry Stance</color></size>\nHold <color=Highlight>Normal Attack</color> to enter <color=Highlight>Parry Stance</color>, which can be followed up by <color=Highlight>Riposte Strike</color>.\n<size=10></size>\n<size=40><color=Title>Mid-air Attack</color></size>\nConsume STA to deal <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Dodge Counter</color></size>\nDeal <color=Thunder>Electro DMG</color>.",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
+        "type": "Normal Attack",
+        "level": {
+          "1": {
+            "name": "Basic Attack Stage 1 DMG",
+            "param": [
+              [
+                "25.69%",
+                "27.80%",
+                "29.91%",
+                "32.86%",
+                "34.96%",
+                "37.39%",
+                "40.76%",
+                "44.13%",
+                "47.50%",
+                "51.08%",
+                "55.29%",
+                "59.51%",
+                "63.72%",
+                "67.93%",
+                "72.15%",
+                "76.36%",
+                "80.57%",
+                "84.78%",
+                "89.00%",
+                "93.21%"
+              ]
+            ]
+          },
+          "2": {
+            "name": "Basic Attack Stage 2 DMG",
+            "param": [
+              [
+                "13.08%+19.62%",
+                "14.15%+21.23%",
+                "15.23%+22.84%",
+                "16.73%+25.09%",
+                "17.80%+26.70%",
+                "19.03%+28.55%",
+                "20.75%+31.12%",
+                "22.46%+33.69%",
+                "24.18%+36.27%",
+                "26.00%+39.00%",
+                "28.15%+42.22%",
+                "30.29%+45.43%",
+                "32.43%+48.65%",
+                "34.58%+51.87%",
+                "36.72%+55.08%",
+                "38.87%+58.30%",
+                "41.01%+61.52%",
+                "43.16%+64.73%",
+                "45.30%+67.95%",
+                "47.45%+71.17%"
+              ]
+            ]
+          },
+          "3": {
+            "name": "Basic Attack Stage 3 DMG",
+            "param": [
+              [
+                "6.67%*7",
+                "7.22%*7",
+                "7.77%*7",
+                "8.53%*7",
+                "9.08%*7",
+                "9.71%*7",
+                "10.59%*7",
+                "11.46%*7",
+                "12.34%*7",
+                "13.27%*7",
+                "14.36%*7",
+                "15.45%*7",
+                "16.55%*7",
+                "17.64%*7",
+                "18.74%*7",
+                "19.83%*7",
+                "20.92%*7",
+                "22.02%*7",
+                "23.11%*7",
+                "24.20%*7"
+              ]
+            ]
+          },
+          "4": {
+            "name": "Basic Attack Stage 4 DMG",
+            "param": [
+              [
+                "36.63%+54.94%",
+                "39.63%+59.45%",
+                "42.64%+63.95%",
+                "46.84%+70.26%",
+                "49.84%+74.76%",
+                "53.30%+79.94%",
+                "58.10%+87.15%",
+                "62.91%+94.36%",
+                "67.71%+101.57%",
+                "72.82%+109.22%",
+                "78.82%+118.23%",
+                "84.83%+127.24%",
+                "90.84%+136.25%",
+                "96.84%+145.26%",
+                "102.85%+154.27%",
+                "108.86%+163.28%",
+                "114.86%+172.29%",
+                "120.87%+181.30%",
+                "126.87%+190.31%",
+                "132.88%+199.32%"
+              ]
+            ]
+          },
+          "5": {
+            "name": "Basic Attack: Quell DMG",
+            "param": [
+              [
+                "50.40%",
+                "54.54%",
+                "58.67%",
+                "64.46%",
+                "68.59%",
+                "73.34%",
+                "79.95%",
+                "86.57%",
+                "93.18%",
+                "100.21%",
+                "108.47%",
+                "116.74%",
+                "125.00%",
+                "133.27%",
+                "141.53%",
+                "149.80%",
+                "158.06%",
+                "166.33%",
+                "174.60%",
+                "182.86%"
+              ]
+            ]
+          },
+          "6": {
+            "name": "Plunging Attack DMG",
+            "param": [
+              [
+                "37.35%+37.35%",
+                "40.41%+40.41%",
+                "43.47%+43.47%",
+                "47.76%+47.76%",
+                "50.82%+50.82%",
+                "54.35%+54.35%",
+                "59.25%+59.25%",
+                "64.15%+64.15%",
+                "69.04%+69.04%",
+                "74.25%+74.25%",
+                "80.38%+80.38%",
+                "86.50%+86.50%",
+                "92.62%+92.62%",
+                "98.75%+98.75%",
+                "104.87%+104.87%",
+                "111.00%+111.00%",
+                "117.12%+117.12%",
+                "123.25%+123.25%",
+                "129.37%+129.37%",
+                "135.50%+135.50%"
+              ]
+            ]
+          },
+          "7": {
+            "name": "Dodge Counter DMG",
+            "param": [
+              [
+                "28.14%",
+                "30.45%",
+                "32.76%",
+                "35.99%",
+                "38.30%",
+                "40.95%",
+                "44.64%",
+                "48.34%",
+                "52.03%",
+                "55.95%",
+                "60.57%",
+                "65.18%",
+                "69.80%",
+                "74.41%",
+                "79.02%",
+                "83.64%",
+                "88.25%",
+                "92.87%",
+                "97.48%",
+                "102.10%"
+              ]
+            ]
+          },
+          "8": {
+            "name": "Riposte Strike DMG",
+            "param": [
+              [
+                "29.89%",
+                "32.35%",
+                "34.80%",
+                "38.23%",
+                "40.68%",
+                "43.50%",
+                "47.42%",
+                "51.34%",
+                "55.26%",
+                "59.43%",
+                "64.33%",
+                "69.23%",
+                "74.14%",
+                "79.04%",
+                "83.94%",
+                "88.84%",
+                "93.74%",
+                "98.64%",
+                "103.55%",
+                "108.45%"
+              ]
+            ]
+          },
+          "9": {
+            "name": "Riposte Strike: Crumble DMG",
+            "param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ]
+          },
+          "10": {
+            "name": "Skill DMG",
+            "param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ]
+          },
+          "11": {
+            "name": "Skill DMG",
+            "param": [
+              [
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30",
+                "30"
+              ]
+            ]
+          },
+          "12": {
+            "name": "Overshock DMG",
+            "param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ]
+          }
+        },
+        "consume": {
+          "1": [],
+          "2": [
+            {
+              "key": 43021011,
+              "value": 2
+            },
+            {
+              "key": 41100011,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 1500
+            }
+          ],
+          "3": [
+            {
+              "key": 43021011,
+              "value": 3
+            },
+            {
+              "key": 41100011,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 2000
+            }
+          ],
+          "4": [
+            {
+              "key": 43021012,
+              "value": 2
+            },
+            {
+              "key": 41100012,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 4500
+            }
+          ],
+          "5": [
+            {
+              "key": 43021012,
+              "value": 3
+            },
+            {
+              "key": 41100012,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 6000
+            }
+          ],
+          "6": [
+            {
+              "key": 43021013,
+              "value": 3
+            },
+            {
+              "key": 41100013,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 16000
+            }
+          ],
+          "7": [
+            {
+              "key": 43021013,
+              "value": 5
+            },
+            {
+              "key": 41100013,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 30000
+            }
+          ],
+          "8": [
+            {
+              "key": 43021014,
+              "value": 2
+            },
+            {
+              "key": 41100014,
+              "value": 2
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 50000
+            }
+          ],
+          "9": [
+            {
+              "key": 43021014,
+              "value": 3
+            },
+            {
+              "key": 41100014,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 70000
+            }
+          ],
+          "10": [
+            {
+              "key": 43021014,
+              "value": 6
+            },
+            {
+              "key": 41100014,
+              "value": 4
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 100000
+            }
+          ]
+        },
+        "damage": {
+          "1309001010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              2569,
+              2780,
+              2991,
+              3286,
+              3496,
+              3739,
+              4076,
+              4413,
+              4750,
+              5108,
+              5529,
+              5951,
+              6372,
+              6793,
+              7215,
+              7636,
+              8057,
+              8478,
+              8900,
+              9321
+            ],
+            "energy": 92,
+            "element_power": 331,
+            "hardness_lv": 10000,
+            "tough_lv": 3670,
+            "weakness_lvl": 2936
+          },
+          "1309002010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              1308,
+              1415,
+              1523,
+              1673,
+              1780,
+              1903,
+              2075,
+              2246,
+              2418,
+              2600,
+              2815,
+              3029,
+              3243,
+              3458,
+              3672,
+              3887,
+              4101,
+              4316,
+              4530,
+              4745
+            ],
+            "energy": 47,
+            "element_power": 169,
+            "hardness_lv": 10000,
+            "tough_lv": 1868,
+            "weakness_lvl": 1495
+          },
+          "1309002020": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              1962,
+              2123,
+              2284,
+              2509,
+              2670,
+              2855,
+              3112,
+              3369,
+              3627,
+              3900,
+              4222,
+              4543,
+              4865,
+              5187,
+              5508,
+              5830,
+              6152,
+              6473,
+              6795,
+              7117
+            ],
+            "energy": 71,
+            "element_power": 253,
+            "hardness_lv": 10000,
+            "tough_lv": 2802,
+            "weakness_lvl": 2242
+          },
+          "1309003010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              667,
+              722,
+              777,
+              853,
+              908,
+              971,
+              1059,
+              1146,
+              1234,
+              1327,
+              1436,
+              1545,
+              1655,
+              1764,
+              1874,
+              1983,
+              2092,
+              2202,
+              2311,
+              2420
+            ],
+            "energy": 24,
+            "element_power": 86,
+            "hardness_lv": 10000,
+            "tough_lv": 953,
+            "weakness_lvl": 763
+          },
+          "1309004010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              3663,
+              3963,
+              4264,
+              4684,
+              4984,
+              5330,
+              5810,
+              6291,
+              6771,
+              7282,
+              7882,
+              8483,
+              9084,
+              9684,
+              10285,
+              10886,
+              11486,
+              12087,
+              12687,
+              13288
+            ],
+            "energy": 131,
+            "element_power": 471,
+            "hardness_lv": 10000,
+            "tough_lv": 5232,
+            "weakness_lvl": 4186
+          },
+          "1309004020": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              5494,
+              5945,
+              6395,
+              7026,
+              7476,
+              7994,
+              8715,
+              9436,
+              10157,
+              10922,
+              11823,
+              12724,
+              13625,
+              14526,
+              15427,
+              16328,
+              17229,
+              18130,
+              19031,
+              19932
+            ],
+            "energy": 197,
+            "element_power": 707,
+            "hardness_lv": 10000,
+            "tough_lv": 7848,
+            "weakness_lvl": 6279
+          },
+          "1309020010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              5040,
+              5454,
+              5867,
+              6446,
+              6859,
+              7334,
+              7995,
+              8657,
+              9318,
+              10021,
+              10847,
+              11674,
+              12500,
+              13327,
+              14153,
+              14980,
+              15806,
+              16633,
+              17460,
+              18286
+            ],
+            "energy": 180,
+            "element_power": 648,
+            "hardness_lv": 10000,
+            "tough_lv": 7200,
+            "weakness_lvl": 5760
+          },
+          "1309030010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              3735,
+              4041,
+              4347,
+              4776,
+              5082,
+              5435,
+              5925,
+              6415,
+              6904,
+              7425,
+              8038,
+              8650,
+              9262,
+              9875,
+              10487,
+              11100,
+              11712,
+              12325,
+              12937,
+              13550
+            ],
+            "energy": 59,
+            "element_power": 211,
+            "hardness_lv": 10000,
+            "tough_lv": 2335,
+            "weakness_lvl": 1868
+          },
+          "1309030020": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              3735,
+              4041,
+              4347,
+              4776,
+              5082,
+              5435,
+              5925,
+              6415,
+              6904,
+              7425,
+              8038,
+              8650,
+              9262,
+              9875,
+              10487,
+              11100,
+              11712,
+              12325,
+              12937,
+              13550
+            ],
+            "energy": 59,
+            "element_power": 211,
+            "hardness_lv": 10000,
+            "tough_lv": 2335,
+            "weakness_lvl": 1868
+          },
+          "1309101013": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              2814,
+              3045,
+              3276,
+              3599,
+              3830,
+              4095,
+              4464,
+              4834,
+              5203,
+              5595,
+              6057,
+              6518,
+              6980,
+              7441,
+              7902,
+              8364,
+              8825,
+              9287,
+              9748,
+              10210
+            ],
+            "energy": 101,
+            "element_power": 362,
+            "hardness_lv": 10000,
+            "tough_lv": 4020,
+            "weakness_lvl": 3216
+          }
+        }
+      }
+    },
+    "2": {
+      "parent_nodes": [],
+      "node_type": 2,
+      "coordinate": 2,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Thunderclap",
+        "desc": "<size=40><color=Title>Resonance Skill</color></size>\nLaunch the <color=Highlight>Cloudrift Bolt</color> and grapple towards the target, dealing <color=Thunder>Electro DMG</color>. {Cus:Ipt,Touch=Tap PC=Press Gamepad=Press} <color=Highlight>Normal Attack</color> shortly after casting this skill to cast <color=Highlight>Basic Attack: Quell</color>, considered Basic Attack DMG.",
+        "param": [],
+        "simple_desc": "<size=40><color=Title>Resonance Skill</color></size>\nPull yourself towards and attack the target, dealing <color=Thunder>Electro DMG</color>.",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuA1.SP_IconThunderzhuA1",
+        "type": "Resonance Skill",
+        "level": {
+          "1": {
+            "name": "Thrum of All Sounds: Aero Plunging Attack DMG",
+            "param": [
+              [
+                "88.27%*2",
+                "95.51%*2",
+                "102.74%*2",
+                "112.88%*2",
+                "120.11%*2",
+                "128.44%*2",
+                "140.02%*2",
+                "151.60%*2",
+                "163.18%*2",
+                "175.48%*2",
+                "189.96%*2",
+                "204.43%*2",
+                "218.91%*2",
+                "233.38%*2",
+                "247.86%*2",
+                "262.33%*2",
+                "276.81%*2",
+                "291.28%*2",
+                "305.76%*2",
+                "320.23%*2"
+              ]
+            ]
+          },
+          "2": {
+            "name": "Thrum of All Sounds: Aero Mid-air Attack Stage 1 DMG",
+            "param": [
+              [
+                "28.23%+42.34%",
+                "30.54%+45.81%",
+                "32.86%+49.28%",
+                "36.10%+54.14%",
+                "38.41%+57.62%",
+                "41.07%+61.61%",
+                "44.78%+67.16%",
+                "48.48%+72.72%",
+                "52.18%+78.27%",
+                "56.12%+84.17%",
+                "60.75%+91.12%",
+                "65.37%+98.06%",
+                "70.00%+105.00%",
+                "74.63%+111.95%",
+                "79.26%+118.89%",
+                "83.89%+125.83%",
+                "88.52%+132.77%",
+                "93.15%+139.72%",
+                "97.78%+146.66%",
+                "102.40%+153.60%"
+              ]
+            ]
+          },
+          "3": {
+            "name": "Thrum of All Sounds: Aero Mid-air Attack Stage 2 DMG",
+            "param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ]
+          }
+        },
+        "consume": {
+          "1": [],
+          "2": [
+            {
+              "key": 43021011,
+              "value": 2
+            },
+            {
+              "key": 41100011,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 1500
+            }
+          ],
+          "3": [
+            {
+              "key": 43021011,
+              "value": 3
+            },
+            {
+              "key": 41100011,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 2000
+            }
+          ],
+          "4": [
+            {
+              "key": 43021012,
+              "value": 2
+            },
+            {
+              "key": 41100012,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 4500
+            }
+          ],
+          "5": [
+            {
+              "key": 43021012,
+              "value": 3
+            },
+            {
+              "key": 41100012,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 6000
+            }
+          ],
+          "6": [
+            {
+              "key": 43021013,
+              "value": 3
+            },
+            {
+              "key": 41100013,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 16000
+            }
+          ],
+          "7": [
+            {
+              "key": 43021013,
+              "value": 5
+            },
+            {
+              "key": 41100013,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 30000
+            }
+          ],
+          "8": [
+            {
+              "key": 43021014,
+              "value": 2
+            },
+            {
+              "key": 41100014,
+              "value": 2
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 50000
+            }
+          ],
+          "9": [
+            {
+              "key": 43021014,
+              "value": 3
+            },
+            {
+              "key": 41100014,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 70000
+            }
+          ],
+          "10": [
+            {
+              "key": 43021014,
+              "value": 6
+            },
+            {
+              "key": 41100014,
+              "value": 4
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 100000
+            }
+          ]
+        },
+        "damage": {
+          "1309005010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              2823,
+              3054,
+              3286,
+              3610,
+              3841,
+              4107,
+              4478,
+              4848,
+              5218,
+              5612,
+              6075,
+              6537,
+              7000,
+              7463,
+              7926,
+              8389,
+              8852,
+              9315,
+              9778,
+              10240
+            ],
+            "energy": 101,
+            "element_power": 363,
+            "hardness_lv": 10000,
+            "tough_lv": 4032,
+            "weakness_lvl": 3226
+          },
+          "1309005020": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              4234,
+              4581,
+              4928,
+              5414,
+              5762,
+              6161,
+              6716,
+              7272,
+              7827,
+              8417,
+              9112,
+              9806,
+              10500,
+              11195,
+              11889,
+              12583,
+              13277,
+              13972,
+              14666,
+              15360
+            ],
+            "energy": 152,
+            "element_power": 545,
+            "hardness_lv": 10000,
+            "tough_lv": 6048,
+            "weakness_lvl": 4839
+          },
+          "1309012010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8827,
+              9551,
+              10274,
+              11288,
+              12011,
+              12844,
+              14002,
+              15160,
+              16318,
+              17548,
+              18996,
+              20443,
+              21891,
+              23338,
+              24786,
+              26233,
+              27681,
+              29128,
+              30576,
+              32023
+            ],
+            "energy": 617,
+            "element_power": 421,
+            "hardness_lv": 10000,
+            "tough_lv": 9340,
+            "weakness_lvl": 3736
+          }
+        }
+      }
+    },
+    "3": {
+      "parent_nodes": [],
+      "node_type": 2,
+      "coordinate": 3,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Ultimate Tactics",
+        "desc": "<size=40><color=Title>Resonance Liberation</color></size>\nLaunch the <color=Highlight>Thundershock Quietus</color>, dealing <color=Thunder>Electro DMG</color>.",
+        "param": [],
+        "simple_desc": "<size=40><color=Title>Resonance Liberation</color></size>\nDeal <color=Thunder>Electro DMG</color>.",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuC1.SP_IconThunderzhuC1",
+        "type": "Resonance Liberation",
+        "level": {
+          "1": {
+            "name": "Thrum of All Sounds: Aero DMG",
+            "param": [
+              [
+                "600.00%",
+                "649.20%",
+                "698.40%",
+                "767.28%",
+                "816.48%",
+                "873.06%",
+                "951.78%",
+                "1030.50%",
+                "1109.22%",
+                "1192.86%",
+                "1291.26%",
+                "1389.66%",
+                "1488.06%",
+                "1586.46%",
+                "1684.86%",
+                "1783.26%",
+                "1881.66%",
+                "1980.06%",
+                "2078.46%",
+                "2176.86%"
+              ]
+            ]
+          },
+          "2": {
+            "name": "Thrum of All Sounds: Spectro Stage 1 DMG",
+            "param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ]
+          },
+          "3": {
+            "name": "Thrum of All Sounds: Spectro Stage 2 DMG",
+            "param": [
+              [
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125",
+                "125"
+              ]
+            ]
+          },
+          "4": {
+            "name": "Thrum of All Sounds: Havoc Stage 1 DMG",
+            "param": [
+              [
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20",
+                "20"
+              ]
+            ]
+          }
+        },
+        "consume": {
+          "1": [],
+          "2": [
+            {
+              "key": 43021011,
+              "value": 2
+            },
+            {
+              "key": 41100011,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 1500
+            }
+          ],
+          "3": [
+            {
+              "key": 43021011,
+              "value": 3
+            },
+            {
+              "key": 41100011,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 2000
+            }
+          ],
+          "4": [
+            {
+              "key": 43021012,
+              "value": 2
+            },
+            {
+              "key": 41100012,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 4500
+            }
+          ],
+          "5": [
+            {
+              "key": 43021012,
+              "value": 3
+            },
+            {
+              "key": 41100012,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 6000
+            }
+          ],
+          "6": [
+            {
+              "key": 43021013,
+              "value": 3
+            },
+            {
+              "key": 41100013,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 16000
+            }
+          ],
+          "7": [
+            {
+              "key": 43021013,
+              "value": 5
+            },
+            {
+              "key": 41100013,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 30000
+            }
+          ],
+          "8": [
+            {
+              "key": 43021014,
+              "value": 2
+            },
+            {
+              "key": 41100014,
+              "value": 2
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 50000
+            }
+          ],
+          "9": [
+            {
+              "key": 43021014,
+              "value": 3
+            },
+            {
+              "key": 41100014,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 70000
+            }
+          ],
+          "10": [
+            {
+              "key": 43021014,
+              "value": 6
+            },
+            {
+              "key": 41100014,
+              "value": 4
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 100000
+            }
+          ]
+        },
+        "damage": {
+          "13092000100": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 2,
+            "rate_lv": [
+              60000,
+              64920,
+              69840,
+              76728,
+              81648,
+              87306,
+              95178,
+              103050,
+              110922,
+              119286,
+              129126,
+              138966,
+              148806,
+              158646,
+              168486,
+              178326,
+              188166,
+              198006,
+              207846,
+              217686
+            ],
+            "energy": 0,
+            "element_power": 0,
+            "hardness_lv": 10000,
+            "tough_lv": 40000,
+            "weakness_lvl": 57600
+          },
+          "13092000101": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 2,
+            "rate_lv": [
+              72000,
+              77904,
+              83808,
+              92074,
+              97978,
+              104768,
+              114214,
+              123660,
+              133107,
+              143144,
+              154952,
+              166760,
+              178568,
+              190376,
+              202184,
+              213992,
+              225800,
+              237608,
+              249416,
+              261224
+            ],
+            "energy": 0,
+            "element_power": 0,
+            "hardness_lv": 10000,
+            "tough_lv": 40000,
+            "weakness_lvl": 57600
+          }
+        }
+      }
+    },
+    "4": {
+      "parent_nodes": [
+        7
+      ],
+      "node_type": 3,
+      "coordinate": 2,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Decipher",
+        "desc": "<size=40><color=Title>Resonance Skill</color></size>\nThe last Stage of Resonance Skill <color=Highlight>Overshock</color> inflicts <SapTag=0>{0}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=0} of <color=Highlight>【<te href=850013>Electro Flare</te></color> on the target hit.",
+        "param": [
+          "10"
+        ],
+        "simple_desc": "<size=40><color=Title>Resonance Skill</color></size>\nThe last Stage of Resonance Skill <color=Highlight>Overshock</color> inflicts<color=Highlight>【<te href=850013>Electro Flare</te></color> on the target hit.",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuD1.SP_IconThunderzhuD1",
+        "type": "Inherent Skill",
+        "level": {},
+        "consume": {
+          "1": [
+            {
+              "key": 43021012,
+              "value": 3
+            },
+            {
+              "key": 41100012,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 10000
+            }
+          ]
+        },
+        "damage": {}
+      }
+    },
+    "5": {
+      "parent_nodes": [
+        4
+      ],
+      "node_type": 3,
+      "coordinate": 3,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Regression",
+        "desc": "<size=40><color=Title>Skill Description</color></size>\nAfter Resonance Skill <color=Highlight>Overshock</color> is cast by holding down, gain {0} Resonance Skill DMG Bonus for {1}s. Switching to another Resonator ends this effect.",
+        "param": [
+          "20%",
+          "20"
+        ],
+        "simple_desc": "<size=40><color=Title>Skill Description</color></size>\nAfter Resonance Skill <color=Highlight>Overshock</color> is cast by holding down, gain Resonance Skill DMG Bonus.",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuD2.SP_IconThunderzhuD2",
+        "type": "Inherent Skill",
+        "level": {},
+        "consume": {
+          "1": [
+            {
+              "key": 43021013,
+              "value": 3
+            },
+            {
+              "key": 41100013,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 20000
+            }
+          ]
+        },
+        "damage": {}
+      }
+    },
+    "6": {
+      "parent_nodes": [],
+      "node_type": 2,
+      "coordinate": 4,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Thunderous Fury",
+        "desc": "<size=40><color=Title>Electro DMG</color></size>\nAttack the target, dealing <color=Thunder>Electro DMG</color>.",
+        "param": [],
+        "simple_desc": "<size=40><color=Title>Electro DMG</color></size>\nAttack the target, dealing <color=Thunder>Electro DMG</color>.",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuQTE.SP_IconThunderzhuQTE",
+        "type": "Intro Skill",
+        "level": {
+          "1": {
+            "name": "Thrum of All Sounds: Havoc Stage 2 DMG",
+            "param": [
+              [
+                "16.80%*2+50.40%",
+                "18.18%*2+54.54%",
+                "19.56%*2+58.67%",
+                "21.49%*2+64.46%",
+                "22.87%*2+68.59%",
+                "24.45%*2+73.34%",
+                "26.65%*2+79.95%",
+                "28.86%*2+86.57%",
+                "31.06%*2+93.18%",
+                "33.41%*2+100.21%",
+                "36.16%*2+108.47%",
+                "38.92%*2+116.74%",
+                "41.67%*2+125.00%",
+                "44.43%*2+133.27%",
+                "47.18%*2+141.53%",
+                "49.94%*2+149.80%",
+                "52.69%*2+158.06%",
+                "55.45%*2+166.33%",
+                "58.20%*2+174.60%",
+                "60.96%*2+182.86%"
+              ]
+            ]
+          },
+          "2": {
+            "name": "Thrum of All Sounds: Havoc Stage 3 DMG",
+            "param": [
+              [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+              ]
+            ]
+          }
+        },
+        "consume": {
+          "1": [],
+          "2": [
+            {
+              "key": 43021011,
+              "value": 2
+            },
+            {
+              "key": 41100011,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 1500
+            }
+          ],
+          "3": [
+            {
+              "key": 43021011,
+              "value": 3
+            },
+            {
+              "key": 41100011,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 2000
+            }
+          ],
+          "4": [
+            {
+              "key": 43021012,
+              "value": 2
+            },
+            {
+              "key": 41100012,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 4500
+            }
+          ],
+          "5": [
+            {
+              "key": 43021012,
+              "value": 3
+            },
+            {
+              "key": 41100012,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 6000
+            }
+          ],
+          "6": [
+            {
+              "key": 43021013,
+              "value": 3
+            },
+            {
+              "key": 41100013,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 16000
+            }
+          ],
+          "7": [
+            {
+              "key": 43021013,
+              "value": 5
+            },
+            {
+              "key": 41100013,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 30000
+            }
+          ],
+          "8": [
+            {
+              "key": 43021014,
+              "value": 2
+            },
+            {
+              "key": 41100014,
+              "value": 2
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 50000
+            }
+          ],
+          "9": [
+            {
+              "key": 43021014,
+              "value": 3
+            },
+            {
+              "key": 41100014,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 70000
+            }
+          ],
+          "10": [
+            {
+              "key": 43021014,
+              "value": 6
+            },
+            {
+              "key": 41100014,
+              "value": 4
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 100000
+            }
+          ]
+        },
+        "damage": {
+          "1309300010": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 3,
+            "rate_lv": [
+              1680,
+              1818,
+              1956,
+              2149,
+              2287,
+              2445,
+              2665,
+              2886,
+              3106,
+              3341,
+              3616,
+              3892,
+              4167,
+              4443,
+              4718,
+              4994,
+              5269,
+              5545,
+              5820,
+              6096
+            ],
+            "energy": 60,
+            "element_power": 216,
+            "hardness_lv": 10000,
+            "tough_lv": 2400,
+            "weakness_lvl": 1920
+          }
+        }
+      }
+    },
+    "7": {
+      "parent_nodes": [],
+      "node_type": 1,
+      "coordinate": 1,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Myriad Omens’ Mandate",
+        "desc": "<size=40><color=Title>Overshock</color></size>\nAt max <color=Highlight>Electric Surge</color>, Resonance Skill <color=Highlight>Overshock</color> is replaced with Resonance Skill <color=Highlight>Overshock</color>, dealing <color=Thunder>Electro DMG</color>.\nAfter Resonance Skill <color=Highlight>Overshock</color> is cast by {Cus:Ipt,Touch=tapping PC=pressing Gamepad=pressing}, clear all <color=Highlight>Electric Surge</color> to grant Resonators in the team {0}% ATK Bonus for {1}s.\nWhen Resonance Skill <color=Highlight>Overshock</color> is cast by holding down, enter <color=Highlight>Apex Resonance</color>.\n<size=10></size>\n<size=40><color=Title>Apex Resonance</color></size>\nWhile in <color=Highlight>Apex Resonance</color>, Resonance Skill <color=Highlight>Thrum of All Sounds</color> is unlocked, which consumes {2}% <color=Highlight>Thunder Rage</color>: While on the ground, {Cus:Ipt,Touch=tap PC=press Gamepad=press} <color=Highlight>Resonance Skill</color> to chain into Rover: Havoc’s and Rover: Spectro’s skills. Hold <color=Highlight>Resonance Skill</color> to chain into Rover: Aero’s skill and leap into the air. While in the air, the skill can chain into Rover: Havoc and Rover: Aero. The DMG dealt through <color=Highlight>Thrum of All Sounds</color> corresponds to the corresponding Attribute of the chained skills. <color=Highlight>Thrum of All Sounds</color> triggers <color=Highlight>Thunder Bane</color>, dealing <color=Thunder>Electro DMG</color>.\n<size=10></size>\n<size=40><color=Title>Electric Surge</color></size>\nNormal Attacks and <color=Highlight>Resonance Skill</color> restores <color=Highlight>Electric Surge</color> on hit.\n<size=10></size>\n<size=40><color=Title>Thunder Rage</color></size>\nUpon entering <color=Highlight>Apex Resonance</color>, <color=Highlight>Thunder Rage</color> is restored. <color=Highlight>Thrum of All Sounds</color> restores <color=Highlight>Thunder Rage</color> on hit.\n<size=10></size>",
+        "param": [
+          "10",
+          "20",
+          "10"
+        ],
+        "simple_desc": "<size=40><color=Title>Overshock</color></size>\nAt max <color=Highlight>Electric Surge</color>, Resonance Skill <color=Highlight>Overshock</color> is replaced with Resonance Skill <color=Highlight>Overshock</color>.\nAfter Resonance Skill <color=Highlight>Overshock</color> is cast by {Cus:Ipt,Touch=tapping PC=pressing Gamepad=pressing}, clear all <color=Highlight>Electric Surge</color> to grant Resonators in the team ATK Bonus.\nWhen Resonance Skill <color=Highlight>Overshock</color> is cast by holding down, enter <color=Highlight>Apex Resonance</color>.\n<size=10></size>\n<size=40><color=Title>Apex Resonance</color></size>\nWhile in <color=Highlight>Apex Resonance</color>, <color=Highlight>Thunder Rage</color> is consumed over time to chain into Rover of other Attributes.\n<size=10></size>\n<size=40><color=Title>Electric Surge</color></size>\nNormal Attacks and <color=Highlight>Resonance Skill</color> restores <color=Highlight>Electric Surge</color> on hit.\n<size=10></size>\n<size=40><color=Title>Thunder Rage</color></size>\nUpon entering <color=Highlight>Apex Resonance</color>, <color=Highlight>Thunder Rage</color> is restored. <color=Highlight>Thrum of All Sounds</color> restores <color=Highlight>Thunder Rage</color> on hit.\n<size=10></size>",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuY1.SP_IconThunderzhuY1",
+        "type": "Forte Circuit",
+        "level": {
+          "1": {
+            "name": "Thrum of All Sounds: Havoc Mid-air Attack Stage 1 DMG",
+            "param": [
+              [
+                "68.85%+68.85%+68.85%+68.85%+206.54%",
+                "74.50%+74.50%+74.50%+74.50%+223.48%",
+                "80.14%+80.14%+80.14%+80.14%+240.41%",
+                "88.04%+88.04%+88.04%+88.04%+264.12%",
+                "93.69%+93.69%+93.69%+93.69%+281.06%",
+                "100.18%+100.18%+100.18%+100.18%+300.53%",
+                "109.21%+109.21%+109.21%+109.21%+327.63%",
+                "118.25%+118.25%+118.25%+118.25%+354.73%",
+                "127.28%+127.28%+127.28%+127.28%+381.83%",
+                "136.88%+136.88%+136.88%+136.88%+410.62%",
+                "148.17%+148.17%+148.17%+148.17%+444.49%",
+                "159.46%+159.46%+159.46%+159.46%+478.36%",
+                "170.75%+170.75%+170.75%+170.75%+512.23%",
+                "182.04%+182.04%+182.04%+182.04%+546.10%",
+                "193.33%+193.33%+193.33%+193.33%+579.98%",
+                "204.62%+204.62%+204.62%+204.62%+613.85%",
+                "215.91%+215.91%+215.91%+215.91%+647.72%",
+                "227.20%+227.20%+227.20%+227.20%+681.59%",
+                "238.49%+238.49%+238.49%+238.49%+715.46%",
+                "249.78%+249.78%+249.78%+249.78%+749.33%"
+              ]
+            ]
+          },
+          "2": {
+            "name": "Skill DMG",
+            "param": [
+              [
+                "31.92%+31.92%+42.56%",
+                "34.54%+34.54%+46.05%",
+                "37.16%+37.16%+49.54%",
+                "40.82%+40.82%+54.43%",
+                "43.44%+43.44%+57.92%",
+                "46.45%+46.45%+61.93%",
+                "50.64%+50.64%+67.51%",
+                "54.82%+54.82%+73.10%",
+                "59.01%+59.01%+78.68%",
+                "63.46%+63.46%+84.61%",
+                "68.70%+68.70%+91.59%",
+                "73.93%+73.93%+98.57%",
+                "79.16%+79.16%+105.55%",
+                "84.40%+84.40%+112.53%",
+                "89.63%+89.63%+119.51%",
+                "94.87%+94.87%+126.49%",
+                "100.10%+100.10%+133.47%",
+                "105.34%+105.34%+140.45%",
+                "110.57%+110.57%+147.43%",
+                "115.81%+115.81%+154.41%"
+              ]
+            ]
+          },
+          "3": {
+            "name": "",
+            "param": [
+              [
+                "45.19%+67.78%",
+                "48.89%+73.34%",
+                "52.60%+78.90%",
+                "57.79%+86.68%",
+                "61.49%+92.23%",
+                "65.75%+98.63%",
+                "71.68%+107.52%",
+                "77.61%+116.41%",
+                "83.54%+125.30%",
+                "89.84%+134.75%",
+                "97.25%+145.87%",
+                "104.66%+156.98%",
+                "112.07%+168.10%",
+                "119.48%+179.21%",
+                "126.89%+190.33%",
+                "134.30%+201.44%",
+                "141.71%+212.56%",
+                "149.12%+223.67%",
+                "156.53%+234.79%",
+                "163.94%+245.90%"
+              ]
+            ]
+          },
+          "4": {
+            "name": "",
+            "param": [
+              [
+                "12.54%*3+87.73%",
+                "13.56%*3+94.92%",
+                "14.59%*3+102.12%",
+                "16.03%*3+112.19%",
+                "17.06%*3+119.38%",
+                "18.24%*3+127.65%",
+                "19.88%*3+139.16%",
+                "21.53%*3+150.67%",
+                "23.17%*3+162.18%",
+                "24.92%*3+174.41%",
+                "26.98%*3+188.80%",
+                "29.03%*3+203.18%",
+                "31.09%*3+217.57%",
+                "33.14%*3+231.96%",
+                "35.20%*3+246.34%",
+                "37.25%*3+260.73%",
+                "39.31%*3+275.12%",
+                "41.36%*3+289.50%",
+                "43.42%*3+303.89%",
+                "45.47%*3+318.28%"
+              ]
+            ]
+          },
+          "5": {
+            "name": "",
+            "param": [
+              [
+                "12.38%*4+74.26%",
+                "13.40%*4+80.35%",
+                "14.41%*4+86.44%",
+                "15.83%*4+94.96%",
+                "16.85%*4+101.05%",
+                "18.01%*4+108.05%",
+                "19.64%*4+117.80%",
+                "21.26%*4+127.54%",
+                "22.88%*4+137.28%",
+                "24.61%*4+147.63%",
+                "26.64%*4+159.81%",
+                "28.67%*4+171.99%",
+                "30.70%*4+184.17%",
+                "32.73%*4+196.34%",
+                "34.76%*4+208.52%",
+                "36.79%*4+220.70%",
+                "38.82%*4+232.88%",
+                "40.85%*4+245.05%",
+                "42.88%*4+257.23%",
+                "44.91%*4+269.41%"
+              ]
+            ]
+          },
+          "6": {
+            "name": "",
+            "param": [
+              [
+                "72.32%+72.32%+24.11%+24.11%+24.11%",
+                "78.25%+78.25%+26.09%+26.09%+26.09%",
+                "84.18%+84.18%+28.06%+28.06%+28.06%",
+                "92.48%+92.48%+30.83%+30.83%+30.83%",
+                "98.41%+98.41%+32.81%+32.81%+32.81%",
+                "105.23%+105.23%+35.08%+35.08%+35.08%",
+                "114.72%+114.72%+38.24%+38.24%+38.24%",
+                "124.21%+124.21%+41.41%+41.41%+41.41%",
+                "133.69%+133.69%+44.57%+44.57%+44.57%",
+                "143.77%+143.77%+47.93%+47.93%+47.93%",
+                "155.63%+155.63%+51.88%+51.88%+51.88%",
+                "167.49%+167.49%+55.83%+55.83%+55.83%",
+                "179.35%+179.35%+59.79%+59.79%+59.79%",
+                "191.21%+191.21%+63.74%+63.74%+63.74%",
+                "203.07%+203.07%+67.69%+67.69%+67.69%",
+                "214.93%+214.93%+71.65%+71.65%+71.65%",
+                "226.79%+226.79%+75.60%+75.60%+75.60%",
+                "238.65%+238.65%+79.55%+79.55%+79.55%",
+                "250.51%+250.51%+83.51%+83.51%+83.51%",
+                "262.37%+262.37%+87.46%+87.46%+87.46%"
+              ]
+            ]
+          },
+          "7": {
+            "name": "",
+            "param": [
+              [
+                "15.47%",
+                "16.74%",
+                "18.01%",
+                "19.78%",
+                "21.05%",
+                "22.51%",
+                "24.54%",
+                "26.56%",
+                "28.59%",
+                "30.75%",
+                "33.29%",
+                "35.82%",
+                "38.36%",
+                "40.89%",
+                "43.43%",
+                "45.97%",
+                "48.50%",
+                "51.04%",
+                "53.57%",
+                "56.11%"
+              ]
+            ]
+          },
+          "8": {
+            "name": "",
+            "param": [
+              [
+                "22.10%",
+                "23.92%",
+                "25.73%",
+                "28.26%",
+                "30.08%",
+                "32.16%",
+                "35.06%",
+                "37.96%",
+                "40.86%",
+                "43.94%",
+                "47.56%",
+                "51.19%",
+                "54.81%",
+                "58.44%",
+                "62.06%",
+                "65.68%",
+                "69.31%",
+                "72.93%",
+                "76.56%",
+                "80.18%"
+              ]
+            ]
+          },
+          "9": {
+            "name": "",
+            "param": [
+              [
+                "42.73%+42.73%+44.03%",
+                "46.24%+46.24%+47.64%",
+                "49.74%+49.74%+51.25%",
+                "54.64%+54.64%+56.30%",
+                "58.15%+58.15%+59.91%",
+                "62.18%+62.18%+64.06%",
+                "67.78%+67.78%+69.84%",
+                "73.39%+73.39%+75.61%",
+                "78.99%+78.99%+81.39%",
+                "84.95%+84.95%+87.52%",
+                "91.96%+91.96%+94.74%",
+                "98.96%+98.96%+101.96%",
+                "105.97%+105.97%+109.18%",
+                "112.98%+112.98%+116.40%",
+                "119.99%+119.99%+123.62%",
+                "126.99%+126.99%+130.84%",
+                "134.00%+134.00%+138.06%",
+                "141.01%+141.01%+145.28%",
+                "148.02%+148.02%+152.50%",
+                "155.02%+155.02%+159.72%"
+              ]
+            ]
+          },
+          "10": {
+            "name": "",
+            "param": [
+              [
+                "39.86%",
+                "43.13%",
+                "46.40%",
+                "50.97%",
+                "54.24%",
+                "58.00%",
+                "63.23%",
+                "68.46%",
+                "73.68%",
+                "79.24%",
+                "85.78%",
+                "92.31%",
+                "98.85%",
+                "105.38%",
+                "111.92%",
+                "118.46%",
+                "124.99%",
+                "131.53%",
+                "138.07%",
+                "144.60%"
+              ]
+            ]
+          },
+          "11": {
+            "name": "Thunder Bane DMG",
+            "param": [
+              [
+                "31.83%+31.83%",
+                "34.45%+34.45%",
+                "37.06%+37.06%",
+                "40.71%+40.71%",
+                "43.32%+43.32%",
+                "46.32%+46.32%",
+                "50.50%+50.50%",
+                "54.67%+54.67%",
+                "58.85%+58.85%",
+                "63.29%+63.29%",
+                "68.51%+68.51%",
+                "73.73%+73.73%",
+                "78.95%+78.95%",
+                "84.17%+84.17%",
+                "89.39%+89.39%",
+                "94.61%+94.61%",
+                "99.83%+99.83%",
+                "105.05%+105.05%",
+                "110.27%+110.27%",
+                "115.49%+115.49%"
+              ]
+            ]
+          },
+          "12": {
+            "name": "Thrum of All Sounds: Havoc Mid-air Attack Stage 3 DMG",
+            "param": [
+              [
+                "32.56%",
+                "35.23%",
+                "37.90%",
+                "41.64%",
+                "44.31%",
+                "47.38%",
+                "51.65%",
+                "55.92%",
+                "60.19%",
+                "64.73%",
+                "70.07%",
+                "75.41%",
+                "80.75%",
+                "86.09%",
+                "91.43%",
+                "96.77%",
+                "102.11%",
+                "107.45%",
+                "112.79%",
+                "118.13%"
+              ]
+            ]
+          },
+          "13": {
+            "name": "Thrum of All Sounds: Spectro Follow-up Attack DMG",
+            "param": [
+              [
+                "39.00%",
+                "42.20%",
+                "45.40%",
+                "49.87%",
+                "53.07%",
+                "56.75%",
+                "61.86%",
+                "66.98%",
+                "72.10%",
+                "77.53%",
+                "83.93%",
+                "90.32%",
+                "96.72%",
+                "103.11%",
+                "109.51%",
+                "115.91%",
+                "122.30%",
+                "128.70%",
+                "135.09%",
+                "141.49%"
+              ]
+            ]
+          },
+          "14": {
+            "name": "",
+            "param": [
+              [
+                "330+11.00%",
+                "369+11.44%",
+                "412+11.88%",
+                "462+12.54%",
+                "521+13.42%",
+                "577+14.30%",
+                "587+15.95%",
+                "600+17.82%",
+                "610+19.80%",
+                "627+23.10%",
+                "678+25.01%",
+                "730+26.91%",
+                "782+28.82%",
+                "833+30.72%",
+                "885+32.63%",
+                "937+34.53%",
+                "989+36.44%",
+                "1040+38.34%",
+                "1092+40.25%",
+                "1144+42.16%"
+              ]
+            ]
+          },
+          "15": {
+            "name": "Thrum of All Sounds: Havoc Mid-air Attack Stage 2 DMG",
+            "param": [
+              [
+                "132.09%",
+                "142.92%",
+                "153.75%",
+                "168.91%",
+                "179.74%",
+                "192.20%",
+                "209.52%",
+                "226.85%",
+                "244.18%",
+                "262.59%",
+                "284.26%",
+                "305.92%",
+                "327.58%",
+                "349.24%",
+                "370.90%",
+                "392.56%",
+                "414.22%",
+                "435.88%",
+                "457.55%",
+                "479.21%"
+              ]
+            ]
+          },
+          "16": {
+            "name": "",
+            "param": [
+              [
+                "30.00%",
+                "32.46%",
+                "34.92%",
+                "38.37%",
+                "40.83%",
+                "43.66%",
+                "47.59%",
+                "51.53%",
+                "55.47%",
+                "59.65%",
+                "64.57%",
+                "69.49%",
+                "74.41%",
+                "79.33%",
+                "84.25%",
+                "89.17%",
+                "94.09%",
+                "99.01%",
+                "103.93%",
+                "108.85%"
+              ]
+            ]
+          },
+          "17": {
+            "name": "",
+            "param": [
+              [
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25",
+                "25"
+              ]
+            ]
+          }
+        },
+        "consume": {
+          "1": [],
+          "2": [
+            {
+              "key": 43021011,
+              "value": 2
+            },
+            {
+              "key": 41100011,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 1500
+            }
+          ],
+          "3": [
+            {
+              "key": 43021011,
+              "value": 3
+            },
+            {
+              "key": 41100011,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 2000
+            }
+          ],
+          "4": [
+            {
+              "key": 43021012,
+              "value": 2
+            },
+            {
+              "key": 41100012,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 4500
+            }
+          ],
+          "5": [
+            {
+              "key": 43021012,
+              "value": 3
+            },
+            {
+              "key": 41100012,
+              "value": 3
+            },
+            {
+              "key": 2,
+              "value": 6000
+            }
+          ],
+          "6": [
+            {
+              "key": 43021013,
+              "value": 3
+            },
+            {
+              "key": 41100013,
+              "value": 2
+            },
+            {
+              "key": 2,
+              "value": 16000
+            }
+          ],
+          "7": [
+            {
+              "key": 43021013,
+              "value": 5
+            },
+            {
+              "key": 41100013,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 30000
+            }
+          ],
+          "8": [
+            {
+              "key": 43021014,
+              "value": 2
+            },
+            {
+              "key": 41100014,
+              "value": 2
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 50000
+            }
+          ],
+          "9": [
+            {
+              "key": 43021014,
+              "value": 3
+            },
+            {
+              "key": 41100014,
+              "value": 3
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 70000
+            }
+          ],
+          "10": [
+            {
+              "key": 43021014,
+              "value": 6
+            },
+            {
+              "key": 41100014,
+              "value": 4
+            },
+            {
+              "key": 41400304,
+              "value": 1
+            },
+            {
+              "key": 2,
+              "value": 100000
+            }
+          ]
+        },
+        "damage": {
+          "1309114011": {
+            "element": 0,
+            "related_property": "ATK",
+            "type": 0,
+            "rate_lv": [
+              1100,
+              1144,
+              1188,
+              1254,
+              1342,
+              1430,
+              1595,
+              1782,
+              1980,
+              2310,
+              2501,
+              2691,
+              2882,
+              3072,
+              3263,
+              3453,
+              3644,
+              3834,
+              4025,
+              4216
+            ],
+            "energy": 0,
+            "element_power": 0,
+            "hardness_lv": 0,
+            "tough_lv": 0,
+            "weakness_lvl": 0
+          },
+          "13091110200": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              6885,
+              7450,
+              8014,
+              8804,
+              9369,
+              10018,
+              10921,
+              11825,
+              12728,
+              13688,
+              14817,
+              15946,
+              17075,
+              18204,
+              19333,
+              20462,
+              21591,
+              22720,
+              23849,
+              24978
+            ],
+            "energy": 50,
+            "element_power": 178,
+            "hardness_lv": 10000,
+            "tough_lv": 3934,
+            "weakness_lvl": 5414
+          },
+          "13091110210": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              6885,
+              7450,
+              8014,
+              8804,
+              9369,
+              10018,
+              10921,
+              11825,
+              12728,
+              13688,
+              14817,
+              15946,
+              17075,
+              18204,
+              19333,
+              20462,
+              21591,
+              22720,
+              23849,
+              24978
+            ],
+            "energy": 50,
+            "element_power": 178,
+            "hardness_lv": 10000,
+            "tough_lv": 3934,
+            "weakness_lvl": 5414
+          },
+          "13091110220": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              6885,
+              7450,
+              8014,
+              8804,
+              9369,
+              10018,
+              10921,
+              11825,
+              12728,
+              13688,
+              14817,
+              15946,
+              17075,
+              18204,
+              19333,
+              20462,
+              21591,
+              22720,
+              23849,
+              24978
+            ],
+            "energy": 50,
+            "element_power": 178,
+            "hardness_lv": 10000,
+            "tough_lv": 3934,
+            "weakness_lvl": 5414
+          },
+          "13091110230": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              6885,
+              7450,
+              8014,
+              8804,
+              9369,
+              10018,
+              10921,
+              11825,
+              12728,
+              13688,
+              14817,
+              15946,
+              17075,
+              18204,
+              19333,
+              20462,
+              21591,
+              22720,
+              23849,
+              24978
+            ],
+            "energy": 50,
+            "element_power": 178,
+            "hardness_lv": 10000,
+            "tough_lv": 3934,
+            "weakness_lvl": 5414
+          },
+          "13091110300": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              20654,
+              22348,
+              24041,
+              26412,
+              28106,
+              30053,
+              32763,
+              35473,
+              38183,
+              41062,
+              44449,
+              47836,
+              51223,
+              54610,
+              57998,
+              61385,
+              64772,
+              68159,
+              71546,
+              74933
+            ],
+            "energy": 148,
+            "element_power": 532,
+            "hardness_lv": 10000,
+            "tough_lv": 11802,
+            "weakness_lvl": 16241
+          },
+          "13091110310": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              20654,
+              22348,
+              24041,
+              26412,
+              28106,
+              30053,
+              32763,
+              35473,
+              38183,
+              41062,
+              44449,
+              47836,
+              51223,
+              54610,
+              57998,
+              61385,
+              64772,
+              68159,
+              71546,
+              74933
+            ],
+            "energy": 148,
+            "element_power": 532,
+            "hardness_lv": 10000,
+            "tough_lv": 11802,
+            "weakness_lvl": 16241
+          },
+          "13091110500": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3000,
+              3246,
+              3492,
+              3837,
+              4083,
+              4366,
+              4759,
+              5153,
+              5547,
+              5965,
+              6457,
+              6949,
+              7441,
+              7933,
+              8425,
+              8917,
+              9409,
+              9901,
+              10393,
+              10885
+            ],
+            "energy": 0,
+            "element_power": 0,
+            "hardness_lv": 10000,
+            "tough_lv": 0,
+            "weakness_lvl": 0
+          },
+          "13091130100": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              13209,
+              14292,
+              15375,
+              16891,
+              17974,
+              19220,
+              20952,
+              22685,
+              24418,
+              26259,
+              28426,
+              30592,
+              32758,
+              34924,
+              37090,
+              39256,
+              41422,
+              43588,
+              45755,
+              47921
+            ],
+            "energy": 208,
+            "element_power": 748,
+            "hardness_lv": 10000,
+            "tough_lv": 16613,
+            "weakness_lvl": 6646
+          },
+          "13091140100": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3256,
+              3523,
+              3790,
+              4164,
+              4431,
+              4738,
+              5165,
+              5592,
+              6019,
+              6473,
+              7007,
+              7541,
+              8075,
+              8609,
+              9143,
+              9677,
+              10211,
+              10745,
+              11279,
+              11813
+            ],
+            "energy": 81,
+            "element_power": 289,
+            "hardness_lv": 10000,
+            "tough_lv": 6412,
+            "weakness_lvl": 2565
+          },
+          "13091150100": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3900,
+              4220,
+              4540,
+              4987,
+              5307,
+              5675,
+              6186,
+              6698,
+              7210,
+              7753,
+              8393,
+              9032,
+              9672,
+              10311,
+              10951,
+              11591,
+              12230,
+              12870,
+              13509,
+              14149
+            ],
+            "energy": 89,
+            "element_power": 319,
+            "hardness_lv": 10000,
+            "tough_lv": 7072,
+            "weakness_lvl": 2829
+          },
+          "13091160100": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3183,
+              3445,
+              3706,
+              4071,
+              4332,
+              4632,
+              5050,
+              5467,
+              5885,
+              6329,
+              6851,
+              7373,
+              7895,
+              8417,
+              8939,
+              9461,
+              9983,
+              10505,
+              11027,
+              11549
+            ],
+            "energy": 60,
+            "element_power": 216,
+            "hardness_lv": 10000,
+            "tough_lv": 4800,
+            "weakness_lvl": 1920
+          },
+          "13091160200": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3183,
+              3445,
+              3706,
+              4071,
+              4332,
+              4632,
+              5050,
+              5467,
+              5885,
+              6329,
+              6851,
+              7373,
+              7895,
+              8417,
+              8939,
+              9461,
+              9983,
+              10505,
+              11027,
+              11549
+            ],
+            "energy": 60,
+            "element_power": 216,
+            "hardness_lv": 10000,
+            "tough_lv": 4800,
+            "weakness_lvl": 1920
+          },
+          "13091170100": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3192,
+              3454,
+              3716,
+              4082,
+              4344,
+              4645,
+              5064,
+              5482,
+              5901,
+              6346,
+              6870,
+              7393,
+              7916,
+              8440,
+              8963,
+              9487,
+              10010,
+              10534,
+              11057,
+              11581
+            ],
+            "energy": 53,
+            "element_power": 189,
+            "hardness_lv": 10000,
+            "tough_lv": 4194,
+            "weakness_lvl": 1678
+          },
+          "13091170200": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3192,
+              3454,
+              3716,
+              4082,
+              4344,
+              4645,
+              5064,
+              5482,
+              5901,
+              6346,
+              6870,
+              7393,
+              7916,
+              8440,
+              8963,
+              9487,
+              10010,
+              10534,
+              11057,
+              11581
+            ],
+            "energy": 53,
+            "element_power": 189,
+            "hardness_lv": 10000,
+            "tough_lv": 4194,
+            "weakness_lvl": 1678
+          },
+          "13091170300": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              4256,
+              4605,
+              4954,
+              5443,
+              5792,
+              6193,
+              6751,
+              7310,
+              7868,
+              8461,
+              9159,
+              9857,
+              10555,
+              11253,
+              11951,
+              12649,
+              13347,
+              14045,
+              14743,
+              15441
+            ],
+            "energy": 70,
+            "element_power": 252,
+            "hardness_lv": 10000,
+            "tough_lv": 5592,
+            "weakness_lvl": 2237
+          },
+          "13091180100": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              4519,
+              4889,
+              5260,
+              5779,
+              6149,
+              6575,
+              7168,
+              7761,
+              8354,
+              8984,
+              9725,
+              10466,
+              11207,
+              11948,
+              12689,
+              13430,
+              14171,
+              14912,
+              15653,
+              16394
+            ],
+            "energy": 74,
+            "element_power": 264,
+            "hardness_lv": 10000,
+            "tough_lv": 5862,
+            "weakness_lvl": 2345
+          },
+          "13091180200": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              6778,
+              7334,
+              7890,
+              8668,
+              9223,
+              9863,
+              10752,
+              11641,
+              12530,
+              13475,
+              14587,
+              15698,
+              16810,
+              17921,
+              19033,
+              20144,
+              21256,
+              22367,
+              23479,
+              24590
+            ],
+            "energy": 110,
+            "element_power": 396,
+            "hardness_lv": 10000,
+            "tough_lv": 8792,
+            "weakness_lvl": 3517
+          },
+          "13091190100": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              1254,
+              1356,
+              1459,
+              1603,
+              1706,
+              1824,
+              1988,
+              2153,
+              2317,
+              2492,
+              2698,
+              2903,
+              3109,
+              3314,
+              3520,
+              3725,
+              3931,
+              4136,
+              4342,
+              4547
+            ],
+            "energy": 20,
+            "element_power": 72,
+            "hardness_lv": 10000,
+            "tough_lv": 1592,
+            "weakness_lvl": 637
+          },
+          "13091190200": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8773,
+              9492,
+              10212,
+              11219,
+              11938,
+              12765,
+              13916,
+              15067,
+              16218,
+              17441,
+              18880,
+              20318,
+              21757,
+              23196,
+              24634,
+              26073,
+              27512,
+              28950,
+              30389,
+              31828
+            ],
+            "energy": 140,
+            "element_power": 502,
+            "hardness_lv": 10000,
+            "tough_lv": 11144,
+            "weakness_lvl": 4458
+          },
+          "13091200100": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              1238,
+              1340,
+              1441,
+              1583,
+              1685,
+              1801,
+              1964,
+              2126,
+              2288,
+              2461,
+              2664,
+              2867,
+              3070,
+              3273,
+              3476,
+              3679,
+              3882,
+              4085,
+              4288,
+              4491
+            ],
+            "energy": 20,
+            "element_power": 71,
+            "hardness_lv": 10000,
+            "tough_lv": 1576,
+            "weakness_lvl": 631
+          },
+          "13091200200": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              7426,
+              8035,
+              8644,
+              9496,
+              10105,
+              10805,
+              11780,
+              12754,
+              13728,
+              14763,
+              15981,
+              17199,
+              18417,
+              19634,
+              20852,
+              22070,
+              23288,
+              24505,
+              25723,
+              26941
+            ],
+            "energy": 119,
+            "element_power": 426,
+            "hardness_lv": 10000,
+            "tough_lv": 9456,
+            "weakness_lvl": 3783
+          },
+          "13091210010": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              7232,
+              7825,
+              8418,
+              9248,
+              9841,
+              10523,
+              11472,
+              12421,
+              13369,
+              14377,
+              15563,
+              16749,
+              17935,
+              19121,
+              20307,
+              21493,
+              22679,
+              23865,
+              25051,
+              26237
+            ],
+            "energy": 105,
+            "element_power": 376,
+            "hardness_lv": 10000,
+            "tough_lv": 8335,
+            "weakness_lvl": 3334
+          },
+          "13091210020": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              7232,
+              7825,
+              8418,
+              9248,
+              9841,
+              10523,
+              11472,
+              12421,
+              13369,
+              14377,
+              15563,
+              16749,
+              17935,
+              19121,
+              20307,
+              21493,
+              22679,
+              23865,
+              25051,
+              26237
+            ],
+            "energy": 105,
+            "element_power": 376,
+            "hardness_lv": 10000,
+            "tough_lv": 8335,
+            "weakness_lvl": 3334
+          },
+          "13091210030": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2411,
+              2609,
+              2806,
+              3083,
+              3281,
+              3508,
+              3824,
+              4141,
+              4457,
+              4793,
+              5188,
+              5583,
+              5979,
+              6374,
+              6769,
+              7165,
+              7560,
+              7955,
+              8351,
+              8746
+            ],
+            "energy": 35,
+            "element_power": 126,
+            "hardness_lv": 10000,
+            "tough_lv": 2779,
+            "weakness_lvl": 1112
+          },
+          "13091210040": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2411,
+              2609,
+              2806,
+              3083,
+              3281,
+              3508,
+              3824,
+              4141,
+              4457,
+              4793,
+              5188,
+              5583,
+              5979,
+              6374,
+              6769,
+              7165,
+              7560,
+              7955,
+              8351,
+              8746
+            ],
+            "energy": 35,
+            "element_power": 126,
+            "hardness_lv": 10000,
+            "tough_lv": 2779,
+            "weakness_lvl": 1112
+          },
+          "13091210050": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2411,
+              2609,
+              2806,
+              3083,
+              3281,
+              3508,
+              3824,
+              4141,
+              4457,
+              4793,
+              5188,
+              5583,
+              5979,
+              6374,
+              6769,
+              7165,
+              7560,
+              7955,
+              8351,
+              8746
+            ],
+            "energy": 35,
+            "element_power": 126,
+            "hardness_lv": 10000,
+            "tough_lv": 2779,
+            "weakness_lvl": 1112
+          },
+          "13091210060": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2411,
+              2609,
+              2806,
+              3083,
+              3281,
+              3508,
+              3824,
+              4141,
+              4457,
+              4793,
+              5188,
+              5583,
+              5979,
+              6374,
+              6769,
+              7165,
+              7560,
+              7955,
+              8351,
+              8746
+            ],
+            "energy": 35,
+            "element_power": 126,
+            "hardness_lv": 10000,
+            "tough_lv": 2779,
+            "weakness_lvl": 1112
+          },
+          "13091220010": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              1547,
+              1674,
+              1801,
+              1978,
+              2105,
+              2251,
+              2454,
+              2656,
+              2859,
+              3075,
+              3329,
+              3582,
+              3836,
+              4089,
+              4343,
+              4597,
+              4850,
+              5104,
+              5357,
+              5611
+            ],
+            "energy": 59,
+            "element_power": 210,
+            "hardness_lv": 10000,
+            "tough_lv": 4660,
+            "weakness_lvl": 1864
+          },
+          "13091230010": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2210,
+              2392,
+              2573,
+              2826,
+              3008,
+              3216,
+              3506,
+              3796,
+              4086,
+              4394,
+              4756,
+              5119,
+              5481,
+              5844,
+              6206,
+              6568,
+              6931,
+              7293,
+              7656,
+              8018
+            ],
+            "energy": 67,
+            "element_power": 241,
+            "hardness_lv": 10000,
+            "tough_lv": 5340,
+            "weakness_lvl": 2136
+          },
+          "13091240010": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              4273,
+              4624,
+              4974,
+              5464,
+              5815,
+              6218,
+              6778,
+              7339,
+              7899,
+              8495,
+              9196,
+              9896,
+              10597,
+              11298,
+              11999,
+              12699,
+              13400,
+              14101,
+              14802,
+              15502
+            ],
+            "energy": 68,
+            "element_power": 243,
+            "hardness_lv": 10000,
+            "tough_lv": 5395,
+            "weakness_lvl": 2158
+          },
+          "13091240020": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              4273,
+              4624,
+              4974,
+              5464,
+              5815,
+              6218,
+              6778,
+              7339,
+              7899,
+              8495,
+              9196,
+              9896,
+              10597,
+              11298,
+              11999,
+              12699,
+              13400,
+              14101,
+              14802,
+              15502
+            ],
+            "energy": 68,
+            "element_power": 243,
+            "hardness_lv": 10000,
+            "tough_lv": 5395,
+            "weakness_lvl": 2158
+          },
+          "13091240030": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              4403,
+              4764,
+              5125,
+              5630,
+              5991,
+              6406,
+              6984,
+              7561,
+              8139,
+              8752,
+              9474,
+              10196,
+              10918,
+              11640,
+              12362,
+              13084,
+              13806,
+              14528,
+              15250,
+              15972
+            ],
+            "energy": 70,
+            "element_power": 251,
+            "hardness_lv": 10000,
+            "tough_lv": 5558,
+            "weakness_lvl": 2224
+          },
+          "13091250010": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3986,
+              4313,
+              4640,
+              5097,
+              5424,
+              5800,
+              6323,
+              6846,
+              7368,
+              7924,
+              8578,
+              9231,
+              9885,
+              10538,
+              11192,
+              11846,
+              12499,
+              13153,
+              13807,
+              14460
+            ],
+            "energy": 90,
+            "element_power": 323,
+            "hardness_lv": 10000,
+            "tough_lv": 7160,
+            "weakness_lvl": 2864
+          },
+          "13091110201": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8262,
+              8939,
+              9617,
+              10565,
+              11243,
+              12022,
+              13106,
+              14189,
+              15273,
+              16425,
+              17780,
+              19135,
+              20490,
+              21844,
+              23199,
+              24554,
+              25909,
+              27264,
+              28619,
+              29974
+            ],
+            "energy": 50,
+            "element_power": 178,
+            "hardness_lv": 10000,
+            "tough_lv": 3934,
+            "weakness_lvl": 5414
+          },
+          "13091110211": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8262,
+              8939,
+              9617,
+              10565,
+              11243,
+              12022,
+              13106,
+              14189,
+              15273,
+              16425,
+              17780,
+              19135,
+              20490,
+              21844,
+              23199,
+              24554,
+              25909,
+              27264,
+              28619,
+              29974
+            ],
+            "energy": 50,
+            "element_power": 178,
+            "hardness_lv": 10000,
+            "tough_lv": 3934,
+            "weakness_lvl": 5414
+          },
+          "13091110221": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8262,
+              8939,
+              9617,
+              10565,
+              11243,
+              12022,
+              13106,
+              14189,
+              15273,
+              16425,
+              17780,
+              19135,
+              20490,
+              21844,
+              23199,
+              24554,
+              25909,
+              27264,
+              28619,
+              29974
+            ],
+            "energy": 50,
+            "element_power": 178,
+            "hardness_lv": 10000,
+            "tough_lv": 3934,
+            "weakness_lvl": 5414
+          },
+          "13091110231": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8262,
+              8939,
+              9617,
+              10565,
+              11243,
+              12022,
+              13106,
+              14189,
+              15273,
+              16425,
+              17780,
+              19135,
+              20490,
+              21844,
+              23199,
+              24554,
+              25909,
+              27264,
+              28619,
+              29974
+            ],
+            "energy": 50,
+            "element_power": 178,
+            "hardness_lv": 10000,
+            "tough_lv": 3934,
+            "weakness_lvl": 5414
+          },
+          "13091110301": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              24785,
+              26817,
+              28849,
+              31695,
+              33727,
+              36064,
+              39316,
+              42567,
+              45819,
+              49274,
+              53339,
+              57403,
+              61468,
+              65532,
+              69597,
+              73662,
+              77726,
+              81791,
+              85855,
+              89920
+            ],
+            "energy": 148,
+            "element_power": 532,
+            "hardness_lv": 10000,
+            "tough_lv": 11802,
+            "weakness_lvl": 16241
+          },
+          "13091110311": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              24785,
+              26817,
+              28849,
+              31695,
+              33727,
+              36064,
+              39316,
+              42567,
+              45819,
+              49274,
+              53339,
+              57403,
+              61468,
+              65532,
+              69597,
+              73662,
+              77726,
+              81791,
+              85855,
+              89920
+            ],
+            "energy": 148,
+            "element_power": 532,
+            "hardness_lv": 10000,
+            "tough_lv": 11802,
+            "weakness_lvl": 16241
+          },
+          "13091110501": {
+            "element": 3,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3600,
+              3896,
+              4191,
+              4604,
+              4899,
+              5239,
+              5711,
+              6183,
+              6656,
+              7158,
+              7748,
+              8338,
+              8929,
+              9519,
+              10110,
+              10700,
+              11290,
+              11881,
+              12471,
+              13062
+            ],
+            "energy": 0,
+            "element_power": 0,
+            "hardness_lv": 10000,
+            "tough_lv": 0,
+            "weakness_lvl": 0
+          },
+          "13091130101": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              15850,
+              17150,
+              18450,
+              20269,
+              21569,
+              23063,
+              25143,
+              27222,
+              29302,
+              31511,
+              34111,
+              36710,
+              39309,
+              41909,
+              44508,
+              47107,
+              49707,
+              52306,
+              54905,
+              57505
+            ],
+            "energy": 208,
+            "element_power": 748,
+            "hardness_lv": 10000,
+            "tough_lv": 16613,
+            "weakness_lvl": 6646
+          },
+          "13091140101": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3907,
+              4228,
+              4548,
+              4997,
+              5317,
+              5685,
+              6198,
+              6711,
+              7223,
+              7768,
+              8408,
+              9049,
+              9690,
+              10331,
+              10971,
+              11612,
+              12253,
+              12893,
+              13534,
+              14175
+            ],
+            "energy": 81,
+            "element_power": 289,
+            "hardness_lv": 10000,
+            "tough_lv": 6412,
+            "weakness_lvl": 2565
+          },
+          "13091150101": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              4680,
+              5064,
+              5447,
+              5985,
+              6368,
+              6810,
+              7424,
+              8038,
+              8652,
+              9304,
+              10071,
+              10839,
+              11606,
+              12374,
+              13141,
+              13909,
+              14676,
+              15443,
+              16211,
+              16978
+            ],
+            "energy": 89,
+            "element_power": 319,
+            "hardness_lv": 10000,
+            "tough_lv": 7072,
+            "weakness_lvl": 2829
+          },
+          "13091160101": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3820,
+              4133,
+              4447,
+              4885,
+              5198,
+              5558,
+              6060,
+              6561,
+              7062,
+              7594,
+              8221,
+              8847,
+              9473,
+              10100,
+              10726,
+              11353,
+              11979,
+              12606,
+              13232,
+              13858
+            ],
+            "energy": 60,
+            "element_power": 216,
+            "hardness_lv": 10000,
+            "tough_lv": 4800,
+            "weakness_lvl": 1920
+          },
+          "13091160201": {
+            "element": 4,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3820,
+              4133,
+              4447,
+              4885,
+              5198,
+              5558,
+              6060,
+              6561,
+              7062,
+              7594,
+              8221,
+              8847,
+              9473,
+              10100,
+              10726,
+              11353,
+              11979,
+              12606,
+              13232,
+              13858
+            ],
+            "energy": 60,
+            "element_power": 216,
+            "hardness_lv": 10000,
+            "tough_lv": 4800,
+            "weakness_lvl": 1920
+          },
+          "13091170101": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3831,
+              4145,
+              4459,
+              4898,
+              5213,
+              5574,
+              6076,
+              6579,
+              7081,
+              7615,
+              8243,
+              8871,
+              9500,
+              10128,
+              10756,
+              11384,
+              12012,
+              12640,
+              13268,
+              13897
+            ],
+            "energy": 53,
+            "element_power": 189,
+            "hardness_lv": 10000,
+            "tough_lv": 4194,
+            "weakness_lvl": 1678
+          },
+          "13091170201": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              3831,
+              4145,
+              4459,
+              4898,
+              5213,
+              5574,
+              6076,
+              6579,
+              7081,
+              7615,
+              8243,
+              8871,
+              9500,
+              10128,
+              10756,
+              11384,
+              12012,
+              12640,
+              13268,
+              13897
+            ],
+            "energy": 53,
+            "element_power": 189,
+            "hardness_lv": 10000,
+            "tough_lv": 4194,
+            "weakness_lvl": 1678
+          },
+          "13091170301": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              5107,
+              5526,
+              5945,
+              6531,
+              6950,
+              7431,
+              8101,
+              8771,
+              9442,
+              10153,
+              10991,
+              11828,
+              12666,
+              13503,
+              14341,
+              15179,
+              16016,
+              16854,
+              17691,
+              18529
+            ],
+            "energy": 70,
+            "element_power": 252,
+            "hardness_lv": 10000,
+            "tough_lv": 5592,
+            "weakness_lvl": 2237
+          },
+          "13091180101": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              5423,
+              5867,
+              6312,
+              6934,
+              7379,
+              7890,
+              8602,
+              9313,
+              10024,
+              10780,
+              11669,
+              12559,
+              13448,
+              14337,
+              15226,
+              16116,
+              17005,
+              17894,
+              18783,
+              19672
+            ],
+            "energy": 74,
+            "element_power": 264,
+            "hardness_lv": 10000,
+            "tough_lv": 5862,
+            "weakness_lvl": 2345
+          },
+          "13091180201": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8134,
+              8801,
+              9467,
+              10401,
+              11068,
+              11835,
+              12902,
+              13969,
+              15036,
+              16170,
+              17504,
+              18838,
+              20172,
+              21505,
+              22839,
+              24173,
+              25507,
+              26841,
+              28175,
+              29508
+            ],
+            "energy": 110,
+            "element_power": 396,
+            "hardness_lv": 10000,
+            "tough_lv": 8792,
+            "weakness_lvl": 3517
+          },
+          "13091190101": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              1504,
+              1628,
+              1751,
+              1924,
+              2047,
+              2189,
+              2386,
+              2583,
+              2781,
+              2990,
+              3237,
+              3484,
+              3730,
+              3977,
+              4223,
+              4470,
+              4717,
+              4963,
+              5210,
+              5457
+            ],
+            "energy": 20,
+            "element_power": 72,
+            "hardness_lv": 10000,
+            "tough_lv": 1592,
+            "weakness_lvl": 637
+          },
+          "13091190201": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              10527,
+              11391,
+              12254,
+              13462,
+              14325,
+              15318,
+              16699,
+              18080,
+              19461,
+              20929,
+              22655,
+              24382,
+              26108,
+              27835,
+              29561,
+              31287,
+              33014,
+              34740,
+              36467,
+              38193
+            ],
+            "energy": 140,
+            "element_power": 502,
+            "hardness_lv": 10000,
+            "tough_lv": 11144,
+            "weakness_lvl": 4458
+          },
+          "13091200101": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              1486,
+              1607,
+              1729,
+              1900,
+              2021,
+              2161,
+              2356,
+              2551,
+              2746,
+              2953,
+              3197,
+              3440,
+              3684,
+              3927,
+              4171,
+              4414,
+              4658,
+              4901,
+              5145,
+              5389
+            ],
+            "energy": 20,
+            "element_power": 71,
+            "hardness_lv": 10000,
+            "tough_lv": 1576,
+            "weakness_lvl": 631
+          },
+          "13091200201": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8911,
+              9642,
+              10372,
+              11395,
+              12126,
+              12966,
+              14135,
+              15304,
+              16474,
+              17716,
+              19177,
+              20638,
+              22100,
+              23561,
+              25022,
+              26484,
+              27945,
+              29406,
+              30868,
+              32329
+            ],
+            "energy": 119,
+            "element_power": 426,
+            "hardness_lv": 10000,
+            "tough_lv": 9456,
+            "weakness_lvl": 3783
+          },
+          "13091210011": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8678,
+              9390,
+              10101,
+              11098,
+              11809,
+              12627,
+              13766,
+              14905,
+              16043,
+              17253,
+              18676,
+              20099,
+              21522,
+              22945,
+              24368,
+              25792,
+              27215,
+              28638,
+              30061,
+              31484
+            ],
+            "energy": 105,
+            "element_power": 376,
+            "hardness_lv": 10000,
+            "tough_lv": 8335,
+            "weakness_lvl": 3334
+          },
+          "13091210021": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              8678,
+              9390,
+              10101,
+              11098,
+              11809,
+              12627,
+              13766,
+              14905,
+              16043,
+              17253,
+              18676,
+              20099,
+              21522,
+              22945,
+              24368,
+              25792,
+              27215,
+              28638,
+              30061,
+              31484
+            ],
+            "energy": 105,
+            "element_power": 376,
+            "hardness_lv": 10000,
+            "tough_lv": 8335,
+            "weakness_lvl": 3334
+          },
+          "13091210031": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2893,
+              3130,
+              3367,
+              3700,
+              3937,
+              4209,
+              4589,
+              4969,
+              5348,
+              5751,
+              6226,
+              6700,
+              7174,
+              7649,
+              8123,
+              8598,
+              9072,
+              9546,
+              10021,
+              10495
+            ],
+            "energy": 35,
+            "element_power": 126,
+            "hardness_lv": 10000,
+            "tough_lv": 2779,
+            "weakness_lvl": 1112
+          },
+          "13091210041": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2893,
+              3130,
+              3367,
+              3700,
+              3937,
+              4209,
+              4589,
+              4969,
+              5348,
+              5751,
+              6226,
+              6700,
+              7174,
+              7649,
+              8123,
+              8598,
+              9072,
+              9546,
+              10021,
+              10495
+            ],
+            "energy": 35,
+            "element_power": 126,
+            "hardness_lv": 10000,
+            "tough_lv": 2779,
+            "weakness_lvl": 1112
+          },
+          "13091210051": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2893,
+              3130,
+              3367,
+              3700,
+              3937,
+              4209,
+              4589,
+              4969,
+              5348,
+              5751,
+              6226,
+              6700,
+              7174,
+              7649,
+              8123,
+              8598,
+              9072,
+              9546,
+              10021,
+              10495
+            ],
+            "energy": 35,
+            "element_power": 126,
+            "hardness_lv": 10000,
+            "tough_lv": 2779,
+            "weakness_lvl": 1112
+          },
+          "13091210061": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2893,
+              3130,
+              3367,
+              3700,
+              3937,
+              4209,
+              4589,
+              4969,
+              5348,
+              5751,
+              6226,
+              6700,
+              7174,
+              7649,
+              8123,
+              8598,
+              9072,
+              9546,
+              10021,
+              10495
+            ],
+            "energy": 35,
+            "element_power": 126,
+            "hardness_lv": 10000,
+            "tough_lv": 2779,
+            "weakness_lvl": 1112
+          },
+          "13091220011": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              1856,
+              2008,
+              2161,
+              2374,
+              2526,
+              2701,
+              2944,
+              3188,
+              3431,
+              3690,
+              3994,
+              4298,
+              4603,
+              4907,
+              5211,
+              5516,
+              5820,
+              6124,
+              6429,
+              6733
+            ],
+            "energy": 59,
+            "element_power": 210,
+            "hardness_lv": 10000,
+            "tough_lv": 4660,
+            "weakness_lvl": 1864
+          },
+          "13091230011": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              2652,
+              2870,
+              3087,
+              3392,
+              3609,
+              3859,
+              4207,
+              4555,
+              4903,
+              5273,
+              5707,
+              6142,
+              6577,
+              7012,
+              7447,
+              7882,
+              8317,
+              8752,
+              9187,
+              9622
+            ],
+            "energy": 67,
+            "element_power": 241,
+            "hardness_lv": 10000,
+            "tough_lv": 5340,
+            "weakness_lvl": 2136
+          },
+          "13091240011": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              5128,
+              5548,
+              5969,
+              6557,
+              6978,
+              7461,
+              8134,
+              8807,
+              9479,
+              10194,
+              11035,
+              11876,
+              12717,
+              13557,
+              14398,
+              15239,
+              16080,
+              16921,
+              17762,
+              18603
+            ],
+            "energy": 68,
+            "element_power": 243,
+            "hardness_lv": 10000,
+            "tough_lv": 5395,
+            "weakness_lvl": 2158
+          },
+          "13091240021": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              5128,
+              5548,
+              5969,
+              6557,
+              6978,
+              7461,
+              8134,
+              8807,
+              9479,
+              10194,
+              11035,
+              11876,
+              12717,
+              13557,
+              14398,
+              15239,
+              16080,
+              16921,
+              17762,
+              18603
+            ],
+            "energy": 68,
+            "element_power": 243,
+            "hardness_lv": 10000,
+            "tough_lv": 5395,
+            "weakness_lvl": 2158
+          },
+          "13091240031": {
+            "element": 6,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              5283,
+              5716,
+              6149,
+              6756,
+              7189,
+              7687,
+              8380,
+              9073,
+              9766,
+              10503,
+              11369,
+              12236,
+              13102,
+              13968,
+              14835,
+              15701,
+              16567,
+              17434,
+              18300,
+              19166
+            ],
+            "energy": 70,
+            "element_power": 251,
+            "hardness_lv": 10000,
+            "tough_lv": 5558,
+            "weakness_lvl": 2224
+          },
+          "13091250011": {
+            "element": 5,
+            "related_property": "ATK",
+            "type": 4,
+            "rate_lv": [
+              4783,
+              5175,
+              5567,
+              6116,
+              6509,
+              6960,
+              7587,
+              8215,
+              8842,
+              9509,
+              10293,
+              11077,
+              11862,
+              12646,
+              13430,
+              14215,
+              14999,
+              15783,
+              16568,
+              17352
+            ],
+            "energy": 90,
+            "element_power": 323,
+            "hardness_lv": 10000,
+            "tough_lv": 7160,
+            "weakness_lvl": 2864
+          }
+        }
+      }
+    },
+    "8": {
+      "parent_nodes": [],
+      "node_type": 3,
+      "coordinate": 1,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Rumbling Thunders",
+        "desc": "<size=40><color=Title>Skill Description</color></size>\nThe incoming Resonator gains <color=Highlight>Electric Core</color>. When Resonators with <color=Highlight>Electro Core</color><color=Highlight> inflict Negative Statuses, consume <color=Highlight>Electric Core</color> to gain {0}% All DMG Amplification for {1}s.",
+        "param": [
+          "20",
+          "25",
+          "14"
+        ],
+        "simple_desc": "<size=40><color=Title>Skill Description</color></size>\nThe incoming Resonator gains <color=Highlight>Electric Core</color>. When Resonators with <color=Highlight>Electro Core</color><color=Highlight> inflict Negative Statuses, consume Electric Core</color> to gain All DMG Amplification.",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconThunderzhu/SP_IconThunderzhuT.SP_IconThunderzhuT",
+        "type": "Outro Skill",
+        "level": {},
+        "consume": {
+          "1": []
+        },
+        "damage": {}
+      }
+    },
+    "9": {
+      "parent_nodes": [
+        1
+      ],
+      "node_type": 4,
+      "coordinate": 1,
+      "un_lock_condition": 500006,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43021013,
+          "value": 3
+        },
+        {
+          "key": 41100013,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 50000
+        }
+      ],
+      "skill": {
+        "name": "Crit. Rate+",
+        "desc": "Crit. Rate increased by {0}.",
+        "param": [
+          "1.20%"
+        ],
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "10": {
+      "parent_nodes": [
+        2
+      ],
+      "node_type": 4,
+      "coordinate": 1,
+      "un_lock_condition": 500005,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43021013,
+          "value": 3
+        },
+        {
+          "key": 41100013,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 50000
+        }
+      ],
+      "skill": {
+        "name": "ATK+",
+        "desc": "ATK increased by {0}.",
+        "param": [
+          "1.80%"
+        ],
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "11": {
+      "parent_nodes": [
+        3
+      ],
+      "node_type": 4,
+      "coordinate": 1,
+      "un_lock_condition": 500005,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43021013,
+          "value": 3
+        },
+        {
+          "key": 41100013,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 50000
+        }
+      ],
+      "skill": {
+        "name": "ATK+",
+        "desc": "ATK increased by {0}.",
+        "param": [
+          "1.80%"
+        ],
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "12": {
+      "parent_nodes": [
+        6
+      ],
+      "node_type": 4,
+      "coordinate": 1,
+      "un_lock_condition": 500006,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43021013,
+          "value": 3
+        },
+        {
+          "key": 41100013,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 50000
+        }
+      ],
+      "skill": {
+        "name": "Crit. Rate+",
+        "desc": "Crit. Rate increased by {0}.",
+        "param": [
+          "1.20%"
+        ],
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "13": {
+      "parent_nodes": [
+        9
+      ],
+      "node_type": 4,
+      "coordinate": 2,
+      "un_lock_condition": 500008,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43021014,
+          "value": 3
+        },
+        {
+          "key": 41100014,
+          "value": 3
+        },
+        {
+          "key": 41400304,
+          "value": 1
+        },
+        {
+          "key": 2,
+          "value": 100000
+        }
+      ],
+      "skill": {
+        "name": "Crit. Rate+",
+        "desc": "Crit. Rate increased by {0}.",
+        "param": [
+          "2.80%"
+        ],
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "14": {
+      "parent_nodes": [
+        10
+      ],
+      "node_type": 4,
+      "coordinate": 2,
+      "un_lock_condition": 500007,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43021014,
+          "value": 3
+        },
+        {
+          "key": 41100014,
+          "value": 3
+        },
+        {
+          "key": 41400304,
+          "value": 1
+        },
+        {
+          "key": 2,
+          "value": 100000
+        }
+      ],
+      "skill": {
+        "name": "ATK+",
+        "desc": "ATK increased by {0}.",
+        "param": [
+          "4.20%"
+        ],
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "15": {
+      "parent_nodes": [
+        11
+      ],
+      "node_type": 4,
+      "coordinate": 2,
+      "un_lock_condition": 500007,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43021014,
+          "value": 3
+        },
+        {
+          "key": 41100014,
+          "value": 3
+        },
+        {
+          "key": 41400304,
+          "value": 1
+        },
+        {
+          "key": 2,
+          "value": 100000
+        }
+      ],
+      "skill": {
+        "name": "ATK+",
+        "desc": "ATK increased by {0}.",
+        "param": [
+          "4.20%"
+        ],
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI"
+      }
+    },
+    "16": {
+      "parent_nodes": [
+        12
+      ],
+      "node_type": 4,
+      "coordinate": 2,
+      "un_lock_condition": 500008,
+      "skill_branch_ids": [],
+      "consume": [
+        {
+          "key": 43021014,
+          "value": 3
+        },
+        {
+          "key": 41100014,
+          "value": 3
+        },
+        {
+          "key": 41400304,
+          "value": 1
+        },
+        {
+          "key": 2,
+          "value": 100000
+        }
+      ],
+      "skill": {
+        "name": "Crit. Rate+",
+        "desc": "Crit. Rate increased by {0}.",
+        "param": [
+          "2.80%"
+        ],
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI"
+      }
+    },
+    "17": {
+      "parent_nodes": [],
+      "node_type": 3,
+      "coordinate": 1,
+      "un_lock_condition": 0,
+      "skill_branch_ids": [
+        121101,
+        121102
+      ],
+      "consume": [
+        {
+          "key": 43020032,
+          "value": 2
+        },
+        {
+          "key": 41100022,
+          "value": 3
+        },
+        {
+          "key": 2,
+          "value": 3900
+        }
+      ],
+      "skill": {
+        "name": "Tune Break - Sword",
+        "desc": "<size=40><color=Title>Skill Description</color></size>\nWhen the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color> on the target.",
+        "param": [],
+        "simple_desc": "<size=40><color=Title>Skill Description</color></size>\nWhen the target's <color=Highlight>Off-Tune Level</color> is full, the Resonator may cast <color=Highlight><te href=100001>Tune Break</te></color> on the target.",
+        "simple_param": [],
+        "icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.SP_IconWeakPointBreakKnife",
+        "type": "Tune Break",
+        "level": {},
+        "consume": {
+          "1": []
+        },
+        "damage": {}
+      }
+    }
+  },
+  "skill_branches": {},
+  "chains": {
+    "1": {
+      "name": "Celestial Ingenuity",
+      "desc": "<size=40><color=Title>Resonance Skill</color></size>\nWhile casting <color=Highlight>Normal Attack</color> and <color=Highlight>Thrum of All Sounds</color>, gain increased resistance to interruption for {0}s.",
+      "param": [
+        "0.5"
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM1_UI.T_IconDevice_ThunderzhuM1_UI"
+    },
+    "2": {
+      "name": "Thousandfold Artifice",
+      "desc": "<size=40><color=Title>Resonance Liberation</color></size>\nInflict <SapTag=0>{0}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=0} of <color=Highlight><color=Highlight>【<te href=850013>Electro Flare</te></color> after casting <color=Highlight>Resonance Liberation</color>.",
+      "param": [
+        "5"
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM2_UI.T_IconDevice_ThunderzhuM2_UI"
+    },
+    "3": {
+      "name": "Alchemy of Wonders",
+      "desc": "<size=40><color=Title>Resonance Skill</color></size>\nThe DMG Multiplier of Resonance Skill <color=Highlight>Overshock</color> is increased by {0}.",
+      "param": [
+        "20%"
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM3_UI.T_IconDevice_ThunderzhuM3_UI"
+    },
+    "4": {
+      "name": "Earthquaking Rumble",
+      "desc": "<size=40><color=Title>Resonance Liberation</color></size>\nThe DMG Multiplier of <color=Highlight>Resonance Liberation</color> is increased by {0}.",
+      "param": [
+        "20%"
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM4_UI.T_IconDevice_ThunderzhuM4_UI"
+    },
+    "5": {
+      "name": "Principle of Change",
+      "desc": "<size=40><color=Title>Skill Description</color></size>\nCrit. DMG is increased by {0} during <color=Highlight>Apex Resonance</color>.",
+      "param": [
+        "20%"
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM5_UI.T_IconDevice_ThunderzhuM5_UI"
+    },
+    "6": {
+      "name": "Mind’s Depths in a Casket",
+      "desc": "<size=40><color=Title>Resonance Skill</color></size>\nThe DMG Multiplier of <color=Highlight>Thrum of All Sounds</color> is increased by {0}.",
+      "param": [
+        "20%"
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ThunderzhuM6_UI.T_IconDevice_ThunderzhuM6_UI"
+    }
+  },
+  "ascensions": {
+    "1": [
+      {
+        "key": 41100011,
+        "value": 4
+      },
+      {
+        "key": 2,
+        "value": 5000
+      }
+    ],
+    "2": [
+      {
+        "key": 41300005,
+        "value": 1
+      },
+      {
+        "key": 42300060,
+        "value": 4
+      },
+      {
+        "key": 41100012,
+        "value": 4
+      },
+      {
+        "key": 2,
+        "value": 10000
+      }
+    ],
+    "3": [
+      {
+        "key": 41300005,
+        "value": 1
+      },
+      {
+        "key": 42300060,
+        "value": 8
+      },
+      {
+        "key": 41100012,
+        "value": 8
+      },
+      {
+        "key": 2,
+        "value": 15000
+      }
+    ],
+    "4": [
+      {
+        "key": 41300005,
+        "value": 1
+      },
+      {
+        "key": 42300060,
+        "value": 12
+      },
+      {
+        "key": 41100013,
+        "value": 4
+      },
+      {
+        "key": 2,
+        "value": 20000
+      }
+    ],
+    "5": [
+      {
+        "key": 41300005,
+        "value": 1
+      },
+      {
+        "key": 42300060,
+        "value": 16
+      },
+      {
+        "key": 41100013,
+        "value": 8
+      },
+      {
+        "key": 2,
+        "value": 40000
+      }
+    ],
+    "6": [
+      {
+        "key": 41300005,
+        "value": 1
+      },
+      {
+        "key": 42300060,
+        "value": 20
+      },
+      {
+        "key": 41100014,
+        "value": 4
+      },
+      {
+        "key": 2,
+        "value": 80000
+      }
+    ]
+  },
+  "skin": {
+    "81001309": {
+      "id": 81001309,
+      "suit_weapon_skin_id": 0,
+      "quality_id": 3,
+      "name": "",
+      "title_name": "Wandering Traveler",
+      "sub_dec_name": "Rover - Original Outfit",
+      "bg_description": "Rover's usual outfit. This is what he wore at the beginning of his journey and what he will be wearing for the rest of it.",
+      "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.T_IconRole_Pile_zhujuenan_UI",
+      "portrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+      "sort_index": 0,
+      "formation_spine_skel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Male/Portraits_Male.Portraits_Male-data",
+      "formation_spine_atlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Male/Portraits_Male.Portraits_Male-atlas"
+    },
+    "81011309": {
+      "id": 81011309,
+      "suit_weapon_skin_id": 0,
+      "quality_id": 4,
+      "name": "",
+      "title_name": "Perpetual Spark",
+      "sub_dec_name": "Rover - Signature Outfit",
+      "bg_description": "Rover's uniform from a past life at Startorch Academy. The black-and-white motif, accented with gold stripes, weaves past and future together, ensuring that what has happened is remembered and what is yet to come feels within reach.",
+      "background": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan1_UI.T_IconRole_Pile_zhujuenan1_UI",
+      "portrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNanzhu.T_ActivityRoleNanzhu",
+      "sort_index": 100,
+      "formation_spine_skel": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Male1/PortraitsMale_Skin1.PortraitsMale_Skin1-data",
+      "formation_spine_atlas": "/Game/Aki/UI/UIResources/Common/Spine/Portraits/Portraits_Male1/PortraitsMale_Skin1.PortraitsMale_Skin1-atlas",
+      "skeleton": "/Game/Aki/UI/UIResources/Common/Spine/Skin/Male1/c_Male_Skin1.c_Male_Skin1-data",
+      "atlas": "/Game/Aki/UI/UIResources/Common/Spine/Skin/Male1/c_Male_Skin1.c_Male_Skin1-atlas"
+    }
+  },
+  "forte": {
+    "skill_input_list": {},
+    "icon": "",
+    "desc_list": []
+  },
+  "forte_new": {
+    "features": [
+      "",
+      "",
+      ""
+    ],
+    "instructions": {
+      "130901": {
+        "name": "Forte Gauge",
+        "desc": {
+          "130901": {
+            "desc": "",
+            "input_list": [],
+            "image_list": [
+              "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeThunderzhu1.T_RoleSkillTreeThunderzhu1"
+            ]
+          },
+          "130902": {
+            "desc": "",
+            "input_list": [],
+            "image_list": [
+              "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeThunderzhu2.T_RoleSkillTreeThunderzhu2"
+            ]
+          },
+          "130903": {
+            "desc": "",
+            "input_list": [],
+            "image_list": [
+              "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeThunderzhu3.T_RoleSkillTreeThunderzhu3"
+            ]
+          },
+          "130904": {
+            "desc": "",
+            "input_list": [],
+            "image_list": []
+          }
+        },
+        "type": 0
+      },
+      "130902": {
+        "name": "Instructions",
+        "desc": {
+          "130905": {
+            "desc": "",
+            "input_list": [
+              "攻击"
+            ],
+            "image_list": []
+          },
+          "130906": {
+            "desc": "",
+            "input_list": [
+              "攻击"
+            ],
+            "image_list": []
+          }
+        },
+        "type": 1
+      }
+    }
+  },
+  "live2d": "",
+  "audio": "",
+  "recommend": {}
+}

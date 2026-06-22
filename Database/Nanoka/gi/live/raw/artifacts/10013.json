@@ -1,0 +1,147 @@
+{
+  "id": 10013,
+  "icon": "UI_RelicIcon_10013_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_HEALED_ADD",
+          "value": 0.2
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2100130,
+      "id": 210013,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Traveling Doctor",
+      "desc": "Increases incoming healing by 20%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2100131,
+      "id": 210013,
+      "level": 1,
+      "open_config": "Relic_UltHealSelf",
+      "param_list": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Traveling Doctor",
+      "desc": "Using Elemental Burst restores 20% HP."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10013_1",
+      "name": "Traveling Doctor's Medicine Pot",
+      "desc": "This pot used to carry concentrated and extremely potent concoctions. It is now empty, but still gives off a strong smell of medicine.",
+      "story": {
+        "280131": {
+          "zh": "ART/UI/Readable/CHS/Relic10013_1",
+          "en": "ART/UI/Readable/EN/Relic10013_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10013_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10013_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10013_2",
+      "name": "Traveling Doctor's Owl Feather",
+      "desc": "The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night.",
+      "story": {
+        "280132": {
+          "zh": "ART/UI/Readable/CHS/Relic10013_2",
+          "en": "ART/UI/Readable/EN/Relic10013_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10013_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10013_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10013_3",
+      "name": "Traveling Doctor's Handkerchief",
+      "desc": "Used to tie back the doctor's hair when treating patients. Can also be used as a sling for sprains and broken arms in emergencies.",
+      "story": {
+        "280133": {
+          "zh": "ART/UI/Readable/CHS/Relic10013_3",
+          "en": "ART/UI/Readable/EN/Relic10013_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10013_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10013_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10013_4",
+      "name": "Traveling Doctor's Silver Lotus",
+      "desc": "A precious medicinal ingredient that has lost all medicinal value after years in storage.",
+      "story": {
+        "280134": {
+          "zh": "ART/UI/Readable/CHS/Relic10013_4",
+          "en": "ART/UI/Readable/EN/Relic10013_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10013_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10013_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10013_5",
+      "name": "Traveling Doctor's Pocket Watch",
+      "desc": "A precise instrument used for keeping time. For a doctor, every second counts.",
+      "story": {
+        "280135": {
+          "zh": "ART/UI/Readable/CHS/Relic10013_5",
+          "en": "ART/UI/Readable/EN/Relic10013_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10013_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10013_5_KR"
+        }
+      }
+    }
+  }
+}

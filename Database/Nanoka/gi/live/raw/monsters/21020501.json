@@ -1,0 +1,307 @@
+{
+  "name": "Stonehide Lawachurl",
+  "desc": "A mysterious \"lord\" of hilichurls that walks between a thousand peaks.\\nThis huge hilichurl is referred to as a \"lawa\" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.",
+  "icon": "UI_MonsterIcon_Brute_Rock_None",
+  "codex": "HILICHURL",
+  "title": "Stonehide Lawachurl",
+  "special_names": [
+    "Stone Sealed Lawachurl"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112016,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112016"
+    },
+    {
+      "id": 112015,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112015"
+    },
+    {
+      "id": 112014,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112014"
+    },
+    {
+      "id": 112007,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112007"
+    },
+    {
+      "id": 112006,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112006"
+    },
+    {
+      "id": 112005,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112005"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "21020501": {
+      "monster_name": "Brute_Rock_None",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010050,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010050,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010050,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010050,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.5
+      },
+      "base": {
+        "hp": 122.256,
+        "atk": 113.04,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "21020502": {
+      "monster_name": "Brute_Rock_None",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.5
+      },
+      "base": {
+        "hp": 122.256,
+        "atk": 113.04,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "21020503": {
+      "monster_name": "Brute_Rock_None_ElectricHercules",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 13.584,
+        "atk": 22.608,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "21020581": {
+      "monster_name": "Brute_Rock_None",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010050,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010050,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010050,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010050,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.7,
+        "physical": 0.5
+      },
+      "base": {
+        "hp": 122.256,
+        "atk": 113.04,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "21020590": {
+      "monster_name": "Brute_Rock_None",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 241.80551,
+        "atk": 60.315,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

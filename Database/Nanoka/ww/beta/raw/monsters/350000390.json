@@ -1,0 +1,15 @@
+{
+  "id": 350000390,
+  "name": "Phantom: Kronaclaw",
+  "desc": "A powerful raptor believed to be extinct, now appearing within the Upphaf Life Chamber.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Wind>Aero DMG</color>.\nThis enemy has a higher All-Attribute RES.\nThis enemy has the Rage Feather ability and three weaknesses.\n\nAfter remaining in combat for a period of time, Kronaclaw enters the Rage Feather state, greatly enhancing its ATK.\nWeakness I: A successful Counterattack can damage its crest and wings, weakening its attacks and reducing the number of ranged projectiles.\nWeakness II: Tune Break can remove its Rage Feather state and reduce its ranged projectiles.\nSpecial Weakness: When Kronaclaw is under Tune Rupture - Shifting, hitting it with Tune Break will greatly reduce its All-Attribute RES.\n\nAn extinct ancient raptor reproduced through the Upphaf Life Chamber.\nIn the distant past, these raptors once circled the skies of Lahai-Roi, their dominion unchallenged since the First Epoch.\nLegend holds that the Kronaclaw was a creation of Sol, sharing the divine sight of the Eye of Sol and beholding all that lay above and below Lahai-Roi.\nBut as magnetic poles shifted and the landscape was reshaped, the Kronaclaw species had faded into near extinction. Their place was eventually taken by Kronablight, an Exoswarm born of the Exostrider.",
+  "rarity": 2,
+  "element": 4,
+  "element_array": [
+    4
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_32060_UI.T_IconMonsterHead_SG_32060_UI",
+  "echo": 6010194,
+  "base_stats": {},
+  "stats": {}
+}

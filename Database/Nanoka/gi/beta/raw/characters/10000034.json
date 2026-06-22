@@ -1,0 +1,4218 @@
+{
+  "name": "Noelle",
+  "desc": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+  "chara_info": {
+    "release_date": "2020-09-15 04:00:00",
+    "birth": [
+      3,
+      21
+    ],
+    "vision": "Geo",
+    "vision_special_type_before": "",
+    "vision_special_type_after": "",
+    "constellation": "Parma Cordis",
+    "region": "ASSOC_TYPE_MONDSTADT",
+    "title": "Chivalric Blossom",
+    "native": "Knights of Favonius",
+    "detail": "A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.",
+    "va": {
+      "chinese": "宴宁",
+      "japanese": "高尾奏音",
+      "english": "Laura Faye Smith",
+      "korean": "Lee Bo-hee"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "Noelle has much greater dreams and ambitions than other maids in the Knights of Favonius.\\nLike anyone else in this city protected by the Knights of Favonius, she too dreams of donning the honored armor.\\nEven if her skills are not enough to pass the rigorous selection trials, she still wishes to observe and learn from them every chance she gets.\\nAside from her training, she enjoys her current life, helping everyone in need.\\n\"You can leave absolutely anything to me!\"\\nThat's her signature line. If there's anything that you need, Noelle is glad to be of aid.",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "Noelle is \"the maid of all maids\" to many.\\nSuch people also tend to say this of her: \"She's everywhere.\"\\nFor example, there was a child who once tried to get a plate during a banquet, but found that there was no way to open the cabinet without all the plates falling out...\\n\"Noelle!!!!!!\"\\nAll the child needed to do was scream, and Noelle appeared. She put the cabinet down on its back, took a plate out, and handed it to the child, reminding him not to have cold drinks immediately after having barbecue. Then she righted the cabinet, cleaned up other plates, and then put them back in order.\\nNoelle's ability to be everywhere all at once is something miraculous to many.\\nHowever, the job of a maid is no myth or legend. Noelle only does her job to the letter.\\n\"No more, no less. As it should be, not as it should not be.\"\\nNoelle doesn't think there's anything special about her — she's just a little more conscientious, that's all.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "Noelle is always eager to help, sometimes excessively so.\\nIf you were to ask her how to build a campfire as she passed by, she would not only stop and build the campfire for you, she would also put up the grill racks, season the food, cook it for you, taste it herself to make sure it's done, and remind you to put out the fire when you've finished so as not to burn the forest down. Then she would get back to whatever she had been doing beforehand.\\nOf course, most people don't mind at all that she regularly goes the extra mile. But it can sometimes produce unexpected results...\\nFor example, a merchant from Snezhnaya once came to Mondstadt, ostensibly wishing to get into the winery business. In truth, he had an evil plot to ruin the land, destroy the winery business in Mondstadt altogether and then seize the market with wines from Snezhnaya.\\nHe disguised himself as an honest merchant with his family on a business trip to Mondstadt. Naturally, with them being visitors from afar, Noelle gave them a warm reception.\\nInitially, the merchant was delighted with Noelle's hospitality; it was a cut above the crude etiquette he had come to expect from most peasants in Mondstadt. However, after a while he began to feel that something was amiss.\\nNoelle seemed to be able to read his mind: She correctly guessed his schedule, cooked his family's favorite Snezhnayan dishes for them each day, and even knew that his daughter liked to go to bed hugging a ragdoll, presenting her with a hand-made doll she had sewn together herself.\\nThis spooked the merchant, and made him hesitant to execute the next phase of his plan. Noelle's warm smile now chilled the merchant to the bone. What else did she know, and what was she really planning?\\nIn the end, the merchant fled Mondstadt with his family.\\nNoelle was upset for a few days, thinking she had somehow insulted her guests. Little did she know that all of Mondstadt was indebted to her for taking her job so seriously.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Most of the time, Noelle's reliability provides a comforting presence, but there are always exceptions.\\nOnce, she learned that an adventurer was trapped on Dragonspine, so she decided to mount a rescue by herself.\\nThe snowstorm that day was terribly fierce, wiping out any tracks left by humans as soon as they were made. It was impossible to find a safe route to proceed, to say nothing of saving the adventurer amidst the snow.\\nHowever, Noelle persisted on searching for the adventurer and eventually found him inside a cave, suffering from severe hypothermia.\\nAt the time, her coat was completely soaked, and the water inside her bottle had turned to ice. Thirsty and hungry, Noelle still managed to carry the adventurer down on her back.\\nThe adventurer was saved, but Noelle, having over-exerted herself, laid in bed for three days straight, suffering from a high fever. Everyone in the Knights of Favonius barely slept out of concern for her during that period. Fortunately, Noelle recovered.\\nIt was not the first or second time that something similar had happened, and everyone was deeply worried for Noelle.\\nIn order to prevent Noelle from putting herself in harm's way again, Jean had to invent some safe jobs to keep Noelle busy. If something were to happen, then Kaeya would have to save the day.\\nDuring the Stormterror threat, Noelle was also eager to resolve the threat at its source. However, Kaeya managed to arrange quite a few \"urgent matters\" for her to attend to inside the city until it was all over.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Song of the Dragon and Freedom\""
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Noelle's petite form does a good job of hiding her great strength.\\nThis does not just refer to her resoluteness or her indomitable spirit, but also her physical strength.\\nOnce, Lisa accidentally dropped her experimental apparatus under her bookshelf and troubled over whether she could remain decent while bending over to retrieve it. Noelle made it over in the nick of time, lifting the full bookshelf with only one hand — and not a single book fell out between her hefting it and putting it down.\\nThere was another incident in which several cargo-bearing carts were attacked by Pyro Slimes as they tried to pass through Mondstadt's side gate. As the owners were all in a panic, it was Noelle again who came to the rescue — hurling the carts — cargo and all, into the Cider Lake, before leaping into the water herself and retrieving every last item.\\nRumor has it that when Noelle was studying the blade, she nearly sent Wagner — who prided himself in his forging skills — into despairing seclusion.\\nIn all, he forged over ten different swords with different alloy compositions for Noelle, but all would lose their edge after a few uses.\\nAt first, Wagner thought Noelle unskilled, but eventually found that the problem was more foundational: the swords just weren't strong enough.\\nPutting his reputation on the line, Wagner finally made Noelle a sturdy and heavy claymore that was further reinforced by her affinity for Geo. Only then was her weapon issue (barely) solved.\\nBut don't worry, Noelle won't use her superhuman strength unless the situation calls for it, as she is a pacifist at heart.\\nThey say, however, that the very day Noelle received her custom-made claymore, she was set upon by a pair of drunken Treasure Hoarders in Drunkard Gorge, who thought her a harmless lamb...\\nLet's just hope that no one else will ever be so unlucky.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "Noelle's greatest enemy, curiously, is not a person, but Ludi Harpastum itself.\\nDuring Ludi Harpastum, long tables arranged in a circular shape and filled with all kinds of food will be set up in the plaza before the Cathedral for everyone to enjoy.\\nThe food is usually prepared by volunteers who can cook. During this time, Noelle, who always holds herself to a high standard, joins the volunteers in continuously cooking and serving food.\\nIt's not really any additional work; what's difficult is that she insists on tasting every dish to make sure they are up to standard.\\nThe crispy Moon Pies; the sizzling Mondstadt Pork Chops; the towering Pile 'Em Ups — all the fried and barbecued foods, equal parts delicious and fatty, are customary at the festival.\\nThe smiles on people's faces make Noelle truly happy. What makes her less so is seeing her bulging belly. She can't help but let out a sigh.\\nFor the entire month following the festival, Noelle will volunteer for the Knights of Favonius' city night patrol.\\nThe festival may be over, but her battle is only beginning.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "\"Warning of Roses\"",
+        "text": "The maids of the Knights have many \"red lines\" that are not to be crossed, and one of these is that \"the personal information of the Knights must be kept in strict confidence.\"\\nThis does not only require restricting outsider access to such information — this restriction also applies to other members of the Knights.\\nFor example, what Jean keeps in her private quarters, the contents of Amber's Baron Bunny, the number of special eye patches that Kaeya owns, the number of Klee's hidden bomb caches... These things are all top secret.\\nTo avoid leaking such information, Noelle used red cloth to make a great many roses — in Mondstadt, this flower means \"my lips are sealed.\"\\nShe specially wove one such rose into her gauntlet as an ever-present reminder to herself.\\nRevealing secrets would be a major dereliction of duty for a maid, and those who aspire to be knights cannot afford such errors.\\nSo you can forget about probing Noelle for any secrets. She won't tell.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Vision",
+        "text": "Noelle did once wish to fulfill her dream before its time. Some years ago, after failing her seventh selection test, which was really a foregone conclusion, she felt somewhat discouraged.\\nThe etiquette, swordsmanship, the lines she had memorized... had they all gone to waste? She remembered all the strong points of every official knight, but who would remember the hard work of a failure like her?\\nShe had never stopped aspiring to become a Knight of Favonius, but her exhausted body wouldn't let her get back on her feet like she normally would. She felt like someone who had spent days and nights traveling through an icy tundra.\\nAt that moment, the main gate of the Knights Headquarters were flung upon, and out walked Acting Grand Master Jean, who had just been in charge of the selection process.\\nWithout a thought, Noelle gave a precise knight's salute.\\nImmediately, she knew that this was too abrupt a thing to do, and wondered what Jean might think of her.\\nBut just as she was wishing that there was some hole she might crawl into to flee, Jean stopped in her own tracks and returned the salute.\\nAfter a moment's surprise, Noelle gave a strained smile, clumsy but pure.\\nThis was a lucky day that she would always remember, for she would receive recognition from two all-important sources this day: once from Jean, and the other from the gods.\\nHer hard work had been remembered after all.\\nFrom that day forward, Vision in hand, Noelle reaffirmed her belief that she would one day be able to don that armor. That she would be gentle and reliable — and yes, everywhere at once too.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "My name is Noelle, maid of the Knights of Favonius, and it's my pleasure to be joining you on your adventure today. Should you encounter any problems at all at any point throughout your journey, please do not hesitate to call me and I will be delighted to provide you with my full assistance. Yes, starting right now — what do you need?",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: A Favor",
+        "text": "Leave it to me! All of it, whatever it is! ...What... exactly is \"it\"? I didn't quite catch your request...",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Rest",
+        "text": "You seem tired. Would you like some tea? I'll brew you some. Do you take sugar? One cube, or two?",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Being Reliable",
+        "text": "Whenever you need me, I'll be there.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Oh dear, everyone's laundry is still on the line! May I be excused to fetch it in?",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Please stay indoors until the storm passes. I will deal with any urgent outdoor business.",
+        "unlocked": []
+      },
+      {
+        "title": "When the Sun Is Out",
+        "text": "Mmm, such fair weather. Why don't we do a bit of sunny work? Oh, what sort of work is that, you ask? Haha, well, anything that makes you feel bright and sunny too.",
+        "unlocked": []
+      },
+      {
+        "title": "When It's Windy",
+        "text": "Ahh... Can you hear the Anemo Archon's voice on the breeze? It calms me down whenever I get flustered.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Good morning! Breakfast is served. I will be on hand the whole time. Should you find that anything is not to your taste, please, do not hesitate to let me know.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "Ready for your tea break? Please wait here while I get it ready. Oh yes, I also made Lighter-Than-Air Pancakes! You simply must try one, it's my specialty.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "Everyone has free time in the evening, and that is when I am busiest. Where have Amber's washed hairbands been placed? How many new eyepatches did Kaeya buy? Keeping track of all these things is a maid's responsibility.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "Please get some rest, you must be tired from today's adventure. I should head back to the Knights of F— Sorry? You want me to watch over you until you fall asleep? I—I... I mean, of course, it's no problem. But, um... You're not just teasing me, are you?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Noelle: Discipline",
+        "text": "In my job, I do the exact same things every day — a far cry from being a true knight, that's for sure. But ultimately, this is all part of my training, and when it comes to training, actions speak louder than words.",
+        "unlocked": []
+      },
+      {
+        "title": "About Noelle: Disagreement",
+        "text": "I'm a bit useless in an argument because I can't really explain my reasoning clearly. People find that hard to understand, so instead, I try to just get on with my work in my own way. But then they call me stubborn. All I try to do is convince people with results instead of trying to talk them round... Is that really stubborn of me?",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Identities",
+        "text": "I am devoted to what I do, but make no mistake — I devote myself freely. A maid, to me, is the most liberating job there is. I'm a chef, a gardener, a warrior, a guide... I can be anything you need me to be!",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Reminders",
+        "text": "Even when you're too busy to eat three square meals, never eat something if you don't know where it came from, and always maintain a balance between meat and vegetables. Oh, and no swimming right after a meal. Haha, I do hope you're not thinking, \"that's too much trouble, I'll just leave it to Noelle,\" are you? ... Oh... but of course, if you are... Well then, just leave it to me.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About Us: Welcome Party",
+        "text": "So I hear you're an Honorary Knight of Favonius? I envy you! I suppose that makes you my senior... Anyway, it's about time someone threw you a welcome party, surely? Leave it to me!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"For a Tomorrow Without Tears\""
+        ]
+      },
+      {
+        "title": "About the Vision",
+        "text": "To be honest, I'm feeling a little dejected. Sure, this Vision proves that the Archons think I'm worthy, but why is it a Geo Vision? I mean, Geo's the furthest thing from Anemo, and for a Knight of Favonius...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "I actually really like the smell of wine, I'm just not of drinking age yet. There've been a few times when I could've had a little taste if I'd wanted, and no one would ever have known... but I resisted the temptation. I feel like the first time you try it is probably really magical, so I want to save it till I'm older.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "A maid is required to keep everyone's secrets. That's why my favorite flower is the rose. Here in Mondstadt, the rose represents the saying, \"As wine bottles are corked, so too my lips are sealed.\" It reminds me to— What? ...Roses represent love in your hometown? I—I had no idea the rose held such a... passionate meaning.",
+        "unlocked": []
+      },
+      {
+        "title": "About Amber",
+        "text": "I really look up to Amber. Not only is she an accomplished knight, but she's a kind person too. She taught me how to make a Baron Bunny. I keep it on my person for luck, and it looks quite alright I think. Oh no, please do not be alarmed. There's no risk of explosion whatsoever.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Klee",
+        "text": "I've always been curious as to how she managed to become a fully-fledged knight at such a young age. I actually went to ask her for tips once, but I'd barely started talking to her when she grabbed me by the hand and took me outside the Knights headquarters to play with bombs. I thought it was some kind of training exercise at first, but Jean found us, and we both ended up in solitary confinement...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Jean",
+        "text": "Master Jean has always been my role model, both in terms of ability and dedication. She holds herself and others to the same high standards, so if there ever comes a day when I meet with her approval, it will be the ultimate acknowledgment of all my efforts so far. Until then, there's no room for complacency!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Varka",
+        "text": "At first I wanted to join his expedition party and do my part as a maid. But the Grand Master said no — it would give him more peace of mind if I stayed behind to take care of things in Mondstadt. It made me so happy to hear how much he values me! ...Okay, so apparently he said the same thing to a lot of people. But that doesn't change the fact he prizes me too!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kaeya",
+        "text": "He's a mysterious character! He comes and goes like the wind, and is always occupied with important business. I like the fact that he delegates some of the smaller jobs to me sometimes, it's nice to feel like part of the team, you know... What do you mean, \"errand runner\"? I don't see it like that at all! Okay, well yes, technically I run errands for him. But still, I really appreciate it!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Bennett",
+        "text": "He's asked me to join the Adventurers' Guild more than a few times, saying that life there would suit me better than with the Knights of Favonius. While I could help him take care of his \"dads\" like the other adventurers... the Knights hold a special meaning for me, and I'm not ready to give up on becoming one yet. No, I simply cannot accept his offer.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Fischl: Tea",
+        "text": "I think she's from another world, but I don't know the details. One thing I do know, however, is that she loves the Knights of Favonius' library. She can always be found there with her nose in a book. I bring her some refreshments whenever I go in there to clean, and she always thanks me profusely. When I say profusely... I mean she goes a bit over the top, to be honest, and... I actually don't understand half of what she's saying.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Fischl: Background",
+        "text": "So once when I was cleaning the library, I noticed a book on the shelf called Flowers for Princess Fischl. At the time I assumed it was just a fantasy novel... I was so surprised to find out the main character is a real person. I could hardly believe it! She must be someone incredible to have a whole book dedicated to her.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About Barbara",
+        "text": "We take tea breaks together sometimes. Often she'll start humming a tune, saying inspiration has come to her. I'm not the right person to give useful feedback on anything musical... But I still love spending time with Barbara.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Noelle: I",
+        "text": "How may I be of assistance? ...Oh, you just want to chat? Okay then! Well, if that's how I can help, then please feel free to chat as long as you'd like.",
+        "unlocked": []
+      },
+      {
+        "title": "More About Noelle: II",
+        "text": "Not a problem, I'm here to serve in whatever capacity you require. You needn't be concerned about the way I feel. ...Huh? More tool than maid? I disagree! A tool might help you to complete a million tasks to a satisfactory standard, but it feels nothing. I, on the other hand, feel a strong sense of achievement every time I do something for you.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Noelle: III",
+        "text": "Th—These treats are for me? Oh no, I couldn't, really. Well... Then I'll make some for you too! I'll go right now, right this instant! Half an hour... Ah, okay, maybe an hour, tops. You can busy yourself with other things first, and I'll be sure to deliver them right to you, hot and fresh out of the oven!",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Noelle: IV",
+        "text": "I spend all my days handling the most trivial of matters, but so long as it helps you in your adventure, or makes your life easier in some small way, I couldn't be happier. That's because each time I get a thank-you, it makes me feel like my work at least has some meaning, no matter how insignificant it seems.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Noelle: V",
+        "text": "Even though I mostly work for the Knights of Favonius, I'm always looking out for ways I can help more people. These days, though, I seem to be spending more and more of my time with you... It might be a bit selfish of me... What do you think?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Noelle's Hobbies",
+        "text": "My hobby? I really like washing all sorts of things... clothes, floorboards, windows, you name it! Whenever I see something dirty, I just want to give it a good old clean! It gives me such a sense of achievement! ...Oh, you mean the things I do in my free time? Hmm... Same answer!",
+        "unlocked": []
+      },
+      {
+        "title": "Noelle's Troubles",
+        "text": "How to get more for your Mora? Last time I went all the way to Liyue, I visited every single shop to compare prices, and then carried everything back myself... I won't be doing that again though. I was on the road for so long that Jean was convinced I'd been gobbled up by Stormterror along the way!",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "My favorite is easily a Satisfying Salad. The best of Mondstadt's natural produce on one plate — highly nutritious, and a low calorie count. No, I never get sick of eating it — it's delicious! I've been eating it for ten years now.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "I'm not a fussy eater, but I really don't like banquets... The reason being, as the maid, I'm expected to sample every single dish on the table to ensure its quality. Just one bite of each, of course, but it all adds up... Oh, the guilt...",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "Since you're always so busy adventuring, there must be so many little things you never get round to, surely? Well, you need not worry about them adding up, because today, I am all yours — your exclusive maid for the entire day! Just leave it all to me! ...Also, I'd like to take this opportunity to wish you a very happy birthday!",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "What is this... new power!? Thank you! Now I can be of assistance to even more people.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "I cannot rest on my laurels. After all, I'm not even formally a knight yet. Until that day, I must work even harder.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "Thank you for the opportunity to accompany you on your adventures, it's taught me a lot and I believe I have improved a lot. As a maid, I should be the one serving you, but it seems you have done more for me than I could ever imagine...",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "Everyone in Mondstadt is saying that I'm much more reliable now. Some even say that I'm to be made a true knight soon, but I don't think— What? You think so too? Awwww... Thank you! Coming from you, that is the best compliment I could ever hope for!",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Steady as stone.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "I must leave no stone unturned.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Leave it all to me.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "Time to clean up.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "As a good knight should.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "As a dutiful maid would.",
+        "unlocked": []
+      },
+      {
+        "title": "Sprint Start: I",
+        "text": "I'll catch up.",
+        "unlocked": []
+      },
+      {
+        "title": "Sprint Start: II",
+        "text": "Someone needs assistance.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "All in a day's work.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "Oh, wonderful...",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "A little dusty... Best give it a spring-cleaning!",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "I can patch myself up.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "Ugh, that's going back in the wash...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "If at first you don't succeed...",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Apply continuous pressure to the wound.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Let me get this. You need medical attention!",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "I am a disgrace... to the knights...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "But they still need me...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "It was my honor to serve you...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Ugh... I missed a spot...",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Ohhh, how exciting! Ahem.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "I will protect you.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "As you wish.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "How can you make such a simple dish taste so good? My admiration towards you just keeps growing!",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "This tastes wonderful! Uh, would you mind teaching me how to make this? After all, it is my duty as a maid...",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "Hmm... This is more than I normally eat in a whole day...",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108118,
+      "recipe": 2005,
+      "name": "Lighter-Than-Air Pancake",
+      "icon": "UI_ItemIcon_108118",
+      "rank": 2
+    },
+    "namecard": {
+      "id": 210014,
+      "name": "Noelle: Protector",
+      "desc": "Namecard style.\\nNoelle is quite special. Noelle won't let any harm come to you.",
+      "icon": "UI_NameCardPic_Noel_P"
+    },
+    "costume": [
+      {
+        "id": 203400,
+        "name": "Armored Rose",
+        "desc": "Noelle's outfit. Heavy clothing made of durable velvet and metal plates.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CLAYMORE",
+  "rarity": "QUALITY_PURPLE",
+  "element": "Geo",
+  "icon": "UI_AvatarIcon_Noel",
+  "stamina_recovery": 25,
+  "base_hp": 1012.088,
+  "base_atk": 16.0272,
+  "base_def": 66.95325,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 0,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.653,
+      "92": 8.957,
+      "93": 9.262,
+      "94": 9.566,
+      "95": 9.87,
+      "96": 10.174,
+      "97": 10.479,
+      "98": 10.783,
+      "99": 11.087,
+      "100": 11.392
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.165,
+      "4": 1.248,
+      "5": 1.33,
+      "6": 1.413,
+      "7": 1.495,
+      "8": 1.578,
+      "9": 1.661,
+      "10": 1.743,
+      "11": 1.826,
+      "12": 1.908,
+      "13": 1.991,
+      "14": 2.073,
+      "15": 2.156,
+      "16": 2.239,
+      "17": 2.321,
+      "18": 2.404,
+      "19": 2.486,
+      "20": 2.569,
+      "21": 2.651,
+      "22": 2.734,
+      "23": 2.817,
+      "24": 2.899,
+      "25": 2.982,
+      "26": 3.064,
+      "27": 3.147,
+      "28": 3.229,
+      "29": 3.312,
+      "30": 3.394,
+      "31": 3.477,
+      "32": 3.56,
+      "33": 3.642,
+      "34": 3.725,
+      "35": 3.807,
+      "36": 3.89,
+      "37": 3.972,
+      "38": 4.055,
+      "39": 4.138,
+      "40": 4.22,
+      "41": 4.303,
+      "42": 4.385,
+      "43": 4.468,
+      "44": 4.55,
+      "45": 4.633,
+      "46": 4.716,
+      "47": 4.798,
+      "48": 4.881,
+      "49": 4.963,
+      "50": 5.046,
+      "51": 5.128,
+      "52": 5.211,
+      "53": 5.294,
+      "54": 5.376,
+      "55": 5.459,
+      "56": 5.541,
+      "57": 5.624,
+      "58": 5.706,
+      "59": 5.789,
+      "60": 5.872,
+      "61": 5.954,
+      "62": 6.037,
+      "63": 6.119,
+      "64": 6.202,
+      "65": 6.284,
+      "66": 6.367,
+      "67": 6.45,
+      "68": 6.532,
+      "69": 6.615,
+      "70": 6.697,
+      "71": 6.78,
+      "72": 6.862,
+      "73": 6.945,
+      "74": 7.028,
+      "75": 7.11,
+      "76": 7.193,
+      "77": 7.275,
+      "78": 7.358,
+      "79": 7.44,
+      "80": 7.523,
+      "81": 7.606,
+      "82": 7.688,
+      "83": 7.771,
+      "84": 7.853,
+      "85": 7.936,
+      "86": 8.018,
+      "87": 8.101,
+      "88": 8.183,
+      "89": 8.266,
+      "90": 8.349,
+      "91": 8.431,
+      "92": 8.514,
+      "93": 8.596,
+      "94": 8.679,
+      "95": 8.761,
+      "96": 8.844,
+      "97": 8.927,
+      "98": 9.009,
+      "99": 9.092,
+      "100": 9.174
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 756.08154,
+        "fight_prop_base_defense": 50.0175,
+        "fight_prop_base_attack": 11.97342,
+        "fight_prop_defense_percent": 0
+      },
+      {
+        "fight_prop_base_hp": 1293.2974,
+        "fight_prop_base_defense": 85.55625,
+        "fight_prop_base_attack": 20.48085,
+        "fight_prop_defense_percent": 0.075
+      },
+      {
+        "fight_prop_base_hp": 2009.5852,
+        "fight_prop_base_defense": 132.94125,
+        "fight_prop_base_attack": 31.82409,
+        "fight_prop_defense_percent": 0.15
+      },
+      {
+        "fight_prop_base_hp": 2546.801,
+        "fight_prop_base_defense": 168.48,
+        "fight_prop_base_attack": 40.33152,
+        "fight_prop_defense_percent": 0.15
+      },
+      {
+        "fight_prop_base_hp": 3084.0168,
+        "fight_prop_base_defense": 204.01875,
+        "fight_prop_base_attack": 48.83895,
+        "fight_prop_defense_percent": 0.225
+      },
+      {
+        "fight_prop_base_hp": 3621.2327,
+        "fight_prop_base_defense": 239.5575,
+        "fight_prop_base_attack": 57.34638,
+        "fight_prop_defense_percent": 0.3
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S4",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S4",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 10341,
+      "name": "Favonius Bladework - Maid",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 4 consecutive strikes.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\\nAt the end of the sequence, performs a more powerful slash. \\n\\n<color=#FFD780FF>Plunging Attack</color>\\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7912,
+            0.73358,
+            0.86258,
+            1.13434,
+            0.5074,
+            0.90472,
+            40,
+            5,
+            0.745878,
+            1.49144,
+            1.862889,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:F1P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.8556,
+            0.79329,
+            0.93279,
+            1.22667,
+            0.5487,
+            0.97836,
+            40,
+            5,
+            0.806589,
+            1.612836,
+            2.01452,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.92,
+            0.853,
+            1.003,
+            1.319,
+            0.59,
+            1.052,
+            40,
+            5,
+            0.8673,
+            1.734233,
+            2.16615,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.012,
+            0.9383,
+            1.1033,
+            1.4509,
+            0.649,
+            1.1572,
+            40,
+            5,
+            0.95403,
+            1.907656,
+            2.382765,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0764,
+            0.99801,
+            1.17351,
+            1.54323,
+            0.6903,
+            1.23084,
+            40,
+            5,
+            1.014741,
+            2.029052,
+            2.534396,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.15,
+            1.06625,
+            1.25375,
+            1.64875,
+            0.7375,
+            1.315,
+            40,
+            5,
+            1.084125,
+            2.167791,
+            2.707688,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2512,
+            1.16008,
+            1.36408,
+            1.79384,
+            0.8024,
+            1.43072,
+            40,
+            5,
+            1.179528,
+            2.358556,
+            2.945964,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3524,
+            1.25391,
+            1.47441,
+            1.93893,
+            0.8673,
+            1.54644,
+            40,
+            5,
+            1.274931,
+            2.549322,
+            3.184241,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:F1P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.4536,
+            1.34774,
+            1.58474,
+            2.08402,
+            0.9322,
+            1.66216,
+            40,
+            5,
+            1.370334,
+            2.740087,
+            3.422517,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:F1P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.564,
+            1.4501,
+            1.7051,
+            2.2423,
+            1.003,
+            1.7884,
+            40,
+            5,
+            1.47441,
+            2.948195,
+            3.682455,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6744,
+            1.55246,
+            1.82546,
+            2.40058,
+            1.0738,
+            1.91464,
+            40,
+            5,
+            1.578486,
+            3.156303,
+            3.942393,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7848,
+            1.65482,
+            1.94582,
+            2.55886,
+            1.1446,
+            2.04088,
+            40,
+            5,
+            1.682562,
+            3.364411,
+            4.202331,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.8952,
+            1.75718,
+            2.06618,
+            2.71714,
+            1.2154,
+            2.16712,
+            40,
+            5,
+            1.786638,
+            3.572519,
+            4.462269,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.0056,
+            1.85954,
+            2.18654,
+            2.87542,
+            1.2862,
+            2.29336,
+            40,
+            5,
+            1.890714,
+            3.780627,
+            4.722207,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_04",
+          "desc": [
+            "1-Hit DMG|{param1:P}",
+            "2-Hit DMG|{param2:P}",
+            "3-Hit DMG|{param3:P}",
+            "4-Hit DMG|{param4:P}",
+            "Charged Attack Cyclic DMG|{param5:P}",
+            "Charged Attack Final DMG|{param6:P}",
+            "Charged Attack Stamina Cost|{param7:F1}/s",
+            "Max Duration|{param8:F1}s",
+            "Plunge DMG|{param9:P}",
+            "Low/High Plunge DMG|{param10:P}/{param11:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.116,
+            1.9619,
+            2.3069,
+            3.0337,
+            1.357,
+            2.4196,
+            40,
+            5,
+            1.99479,
+            3.988735,
+            4.982145,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10342,
+      "name": "Breastplate",
+      "desc": "Summons protective stone armor, dealing <color=#FFE699FF>Geo DMG</color> to surrounding opponents and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.\\nThe shield has the following properties:\\n·When Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters.\\n·Possesses 150% DMG Absorption efficiency against all Elemental and Physical DMG.\\n\\nThe amount of HP healed when regeneration is triggered scales based on Noelle's DEF.\\n\\n<i>Noelle is both a dutiful maid and a valiant knight.</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6,
+            0.2128,
+            0.5,
+            12,
+            24,
+            1.2,
+            769.7851,
+            102.71802,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.72,
+            0.22876,
+            0.51,
+            12,
+            24,
+            1.29,
+            846.7743,
+            112.99125,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.84,
+            0.24472,
+            0.52,
+            12,
+            24,
+            1.38,
+            930.17926,
+            124.120575,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2,
+            0.266,
+            0.53,
+            12,
+            24,
+            1.5,
+            1020,
+            136.10602,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.12,
+            0.28196,
+            0.54,
+            12,
+            24,
+            1.59,
+            1116.2365,
+            148.94756,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.24,
+            0.29792,
+            0.55,
+            12,
+            24,
+            1.68,
+            1218.8888,
+            162.64519,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.4,
+            0.3192,
+            0.56,
+            12,
+            24,
+            1.8,
+            1327.9568,
+            177.19893,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.56,
+            0.34048,
+            0.57,
+            12,
+            24,
+            1.92,
+            1443.4407,
+            192.60878,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.72,
+            0.36176,
+            0.58,
+            12,
+            24,
+            2.04,
+            1565.3402,
+            208.87473,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.88,
+            0.38304,
+            0.59,
+            12,
+            24,
+            2.16,
+            1693.6555,
+            225.99677,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.04,
+            0.40432,
+            0.59,
+            12,
+            24,
+            2.28,
+            1828.3867,
+            243.97491,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.2,
+            0.4256,
+            0.6,
+            12,
+            24,
+            2.4,
+            1969.5336,
+            262.80917,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.4,
+            0.4522,
+            0.6,
+            12,
+            24,
+            2.55,
+            2117.0962,
+            282.49954,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.6,
+            0.4788,
+            0.6,
+            12,
+            24,
+            2.7,
+            2271.0747,
+            303.046,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Noel_01",
+          "desc": [
+            "Skill DMG|{param6:P} DEF",
+            "DMG Absorption|{param1:P} DEF+{param7:I}",
+            "Healing|{param2:F1P} DEF+{param8:I}",
+            "Healing Triggering Chance|{param3:P}",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            3.8,
+            0.5054,
+            0.6,
+            12,
+            24,
+            2.85,
+            2431.4688,
+            324.44855,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 10343,
+      "name": "Sweeping Time",
+      "desc": "Gathering the strength of stone around her weapon, Noelle strikes the opponents surrounding her within a large AoE, dealing <color=#FFE699FF>Geo DMG</color>.\\nAfterwards, Noelle gains the following effects:\\n·Larger attack AoE.\\n·Converts attack DMG to <color=#FFE699FF>Geo DMG</color> that cannot be overridden by any other elemental infusion.\\n·Increased ATK that scales based on her DEF.\\n\\n<i>Sometimes, it's not just dust that needs sweeping...</i>",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:F1P}",
+            "Skill DMG|{param2:F1P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.672,
+            0.928,
+            0.4,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:F1P}",
+            "Skill DMG|{param2:F1P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7224,
+            0.9976,
+            0.43,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:F1P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.7728,
+            1.0672,
+            0.46,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:F1P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.84,
+            1.16,
+            0.5,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:F1P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.8904,
+            1.2296,
+            0.53,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:F1P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.9408,
+            1.2992,
+            0.56,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.008,
+            1.392,
+            0.6,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.0752,
+            1.4848,
+            0.64,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.1424,
+            1.5776,
+            0.68,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2096,
+            1.6704,
+            0.72,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.2768,
+            1.7632,
+            0.76,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.344,
+            1.856,
+            0.8,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.428,
+            1.972,
+            0.85,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.512,
+            2.088,
+            0.9,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Noel_01",
+          "desc": [
+            "Burst DMG|{param1:P}",
+            "Skill DMG|{param2:P}",
+            "ATK Bonus|{param3:P} DEF",
+            "Duration|{param4:F1}s",
+            "CD|{param5:F1}s",
+            "Energy Cost|{param6:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.596,
+            2.204,
+            0.95,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 342101,
+      "name": "Devotion",
+      "desc": "When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:\\nCreates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.\\nThe shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.\\nThis effect can only occur once every 60s.",
+      "icon": "UI_Talent_S_Noel_05",
+      "unlock": 1,
+      "param_list": [
+        0.3,
+        4,
+        20,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 342201,
+      "name": "Nice and Clean",
+      "desc": "Noelle will decrease the CD of <color=#FFD780FF>Breastplate</color> by 1s for every 4 Normal or Charged Attack hits she scores on opponents.\\nOne hit may be counted every 0.1s.",
+      "icon": "UI_Talent_S_Noel_06",
+      "unlock": 4,
+      "param_list": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 342301,
+      "name": "Maid's Knighthood",
+      "desc": "When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.",
+      "icon": "UI_Talent_Cook_Defense",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 341,
+      "name": "I Got Your Back",
+      "desc": "While <color=#FFD780FF>Sweeping Time</color> and <color=#FFD780FF>Breastplate</color> are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.",
+      "icon": "UI_Talent_S_Noel_01",
+      "param_list": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 342,
+      "name": "Combat Maid",
+      "desc": "Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.",
+      "icon": "UI_Talent_S_Noel_02",
+      "param_list": [
+        -0.2,
+        0.15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 343,
+      "name": "Invulnerable Maid",
+      "desc": "Increases the Level of <color=#FFD780FF>Breastplate</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Noel_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 344,
+      "name": "To Be Cleaned",
+      "desc": "When <color=#FFD780FF>Breastplate</color>'s duration expires or it is destroyed by DMG, it will deal 400% of Noelle's ATK as <color=#FFE699FF>Geo DMG</color> to surrounding opponents.",
+      "icon": "UI_Talent_S_Noel_03",
+      "param_list": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 345,
+      "name": "Favonius Sweeper Master",
+      "desc": "Increases the Level of <color=#FFD780FF>Sweeping Time</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Noel_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 346,
+      "name": "Must Be Spotless",
+      "desc": "<color=#FFD780FF>Sweeping Time</color> increases Noelle's ATK by an additional 50% of her DEF.\\nAdditionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.",
+      "icon": "UI_Talent_S_Noel_04",
+      "param_list": [
+        0.5,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Sliver",
+            "id": 104171,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Valberry",
+            "id": 100022,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Damaged Mask",
+            "id": 112005,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Fragment",
+            "id": 104172,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Valberry",
+            "id": 100022,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Damaged Mask",
+            "id": 112005,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Fragment",
+            "id": 104172,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Valberry",
+            "id": 100022,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Stained Mask",
+            "id": 112006,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Chunk",
+            "id": 104173,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Valberry",
+            "id": 100022,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Stained Mask",
+            "id": 112006,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Chunk",
+            "id": 104173,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Valberry",
+            "id": 100022,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Ominous Mask",
+            "id": 112007,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Prithiva Topaz Gemstone",
+            "id": 104174,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Basalt Pillar",
+            "id": 113009,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Valberry",
+            "id": 100022,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Ominous Mask",
+            "id": 112007,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Damaged Mask",
+              "id": 112005,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Damaged Mask",
+              "id": 112005,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Resistance",
+              "id": 104304,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Damaged Mask",
+              "id": 112005,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Resistance",
+              "id": 104305,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Stained Mask",
+              "id": 112006,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Resistance",
+              "id": 104306,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Ominous Mask",
+              "id": 112007,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Dvalin's Claw",
+              "id": 113004,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "Skill_S",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt"
+    },
+    {
+      "name": "Skill_S",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 2,
+      "poise": {
+        "level": "LV3",
+        "value": 100
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "AS_Skill_S_ShieldBrokenDamage_Talent_334"
+    },
+    {
+      "name": "Skill_E",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "AS_Skill_E_OnceAttackDamage_PS33_P2"
+    },
+    {
+      "name": "Skill_E",
+      "icd": {
+        "tag": "Elemental_Burst",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "AS_Skill_E_OnceAttackDamage_Art_PS33_P1"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 35
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Slash",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "None",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 150
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV7",
+        "value": 200
+      },
+      "element": "Rock",
+      "attack_type": "Melee",
+      "strike_type": "Blunt",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    }
+  ],
+  "energy": []
+}

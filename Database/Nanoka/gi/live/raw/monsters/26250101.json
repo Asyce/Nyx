@@ -1,0 +1,54 @@
+{
+  "name": "Tatankasaur Whelp",
+  "desc": "A young Tatankasaurus that has not yet mastered full control of its powerful frame, leaving its movements clumsy.\\nIts second set of horns are still growing out, and its back and snout are not quite strong enough to smash through rocks that block the road. Given the time to grow, it will one day be able to roam freely across the fertile plains.",
+  "icon": "UI_MonsterIcon_Natsaurus_Bisonsaurus_Small",
+  "codex": "BEAST",
+  "title": "Tatankasaur Whelp",
+  "special_names": [
+    "Ranging Saurians of Natlan"
+  ],
+  "reward": [],
+  "child": {
+    "26250101": {
+      "monster_name": "Monster_Natsaurus_Bisonsaurus_Small_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010014,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.3,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 16.3008,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

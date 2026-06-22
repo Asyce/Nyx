@@ -1,0 +1,15 @@
+{
+  "id": 350000380,
+  "name": "Phantom: Reactor Husk",
+  "desc": "A Reactor Drive component. When the Drive's immune response is triggered, its battle logic will activate to eliminate all intruders.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Fire>Fusion DMG</color>.\n\nReactor Husk's special ranged attack, Cinder Cut, can be deflected back, dealing damage to the Reactor Husk in return and reducing its Vibration Strength.\n\nAfter attacking or taking Counterattacks several times, a Vulnerable Core will be exposed on Reactor Husk's left arm. Attacking the exposed core will destroy Reactor Husk's armor, rendering it unable to attack.\n\nInflicting Negative Statuses on Reactor Husk immediately exposes the Vulnerable Core. If Reactor Husk's armor is destroyed while it is inflicted with Negative Statuses, then it takes 100% more total DMG from Negative Statuses for 30s. During this effect's period, the core will no longer be exposed.\n\nAfter the Reactor Drive was set above Lahai-Roi by the Exostrider, it remained on high alert to the activities of Aleph-1. \n\nWhen the Drive's immune response is triggered, a mechanized \"Reactor Husk\" will arise from the depths of the energy well, with the sole purpose of eliminating intruders at all costs.\n\nResearch by Spacetrek Collective shows that Reactor Husk was once part of the Exostrider. Both share a mission to resist the Threnodian threat and safeguard civilization.",
+  "rarity": 3,
+  "element": 2,
+  "element_array": [
+    2
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_34022_UI.T_IconMonsterHead_SG_34022_UI",
+  "echo": 6010190,
+  "base_stats": {},
+  "stats": {}
+}

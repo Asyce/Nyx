@@ -1,0 +1,16 @@
+{
+  "id": 350000360,
+  "name": "Phantom: Sigillum",
+  "desc": "A wordless black mech, lost and longing to return home.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Light>Spectro DMG</color>.\nWhen hit by an Echo Skill, Sigillum gains 1 stack of Off Course, up to 5 stacks. Echoes with the same name can only trigger this effect once.\nEach stack of Off Course makes it take 10% more total DMG. At 5 stacks, Sigillum takes an additional 30% total DMG.\n\nRage and tears. Suffering and joy. Sorrow and pain. All are condensed, along with her sigh, into a single golden frequency.\nIt gazes at the sky, lost in memories worn thin by the ages. The lost voyager is still searching for the way home.",
+  "rarity": 4,
+  "element": 5,
+  "element_array": [
+    5,
+    2
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_34025_UI.T_IconMonsterHead_SG_34025_UI",
+  "echo": 6010191,
+  "base_stats": {},
+  "stats": {}
+}

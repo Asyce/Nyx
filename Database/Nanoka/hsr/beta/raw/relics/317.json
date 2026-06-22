@@ -1,0 +1,21 @@
+{
+  "name": "Lushaka, the Sunken Seas",
+  "icon": "SpriteOutput/ItemIcon/71036.png",
+  "parts": {
+    "33175": {
+      "name": "Lushaka's Waterscape"
+    },
+    "33176": {
+      "name": "Lushaka's Twinlanes"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the wearer's Energy Regeneration Rate by <unbreak>#1[i]%</unbreak>. If the wearer is not the first character in the team lineup, then increases the ATK of the first character in the team lineup by <unbreak>#2[i]%</unbreak>.",
+      "param_list": [
+        0.05,
+        0.12
+      ]
+    }
+  }
+}

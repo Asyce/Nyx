@@ -1,0 +1,138 @@
+{
+  "id": 15042,
+  "icon": "UI_RelicIcon_15042_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150420,
+      "id": 215042,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Silken Moon's Serenade",
+      "desc": "Energy Recharge +20%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150421,
+      "id": 215042,
+      "level": 1,
+      "open_config": "Relic_6.0_Support",
+      "param_list": [
+        8,
+        60,
+        120,
+        0.1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Silken Moon's Serenade",
+      "desc": "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15042_1",
+      "name": "Joyous Glory of the Pure",
+      "desc": "An immaculate silver cup said to have been used in the bygone rituals of the Frostmoon Scions. Their modern rites have no need for such a vessel.",
+      "story": {
+        "285421": {
+          "zh": "ART/UI/Readable/CHS/Relic15042_1",
+          "en": "ART/UI/Readable/EN/Relic15042_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15042_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15042_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15042_2",
+      "name": "Pristine Plume of the Blessed",
+      "desc": "An immaculate feathered accessory said to have been forged by the first Moonchanter herself.",
+      "story": {
+        "285422": {
+          "zh": "ART/UI/Readable/CHS/Relic15042_2",
+          "en": "ART/UI/Readable/EN/Relic15042_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15042_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15042_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15042_3",
+      "name": "Holy Crown of the Believer",
+      "desc": "An immaculate adornment created in imitation of the envoy of the grove's antlers.",
+      "story": {
+        "285423": {
+          "zh": "ART/UI/Readable/CHS/Relic15042_3",
+          "en": "ART/UI/Readable/EN/Relic15042_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15042_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15042_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15042_4",
+      "name": "Crystal Tear of the Wanderer",
+      "desc": "An immaculate flower whose beauty is said to have been preserved for eternity by the icy wind.",
+      "story": {
+        "285424": {
+          "zh": "ART/UI/Readable/CHS/Relic15042_4",
+          "en": "ART/UI/Readable/EN/Relic15042_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15042_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15042_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15042_5",
+      "name": "Frost Devotee's Delirium",
+      "desc": "An immaculate timepiece that long ago ceased turning, along with the delusions of its former owner.",
+      "story": {
+        "285425": {
+          "zh": "ART/UI/Readable/CHS/Relic15042_5",
+          "en": "ART/UI/Readable/EN/Relic15042_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15042_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15042_5_KR"
+        }
+      }
+    }
+  }
+}

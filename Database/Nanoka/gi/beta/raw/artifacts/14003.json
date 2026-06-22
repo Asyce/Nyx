@@ -1,0 +1,139 @@
+{
+  "id": 14003,
+  "icon": "UI_RelicIcon_14003_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_FIRE_SUB_HURT",
+          "value": 0.4
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2140030,
+      "id": 214003,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Lavawalker",
+      "desc": "Pyro RES increased by 40%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2140031,
+      "id": 214003,
+      "level": 1,
+      "open_config": "Relic_DamageUpAgainstFireAndBurning",
+      "param_list": [
+        0.35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Lavawalker",
+      "desc": "Increases DMG against opponents affected by Pyro by 35%."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_14003_1",
+      "name": "Lavawalker's Epiphany",
+      "desc": "A legendary goblet that can withstand extremely high temperatures. It still retains a degree of warmth even though it is now empty.",
+      "story": {
+        "284031": {
+          "zh": "ART/UI/Readable/CHS/Relic14003_1",
+          "en": "ART/UI/Readable/EN/Relic14003_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic14003_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic14003_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_14003_2",
+      "name": "Lavawalker's Salvation",
+      "desc": "The feather of a proud phoenix. You can almost hear the sound of its wings flapping in the scorching flames.",
+      "story": {
+        "284032": {
+          "zh": "ART/UI/Readable/CHS/Relic14003_2",
+          "en": "ART/UI/Readable/EN/Relic14003_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic14003_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic14003_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_14003_3",
+      "name": "Lavawalker's Wisdom",
+      "desc": "The circlet of a sage who traversed a sea of fire. It once shone brightly from their ancient silhouette as they stood strong amidst the flames.",
+      "story": {
+        "284033": {
+          "zh": "ART/UI/Readable/CHS/Relic14003_3",
+          "en": "ART/UI/Readable/EN/Relic14003_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic14003_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic14003_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_14003_4",
+      "name": "Lavawalker's Resolution",
+      "desc": "A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire.",
+      "story": {
+        "284034": {
+          "zh": "ART/UI/Readable/CHS/Relic14003_4",
+          "en": "ART/UI/Readable/EN/Relic14003_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic14003_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic14003_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_14003_5",
+      "name": "Lavawalker's Torment",
+      "desc": "Burning sand flows within this hourglass. Despite the intense heat, the sand leave no mark upon the vessel that houses it.",
+      "story": {
+        "284035": {
+          "zh": "ART/UI/Readable/CHS/Relic14003_5",
+          "en": "ART/UI/Readable/EN/Relic14003_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic14003_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic14003_5_KR"
+        }
+      }
+    }
+  }
+}

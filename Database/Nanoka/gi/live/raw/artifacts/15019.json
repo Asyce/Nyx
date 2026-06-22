@@ -1,0 +1,145 @@
+{
+  "id": 15019,
+  "icon": "UI_RelicIcon_15019_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150190,
+      "id": 215019,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Shimenawa's Reminiscence",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150191,
+      "id": 215019,
+      "level": 1,
+      "open_config": "Relic_NormalDamageUpIfCostEnergy",
+      "param_list": [
+        15,
+        0.5,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Shimenawa's Reminiscence",
+      "desc": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15019_1",
+      "name": "Hopeful Heart",
+      "desc": "",
+      "story": {
+        "285191": {
+          "zh": "ART/UI/Readable/CHS/Relic15019_1",
+          "en": "ART/UI/Readable/EN/Relic15019_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15019_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15019_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15019_2",
+      "name": "Shaft of Remembrance",
+      "desc": "",
+      "story": {
+        "285192": {
+          "zh": "ART/UI/Readable/CHS/Relic15019_2",
+          "en": "ART/UI/Readable/EN/Relic15019_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15019_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15019_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15019_3",
+      "name": "Capricious Visage",
+      "desc": "",
+      "story": {
+        "285193": {
+          "zh": "ART/UI/Readable/CHS/Relic15019_3",
+          "en": "ART/UI/Readable/EN/Relic15019_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15019_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15019_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15019_4",
+      "name": "Entangling Bloom",
+      "desc": "",
+      "story": {
+        "285194": {
+          "zh": "ART/UI/Readable/CHS/Relic15019_4",
+          "en": "ART/UI/Readable/EN/Relic15019_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15019_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15019_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15019_5",
+      "name": "Morning Dew's Moment",
+      "desc": "",
+      "story": {
+        "285195": {
+          "zh": "ART/UI/Readable/CHS/Relic15019_5",
+          "en": "ART/UI/Readable/EN/Relic15019_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15019_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15019_5_KR"
+        }
+      }
+    }
+  }
+}

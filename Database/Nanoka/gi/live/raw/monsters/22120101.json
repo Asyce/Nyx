@@ -1,0 +1,199 @@
+{
+  "name": "Tenebrous Papilla: Type I",
+  "desc": "Abyssal creatures with plant-like forms that have descended from a deep, dark, unfathomable, contorted otherworld.\\nThese twisted monstrosities are capable of infiltrating deep down into the bowels of the earth, extracting memories to imitate and manipulate. Through this process of distorting the past's memories into more abstruse and sordid forms, they gradually draw closer to Irminsul's core, threatening to undermine its very existence.\\nSome say that these aberrations work constantly to corrupt the many colors of light, leaving only pitch-black information in their stead. Such a hypothesis seems to be confirmed by the branches they extend outward, as if to pierce the void itself...",
+  "icon": "UI_MonsterIcon_TheAbyss_Dendrite",
+  "codex": "ABYSS",
+  "title": "Tenebrous Papilla",
+  "special_names": [
+    "Void Fantasy Plant"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113067,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113067"
+    },
+    {
+      "id": 104114,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    {
+      "id": 104113,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    {
+      "id": 104112,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    {
+      "id": 104111,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    {
+      "id": 104144,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104144"
+    },
+    {
+      "id": 104143,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104143"
+    },
+    {
+      "id": 104142,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104142"
+    },
+    {
+      "id": 104141,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104141"
+    },
+    {
+      "id": 104154,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104154"
+    },
+    {
+      "id": 104153,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104153"
+    },
+    {
+      "id": 104152,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104152"
+    },
+    {
+      "id": 104151,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104151"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400128,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15009_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400127,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15009_3"
+    },
+    {
+      "id": 400047,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10010_4"
+    }
+  ],
+  "child": {
+    "22120101": {
+      "monster_name": "TheAbyss_Dendrite_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010040,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010040,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010040,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010040,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 217.344,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

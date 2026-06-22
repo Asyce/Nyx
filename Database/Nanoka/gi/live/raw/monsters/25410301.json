@@ -1,0 +1,377 @@
+{
+  "name": "Eremite Scorching Loremaster",
+  "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Even though they will work for anyone as long as the pay is good, they will never forget their roots in the Great Red Sand.\\nAfter the collapse of its civilizations, the stories of the desert were passed down generation after generation in oral tradition just like the sparks in the wind and the rain in the clouds. As time passed, some stories were lost while others survived, albeit with significant changes.\\n\"The Eremites\" is the umbrella term given to the tribes of the desert by those too ignorant or disdainful to learn the tribes' myriad differences. Within those referred to as the Eremites, many have also indeed already forgotten the tales of the desert. Fear not, however, for those who still remember will never betray the spirit of the sands yet flowing through their veins.",
+  "icon": "UI_MonsterIcon_Eremite_Female_Standard_Oracle",
+  "codex": "HUMAN",
+  "title": "Eremite Scorching Loremaster",
+  "special_names": [
+    "Augury of the Foretold Flame"
+  ],
+  "reward": [],
+  "child": {
+    "25410301": {
+      "monster_name": "Eremite_Female_Standard_Oracle_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410302": {
+      "monster_name": "Eremite_Female_Standard_Oracle_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 75
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410303": {
+      "monster_name": "Eremite_Female_Standard_Oracle_03",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {
+          "drop_id": 22010011,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410381": {
+      "monster_name": "Eremite_Female_Standard_Oracle_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410382": {
+      "monster_name": "Eremite_Female_Standard_Oracle_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010011,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410391": {
+      "monster_name": "Eremite_Female_Standard_Oracle_01_MvM",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 62.73,
+        "atk": 66.3,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410392": {
+      "monster_name": "Eremite_Female_Standard_Oracle_02_AC",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_DEFENSE_2",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 91.85583,
+        "atk": 36.3,
+        "def": 200,
+        "em": 0
+      }
+    },
+    "25410393": {
+      "monster_name": "Eremite_Female_Standard_Oracle_01_MvM",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 41.256317,
+        "atk": 43.7317,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

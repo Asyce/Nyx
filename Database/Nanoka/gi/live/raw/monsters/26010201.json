@@ -1,0 +1,84 @@
+{
+  "name": "Pyro Whopperflower",
+  "desc": "A mimetic plant monster that attacks without warning and uses Pyro to hunt its prey.\\nThe world of Teyvat plays host to plants infused with the elements. Having gained a measure of intellect, their \"nutritional needs\" have also greatly increased...",
+  "icon": "UI_MonsterIcon_Mimik_Fire",
+  "codex": "BEAST",
+  "title": "Pyro Whopperflower",
+  "special_names": [
+    "Opportunistic Mimetic Plant"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112040,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112040"
+    },
+    {
+      "id": 112039,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112039"
+    },
+    {
+      "id": 112038,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112038"
+    }
+  ],
+  "child": {
+    "26010201": {
+      "monster_name": "Mimik_Fire",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010011,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010011,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010031,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.5,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

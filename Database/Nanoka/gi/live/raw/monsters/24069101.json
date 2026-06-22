@@ -1,0 +1,76 @@
+{
+  "name": "Area Alert Mek",
+  "desc": "A mechanism that is able to fire out the energy produced by an annihilation reaction. Strictly speaking, it was originally a test device that emerged from research undertaken by the Institute of Natural Philosophy before the Fontaine Research Institute had been established.\\nAs such, despite its considerable commercial success as a sentinel and defensive device, most engineers do not consider it to be a true clockwork meka.",
+  "icon": "UI_MonsterIcon_MachinaIustitia_LengthShifter",
+  "codex": "AUTOMATRON",
+  "title": "Area Alert Mek",
+  "special_names": [
+    "Ser.472030",
+    "Ser.301014",
+    "Ser.735311",
+    "Ser.652190",
+    "Ser.158439",
+    "Ser.359360",
+    "Ser.174326",
+    "Ser.361617",
+    "Ser.208594",
+    "Ser.295062",
+    "Ser.775577",
+    "Ser.391908",
+    "Ser.918722",
+    "Ser.208739",
+    "Ser.422440",
+    "Ser.574902",
+    "Ser.665997",
+    "Ser.358002",
+    "Ser.776950",
+    "Ser.438412"
+  ],
+  "reward": [],
+  "child": {
+    "24069101": {
+      "monster_name": "MachinaIustitia_LengthShifter_Codex",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 19.0176,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

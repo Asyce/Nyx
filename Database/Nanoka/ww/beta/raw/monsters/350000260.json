@@ -1,0 +1,15 @@
+{
+  "id": 350000260,
+  "name": "Phantom: Nightmare Mourning Aix",
+  "desc": "A special Tacet Discord that lurks in the intricate network of the Dreamscape Nodes.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Light>Spectro DMG</color>.\n\nA special Tacet Discord that lurks in the intricate network of the Dreamscape Nodes. It gathers frequencies of a particular negative emotion.",
+  "rarity": 3,
+  "element": 5,
+  "element_array": [
+    5
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33020_UI.T_IconMonsterHead_SG_33020_UI",
+  "echo": 0,
+  "base_stats": {},
+  "stats": {}
+}

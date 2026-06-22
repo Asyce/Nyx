@@ -1354,6 +1354,24 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 /* ===== Character Materials — controls row (tabs + search + tools) ===== */
 .cm-controls{ position:relative; display:flex; align-items:center; gap:16px; flex:none; margin-top:16px; }
 .cm-controls .cm-tabs{ margin-top:0; }
+
+/* Beta / Live channel toggle (Nanoka games only; defaults to Live) */
+.cm-chan{ margin-left:auto; display:flex; align-items:center; gap:4px; padding:3px; border-radius:999px;
+  background:linear-gradient(180deg, rgba(28,21,58,.7), rgba(16,11,34,.6)); box-shadow:inset 0 0 0 1px rgba(150,120,255,.22); }
+.cm-chan-lbl{ font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:#8d83c0; padding:0 6px 0 8px; }
+.cm-chan button{ border:none; cursor:pointer; padding:6px 15px; border-radius:999px; font-size:12px; font-weight:700;
+  letter-spacing:.04em; color:#b9aeea; background:transparent; transition:color .15s, background .2s, box-shadow .2s; }
+.cm-chan button:hover{ color:#ece7ff; }
+.cm-chan button.on{ color:#0c0820; background:linear-gradient(160deg,#cdb3ff,#9a89ea); box-shadow:0 2px 8px rgba(120,90,230,.4); }
+.cm-chan.beta button.on{ color:#1c0d05; background:linear-gradient(160deg,#ffcf8a,#f0a44a); box-shadow:0 2px 8px rgba(240,150,60,.45); }
+
+/* "Beta (latest)" tag — roster cell + popout header */
+.cm-cell{ position:relative; }
+.cm-beta-tag{ font-size:9px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; line-height:1;
+  color:#1c0d05; background:linear-gradient(160deg,#ffcf8a,#f0a44a); padding:2px 6px; border-radius:999px;
+  box-shadow:0 1px 4px rgba(0,0,0,.45); }
+.cm-cell .cm-beta-tag{ position:absolute; top:-3px; right:2px; pointer-events:none; }
+.cm-beta-tag.pop{ align-self:center; margin-left:8px; font-size:10px; padding:3px 8px; }
 .cm-tools{ margin-left:auto; display:flex; align-items:center; gap:10px; position:relative; }
 /* matches the overview .gp-search (hex clip, same dimensions/location) */
 .cm-search{ position:relative; display:flex; align-items:center; gap:9px; height:40px; width:214px; flex:none;

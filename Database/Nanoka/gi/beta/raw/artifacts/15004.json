@@ -1,0 +1,139 @@
+{
+  "id": 15004,
+  "icon": "UI_RelicIcon_15004_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ICE_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150040,
+      "id": 215004,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Glacier and Snowfield",
+      "desc": "Cryo DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150041,
+      "id": 215004,
+      "level": 1,
+      "open_config": "Relic_ReactionIceEnhance",
+      "param_list": [
+        1,
+        0.15,
+        10,
+        0.3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Glacier and Snowfield",
+      "desc": "Increases Superconduct DMG by 100%. Increases Melt DMG by 15%. Using an Elemental Burst increases Cryo DMG Bonus by 30% for 10s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15004_1",
+      "name": "Goblet of Aquilo",
+      "desc": "A goblet of eonothem left behind by the knight who walked with the North Wind. The chill of the bitter winter frost still lingers within.",
+      "story": {
+        "285041": {
+          "zh": "ART/UI/Readable/CHS/Relic15004_1",
+          "en": "ART/UI/Readable/EN/Relic15004_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15004_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15004_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15004_2",
+      "name": "Plume of Snow",
+      "desc": "A bird feather that was picked up by the knight who walked with the North Wind in the snow. It still awaits the day when it will thaw.",
+      "story": {
+        "285042": {
+          "zh": "ART/UI/Readable/CHS/Relic15004_2",
+          "en": "ART/UI/Readable/EN/Relic15004_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15004_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15004_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15004_3",
+      "name": "Crown of Glacier",
+      "desc": "The crown worn by the knight who walked with the North Wind. It was forged using winter ice and silver.",
+      "story": {
+        "285043": {
+          "zh": "ART/UI/Readable/CHS/Relic15004_3",
+          "en": "ART/UI/Readable/EN/Relic15004_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15004_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15004_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15004_4",
+      "name": "Heart of Frost",
+      "desc": "A flower that has been frozen in time from the moment it was picked. The knight kept it as a memento forever after.",
+      "story": {
+        "285044": {
+          "zh": "ART/UI/Readable/CHS/Relic15004_4",
+          "en": "ART/UI/Readable/EN/Relic15004_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15004_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15004_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15004_5",
+      "name": "Glacial Sand",
+      "desc": "A timepiece once used by the knight who walked with the North Wind. A never-ending snowstorm rages within.",
+      "story": {
+        "285045": {
+          "zh": "ART/UI/Readable/CHS/Relic15004_5",
+          "en": "ART/UI/Readable/EN/Relic15004_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15004_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15004_5_KR"
+        }
+      }
+    }
+  }
+}

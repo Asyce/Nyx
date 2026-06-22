@@ -1,0 +1,289 @@
+{
+  "name": "Goldflame Qucusaur Tyrant",
+  "desc": "A Qucusaurus whose body has attained a supernatural form due to enduring forces that the bodies of modern Saurians cannot control.\\nLegends say that when the giant Qucusaur who now often dwells in the mountain fog was young, he also once followed the heroes who saved Natlan in their adventures. It is said that one of those heroes once agreed to make the pilgrimage with him together to the volcano, to save his mind back from the brink of insanity that the increasing violent power in his blood was forcing him towards. However, judging from his current title of \"Tyrant,\" that story did not have a happy ending.",
+  "icon": "UI_MonsterIcon_Natsaurus_Flamingo_Primo",
+  "codex": "BEAST",
+  "title": "Goldflame Qucusaur Tyrant",
+  "special_names": [
+    "Feather of Proclamation"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113064,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113064"
+    },
+    {
+      "id": 104114,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104114"
+    },
+    {
+      "id": 104113,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104113"
+    },
+    {
+      "id": 104112,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104112"
+    },
+    {
+      "id": 104111,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104111"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400128,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15009_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400127,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15009_3"
+    },
+    {
+      "id": 400047,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10010_4"
+    }
+  ],
+  "child": {
+    "26230301": {
+      "monster_name": "Monster_Natsaurus_Flamingo_Primo_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010031,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010031,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010031,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010031,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 168.4416,
+        "atk": 125.6,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26230302": {
+      "monster_name": "Monster_Natsaurus_Flamingo_Primo_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010031,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010031,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010031,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010031,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 168.4416,
+        "atk": 125.6,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26230303": {
+      "monster_name": "Monster_Natsaurus_Flamingo_Primo_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 163.008,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26230304": {
+      "monster_name": "Monster_Natsaurus_Flamingo_Primo_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 366.768,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

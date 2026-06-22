@@ -1,0 +1,324 @@
+{
+  "name": "Cryo Whopperflower",
+  "desc": "A mimetic plant monster that appears out of nowhere and uses Cryo in combat.\\nThese plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant Cryo Regisvine...",
+  "icon": "UI_MonsterIcon_Mimik_Ice",
+  "codex": "BEAST",
+  "title": "Cryo Whopperflower",
+  "special_names": [
+    "Opportunistic Mimetic Plant"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112040,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112040"
+    },
+    {
+      "id": 112039,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112039"
+    },
+    {
+      "id": 112038,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112038"
+    }
+  ],
+  "child": {
+    "26010101": {
+      "monster_name": "Mimik_Ice",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010036,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26010102": {
+      "monster_name": "Mimik_Ice_Activity",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010036,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 40.752,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26010103": {
+      "monster_name": "Mimik_Fel",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010036,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.7,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 149.424,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26010104": {
+      "monster_name": "Mimik_Fel_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010036,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.7,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 122.256,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26010105": {
+      "monster_name": "Mimik_Fel_03",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010036,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010036,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.7,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 122.256,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26010190": {
+      "monster_name": "Mimik_Ice_MvM",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": -0.15,
+        "grass": -0.15,
+        "water": -0.15,
+        "elec": -0.15,
+        "wind": -0.15,
+        "ice": 0.25,
+        "rock": -0.15,
+        "physical": -0.15
+      },
+      "base": {
+        "hp": 12.2256,
+        "atk": 156.1,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

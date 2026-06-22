@@ -1,0 +1,93 @@
+{
+  "name": "The Game Before the Gate",
+  "desc": "A soldier-entity born into being through the skills of various members of the Hexenzirkel.\\nAlthough their technological underpinnings are far from abstruse, and touch not upon the profound wisdom at the universe's core, yet as guards of the gate's final threshold, they are a metaphor in and of themselves.\\nThis world may be governed by rules, but for those who manage to cross its verge, such constraints no longer apply.",
+  "icon": "UI_MonsterIcon_GiantChess",
+  "codex": "BOSS",
+  "title": "Eighth of the Fatui Harbingers",
+  "special_names": [
+    ""
+  ],
+  "reward": [],
+  "child": {
+    "29120101": {
+      "monster_name": "Monster_GiantChess_King_StageA",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 434.688,
+        "atk": 125.6,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29120102": {
+      "monster_name": "Monster_GiantChess_King_StageA_Quest",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.7,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 332.53632,
+        "atk": 70.336,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

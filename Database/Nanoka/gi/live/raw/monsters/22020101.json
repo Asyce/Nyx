@@ -1,0 +1,163 @@
+{
+  "name": "Abyss Herald: Wicked Torrents",
+  "desc": "Servants of the Abyss Order that use Hydro in combat.\\nThese silent figures are the vanguard of the Abyss, brandishing Tidal Blades that can engulf everything in an instant, crumpling armor and obliterating heretics. They shall bring preordained damnation upon the foolish masses.",
+  "icon": "UI_MonsterIcon_Invoker_Herald_Water_01",
+  "codex": "ABYSS",
+  "title": "Dark Usher of Wicked Torrents",
+  "special_names": [
+    "Wynfled",
+    "Geilamir",
+    "Giselhardt",
+    "Heimwart",
+    "Haidrich",
+    "Ariowaldus",
+    "Ingemar",
+    "Kunnwulf",
+    "Graobert",
+    "Francobert"
+  ],
+  "reward": [],
+  "child": {
+    "22020101": {
+      "monster_name": "Invoker_Herald_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010032,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010032,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22020102": {
+      "monster_name": "Invoker_Herald_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010032,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010032,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22020103": {
+      "monster_name": "Invoker_Herald_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010032,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010032,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

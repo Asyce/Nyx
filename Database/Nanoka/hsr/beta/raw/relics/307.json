@@ -1,0 +1,22 @@
+{
+  "name": "Talia: Kingdom of Banditry",
+  "icon": "SpriteOutput/ItemIcon/71018.png",
+  "parts": {
+    "33075": {
+      "name": "Talia's Nailscrap Town"
+    },
+    "33076": {
+      "name": "Talia's Exposed Electric Wire"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the wearer's Break Effect by <unbreak>#1[i]%</unbreak>. When the wearer's SPD reaches <unbreak>#2[i]</unbreak> or higher, the wearer's Break Effect increases by an extra <unbreak>#3[i]%</unbreak>.",
+      "param_list": [
+        0.16,
+        145,
+        0.2
+      ]
+    }
+  }
+}

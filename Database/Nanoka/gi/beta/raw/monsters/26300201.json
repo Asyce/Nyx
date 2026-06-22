@@ -1,0 +1,163 @@
+{
+  "name": "Radiant Bladehorn",
+  "desc": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\\nIt is said that in the ancient past, when these borderlands were still shrouded by the pitch-dark shadow, only the charging of the giant rhinos could return the power that makes all things turn... And this was all that was asked of them in return for the moonlight shining down its blessings.",
+  "icon": "UI_MonsterIcon_Magbeast_Rhino",
+  "codex": "BEAST",
+  "title": "Radiant Beast",
+  "special_names": [
+    "Bladehorn"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112133,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112133"
+    },
+    {
+      "id": 112132,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112132"
+    },
+    {
+      "id": 112131,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112131"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "26300201": {
+      "monster_name": "Monster_Magbeast_Rhino_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010025,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010025,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010025,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 163.008,
+        "atk": 67.824,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26300202": {
+      "monster_name": "Monster_Magbeast_Rhino_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010025,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010025,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010025,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 163.008,
+        "atk": 67.824,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

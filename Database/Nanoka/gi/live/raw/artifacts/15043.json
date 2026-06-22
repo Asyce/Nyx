@@ -1,0 +1,145 @@
+{
+  "id": 15043,
+  "icon": "UI_RelicIcon_15043_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 80
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150430,
+      "id": 215043,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Aubade of Morningstar and Moon",
+      "desc": "Increases Elemental Mastery by 80."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150431,
+      "id": 215043,
+      "level": 1,
+      "open_config": "Relic_6.3_Columbia",
+      "param_list": [
+        0.2,
+        0.4,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Aubade of Morningstar and Moon",
+      "desc": "When the equipping character is off-field, Lunar Reaction DMG is increased by 20%. When the party's Moonsign Level is at least Ascendant Gleam, Lunar Reaction DMG will be further increased by 40%. This effect will disappear after the equipping character is active for 3s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15043_1",
+      "name": "Moonlit Offering's Libation",
+      "desc": "A wine cup lost in the final revelry of an ancient rite, in which believers once offered sacrifices to the heavenly moons.",
+      "story": {
+        "285431": {
+          "zh": "ART/UI/Readable/CHS/Relic15043_1",
+          "en": "ART/UI/Readable/EN/Relic15043_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15043_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15043_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15043_2",
+      "name": "Moonlit Offering's Parting Light",
+      "desc": "A quill that, in ancient times, granted boundless inspiration to priests who penned prayers to the heavenly moons.",
+      "story": {
+        "285432": {
+          "zh": "ART/UI/Readable/CHS/Relic15043_2",
+          "en": "ART/UI/Readable/EN/Relic15043_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15043_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15043_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15043_3",
+      "name": "Moonlit Offering's Silver Crown",
+      "desc": "A silver circlet set aside at the final syllable of a hymn, worn by poets who, in ancient times, sang in praise of the heavenly moons.",
+      "story": {
+        "285433": {
+          "zh": "ART/UI/Readable/CHS/Relic15043_3",
+          "en": "ART/UI/Readable/EN/Relic15043_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15043_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15043_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15043_4",
+      "name": "Moonlit Offering's Opulent Dream",
+      "desc": "A meticulously carved floral ornament meant to highlight the resplendent beauty of the goddesses of the heavenly moons, crafted in ancient times by artisans who sculpted statues of them.",
+      "story": {
+        "285434": {
+          "zh": "ART/UI/Readable/CHS/Relic15043_4",
+          "en": "ART/UI/Readable/EN/Relic15043_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15043_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15043_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15043_5",
+      "name": "Moonlit Offering's Final Hour",
+      "desc": "An hourglass meant to commemorate the final hour, prepared by sages who, in ancient times, sought truth from the heavenly moons.",
+      "story": {
+        "285435": {
+          "zh": "ART/UI/Readable/CHS/Relic15043_5",
+          "en": "ART/UI/Readable/EN/Relic15043_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15043_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15043_5_KR"
+        }
+      }
+    }
+  }
+}

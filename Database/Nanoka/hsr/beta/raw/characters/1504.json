@@ -1,0 +1,2864 @@
+{
+  "name": "Ashveil",
+  "desc": "He takes cases on a whim, cracks them with hard-core logic, and solves the strangest crimes on sheer instinct.\\nWith a monkey for an assistant and his heart set on retirement, the detective sleeps in a refrigerator, waiting for the bait to catch its willing prey.\\nUnder the light of the Phantasmoon, the vile beast howls. How will he draw the net on this hunt?",
+  "chara_info": {
+    "va": {},
+    "stories": {},
+    "voicelines": []
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "ashveil",
+  "sp_need": 150,
+  "base_type": "Rogue",
+  "damage_type": "Thunder",
+  "ranks": {
+    "1": {
+      "id": 150401,
+      "name": "Beware: Venture Not at Full Moon",
+      "desc": "While Ashveil is on the field, increases DMG taken by all enemies by <unbreak>#1[i]%</unbreak>. When an enemy target's current HP percentage is <unbreak>#2[i]%</unbreak> or lower, the DMG they take increases to <unbreak>#3[i]%</unbreak>.",
+      "icon": "SkillIcon_1504_Rank1.png",
+      "param_list": [
+        0.24,
+        0.5,
+        0.36
+      ],
+      "extra": {}
+    },
+    "2": {
+      "id": 150402,
+      "name": "Knock: Where Snickers Echo",
+      "desc": "The max stack limit of \"Gluttony\" increases to <unbreak>#1[i]</unbreak>. After each time Ashveil launches the enhanced Talent's <u>Follow-Up ATK</u>, refunds <unbreak>#2[i]%</unbreak> of the removed \"Gluttony\" stacks.",
+      "icon": "SkillIcon_1504_Rank2.png",
+      "param_list": [
+        18,
+        0.35
+      ],
+      "extra": {
+        "10000004": {
+          "name": "Follow-Up ATK",
+          "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+          "param": []
+        }
+      }
+    },
+    "3": {
+      "id": 150403,
+      "name": "Hush: Unsaid Between Friends",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1504_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 150404,
+      "name": "Heed: Swallow Truth Whole",
+      "desc": "When Ashveil uses Ultimate, increases ATK by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "icon": "SkillIcon_1504_Rank4.png",
+      "param_list": [
+        0.4,
+        3
+      ],
+      "extra": {}
+    },
+    "5": {
+      "id": 150405,
+      "name": "Caution: Sleuth Turns Slayer",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.",
+      "icon": "SkillIcon_1504_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 150406,
+      "name": "Finale: And Then There Were None",
+      "desc": "When the \"Bait\" exists on the field, reduces all enemies' All-Type RES by <unbreak>#1[i]%</unbreak>. For every 1 stack of \"Gluttony\" Ashveil has gained, the DMG dealt increases by <unbreak>#2[i]%</unbreak>. This effect can stack up to <unbreak>#3[i]</unbreak> time(s).",
+      "icon": "SkillIcon_1504_Rank6.png",
+      "param_list": [
+        0.2,
+        0.04,
+        30
+      ],
+      "extra": {}
+    }
+  },
+  "skills": {
+    "150401": {
+      "id": 150401,
+      "name": "Talons: Inculcate Decorum",
+      "desc": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Ashveil's ATK to one designated enemy.",
+      "simple_desc": "Deals minor Lightning DMG to one designated enemy.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "sp_base": 20,
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.5
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.6
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.7
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.8
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.9
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.1
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.2
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1.4
+          ]
+        }
+      }
+    },
+    "150402": {
+      "id": 150402,
+      "name": "Flog: Smite Evil",
+      "desc": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Ashveil's ATK. If the target is already the \"Bait,\" additionally deals it Lightning DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Ashveil's ATK, and recovers <unbreak>#5[i]</unbreak> Skill Point(s). When the \"Bait\" exists on the field, all enemies' DEF gets reduced by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.\\nWhen there is no \"Bait\" on the field, Ashveil immediately makes the enemy target with the lowest HP on the field become the \"Bait.\" The \"Bait\" state only takes effect on the most recently applied target.",
+      "simple_desc": "Makes one designated enemy become the \"Bait,\" dealing massive Lightning DMG to them. If the target is already the \"Bait,\" additionally deals minor Lightning DMG to them, and recovers <color=#f29e38ff><unbreak>#5[i]</unbreak></color> Skill Point(s). When the \"Bait\" exists on the field, all enemies' <color=#f29e38ff>DEF gets reduced</color>.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "SingleAttack",
+      "sp_base": 30,
+      "bp_need": 1,
+      "show_stance_list": [
+        60,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1,
+            1,
+            0.5,
+            0.2,
+            1
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1.1,
+            1,
+            0.55,
+            0.22,
+            1
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1.2,
+            1,
+            0.6,
+            0.24,
+            1
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1.3,
+            1,
+            0.65,
+            0.26,
+            1
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1.4,
+            1,
+            0.7,
+            0.28,
+            1
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1.5,
+            1,
+            0.75,
+            0.3,
+            1
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1.625,
+            1,
+            0.8125,
+            0.325,
+            1
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1.75,
+            1,
+            0.875,
+            0.35,
+            1
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1.875,
+            1,
+            0.9375,
+            0.375,
+            1
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            2,
+            1,
+            1,
+            0.4,
+            1
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            2.1,
+            1,
+            1.05,
+            0.42,
+            1
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            2.2,
+            1,
+            1.1,
+            0.44,
+            1
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            2.3,
+            1,
+            1.15,
+            0.46,
+            1
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            2.4,
+            1,
+            1.2,
+            0.48,
+            1
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            2.5,
+            1,
+            1.25,
+            0.5,
+            1
+          ]
+        }
+      }
+    },
+    "150403": {
+      "id": 150403,
+      "name": "Banquet: Insatiable Appetite",
+      "desc": "Makes one designated enemy become the \"Bait,\" dealing it Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Ashveil's ATK. Then, immediately launches 1 instance of enhanced Talent's <u>Follow-Up ATK</u> against the \"Bait.\" And Ashveil gains <unbreak>#2[i]</unbreak> Charge.\\nThis enhanced Talent's <u>Follow-Up ATK</u> does not consume Charge. Whenever \"Gluttony\" reaches <unbreak>#3[i]</unbreak> stack(s) or more, consumes <unbreak>#3[i]</unbreak> stack(s) of \"Gluttony\" to additionally deal 1 instance of Lightning DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Ashveil's ATK. And when this instance of <u>Follow-Up ATK</u> deals a killing blow to the target, it will continue to deal DMG to a new \"Bait.\" This triggers until \"Gluttony\" becomes lower than <unbreak>#3[i]</unbreak> stack(s). If all enemy targets currently on the field have been dealt killing blows, the enhanced Talent's <u>Follow-Up ATK</u> will immediately end.",
+      "simple_desc": "Makes one designated enemy become the \"Bait,\" dealing massive Lightning DMG to them. Then, <color=#f29e38ff>immediately launches against the \"Bait\"</color> 1 instance of enhanced Talent's <color=#f29e38ff><u>Follow-Up ATK</u></color>. And Ashveil gains Charge.\\nThis enhanced Talent's <u>Follow-Up ATK</u> does not consume Charge. Whenever \"Gluttony\" reaches <color=#f29e38ff><unbreak>#3[i]</unbreak></color> stack(s) or more, consumes <color=#f29e38ff><unbreak>#3[i]</unbreak></color> stack(s) of \"Gluttony\" to additionally deal massive Lightning DMG. And when this instance of <u>Follow-Up ATK</u> deals a killing blow to the target, it will <color=#f29e38ff>continue to deal DMG to a new \"Bait\"</color>. This triggers until \"Gluttony\" becomes lower than <color=#f29e38ff><unbreak>#3[i]</unbreak></color> stack(s).",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "SingleAttack",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        90,
+        0,
+        0
+      ],
+      "extra": {
+        "10000004": {
+          "name": "Follow-Up ATK",
+          "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            2,
+            3,
+            4,
+            1
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            2.2,
+            3,
+            4,
+            1.1
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            2.4,
+            3,
+            4,
+            1.2
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            2.6,
+            3,
+            4,
+            1.3
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            2.8,
+            3,
+            4,
+            1.4
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            3,
+            3,
+            4,
+            1.5
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            3.25,
+            3,
+            4,
+            1.625
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            3.5,
+            3,
+            4,
+            1.75
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            3.75,
+            3,
+            4,
+            1.875
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            4,
+            3,
+            4,
+            2
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            4.2,
+            3,
+            4,
+            2.1
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            4.4,
+            3,
+            4,
+            2.2
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            4.6,
+            3,
+            4,
+            2.3
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            4.8,
+            3,
+            4,
+            2.4
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            5,
+            3,
+            4,
+            2.5
+          ]
+        }
+      }
+    },
+    "150404": {
+      "id": 150404,
+      "name": "Rancor: Enmity Reprisal",
+      "desc": "Ashveil has an initial Charge of <unbreak>#1[i]</unbreak> and can hold up to a max of <unbreak>#2[i]</unbreak>. After the \"Bait\" gets attacked by other ally targets, Ashveil regenerates a fixed amount of <unbreak>#7[i]</unbreak> Energy, then consumes <unbreak>#3[i]</unbreak> Charge to launch <u>Follow-Up ATK</u> against the \"Bait,\" dealing Lightning DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Ashveil's ATK. Afterwards, gains <unbreak>#5[i]</unbreak> stack(s) of \"Gluttony,\" which can stack up to <unbreak>#6[i]</unbreak>.",
+      "simple_desc": "<color=#f29e38ff>After the \"Bait\" gets attacked by other ally targets</color>, Ashveil regenerates a fixed amount of Energy, then consumes Charge to <color=#f29e38ff>launch <u>Follow-Up ATK</u></color> against the \"Bait,\" dealing massive Lightning DMG. Afterwards, gains <color=#f29e38ff><unbreak>#5[i]</unbreak></color> stack(s) of \"Gluttony.\"",
+      "type_name": "Talent",
+      "tag": "SingleAttack",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        15,
+        0,
+        0
+      ],
+      "extra": {
+        "10000004": {
+          "name": "Follow-Up ATK",
+          "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            2,
+            3,
+            1,
+            1,
+            2,
+            12,
+            8
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            2,
+            3,
+            1,
+            1.1,
+            2,
+            12,
+            8
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            2,
+            3,
+            1,
+            1.2,
+            2,
+            12,
+            8
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            2,
+            3,
+            1,
+            1.3,
+            2,
+            12,
+            8
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            2,
+            3,
+            1,
+            1.4,
+            2,
+            12,
+            8
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            2,
+            3,
+            1,
+            1.5,
+            2,
+            12,
+            8
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            2,
+            3,
+            1,
+            1.625,
+            2,
+            12,
+            8
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            2,
+            3,
+            1,
+            1.75,
+            2,
+            12,
+            8
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            2,
+            3,
+            1,
+            1.875,
+            2,
+            12,
+            8
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            2,
+            3,
+            1,
+            2,
+            2,
+            12,
+            8
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            2,
+            3,
+            1,
+            2.1,
+            2,
+            12,
+            8
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            2,
+            3,
+            1,
+            2.2,
+            2,
+            12,
+            8
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            2,
+            3,
+            1,
+            2.3,
+            2,
+            12,
+            8
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            2,
+            3,
+            1,
+            2.4,
+            2,
+            12,
+            8
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            2,
+            3,
+            1,
+            2.5,
+            2,
+            12,
+            8
+          ]
+        }
+      }
+    },
+    "150406": {
+      "id": 150406,
+      "name": "Talons: Inculcate Decorum",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "150407": {
+      "id": 150407,
+      "name": "Devour: O Loathsome Hand",
+      "desc": "After using Technique, inflicts Daze on enemies within a set area for <unbreak>#1[i]</unbreak> second(s). Dazed enemies will not actively attack ally targets.\\nWhen entering combat via actively attacking a Dazed enemy, deals Lightning DMG to all enemies equal to <unbreak>#2[i]%</unbreak> of Ashveil's ATK, and grants Ashveil <unbreak>#3[i]</unbreak> Charge.",
+      "simple_desc": "Inflicts Daze on enemies within a set area. After entering combat via attacking a Dazed enemy, deals minor Lightning DMG to all enemies, and grants Ashveil <color=#f29e38ff><unbreak>#3[i]</unbreak></color> Charge.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "Impair",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            10,
+            1,
+            1
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1504_Normal.png",
+        "level_up_skill_id": [
+          150401
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1504001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Normal.png",
+        "level_up_skill_id": [
+          150401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110271,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1504001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Normal.png",
+        "level_up_skill_id": [
+          150401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1504001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Normal.png",
+        "level_up_skill_id": [
+          150401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1504001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Normal.png",
+        "level_up_skill_id": [
+          150401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1504001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Normal.png",
+        "level_up_skill_id": [
+          150401
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1504001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110271,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_BP.png",
+        "level_up_skill_id": [
+          150402
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110271,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Ultra.png",
+        "level_up_skill_id": [
+          150403
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110271,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 30000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 7,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 80000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_Passive.png",
+        "level_up_skill_id": [
+          150404
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 300000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 14,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1504004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1504_Maze.png",
+        "level_up_skill_id": [
+          150407
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110271,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "point_id": 1504101,
+        "point_name": "Damnation Trail",
+        "point_desc": "When Ashveil uses Skill/Ultimate, gains <unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak> stacks of \"Gluttony.\" During Ashveil's <u>Follow-Up ATK</u>, for every <unbreak>#3[i]</unbreak> enemy(ies) that suffer a killing blow, Ashveil gains <unbreak>#4[i]</unbreak> stack(s) of \"Gluttony.\"",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000004": {
+            "name": "Follow-Up ATK",
+            "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.8,
+          1,
+          0.1
+        ],
+        "point_id": 1504102,
+        "point_name": "Phantom Limb",
+        "point_desc": "DMG dealt by Ashveil's <u>Follow-Up ATK</u> increases by <unbreak>#1[i]%</unbreak>. And for every <unbreak>#2[i]</unbreak> stack(s) of \"Gluttony\" in possession, DMG dealt by Follow-Up ATK additionally increases by <unbreak>#3[i]%</unbreak>.",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000004": {
+            "name": "Follow-Up ATK",
+            "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1504_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110508,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.4,
+          0.8
+        ],
+        "point_id": 1504103,
+        "point_name": "First Fang",
+        "point_desc": "While Ashveil is on the field, CRIT DMG dealt by ally targets increases by <unbreak>#1[i]%</unbreak>, and CRIT DMG dealt by ally target's <u>Follow-Up ATK</u> additionally increases by <unbreak>#2[i]%</unbreak>.",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {
+          "10000004": {
+            "name": "Follow-Up ATK",
+            "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+            "param": []
+          }
+        }
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504201,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.053,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconThunderAddedRatio.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110271,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 116001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504202,
+        "point_name": "DMG Boost: Lightning",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [
+          1504101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "ThunderAddedRatio",
+            "value": 0.032,
+            "name": "Lightning DMG Boost"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504203,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1504202
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.053,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 10000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504204,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.04,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110272,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 116002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504205,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1504102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.08,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconThunderAddedRatio.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504206,
+        "point_name": "DMG Boost: Lightning",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1504205
+        ],
+        "status_add_list": [
+          {
+            "property_type": "ThunderAddedRatio",
+            "value": 0.048,
+            "name": "Lightning DMG Boost"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504207,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.08,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconAttack.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504208,
+        "point_name": "ATK Boost",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1504103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "AttackAddedRatio",
+            "value": 0.06,
+            "name": "ATK"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconThunderAddedRatio.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504209,
+        "point_name": "DMG Boost: Lightning",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1504208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "ThunderAddedRatio",
+            "value": 0.064,
+            "name": "Lightning DMG Boost"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110273,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 116003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1504210,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1504208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.107,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {},
+  "unique": {},
+  "stats": {
+    "0": {
+      "attack_base": 105.6,
+      "attack_add": 5.28,
+      "defence_base": 52.8,
+      "defence_add": 2.64,
+      "hp_base": 116.16,
+      "hp_add": 5.808,
+      "speed_base": 106,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 147.84,
+      "attack_add": 5.28,
+      "defence_base": 73.92,
+      "defence_add": 2.64,
+      "hp_base": 162.624,
+      "hp_add": 5.808,
+      "speed_base": 106,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 190.08,
+      "attack_add": 5.28,
+      "defence_base": 95.04,
+      "defence_add": 2.64,
+      "hp_base": 209.088,
+      "hp_add": 5.808,
+      "speed_base": 106,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110434,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 232.32,
+      "attack_add": 5.28,
+      "defence_base": 116.16,
+      "defence_add": 2.64,
+      "hp_base": 255.552,
+      "hp_add": 5.808,
+      "speed_base": 106,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110434,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 274.56,
+      "attack_add": 5.28,
+      "defence_base": 137.28,
+      "defence_add": 2.64,
+      "hp_base": 302.016,
+      "hp_add": 5.808,
+      "speed_base": 106,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110434,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 316.8,
+      "attack_add": 5.28,
+      "defence_base": 158.4,
+      "defence_add": 2.64,
+      "hp_base": 348.48,
+      "hp_add": 5.808,
+      "speed_base": 106,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 116003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110434,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 359.04,
+      "attack_add": 5.28,
+      "defence_base": 179.52,
+      "defence_add": 2.64,
+      "hp_base": 394.944,
+      "hp_add": 5.808,
+      "speed_base": 106,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 75,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1504,
+    "set4_id_list": [
+      115,
+      117,
+      120
+    ],
+    "set2_id_list": [
+      326,
+      315,
+      313
+    ],
+    "property_list3": [
+      "CriticalChanceBase",
+      "CriticalDamageBase"
+    ],
+    "property_list4": [
+      "SpeedDelta",
+      "AttackAddedRatio"
+    ],
+    "property_list5": [
+      "ThunderAddedRatio",
+      "AttackAddedRatio"
+    ],
+    "property_list6": [
+      "AttackAddedRatio",
+      "SPRatioBase"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "CriticalChanceBase"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "SpeedDelta"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "ThunderAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "AttackAddedRatio"
+      }
+    ],
+    "sub_affix_property_list": [
+      "SpeedDelta",
+      "CriticalDamageBase",
+      "CriticalChanceBase",
+      "AttackAddedRatio"
+    ],
+    "score_rank_list": [
+      346,
+      288
+    ]
+  },
+  "lightcones": [
+    23056,
+    23031,
+    23016
+  ],
+  "teams": [
+    {
+      "avatar_id": 1504,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1220,
+        1403,
+        1414
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_list3": [
+        1409,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        115
+      ],
+      "backup_group_list2": [
+        116,
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1504,
+      "team_id": 2,
+      "position": 1,
+      "member_list": [
+        1403,
+        1415,
+        1414
+      ],
+      "backup_list1": [
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_list2": [
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202,
+        1106
+      ],
+      "backup_list3": [
+        1409,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        104
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

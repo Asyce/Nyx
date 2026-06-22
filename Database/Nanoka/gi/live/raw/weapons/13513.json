@@ -1,0 +1,563 @@
+{
+  "name": "Lumidouce Elegy",
+  "desc": "A magnificent polearm adorned with azure crystal. It is said to have been a certain legendary Champion Duelist's treasure — and yet, not once was it ever used.",
+  "weapon_type": "WEAPON_POLE",
+  "weapon_prop": [
+    {
+      "init_value": 45.9364,
+      "prop_type": "FIGHT_PROP_BASE_ATTACK",
+      "type": "GROW_CURVE_ATTACK_301"
+    },
+    {
+      "init_value": 0.072,
+      "prop_type": "FIGHT_PROP_CRITICAL",
+      "type": "GROW_CURVE_CRITICAL_301"
+    }
+  ],
+  "rarity": 5,
+  "icon": "UI_EquipIcon_Pole_Muguet",
+  "stats_modifier": {
+    "atk": {
+      "base": 45.9364,
+      "levels": {
+        "1": 1,
+        "2": 1.086,
+        "3": 1.171,
+        "4": 1.257,
+        "5": 1.343,
+        "6": 1.429,
+        "7": 1.516,
+        "8": 1.602,
+        "9": 1.689,
+        "10": 1.775,
+        "11": 1.862,
+        "12": 1.949,
+        "13": 2.036,
+        "14": 2.124,
+        "15": 2.211,
+        "16": 2.299,
+        "17": 2.386,
+        "18": 2.474,
+        "19": 2.562,
+        "20": 2.65,
+        "21": 2.738,
+        "22": 2.827,
+        "23": 2.915,
+        "24": 3.004,
+        "25": 3.093,
+        "26": 3.182,
+        "27": 3.271,
+        "28": 3.36,
+        "29": 3.45,
+        "30": 3.539,
+        "31": 3.629,
+        "32": 3.719,
+        "33": 3.809,
+        "34": 3.899,
+        "35": 3.989,
+        "36": 4.08,
+        "37": 4.17,
+        "38": 4.261,
+        "39": 4.352,
+        "40": 4.443,
+        "41": 4.534,
+        "42": 4.625,
+        "43": 4.717,
+        "44": 4.808,
+        "45": 4.9,
+        "46": 4.992,
+        "47": 5.084,
+        "48": 5.176,
+        "49": 5.268,
+        "50": 5.36,
+        "51": 5.453,
+        "52": 5.546,
+        "53": 5.638,
+        "54": 5.731,
+        "55": 5.825,
+        "56": 5.918,
+        "57": 6.011,
+        "58": 6.105,
+        "59": 6.198,
+        "60": 6.292,
+        "61": 6.386,
+        "62": 6.48,
+        "63": 6.575,
+        "64": 6.669,
+        "65": 6.763,
+        "66": 6.858,
+        "67": 6.953,
+        "68": 7.048,
+        "69": 7.143,
+        "70": 7.238,
+        "71": 7.334,
+        "72": 7.429,
+        "73": 7.525,
+        "74": 7.621,
+        "75": 7.717,
+        "76": 7.813,
+        "77": 7.909,
+        "78": 8.005,
+        "79": 8.102,
+        "80": 8.199,
+        "81": 8.295,
+        "82": 8.392,
+        "83": 8.489,
+        "84": 8.587,
+        "85": 8.684,
+        "86": 8.782,
+        "87": 8.879,
+        "88": 8.977,
+        "89": 9.075,
+        "90": 9.173,
+        "91": 9.271,
+        "92": 9.37,
+        "93": 9.468,
+        "94": 9.567,
+        "95": 9.666,
+        "96": 9.765,
+        "97": 9.864,
+        "98": 9.963,
+        "99": 10.062,
+        "100": 10.162
+      }
+    },
+    "fight_prop_critical": {
+      "base": 0.072,
+      "levels": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1.162,
+        "6": 1.162,
+        "7": 1.162,
+        "8": 1.162,
+        "9": 1.162,
+        "10": 1.363,
+        "11": 1.363,
+        "12": 1.363,
+        "13": 1.363,
+        "14": 1.363,
+        "15": 1.565,
+        "16": 1.565,
+        "17": 1.565,
+        "18": 1.565,
+        "19": 1.565,
+        "20": 1.767,
+        "21": 1.767,
+        "22": 1.767,
+        "23": 1.767,
+        "24": 1.767,
+        "25": 1.969,
+        "26": 1.969,
+        "27": 1.969,
+        "28": 1.969,
+        "29": 1.969,
+        "30": 2.171,
+        "31": 2.171,
+        "32": 2.171,
+        "33": 2.171,
+        "34": 2.171,
+        "35": 2.373,
+        "36": 2.373,
+        "37": 2.373,
+        "38": 2.373,
+        "39": 2.373,
+        "40": 2.575,
+        "41": 2.575,
+        "42": 2.575,
+        "43": 2.575,
+        "44": 2.575,
+        "45": 2.777,
+        "46": 2.777,
+        "47": 2.777,
+        "48": 2.777,
+        "49": 2.777,
+        "50": 2.979,
+        "51": 2.979,
+        "52": 2.979,
+        "53": 2.979,
+        "54": 2.979,
+        "55": 3.181,
+        "56": 3.181,
+        "57": 3.181,
+        "58": 3.181,
+        "59": 3.181,
+        "60": 3.383,
+        "61": 3.383,
+        "62": 3.383,
+        "63": 3.383,
+        "64": 3.383,
+        "65": 3.585,
+        "66": 3.585,
+        "67": 3.585,
+        "68": 3.585,
+        "69": 3.585,
+        "70": 3.786,
+        "71": 3.786,
+        "72": 3.786,
+        "73": 3.786,
+        "74": 3.786,
+        "75": 3.988,
+        "76": 3.988,
+        "77": 3.988,
+        "78": 3.988,
+        "79": 3.988,
+        "80": 4.19,
+        "81": 4.19,
+        "82": 4.19,
+        "83": 4.19,
+        "84": 4.19,
+        "85": 4.392,
+        "86": 4.392,
+        "87": 4.392,
+        "88": 4.392,
+        "89": 4.392,
+        "90": 4.594,
+        "91": 4.594,
+        "92": 4.594,
+        "93": 4.594,
+        "94": 4.594,
+        "95": 4.796,
+        "96": 4.796,
+        "97": 4.796,
+        "98": 4.796,
+        "99": 4.796,
+        "100": 4.998
+      }
+    }
+  },
+  "xp_requirements": {
+    "1": 600,
+    "2": 950,
+    "3": 1350,
+    "4": 1800,
+    "5": 2325,
+    "6": 2925,
+    "7": 3525,
+    "8": 4200,
+    "9": 4950,
+    "10": 5700,
+    "11": 6525,
+    "12": 7400,
+    "13": 8300,
+    "14": 9225,
+    "15": 10200,
+    "16": 11250,
+    "17": 12300,
+    "18": 13425,
+    "19": 14600,
+    "20": 15750,
+    "21": 17850,
+    "22": 19175,
+    "23": 20550,
+    "24": 21975,
+    "25": 23450,
+    "26": 24950,
+    "27": 26475,
+    "28": 28050,
+    "29": 29675,
+    "30": 31350,
+    "31": 33050,
+    "32": 34800,
+    "33": 36575,
+    "34": 38400,
+    "35": 40250,
+    "36": 42150,
+    "37": 44100,
+    "38": 46100,
+    "39": 48125,
+    "40": 50150,
+    "41": 54875,
+    "42": 57125,
+    "43": 59400,
+    "44": 61725,
+    "45": 64100,
+    "46": 66500,
+    "47": 68925,
+    "48": 71400,
+    "49": 73950,
+    "50": 76500,
+    "51": 83075,
+    "52": 85850,
+    "53": 88650,
+    "54": 91550,
+    "55": 94425,
+    "56": 97400,
+    "57": 100350,
+    "58": 103400,
+    "59": 106475,
+    "60": 109575,
+    "61": 118350,
+    "62": 121700,
+    "63": 125100,
+    "64": 128550,
+    "65": 132050,
+    "66": 135575,
+    "67": 139125,
+    "68": 142725,
+    "69": 146375,
+    "70": 150075,
+    "71": 161525,
+    "72": 165500,
+    "73": 169500,
+    "74": 173550,
+    "75": 177650,
+    "76": 181800,
+    "77": 186000,
+    "78": 190250,
+    "79": 194525,
+    "80": 198875,
+    "81": 234725,
+    "82": 263825,
+    "83": 296400,
+    "84": 332975,
+    "85": 373950,
+    "86": 419925,
+    "87": 471375,
+    "88": 529050,
+    "89": 593675,
+    "90": 666050
+  },
+  "ascension": {
+    "1": {
+      "fight_prop_base_attack": 31.1
+    },
+    "2": {
+      "fight_prop_base_attack": 62.2
+    },
+    "3": {
+      "fight_prop_base_attack": 93.4
+    },
+    "4": {
+      "fight_prop_base_attack": 124.5
+    },
+    "5": {
+      "fight_prop_base_attack": 155.6
+    },
+    "6": {
+      "fight_prop_base_attack": 186.7
+    }
+  },
+  "refinement": {
+    "1": {
+      "name": "Bright Dawn Overture",
+      "desc": "ATK increased by <color=#99FFFFFF>15%</color>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <color=#99FFFFFF>18%</color>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <color=#99FFFFFF>12</color> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+      "param_list": [
+        0.15,
+        0.18,
+        8,
+        12,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "2": {
+      "name": "Bright Dawn Overture",
+      "desc": "ATK increased by <color=#99FFFFFF>19%</color>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <color=#99FFFFFF>23%</color>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <color=#99FFFFFF>13</color> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+      "param_list": [
+        0.19,
+        0.23,
+        8,
+        13,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "3": {
+      "name": "Bright Dawn Overture",
+      "desc": "ATK increased by <color=#99FFFFFF>23%</color>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <color=#99FFFFFF>28%</color>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <color=#99FFFFFF>14</color> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+      "param_list": [
+        0.23,
+        0.28,
+        8,
+        14,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "4": {
+      "name": "Bright Dawn Overture",
+      "desc": "ATK increased by <color=#99FFFFFF>27%</color>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <color=#99FFFFFF>33%</color>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <color=#99FFFFFF>15</color> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+      "param_list": [
+        0.27,
+        0.33,
+        8,
+        15,
+        12,
+        0,
+        0,
+        0
+      ]
+    },
+    "5": {
+      "name": "Bright Dawn Overture",
+      "desc": "ATK increased by <color=#99FFFFFF>31%</color>. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by <color=#99FFFFFF>38%</color>. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore <color=#99FFFFFF>16</color> Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.",
+      "param_list": [
+        0.31,
+        0.38,
+        8,
+        16,
+        12,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "materials": {
+    "1": {
+      "mats": [
+        {
+          "name": "Broken Goblet of the Pristine Sea",
+          "id": 114057,
+          "count": 5,
+          "rank": 2
+        },
+        {
+          "name": "Ruined Hilt",
+          "id": 112098,
+          "count": 5,
+          "rank": 2
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "id": 112038,
+          "count": 3,
+          "rank": 1
+        }
+      ],
+      "cost": 10000
+    },
+    "2": {
+      "mats": [
+        {
+          "name": "Wine Goblet of the Pristine Sea",
+          "id": 114058,
+          "count": 5,
+          "rank": 3
+        },
+        {
+          "name": "Ruined Hilt",
+          "id": 112098,
+          "count": 18,
+          "rank": 2
+        },
+        {
+          "name": "Whopperflower Nectar",
+          "id": 112038,
+          "count": 12,
+          "rank": 1
+        }
+      ],
+      "cost": 20000
+    },
+    "3": {
+      "mats": [
+        {
+          "name": "Wine Goblet of the Pristine Sea",
+          "id": 114058,
+          "count": 9,
+          "rank": 3
+        },
+        {
+          "name": "Splintered Hilt",
+          "id": 112099,
+          "count": 9,
+          "rank": 3
+        },
+        {
+          "name": "Shimmering Nectar",
+          "id": 112039,
+          "count": 9,
+          "rank": 2
+        }
+      ],
+      "cost": 30000
+    },
+    "4": {
+      "mats": [
+        {
+          "name": "Silver Goblet of the Pristine Sea",
+          "id": 114059,
+          "count": 5,
+          "rank": 4
+        },
+        {
+          "name": "Splintered Hilt",
+          "id": 112099,
+          "count": 18,
+          "rank": 3
+        },
+        {
+          "name": "Shimmering Nectar",
+          "id": 112039,
+          "count": 14,
+          "rank": 2
+        }
+      ],
+      "cost": 45000
+    },
+    "5": {
+      "mats": [
+        {
+          "name": "Silver Goblet of the Pristine Sea",
+          "id": 114059,
+          "count": 9,
+          "rank": 4
+        },
+        {
+          "name": "Still-Smoldering Hilt",
+          "id": 112100,
+          "count": 14,
+          "rank": 4
+        },
+        {
+          "name": "Energy Nectar",
+          "id": 112040,
+          "count": 9,
+          "rank": 3
+        }
+      ],
+      "cost": 55000
+    },
+    "6": {
+      "mats": [
+        {
+          "name": "Golden Goblet of the Pristine Sea",
+          "id": 114060,
+          "count": 6,
+          "rank": 5
+        },
+        {
+          "name": "Still-Smoldering Hilt",
+          "id": 112100,
+          "count": 27,
+          "rank": 4
+        },
+        {
+          "name": "Energy Nectar",
+          "id": 112040,
+          "count": 18,
+          "rank": 3
+        }
+      ],
+      "cost": 65000
+    }
+  },
+  "story": {
+    "293513": {
+      "zh": "ART/UI/Readable/CHS/Weapon13513",
+      "en": "ART/UI/Readable/EN/Weapon13513_EN",
+      "ja": "ART/UI/Readable/JP/Weapon13513_JP",
+      "ko": "ART/UI/Readable/KR/Weapon13513_KR"
+    }
+  }
+}

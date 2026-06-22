@@ -1,0 +1,9 @@
+{
+  "name": "Shattered Moon",
+  "desc": "A glorious, illusory polearm that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a moon-hunting sinner in an ancient land.",
+  "weapon_type": "WEAPON_POLE",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_Pole_MorphSpinifer_{0}",
+  "tag": "TAG_TYPE_COLOR_BY_ELEMENT",
+  "skin": true
+}

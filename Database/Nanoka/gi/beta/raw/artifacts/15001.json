@@ -1,0 +1,139 @@
+{
+  "id": 15001,
+  "icon": "UI_RelicIcon_15001_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ATTACK_PERCENT",
+          "value": 0.18
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150010,
+      "id": 215001,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Gladiator's Finale",
+      "desc": "ATK +18%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150011,
+      "id": 215001,
+      "level": 1,
+      "open_config": "Relic_MeleeAttackUp",
+      "param_list": [
+        0.35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Gladiator's Finale",
+      "desc": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15001_1",
+      "name": "Gladiator's Intoxication",
+      "desc": "",
+      "story": {
+        "285011": {
+          "zh": "ART/UI/Readable/CHS/Relic15001_1",
+          "en": "ART/UI/Readable/EN/Relic15001_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15001_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15001_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15001_2",
+      "name": "Gladiator's Destiny",
+      "desc": "",
+      "story": {
+        "285012": {
+          "zh": "ART/UI/Readable/CHS/Relic15001_2",
+          "en": "ART/UI/Readable/EN/Relic15001_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15001_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15001_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15001_3",
+      "name": "Gladiator's Triumphus",
+      "desc": "",
+      "story": {
+        "285013": {
+          "zh": "ART/UI/Readable/CHS/Relic15001_3",
+          "en": "ART/UI/Readable/EN/Relic15001_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15001_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15001_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15001_4",
+      "name": "Gladiator's Nostalgia",
+      "desc": "",
+      "story": {
+        "285014": {
+          "zh": "ART/UI/Readable/CHS/Relic15001_4",
+          "en": "ART/UI/Readable/EN/Relic15001_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15001_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15001_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15001_5",
+      "name": "Gladiator's Longing",
+      "desc": "",
+      "story": {
+        "285015": {
+          "zh": "ART/UI/Readable/CHS/Relic15001_5",
+          "en": "ART/UI/Readable/EN/Relic15001_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15001_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15001_5_KR"
+        }
+      }
+    }
+  }
+}

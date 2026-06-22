@@ -1,0 +1,145 @@
+{
+  "id": 15028,
+  "icon": "UI_RelicIcon_15028_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 80
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150280,
+      "id": 215028,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Flower of Paradise Lost",
+      "desc": "Increases Elemental Mastery by 80."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150281,
+      "id": 215028,
+      "level": 1,
+      "open_config": "Relic_OvergrowReactionEnhance",
+      "param_list": [
+        0.4,
+        0.4,
+        0.4,
+        10,
+        4,
+        0.25,
+        1,
+        0.1
+      ],
+      "name": "Flower of Paradise Lost",
+      "desc": "The equipping character's Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%, and their Lunar-Bloom reaction DMG is increased by 10%. Additionally, after the equipping character triggers Bloom, Hyperbloom, Lunar-Bloom, or Burgeon, they will gain another 25% bonus to the effects mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15028_1",
+      "name": "Secret-Keeper's Magic Bottle",
+      "desc": "A small bottle made of purple crystal. An emerald cap keeps it tightly sealed.",
+      "story": {
+        "285281": {
+          "zh": "ART/UI/Readable/CHS/Relic15028_1",
+          "en": "ART/UI/Readable/EN/Relic15028_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15028_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15028_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15028_2",
+      "name": "Wilting Feast",
+      "desc": "A feather left behind by a long-extinct bird species. It was inlaid with gold and gems by the ancient adherents of the Goddess of Flowers.",
+      "story": {
+        "285282": {
+          "zh": "ART/UI/Readable/CHS/Relic15028_2",
+          "en": "ART/UI/Readable/EN/Relic15028_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15028_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15028_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15028_3",
+      "name": "Amethyst Crown",
+      "desc": "A crown inlaid with amethyst and emerald. It seems to have been the headgear worn by ancient priests of the Goddess of Flowers.",
+      "story": {
+        "285283": {
+          "zh": "ART/UI/Readable/CHS/Relic15028_3",
+          "en": "ART/UI/Readable/EN/Relic15028_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15028_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15028_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15028_4",
+      "name": "Ay-Khanoum's Myriad",
+      "desc": "An amethyst bloom that has been beautifully sculpted in the image of an ancient, extinct flower.",
+      "story": {
+        "285284": {
+          "zh": "ART/UI/Readable/CHS/Relic15028_4",
+          "en": "ART/UI/Readable/EN/Relic15028_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15028_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15028_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15028_5",
+      "name": "A Moment Congealed",
+      "desc": "These sands no longer move no matter how you tilt the hourglass, now and forever defying the drift of time itself.",
+      "story": {
+        "285285": {
+          "zh": "ART/UI/Readable/CHS/Relic15028_5",
+          "en": "ART/UI/Readable/EN/Relic15028_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15028_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15028_5_KR"
+        }
+      }
+    }
+  }
+}

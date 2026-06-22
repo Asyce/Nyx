@@ -1,0 +1,116 @@
+{
+  "name": "Cherubic Sea Hare",
+  "desc": "The adult form of an Angelic Sea Hare. The \"wings\" on its back are actually fat used for storing elemental energy.\\nThis type of sea creature spends its whole life eating and conserving energy far beyond its actual requirements. Perhaps if the oceans dry out some day, they will be able to continue to survive — or simply become an important source of nutrition for other creatures...",
+  "icon": "UI_MonsterIcon_Aplysia_Mature",
+  "codex": "BEAST",
+  "title": "Cherubic Sea Hare",
+  "special_names": [
+    "Life Evolved by the Fontemer"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112082,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112082"
+    },
+    {
+      "id": 112081,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112081"
+    },
+    {
+      "id": 112080,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112080"
+    }
+  ],
+  "child": {
+    "26160201": {
+      "monster_name": "Aplysia_Mature_01_Sea",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_ENVIRONMENT",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 64.9378,
+        "atk": 60,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26160202": {
+      "monster_name": "Aplysia_Mature_01_Land",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 35.3184,
+        "atk": 60,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

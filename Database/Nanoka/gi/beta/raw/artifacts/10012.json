@@ -1,0 +1,141 @@
+{
+  "id": 10012,
+  "icon": "UI_RelicIcon_10012_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_CHARGE_EFFICIENCY",
+          "value": 0.2
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100120,
+      "id": 210012,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Scholar",
+      "desc": "Energy Recharge +20%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100121,
+      "id": 210012,
+      "level": 1,
+      "open_config": "Relic_RestoreEnergyGainExtraEnergyForTeam",
+      "param_list": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Scholar",
+      "desc": "Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10012_1",
+      "name": "Scholar's Ink Cup",
+      "desc": "Originally designed to hold drinking water, this cup was stained black after a scholar used it to wash their paint brushes.",
+      "story": {
+        "280121": {
+          "zh": "ART/UI/Readable/CHS/Relic10012_1",
+          "en": "ART/UI/Readable/EN/Relic10012_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10012_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10012_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10012_2",
+      "name": "Scholar's Quill Pen",
+      "desc": "A bird's feather that serves as a quill pen. The tip has long been stained black.",
+      "story": {
+        "280122": {
+          "zh": "ART/UI/Readable/CHS/Relic10012_2",
+          "en": "ART/UI/Readable/EN/Relic10012_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10012_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10012_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10012_3",
+      "name": "Scholar's Lens",
+      "desc": "This corrective lens helped restore the vision of one whose eyes were damaged from intensive studying.",
+      "story": {
+        "280123": {
+          "zh": "ART/UI/Readable/CHS/Relic10012_3",
+          "en": "ART/UI/Readable/EN/Relic10012_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10012_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10012_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10012_4",
+      "name": "Scholar's Bookmark",
+      "desc": "A dried flower used as a bookmark. It has absorbed the scent from the pages.",
+      "story": {
+        "280124": {
+          "zh": "ART/UI/Readable/CHS/Relic10012_4",
+          "en": "ART/UI/Readable/EN/Relic10012_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10012_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10012_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10012_5",
+      "name": "Scholar's Clock",
+      "desc": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day.",
+      "story": {
+        "280125": {
+          "zh": "ART/UI/Readable/CHS/Relic10012_5",
+          "en": "ART/UI/Readable/EN/Relic10012_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10012_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10012_5_KR"
+        }
+      }
+    }
+  }
+}

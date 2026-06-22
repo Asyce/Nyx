@@ -1,0 +1,107 @@
+{
+  "name": "Radiant Glacial Wolf",
+  "desc": "A beast that has undergone a unique evolution due to age-long immersion in the ancient moon's power.\\nLegend has it that when a dark calamity wiped out countless lives, the frontier forests fell completely silent. In that stillness, the only sound to break the dead quiet was the howl of the Glacial Wolves calling to the moon. Night after night, their mournful cries echoed across the empty wilderness in the cold moonlight.",
+  "icon": "UI_MonsterIcon_Magbeast_Steppenwolf",
+  "codex": "BEAST",
+  "title": "Radiant Beast",
+  "special_names": [
+    "Glacial Wolf"
+  ],
+  "reward": [],
+  "child": {
+    "26300401": {
+      "monster_name": "Monster_Magbeast_Steppenwolf_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010026,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010026,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 149.424,
+        "atk": 82.896,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26300402": {
+      "monster_name": "Monster_Magbeast_Steppenwolf_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010026,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010026,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.5,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 149.424,
+        "atk": 82.896,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

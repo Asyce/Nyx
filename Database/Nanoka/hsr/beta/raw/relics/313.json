@@ -1,0 +1,22 @@
+{
+  "name": "Sigonia, the Unclaimed Desolation",
+  "icon": "SpriteOutput/ItemIcon/71030.png",
+  "parts": {
+    "33135": {
+      "name": "Sigonia's Gaiathra Berth"
+    },
+    "33136": {
+      "name": "Sigonia's Knot of Cyclicality"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the wearer's CRIT Rate by <unbreak>#3[i]%</unbreak>. When an enemy target gets defeated, the wearer's CRIT DMG increases by <unbreak>#1[i]%</unbreak>, stacking up to <unbreak>#2[i]</unbreak> time(s).",
+      "param_list": [
+        0.04,
+        10,
+        0.04
+      ]
+    }
+  }
+}

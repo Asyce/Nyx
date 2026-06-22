@@ -1,0 +1,61 @@
+{
+  "id": 15010,
+  "icon": "UI_RelicIcon_15010_3",
+  "need": [
+    1
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150100,
+      "id": 215010,
+      "level": 0,
+      "open_config": "Relic_WaterResistance",
+      "param_list": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Prayers for Destiny",
+      "desc": "Affected by Hydro for 40% less time."
+    }
+  ],
+  "parts": {
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15010_3",
+      "name": "Tiara of Torrents",
+      "desc": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance.",
+      "story": {
+        "285103": {
+          "zh": "ART/UI/Readable/CHS/Relic15010_3",
+          "en": "ART/UI/Readable/EN/Relic15010_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15010_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15010_3_KR"
+        }
+      }
+    }
+  }
+}

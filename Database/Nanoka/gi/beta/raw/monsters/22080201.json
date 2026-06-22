@@ -1,0 +1,109 @@
+{
+  "name": "Black Serpent Knight: Rockbreaker Ax",
+  "desc": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"\\nThough Truthseeker is, strictly speaking, a sword art, its teachings can also be used with various other weapons — and in the realm's darkest hour, those who had to protect their homeland had little room to be fussy anyway.",
+  "icon": "UI_MonsterIcon_Darkwraith_Fat_Rock",
+  "codex": "ABYSS",
+  "title": "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
+  "special_names": [
+    "Adalgsio",
+    "Adelbert",
+    "Erhard",
+    "Roderigo",
+    "Gunther",
+    "Sieger",
+    "Faramund",
+    "Filibert",
+    "Athalsteinn",
+    "Aldric"
+  ],
+  "reward": [],
+  "child": {
+    "22080201": {
+      "monster_name": "Darkwraith_Fat_Rock_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010027,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010027,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010027,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 108.672,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22080202": {
+      "monster_name": "Darkwraith_Fat_Rock_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.5,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 163.008,
+        "atk": 60.288,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

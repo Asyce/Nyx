@@ -1,0 +1,34 @@
+{
+  "name": "Guard of Wuthering Snow",
+  "icon": "SpriteOutput/ItemIcon/71005.png",
+  "parts": {
+    "31061": {
+      "name": "Guard's Cast Iron Helmet"
+    },
+    "31062": {
+      "name": "Guard's Shining Gauntlets"
+    },
+    "31063": {
+      "name": "Guard's Uniform of Old"
+    },
+    "31064": {
+      "name": "Guard's Silver Greaves"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Reduces DMG taken by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.08
+      ]
+    },
+    "4": {
+      "desc": "At the beginning of the turn, if the wearer's HP percentage is equal to or less than <unbreak>#1[i]%</unbreak>, restores HP equal to <unbreak>#2[i]%</unbreak> of their Max HP and regenerates <unbreak>#3[i]</unbreak> Energy.",
+      "param_list": [
+        0.5,
+        0.08,
+        5
+      ]
+    }
+  }
+}

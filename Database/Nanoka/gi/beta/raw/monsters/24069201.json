@@ -1,0 +1,63 @@
+{
+  "name": "Construction Specialist Mek",
+  "desc": "A type of large clockwork meka which also has immeasurable value when utilized in building construction and archeological excavation. Its name comes from an engineer employed by Callas during the construction of the Clementine Line.\\nWith Callas' financial backing, this engineer built the legendary \"Golden Vessel\" — a gigantic piece of construction machinery which was used to dig the Poisson Tunnel. Once the job was complete, this type of clockwork meka was designed with a similar structure but reduced to a smaller scale.",
+  "icon": "UI_MonsterIcon_MachinaIustitia_Excavator",
+  "codex": "AUTOMATRON",
+  "title": "Construction Specialist Mek",
+  "special_names": [
+    "Meka, Cal. Etienne-Louis"
+  ],
+  "reward": [],
+  "child": {
+    "24069201": {
+      "monster_name": "MachinaIustitia_Excavator_Codex",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

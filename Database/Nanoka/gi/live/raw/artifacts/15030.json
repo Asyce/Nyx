@@ -1,0 +1,145 @@
+{
+  "id": 15030,
+  "icon": "UI_RelicIcon_15030_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_HP_PERCENT",
+          "value": 0.2
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150300,
+      "id": 215030,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Vourukasha's Glow",
+      "desc": "HP +20%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150301,
+      "id": 215030,
+      "level": 1,
+      "open_config": "Relic_Pari",
+      "param_list": [
+        0.1,
+        0.8,
+        5,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Vourukasha's Glow",
+      "desc": "Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15030_1",
+      "name": "Feast of Boundless Joy",
+      "desc": "An opulent wine goblet that was once filled with nectar and honeydew, but is empty today.",
+      "story": {
+        "285301": {
+          "zh": "ART/UI/Readable/CHS/Relic15030_1",
+          "en": "ART/UI/Readable/EN/Relic15030_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15030_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15030_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15030_2",
+      "name": "Vibrant Pinion",
+      "desc": "An exquisite feather-shaped decoration on which the vivid hues of verdant leaves and fragrant flowers shimmer.",
+      "story": {
+        "285302": {
+          "zh": "ART/UI/Readable/CHS/Relic15030_2",
+          "en": "ART/UI/Readable/EN/Relic15030_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15030_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15030_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15030_3",
+      "name": "Heart of Khvarena's Brilliance",
+      "desc": "Intricate and vibrant earrings upon which the luster of a hundred flowers seems to flow.",
+      "story": {
+        "285303": {
+          "zh": "ART/UI/Readable/CHS/Relic15030_3",
+          "en": "ART/UI/Readable/EN/Relic15030_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15030_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15030_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15030_4",
+      "name": "Stamen of Khvarena's Origin",
+      "desc": "An insignia in the shape of a lovely little flower that was once worn by pilgrims in times long bygone.",
+      "story": {
+        "285304": {
+          "zh": "ART/UI/Readable/CHS/Relic15030_4",
+          "en": "ART/UI/Readable/EN/Relic15030_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15030_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15030_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15030_5",
+      "name": "Ancient Abscission",
+      "desc": "An ancient timepiece upon which the light of Khvarena gleams. It is filled with a pure liquid that appears alive.",
+      "story": {
+        "285305": {
+          "zh": "ART/UI/Readable/CHS/Relic15030_5",
+          "en": "ART/UI/Readable/EN/Relic15030_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15030_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15030_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,1302 @@
 {
-  "generatedAt": "2026-06-22T03:36:19.008Z",
+  "generatedAt": "2026-06-22T10:46:09.271Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
-  "count": 0,
-  "missing": []
+  "count": 185,
+  "missing": [
+    {
+      "game": "gi",
+      "context": "Kirara ascension",
+      "id": "101208",
+      "name": "Amakumo Fruit",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Chiori ascension",
+      "id": "113049",
+      "name": "Artificed Spare Clockwork Component — Coppelia",
+      "kind": "mob"
+    },
+    {
+      "game": "gi",
+      "context": "Navia ascension",
+      "id": "113050",
+      "name": "Artificed Spare Clockwork Component — Coppelius",
+      "kind": "mob"
+    },
+    {
+      "game": "gi",
+      "context": "Escoffier ascension",
+      "id": "101232",
+      "name": "Beryl Conch",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Xilonen ascension",
+      "id": "101248",
+      "name": "Brilliant Chrysanthemum",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Traveler ascension",
+      "id": "104103",
+      "name": "Brilliant Diamond Chunk",
+      "kind": "gem"
+    },
+    {
+      "game": "gi",
+      "context": "Traveler ascension",
+      "id": "104102",
+      "name": "Brilliant Diamond Fragment",
+      "kind": "gem"
+    },
+    {
+      "game": "gi",
+      "context": "Traveler ascension",
+      "id": "104104",
+      "name": "Brilliant Diamond Gemstone",
+      "kind": "gem"
+    },
+    {
+      "game": "gi",
+      "context": "Traveler ascension",
+      "id": "104101",
+      "name": "Brilliant Diamond Sliver",
+      "kind": "gem"
+    },
+    {
+      "game": "gi",
+      "context": "Dahlia ascension",
+      "id": "100056",
+      "name": "Calla Lily",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Albedo ascension",
+      "id": "100023",
+      "name": "Cecilia",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Lan Yan ascension",
+      "id": "101241",
+      "name": "Clearwater Jade",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Zhongli ascension",
+      "id": "100058",
+      "name": "Cor Lapis",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Lohen talents",
+      "id": "104319",
+      "name": "Crown of Insight",
+      "kind": "crown"
+    },
+    {
+      "game": "gi",
+      "context": "Sayu ascension",
+      "id": "101203",
+      "name": "Crystal Marrow",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Eula ascension",
+      "id": "100057",
+      "name": "Dandelion Seed",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Chiori ascension",
+      "id": "101204",
+      "name": "Dendrobium",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Iansan ascension",
+      "id": "101255",
+      "name": "Dracolite",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Gaming ascension",
+      "id": "113051",
+      "name": "Emperor's Resolution",
+      "kind": "mob"
+    },
+    {
+      "game": "gi",
+      "context": "Lohen ascension",
+      "id": "101272",
+      "name": "Etherwing Moth",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Kirara ascension",
+      "id": "113045",
+      "name": "Evergloom Ring",
+      "kind": "mob"
+    },
+    {
+      "game": "gi",
+      "context": "Thoma ascension",
+      "id": "101209",
+      "name": "Fluorescent Fungus",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Durin ascension",
+      "id": "101261",
+      "name": "Frostlamp Flower",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Zibai ascension",
+      "id": "100030",
+      "name": "Glaze Lily",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Ineffa ascension",
+      "id": "101252",
+      "name": "Glowing Hornshroom",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Faruzan ascension",
+      "id": "101220",
+      "name": "Henna Berry",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Yaoyao ascension",
+      "id": "100027",
+      "name": "Jueyun Chili",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Nahida ascension",
+      "id": "101217",
+      "name": "Kalpalata Lotus",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Emilie ascension",
+      "id": "101238",
+      "name": "Lakelight Lily",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Chevreuse ascension",
+      "id": "101235",
+      "name": "Lumidouce Bell",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Clorinde ascension",
+      "id": "101237",
+      "name": "Lumitoile",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Nefer ascension",
+      "id": "101263",
+      "name": "Moonfall Silver",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Kaveh ascension",
+      "id": "101223",
+      "name": "Mourning Flower",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Kuki Shinobu ascension",
+      "id": "101205",
+      "name": "Naku Weed",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Layla ascension",
+      "id": "101215",
+      "name": "Nilotpala Lotus",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Yanfei ascension",
+      "id": "100028",
+      "name": "Noctilucous Jade",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Shikanoin Heizou ascension",
+      "id": "101201",
+      "name": "Onikabuto",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Nilou ascension",
+      "id": "101214",
+      "name": "Padisarah",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Klee ascension",
+      "id": "100025",
+      "name": "Philanemo Mushroom",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Nicole ascension",
+      "id": "101269",
+      "name": "Pine Amber",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Jahoda ascension",
+      "id": "101257",
+      "name": "Portable Bearing",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Shenhe ascension",
+      "id": "100031",
+      "name": "Qingxin",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Citlali ascension",
+      "id": "101249",
+      "name": "Quenepa Berry",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Arlecchino ascension",
+      "id": "101236",
+      "name": "Rainbow Rose",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Sigewinne ascension",
+      "id": "101233",
+      "name": "Romaritime Flower",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Wanderer ascension",
+      "id": "101213",
+      "name": "Rukkhashava Mushrooms",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Kamisato Ayato ascension",
+      "id": "101202",
+      "name": "Sakura Bloom",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Dehya ascension",
+      "id": "101222",
+      "name": "Sand Grease Pupa",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Gorou ascension",
+      "id": "101207",
+      "name": "Sango Pearl",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Ifa ascension",
+      "id": "101250",
+      "name": "Saurian Claw Succulent",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Cyno ascension",
+      "id": "101225",
+      "name": "Scarab",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Yumemizuki Mizuki ascension",
+      "id": "101206",
+      "name": "Sea Ganoderma",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Hu Tao ascension",
+      "id": "100029",
+      "name": "Silk Flower",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Skirk ascension",
+      "id": "101254",
+      "name": "Skysplit Gembloom",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Diluc ascension",
+      "id": "100055",
+      "name": "Small Lamp Grass",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Mualani ascension",
+      "id": "101247",
+      "name": "Sprayfeather Gill",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Navia ascension",
+      "id": "101240",
+      "name": "Spring of the First Dewdrop",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Gaming ascension",
+      "id": "100033",
+      "name": "Starconch",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Wriothesley ascension",
+      "id": "101239",
+      "name": "Subdetection Unit",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Traveler talent stage",
+      "id": "113063",
+      "name": "The Cornerstone of Stars and Flames",
+      "kind": "weekly"
+    },
+    {
+      "game": "gi",
+      "context": "Sethos ascension",
+      "id": "101224",
+      "name": "Trishiraite",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Rosaria ascension",
+      "id": "100022",
+      "name": "Valberry",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Baizhu ascension",
+      "id": "100034",
+      "name": "Violetgrass",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Bennett ascension",
+      "id": "100024",
+      "name": "Windwheel Aster",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Prune ascension",
+      "id": "101268",
+      "name": "Winter Icelea",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Mavuika ascension",
+      "id": "101253",
+      "name": "Withering Purpurbloom",
+      "kind": "specialty"
+    },
+    {
+      "game": "gi",
+      "context": "Varka ascension",
+      "id": "100021",
+      "name": "Wolfhook",
+      "kind": "specialty"
+    },
+    {
+      "game": "hsr",
+      "context": "Lingsha talents",
+      "id": "110241",
+      "name": "Alien Tree Seed",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Bronya talents",
+      "id": "110162",
+      "name": "Ancestral Hymn",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Clara ascension",
+      "id": "112013",
+      "name": "Ancient Engine",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Clara ascension",
+      "id": "112011",
+      "name": "Ancient Part",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Clara ascension",
+      "id": "112012",
+      "name": "Ancient Spindle",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Dr. Ratio talents",
+      "id": "110121",
+      "name": "Arrow of the Beast Hunter",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Dr. Ratio talents",
+      "id": "110122",
+      "name": "Arrow of the Demon Slayer",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Dr. Ratio talents",
+      "id": "110123",
+      "name": "Arrow of the Starchaser",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Feixiao ascension",
+      "id": "113012",
+      "name": "Artifex's Cogwheel",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Feixiao ascension",
+      "id": "113013",
+      "name": "Artifex's Gyreheart",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Feixiao ascension",
+      "id": "113011",
+      "name": "Artifex's Module",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Aglaea talents",
+      "id": "110506",
+      "name": "Auspice Sliver",
+      "kind": "weekly"
+    },
+    {
+      "game": "hsr",
+      "context": "Aglaea talents",
+      "id": "110251",
+      "name": "Bīja of Consciousness",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Firefly talents",
+      "id": "110181",
+      "name": "Borisin Teeth",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Clara ascension",
+      "id": "110401",
+      "name": "Broken Teeth of Iron Wolf",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Cerydra talents",
+      "id": "110232",
+      "name": "Celestial Section",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Cerydra ascension",
+      "id": "110435",
+      "name": "Charred Bud of Twilight",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Dr. Ratio ascension",
+      "id": "111013",
+      "name": "Conqueror's Will",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Archer talents",
+      "id": "110193",
+      "name": "Countertemporal Shot",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Aglaea ascension",
+      "id": "115002",
+      "name": "Courage-Torn Chest",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Aventurine talents",
+      "id": "110212",
+      "name": "Crystal Meteorites",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Archer ascension",
+      "id": "110436",
+      "name": "Darkveil Moonlight",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Cerydra talents",
+      "id": "110507",
+      "name": "Daythunder Anamnesis",
+      "kind": "weekly"
+    },
+    {
+      "game": "hsr",
+      "context": "Archer talents",
+      "id": "110192",
+      "name": "Destined Expiration",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Himeko talents",
+      "id": "110501",
+      "name": "Destroyer's Final Road",
+      "kind": "weekly"
+    },
+    {
+      "game": "hsr",
+      "context": "Aventurine talents",
+      "id": "110213",
+      "name": "Divine Amber",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Acheron ascension",
+      "id": "114001",
+      "name": "Dream Collection Component",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Jade ascension",
+      "id": "110426",
+      "name": "Dream Flamer",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Acheron ascension",
+      "id": "114002",
+      "name": "Dream Flow Valve",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "The Herta ascension",
+      "id": "110423",
+      "name": "Dream Fridge",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Acheron ascension",
+      "id": "114003",
+      "name": "Dream Making Engine",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia ascension",
+      "id": "116002",
+      "name": "Dreamweave Steel",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Anaxa talents",
+      "id": "110202",
+      "name": "Dynamic Outlining",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Cerydra ascension",
+      "id": "115012",
+      "name": "Echoing Wail",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Himeko ascension",
+      "id": "110402",
+      "name": "Endotherm Chitin",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Fu Xuan talents",
+      "id": "110141",
+      "name": "Endurance of Bronze",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Cerydra ascension",
+      "id": "115013",
+      "name": "Eternal Lament",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Cerydra ascension",
+      "id": "115011",
+      "name": "Ethereal Omen",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Anaxa talents",
+      "id": "110203",
+      "name": "Exquisite Colored Draft",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Archer ascension",
+      "id": "111001",
+      "name": "Extinguished Core",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Aglaea ascension",
+      "id": "115001",
+      "name": "Fear-Stomped Flesh",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Acheron talents",
+      "id": "110221",
+      "name": "Fiery Spirit",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Cerydra talents",
+      "id": "110231",
+      "name": "Firmament Note",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Aglaea talents",
+      "id": "110253",
+      "name": "Flower of Ālaya",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Bailu talents",
+      "id": "110173",
+      "name": "Flower of Eternity",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Aventurine ascension",
+      "id": "114012",
+      "name": "Fragments of Impression",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Jingliu ascension",
+      "id": "110413",
+      "name": "Gelid Chitin",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Archer ascension",
+      "id": "111002",
+      "name": "Glimmering Core",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Aglaea ascension",
+      "id": "115003",
+      "name": "Glory-Aspersed Torso",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Luocha ascension",
+      "id": "110407",
+      "name": "Golden Crown of the Past Shadow",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Ashveil talents",
+      "id": "110271",
+      "name": "Grit of Strife",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Archer talents",
+      "id": "110502",
+      "name": "Guardian's Lament",
+      "kind": "weekly"
+    },
+    {
+      "game": "hsr",
+      "context": "Mydei ascension",
+      "id": "110437",
+      "name": "Harbinger of Strife",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Bronya talents",
+      "id": "110161",
+      "name": "Harmonic Tune",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Mortenax Blade talents",
+      "id": "110313",
+      "name": "Heart of Phagousa",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Acheron talents",
+      "id": "110223",
+      "name": "Heaven Incinerator",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Cerydra talents",
+      "id": "110233",
+      "name": "Heavenly Melody",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Gepard ascension",
+      "id": "110403",
+      "name": "Horn of Snow",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Blade ascension",
+      "id": "113002",
+      "name": "Immortal Aeroblossom",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Blade ascension",
+      "id": "113003",
+      "name": "Immortal Lumintwig",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Blade ascension",
+      "id": "113001",
+      "name": "Immortal Scionette",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia ascension",
+      "id": "110431",
+      "name": "Invasive Clot",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Boothill ascension",
+      "id": "110421",
+      "name": "IPC Work Permit",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Argenti talents",
+      "id": "110131",
+      "name": "Key of Inspiration",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Argenti talents",
+      "id": "110132",
+      "name": "Key of Knowledge",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Argenti talents",
+      "id": "110133",
+      "name": "Key of Wisdom",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Ashveil talents",
+      "id": "110273",
+      "name": "Lance of Retribution",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Blade talents",
+      "id": "110112",
+      "name": "Lifeless Blade",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Bailu ascension",
+      "id": "110404",
+      "name": "Lightning Crown of the Past Shadow",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Anaxa talents",
+      "id": "110505",
+      "name": "Lost Echo of the Shared Wish",
+      "kind": "weekly"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia ascension",
+      "id": "116003",
+      "name": "Lucid Awl",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Firefly talents",
+      "id": "110182",
+      "name": "Lupitoxin Sawteeth",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Archer talents",
+      "id": "110191",
+      "name": "Meteoric Bullet",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Firefly talents",
+      "id": "110183",
+      "name": "Moon Rage Fang",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Lingsha talents",
+      "id": "110243",
+      "name": "Myriad Fruit",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Fu Xuan ascension",
+      "id": "110416",
+      "name": "Nail of the Ape",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Lingsha talents",
+      "id": "110242",
+      "name": "Nourishing Honey",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Fu Xuan talents",
+      "id": "110142",
+      "name": "Oath of Steel",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Kafka talents",
+      "id": "110152",
+      "name": "Obsidian of Desolation",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Kafka talents",
+      "id": "110151",
+      "name": "Obsidian of Dread",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Kafka talents",
+      "id": "110153",
+      "name": "Obsidian of Obsession",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Acheron talents",
+      "id": "110504",
+      "name": "Past Evils of the Borehole Planet Disaster",
+      "kind": "weekly"
+    },
+    {
+      "game": "hsr",
+      "context": "Mortenax Blade ascension",
+      "id": "110432",
+      "name": "Radiant Prominence",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Firefly ascension",
+      "id": "110422",
+      "name": "Raging Heart",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Argenti talents",
+      "id": "110503",
+      "name": "Regret of Infinite Ochema",
+      "kind": "weekly"
+    },
+    {
+      "game": "hsr",
+      "context": "Ashveil talents",
+      "id": "110272",
+      "name": "Resin of Valor",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Anaxa talents",
+      "id": "110201",
+      "name": "Rough Sketch",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Fu Xuan talents",
+      "id": "110143",
+      "name": "Safeguard of Amber",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Aventurine talents",
+      "id": "110211",
+      "name": "Scattered Stardust",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Topaz & Numby ascension",
+      "id": "110412",
+      "name": "Searing Steel Blade",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Bailu talents",
+      "id": "110171",
+      "name": "Seed of Abundance",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Aglaea talents",
+      "id": "110252",
+      "name": "Seedling of Manas",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Acheron ascension",
+      "id": "110414",
+      "name": "Shape Shifter's Lightning Staff",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Aventurine ascension",
+      "id": "114013",
+      "name": "Shards of Desires",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Blade talents",
+      "id": "110111",
+      "name": "Shattered Blade",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Bronya ascension",
+      "id": "112001",
+      "name": "Silvermane Badge",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Bronya ascension",
+      "id": "112002",
+      "name": "Silvermane Insignia",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Bronya ascension",
+      "id": "112003",
+      "name": "Silvermane Medal",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Bailu talents",
+      "id": "110172",
+      "name": "Sprout of Life",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Archer ascension",
+      "id": "111003",
+      "name": "Squirming Core",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Acheron talents",
+      "id": "110222",
+      "name": "Starfire Essence",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Bronya talents",
+      "id": "110163",
+      "name": "Stellaris Symphony",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Bronya ascension",
+      "id": "110405",
+      "name": "Storm Eye",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Aventurine ascension",
+      "id": "110417",
+      "name": "Suppressing Edict",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Aventurine ascension",
+      "id": "114011",
+      "name": "Tatters of Thought",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Mortenax Blade talents",
+      "id": "110311",
+      "name": "Tear of Phagousa",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia talents",
+      "id": "110263",
+      "name": "The Fluffy Collector's Edition",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia talents",
+      "id": "110261",
+      "name": "The Fluffy Hand-drawn Storyboards",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia talents",
+      "id": "110262",
+      "name": "The Fluffy Serialization Memorial Issue",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Dr. Ratio ascension",
+      "id": "111011",
+      "name": "Thief's Instinct",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Ashveil ascension",
+      "id": "110434",
+      "name": "Thunder Strum",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia talents",
+      "id": "241",
+      "name": "Tracks of Destiny",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Dr. Ratio ascension",
+      "id": "111012",
+      "name": "Usurper's Scheme",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia talents",
+      "id": "110508",
+      "name": "Vanquished Flow's Reticence",
+      "kind": "weekly"
+    },
+    {
+      "game": "hsr",
+      "context": "Seele ascension",
+      "id": "110406",
+      "name": "Void Cast Iron",
+      "kind": "boss"
+    },
+    {
+      "game": "hsr",
+      "context": "Evanescia ascension",
+      "id": "116001",
+      "name": "Whimsy Wax",
+      "kind": "mob"
+    },
+    {
+      "game": "hsr",
+      "context": "Mortenax Blade talents",
+      "id": "110312",
+      "name": "Wine of Phagousa",
+      "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "Blade talents",
+      "id": "110113",
+      "name": "Worldbreaker Blade",
+      "kind": "book"
+    }
+  ]
 }

@@ -1,0 +1,242 @@
+{
+  "name": "Thundercraven Rifthound Whelp",
+  "desc": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\"\\nIn times long gone, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way.",
+  "icon": "UI_MonsterIcon_Hound_Kanis_Electric",
+  "codex": "ABYSS",
+  "title": "Rifthound Whelp",
+  "special_names": [
+    "Gap-Infiltrating Aliens"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112058,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112058"
+    },
+    {
+      "id": 112057,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112057"
+    },
+    {
+      "id": 112056,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112056"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "22040201": {
+      "monster_name": "Hound_Kanis_Electric_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010014,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.2,
+        "grass": 0.2,
+        "water": 0.2,
+        "elec": 0.2,
+        "wind": 0.2,
+        "ice": 0.2,
+        "rock": 0.2,
+        "physical": 0.2
+      },
+      "base": {
+        "hp": 32.6016,
+        "atk": 15.072,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22040202": {
+      "monster_name": "Hound_Kanis_Electric_01_Crystallization",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010014,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.2,
+        "grass": 0.2,
+        "water": 0.2,
+        "elec": 0.2,
+        "wind": 0.2,
+        "ice": 0.2,
+        "rock": 0.2,
+        "physical": 0.2
+      },
+      "base": {
+        "hp": 32.6016,
+        "atk": 15.072,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22040203": {
+      "monster_name": "Hound_Kanis_Electric_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010014,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010014,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.2,
+        "grass": 0.2,
+        "water": 0.2,
+        "elec": 0.2,
+        "wind": 0.2,
+        "ice": 0.2,
+        "rock": 0.2,
+        "physical": 0.2
+      },
+      "base": {
+        "hp": 32.6016,
+        "atk": 15.072,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "22040205": {
+      "monster_name": "Hound_Kanis_Electric_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.2,
+        "grass": 0.2,
+        "water": 0.2,
+        "elec": 0.2,
+        "wind": 0.2,
+        "ice": 0.2,
+        "rock": 0.2,
+        "physical": 0.2
+      },
+      "base": {
+        "hp": 91.354,
+        "atk": 4.1025,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

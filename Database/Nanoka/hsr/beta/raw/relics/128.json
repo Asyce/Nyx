@@ -1,0 +1,33 @@
+{
+  "name": "Self-Enshrouded Recluse",
+  "icon": "SpriteOutput/ItemIcon/71049.png",
+  "parts": {
+    "31281": {
+      "name": "Recluse's Wide-Brimmed Fedora"
+    },
+    "31282": {
+      "name": "Recluse's Refined Timepiece"
+    },
+    "31283": {
+      "name": "Recluse's Camel-Colored Coat"
+    },
+    "31284": {
+      "name": "Recluse's Soft Suede Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "The provided Shield Effect increases by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.1
+      ]
+    },
+    "4": {
+      "desc": "Increases the Shield Effect provided by the wearer by <unbreak>#1[i]%</unbreak>. When an ally target holds a Shield provided by the wearer, the ally target's CRIT DMG increases by <unbreak>#2[i]%</unbreak>.",
+      "param_list": [
+        0.12,
+        0.15
+      ]
+    }
+  }
+}

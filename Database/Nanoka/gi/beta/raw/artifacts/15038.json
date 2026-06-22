@@ -1,0 +1,138 @@
+{
+  "id": 15038,
+  "icon": "UI_RelicIcon_15038_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150380,
+      "id": 215038,
+      "open_config": "Relic_InNyxState_2",
+      "param_list": [
+        0.15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Obsidian Codex",
+      "desc": "While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150381,
+      "id": 215038,
+      "level": 1,
+      "open_config": "Relic_InNyxState_4",
+      "param_list": [
+        1,
+        0.4,
+        6,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Obsidian Codex",
+      "desc": "After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s. This effect can trigger once every second."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15038_1",
+      "name": "Pre-Banquet of the Contenders",
+      "desc": "A vessel that seems to have been made by twisting and forming stone in a seemingly whimsical fashion. But it is an open question as to who possesses such strength...",
+      "story": {
+        "285381": {
+          "zh": "ART/UI/Readable/CHS/Relic15038_1",
+          "en": "ART/UI/Readable/EN/Relic15038_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15038_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15038_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15038_2",
+      "name": "Root of the Spirit-Marrow",
+      "desc": "A feathered accessory made in imitation of an ancient dragon's wing. Perhaps it was once a memento of some forgotten history.",
+      "story": {
+        "285382": {
+          "zh": "ART/UI/Readable/CHS/Relic15038_2",
+          "en": "ART/UI/Readable/EN/Relic15038_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15038_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15038_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15038_3",
+      "name": "Crown of the Saints",
+      "desc": "A crown made of obsidian that in ancient times was used in coronation ceremonies by noble tribal kings.",
+      "story": {
+        "285383": {
+          "zh": "ART/UI/Readable/CHS/Relic15038_3",
+          "en": "ART/UI/Readable/EN/Relic15038_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15038_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15038_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15038_4",
+      "name": "Reckoning of the Xenogenic",
+      "desc": "A flower meticulously carved from black crystal. It emits a mysterious light at night.",
+      "story": {
+        "285384": {
+          "zh": "ART/UI/Readable/CHS/Relic15038_4",
+          "en": "ART/UI/Readable/EN/Relic15038_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15038_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15038_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15038_5",
+      "name": "Myths of the Night Realm",
+      "desc": "A mysterious ritual element that is neither a timepiece nor a compass. Nowadays, no one has any idea what it is used for.",
+      "story": {
+        "285385": {
+          "zh": "ART/UI/Readable/CHS/Relic15038_5",
+          "en": "ART/UI/Readable/EN/Relic15038_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15038_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15038_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "name": "Stretchy Electro Fungus",
+  "desc": "A spore organism of some intelligence. It possesses extreme adaptability.\\nUnlike other Fungi, this creature possesses a cap with a luminous tendril sticking out of it. When in danger, it will release small electric orbs as a form of self-defense.",
+  "icon": "UI_MonsterIcon_Fungus_Deux_Delta_Electric",
+  "codex": "BEAST",
+  "title": "Stretchy Electro Fungus",
+  "special_names": [
+    "Super Elastic"
+  ],
+  "reward": [],
+  "child": {
+    "26091001": {
+      "monster_name": "Fungus_Deux_Delta_Electric_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.2,
+        "water": 0.1,
+        "elec": 0.2,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 13.584,
+        "atk": 22.608,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26091081": {
+      "monster_name": "Fungus_Deux_Delta_Electric_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.2,
+        "water": 0.1,
+        "elec": 0.2,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 13.584,
+        "atk": 22.608,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26091090": {
+      "monster_name": "Fungus_Deux_Delta_Electric_Enemy",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.2,
+        "water": 0.1,
+        "elec": 0.2,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 43.40736,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26091091": {
+      "monster_name": "Fungus_Deux_Delta_Electric_01_Capture",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.2,
+        "water": 0.1,
+        "elec": 0.2,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 13.584,
+        "atk": 22.608,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

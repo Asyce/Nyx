@@ -1,0 +1,253 @@
+{
+  "name": "Eremite Galehunter",
+  "desc": "A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good.\\nIn this age where crossbows are in widespread use, only the most experienced of Eremite warriors know how to use a longbow in battle. They do not even need their eyes — merely their ears with which they sense the flow of wind and sand alike — to judge the location of their foes.\\nOminous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes.",
+  "icon": "UI_MonsterIcon_Eremite_Female_Standard_Longbow",
+  "codex": "HUMAN",
+  "title": "Eremite Stone Enchanter",
+  "special_names": [
+    "Servant of the Stone Drake"
+  ],
+  "reward": [],
+  "child": {
+    "25410201": {
+      "monster_name": "Eremite_Female_Standard_Longbow_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010015,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410202": {
+      "monster_name": "Eremite_Female_Standard_Longbow_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010015,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410281": {
+      "monster_name": "Eremite_Female_Standard_Longbow_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010015,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410282": {
+      "monster_name": "Eremite_Female_Standard_Longbow_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010015,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010015,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010015,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 59.7696,
+        "atk": 62.8,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25410291": {
+      "monster_name": "Eremite_Female_Standard_Longbow_01_MvM",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 66.3,
+        "atk": 79.56,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

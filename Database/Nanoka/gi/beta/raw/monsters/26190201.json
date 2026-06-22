@@ -1,0 +1,119 @@
+{
+  "name": "Xuanwen Beast",
+  "desc": "Xuanwen Beasts, named for the dark patterns on their bodies, are fierce creatures that inhabit the mountains of Chenyu Vale.\\nIn the region's folklore, these beasts were the servants of an adeptus in ancient times, tasked with vanquishing evil and protecting the region. However, they devolved into brutal creatures after said adeptus passed away. These legends cannot be verified, and no one knows the true identity of this adeptus. This much is for sure, however — one should stay away from these aggressive creatures for one's safety.\\nFor over a thousand years, these beasts have lost a tremendous amount of territory that once belonged to them to relentless human encroachment. These days, they can only occasionally be spotted in the remote mountains of Chenyu Vale...",
+  "icon": "UI_MonsterIcon_Striped",
+  "codex": "BEAST",
+  "title": "Xuanwen Beast",
+  "special_names": [
+    "Assailing Shadow"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112097,
+      "rank": 4,
+      "icon": "UI_ItemIcon_112097"
+    },
+    {
+      "id": 112096,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112096"
+    },
+    {
+      "id": 112095,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112095"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400033,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400032,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10007_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400062,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10013_4"
+    }
+  ],
+  "child": {
+    "26190201": {
+      "monster_name": "Striped_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.5,
+        "elec": 0.1,
+        "wind": 0.5,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 57.0528,
+        "atk": 55.264,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

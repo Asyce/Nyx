@@ -1,0 +1,4097 @@
+{
+  "name": "Castorice",
+  "desc": "Aidonia, the snowy land that respects and worships death, has already sunken into sweet slumber.\\nO Castorice, daughter of the River of Souls, the Chrysos Heir in search of the Coreflame of \"Death,\" set forth! Guard the lament of the souls in this world, and embrace the solitude of destiny.\\n— Life and death is a journey. When a butterfly rests on that dead branch, the withered will be reborn again.",
+  "chara_info": {
+    "va": {},
+    "stories": {},
+    "voicelines": []
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "castorice",
+  "base_type": "Memory",
+  "damage_type": "Quantum",
+  "ranks": {
+    "1": {
+      "id": 140701,
+      "name": "Snowbound Maiden, Memory to Tomb",
+      "desc": "When the enemy target's current HP is <unbreak>#1[i]%</unbreak>/<unbreak>#2[i]%</unbreak> of Max HP or lower, the DMG dealt to it by \"Boneclaw, Doomdrake's Embrace,\" \"Claw Splits the Veil,\" \"Breath Scorches the Shadow,\" and \"Wings Sweep the Ruins\" is <unbreak>#3[i]%</unbreak>/<unbreak>#4[i]%</unbreak> of the original DMG respectively.",
+      "icon": "SkillIcon_1407_Rank1.png",
+      "param_list": [
+        0.8,
+        0.5,
+        1.2,
+        1.4
+      ],
+      "extra": {}
+    },
+    "2": {
+      "id": 140702,
+      "name": "Crown on Wings of Bloom",
+      "desc": "After summoning the memosprite Netherwing, Castorice gains <unbreak>#1[i]</unbreak> stack(s) of \"Ardent Will.\" \"Ardent Will\" can stack up to <unbreak>#2[i]</unbreak> time(s) and can be used to offset the HP cost of Netherwing's Memosprite Skill, \"Breath Scorches the Shadow\" and <u>advance Castorice's action</u> by <unbreak>100%</unbreak>. When using the next Enhanced Skill, Castorice gains \"Newbud\" by an amount equal to <unbreak>#3[i]%</unbreak> of max \"Newbud.\"",
+      "icon": "SkillIcon_1407_Rank2.png",
+      "param_list": [
+        2,
+        2,
+        0.3
+      ],
+      "extra": {
+        "10000001": {
+          "name": "Action Advance",
+          "desc": "Reduces the target's waiting interval before the next action.",
+          "param": []
+        }
+      }
+    },
+    "3": {
+      "id": 140703,
+      "name": "Pious Pilgrim, Dance in Doom",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1407_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 140704,
+      "name": "Rest in Songs of Gloom",
+      "desc": "While Castorice is on the field, all allies' HP restored when receiving healing increases by <unbreak>#1[i]%</unbreak>.",
+      "icon": "SkillIcon_1407_Rank4.png",
+      "param_list": [
+        0.2
+      ],
+      "extra": {}
+    },
+    "5": {
+      "id": 140705,
+      "name": "Pristine Pages, Prophecy as Plume",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1407_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 140706,
+      "name": "Await for Years to Loom",
+      "desc": "When Castorice or Netherwing deals DMG, increases Quantum <u>RES PEN</u> by <unbreak>#1[i]%</unbreak>. During Netherwing's attacks, can reduce enemy Toughness regardless of Weakness Types. When breaking Weaknesses, triggers the Quantum Weakness Break effect. And the number of Bounces for Netherwing's Talent \"Wings Sweep the Ruins\" additionally increases by <unbreak>#2[i]</unbreak>.",
+      "icon": "SkillIcon_1407_Rank6.png",
+      "param_list": [
+        0.2,
+        3
+      ],
+      "extra": {
+        "30000005": {
+          "name": "RES PEN",
+          "desc": "When dealing DMG, ignore a part of the enemy target's resistance to the corresponding damage type.",
+          "param": []
+        }
+      }
+    }
+  },
+  "skills": {
+    "140701": {
+      "id": 140701,
+      "name": "Lament, Nethersea's Ripple",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Castorice's Max HP to one designated enemy.",
+      "simple_desc": "Deals minor Quantum DMG to one enemy.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.25
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.3
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.35
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.4
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.45
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.5
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.55
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.6
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.65
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.7
+          ]
+        }
+      }
+    },
+    "140702": {
+      "id": 140702,
+      "name": "Silence, Wraithfly's Caress",
+      "desc": "Consumes <unbreak>#1[i]%</unbreak> of all allies' current HP. Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Castorice's Max HP to one designated enemy and Quantum DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Castorice's Max HP to adjacent targets.\\nIf the current HP is insufficient, reduces the current HP down to 1.\\nIf Netherwing is on the battlefield, the Skill becomes \"Boneclaw, Doomdrake's Embrace\" instead.",
+      "simple_desc": "Consumes all allies' HP. Deals Quantum DMG to one enemy and minor Quantum DMG to adjacent targets.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Blast",
+      "bp_need": -1,
+      "show_stance_list": [
+        60,
+        0,
+        30
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.3,
+            0.25,
+            0.15
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.3,
+            0.275,
+            0.165
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.3,
+            0.3,
+            0.18
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.3,
+            0.325,
+            0.195
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.3,
+            0.35,
+            0.21
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.3,
+            0.375,
+            0.225
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.3,
+            0.40625,
+            0.24375
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.3,
+            0.4375,
+            0.2625
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.3,
+            0.46875,
+            0.28125
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.3,
+            0.5,
+            0.3
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.3,
+            0.525,
+            0.315
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.3,
+            0.55,
+            0.33
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.3,
+            0.575,
+            0.345
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.3,
+            0.6,
+            0.36
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.3,
+            0.625,
+            0.375
+          ]
+        }
+      }
+    },
+    "140703": {
+      "id": 140703,
+      "name": "Doomshriek, Dawn's Chime",
+      "desc": "<u>Summons the memosprite</u> Netherwing and <u>advances its action</u> by <unbreak>100%</unbreak>. At the same time, deploys the <u>Territory</u> \"Lost Netherland,\" which decreases all enemies' All-Type RES by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>. If Castorice has the DMG Boost effect from her Talent, then this effect spreads to Netherwing. Netherwing has an initial SPD of <unbreak>#1[i]</unbreak> and a set Max HP equal to <unbreak>#3[i]%</unbreak> of max \"Newbud.\"\\nAfter Netherwing experiences <unbreak>#2[i]</unbreak> turns or when its HP is 0, it disappears and dispels the <u>Territory</u> \"Lost Netherland.\"",
+      "simple_desc": "<color=#f29e38ff><u>Summons the memosprite</u></color> Netherwing and <u>advances its action</u> by <unbreak>100%</unbreak>. At the same time, deploys a <u>Territory</u> that <color=#f29e38ff>decreases All-Type RES</color> for all enemies.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "Summon",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000001": {
+          "name": "Action Advance",
+          "desc": "Reduces the target's waiting interval before the next action.",
+          "param": []
+        },
+        "10000018": {
+          "name": "Summon Memosprite",
+          "desc": "Summon the memosprite to the field. If the memosprite is already on the field, dispels all Crowd Control debuffs the memosprite is afflicted with.",
+          "param": []
+        },
+        "10000020": {
+          "name": "Territory",
+          "desc": "Territory effects are unique in the battle. While it exists, other abilities with Territory effects cannot be used.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.1,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.11,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.12,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.13,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.14,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.15,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.1625,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.175,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.1875,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.2,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.21,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.22,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.23,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.24,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            165,
+            3,
+            1,
+            0.25,
+            0
+          ]
+        }
+      }
+    },
+    "140704": {
+      "id": 140704,
+      "name": "Desolation Across Palms",
+      "desc": "The maximum limit of \"Newbud\" is related to the levels of all characters on the battlefield. For every 1 point of HP lost by all allies, Castorice gains 1 point of \"Newbud.\" When \"Newbud\" reaches its maximum limit, can activate the Ultimate. When allies lose HP, Castorice's and Netherwing's DMG dealt increases by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. This effect can stack up to <unbreak>#3[i]</unbreak> time(s), lasting for <unbreak>#4[i]</unbreak> turn(s).\\nWhen Netherwing is on the field, \"Newbud\" cannot be gained through Talent, and every 1 point of HP lost by all allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
+      "simple_desc": "When allies lose HP, Castorice gains <color=#f29e38ff>\"Newbud\"</color>. Increases Castorice's and Netherwing's <color=#f29e38ff>DMG dealt</color>. When <color=#f29e38ff>\"Newbud\"</color> reaches its maximum limit, can activate the Ultimate. While Netherwing is on the field, HP lost by allies (except Netherwing) will be converted to an equal amount of HP for Netherwing.",
+      "type_name": "Talent",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0,
+            0.1,
+            3,
+            3
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0,
+            0.11,
+            3,
+            3
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0,
+            0.12,
+            3,
+            3
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0,
+            0.13,
+            3,
+            3
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0,
+            0.14,
+            3,
+            3
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0,
+            0.15,
+            3,
+            3
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0,
+            0.1625,
+            3,
+            3
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0,
+            0.175,
+            3,
+            3
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0,
+            0.1875,
+            3,
+            3
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0,
+            0.2,
+            3,
+            3
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0,
+            0.21,
+            3,
+            3
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0,
+            0.22,
+            3,
+            3
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0,
+            0.23,
+            3,
+            3
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0,
+            0.24,
+            3,
+            3
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0,
+            0.25,
+            3,
+            3
+          ]
+        }
+      }
+    },
+    "140706": {
+      "id": 140706,
+      "name": "Attack",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "140707": {
+      "id": 140707,
+      "name": "Wail, Death's Herald",
+      "desc": "After using Technique, enters the \"Netherveil\" state that lasts for <unbreak>#3[i]</unbreak> seconds. While \"Netherveil\" is active, enemies are unable to actively approach Castorice.\\nDuring \"Netherveil,\" active attacks will cause all enemies within range to enter combat. At the same time, <u>summons the memosprite</u> Netherwing, <u>advances its action</u> by <unbreak>100%</unbreak>, and deploys the <u>Territory</u> \"Lost Netherland.\" Netherwing has its current HP equal to <unbreak>#2[i]%</unbreak> of max \"Newbud.\" After entering battle, consumes <unbreak>#1[i]%</unbreak> of the current HP of all allies (except Netherwing).\\nIf Netherwing is not summoned after entering battle, Castorice gains \"Newbud\" by an amount equal to <unbreak>#4[i]%</unbreak> of max \"Newbud.\"",
+      "simple_desc": "Enters the \"Netherveil\" state. Enemies are unable to actively approach Castorice.\\nDuring \"Netherveil,\" attacks will cause all enemies within range to enter combat. At the same time, <color=#f29e38ff><u>summons the memosprite</u></color> Netherwing, <u>advances its action</u> by <unbreak>100%</unbreak>. Upon entering battle, consumes HP of all allies (except Netherwing).\\nIf Netherwing is not summoned after entering battle, Castorice gains \"Newbud\" by an amount equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of max \"Newbud.\"",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000001": {
+          "name": "Action Advance",
+          "desc": "Reduces the target's waiting interval before the next action.",
+          "param": []
+        },
+        "10000018": {
+          "name": "Summon Memosprite",
+          "desc": "Summon the memosprite to the field. If the memosprite is already on the field, dispels all Crowd Control debuffs the memosprite is afflicted with.",
+          "param": []
+        },
+        "10000020": {
+          "name": "Territory",
+          "desc": "Territory effects are unique in the battle. While it exists, other abilities with Territory effects cannot be used.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.4,
+            0.5,
+            20,
+            0.3
+          ]
+        }
+      }
+    },
+    "140709": {
+      "id": 140709,
+      "name": "Boneclaw, Doomdrake's Embrace",
+      "desc": "Consumes <unbreak>#1[i]%</unbreak> of the current HP of all allies (except Netherwing). Castorice and Netherwing launch <u>Joint ATK</u> on the targets, dealing Quantum DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> and <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Castorice's Max HP to all enemies.\\nIf the current HP is insufficient, reduces the current HP down to 1.",
+      "simple_desc": "Consumes all allies' HP. Castorice and Netherwing launch <u>Joint ATK</u> on the targets, dealing Quantum DMG to all enemies.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "AoEAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        60,
+        0
+      ],
+      "extra": {
+        "10000019": {
+          "name": "Joint Attack",
+          "desc": "Multiple targets respectively use attacks on enemy targets in one action.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.4,
+            0.15,
+            0.25
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.4,
+            0.165,
+            0.275
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.4,
+            0.18,
+            0.3
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.4,
+            0.195,
+            0.325
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.4,
+            0.21,
+            0.35
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.4,
+            0.225,
+            0.375
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.4,
+            0.24375,
+            0.40625
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.4,
+            0.2625,
+            0.4375
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.4,
+            0.28125,
+            0.46875
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.4,
+            0.3,
+            0.5
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.4,
+            0.315,
+            0.525
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.4,
+            0.33,
+            0.55
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.4,
+            0.345,
+            0.575
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.4,
+            0.36,
+            0.6
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.4,
+            0.375,
+            0.625
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1407_Normal.png",
+        "level_up_skill_id": [
+          140701
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Normal.png",
+        "level_up_skill_id": [
+          140701
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Normal.png",
+        "level_up_skill_id": [
+          140701
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Normal.png",
+        "level_up_skill_id": [
+          140701
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Normal.png",
+        "level_up_skill_id": [
+          140701
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Normal.png",
+        "level_up_skill_id": [
+          140701
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 25000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 70000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_BP.png",
+        "level_up_skill_id": [
+          140702,
+          140709
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 13,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 25000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 70000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Ultra.png",
+        "level_up_skill_id": [
+          140703
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 13,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 25000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 70000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_Passive.png",
+        "level_up_skill_id": [
+          140704
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 13,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1407004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1407_Maze.png",
+        "level_up_skill_id": [
+          140707
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          1,
+          0.12
+        ],
+        "point_id": 1407101,
+        "point_name": "Contained Dark Tide",
+        "point_desc": "After ally targets (excluding Netherwing) receive healing, converts <unbreak>#1[i]%</unbreak> of the healed amount into \"Newbud.\" If Netherwing is on the field, this is converted to Netherwing's HP instead. Each ally target can accumulate a conversion amount up to <unbreak>#2[i]%</unbreak> of the max \"Newbud.\" After any unit takes action, all units reset their accumulated conversion amount.",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.5,
+          0.4,
+          1
+        ],
+        "point_id": 1407102,
+        "point_name": "Inverted Torch",
+        "point_desc": "When Castorice's current HP is higher than or equal to <unbreak>#1[i]%</unbreak> of her Max HP, her SPD increases by <unbreak>#2[i]%</unbreak>. When Netherwing uses \"Breath Scorches the Shadow\" and deals fatal damage to all enemies on the field or brings them to a point where their HP cannot be reduced further, Netherwing's SPD increases by <unbreak>#3[i]%</unbreak>, lasting for 1 turn.",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1407_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110506,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.3,
+          6
+        ],
+        "point_id": 1407103,
+        "point_name": "Where the West Wind Dwells",
+        "point_desc": "Each time Netherwing uses \"Breath Scorches the Shadow,\" the DMG dealt increases by <unbreak>#1[i]%</unbreak>. This effect stacks up to <unbreak>#2[i]</unbreak> time(s) and lasts until the end of this turn.",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407201,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconQuantumAddedRatio.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407202,
+        "point_name": "DMG Boost: Quantum",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [
+          1407201
+        ],
+        "status_add_list": [
+          {
+            "property_type": "QuantumAddedRatio",
+            "value": 0.032,
+            "name": "Quantum DMG Boost"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 9000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407203,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1407201
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 9000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407204,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [
+          1407101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.053,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 19000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407205,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1407101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconQuantumAddedRatio.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407206,
+        "point_name": "DMG Boost: Quantum",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1407102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "QuantumAddedRatio",
+            "value": 0.048,
+            "name": "Quantum DMG Boost"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407207,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [
+          1407102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconCriticalDamage.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 7,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407208,
+        "point_name": "CRIT DMG Boost",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1407103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalDamageBase",
+            "value": 0.08,
+            "name": "CRIT DMG"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconQuantumAddedRatio.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407209,
+        "point_name": "DMG Boost: Quantum",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1407208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "QuantumAddedRatio",
+            "value": 0.064,
+            "name": "Quantum DMG Boost"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1407210,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1407209
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.053,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point19": {
+      "1": {
+        "anchor": "Point19",
+        "default_unlock": true,
+        "icon": "SkillIcon_11407_Servant01.png",
+        "level_up_skill_id": [
+          1140701,
+          1140702,
+          1140710,
+          1140711
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407301,
+        "point_name": "Claw Splits the Veil",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_Servant01.png",
+        "level_up_skill_id": [
+          1140701,
+          1140702,
+          1140710,
+          1140711
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407301,
+        "point_name": "Claw Splits the Veil",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_Servant01.png",
+        "level_up_skill_id": [
+          1140701,
+          1140702,
+          1140710,
+          1140711
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407301,
+        "point_name": "Claw Splits the Veil",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_Servant01.png",
+        "level_up_skill_id": [
+          1140701,
+          1140702,
+          1140710,
+          1140711
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407301,
+        "point_name": "Claw Splits the Veil",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_Servant01.png",
+        "level_up_skill_id": [
+          1140701,
+          1140702,
+          1140710,
+          1140711
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407301,
+        "point_name": "Claw Splits the Veil",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_Servant01.png",
+        "level_up_skill_id": [
+          1140701,
+          1140702,
+          1140710,
+          1140711
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407301,
+        "point_name": "Claw Splits the Veil",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point20": {
+      "1": {
+        "anchor": "Point20",
+        "default_unlock": true,
+        "icon": "SkillIcon_11407_ServantPassive.png",
+        "level_up_skill_id": [
+          1140703,
+          1140712,
+          1140706,
+          1140705
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407302,
+        "point_name": "Breath Scorches the Shadow",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_ServantPassive.png",
+        "level_up_skill_id": [
+          1140703,
+          1140712,
+          1140706,
+          1140705
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 115011,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407302,
+        "point_name": "Breath Scorches the Shadow",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_ServantPassive.png",
+        "level_up_skill_id": [
+          1140703,
+          1140712,
+          1140706,
+          1140705
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407302,
+        "point_name": "Breath Scorches the Shadow",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_ServantPassive.png",
+        "level_up_skill_id": [
+          1140703,
+          1140712,
+          1140706,
+          1140705
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 115012,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407302,
+        "point_name": "Breath Scorches the Shadow",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_ServantPassive.png",
+        "level_up_skill_id": [
+          1140703,
+          1140712,
+          1140706,
+          1140705
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407302,
+        "point_name": "Breath Scorches the Shadow",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_11407_ServantPassive.png",
+        "level_up_skill_id": [
+          1140703,
+          1140712,
+          1140706,
+          1140705
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 115013,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1407302,
+        "point_name": "Breath Scorches the Shadow",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {
+    "name": "Netherwing: Pollux",
+    "icon": "SpriteOutput/ServantIconTeam/11407B.png",
+    "hp_base": "0",
+    "hp_inherit": "0",
+    "speed_base": "#1",
+    "speed_inherit": "0",
+    "aggro": 100,
+    "skills": {
+      "1140701": {
+        "name": "Claw Splits the Veil",
+        "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Castorice's Max HP to all enemies.",
+        "simple_desc": "Deals minor Quantum DMG to all enemies.",
+        "type": "Servant",
+        "type_name": "Memosprite Skill",
+        "tag": "AoEAttack",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          30,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.2
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.24
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.28
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.32
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.36
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.4
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.44
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.48
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.52
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.56
+            ]
+          }
+        }
+      },
+      "1140702": {
+        "name": "Breath Scorches the Shadow",
+        "desc": "Launching \"Breath Scorches the Shadow\" will consume <unbreak>#1[i]%</unbreak> of Netherwing's Max HP to deal Quantum DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Castorice's Max HP to all enemies.\\nIn one attack, \"Breath Scorches the Shadow\" can be launched repeatedly, with the DMG multiplier increased progressively to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> / <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>. After reaching <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>, it will not increase further. The DMG Multiplier Boost effect will not decrease before Netherwing disappears.\\nWhen Netherwing's current HP is equal to or less than <unbreak>#5[i]%</unbreak> of its Max HP, launching this ability will actively reduce HP down to 1, and then trigger the ability effect equal to that of the Talent \"Wings Sweep the Ruins.\"",
+        "simple_desc": "Consumes this unit's HP to deal Quantum DMG to all enemies, and this turn will not conclude. When using this ability repeatedly, the ability can be enhanced up to 3 times. When HP is <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> or lower, using this ability will actively trigger the ability effect of Memosprite Talent \"Wings Sweep the Ruins.\"",
+        "type": "Servant",
+        "type_name": "Memosprite Skill",
+        "tag": "AoEAttack",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          30,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.25,
+              0.12,
+              0.14,
+              0.17,
+              0.25
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.25,
+              0.144,
+              0.168,
+              0.204,
+              0.25
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.25,
+              0.168,
+              0.196,
+              0.238,
+              0.25
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.25,
+              0.192,
+              0.224,
+              0.272,
+              0.25
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.25,
+              0.216,
+              0.252,
+              0.306,
+              0.25
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.25,
+              0.24,
+              0.28,
+              0.34,
+              0.25
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.25,
+              0.264,
+              0.308,
+              0.374,
+              0.25
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.25,
+              0.288,
+              0.336,
+              0.408,
+              0.25
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.25,
+              0.312,
+              0.364,
+              0.442,
+              0.25
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.25,
+              0.336,
+              0.392,
+              0.476,
+              0.25
+            ]
+          }
+        }
+      },
+      "1140703": {
+        "name": "Mooncocoon Shrouds the Form",
+        "desc": "When Netherwing is on the field, it acts as <u>backup</u> for allies. When allies take DMG or consume HP, their current HP can be reduced down to a minimum of 1, after which Netherwing will bear the HP loss. But Netherwing consumes HP equal to <unbreak>#1[i]%</unbreak> of the original value. This lasts until Netherwing disappears.",
+        "simple_desc": "When Netherwing is on the field, it acts as <u>backup</u> for allies. Allies' current HP can be reduced down to a minimum of 1, after which Netherwing will bear the DMG received or the HP consumed.",
+        "type_name": "Memosprite Talent",
+        "tag": "Support",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          0,
+          0
+        ],
+        "extra": {
+          "10000021": {
+            "name": "Backup",
+            "desc": "Enemies cannot actively target backup units. Allies' Blast-type abilities cannot Blast to backup units.",
+            "param": []
+          }
+        },
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              5
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              5
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              5
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              5
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              5
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              5
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              5
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              5
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              5
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              5
+            ]
+          }
+        }
+      },
+      "1140705": {
+        "name": "Roar Rumbles the Realm",
+        "desc": "When Netherwing is summoned, increases DMG dealt by all allies by <unbreak>#1[i]%</unbreak>, lasting for <unbreak>#2[i]</unbreak> turn(s).",
+        "simple_desc": "When summoned, increases the DMG dealt by all allies.",
+        "type_name": "Memosprite Talent",
+        "tag": "Support",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          0,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.1,
+              3
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.1,
+              3
+            ]
+          }
+        }
+      },
+      "1140706": {
+        "name": "Wings Sweep the Ruins",
+        "desc": "When Netherwing disappears, deals <unbreak>#2[i]</unbreak> instance(s) of DMG, with each instance dealing Quantum DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Castorice's Max HP to one random enemy. At the same time, restores HP by an amount equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Castorice's Max HP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color> for all allies.",
+        "simple_desc": "Upon disappearing, deals minor Quantum DMG to one enemy that Bounces a total of <color=#f29e38ff><unbreak>#2[i]</unbreak></color> time(s). At the same time, restores HP for all allies.",
+        "type_name": "Memosprite Talent",
+        "tag": "Bounce",
+        "bp_need": -1,
+        "show_stance_list": [
+          15,
+          0,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.2,
+              6,
+              0.03,
+              400
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.24,
+              6,
+              0.036,
+              480
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.28,
+              6,
+              0.042,
+              560
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.32,
+              6,
+              0.048,
+              640
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.36,
+              6,
+              0.054,
+              720
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.4,
+              6,
+              0.06,
+              800
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.44,
+              6,
+              0.066,
+              880
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.48,
+              6,
+              0.072,
+              960
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.52,
+              6,
+              0.078,
+              1040
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.56,
+              6,
+              0.084,
+              1120
+            ]
+          }
+        }
+      },
+      "1140710": {
+        "name": "Breath Scorches the Shadow",
+        "simple_desc": "Consumes this unit's HP to deal Quantum DMG to all enemies, and this turn will not conclude. When using this ability repeatedly, the ability can be enhanced up to 3 times. When HP is <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> or lower, using this ability will actively trigger the ability effect of Memosprite Talent \"Wings Sweep the Ruins.\"",
+        "type": "Servant",
+        "type_name": "Memosprite Skill",
+        "tag": "AoEAttack",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          30,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.25
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.25
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.25
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.25
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.25
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.25
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.25
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.25
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.25
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.25
+            ]
+          }
+        }
+      },
+      "1140711": {
+        "name": "Breath Scorches the Shadow",
+        "simple_desc": "Consumes this unit's HP to deal Quantum DMG to all enemies, and this turn will not conclude. When using this ability repeatedly, the ability can be enhanced up to 3 times. When HP is <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> or lower, using this ability will actively trigger the ability effect of Memosprite Talent \"Wings Sweep the Ruins.\"",
+        "type": "Servant",
+        "type_name": "Memosprite Skill",
+        "tag": "AoEAttack",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          30,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.25
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.25
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.25
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.25
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.25
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.25
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.25
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.25
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.25
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.25
+            ]
+          }
+        }
+      },
+      "1140712": {
+        "name": "Wings Sweep the Ruins",
+        "desc": "Consumes all HP and deals <unbreak>#2[i]</unbreak> instance(s) of DMG, with each instance dealing Quantum DMG equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Castorice's Max HP to one random enemy. At the same time, restores HP by an amount equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Castorice's Max HP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color> for all allies.",
+        "simple_desc": "Consumes all HP and deals minor Quantum DMG to one enemy that Bounces a total of <color=#f29e38ff><unbreak>#2[i]</unbreak></color> time(s). At the same time, restores HP for all allies.",
+        "type": "Servant",
+        "type_name": "Memosprite Skill",
+        "tag": "Bounce",
+        "bp_need": -1,
+        "show_stance_list": [
+          15,
+          0,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.2,
+              6,
+              0.03,
+              400
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.24,
+              6,
+              0.036,
+              480
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.28,
+              6,
+              0.042,
+              560
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.32,
+              6,
+              0.048,
+              640
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.36,
+              6,
+              0.054,
+              720
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.4,
+              6,
+              0.06,
+              800
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.44,
+              6,
+              0.066,
+              880
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.48,
+              6,
+              0.072,
+              960
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.52,
+              6,
+              0.078,
+              1040
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.56,
+              6,
+              0.084,
+              1120
+            ]
+          }
+        }
+      }
+    }
+  },
+  "unique": {
+    "140704": {
+      "tag": "Support",
+      "name": "Sanctuary of Mooncocoon",
+      "desc": "After obtaining Castorice or when Castorice is in the current team, receive the following effect: In battle, when an ally character receives a killing blow, all ally characters that received a killing blow in this action enter the \"Mooncocoon\" state. Characters in \"Mooncocoon\" temporarily delay becoming <u>downed</u> and can take actions normally. After the action and before the start of the next turn, if their current HP increases or they gain a Shield, \"Mooncocoon\" is removed. Otherwise, they will be <u>downed</u> immediately. This effect can only trigger once per battle.",
+      "param": [
+        0.1
+      ],
+      "extra": {
+        "10000007": {
+          "name": "Downed State",
+          "desc": "An ally will be incapacitated once their HP is reduced to 0.",
+          "param": []
+        }
+      },
+      "exclusive": true
+    }
+  },
+  "stats": {
+    "0": {
+      "attack_base": 71.28,
+      "attack_add": 3.564,
+      "defence_base": 66,
+      "defence_add": 3.3,
+      "hp_base": 221.76,
+      "hp_add": 11.088,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115011,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 99.792,
+      "attack_add": 3.564,
+      "defence_base": 92.4,
+      "defence_add": 3.3,
+      "hp_base": 310.464,
+      "hp_add": 11.088,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115011,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 128.304,
+      "attack_add": 3.564,
+      "defence_base": 118.8,
+      "defence_add": 3.3,
+      "hp_base": 399.168,
+      "hp_add": 11.088,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115012,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110436,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 156.816,
+      "attack_add": 3.564,
+      "defence_base": 145.2,
+      "defence_add": 3.3,
+      "hp_base": 487.872,
+      "hp_add": 11.088,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115012,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110436,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 185.328,
+      "attack_add": 3.564,
+      "defence_base": 171.6,
+      "defence_add": 3.3,
+      "hp_base": 576.576,
+      "hp_add": 11.088,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115013,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110436,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 213.84,
+      "attack_add": 3.564,
+      "defence_base": 198,
+      "defence_add": 3.3,
+      "hp_base": 665.28,
+      "hp_add": 11.088,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115013,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110436,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 242.352,
+      "attack_add": 3.564,
+      "defence_base": 224.4,
+      "defence_add": 3.3,
+      "hp_base": 753.984,
+      "hp_add": 11.088,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1407,
+    "set4_id_list": [
+      124,
+      108,
+      113
+    ],
+    "set2_id_list": [
+      319,
+      302,
+      318
+    ],
+    "property_list3": [
+      "CriticalDamageBase"
+    ],
+    "property_list4": [
+      "HPAddedRatio"
+    ],
+    "property_list5": [
+      "QuantumAddedRatio",
+      "HPAddedRatio"
+    ],
+    "property_list6": [
+      "HPAddedRatio"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "CriticalDamageBase"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "HPAddedRatio"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "QuantumAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "HPAddedRatio"
+      }
+    ],
+    "sub_affix_property_list": [
+      "CriticalChanceBase",
+      "CriticalDamageBase",
+      "HPAddedRatio"
+    ],
+    "score_rank_list": [
+      319,
+      261
+    ]
+  },
+  "lightcones": [
+    23040,
+    21052,
+    21057
+  ],
+  "teams": [
+    {
+      "avatar_id": 1407,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1415,
+        1413,
+        1409
+      ],
+      "backup_list1": [
+        1403,
+        1406,
+        1303,
+        8007,
+        1218,
+        1006,
+        1106
+      ],
+      "backup_list2": [
+        1403,
+        1406,
+        8007,
+        1303,
+        1006,
+        1106
+      ],
+      "backup_list3": [
+        1222,
+        1217,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        113,
+        104
+      ],
+      "backup_group_list2": [
+        113,
+        104
+      ],
+      "backup_group_list3": [
+        120,
+        101
+      ]
+    }
+  ],
+  "skin": {
+    "1140701": ""
+  }
+}

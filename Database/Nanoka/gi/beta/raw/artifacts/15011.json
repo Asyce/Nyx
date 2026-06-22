@@ -1,0 +1,57 @@
+{
+  "id": 15011,
+  "icon": "UI_RelicIcon_15011_3",
+  "need": [
+    1
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150110,
+      "id": 215011,
+      "open_config": "Relic_ElectricResistance",
+      "param_list": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Prayers for Wisdom",
+      "desc": "Affected by Electro for 40% less time."
+    }
+  ],
+  "parts": {
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15011_3",
+      "name": "Tiara of Thunder",
+      "desc": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it harkened to the call of thunder year in and year out, it possesses remarkable resistance.",
+      "story": {
+        "285113": {
+          "zh": "ART/UI/Readable/CHS/Relic15011_3",
+          "en": "ART/UI/Readable/EN/Relic15011_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15011_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15011_3_KR"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "id": 10005,
+  "icon": "UI_RelicIcon_10005_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_CRITICAL",
+          "value": 0.12
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100050,
+      "id": 210005,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Berserker",
+      "desc": "CRIT Rate +12%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100051,
+      "id": 210005,
+      "level": 1,
+      "open_config": "Relic_LowHPGainExtraCritRate",
+      "param_list": [
+        0.24,
+        0.7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Berserker",
+      "desc": "When HP is below 70%, CRIT Rate increases by an additional 24%."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10005_1",
+      "name": "Berserker's Bone Goblet",
+      "desc": "A goblet made from the bone of an unknown beast. It was taken as a trophy after some deadly encounter.",
+      "story": {
+        "280051": {
+          "zh": "ART/UI/Readable/CHS/Relic10005_1",
+          "en": "ART/UI/Readable/EN/Relic10005_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10005_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10005_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10005_2",
+      "name": "Berserker's Indigo Feather",
+      "desc": "An indigo feather from a legendary raven, part of which has been dyed crimson red.",
+      "story": {
+        "280052": {
+          "zh": "ART/UI/Readable/CHS/Relic10005_2",
+          "en": "ART/UI/Readable/EN/Relic10005_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10005_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10005_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10005_3",
+      "name": "Berserker's Battle Mask",
+      "desc": "A hideous iron mask that has been left half-shattered from vicious battles.",
+      "story": {
+        "280053": {
+          "zh": "ART/UI/Readable/CHS/Relic10005_3",
+          "en": "ART/UI/Readable/EN/Relic10005_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10005_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10005_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10005_4",
+      "name": "Berserker's Rose",
+      "desc": "An exquisite flower that has been dyed red. It represents the qualities of the Berserker.",
+      "story": {
+        "280054": {
+          "zh": "ART/UI/Readable/CHS/Relic10005_4",
+          "en": "ART/UI/Readable/EN/Relic10005_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10005_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10005_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10005_5",
+      "name": "Berserker's Timepiece",
+      "desc": "An instrument with an eternal flow that continues mercilessly within, reminding the Berserker of the limited time he has left — both on the battlefield as well as in the world.",
+      "story": {
+        "280055": {
+          "zh": "ART/UI/Readable/CHS/Relic10005_5",
+          "en": "ART/UI/Readable/EN/Relic10005_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10005_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10005_5_KR"
+        }
+      }
+    }
+  }
+}

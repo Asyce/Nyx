@@ -1,0 +1,141 @@
+{
+  "id": 10004,
+  "icon": "UI_RelicIcon_10004_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100040,
+      "id": 210004,
+      "open_config": "Relic_AllElemResistUp",
+      "param_list": [
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Tiny Miracle",
+      "desc": "All Elemental RES increased by 20%."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2100041,
+      "id": 210004,
+      "level": 1,
+      "open_config": "Relic_ElemDmgEnhanceElemResist",
+      "param_list": [
+        0.3,
+        10,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Tiny Miracle",
+      "desc": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_10004_1",
+      "name": "Tiny Miracle's Goblet",
+      "desc": "A cup commonly used for fortune-telling. It can also hold water, of course.",
+      "story": {
+        "280041": {
+          "zh": "ART/UI/Readable/CHS/Relic10004_1",
+          "en": "ART/UI/Readable/EN/Relic10004_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic10004_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic10004_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_10004_2",
+      "name": "Tiny Miracle's Feather",
+      "desc": "A feather from a bird of prey that flies almost too fast for the human eye to detect.",
+      "story": {
+        "280042": {
+          "zh": "ART/UI/Readable/CHS/Relic10004_2",
+          "en": "ART/UI/Readable/EN/Relic10004_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic10004_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic10004_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_10004_3",
+      "name": "Tiny Miracle's Earrings",
+      "desc": "A cheap accessory that is actually made from ancient meteoric ore.",
+      "story": {
+        "280043": {
+          "zh": "ART/UI/Readable/CHS/Relic10004_3",
+          "en": "ART/UI/Readable/EN/Relic10004_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic10004_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic10004_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_10004_4",
+      "name": "Tiny Miracle's Flower",
+      "desc": "A flower that grew from a rock, breaking through the stone as it strove to reach the light.",
+      "story": {
+        "280044": {
+          "zh": "ART/UI/Readable/CHS/Relic10004_4",
+          "en": "ART/UI/Readable/EN/Relic10004_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic10004_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic10004_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_10004_5",
+      "name": "Tiny Miracle's Hourglass",
+      "desc": "Just an ordinary, everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water.",
+      "story": {
+        "280045": {
+          "zh": "ART/UI/Readable/CHS/Relic10004_5",
+          "en": "ART/UI/Readable/EN/Relic10004_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic10004_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic10004_5_KR"
+        }
+      }
+    }
+  }
+}

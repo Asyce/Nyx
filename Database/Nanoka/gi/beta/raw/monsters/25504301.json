@@ -1,0 +1,101 @@
+{
+  "name": "Ferocious Warrior: Wrestler",
+  "desc": "A warrior from the plains and a tribal guardian who watches over the golden fields.\\nThey have trained their strength relentlessly since the moment they set their sights on becoming a warrior. When they bring their two-handed weapon down in a mighty strike, the sheer force is something no ordinary person can withstand.",
+  "icon": "UI_MonsterIcon_Human_MuscleMan_Claymore_Bisonsaurus",
+  "codex": "HUMAN",
+  "title": "Ferocious Warrior: Wrestler",
+  "special_names": [
+    "Tribe's Loyal Guard"
+  ],
+  "reward": [],
+  "child": {
+    "25504301": {
+      "monster_name": "Human_MuscleMan_Claymore_Bisonsaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25504302": {
+      "monster_name": "Human_MuscleMan_Claymore_Bisonsaurus_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 27.168,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

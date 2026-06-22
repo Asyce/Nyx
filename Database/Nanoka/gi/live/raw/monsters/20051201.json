@@ -1,0 +1,344 @@
+{
+  "name": "Hydro Tulpa",
+  "desc": "A humanoid monster formed from the agglomeration of water.",
+  "icon": "UI_MonsterIcon_Narcissusborn_Normal_01",
+  "codex": "ELEMENTAL",
+  "title": "Hydro Tulpa",
+  "special_names": [
+    "Awakened Egregore"
+  ],
+  "reward": [
+    {
+      "id": 102,
+      "rank": 3,
+      "icon": "UI_ItemIcon_102"
+    },
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 105,
+      "rank": 3,
+      "icon": "UI_ItemIcon_105"
+    },
+    {
+      "id": 113057,
+      "rank": 4,
+      "icon": "UI_ItemIcon_113057"
+    },
+    {
+      "id": 104124,
+      "rank": 5,
+      "icon": "UI_ItemIcon_104124"
+    },
+    {
+      "id": 104123,
+      "rank": 4,
+      "icon": "UI_ItemIcon_104123"
+    },
+    {
+      "id": 104122,
+      "rank": 3,
+      "icon": "UI_ItemIcon_104122"
+    },
+    {
+      "id": 104121,
+      "rank": 2,
+      "icon": "UI_ItemIcon_104121"
+    },
+    {
+      "id": 400089,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400099,
+      "rank": 5,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400088,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15001_4"
+    },
+    {
+      "id": 400098,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15003_4"
+    },
+    {
+      "id": 400023,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400043,
+      "rank": 4,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400133,
+      "rank": 4,
+      "icon": "UI_RelicIcon_15010_3"
+    },
+    {
+      "id": 400022,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10005_4"
+    },
+    {
+      "id": 400042,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10009_4"
+    },
+    {
+      "id": 400132,
+      "rank": 3,
+      "icon": "UI_RelicIcon_15010_3"
+    },
+    {
+      "id": 400047,
+      "rank": 3,
+      "icon": "UI_RelicIcon_10010_4"
+    }
+  ],
+  "child": {
+    "20051201": {
+      "monster_name": "Monster_Narcissusborn_Normal_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010032,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010032,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 298.848,
+        "atk": 125.6,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20051202": {
+      "monster_name": "Monster_Narcissusborn_Normal_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010032,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010032,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 209.1936,
+        "atk": 125,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20051203": {
+      "monster_name": "Monster_Narcissusborn_Normal_02",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010032,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010032,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 318.10358,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20051204": {
+      "monster_name": "Monster_Narcissusborn_Normal_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010032,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010032,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 318.10358,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "20051205": {
+      "monster_name": "Monster_Narcissusborn_Normal_01",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {
+          "drop_id": 22010032,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010032,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 318.10358,
+        "atk": 100.48,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": 15041,
+  "icon": "UI_RelicIcon_15041_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ELEMENT_MASTERY",
+          "value": 80
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150410,
+      "id": 215041,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Night of the Sky's Unveiling",
+      "desc": "Increases Elemental Mastery by 80."
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE"
+        }
+      ],
+      "affix_id": 2150411,
+      "id": 215041,
+      "level": 1,
+      "open_config": "Relic_6.0_Carry",
+      "param_list": [
+        4,
+        0.15,
+        0.3,
+        0.1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Night of the Sky's Unveiling",
+      "desc": "When nearby party members trigger Lunar Reactions, if the equipping character is on the field, gain the Gleaming Moon: Intent effect for 4s: Increases CRIT Rate by 15%/30% when the party's Moonsign is Nascent Gleam/Ascendant Gleam. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15041_1",
+      "name": "Vessel of Plenty",
+      "desc": "A specially crafted goblet used for palace banquets. It was once employed to perform some kind of magic.",
+      "story": {
+        "285411": {
+          "zh": "ART/UI/Readable/CHS/Relic15041_1",
+          "en": "ART/UI/Readable/EN/Relic15041_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15041_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15041_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15041_2",
+      "name": "Feather of Indelible Sin",
+      "desc": "A feathered accessory once worn on a felt hat. It feels out of place among the nobles of Snezhnaya and their taste for splendor.",
+      "story": {
+        "285412": {
+          "zh": "ART/UI/Readable/CHS/Relic15041_2",
+          "en": "ART/UI/Readable/EN/Relic15041_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15041_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15041_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15041_3",
+      "name": "Crown of the Befallen",
+      "desc": "A crown modeled on the circlet worn by a sinner. Perhaps in someone's heart, love and sin flow from the same source.",
+      "story": {
+        "285413": {
+          "zh": "ART/UI/Readable/CHS/Relic15041_3",
+          "en": "ART/UI/Readable/EN/Relic15041_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15041_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15041_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15041_4",
+      "name": "Bloom of the Mind's Desire",
+      "desc": "A sacred relic carved in the shape of a flower. It seems to represent a terrifying presence that unfurls like a bloom.",
+      "story": {
+        "285414": {
+          "zh": "ART/UI/Readable/CHS/Relic15041_4",
+          "en": "ART/UI/Readable/EN/Relic15041_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15041_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15041_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15041_5",
+      "name": "Revelation's Toll",
+      "desc": "An exquisite chiming clock driven by a mysterious power. It does not seem that timekeeping is its purpose.",
+      "story": {
+        "285415": {
+          "zh": "ART/UI/Readable/CHS/Relic15041_5",
+          "en": "ART/UI/Readable/EN/Relic15041_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15041_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15041_5_KR"
+        }
+      }
+    }
+  }
+}

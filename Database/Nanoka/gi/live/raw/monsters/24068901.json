@@ -1,0 +1,63 @@
+{
+  "name": "Suppression Specialist Mek",
+  "desc": "A clockwork meka adapted from the Cal. Scherbius type. Unfortunately, aside from its ability to attack, it has no other capabilities.\\nClockwork meka based on annihilation energy normally produce their energy by utilizing Repeaters composed of special crystals to refine ousia and pneuma from Fontaine's environment. But outside of Fontaine, they can use pre-prepared Energy Blocks to move over short distances for short periods of time. The difference can be observed from the shape of the crystal components on the meka.",
+  "icon": "UI_MonsterIcon_MachinaIustitia_Ruggiero_02",
+  "codex": "AUTOMATRON",
+  "title": "Suppression Specialist Mek",
+  "special_names": [
+    "Meka, Cal. Bletchley"
+  ],
+  "reward": [],
+  "child": {
+    "24068901": {
+      "monster_name": "MachinaIustitia_Ruggiero_Codex",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 75
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 50
+        },
+        {
+          "drop_id": 22010010,
+          "hp_percent": 25
+        }
+      ],
+      "kill_drop_id": 22010030,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

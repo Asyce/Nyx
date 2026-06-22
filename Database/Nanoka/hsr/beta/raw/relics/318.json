@@ -1,0 +1,21 @@
+{
+  "name": "The Wondrous BananAmusement Park",
+  "icon": "SpriteOutput/ItemIcon/71037.png",
+  "parts": {
+    "33185": {
+      "name": "BananAmusement Park's BananAxis Plaza"
+    },
+    "33186": {
+      "name": "BananAmusement Park's Memetic Cables"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the wearer's CRIT DMG by <unbreak>#1[i]%</unbreak>. When a target summoned by the wearer is on the field, CRIT DMG additionally increases by <unbreak>#2[i]%</unbreak>.",
+      "param_list": [
+        0.16,
+        0.32
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Space Sealing Station",
+  "icon": "SpriteOutput/ItemIcon/71012.png",
+  "parts": {
+    "33015": {
+      "name": "Herta's Space Station"
+    },
+    "33016": {
+      "name": "Herta's Wandering Trek"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the wearer's ATK by <unbreak>#1[i]%</unbreak>. When the wearer's SPD reaches <unbreak>#2[i]</unbreak> or higher, the wearer's ATK increases by an extra <unbreak>#3[i]%</unbreak>.",
+      "param_list": [
+        0.12,
+        120,
+        0.12
+      ]
+    }
+  }
+}

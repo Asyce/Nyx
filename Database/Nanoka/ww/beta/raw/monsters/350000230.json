@@ -1,0 +1,15 @@
+{
+  "id": 350000230,
+  "name": "Phantom: Fae Ignis",
+  "desc": "An avian Tacet Discord prowling the Penitent's End. In darkness, its form blends into shadow, leaving only its mask flickering like ignis fatuus.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Dark>Havoc DMG</color>.\n \nAn avian Tacet Discord prowling the Penitent's End. In darkness, its form blends into shadow, leaving only its mask flickering like ignis fatuus.\n \nThe Fae Ignis uses its spectral flames to set the surroundings ablaze, delighting in the chaos it creates. This mischief often provokes other Tacet Discords into a frenzy, while also damaging the belongings of any unfortunate passersby.",
+  "rarity": 1,
+  "element": 6,
+  "element_array": [
+    6
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31043_UI.T_IconMonsterHead_SG_31043_UI",
+  "echo": 6010067,
+  "base_stats": {},
+  "stats": {}
+}

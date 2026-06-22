@@ -1,0 +1,235 @@
+{
+  "name": "Time Woven Into Gold",
+  "desc": "<i>\"This strand, a soldier's sacrifice.\"</i>\\n<i>\"This strand, a hero's growth.\"</i>\\n<i>\"This strand, the city's prosperity.\"</i>\\n....\\nThe Garmentmaker pulls at the threads using a needle, everything held between her fingers.\\n<i>\"The destiny of certain heroes has already been severed...\"</i>\\nShe scoops up another set of golden threads and continues her mending.\\n<i>\"The fates of certain heroes must continue...\"</i>\\n\\nThe divine loom weaves on, and the Garmentmakers dance with lively grace. Eons of time had already passed through the loom, and she has long been accustomed to such waiting....\\n\\nFor the sake of turning time to golden \"inspiration.\"",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Memory",
+  "refinements": {
+    "name": "Establishment",
+    "desc": "Increases the wearer's base SPD by <color=#f29e38ff><unbreak>#1[i]</unbreak></color>. After the wearer and the wearer's memosprite attacks, the wearer gains 1 stack of \"Brocade.\" Each stack of \"Brocade\" increases the wearer's and their memosprite's CRIT DMG by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>, stacking up to <unbreak>#2[i]</unbreak> time(s). When reaching maximum stacks, each \"Brocade\" stack additionally increases Basic ATK DMG dealt by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>.",
+    "level": {
+      "1": {
+        "param_list": [
+          12,
+          6,
+          0.09,
+          0.09
+        ]
+      },
+      "2": {
+        "param_list": [
+          14,
+          6,
+          0.105,
+          0.105
+        ]
+      },
+      "3": {
+        "param_list": [
+          16,
+          6,
+          0.12,
+          0.12
+        ]
+      },
+      "4": {
+        "param_list": [
+          18,
+          6,
+          0.135,
+          0.135
+        ]
+      },
+      "5": {
+        "param_list": [
+          20,
+          6,
+          0.15,
+          0.15
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23036,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115001,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 48,
+      "base_hp_add": 7.2,
+      "base_attack": 28.8,
+      "base_attack_add": 4.32,
+      "base_defence": 18,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23036,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110251,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 115001,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 105.6,
+      "base_hp_add": 7.2,
+      "base_attack": 63.36,
+      "base_attack_add": 4.32,
+      "base_defence": 39.6,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23036,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110252,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115002,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 182.4,
+      "base_hp_add": 7.2,
+      "base_attack": 109.44,
+      "base_attack_add": 4.32,
+      "base_defence": 68.4,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23036,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110252,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115002,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 259.2,
+      "base_hp_add": 7.2,
+      "base_attack": 155.52,
+      "base_attack_add": 4.32,
+      "base_defence": 97.2,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23036,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110253,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 115003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 336,
+      "base_hp_add": 7.2,
+      "base_attack": 201.6,
+      "base_attack_add": 4.32,
+      "base_defence": 126,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23036,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110253,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 115003,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 412.8,
+      "base_hp_add": 7.2,
+      "base_attack": 247.68,
+      "base_attack_add": 4.32,
+      "base_defence": 154.8,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23036,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 489.6,
+      "base_hp_add": 7.2,
+      "base_attack": 293.76,
+      "base_attack_add": 4.32,
+      "base_defence": 183.6,
+      "base_defence_add": 2.7
+    }
+  ]
+}

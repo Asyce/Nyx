@@ -1,0 +1,146 @@
+{
+  "id": 15005,
+  "icon": "UI_RelicIcon_15005_4",
+  "need": [
+    2,
+    4
+  ],
+  "rank": [
+    3,
+    4,
+    5
+  ],
+  "affix": [
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_ELEC_ADD_HURT",
+          "value": 0.15
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150050,
+      "id": 215005,
+      "level": 0,
+      "open_config": "",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Thundering Fury",
+      "desc": "Electro DMG Bonus +15%"
+    },
+    {
+      "add_props": [
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        },
+        {
+          "prop_type": "FIGHT_PROP_NONE",
+          "value": 0
+        }
+      ],
+      "affix_id": 2150051,
+      "id": 215005,
+      "level": 1,
+      "open_config": "Relic_ReactionElectricEnhance",
+      "param_list": [
+        0.4,
+        0.8,
+        0.2,
+        0.2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "name": "Thundering Fury",
+      "desc": "Increases the DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, the DMG Bonus conferred by Aggravate by 20%, and the DMG caused by Lunar-Charged by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s."
+    }
+  ],
+  "parts": {
+    "equip_ring": {
+      "icon": "UI_RelicIcon_15005_1",
+      "name": "Omen of Thunderstorm",
+      "desc": "",
+      "story": {
+        "285051": {
+          "zh": "ART/UI/Readable/CHS/Relic15005_1",
+          "en": "ART/UI/Readable/EN/Relic15005_1_EN",
+          "ja": "ART/UI/Readable/JP/Relic15005_1_JP",
+          "ko": "ART/UI/Readable/KR/Relic15005_1_KR"
+        }
+      }
+    },
+    "equip_necklace": {
+      "icon": "UI_RelicIcon_15005_2",
+      "name": "Survivor of Catastrophe",
+      "desc": "",
+      "story": {
+        "285052": {
+          "zh": "ART/UI/Readable/CHS/Relic15005_2",
+          "en": "ART/UI/Readable/EN/Relic15005_2_EN",
+          "ja": "ART/UI/Readable/JP/Relic15005_2_JP",
+          "ko": "ART/UI/Readable/KR/Relic15005_2_KR"
+        }
+      }
+    },
+    "equip_dress": {
+      "icon": "UI_RelicIcon_15005_3",
+      "name": "Thunder Summoner's Crown",
+      "desc": "",
+      "story": {
+        "285053": {
+          "zh": "ART/UI/Readable/CHS/Relic15005_3",
+          "en": "ART/UI/Readable/EN/Relic15005_3_EN",
+          "ja": "ART/UI/Readable/JP/Relic15005_3_JP",
+          "ko": "ART/UI/Readable/KR/Relic15005_3_KR"
+        }
+      }
+    },
+    "equip_bracer": {
+      "icon": "UI_RelicIcon_15005_4",
+      "name": "Thunderbird's Mercy",
+      "desc": "",
+      "story": {
+        "285054": {
+          "zh": "ART/UI/Readable/CHS/Relic15005_4",
+          "en": "ART/UI/Readable/EN/Relic15005_4_EN",
+          "ja": "ART/UI/Readable/JP/Relic15005_4_JP",
+          "ko": "ART/UI/Readable/KR/Relic15005_4_KR"
+        }
+      }
+    },
+    "equip_shoes": {
+      "icon": "UI_RelicIcon_15005_5",
+      "name": "Hourglass of Thunder",
+      "desc": "",
+      "story": {
+        "285055": {
+          "zh": "ART/UI/Readable/CHS/Relic15005_5",
+          "en": "ART/UI/Readable/EN/Relic15005_5_EN",
+          "ja": "ART/UI/Readable/JP/Relic15005_5_JP",
+          "ko": "ART/UI/Readable/KR/Relic15005_5_KR"
+        }
+      }
+    }
+  }
+}

@@ -170,7 +170,7 @@
             "name": "\"Afterlife\"",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_054_UI.webp",
             "source": "Collection Spots / Overworld Collection / Silver Helmet Store / The Lost Beyond",
             "sourceDetails": [
@@ -263,7 +263,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -457,7 +457,7 @@
             "name": "Seaside Cendrelis",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_144_UI.webp",
             "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
             "sourceDetails": [
@@ -547,7 +547,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -741,7 +741,7 @@
             "name": "Firecracker Jewelweed",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
             "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
             "sourceDetails": [
@@ -831,7 +831,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -1003,7 +1003,7 @@
             "name": "Mysterious Code",
             "qty": 5,
             "rar": 5,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
             "source": "Casket Delivery / Quests",
             "sourceDetails": [
@@ -1020,7 +1020,7 @@
             "name": "Pecok Flower",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
             "sourceDetails": [
@@ -1107,7 +1107,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -1288,7 +1288,7 @@
                 "name": "Mysterious Code",
                 "qty": 5,
                 "rar": 5,
-                "kind": "boss",
+                "kind": "mob",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
                 "source": "Casket Delivery / Quests",
                 "sourceDetails": [
@@ -1305,7 +1305,7 @@
                 "name": "Pecok Flower",
                 "qty": 60,
                 "rar": 1,
-                "kind": "specialty",
+                "kind": "mob",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
                 "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
                 "sourceDetails": [
@@ -1392,7 +1392,7 @@
                 "name": "Unending Destruction",
                 "qty": 26,
                 "rar": 4,
-                "kind": "weekly",
+                "kind": "boss",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
                 "source": "Scar / Scar - Early Access",
                 "sourceDetails": [
@@ -1572,7 +1572,7 @@
                 "name": "Mysterious Code",
                 "qty": 5,
                 "rar": 5,
-                "kind": "boss",
+                "kind": "mob",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
                 "source": "Casket Delivery / Quests",
                 "sourceDetails": [
@@ -1589,7 +1589,7 @@
                 "name": "Pecok Flower",
                 "qty": 60,
                 "rar": 1,
-                "kind": "specialty",
+                "kind": "mob",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
                 "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
                 "sourceDetails": [
@@ -1676,7 +1676,7 @@
                 "name": "Dreamless Feather",
                 "qty": 26,
                 "rar": 4,
-                "kind": "weekly",
+                "kind": "boss",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
                 "source": "Dreamless / Dreamless - Early Access",
                 "sourceDetails": [
@@ -1855,7 +1855,7 @@
                 "name": "Mysterious Code",
                 "qty": 5,
                 "rar": 5,
-                "kind": "boss",
+                "kind": "mob",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_002_1_UI.webp",
                 "source": "Casket Delivery / Quests",
                 "sourceDetails": [
@@ -1872,7 +1872,7 @@
                 "name": "Pecok Flower",
                 "qty": 60,
                 "rar": 1,
-                "kind": "specialty",
+                "kind": "mob",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
                 "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
                 "sourceDetails": [
@@ -1959,7 +1959,7 @@
                 "name": "When Irises Bloom",
                 "qty": 26,
                 "rar": 4,
-                "kind": "weekly",
+                "kind": "boss",
                 "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
                 "source": "Fleurdelys / Fleurdelys - Early Access",
                 "sourceDetails": [
@@ -2154,7 +2154,7 @@
             "name": "Nova",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_084_UI.webp",
             "source": "Black Shores / Collection Spots",
             "sourceDetails": [
@@ -2235,7 +2235,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -2412,7 +2412,7 @@
             "name": "Strife Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_004_1_UI.webp",
             "source": "Crownless",
             "sourceDetails": [
@@ -2427,7 +2427,7 @@
             "name": "Belle Poppy",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
             "sourceDetails": [
@@ -2518,7 +2518,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -2706,7 +2706,7 @@
             "name": "Iris",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
             "sourceDetails": [
@@ -2793,7 +2793,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -2983,7 +2983,7 @@
             "name": "Past Reveries",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
             "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
             "sourceDetails": [
@@ -3067,7 +3067,7 @@
             "name": "Gold in Memory",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
             "source": "Sigillum / Sigillum - Early Access",
             "sourceDetails": [
@@ -3240,7 +3240,7 @@
             "name": "Edelschnee",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
             "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
             "sourceDetails": [
@@ -3324,7 +3324,7 @@
             "name": "Gold in Memory",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
             "source": "Sigillum / Sigillum - Early Access",
             "sourceDetails": [
@@ -3497,7 +3497,7 @@
             "name": "Rimewisp",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_067_UI.webp",
             "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
             "sourceDetails": [
@@ -3581,7 +3581,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -3758,7 +3758,7 @@
             "name": "Summer Flower",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_060_UI.webp",
             "source": "Collection Spots / Overworld Collection",
             "sourceDetails": [
@@ -3845,7 +3845,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -4022,7 +4022,7 @@
             "name": "Platinum Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
             "source": "Sentry Construct / Sentry Construct - Early Access",
             "sourceDetails": [
@@ -4037,7 +4037,7 @@
             "name": "Sword Acorus",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
             "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
             "sourceDetails": [
@@ -4127,7 +4127,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -4313,7 +4313,7 @@
             "name": "Firecracker Jewelweed",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_043_UI.webp",
             "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
             "sourceDetails": [
@@ -4397,7 +4397,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -4568,7 +4568,7 @@
             "name": "Thundering Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
             "source": "Thundering Mephis",
             "sourceDetails": [
@@ -4583,7 +4583,7 @@
             "name": "Terraspawn Fungus",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
             "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
             "sourceDetails": [
@@ -4673,7 +4673,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -4844,7 +4844,7 @@
             "name": "Elegy Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
             "source": "Mourning Aix / Mourning Aix - Early Access",
             "sourceDetails": [
@@ -4859,7 +4859,7 @@
             "name": "Belle Poppy",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
             "sourceDetails": [
@@ -4946,7 +4946,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -5132,7 +5132,7 @@
             "name": "Arithmetic Shell",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_063_UI.webp",
             "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
             "sourceDetails": [
@@ -5216,7 +5216,7 @@
             "name": "Gold in Memory",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
             "source": "Sigillum / Sigillum - Early Access",
             "sourceDetails": [
@@ -5387,7 +5387,7 @@
             "name": "Wintry Bell",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
             "sourceDetails": [
@@ -5474,7 +5474,7 @@
             "name": "Curse of the Abyss",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
             "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
             "sourceDetails": [
@@ -5666,7 +5666,7 @@
             "name": "Sliverglow Bloom",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_057_UI.webp",
             "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
             "sourceDetails": [
@@ -5756,7 +5756,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -5948,7 +5948,7 @@
             "name": "Bamboo Iris",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_bianzhuhua_UI.webp",
             "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
             "sourceDetails": [
@@ -6038,7 +6038,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -6230,7 +6230,7 @@
             "name": "Golden Fleece",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
             "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
             "sourceDetails": [
@@ -6320,7 +6320,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -6491,7 +6491,7 @@
             "name": "Roaring Rock Fist",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
             "source": "Feilian Beringal / Feilian Beringal - Early Access",
             "sourceDetails": [
@@ -6506,7 +6506,7 @@
             "name": "Lanternberry",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
             "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
             "sourceDetails": [
@@ -6593,7 +6593,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -6767,7 +6767,7 @@
             "name": "Roaring Rock Fist",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
             "source": "Feilian Beringal / Feilian Beringal - Early Access",
             "sourceDetails": [
@@ -6782,7 +6782,7 @@
             "name": "Pecok Flower",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
             "sourceDetails": [
@@ -6869,7 +6869,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -7040,7 +7040,7 @@
             "name": "Roaring Rock Fist",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
             "source": "Feilian Beringal / Feilian Beringal - Early Access",
             "sourceDetails": [
@@ -7055,7 +7055,7 @@
             "name": "Wintry Bell",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
             "sourceDetails": [
@@ -7142,7 +7142,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -7317,7 +7317,7 @@
             "name": "Roaring Rock Fist",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_011_UI.webp",
             "source": "Feilian Beringal / Feilian Beringal - Early Access",
             "sourceDetails": [
@@ -7332,7 +7332,7 @@
             "name": "Wintry Bell",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
             "sourceDetails": [
@@ -7423,7 +7423,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -7614,7 +7614,7 @@
             "name": "Past Reveries",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_23_UI.webp",
             "source": "Collection Spots / AI Variety Store in Somnoire: Night City / Somnoire: Night City",
             "sourceDetails": [
@@ -7698,7 +7698,7 @@
             "name": "We Who Question",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
             "source": "Denia / Denia - Early Access",
             "sourceDetails": [
@@ -7869,7 +7869,7 @@
             "name": "Pecok Flower",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
             "sourceDetails": [
@@ -7956,7 +7956,7 @@
             "name": "Curse of the Abyss",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
             "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
             "sourceDetails": [
@@ -8148,7 +8148,7 @@
             "name": "Luminous Calendula",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_058_UI.webp",
             "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
             "sourceDetails": [
@@ -8238,7 +8238,7 @@
             "name": "When Irises Bloom",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
             "source": "Fleurdelys / Fleurdelys - Early Access",
             "sourceDetails": [
@@ -8409,7 +8409,7 @@
             "name": "Hidden Thunder Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
             "source": "Tempest Mephis / Tempest Mephis - Early Access",
             "sourceDetails": [
@@ -8424,7 +8424,7 @@
             "name": "Violet Coral",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
             "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
             "sourceDetails": [
@@ -8514,7 +8514,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -8688,7 +8688,7 @@
             "name": "Elegy Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_006_UI.webp",
             "source": "Mourning Aix / Mourning Aix - Early Access",
             "sourceDetails": [
@@ -8703,7 +8703,7 @@
             "name": "Loong's Pearl",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_030_UI.webp",
             "source": "Mianloong Chamber / Collection Spots / Mt. Firmament / Shifang Pharmacy",
             "sourceDetails": [
@@ -8790,7 +8790,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -8965,7 +8965,7 @@
             "name": "Hidden Thunder Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_012_UI.webp",
             "source": "Tempest Mephis / Tempest Mephis - Early Access",
             "sourceDetails": [
@@ -8980,7 +8980,7 @@
             "name": "Terraspawn Fungus",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_HuiYanGu_UI.webp",
             "source": "Overworld Collection / Collection Spots / Withering Frontline / Camp Overwatch / Shifang Pharmacy",
             "sourceDetails": [
@@ -9074,7 +9074,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -9248,7 +9248,7 @@
             "name": "Group Abomination Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_009_UI.webp",
             "source": "Mech Abomination / Mech Abomination - Early Access",
             "sourceDetails": [
@@ -9263,7 +9263,7 @@
             "name": "Coriolus",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
             "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
             "sourceDetails": [
@@ -9353,7 +9353,7 @@
             "name": "Dreamless Feather",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
             "source": "Dreamless / Dreamless - Early Access",
             "sourceDetails": [
@@ -9528,7 +9528,7 @@
             "name": "Thundering Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_001_1_UI.webp",
             "source": "Thundering Mephis",
             "sourceDetails": [
@@ -9543,7 +9543,7 @@
             "name": "Iris",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_33A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Heron Wetland / Shifang Pharmacy",
             "sourceDetails": [
@@ -9634,7 +9634,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -9820,7 +9820,7 @@
             "name": "Dream of Stars",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_075_UI.webp",
             "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
             "sourceDetails": [
@@ -9904,7 +9904,7 @@
             "name": "We Who Question",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
             "source": "Denia / Denia - Early Access",
             "sourceDetails": [
@@ -10075,7 +10075,7 @@
             "name": "Moss Amber",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_072_UI.webp",
             "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
             "sourceDetails": [
@@ -10159,7 +10159,7 @@
             "name": "Gold in Memory",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
             "source": "Sigillum / Sigillum - Early Access",
             "sourceDetails": [
@@ -10330,7 +10330,7 @@
             "name": "Gemini Spore",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_066_UI.webp",
             "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
             "sourceDetails": [
@@ -10414,7 +10414,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -10591,7 +10591,7 @@
             "name": "Stone Rose",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_056_UI.webp",
             "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
             "sourceDetails": [
@@ -10681,7 +10681,7 @@
             "name": "Curse of the Abyss",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
             "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
             "sourceDetails": [
@@ -10867,7 +10867,7 @@
             "name": "Bloodleaf Viburnum",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_xueyejiami_UI.webp",
             "source": "Collection Spots / Overworld Collection / Silver Helmet Store",
             "sourceDetails": [
@@ -10951,7 +10951,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -11143,7 +11143,7 @@
             "name": "Golden Fleece",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_045_UI.webp",
             "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
             "sourceDetails": [
@@ -11233,7 +11233,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -11408,7 +11408,7 @@
             "name": "Rage Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
             "source": "Inferno Rider / Inferno Rider - Early Access",
             "sourceDetails": [
@@ -11423,7 +11423,7 @@
             "name": "Pavo Plum",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_029_UI.webp",
             "source": "Luminous Shore / Collection Spots / Mt. Firmament / Shifang Pharmacy",
             "sourceDetails": [
@@ -11514,7 +11514,7 @@
             "name": "Sentinel's Dagger",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
             "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
             "sourceDetails": [
@@ -11685,7 +11685,7 @@
             "name": "Rage Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
             "source": "Inferno Rider / Inferno Rider - Early Access",
             "sourceDetails": [
@@ -11700,7 +11700,7 @@
             "name": "Coriolus",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
             "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
             "sourceDetails": [
@@ -11790,7 +11790,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -11961,7 +11961,7 @@
             "name": "Rage Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
             "source": "Inferno Rider / Inferno Rider - Early Access",
             "sourceDetails": [
@@ -11976,7 +11976,7 @@
             "name": "Pecok Flower",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_18A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Taoyuan Vale / Shifang Pharmacy",
             "sourceDetails": [
@@ -12063,7 +12063,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -12237,7 +12237,7 @@
             "name": "Rage Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_008_UI.webp",
             "source": "Inferno Rider / Inferno Rider - Early Access",
             "sourceDetails": [
@@ -12252,7 +12252,7 @@
             "name": "Belle Poppy",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_29A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Sea of Flames / Shifang Pharmacy",
             "sourceDetails": [
@@ -12339,7 +12339,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -12527,7 +12527,7 @@
             "name": "Forget-Me-Not",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_077_UI.webp",
             "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
             "sourceDetails": [
@@ -12611,7 +12611,7 @@
             "name": "We Who Question",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
             "source": "Denia / Denia - Early Access",
             "sourceDetails": [
@@ -12782,7 +12782,7 @@
             "name": "Redbell",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_076_UI.webp",
             "source": "Collection Spots / Overworld Collection / Resonator Nursing Unit",
             "sourceDetails": [
@@ -12866,7 +12866,7 @@
             "name": "We Who Question",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
             "source": "Denia / Denia - Early Access",
             "sourceDetails": [
@@ -13028,7 +13028,7 @@
             "name": "Platinum Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
             "source": "Sentry Construct / Sentry Construct - Early Access",
             "sourceDetails": [
@@ -13043,7 +13043,7 @@
             "name": "Sword Acorus",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
             "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
             "sourceDetails": [
@@ -13133,7 +13133,7 @@
             "name": "The Netherworld's Stare",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
             "source": "Hecate / Hecate - Early Access",
             "sourceDetails": [
@@ -13323,7 +13323,7 @@
             "name": "Violet Coral",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_Sep_061_UI.webp",
             "source": "Overworld Collection / Collection Spots / Norfall Barrens / Wuming Bay / Shifang Pharmacy",
             "sourceDetails": [
@@ -13417,7 +13417,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -13588,7 +13588,7 @@
             "name": "Sound-Keeping Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
             "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
             "sourceDetails": [
@@ -13603,7 +13603,7 @@
             "name": "Lanternberry",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
             "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
             "sourceDetails": [
@@ -13690,7 +13690,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -13861,7 +13861,7 @@
             "name": "Sound-Keeping Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
             "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
             "sourceDetails": [
@@ -13876,7 +13876,7 @@
             "name": "Coriolus",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_30A_UI.webp",
             "source": "Overworld Collection / Giant Banyan / Forbidden Forest / Shifang Pharmacy / Collection Spots",
             "sourceDetails": [
@@ -13966,7 +13966,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -14140,7 +14140,7 @@
             "name": "Sound-Keeping Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
             "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
             "sourceDetails": [
@@ -14155,7 +14155,7 @@
             "name": "Lanternberry",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_denglongguo_UI.webp",
             "source": "Overworld Collection / Collection Spots / Tiger's Maw Mine / Shifang Pharmacy",
             "sourceDetails": [
@@ -14242,7 +14242,7 @@
             "name": "Monument Bell",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
             "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
             "sourceDetails": [
@@ -14413,7 +14413,7 @@
             "name": "Sound-Keeping Tacet Core",
             "qty": 46,
             "rar": 4,
-            "kind": "boss",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
             "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
             "sourceDetails": [
@@ -14428,7 +14428,7 @@
             "name": "Wintry Bell",
             "qty": 60,
             "rar": 1,
-            "kind": "specialty",
+            "kind": "mob",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
             "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
             "sourceDetails": [
@@ -14515,7 +14515,7 @@
             "name": "Unending Destruction",
             "qty": 26,
             "rar": 4,
-            "kind": "weekly",
+            "kind": "boss",
             "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
             "source": "Scar / Scar - Early Access",
             "sourceDetails": [
@@ -15384,586 +15384,8 @@
     "title": "Weekly Challenge",
     "count": 51
   },
-  "bossGroups": [
-    {
-      "title": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
-      "mats": [
-        {
-          "id": "41400094",
-          "name": "Monument Bell",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
-          "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Bell-Borne Geochelone",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_992_UI.webp"
-            }
-          ],
-          "chars": [
-            "Aalto",
-            "Baizhi",
-            "Calcharo",
-            "Chixia",
-            "Jiyan",
-            "Mortefi",
-            "Verina",
-            "Youhu",
-            "Zhezhi"
-          ]
-        }
-      ],
-      "chars": [
-        "Aalto",
-        "Baizhi",
-        "Calcharo",
-        "Chixia",
-        "Jiyan",
-        "Mortefi",
-        "Verina",
-        "Youhu",
-        "Zhezhi"
-      ]
-    },
-    {
-      "title": "Denia / Denia - Early Access",
-      "mats": [
-        {
-          "id": "41400304",
-          "name": "We Who Question",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
-          "source": "Denia / Denia - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Denia",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
-            }
-          ],
-          "chars": [
-            "Denia",
-            "Hiyuki",
-            "Lucilla",
-            "Rebecca"
-          ]
-        }
-      ],
-      "chars": [
-        "Denia",
-        "Hiyuki",
-        "Lucilla",
-        "Rebecca"
-      ]
-    },
-    {
-      "title": "Dreamless / Dreamless - Early Access",
-      "mats": [
-        {
-          "id": "41400124",
-          "name": "Dreamless Feather",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
-          "source": "Dreamless / Dreamless - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Dreamless",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_UI.webp"
-            }
-          ],
-          "chars": [
-            "Camellya",
-            "Danjin",
-            "Lynae",
-            "Rover",
-            "Taoqi",
-            "Yinlin"
-          ]
-        }
-      ],
-      "chars": [
-        "Camellya",
-        "Danjin",
-        "Lynae",
-        "Rover",
-        "Taoqi",
-        "Yinlin"
-      ]
-    },
-    {
-      "title": "Fleurdelys / Fleurdelys - Early Access",
-      "mats": [
-        {
-          "id": "41400204",
-          "name": "When Irises Bloom",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
-          "source": "Fleurdelys / Fleurdelys - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Fleurdelys",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34012_UI.webp"
-            }
-          ],
-          "chars": [
-            "Augusta",
-            "Cantarella",
-            "Cartethyia",
-            "Chisa",
-            "Ciaccona",
-            "Rover"
-          ]
-        }
-      ],
-      "chars": [
-        "Augusta",
-        "Cantarella",
-        "Cartethyia",
-        "Chisa",
-        "Ciaccona",
-        "Rover"
-      ]
-    },
-    {
-      "title": "Hecate / Hecate - Early Access",
-      "mats": [
-        {
-          "id": "41400194",
-          "name": "The Netherworld's Stare",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
-          "source": "Hecate / Hecate - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Hecate",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.webp"
-            }
-          ],
-          "chars": [
-            "Brant",
-            "Carlotta",
-            "Iuno",
-            "Lupa",
-            "Mornye",
-            "Phrolova",
-            "Roccia",
-            "Zani"
-          ]
-        }
-      ],
-      "chars": [
-        "Brant",
-        "Carlotta",
-        "Iuno",
-        "Lupa",
-        "Mornye",
-        "Phrolova",
-        "Roccia",
-        "Zani"
-      ]
-    },
-    {
-      "title": "Scar / Scar - Early Access",
-      "mats": [
-        {
-          "id": "41400114",
-          "name": "Unending Destruction",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
-          "source": "Scar / Scar - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Scar: Lightbane Reversal",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1004_UI.webp"
-            },
-            {
-              "name": "Scar - Early Access"
-            }
-          ],
-          "chars": [
-            "Encore",
-            "Jianxin",
-            "Lingyang",
-            "Rover",
-            "Sanhua",
-            "Xiangli Yao",
-            "Yangyang",
-            "Yuanwu"
-          ]
-        }
-      ],
-      "chars": [
-        "Encore",
-        "Jianxin",
-        "Lingyang",
-        "Rover",
-        "Sanhua",
-        "Xiangli Yao",
-        "Yangyang",
-        "Yuanwu"
-      ]
-    },
-    {
-      "title": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
-      "mats": [
-        {
-          "id": "41400144",
-          "name": "Sentinel's Dagger",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
-          "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Ju\u00e9",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.webp"
-            }
-          ],
-          "chars": [
-            "Changli",
-            "Jinhsi",
-            "Lumi",
-            "Phoebe"
-          ]
-        }
-      ],
-      "chars": [
-        "Changli",
-        "Jinhsi",
-        "Lumi",
-        "Phoebe"
-      ]
-    },
-    {
-      "title": "Sigillum / Sigillum - Early Access",
-      "mats": [
-        {
-          "id": "41400294",
-          "name": "Gold in Memory",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
-          "source": "Sigillum / Sigillum - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Sigillum",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34025_UI.webp"
-            }
-          ],
-          "chars": [
-            "Aemeath",
-            "Lucy",
-            "Luuk Herssen",
-            "Sigrika"
-          ]
-        }
-      ],
-      "chars": [
-        "Aemeath",
-        "Lucy",
-        "Luuk Herssen",
-        "Sigrika"
-      ]
-    },
-    {
-      "title": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
-      "mats": [
-        {
-          "id": "41400254",
-          "name": "Curse of the Abyss",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
-          "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Threnodian: Leviathan",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34020_UI.webp"
-            }
-          ],
-          "chars": [
-            "Buling",
-            "Galbrena",
-            "Qiuyuan"
-          ]
-        }
-      ],
-      "chars": [
-        "Buling",
-        "Galbrena",
-        "Qiuyuan"
-      ]
-    }
-  ],
-  "weeklyBosses": [
-    {
-      "bossName": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
-      "drops": [
-        {
-          "id": "41400094",
-          "name": "Monument Bell",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
-          "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Bell-Borne Geochelone",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_992_UI.webp"
-            }
-          ],
-          "chars": [
-            "Aalto",
-            "Baizhi",
-            "Calcharo",
-            "Chixia",
-            "Jiyan",
-            "Mortefi",
-            "Verina",
-            "Youhu",
-            "Zhezhi"
-          ]
-        }
-      ]
-    },
-    {
-      "bossName": "Denia / Denia - Early Access",
-      "drops": [
-        {
-          "id": "41400304",
-          "name": "We Who Question",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
-          "source": "Denia / Denia - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Denia",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
-            }
-          ],
-          "chars": [
-            "Denia",
-            "Hiyuki",
-            "Lucilla",
-            "Rebecca"
-          ]
-        }
-      ]
-    },
-    {
-      "bossName": "Dreamless / Dreamless - Early Access",
-      "drops": [
-        {
-          "id": "41400124",
-          "name": "Dreamless Feather",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
-          "source": "Dreamless / Dreamless - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Dreamless",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_UI.webp"
-            }
-          ],
-          "chars": [
-            "Camellya",
-            "Danjin",
-            "Lynae",
-            "Rover",
-            "Taoqi",
-            "Yinlin"
-          ]
-        }
-      ]
-    },
-    {
-      "bossName": "Fleurdelys / Fleurdelys - Early Access",
-      "drops": [
-        {
-          "id": "41400204",
-          "name": "When Irises Bloom",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
-          "source": "Fleurdelys / Fleurdelys - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Fleurdelys",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34012_UI.webp"
-            }
-          ],
-          "chars": [
-            "Augusta",
-            "Cantarella",
-            "Cartethyia",
-            "Chisa",
-            "Ciaccona",
-            "Rover"
-          ]
-        }
-      ]
-    },
-    {
-      "bossName": "Hecate / Hecate - Early Access",
-      "drops": [
-        {
-          "id": "41400194",
-          "name": "The Netherworld's Stare",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
-          "source": "Hecate / Hecate - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Hecate",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.webp"
-            }
-          ],
-          "chars": [
-            "Brant",
-            "Carlotta",
-            "Iuno",
-            "Lupa",
-            "Mornye",
-            "Phrolova",
-            "Roccia",
-            "Zani"
-          ]
-        }
-      ]
-    },
-    {
-      "bossName": "Scar / Scar - Early Access",
-      "drops": [
-        {
-          "id": "41400114",
-          "name": "Unending Destruction",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
-          "source": "Scar / Scar - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Scar: Lightbane Reversal",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1004_UI.webp"
-            },
-            {
-              "name": "Scar - Early Access"
-            }
-          ],
-          "chars": [
-            "Encore",
-            "Jianxin",
-            "Lingyang",
-            "Rover",
-            "Sanhua",
-            "Xiangli Yao",
-            "Yangyang",
-            "Yuanwu"
-          ]
-        }
-      ]
-    },
-    {
-      "bossName": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
-      "drops": [
-        {
-          "id": "41400144",
-          "name": "Sentinel's Dagger",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
-          "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Ju\u00e9",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.webp"
-            }
-          ],
-          "chars": [
-            "Changli",
-            "Jinhsi",
-            "Lumi",
-            "Phoebe"
-          ]
-        }
-      ]
-    },
-    {
-      "bossName": "Sigillum / Sigillum - Early Access",
-      "drops": [
-        {
-          "id": "41400294",
-          "name": "Gold in Memory",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
-          "source": "Sigillum / Sigillum - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Sigillum",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34025_UI.webp"
-            }
-          ],
-          "chars": [
-            "Aemeath",
-            "Lucy",
-            "Luuk Herssen",
-            "Sigrika"
-          ]
-        }
-      ]
-    },
-    {
-      "bossName": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
-      "drops": [
-        {
-          "id": "41400254",
-          "name": "Curse of the Abyss",
-          "qty": 26,
-          "rar": 4,
-          "kind": "weekly",
-          "icon": "../../Database/Nanoka/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
-          "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
-          "sourceDetails": [
-            {
-              "name": "Threnodian: Leviathan",
-              "icon": "../../Database/Nanoka/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34020_UI.webp"
-            }
-          ],
-          "chars": [
-            "Buling",
-            "Galbrena",
-            "Qiuyuan"
-          ]
-        }
-      ]
-    }
-  ]
+  "bossGroups": [],
+  "weeklyBosses": []
 };
   window.dispatchEvent(new CustomEvent('nyx:cm-game-loaded', { detail:{ key:"wuwa" } }));
 })();

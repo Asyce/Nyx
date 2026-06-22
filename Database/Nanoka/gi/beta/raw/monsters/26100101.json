@@ -1,0 +1,100 @@
+{
+  "name": "Consecrated Horned Crocodile",
+  "desc": "A reptile that has mutated after feeding from greater lifeforms.\\nMajestic beasts are sometimes revered by human beings as the embodiment of a greater power, their visages turned to analogy to feed in reference to a person, feeding their ego. However, the majority of beasts that have absorbed the \"greater power\" were slain by the overwhelming nature of the power itself. Only a few among their number evolved new forms.",
+  "icon": "UI_MonsterIcon_Gator_Sacred_Water",
+  "codex": "BEAST",
+  "title": "Vast Current: Consecrated Horned Crocodile",
+  "special_names": [
+    "The Surging One, Devourer of the Mighty"
+  ],
+  "reward": [],
+  "child": {
+    "26100101": {
+      "monster_name": "Gator_Sacred_Water_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010022,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010022,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010022,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "26100102": {
+      "monster_name": "Gator_Sacred_Water_01_DaggerWave",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 95.088,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

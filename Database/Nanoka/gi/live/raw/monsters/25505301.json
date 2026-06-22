@@ -1,0 +1,101 @@
+{
+  "name": "Ferocious Warrior: Grappler",
+  "desc": "A warrior from the plains and a tribal guardian who watches over the golden fields.\\nThe art of unarmed combat is regarded with great honor among the Collective of Plenty. Warriors who embark on the long path of training for such an art must possess the strength to hurl a spear a thousand yards.",
+  "icon": "UI_MonsterIcon_Human_Fat_Sword_Bisonsaurus",
+  "codex": "HUMAN",
+  "title": "Ferocious Warrior: Grappler",
+  "special_names": [
+    "Tribe's Loyal Guard"
+  ],
+  "reward": [],
+  "child": {
+    "25505301": {
+      "monster_name": "Human_Male_Fat_Sword_Bisonsaurus_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "25505302": {
+      "monster_name": "Human_Male_Fat_Sword_Bisonsaurus_02",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010010,
+          "hp_percent": 60
+        },
+        {},
+        {}
+      ],
+      "kill_drop_id": 22010010,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 21.7344,
+        "atk": 25.12,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

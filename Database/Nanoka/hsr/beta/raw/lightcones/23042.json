@@ -1,0 +1,244 @@
+{
+  "name": "Long May Rainbows Adorn the Sky",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Memory",
+  "refinements": {
+    "name": "Tolerant",
+    "desc": "Increases the wearer's SPD by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses Basic ATK, Skill, or Ultimate, consumes all allies' HP equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of their current HP, and after the next attack of the wearer's memosprite, enables it to additionally deal 1 instance of Additional DMG equal to <color=#f29e38ff><unbreak>#6[f1]%</unbreak></color> of the total consumed HP to the attacked target, with the damage type based on the memosprite's type. Then, the total consumed HP is reset. When the wearer's memosprite uses Memosprite Skill, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>, lasting for <unbreak>#5[i]</unbreak> turn(s). Effects of the same type cannot stack.",
+    "level": {
+      "1": {
+        "param_list": [
+          0.18,
+          0.01,
+          0,
+          0.18,
+          2,
+          2.5
+        ]
+      },
+      "2": {
+        "param_list": [
+          0.21,
+          0.0125,
+          0,
+          0.225,
+          2,
+          3.125
+        ]
+      },
+      "3": {
+        "param_list": [
+          0.24,
+          0.015,
+          0,
+          0.27,
+          2,
+          3.75
+        ]
+      },
+      "4": {
+        "param_list": [
+          0.27,
+          0.0175,
+          0,
+          0.315,
+          2,
+          4.375
+        ]
+      },
+      "5": {
+        "param_list": [
+          0.3,
+          0.02,
+          0,
+          0.36,
+          2,
+          5
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23042,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115001,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 52.8,
+      "base_hp_add": 7.92,
+      "base_attack": 21.6,
+      "base_attack_add": 3.24,
+      "base_defence": 24,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23042,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110251,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 115001,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 116.16,
+      "base_hp_add": 7.92,
+      "base_attack": 47.52,
+      "base_attack_add": 3.24,
+      "base_defence": 52.8,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23042,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110252,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115002,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 200.64,
+      "base_hp_add": 7.92,
+      "base_attack": 82.08,
+      "base_attack_add": 3.24,
+      "base_defence": 91.2,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23042,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110252,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 115002,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 285.12,
+      "base_hp_add": 7.92,
+      "base_attack": 116.64,
+      "base_attack_add": 3.24,
+      "base_defence": 129.6,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23042,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110253,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 115003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 369.6,
+      "base_hp_add": 7.92,
+      "base_attack": 151.2,
+      "base_attack_add": 3.24,
+      "base_defence": 168,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23042,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110253,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 115003,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 454.08,
+      "base_hp_add": 7.92,
+      "base_attack": 185.76,
+      "base_attack_add": 3.24,
+      "base_defence": 206.4,
+      "base_defence_add": 3.6
+    },
+    {
+      "equipment_id": 23042,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 538.56,
+      "base_hp_add": 7.92,
+      "base_attack": 220.32,
+      "base_attack_add": 3.24,
+      "base_defence": 244.8,
+      "base_defence_add": 3.6
+    }
+  ]
+}

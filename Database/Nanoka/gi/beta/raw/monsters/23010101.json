@@ -1,0 +1,152 @@
+{
+  "name": "Fatui Skirmisher - Cryogunner Legionnaire",
+  "desc": "A soldier encased within a Fatui war machine.\\nArmed with equipment that can control the elements to a certain extent, their guns are capable of firing jets of frost.\\nThough this may confer elemental power beyond the ken of ordinary humans, that power may yet come at a price...",
+  "icon": "UI_MonsterIcon_Skirmisher_Male_Fat_SprayGun_Ice_01",
+  "codex": "FATUI",
+  "title": "Fatui Skirmisher - Cryogunner Legionnaire",
+  "special_names": [
+    "Decord",
+    "Russell",
+    "Artyom",
+    "Igor",
+    "Feodor",
+    "Vladimir",
+    "Nikolai",
+    "Maksim",
+    "Nikolayev",
+    "Iosef",
+    "Shevchenko",
+    "Konstantin",
+    "Sasha",
+    "Aleksandr",
+    "Grigor",
+    "Sergei",
+    "Mikhail",
+    "Pavlovich",
+    "Ismailovich",
+    "Andrei",
+    "Ivanov",
+    "Kirilyenko",
+    "Yevgeni",
+    "Danilovich",
+    "Vasilyev",
+    "Leo",
+    "Borya",
+    "Semyon",
+    "Pavlo",
+    "Pyotrov",
+    "Aleksey",
+    "Liev"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112034,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112034"
+    },
+    {
+      "id": 112033,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112033"
+    },
+    {
+      "id": 112032,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112032"
+    }
+  ],
+  "child": {
+    "23010101": {
+      "monster_name": "Skirmisher_Male_Fat_SprayGun_Ice_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010026,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010026,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010026,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 37.68,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23010102": {
+      "monster_name": "Skirmisher_Male_Fat_SprayGun_Ice_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 39.193504,
+        "atk": 55.58131,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

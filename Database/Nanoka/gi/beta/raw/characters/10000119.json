@@ -1,0 +1,4373 @@
+{
+  "name": "Lauma",
+  "desc": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions.",
+  "chara_info": {
+    "release_date": "2025-09-09 00:00:00",
+    "birth": [
+      3,
+      1
+    ],
+    "vision": "Dendro",
+    "vision_special_type_before": "Moon Wheel",
+    "vision_special_type_after": "",
+    "constellation": "Cerva Nivea",
+    "region": "ASSOC_TYPE_NODKRAI",
+    "title": "Evermoon's Sacrament Song",
+    "native": "Frostmoon Scions",
+    "detail": "A Maiden blessed by moonlight and the grove alike, hope born to the Frostmoon Scions.",
+    "va": {
+      "chinese": "张安琪",
+      "japanese": "桑島法子",
+      "english": "Alexandra Guelff",
+      "korean": "Jang Chae-yeon"
+    },
+    "stories": [
+      {
+        "title": "Character Details",
+        "text": "When night falls, the Frostmoon Scions dwell within a \"tower.\"\\nAt the top of this tower is a seemingly unchanging full moon, and at its base is the soil of Hiisi Island. Its walls are made of white moonlight, allowing any to pass through.\\nOh, how gentle the Moon Goddess is. Even if not all should believe in her, even if not all should know of her, she spreads her grace without reserve.\\nThus spoke the old priestess of the Frostmoon Scions. As those words hung in the air, the sounds of lowered voices praying could be heard, but Lauma's was not among them.\\nShe gazed at the full moon in silence, her eyes fixed upon it alone, like the most devout of believers.\\nShe was undoubtedly in this tower as well, having grown up and lived here since birth in this spire built by the moon, its light, and the adherents of its deity.\\nShe continued gazing at the full moon in the sky, thinking that perhaps there was truth in the saying, \"humans could never build a tower to reach the heavens.\"",
+        "unlock": []
+      },
+      {
+        "title": "Character Story 1",
+        "text": "\"She descended when late spring's first full moon hung in the sky, trees and flowers grew in response to her first cry.\"\\n\"Laugh now, dance now, as the newborn Moonchanter weeps—\"\\n\"For her horns and blood are bathed in moonlight, for beneath the Moon Goddess's gaze shall she sleep.\"\\n...Lauma closed the Frostmoon Scions' journal.\\nShe always found herself unconsciously turning to the page that recorded her birth, trying to feel the joy of the faithful through the yellowed notes.\\nJust as geniuses often emerge from among common stock, Lauma, an extraordinary being, was born to an ordinary Frostmoon Scion couple. According to records, \"her eyes were like the moontide, her antlered crown grew under the moonlight, and her silver blood flowed like the moon's reflection in water\" — a \"miracle bestowed upon the faithful by the Moon Goddess.\"\\nAt the fringe of the world, among the \"Frostmoon Scions,\" who had seemingly become forgotten by time itself, Lauma became a beacon of hope, timely yet untimely. The overjoyed followers took her as proof that their Moon Goddess had not abandoned them, and she became a living symbol.\\nFew are chosen at birth to succeed the title of Moonchanter, and as a Frostmoon Scion herself, Lauma should have rejoiced, regarding this responsibility as a supreme honor.\\nJust as it was written in the next passage of the journal, yes, the very words Lauma had committed to memory:\\n\"...Sweetly shall she sleep beneath the Moon Goddess's gaze.\"\\n\"And when the moon slumbers and the sun rises, she shall speak for the supreme Frost Moon Goddess.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 2"
+        ]
+      },
+      {
+        "title": "Character Story 2",
+        "text": "If one was born early enough, lived long enough, and one's forbidden memories weren't erased by more transcendent beings, they would surely remember (and such beings do exist in Teyvat) that before the war of funerary flame, the Three Moon Goddesses, who served Nibelung, once coexisted harmoniously with the principles of Celestia for a time.\\nOf course, if one were to inquire about this matter with Celestia, the high heavens might respond with ambiguity. The Three Moons were once satellites that guarded Teyvat, and the Moon Sisters were executors of the planet's will. Celestia's principles were once quite \"tolerant,\" not necessarily requiring the exclusion of those divergent from itself.\\nFor the Three Moon Goddesses, their sole duty was to maintain the planet's existence and operation. And so the moonlight continued to illuminate the lands of Teyvat. Alas, even they, who kept to themselves, could not remain uninvolved. Inevitably, conflicts between those in power would affect some of those who were subordinate to them.\\nIf any survivors of bygone golden Hyperborea yet endured to the present day, they would surely have many tales to tell, but alas, the Frostmoon Scions do not understand their ancestors' grievances. They can now only pray to the bright moon in vain.\\nIn this, Lauma was relatively fortunate, even amongst blind believers. She did not know anything of the above, but she could nonetheless sense keenly that the full moon in the sky was bright yet lifeless. Rather, the tides that truly moved her heart and caused her antler-crown to grow were somewhere farther away, beyond her reach.\\nThis feeling had troubled her for a long time, and like how one might feel if made to pray to an apple painted on canvas, beseeching it to satisfy their hunger, she was ever restless.\\nFortunately, this question was now answered at last. Although the sky had suddenly \"become\" fake, she had confirmed the authenticity of her senses.\\nShe had never thought ignorance to be a good thing, even if the truth was more unsettling. Life could never be lived entirely as one wished — indeed, life itself was born of contradictions. But at least it need not be tainted by lies and concealment.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 3",
+          "Complete \"Elegy of Dust and Lamplight\""
+        ]
+      },
+      {
+        "title": "Character Story 3",
+        "text": "Lauma once set some \"precepts\" for herself. These might seem irrational to others, so for the longest time, she never mentioned them to anyone.\\nShe believed that she must never lie. Silence, too, was an answer in the face of uncertainty, but one must never fabricate facts to fashion peace papered over. This was especially so for a Moonchanter, one whose every word the believers all too easily took for truth. Thus, lying was an unforgivable sin.\\nBut was praying to a false moon in the sky a lie in itself? She could not be sure of that, and this again left her feeling restless.\\nShe resolved that she must never give herself to wrath. The Maiden of the Grove was to be gentle and loving, just as the Frost Moon's goddess was. The lake's light beneath the moon was free of ripples — had the goddess's envoy any right to be angry? The tides of kuuvahki often disturbed her peace of mind, yes, but surely a leader worth their salt must learn to control their emotions.\\nYet some emotions did not arise from the tidal motions. She was not given to shouting or crying out in rage, but was giving her foes a thrashing anger? She rubbed her fingers together somewhat nervously. With whom could she consult on this matter?\\nShe told herself that she must not change. Over countless years of evolution, the Frostmoon Scions had drifted far from their golden era. Any fluctuation now could snap this precariously perched branch. This was especially so when the faithful viewed her, one born \"special,\" as their hope. She had to maintain an image befitting a Moonchanter.\\nYet she had already revealed the truth about the moon and the sky to everyone. This time, she needed no consultation to know that change had already begun.\\nAt this point, all three precepts now seemed meaningless. Thus, Lauma finally let her guard down, and one night, she confided these unspeakable matters to her animal friends.\\nAs she expected, the little animals warmly welcomed her, and as usual, they all chattered away about life — specifically, her life.\\nTrue friends they proved indeed, first affirming her honesty and reliability, then praising her gentle and caring nature, and finally declaring that Lauma had always been this way, and had indeed remained unchanged. (Hearing this made her quite happy, but she then grew increasingly embarrassed... and came to wish she had two extra legs to run away immediately.)\\nFinally, a little cat who would often play in Nasha Town concluded: \"If I, Ashru, had to point out any problems... I've said it before, and I'll say it again. Your issue is that you're too stubborn!\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Elegy of Dust and Lamplight\""
+        ]
+      },
+      {
+        "title": "Character Story 4",
+        "text": "Lauma once presided over an engagement ceremony.\\nThis ceremony boasted three attendees — a young adventurer who sometimes helped out at The Flagship tavern, a young woman of the Frostmoon Scions who was planning to leave Nod-Krai with him, and the Moonchanter, who had mysteriously appeared in their tavern room.\\nThere the three of them stood, staring at each other. For a time, no one spoke. The man pulled a handkerchief from his pocket with trembling hands, handing it to the nervous young woman to wipe the sweat from her brow.\\nLauma turned out to be the most composed one in this circumstance.\\nShe clearly understood what was happening, but a halting explanation still came spilling from the young woman's lips: \"...I—I didn't mean to leave without saying goodbye. I left a note under my pillow for... W—Well, not that I have family here anyway, so it might never have been seen, but...\"\\nThe young man also hurried to add on assurances: \"I'll take good care of her, and I'll bring her back often to visit her friends! I'm not some irresponsible lout — look, I've even proposed to her...\"\\nLauma looked at their clasped hands and the matching rings on their fingers with furrowed brows. The young woman started sweating again, seemingly ready to grab her fiancé and make a run for it, but Lauma stood at the doorway, her impressive height (horns included) barring the doorway as well as any steel-wrought portcullis.\\nLauma thought for a while before finally speaking, just as the two of them had begun considering leaping out through the window: \"Firstly, I know you two have been seeing each other for some time now. Secondly, I never said you could not leave. Thirdly, one must have a ceremony to go with an engagement. So please, wait here. I will get things ready.\"\\n\"...Huh?\"\\nWithin half an hour, she had gathered everything needed for just such an engagement ritual (including somehow obtaining Nocturnal Blossoms that should only bloom at three in the morning), and in the cramped guest room (with half-packed luggage still scattered all about), conducted a complete engagement ceremony that fully adhered to the Frostmoon Scions' customs (with Lauma playing all the relevant roles — master of ceremonies, bride's family member, and ecclesiast).\\nWhen all was said and done, the young woman heaved a sigh of relief. \"So you were concerned about the ritual, Lady Lauma... I must say, you're quite, ah, stubborn in the most... unexpected ways...\"\\n\"Am I being stubborn?\" Lauma tilted her head, somewhat confused. \"This is something that must be done.\"\\n\"Ah, yes. And one more thing. Sir, please leave your name, family name, middle name, as well as your fixed address. I will need to send you our sacramental victuals.\"",
+        "unlock": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "Character Story 5",
+        "text": "Lauma once presided over a funeral.\\nThe deceased was quite the long-lived elder, having spent one hundred and two years in this harsh, cold land. Smiling with wrinkles gathered at the corners of her eyes, seemingly never changing — thus had Lauma always remembered her.\\nIn the days following her accession to Moonchanter, Lauma had learned much knowledge from this elder. On the final night before the old dame's departure, she had quietly kept vigil at the woman's bedside.\\nAccording to the teachings of the Frostmoon Scions, death is not the end, as life is in constant \"flux.\" Friends and family simply return to nature when the time is right, and they shall surely reunite in the future.\\nTo \"fall asleep\" in peace under the pure moonlight was considered the highest blessing the Moon Goddess could bestow. It should have been just such a night of serenity, the moonlight shining overhead as it had for years unnumbered, the birds and beasts holding silent reverence.\\nUntil the elderly matron softly said: \"Lady Moonchanter... the Moon Goddess doesn't really exist, does she?\"\\nThis was no question, in truth. From the elder's steady tone, she seemed to have already concluded this to be fact. For one hundred and two years, the Moon Goddess had never once answered her prayers.\\nMany thoughts crossed Lauma's mind at once. She thought of the giant statue on the Light-Bathed Platform. She thought of that young woman who looked exactly like that statue... She wanted to say: No, ma'am, the Moon Goddess truly exists, just not in the way everyone had imagined.\\nThe Moon Goddess appears to just be a \"person\" like you, and she has spent these one hundred and two years living through lonely, cold nights, just as you have.\\n\"It's alright. You need not answer.\" As Lauma hesitated, the elder gently shook her head. \"Whether the Moon Goddess is unwilling to appear or simply doesn't exist, the passage of time remains unaffected.\"\\n\"We Frostmoon Scions can live just fine on our own, can't we?\" The elder held Lauma's hand ever so gently, as though she was the one who needed comfort, \"So unfurrow your brow and smile, Lady Moonchanter. You have done very well.\"\\n\"There's no need to grieve over anyone's absence... 'Death may bring forth anger, but anger too is in vain.'\"\\nLauma could not help but smile, even as she held the old woman's hand in turn.\\nSo she waited, waiting for the painless and peaceful slumber to carry the elder back to the warm sea of life, where at its center, three full moons must surely be reflected.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6",
+          "Complete \"Elegy of Dust and Lamplight\""
+        ]
+      },
+      {
+        "title": "Paper Star",
+        "text": "Lauma learned how to fold paper stars from the young children of the Frostmoon Scions, who had learned it from outside Hiisi Island in turn.\\nThe children were particularly enthusiastic about teaching something to the powerful Moonchanter. They took the initiative to cut out colorful strips of paper and even brought out some large glass jars.\\n\"The lady in town told us not to get greedy and make the stars too big, or they'll collapse inward super easy, 'cuz there's nothing in the middle,\" a little girl said with a grin. \"Especially that lady with the metal arm. She flattens those stars without even trying!\"\\nLauma listened with exceptional attentiveness, working both quickly and well. She placed her own folded stars together with the children's in the same jar, and suddenly that dull glass container came alive with activity.\\nGiven her current status and age, it might seem childish for her to be absorbed with such small arts and crafts. But then again, none had called her too mature when she read voluminously as a child, either.\\nAnd so, she huddled peacefully with the children in the corner of the room, folding three whole jars' worth of paper stars.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Moon Wheel",
+        "text": "Lauma was very thankful for the existence of Moon Wheels and was delighted to have one, but in truth, it troubled her quite a bit that she couldn't remember how she had obtained hers.\\nGrandma Sarakka said that her Moon Wheel had fallen out of her swaddling clothes. Although her parents' memories were a bit hazy on the matter, being overwhelmed by the arrival of their newborn at the time, they confirmed this account.\\nIf she were to tell others about her troubles, they would surely be confused. Wasn't having a Moon Wheel since birth a good thing? What was there to worry about, anyway?\\nIt seemed that besides herself, no one found anything wrong with one appearing next to a baby. \"A miracle happening to a Moonchanter... Isn't that just normal?\"\\nLauma found herself at a loss for words. How natural and human it was to want to know the origins of something, yet despite searching through the entire library's records, she could not find a satisfactory answer.\\nShe never let go of this question, so much so that when she later met the Moon Maiden, she couldn't help but ask about this.\\nKuutar's response was exceedingly simple: \"Oh?\"\\n...Therefore, the closest explanation must still come from Hyperborea. The history of the golden realm was long indeed, and could even be traced back to the era when three moons rose in the skies. They learned to use the lunar tides to power their magics, but were in turn affected by those same ebbs and flows, and some of them thus had horned crowns akin to deer antlers grow from their heads.\\nHowever, had Moon Wheels even existed in the world back then?\\nLauma frowned in contemplation, and indeed must have accidentally started talking to herself, prompting a passing child to ask loudly: \"Lady Lauma, did your horns grow so long because you have a Moon Wheel?\"\\nHer frown only deepened: \"Well... I suppose... I'm sorry, I don't know.\"\\nDisappointing children was something she wished never to do if she could help it, but surprisingly, the little one did not seem discouraged by not getting an answer to his question.\\n\"Oh!\" He said, as if sudden realization had dawned. \"Could you have gotten the Moon Wheel because you have the longest horns?\"\\nOh, how Lauma wanted to accept this answer from the bottom of her heart at that moment. How clever it was, this cycle of cause and effect that shuttled from front to back, then back to front, which seemed to explain (or rather, gloss over) so many questions.\\nThen she immediately stopped herself from falling into the trap of lies.\\nPerhaps this, then, was the purpose of the Moon Wheel — a symbol, to her, of vigilance, restraint, and responsibility.\\nSo she held that puzzling Moon Wheel in her palm, silently reciting the three precepts in her heart once more.",
+        "unlock": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "title": "Hello",
+        "text": "Open your eyes. My name is Lauma, and here in the stillness of these woods, the light of the frost moon shines down generously on all. The gaze of the heavens will fall on you wherever you go. Now, close your eyes... you are no longer lost.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Moonlight",
+        "text": "Even when the night is gone, and even when the sky is hidden from view, still the moon shines its light upon you.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Animals",
+        "text": "If ever you find that the animals in Nod-Krai behave in ways you do not understand, just ask me, and I will explain.",
+        "unlocked": []
+      },
+      {
+        "title": "Chat: Journey",
+        "text": "Have you decided where you will go from here? If not, why not find a patch of soft grass and rest awhile?",
+        "unlocked": []
+      },
+      {
+        "title": "When It Rains",
+        "text": "Ah, the season of verdure draws near once again...",
+        "unlocked": []
+      },
+      {
+        "title": "When Thunder Strikes",
+        "text": "Gone in a flash... A light harder to grasp even than that of the moon.",
+        "unlocked": []
+      },
+      {
+        "title": "When It Snows",
+        "text": "I heard that you're not supposed to stare at bright-white surfaces for too long... is that really true? It's so beautiful, I can't look away...",
+        "unlocked": []
+      },
+      {
+        "title": "In the Desert",
+        "text": "When Nefer told me about this place, I could hardly imagine it... But here I am, seeing it with my own two eyes.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Good morning. Come night or day, may the blessings of the Moon Goddess shine down upon you.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Morning",
+        "text": "Good morning. Come night or day, may the moonlight connect us.",
+        "unlocked": [
+          "Complete \"Elegy of Dust and Lamplight\""
+        ]
+      },
+      {
+        "title": "Good Afternoon",
+        "text": "...Oh, I must have drifted off. Sorry. If you need anything, please ask.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Evening",
+        "text": "The moonlight is so calm tonight. Join me for a walk in the woods.",
+        "unlocked": []
+      },
+      {
+        "title": "Good Night",
+        "text": "The stars above have bidden each other good night. Now, it falls to us to do the same.",
+        "unlocked": []
+      },
+      {
+        "title": "About Lauma: Responsibility",
+        "text": "A doctrine without laws is but a book of tricks, and a leader without conscience is a false god. Wherever communities of people gather, rules are needed. Even for the Frostmoon Scions, who share a common faith, rules are indispensable to guide them.",
+        "unlocked": []
+      },
+      {
+        "title": "About Lauma: Soothing Troubled Minds",
+        "text": "As the Moonchanter, I'm supposed to listen while my flock shares their woes, then soothe their troubled minds. But I seem to spend most of my time listening to the chatter of the animals instead... hehe...",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Us: Streams",
+        "text": "Perhaps fate ordained that our paths would cross, just as it ensures that every stream in the forest finds its way to the sea.",
+        "unlocked": []
+      },
+      {
+        "title": "About Us: Trees",
+        "text": "Trees send roots down deep into the earth, towards the unfathomable Abyss, while their branches climb up towards the stars, far beyond the sky. May our future, too, provide endless room to grow and to flourish.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "About the Moon Wheel",
+        "text": "This is a sign of the gods' mercy, which is, allegedly, a measure of human aspiration.\\nWhy \"allegedly\"? Well... because there's no way to verify it.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "Something to Share",
+        "text": "Place a dish beneath the moon and fill it with water, then tell it all your joys and sorrows. If a reflection of the moon appears on the water's surface, you have the moonlight's blessing.",
+        "unlocked": []
+      },
+      {
+        "title": "Interesting Things",
+        "text": "You want to know what the animals think of you? Haha... that tale is one that would take many moons to tell.",
+        "unlocked": []
+      },
+      {
+        "title": "About Ineffa",
+        "text": "It's not unusual to come across prosthetically augmented people in Nod-Krai, but a wholly mechanical person from the inside out is quite a different story... And yet, she has far more humanity than many of the errant souls out there. She's gentle, kind, and full of curiosity. You could say she's as human as can be.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Aino",
+        "text": "She is a very precocious child, but fate has not given her an easy ride. Her inventions have helped many people — Nod-Krai should feel honored to count her as one of their own. If she ever wished to come and live among the Frostmoon Scions, I would make sure that all her nutritional needs are met, starting with plenty of fresh fruit, vegetables, and spring water.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Flins",
+        "text": "He comes across as very polite and courteous, but for some reason the animals seem to fear him... I will keep my guard up around him — but since I barely know him and have no evidence of wrongdoing, I will also reserve judgment. Whenever he passes by the Frostmoon Enclave, I will share some of the daily harvest with him.\\n...What? His name's too long, but otherwise he's fine..? Uh... Are you sure?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Elegy of Dust and Lamplight\""
+        ]
+      },
+      {
+        "title": "About Nefer",
+        "text": "Clearly, we are different people with different ways of doing things, but I have never taken that to mean that we cannot get along.\\nNo matter what, the light of the moon will always fall favorably upon her.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Elegy of Dust and Lamplight\""
+        ]
+      },
+      {
+        "title": "About Jahoda",
+        "text": "I didn't know much about her before we partnered up to infiltrate the Experimental Design Bureau — only that she worked for the Curatorium of Secrets as Nefer's trusted assistant. It can't be easy, being caught between Nefer on the one hand and all manner of clients on the other. I've always wished I could show her some proper Frostmoon Scions hospitality one day... Heh, I'm also a little curious to know what Nefer has said to her about me.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Elegy of Dust and Lamplight\""
+        ]
+      },
+      {
+        "title": "About Varka",
+        "text": "As cosmopolitan as Nod-Krai may be, it's rare to see an outsider integrate as readily as he has. There is a natural warmth to the way he treats people, which I highly admire. I remember the first time we met, he was full of praise for the Frostmoon Scions' delicious food... Oddly enough, I don't recall ever having shared any food with him, and yet I still believe he was being sincere.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "About Kuutar",
+        "text": "No one teaches a newborn god how to live in harmony with their followers. She must have had a very difficult past...\\nIn the hopes of achieving some sort of reconciliation, I made a request of her that must have seemed a little rude. She claims that she prefers living alone, but I still dream of a day that Kuutar and the Frostmoon Scions, the moon and her believers, can come together and share a toast.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4",
+          "Complete \"Elegy of Dust and Lamplight\""
+        ]
+      },
+      {
+        "title": "More About Lauma: I",
+        "text": "Look at the moon. It is always there, ever still and ever silent.",
+        "unlocked": []
+      },
+      {
+        "title": "More About Lauma: II",
+        "text": "In many places, a waning moon is seen as an omen of ill fortune.\\nPerhaps people forget that the moons, too, are the victims of misfortune... Their destruction was not a fate that they wished upon themselves.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 3"
+        ]
+      },
+      {
+        "title": "More About Lauma: III",
+        "text": "Sometimes, it feels like people expect more \"godliness\" from me than the god I represent. Believers seem to have infinite tolerance for unruly or capricious behavior by their god, but not by that same god's emissaries.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 4"
+        ]
+      },
+      {
+        "title": "More About Lauma: IV",
+        "text": "Fruit start to give off an alcoholic smell when they've been left out for too long. I don't drink, but I always find that scent relaxes me... Probably a sign that I shouldn't take up drinking, don't you think?",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 5"
+        ]
+      },
+      {
+        "title": "More About Lauma: V",
+        "text": "Among the Frostmoon Scions, you'll often see kids running around holding a white sheet above their heads. The adults tell them that it protects them from bad luck, since being draped in white cloth looks a lot like being covered in moonlight. Of course, they get to a certain age and stop doing that — instead, they start praying to the moon at nightfall.\\nMe? Of course, it's a rite of passage. We were all children once.",
+        "unlocked": [
+          "Unlocks at Friendship Lv. 6"
+        ]
+      },
+      {
+        "title": "Lauma's Hobbies",
+        "text": "I enjoy spending time in solitude in the darkness of night. The birds and beasts quiet down, and the only sound I can hear is the wind blowing gently through the trees... Everything is so peaceful.",
+        "unlocked": []
+      },
+      {
+        "title": "Lauma's Troubles",
+        "text": "My head... it's so heavy to carry around.",
+        "unlocked": []
+      },
+      {
+        "title": "Favorite Food",
+        "text": "Simple food, with minimal seasoning. It has nothing to do with my beliefs or dietary restrictions, I just find that lighter food is what agrees with me.",
+        "unlocked": []
+      },
+      {
+        "title": "Least Favorite Food",
+        "text": "Anything too greasy, or too dry... It's just not for me.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: I",
+        "text": "Such fresh ingredients... I can't imagine the lengths you went to. I will gladly share it with my flock... What? All for me...?",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: II",
+        "text": "Thank you for your kind gift. Let us both share it.",
+        "unlocked": []
+      },
+      {
+        "title": "Receiving a Gift: III",
+        "text": "There must surely be those in greater need than I of sustenance. I will watch out for them.",
+        "unlocked": []
+      },
+      {
+        "title": "Birthday",
+        "text": "To you, our honored guest, cherished by the moonlight and our tranquil forest, I give this blessed dagger. For a dagger does not have to be an object of violence — indeed, they are often used as symbolic items in prayer ceremonies.\\nThat said, you're of course free to use it for whatever purpose you wish.",
+        "unlocked": []
+      },
+      {
+        "title": "Feelings About Ascension: Intro",
+        "text": "I seek not to tread the expedient path...",
+        "unlocked": [
+          "Unlocks at Ascension Phase 1"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Building Up",
+        "text": "Nor do I yearn to wield great power...",
+        "unlocked": [
+          "Unlocks at Ascension Phase 2"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Climax",
+        "text": "But if our goal in all of this is to find the truth...",
+        "unlocked": [
+          "Unlocks at Ascension Phase 4"
+        ]
+      },
+      {
+        "title": "Feelings About Ascension: Conclusion",
+        "text": "I shall offer my blood and tears as a truth seeker.",
+        "unlocked": [
+          "Unlocks at Ascension Phase 6"
+        ]
+      },
+      {
+        "title": "Elemental Skill: I",
+        "text": "Forest, protect us.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: II",
+        "text": "You poor, lost lamb...",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: III",
+        "text": "Leave this place.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: IV",
+        "text": "Lush as the moonlight.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: V",
+        "text": "Branch into song.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Skill: VI",
+        "text": "Receive my blessing.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: I",
+        "text": "By the Frostmoon of old.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: II",
+        "text": "For the everlasting forest.",
+        "unlocked": []
+      },
+      {
+        "title": "Elemental Burst: III",
+        "text": "With one heart, we pray.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: I",
+        "text": "Take heart. You toil not in vain.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: II",
+        "text": "The world wishes you well.",
+        "unlocked": []
+      },
+      {
+        "title": "Opening Treasure Chest: III",
+        "text": "Perhaps this treasure has been waiting for you all along.",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: I",
+        "text": "*pant*",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: II",
+        "text": "I am being tested...",
+        "unlocked": []
+      },
+      {
+        "title": "Low HP: III",
+        "text": "Have I brought this on myself?",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: I",
+        "text": "Seek refuge in the shade of the forest.",
+        "unlocked": []
+      },
+      {
+        "title": "Ally at Low HP: II",
+        "text": "Return to the Frostmoon's embrace.",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: I",
+        "text": "O forest, take my broken crown...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: II",
+        "text": "The ebb and flow... is over...",
+        "unlocked": []
+      },
+      {
+        "title": "Fallen: III",
+        "text": "A moonless night... approaches...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: I",
+        "text": "Stay your hand...",
+        "unlocked": []
+      },
+      {
+        "title": "Heavy Hit Taken: II",
+        "text": "...A grave transgression.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: I",
+        "text": "Follow me, and bask in the soft light of the moon.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: II",
+        "text": "Even when darkness falls, the faithful shall not stray from the righteous path.",
+        "unlocked": []
+      },
+      {
+        "title": "Joining Party: III",
+        "text": "Do not be afraid, for I am with you.",
+        "unlocked": []
+      }
+    ],
+    "special_food": {
+      "id": 108892,
+      "recipe": 3602,
+      "name": "Whisper in the Woods",
+      "icon": "UI_ItemIcon_108833",
+      "rank": 3
+    },
+    "namecard": {
+      "id": 210253,
+      "name": "Lauma: Branched Antlers",
+      "desc": "Namecard style.\\nIn a distant land, there are legends of those who bear antlers. Antlers are said to be the outgrowth of wisdom too vast for the mind to contain, branching upward like the limbs of a tree. One can't help but wonder if Lauma's antlers were once soft and covered in velvet.",
+      "icon": "UI_NameCardPic_Lauma_P"
+    },
+    "costume": [
+      {
+        "id": 211900,
+        "name": "Verdant Moon",
+        "desc": "Lauma's outfit. As the moon's priestess, she moves gracefully between deer and human form. But no matter her shape, her devotion and compassion for all living things remain unchanged.",
+        "icon": "",
+        "quality": 0
+      }
+    ],
+    "trace_effect": []
+  },
+  "weapon": "WEAPON_CATALYST",
+  "rarity": "QUALITY_ORANGE",
+  "element": "Dendro",
+  "icon": "UI_AvatarIcon_Lauma",
+  "stamina_recovery": 25,
+  "base_hp": 829.3884,
+  "base_atk": 19.84892,
+  "base_def": 52.0521,
+  "crit_rate": 0.05,
+  "crit_dmg": 0.5,
+  "elemental_mastery": 200,
+  "level_exp": [
+    1000,
+    1325,
+    1700,
+    2150,
+    2625,
+    3150,
+    3725,
+    4350,
+    5000,
+    5700,
+    6450,
+    7225,
+    8050,
+    8925,
+    9825,
+    10750,
+    11725,
+    12725,
+    13775,
+    14875,
+    16800,
+    18000,
+    19250,
+    20550,
+    21875,
+    23250,
+    24650,
+    26100,
+    27575,
+    29100,
+    30650,
+    32250,
+    33875,
+    35550,
+    37250,
+    38975,
+    40750,
+    42575,
+    44425,
+    46300,
+    50625,
+    52700,
+    54775,
+    56900,
+    59075,
+    61275,
+    63525,
+    65800,
+    68125,
+    70475,
+    76500,
+    79050,
+    81650,
+    84275,
+    86950,
+    89650,
+    92400,
+    95175,
+    98000,
+    100875,
+    108950,
+    112050,
+    115175,
+    118325,
+    121525,
+    124775,
+    128075,
+    131400,
+    134775,
+    138175,
+    148700,
+    152375,
+    156075,
+    159825,
+    163600,
+    167425,
+    171300,
+    175225,
+    179175,
+    183175,
+    216225,
+    243025,
+    273100,
+    306800,
+    344600,
+    386950,
+    434425,
+    487625,
+    547200,
+    613950
+  ],
+  "stats_modifier": {
+    "hp": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "atk": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 9.028,
+      "92": 9.317,
+      "93": 9.606,
+      "94": 9.895,
+      "95": 10.184,
+      "96": 10.473,
+      "97": 10.762,
+      "98": 11.051,
+      "99": 11.34,
+      "100": 11.629
+    },
+    "def": {
+      "1": 1,
+      "2": 1.083,
+      "3": 1.166,
+      "4": 1.25,
+      "5": 1.333,
+      "6": 1.417,
+      "7": 1.5,
+      "8": 1.584,
+      "9": 1.668,
+      "10": 1.751,
+      "11": 1.835,
+      "12": 1.919,
+      "13": 2.003,
+      "14": 2.088,
+      "15": 2.172,
+      "16": 2.256,
+      "17": 2.341,
+      "18": 2.425,
+      "19": 2.51,
+      "20": 2.594,
+      "21": 2.679,
+      "22": 2.764,
+      "23": 2.849,
+      "24": 2.934,
+      "25": 3.019,
+      "26": 3.105,
+      "27": 3.19,
+      "28": 3.275,
+      "29": 3.361,
+      "30": 3.446,
+      "31": 3.532,
+      "32": 3.618,
+      "33": 3.704,
+      "34": 3.789,
+      "35": 3.875,
+      "36": 3.962,
+      "37": 4.048,
+      "38": 4.134,
+      "39": 4.22,
+      "40": 4.307,
+      "41": 4.393,
+      "42": 4.48,
+      "43": 4.567,
+      "44": 4.653,
+      "45": 4.74,
+      "46": 4.827,
+      "47": 4.914,
+      "48": 5.001,
+      "49": 5.089,
+      "50": 5.176,
+      "51": 5.263,
+      "52": 5.351,
+      "53": 5.438,
+      "54": 5.526,
+      "55": 5.614,
+      "56": 5.702,
+      "57": 5.79,
+      "58": 5.878,
+      "59": 5.966,
+      "60": 6.054,
+      "61": 6.142,
+      "62": 6.23,
+      "63": 6.319,
+      "64": 6.407,
+      "65": 6.496,
+      "66": 6.585,
+      "67": 6.673,
+      "68": 6.762,
+      "69": 6.851,
+      "70": 6.94,
+      "71": 7.029,
+      "72": 7.119,
+      "73": 7.208,
+      "74": 7.297,
+      "75": 7.387,
+      "76": 7.476,
+      "77": 7.566,
+      "78": 7.656,
+      "79": 7.746,
+      "80": 7.836,
+      "81": 7.926,
+      "82": 8.016,
+      "83": 8.106,
+      "84": 8.196,
+      "85": 8.286,
+      "86": 8.377,
+      "87": 8.467,
+      "88": 8.558,
+      "89": 8.649,
+      "90": 8.739,
+      "91": 8.83,
+      "92": 8.921,
+      "93": 9.012,
+      "94": 9.103,
+      "95": 9.195,
+      "96": 9.286,
+      "97": 9.377,
+      "98": 9.469,
+      "99": 9.56,
+      "100": 9.652
+    },
+    "ascension": [
+      {
+        "fight_prop_base_hp": 711.12555,
+        "fight_prop_base_defense": 44.631,
+        "fight_prop_base_attack": 17.01741,
+        "fight_prop_element_mastery": 0
+      },
+      {
+        "fight_prop_base_hp": 1216.3989,
+        "fight_prop_base_defense": 76.3425,
+        "fight_prop_base_attack": 29.108728,
+        "fight_prop_element_mastery": 28.8
+      },
+      {
+        "fight_prop_base_hp": 1890.0969,
+        "fight_prop_base_defense": 118.6245,
+        "fight_prop_base_attack": 45.230488,
+        "fight_prop_element_mastery": 57.6
+      },
+      {
+        "fight_prop_base_hp": 2395.3704,
+        "fight_prop_base_defense": 150.336,
+        "fight_prop_base_attack": 57.321804,
+        "fight_prop_element_mastery": 57.6
+      },
+      {
+        "fight_prop_base_hp": 2900.6438,
+        "fight_prop_base_defense": 182.0475,
+        "fight_prop_base_attack": 69.413124,
+        "fight_prop_element_mastery": 86.4
+      },
+      {
+        "fight_prop_base_hp": 3405.9172,
+        "fight_prop_base_defense": 213.759,
+        "fight_prop_base_attack": 81.50444,
+        "fight_prop_element_mastery": 115.2
+      }
+    ],
+    "prop_grow_curves": [
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_HP"
+      },
+      {
+        "grow_curve": "GROW_CURVE_ATTACK_S5",
+        "type": "FIGHT_PROP_BASE_ATTACK"
+      },
+      {
+        "grow_curve": "GROW_CURVE_HP_S5",
+        "type": "FIGHT_PROP_BASE_DEFENSE"
+      }
+    ],
+    "recommended_props": []
+  },
+  "skills": [
+    {
+      "id": 11191,
+      "name": "Peregrination of Linnunrata",
+      "desc": "<color=#FFD780FF>Normal Attack</color>\\nPerforms up to 3 attacks that deal <color=#99FF88FF>Dendro DMG</color>.\\n\\n<color=#FFD780FF>Charged Attack</color>\\nLauma undergoes Spirit Envoy Metamorphosis, transforming into an envoy of the tranquil forest and consuming Stamina to charge forward for up to 10s. While in this state, Lauma's interruption resistance is increased, and she can consume additional Stamina to perform up to two consecutive jumps.\\nWhen exiting the Spirit Envoy state, Spirit Envoy Metamorphosis will enter cooldown, during which time, Lauma's Charged Attack will be transformed into Spiritcall Prayer: Consumes a certain amount of Stamina to deal <color=#99FF88FF>AoE Dendro DMG</color> to opponents in front of her after a short casting time.\\n\\n<color=#FFD780FF>Plunging Attack</color>\\nCalling upon the might of Dendro, Lauma plunges towards the ground from mid-air, damaging all opponents in her path and dealing <color=#99FF88FF>AoE Dendro DMG</color> upon impact with the ground.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.337024,
+            0.318048,
+            0.444968,
+            25,
+            10,
+            10,
+            4,
+            50,
+            1.2904,
+            0.568288,
+            1.136335,
+            1.419344,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.362301,
+            0.341902,
+            0.478341,
+            25,
+            10,
+            10,
+            4,
+            50,
+            1.38718,
+            0.614544,
+            1.228828,
+            1.534872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.387578,
+            0.365755,
+            0.511713,
+            25,
+            10,
+            10,
+            4,
+            50,
+            1.48396,
+            0.6608,
+            1.32132,
+            1.6504,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.42128,
+            0.39756,
+            0.55621,
+            25,
+            10,
+            10,
+            4,
+            50,
+            1.613,
+            0.72688,
+            1.453452,
+            1.81544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.446557,
+            0.421414,
+            0.589583,
+            25,
+            10,
+            10,
+            4,
+            50,
+            1.70978,
+            0.773136,
+            1.545944,
+            1.930968,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.471834,
+            0.445267,
+            0.622955,
+            25,
+            10,
+            10,
+            4,
+            50,
+            1.80656,
+            0.826,
+            1.65165,
+            2.063,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.505536,
+            0.477072,
+            0.667452,
+            25,
+            10,
+            10,
+            4,
+            50,
+            1.9356,
+            0.898688,
+            1.796995,
+            2.244544,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.539238,
+            0.508877,
+            0.711949,
+            25,
+            10,
+            10,
+            4,
+            50,
+            2.06464,
+            0.971376,
+            1.94234,
+            2.426088,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.572941,
+            0.540682,
+            0.756446,
+            25,
+            10,
+            10,
+            4,
+            50,
+            2.19368,
+            1.044064,
+            2.087686,
+            2.607632,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.606643,
+            0.572486,
+            0.800942,
+            25,
+            10,
+            10,
+            4,
+            50,
+            2.32272,
+            1.12336,
+            2.246244,
+            2.80568,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.640346,
+            0.604291,
+            0.845439,
+            25,
+            10,
+            10,
+            4,
+            50,
+            2.45176,
+            1.202656,
+            2.404802,
+            3.003728,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.674048,
+            0.636096,
+            0.889936,
+            25,
+            10,
+            10,
+            4,
+            50,
+            2.5808,
+            1.281952,
+            2.563361,
+            3.201776,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.716176,
+            0.675852,
+            0.945557,
+            25,
+            10,
+            10,
+            4,
+            50,
+            2.7421,
+            1.361248,
+            2.721919,
+            3.399824,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.758304,
+            0.715608,
+            1.001178,
+            25,
+            10,
+            10,
+            4,
+            50,
+            2.9034,
+            1.440544,
+            2.880478,
+            3.597872,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_A_Catalyst_MD",
+          "desc": [
+            "1-Hit DMG|{param1:F1P}",
+            "2-Hit DMG|{param2:F1P}",
+            "3-Hit DMG|{param3:F1P}",
+            "Spirit Envoy Form Movement Stamina Cost|{param4:F1}/s",
+            "Spirit Envoy Form Jumping Stamina Cost|{param5:F1}",
+            "Spirit Envoy Form Max Duration|{param6:F1}s",
+            "Spirit Envoy Metamorphosis CD|{param7:F1}s",
+            "Spiritcall Prayer Stamina Cost|{param8:F1}",
+            "Spiritcall Prayer DMG|{param9:F1P}",
+            "Plunge DMG|{param10:F1P}",
+            "Low/High Plunge DMG|{param11:P}/{param12:P}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            0.800432,
+            0.755364,
+            1.056799,
+            25,
+            10,
+            10,
+            4,
+            50,
+            3.0647,
+            1.51984,
+            3.039036,
+            3.79592,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11192,
+      "name": "Runo: Dawnless Rest of Karsikko",
+      "desc": "Silently incants an ancient hymn, summoning a {LINK#N11190001}<color=#FFD780FF>Frostgrove Sanctuary</color>{/LINK} with different effects depending on whether you Tap or Hold.\\n\\n<color=#FFD780FF>Tap</color>\\nIntone a Hymn of Hunting, dealing <color=#99FF88FF>AoE Dendro DMG</color>.\\n\\n<color=#FFD780FF>Hold</color>\\nCan be unleashed when you have at least 1 {LINK#N11190008}<color=#FFD780FF>Verdant Dew</color>{/LINK}. Lauma consumes all Verdant Dew and intones a Hymn of Eternal Rest, dealing one regular instance of <color=#99FF88FF>AoE Dendro DMG</color> and another instance of <color=#99FF88FF>AoE Dendro DMG</color> that is considered Lunar-Bloom DMG. Each Verdant Dew consumed will give Lauma one stack of {LINK#N11190002}<color=#FFD780FF>Moon Song</color>{/LINK}. Each time you Hold to cast an Elemental Skill, a maximum of 3 Verdant Dew can be consumed in this way.\\n\\nAdditionally, when Lauma's Elemental Skill or attacks from Frostgrove Sanctuary hit an opponent, that opponent's <color=#99FF88FF>Dendro RES</color> and <color=#80C0FFFF>Hydro RES</color> will be decreased for 10s.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.216,
+            1.5808,
+            1.52,
+            0.96,
+            1.92,
+            15,
+            15,
+            0.025,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3072,
+            1.69936,
+            1.634,
+            1.032,
+            2.064,
+            15,
+            15,
+            0.05,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.3984,
+            1.81792,
+            1.748,
+            1.104,
+            2.208,
+            15,
+            15,
+            0.075,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.52,
+            1.976,
+            1.9,
+            1.2,
+            2.4,
+            15,
+            15,
+            0.1,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.6112,
+            2.09456,
+            2.014,
+            1.272,
+            2.544,
+            15,
+            15,
+            0.125,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.7024,
+            2.21312,
+            2.128,
+            1.344,
+            2.688,
+            15,
+            15,
+            0.15,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.824,
+            2.3712,
+            2.28,
+            1.44,
+            2.88,
+            15,
+            15,
+            0.175,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            1.9456,
+            2.52928,
+            2.432,
+            1.536,
+            3.072,
+            15,
+            15,
+            0.2,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.0672,
+            2.68736,
+            2.584,
+            1.632,
+            3.264,
+            15,
+            15,
+            0.225,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.1888,
+            2.84544,
+            2.736,
+            1.728,
+            3.456,
+            15,
+            15,
+            0.25,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.3104,
+            3.00352,
+            2.888,
+            1.824,
+            3.648,
+            15,
+            15,
+            0.28,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.432,
+            3.1616,
+            3.04,
+            1.92,
+            3.84,
+            15,
+            15,
+            0.31,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.584,
+            3.3592,
+            3.23,
+            2.04,
+            4.08,
+            15,
+            15,
+            0.34,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.736,
+            3.5568,
+            3.42,
+            2.16,
+            4.32,
+            15,
+            15,
+            0.37,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_S_Lauma_01",
+          "desc": [
+            "#{LAYOUT_MOBILE#Tap}{LAYOUT_PC#Press}{LAYOUT_PS#Press} DMG|{param1:F1P}",
+            "1-Hit Hold DMG|{param2:F1P}",
+            "2-Hit Hold DMG|{param3:F1P} Elemental Mastery Per Verdant Dew",
+            "Frostgrove Sanctuary Attack DMG|{param4:F1P} ATK+{param5:F1P} Elemental Mastery",
+            "Frostgrove Sanctuary Duration|{param6:F1}s",
+            "Moon Song Duration|{param7:F1}s",
+            "Elemental RES Decrease|{param8:F1P}",
+            "Elemental RES Decrease Duration|{param9:F1}s",
+            "CD|{param10:F1}s",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            2.888,
+            3.7544,
+            3.61,
+            2.28,
+            4.56,
+            15,
+            15,
+            0.4,
+            10,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": 11195,
+      "name": "Runo: All Hearts Become the Beating Moon",
+      "desc": "Let the wishes of all beings become as moonlight that bathes the earth. Lauma incants a sacred song of the far north, gaining 18 stacks of {LINK#N11190003}<color=#FFD780FF>Pale Hymn</color>{/LINK}.\\nAdditionally, if Lauma uses her Elemental Burst while she has {LINK#N11190002}<color=#FFD780FF>Moon Song</color>{/LINK}, or she gains Moon Song within 15s of using her Elemental Burst, she will consume all Moon Song stacks and gain 6 stacks of Pale Hymn for every Moon Song stack consumed. This effect can only be triggered once for each Elemental Burst used, including the 15 seconds following its use.\\n\\n<color=#FFD780FF>Pale Hymn</color>\\nWhen nearby party members deal Bloom, Hyperbloom, Burgeon, or Lunar-Bloom DMG, 1 stack of Pale Hymn will be consumed and the DMG dealt will be increased based on Lauma's Elemental Mastery. If this DMG hits multiple opponents at once, then multiple stacks of Pale Hymn will be consumed, depending on how many opponents are hit.\\nThe duration for each stack of Pale Hymn is counted independently.",
+      "promote": {
+        "0": {
+          "level": 1,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            2.7776,
+            2.2224,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "1": {
+          "level": 2,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            2.98592,
+            2.38908,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "2": {
+          "level": 3,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            3.19424,
+            2.55576,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "level": 4,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            3.472,
+            2.778,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "level": 5,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            3.68032,
+            2.94468,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "level": 6,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            3.88864,
+            3.11136,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "level": 7,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            4.1664,
+            3.3336,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "7": {
+          "level": 8,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            4.44416,
+            3.55584,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "8": {
+          "level": 9,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            4.72192,
+            3.77808,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "9": {
+          "level": 10,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            4.99968,
+            4.00032,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "10": {
+          "level": 11,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            5.27744,
+            4.22256,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "11": {
+          "level": 12,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            5.5552,
+            4.4448,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "12": {
+          "level": 13,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            5.9024,
+            4.7226,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "13": {
+          "level": 14,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            6.2496,
+            5.0004,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "14": {
+          "level": 15,
+          "icon": "Skill_E_Lauma_01",
+          "desc": [
+            "Pale Hymn Stacks Gained From Elemental Burst|{param1:I}",
+            "Moon Song to Pale Hymn Conversion|{param2:I} Stacks Per Moon Song",
+            "Bloom, Hyperbloom, and Burgeon DMG Increase|{param3:F1P} Elemental Mastery",
+            "Lunar-Bloom DMG Increase|{param4:F1P} Elemental Mastery",
+            "Pale Hymn Duration|{param5:F1}s",
+            "CD|{param6:F1}s",
+            "Energy Cost|{param7:I}",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "param": [
+            18,
+            6,
+            6.5968,
+            5.2782,
+            15,
+            15,
+            60,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "passives": [
+    {
+      "id": 1192101,
+      "name": "Light for the Frosty Night",
+      "desc": "For the next 20s after Lauma uses her Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color>, corresponding differing buff effects will be granted depending on the party's <color=#FFD780FF>Moonsign</color>. The buffs provided by different Moonsign levels cannot stack.\\n\\n<color=#FFD780FF>Moonsign: Nascent Gleam</color>\\nBloom, Hyperbloom, and Burgeon DMG dealt by all nearby party members can score CRIT Hits, with CRIT Rate fixed at 15%, and CRIT DMG fixed at 100%. CRIT Rate from this effect stacks with CRIT Rate from similar effects that allow these Elemental Reactions to CRIT.\\n\\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>\\nAll nearby party members' Lunar-Bloom DMG CRIT Rate +10%, CRIT DMG +20%.",
+      "icon": "UI_Talent_S_Lauma_05",
+      "unlock": 1,
+      "param_list": [
+        0.15,
+        1,
+        0.1,
+        0.2,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1192201,
+      "name": "Cleansing for the Spring",
+      "desc": "Each point of Elemental Mastery Lauma has will give her the following bonuses:\\n· DMG dealt by her Elemental Skill is increased by 0.04%. The maximum increase obtainable this way is 32%.\\n· The cooldown of her Charged Attack <color=#FFD780FF>Spirit Envoy Metamorphosis</color> is reduced by 0.02%. The maximum reduction obtainable this way is 20%.",
+      "icon": "UI_Talent_S_Lauma_06",
+      "unlock": 4,
+      "param_list": [
+        0.0004,
+        0.32,
+        0.0002,
+        0.2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1192301,
+      "name": "Moonsign Benediction: Nature's Chorus",
+      "desc": "When a Bloom reaction is triggered by a party member, it will be converted into the Lunar-Bloom reaction, with every point of Elemental Mastery that Lauma has increasing Lunar-Bloom's Base DMG by 0.0175%, up to a maximum of 14%.\\n\\nAdditionally, when Lauma is in the party, the party's <color=#FFD780FF>Moonsign</color> will increase by 1 level.",
+      "icon": "UI_Talent_S_Lauma_07",
+      "unlock": 0,
+      "param_list": [
+        0.000175,
+        0.14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1192501,
+      "name": "Prayers for the Forest",
+      "desc": "Displays the location of nearby <color=#FFD780FF>resources unique to Nod-Krai</color> on the mini-map.\\nAdditionally, Lauma appears to have a special affinity with some small animals affected by kuuvahki...",
+      "icon": "UI_Talent_S_Lauma_08",
+      "unlock": 0,
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "constellations": [
+    {
+      "id": 1191,
+      "name": "\"O Lips, Weave Me Songs and Psalms\"",
+      "desc": "After Lauma uses her Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color> or her Elemental Burst <color=#FFD780FF>{LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK}</color>, she will gain Threads of Life for 20s.\\nDuring this time, when nearby party members trigger Lunar-Bloom reactions, nearby active characters will recover HP equal to 500% of Lauma's Elemental Mastery. This effect can be triggered once every 1.9s.\\nAdditionally, the Stamina cost for Lauma's Spirit Envoy Form will be reduced by 40%, and its Max Duration will be extended by 5s.",
+      "icon": "UI_Talent_S_Lauma_01",
+      "param_list": [
+        20,
+        5,
+        1.9,
+        0.4,
+        5,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1192,
+      "name": "\"Twine Warnings and Tales From the North\"",
+      "desc": "The Elemental Burst <color=#FFD780FF>{LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK}</color> is enhanced:\\n· {LINK#N11190003}<color=#FFD780FF>Pale Hymn</color>{/LINK} effects are increased: All nearby party members' Bloom, Hyperbloom, and Burgeon DMG is further increased by 500% of Lauma's Elemental Mastery, and their Lunar-Bloom DMG is further increased by 400% of Lauma's Elemental Mastery.\\n\\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: All nearby party members' Lunar-Bloom DMG is increased by 40%.",
+      "icon": "UI_Talent_S_Lauma_02",
+      "param_list": [
+        5,
+        4,
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1193,
+      "name": "\"Seek Not to Tread the Sly Fox's Path\"",
+      "desc": "Increases the Level of <color=#FFD780FF>{LINK#S11195}Runo: All Hearts Become the Beating Moon{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Lauma_01",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1194,
+      "name": "\"Nor Yearn for the Great Bear's Might\"",
+      "desc": "When attacks from the {LINK#N11190001}<color=#FFD780FF>Frostgrove Sanctuary</color>{/LINK} summoned by her Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color> hit opponents, Lauma will regain 4 Elemental Energy. This effect can be triggered once every 5s.",
+      "icon": "UI_Talent_S_Lauma_03",
+      "param_list": [
+        4,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1195,
+      "name": "\"If Truth May Be Subject to Witness\"",
+      "desc": "Increases the Level of <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color> by 3.\\nMaximum upgrade level is 15.",
+      "icon": "UI_Talent_U_Lauma_02",
+      "param_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1196,
+      "name": "\"I Offer Blood and Tears to the Moonlight\"",
+      "desc": "When the {LINK#N11190001}<color=#FFD780FF>Frostgrove Sanctuary</color>{/LINK} attacks opponents, it will deal 1 additional instance of <color=#99FF88FF>AoE Dendro DMG</color> equal to 185% of Lauma's Elemental Mastery. This DMG is considered Lunar-Bloom DMG. This instance of DMG will not consume any {LINK#N11190003}<color=#FFD780FF>Pale Hymn</color>{/LINK} stacks and will provide Lauma with 2 stacks of Pale Hymn, as well as refreshing the duration of Pale Hymn stacks gained in this manner.\\nThis effect can occur up to 8 times during each Frostgrove Sanctuary. When using the Elemental Skill <color=#FFD780FF>{LINK#S11192}Runo: Dawnless Rest of Karsikko{/LINK}</color>, all Pale Hymn stacks gained in this manner will be removed.\\n\\nAdditionally, when Lauma uses a Normal Attack while she has Pale Hymn stacks, she will consume 1 stack to convert this to deal <color=#99FF88FF>Dendro DMG</color> equal to 150% of her Elemental Mastery. This DMG is considered Lunar-Bloom DMG.\\n\\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: All nearby party members' Lunar-Bloom DMG is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 25%.",
+      "icon": "UI_Talent_S_Lauma_04",
+      "param_list": [
+        1.85,
+        2,
+        15,
+        8,
+        1.5,
+        0.25,
+        0,
+        0
+      ]
+    }
+  ],
+  "materials": {
+    "ascensions": [
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Sliver",
+            "id": 104131,
+            "count": 1,
+            "rank": 2
+          },
+          {
+            "name": "Moonfall Silver",
+            "id": 101263,
+            "count": 3,
+            "rank": 1
+          },
+          {
+            "name": "Tattered Warrant",
+            "id": 112125,
+            "count": 3,
+            "rank": 1
+          }
+        ],
+        "cost": 20000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Fragment",
+            "id": 104132,
+            "count": 3,
+            "rank": 3
+          },
+          {
+            "name": "Lightbearing Scale-Feather",
+            "id": 113078,
+            "count": 2,
+            "rank": 4
+          },
+          {
+            "name": "Moonfall Silver",
+            "id": 101263,
+            "count": 10,
+            "rank": 1
+          },
+          {
+            "name": "Tattered Warrant",
+            "id": 112125,
+            "count": 15,
+            "rank": 1
+          }
+        ],
+        "cost": 40000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Fragment",
+            "id": 104132,
+            "count": 6,
+            "rank": 3
+          },
+          {
+            "name": "Lightbearing Scale-Feather",
+            "id": 113078,
+            "count": 4,
+            "rank": 4
+          },
+          {
+            "name": "Moonfall Silver",
+            "id": 101263,
+            "count": 20,
+            "rank": 1
+          },
+          {
+            "name": "Immaculate Warrant",
+            "id": 112126,
+            "count": 12,
+            "rank": 2
+          }
+        ],
+        "cost": 60000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Chunk",
+            "id": 104133,
+            "count": 3,
+            "rank": 4
+          },
+          {
+            "name": "Lightbearing Scale-Feather",
+            "id": 113078,
+            "count": 8,
+            "rank": 4
+          },
+          {
+            "name": "Moonfall Silver",
+            "id": 101263,
+            "count": 30,
+            "rank": 1
+          },
+          {
+            "name": "Immaculate Warrant",
+            "id": 112126,
+            "count": 18,
+            "rank": 2
+          }
+        ],
+        "cost": 80000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Chunk",
+            "id": 104133,
+            "count": 6,
+            "rank": 4
+          },
+          {
+            "name": "Lightbearing Scale-Feather",
+            "id": 113078,
+            "count": 12,
+            "rank": 4
+          },
+          {
+            "name": "Moonfall Silver",
+            "id": 101263,
+            "count": 45,
+            "rank": 1
+          },
+          {
+            "name": "Frost-Etched Warrant",
+            "id": 112127,
+            "count": 12,
+            "rank": 3
+          }
+        ],
+        "cost": 100000
+      },
+      {
+        "mats": [
+          {
+            "name": "Nagadus Emerald Gemstone",
+            "id": 104134,
+            "count": 6,
+            "rank": 5
+          },
+          {
+            "name": "Lightbearing Scale-Feather",
+            "id": 113078,
+            "count": 20,
+            "rank": 4
+          },
+          {
+            "name": "Moonfall Silver",
+            "id": 101263,
+            "count": 60,
+            "rank": 1
+          },
+          {
+            "name": "Frost-Etched Warrant",
+            "id": 112127,
+            "count": 24,
+            "rank": 3
+          }
+        ],
+        "cost": 120000
+      }
+    ],
+    "talents": [
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Moonlight",
+              "id": 104356,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Tattered Warrant",
+              "id": 112125,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Moonlight",
+              "id": 104356,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Tattered Warrant",
+              "id": 112125,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ],
+      [
+        {
+          "mats": [
+            {
+              "name": "Teachings of Moonlight",
+              "id": 104356,
+              "count": 3,
+              "rank": 2
+            },
+            {
+              "name": "Tattered Warrant",
+              "id": 112125,
+              "count": 6,
+              "rank": 1
+            }
+          ],
+          "cost": 12500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 2,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 3,
+              "rank": 2
+            }
+          ],
+          "cost": 17500
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 4,
+              "rank": 2
+            }
+          ],
+          "cost": 25000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 6,
+              "rank": 2
+            }
+          ],
+          "cost": 30000
+        },
+        {
+          "mats": [
+            {
+              "name": "Guide to Moonlight",
+              "id": 104357,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Immaculate Warrant",
+              "id": 112126,
+              "count": 9,
+              "rank": 2
+            }
+          ],
+          "cost": 37500
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 4,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 4,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 120000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 6,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 6,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 260000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 12,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 9,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 2,
+              "rank": 5
+            }
+          ],
+          "cost": 450000
+        },
+        {
+          "mats": [
+            {
+              "name": "Philosophies of Moonlight",
+              "id": 104358,
+              "count": 16,
+              "rank": 4
+            },
+            {
+              "name": "Frost-Etched Warrant",
+              "id": 112127,
+              "count": 12,
+              "rank": 3
+            },
+            {
+              "name": "Eroded Scale-Feather",
+              "id": 113070,
+              "count": 2,
+              "rank": 5
+            },
+            {
+              "name": "Crown of Insight",
+              "id": 104319,
+              "count": 1,
+              "rank": 5
+            }
+          ],
+          "cost": 700000
+        }
+      ]
+    ]
+  },
+  "attack": [
+    {
+      "name": "ElementalArt",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default",
+      "damage_param": "DeerAttack_Damage_Attack"
+    },
+    {
+      "name": "ElementalArt_Click",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default",
+      "damage_param": "Elemental_Art_Click_Damage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "Elemental_Art",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default",
+      "damage_param": "Elemental_Art_Hold_Damage"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalArt_Hold",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ElementalBurst",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV1",
+        "value": 30
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 5
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Loop_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV3",
+        "value": 50
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_1_Damage"
+    },
+    {
+      "name": "FallingAnthem",
+      "icd": {
+        "tag": "FallingAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV4",
+        "value": 100
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "FallingAnthem_Normal_Rank_2_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "NormalAttack_01",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 7.4
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_01_Damage"
+    },
+    {
+      "name": "Attack01",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 7.4
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "NormalAttack_02",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 7.32
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_02_Damage"
+    },
+    {
+      "name": "Attack02",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 7.32
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "NormalAttack_03",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "NormalAttack_03_Damage"
+    },
+    {
+      "name": "Attack03",
+      "icd": {
+        "tag": "MoonOvergrowDamage",
+        "group": "default"
+      },
+      "poise": {
+        "level": "LV2",
+        "value": 10
+      },
+      "element": "Grass",
+      "attack_type": "None",
+      "strike_type": "Default"
+    },
+    {
+      "name": "ExtraAttack_Damage",
+      "icd": {
+        "tag": "ExtraAttack",
+        "group": "default"
+      },
+      "gauge": 1,
+      "poise": {
+        "level": "LV2",
+        "value": 80
+      },
+      "element": "Grass",
+      "attack_type": "Default",
+      "strike_type": "Default",
+      "damage_param": "ExtraAttack_Damage"
+    }
+  ],
+  "energy": [
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "OtherLogic",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 3,
+      "chance": 66.66667,
+      "cd": 3.3,
+      "applications": 1,
+      "drop_id": 2019
+    },
+    {
+      "name": "ElementalArt_DropBall",
+      "skill": "OtherLogic",
+      "kind": "ElementalArt",
+      "element": "Dendro",
+      "per_drop": 1,
+      "lifetime": 6,
+      "chance": 33.333330000000004,
+      "cd": 3.3,
+      "applications": 1,
+      "drop_id": 2019
+    }
+  ]
+}

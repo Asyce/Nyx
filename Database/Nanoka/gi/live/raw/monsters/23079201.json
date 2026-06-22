@@ -1,0 +1,210 @@
+{
+  "name": "Oprichniki Hailstorm Cannoneer",
+  "desc": "An elite officer of the Fatui Oprichniki who uses a heavy cannon to tear enemy formations apart while using a mighty shield to defend their comrades.\\nBitter battles have dyed the shield frost white, while coatings of blood have tinted its edges black. Oprichniki officers know that empty words will never bring back those who have fallen in sacrifice — only a bombardment akin to a hailstorm can shake this defiled Old World.",
+  "icon": "UI_MonsterIcon_Oprichnik_Male_Fat_CannonShield",
+  "codex": "FATUI",
+  "title": "Oprichniki",
+  "special_names": [
+    "Hailstorm Cannoneer"
+  ],
+  "reward": [
+    {
+      "id": 202,
+      "rank": 3,
+      "icon": "UI_ItemIcon_202"
+    },
+    {
+      "id": 112127,
+      "rank": 3,
+      "icon": "UI_ItemIcon_112127"
+    },
+    {
+      "id": 112126,
+      "rank": 2,
+      "icon": "UI_ItemIcon_112126"
+    },
+    {
+      "id": 112125,
+      "rank": 1,
+      "icon": "UI_ItemIcon_112125"
+    }
+  ],
+  "child": {
+    "23079201": {
+      "monster_name": "Oprichnik_Male_Fat_CannonShield_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 65.2032,
+        "atk": 55.264,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23079202": {
+      "monster_name": "Oprichnik_Male_Fat_CannonShield_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {
+          "drop_id": 22010016,
+          "hp_percent": 66
+        },
+        {
+          "drop_id": 22010016,
+          "hp_percent": 33
+        },
+        {}
+      ],
+      "kill_drop_id": 22010016,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 65.2032,
+        "atk": 55.264,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23079204": {
+      "monster_name": "Oprichnik_Male_Fat_CannonShield_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_HP_1",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ACTIVITY_ATTACK_1",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 103.1408,
+        "atk": 188.6396,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "23079290": {
+      "monster_name": "Oprichnik_Male_Fat_CannonShield_01",
+      "type": "MONSTER_ORDINARY",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": -0.2
+      },
+      "base": {
+        "hp": 54.336,
+        "atk": 50.24,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

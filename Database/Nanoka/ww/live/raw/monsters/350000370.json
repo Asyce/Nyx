@@ -1,0 +1,15 @@
+{
+  "id": 350000370,
+  "name": "Phantom: Iceglint Dancer",
+  "desc": "A graceful humanoid TD dressed in ice.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Ice>Glacio DMG</color>.\n\nDraped in a flowing skirt of ice, this humanoid Tacet Discord moves with airy grace. The razor-sharp blades beneath its feet trace frozen arcs that mimic figure skating but deliver only demise. It senses every tremor across the ice and reads the world through the frozen mirror. From the reflections, it learned elegance, then turned that elegance into a weapon. What was once a noble art has, in its hands, become a quiet choreography of death.",
+  "rarity": 1,
+  "element": 1,
+  "element_array": [
+    1
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31083_UI.T_IconMonsterHead_SG_31083_UI",
+  "echo": 6010196,
+  "base_stats": {},
+  "stats": {}
+}

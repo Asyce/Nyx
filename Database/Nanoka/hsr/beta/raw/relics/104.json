@@ -1,0 +1,33 @@
+{
+  "name": "Hunter of Glacial Forest",
+  "icon": "SpriteOutput/ItemIcon/71003.png",
+  "parts": {
+    "31041": {
+      "name": "Hunter's Artaius Hood"
+    },
+    "31042": {
+      "name": "Hunter's Lizard Gloves"
+    },
+    "31043": {
+      "name": "Hunter's Ice Dragon Cloak"
+    },
+    "31044": {
+      "name": "Hunter's Soft Elkskin Boots"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases Ice DMG by <unbreak>#1[i]%</unbreak>.",
+      "param_list": [
+        0.1
+      ]
+    },
+    "4": {
+      "desc": "After the wearer uses their Ultimate, their CRIT DMG increases by <unbreak>#1[i]%</unbreak> for <unbreak>#2[i]</unbreak> turn(s).",
+      "param_list": [
+        0.25,
+        2
+      ]
+    }
+  }
+}

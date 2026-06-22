@@ -1,0 +1,136 @@
+{
+  "name": "Magatsu Mitake Narukami no Mikoto",
+  "desc": "This is the form that the puppet that inherited the Raiden Shogun's authority takes when she is opposing those who threaten Eternity.\\nAs the Raiden Shogun's assistant in pursuing eternity, she has never doubted, never felt fear, never given anything less than her best, never been disturbed by idle thoughts.\\nShe once heard about how Ei had shouldered a similar duty when Makoto was also present, suffering much agonizing loss in the process.\\nWhen the two shadows overlapped once more, however, she could only see the countless fine fractures in what should have been \"her\" eternal will. Since fate is destined for cyclicality, she must fulfill her promise and declare war on \"her.\"\\n\\n<i>Mine is the most supreme and noble form. Power over the realm has been vested within me, and I am the essence of all that is the \"Raiden Shogun.\"</i>\\n<i>\"Naturally, I have also inherited the pain of Ei's countless losses and her will to attain Eternity.</i>\\n<i>\"Resolve, valor, love, hate... They will all twist in the river of time.</i>\\n<i>\"But the 'rules' will never change.\"</i>",
+  "icon": "UI_MonsterIcon_Shougun_Mitakenarukami",
+  "codex": "BOSS",
+  "title": "Magatsu Mitake Narukami no Mikoto",
+  "special_names": [
+    "Raiden no Inazuma Tono"
+  ],
+  "reward": [],
+  "child": {
+    "29060201": {
+      "monster_name": "Monster_Shougun_Mitakenarukami",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 48.9024,
+        "atk": 60.288,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29060202": {
+      "monster_name": "Monster_Shougun_Mitakenarukami",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 244.512,
+        "atk": 75.36,
+        "def": 500,
+        "em": 0
+      }
+    },
+    "29060203": {
+      "monster_name": "Monster_Shougun_Mitakenarukami",
+      "type": "MONSTER_BOSS",
+      "hp_drops": [
+        {},
+        {},
+        {}
+      ],
+      "kill_drop_id": 0,
+      "prop": [
+        {
+          "grow_curve": "GROW_CURVE_HP_2",
+          "type": "FIGHT_PROP_BASE_HP"
+        },
+        {
+          "grow_curve": "GROW_CURVE_ATTACK_2",
+          "type": "FIGHT_PROP_BASE_ATTACK"
+        },
+        {
+          "grow_curve": "GROW_CURVE_DEFENSE",
+          "type": "FIGHT_PROP_BASE_DEFENSE"
+        }
+      ],
+      "local_legend": false,
+      "sub_hurt": {
+        "fire": 0.1,
+        "grass": 0.1,
+        "water": 0.1,
+        "elec": 0.1,
+        "wind": 0.1,
+        "ice": 0.1,
+        "rock": 0.1,
+        "physical": 0.1
+      },
+      "base": {
+        "hp": 543.36,
+        "atk": 150.72,
+        "def": 500,
+        "em": 0
+      }
+    }
+  }
+}

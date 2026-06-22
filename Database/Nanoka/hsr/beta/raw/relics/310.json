@@ -1,0 +1,22 @@
+{
+  "name": "Broken Keel",
+  "icon": "SpriteOutput/ItemIcon/71023.png",
+  "parts": {
+    "33105": {
+      "name": "Insumousu's Whalefall Ship"
+    },
+    "33106": {
+      "name": "Insumousu's Frayed Hawser"
+    }
+  },
+  "require_num": {
+    "2": {
+      "desc": "Increases the wearer's Effect RES by <unbreak>#1[i]%</unbreak>. When the wearer's Effect RES is at <unbreak>#2[i]%</unbreak> or higher, all allies' CRIT DMG increases by <unbreak>#3[i]%</unbreak>.",
+      "param_list": [
+        0.1,
+        0.3,
+        0.1
+      ]
+    }
+  }
+}

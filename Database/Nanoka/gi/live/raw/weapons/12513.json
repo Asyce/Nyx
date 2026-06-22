@@ -1,0 +1,563 @@
+{
+  "name": "Fang of the Mountain King",
+  "desc": "A giant sword forged from pure turquoise. Due to its greater weight than most ordinary weapons, it was named for Kongomato the Mountain King.",
+  "weapon_type": "WEAPON_CLAYMORE",
+  "weapon_prop": [
+    {
+      "init_value": 49.1377,
+      "prop_type": "FIGHT_PROP_BASE_ATTACK",
+      "type": "GROW_CURVE_ATTACK_303"
+    },
+    {
+      "init_value": 0.024,
+      "prop_type": "FIGHT_PROP_CRITICAL",
+      "type": "GROW_CURVE_CRITICAL_301"
+    }
+  ],
+  "rarity": 5,
+  "icon": "UI_EquipIcon_Claymore_EmeraldSword",
+  "stats_modifier": {
+    "atk": {
+      "base": 49.1377,
+      "levels": {
+        "1": 1,
+        "2": 1.097,
+        "3": 1.194,
+        "4": 1.292,
+        "5": 1.391,
+        "6": 1.49,
+        "7": 1.591,
+        "8": 1.692,
+        "9": 1.793,
+        "10": 1.895,
+        "11": 1.998,
+        "12": 2.102,
+        "13": 2.206,
+        "14": 2.31,
+        "15": 2.415,
+        "16": 2.521,
+        "17": 2.627,
+        "18": 2.734,
+        "19": 2.841,
+        "20": 2.949,
+        "21": 3.057,
+        "22": 3.165,
+        "23": 3.274,
+        "24": 3.384,
+        "25": 3.493,
+        "26": 3.604,
+        "27": 3.714,
+        "28": 3.825,
+        "29": 3.937,
+        "30": 4.049,
+        "31": 4.161,
+        "32": 4.273,
+        "33": 4.386,
+        "34": 4.499,
+        "35": 4.613,
+        "36": 4.727,
+        "37": 4.841,
+        "38": 4.956,
+        "39": 5.071,
+        "40": 5.186,
+        "41": 5.301,
+        "42": 5.417,
+        "43": 5.533,
+        "44": 5.65,
+        "45": 5.767,
+        "46": 5.884,
+        "47": 6.001,
+        "48": 6.118,
+        "49": 6.236,
+        "50": 6.354,
+        "51": 6.473,
+        "52": 6.592,
+        "53": 6.71,
+        "54": 6.83,
+        "55": 6.949,
+        "56": 7.069,
+        "57": 7.189,
+        "58": 7.309,
+        "59": 7.429,
+        "60": 7.55,
+        "61": 7.671,
+        "62": 7.792,
+        "63": 7.913,
+        "64": 8.035,
+        "65": 8.157,
+        "66": 8.279,
+        "67": 8.401,
+        "68": 8.524,
+        "69": 8.646,
+        "70": 8.769,
+        "71": 8.893,
+        "72": 9.016,
+        "73": 9.14,
+        "74": 9.263,
+        "75": 9.387,
+        "76": 9.512,
+        "77": 9.636,
+        "78": 9.761,
+        "79": 9.886,
+        "80": 10.011,
+        "81": 10.136,
+        "82": 10.261,
+        "83": 10.387,
+        "84": 10.513,
+        "85": 10.639,
+        "86": 10.765,
+        "87": 10.892,
+        "88": 11.018,
+        "89": 11.145,
+        "90": 11.272,
+        "91": 11.399,
+        "92": 11.527,
+        "93": 11.654,
+        "94": 11.782,
+        "95": 11.91,
+        "96": 12.038,
+        "97": 12.166,
+        "98": 12.295,
+        "99": 12.424,
+        "100": 12.552
+      }
+    },
+    "fight_prop_critical": {
+      "base": 0.024,
+      "levels": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1.162,
+        "6": 1.162,
+        "7": 1.162,
+        "8": 1.162,
+        "9": 1.162,
+        "10": 1.363,
+        "11": 1.363,
+        "12": 1.363,
+        "13": 1.363,
+        "14": 1.363,
+        "15": 1.565,
+        "16": 1.565,
+        "17": 1.565,
+        "18": 1.565,
+        "19": 1.565,
+        "20": 1.767,
+        "21": 1.767,
+        "22": 1.767,
+        "23": 1.767,
+        "24": 1.767,
+        "25": 1.969,
+        "26": 1.969,
+        "27": 1.969,
+        "28": 1.969,
+        "29": 1.969,
+        "30": 2.171,
+        "31": 2.171,
+        "32": 2.171,
+        "33": 2.171,
+        "34": 2.171,
+        "35": 2.373,
+        "36": 2.373,
+        "37": 2.373,
+        "38": 2.373,
+        "39": 2.373,
+        "40": 2.575,
+        "41": 2.575,
+        "42": 2.575,
+        "43": 2.575,
+        "44": 2.575,
+        "45": 2.777,
+        "46": 2.777,
+        "47": 2.777,
+        "48": 2.777,
+        "49": 2.777,
+        "50": 2.979,
+        "51": 2.979,
+        "52": 2.979,
+        "53": 2.979,
+        "54": 2.979,
+        "55": 3.181,
+        "56": 3.181,
+        "57": 3.181,
+        "58": 3.181,
+        "59": 3.181,
+        "60": 3.383,
+        "61": 3.383,
+        "62": 3.383,
+        "63": 3.383,
+        "64": 3.383,
+        "65": 3.585,
+        "66": 3.585,
+        "67": 3.585,
+        "68": 3.585,
+        "69": 3.585,
+        "70": 3.786,
+        "71": 3.786,
+        "72": 3.786,
+        "73": 3.786,
+        "74": 3.786,
+        "75": 3.988,
+        "76": 3.988,
+        "77": 3.988,
+        "78": 3.988,
+        "79": 3.988,
+        "80": 4.19,
+        "81": 4.19,
+        "82": 4.19,
+        "83": 4.19,
+        "84": 4.19,
+        "85": 4.392,
+        "86": 4.392,
+        "87": 4.392,
+        "88": 4.392,
+        "89": 4.392,
+        "90": 4.594,
+        "91": 4.594,
+        "92": 4.594,
+        "93": 4.594,
+        "94": 4.594,
+        "95": 4.796,
+        "96": 4.796,
+        "97": 4.796,
+        "98": 4.796,
+        "99": 4.796,
+        "100": 4.998
+      }
+    }
+  },
+  "xp_requirements": {
+    "1": 600,
+    "2": 950,
+    "3": 1350,
+    "4": 1800,
+    "5": 2325,
+    "6": 2925,
+    "7": 3525,
+    "8": 4200,
+    "9": 4950,
+    "10": 5700,
+    "11": 6525,
+    "12": 7400,
+    "13": 8300,
+    "14": 9225,
+    "15": 10200,
+    "16": 11250,
+    "17": 12300,
+    "18": 13425,
+    "19": 14600,
+    "20": 15750,
+    "21": 17850,
+    "22": 19175,
+    "23": 20550,
+    "24": 21975,
+    "25": 23450,
+    "26": 24950,
+    "27": 26475,
+    "28": 28050,
+    "29": 29675,
+    "30": 31350,
+    "31": 33050,
+    "32": 34800,
+    "33": 36575,
+    "34": 38400,
+    "35": 40250,
+    "36": 42150,
+    "37": 44100,
+    "38": 46100,
+    "39": 48125,
+    "40": 50150,
+    "41": 54875,
+    "42": 57125,
+    "43": 59400,
+    "44": 61725,
+    "45": 64100,
+    "46": 66500,
+    "47": 68925,
+    "48": 71400,
+    "49": 73950,
+    "50": 76500,
+    "51": 83075,
+    "52": 85850,
+    "53": 88650,
+    "54": 91550,
+    "55": 94425,
+    "56": 97400,
+    "57": 100350,
+    "58": 103400,
+    "59": 106475,
+    "60": 109575,
+    "61": 118350,
+    "62": 121700,
+    "63": 125100,
+    "64": 128550,
+    "65": 132050,
+    "66": 135575,
+    "67": 139125,
+    "68": 142725,
+    "69": 146375,
+    "70": 150075,
+    "71": 161525,
+    "72": 165500,
+    "73": 169500,
+    "74": 173550,
+    "75": 177650,
+    "76": 181800,
+    "77": 186000,
+    "78": 190250,
+    "79": 194525,
+    "80": 198875,
+    "81": 234725,
+    "82": 263825,
+    "83": 296400,
+    "84": 332975,
+    "85": 373950,
+    "86": 419925,
+    "87": 471375,
+    "88": 529050,
+    "89": 593675,
+    "90": 666050
+  },
+  "ascension": {
+    "1": {
+      "fight_prop_base_attack": 31.1
+    },
+    "2": {
+      "fight_prop_base_attack": 62.2
+    },
+    "3": {
+      "fight_prop_base_attack": 93.4
+    },
+    "4": {
+      "fight_prop_base_attack": 124.5
+    },
+    "5": {
+      "fight_prop_base_attack": 155.6
+    },
+    "6": {
+      "fight_prop_base_attack": 186.7
+    }
+  },
+  "refinement": {
+    "1": {
+      "name": "Turquoise Hunt",
+      "desc": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by <color=#99FFFFFF>10%</color> for 6s. Max 6 stacks. Each stack is counted independently.",
+      "param_list": [
+        0.5,
+        2,
+        0.1,
+        6,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "2": {
+      "name": "Turquoise Hunt",
+      "desc": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by <color=#99FFFFFF>12.5%</color> for 6s. Max 6 stacks. Each stack is counted independently.",
+      "param_list": [
+        0.5,
+        2,
+        0.125,
+        6,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "3": {
+      "name": "Turquoise Hunt",
+      "desc": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by <color=#99FFFFFF>15%</color> for 6s. Max 6 stacks. Each stack is counted independently.",
+      "param_list": [
+        0.5,
+        2,
+        0.15,
+        6,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "4": {
+      "name": "Turquoise Hunt",
+      "desc": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by <color=#99FFFFFF>17.5%</color> for 6s. Max 6 stacks. Each stack is counted independently.",
+      "param_list": [
+        0.5,
+        2,
+        0.175,
+        6,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    "5": {
+      "name": "Turquoise Hunt",
+      "desc": "Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by <color=#99FFFFFF>20%</color> for 6s. Max 6 stacks. Each stack is counted independently.",
+      "param_list": [
+        0.5,
+        2,
+        0.2,
+        6,
+        6,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "materials": {
+    "1": {
+      "mats": [
+        {
+          "name": "Delirious Decadence of the Sacred Lord",
+          "id": 114065,
+          "count": 5,
+          "rank": 2
+        },
+        {
+          "name": "Ignited Stone",
+          "id": 112110,
+          "count": 5,
+          "rank": 2
+        },
+        {
+          "name": "Sentry's Wooden Whistle",
+          "id": 112104,
+          "count": 3,
+          "rank": 1
+        }
+      ],
+      "cost": 10000
+    },
+    "2": {
+      "mats": [
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "id": 114066,
+          "count": 5,
+          "rank": 3
+        },
+        {
+          "name": "Ignited Stone",
+          "id": 112110,
+          "count": 18,
+          "rank": 2
+        },
+        {
+          "name": "Sentry's Wooden Whistle",
+          "id": 112104,
+          "count": 12,
+          "rank": 1
+        }
+      ],
+      "cost": 20000
+    },
+    "3": {
+      "mats": [
+        {
+          "name": "Delirious Desolation of the Sacred Lord",
+          "id": 114066,
+          "count": 9,
+          "rank": 3
+        },
+        {
+          "name": "Ignited Seed of Life",
+          "id": 112111,
+          "count": 9,
+          "rank": 3
+        },
+        {
+          "name": "Warrior's Metal Whistle",
+          "id": 112105,
+          "count": 9,
+          "rank": 2
+        }
+      ],
+      "cost": 30000
+    },
+    "4": {
+      "mats": [
+        {
+          "name": "Delirious Demeanor of the Sacred Lord",
+          "id": 114067,
+          "count": 5,
+          "rank": 4
+        },
+        {
+          "name": "Ignited Seed of Life",
+          "id": 112111,
+          "count": 18,
+          "rank": 3
+        },
+        {
+          "name": "Warrior's Metal Whistle",
+          "id": 112105,
+          "count": 14,
+          "rank": 2
+        }
+      ],
+      "cost": 45000
+    },
+    "5": {
+      "mats": [
+        {
+          "name": "Delirious Demeanor of the Sacred Lord",
+          "id": 114067,
+          "count": 9,
+          "rank": 4
+        },
+        {
+          "name": "Ignited Seeing Eye",
+          "id": 112112,
+          "count": 14,
+          "rank": 4
+        },
+        {
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "id": 112106,
+          "count": 9,
+          "rank": 3
+        }
+      ],
+      "cost": 55000
+    },
+    "6": {
+      "mats": [
+        {
+          "name": "Delirious Divinity of the Sacred Lord",
+          "id": 114068,
+          "count": 6,
+          "rank": 5
+        },
+        {
+          "name": "Ignited Seeing Eye",
+          "id": 112112,
+          "count": 27,
+          "rank": 4
+        },
+        {
+          "name": "Saurian-Crowned Warrior's Golden Whistle",
+          "id": 112106,
+          "count": 18,
+          "rank": 3
+        }
+      ],
+      "cost": 65000
+    }
+  },
+  "story": {
+    "292513": {
+      "zh": "ART/UI/Readable/CHS/Weapon12513",
+      "en": "ART/UI/Readable/EN/Weapon12513_EN",
+      "ja": "ART/UI/Readable/JP/Weapon12513_JP",
+      "ko": "ART/UI/Readable/KR/Weapon12513_KR"
+    }
+  }
+}

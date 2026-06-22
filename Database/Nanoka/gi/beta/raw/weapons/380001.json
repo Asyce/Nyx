@@ -1,0 +1,9 @@
+{
+  "name": "Phantasmal Gift: Star Omen",
+  "desc": "\"In principle, many phenomena in this world can be called 'images.' Therefore, the image you glimpsed in the crystal ball can, in a sense, be considered an extension of physical reality. In short, even if Alice and Nicole don't acknowledge it, Hydromancy is still very much a real thing!\"",
+  "weapon_type": "WEAPON_CATALYST",
+  "rarity": 4,
+  "icon": "UI_EquipIcon_Catalyst_Kristall",
+  "tag": "TAG_TYPE_NONE",
+  "skin": true
+}
